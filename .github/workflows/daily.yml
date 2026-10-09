@@ -1,0 +1,65 @@
+name: Daily snapshot
+
+# Started at 3 PM Eastern by an external timer (cron-job.org) through the Run workflow button's API; GitHub's own
+# schedule below is only a late backstop, because it can lag by hours on small repos.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 20,21 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Pick the Eastern date
+        id: day
+        run: |
+          D=$(TZ=America/New_York date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          echo "prev=$(TZ=America/New_York date -d "$D -1 day" +%F)" >> "$GITHUB_OUTPUT"
+          if [ -f "db-copy/days/$D.json" ]; then echo "done=1" >> "$GITHUB_OUTPUT"; echo "Already recorded for $D"; fi
+          if [ "$(TZ=America/New_York date +%H)" -lt 15 ]; then echo "early=1" >> "$GITHUB_OUTPUT"; echo "Before 3 PM Eastern: nothing to do"; fi
+
+      - name: Install Pillow (contact sheets)
+        if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
+        run: pip install --quiet pillow
+
+      - name: Snapshot the public charts (18+ titles are added at 4 PM by the local task)
+        if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
+        run: python3 tracker.py prepare --dump db-copy --out "db-copy/days/${{ steps.day.outputs.date }}.json" --date "${{ steps.day.outputs.date }}"
+
+      - name: Finalize yesterday's CCU with its full-day average
+        if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
+        continue-on-error: true
+        run: |
+          P="${{ steps.day.outputs.prev }}"
+          python3 tracker.py refresh --date "$P" --dump db-copy --out "/tmp/prev.json" && mv /tmp/prev.json "db-copy/days/$P.json"
+
+      - name: Collect page data and build the gameplay-profiling queue
+        if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
+        run: python3 analyze.py collect --date "${{ steps.day.outputs.date }}"
+
+      - name: Commit, and publish today's contact sheets on the sheets branch
+        if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
+        run: |
+          D="${{ steps.day.outputs.date }}"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add db-copy profiles analysis work
+          git commit -q -m "Snapshot $D" || true
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 10; done
+          git worktree add --orphan -b sheets /tmp/sheets
+          cp work/"$D"/sheet_*.jpg /tmp/sheets/ 2>/dev/null || true
+          git -C /tmp/sheets add -A
+          git -C /tmp/sheets commit -q -m "Contact sheets $D" || true
+          git -C /tmp/sheets push -q -f origin sheets

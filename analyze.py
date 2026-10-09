@@ -251,7 +251,9 @@ def build_queue(date, ctx, profiles, groups, n):
         sp = os.path.join(wd, 'sheet_spec.json')
         json.dump(spec, open(sp, 'w', encoding='utf-8'), ensure_ascii=False)
         out = os.path.join(wd, 'sheet_%02d.jpg' % (s // 5 + 1))
-        res = subprocess.run(['osascript', '-l', 'JavaScript', os.path.join(HERE, 'sheet.js'), sp, out], capture_output=True, text=True)
+        cmd = (['osascript', '-l', 'JavaScript', os.path.join(HERE, 'sheet.js'), sp, out] if sys.platform == 'darwin'
+               else [sys.executable, os.path.join(HERE, 'sheet.py'), sp, out])  # Linux (GitHub Actions) draws with Pillow
+        res = subprocess.run(cmd, capture_output=True, text=True)
         if res.returncode != 0:
             print('warning: contact sheet failed:', res.stderr.strip()[:200])
     for s in range(0, len(items), 15):

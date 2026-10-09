@@ -88,10 +88,11 @@ def game_details(ids):
     return out
 
 
-def load_day_averages(date, url_tpl=DAY_URL):
-    """The hourly collector's averages for one Eastern date (midnight to `through_et`), or (None, reason)."""
+def load_day_averages(date, url_tpl=DAY_URL, path=None):
+    """The hourly collector's averages for one Eastern date (midnight to `through_et`), or (None, reason).
+    `path` reads a local copy instead (cloud runs clone roblox-ccu because they can't fetch from the web)."""
     try:
-        d = get_json(url_tpl.format(date=date), tries=3)
+        d = json.load(open(path, encoding='utf-8')) if path else get_json(url_tpl.format(date=date), tries=3)
         made = dt.datetime.strptime(d['generated_utc'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
         if d.get('date') != date or not isinstance(d.get('games'), dict):
             raise ValueError('file is for %s' % d.get('date'))
@@ -344,7 +345,7 @@ def cmd_refresh(a):
     day_doc = next((d for d in load_days(a.dump) if d['date'] == a.date), None)
     if day_doc is None or 'u' not in day_doc:
         sys.exit('NO DAY DOCUMENT for %s in %s' % (a.date, a.dump))
-    avg, status = load_day_averages(a.date)
+    avg, status = load_day_averages(a.date, path=a.day_file)
     if avg is None:
         sys.exit('NO UPDATE: the day-average file for %s is %s' % (a.date, status))
     line = apply_day_averages(day_doc, avg, status)
@@ -352,6 +353,58 @@ def cmd_refresh(a):
         f.write(json.dumps(day_doc, ensure_ascii=False, separators=(',', ':')))
     print('OK refresh date=%s through=%s' % (a.date, avg['through_et']))
     print(line)
+
+
+def cmd_patch18(a):
+    """Add the signed-in-only (18+) titles to a day recorded from the public 3 PM charts, at the positions the browser reports."""
+    doc = next((d for d in load_days(a.dump) if d['date'] == a.date), None)
+    if doc is None or 'u' not in doc:
+        sys.exit('NO DAY DOCUMENT for %s in %s' % (a.date, a.dump))
+    entries, pub = parse_browser(a.ids), chart_lists(doc)
+    fixed, restricted = [], set()
+    new_lists = dict(pub)
+    for key, _ in CHARTS:
+        if key not in entries or key not in pub:
+            continue
+        mode, count, h, payload = entries[key]
+        if mode == 'f':  # a full signed-in list: titles absent from the public list are the signed-in-only ones
+            ids = payload.split(',') if payload else []
+            restricted |= set(ids) - set(pub[key])
+        else:  # only the signed-in-only titles, with their positions now; slot them into the 3 PM public list
+            extra = sorted((int(p), u) for p, u in (x.split('.') for x in payload.split(';') if x))
+            moved = {u for _, u in extra}
+            ids = [u for u in pub[key] if u not in moved]
+            for pos, u in extra:
+                ids.insert(min(pos - 1, len(ids)), u)
+            restricted |= moved
+        new_lists[key] = ids
+        fixed.append(key)
+    if not fixed:
+        sys.exit('NOTHING PATCHED: the browser line has none of this day\'s charts')
+    add = sorted({u for ids in new_lists.values() for u in ids if u not in doc['u']})
+    det = game_details(add) if add else {}
+    snap = doc.get('snap') or list(doc['ccu'])
+    for u in add:
+        g = det.get(u) or {}
+        doc['u'].append(u)
+        doc['ccu'].append(int(g.get('playing') or 0))
+        snap.append(int(g.get('playing') or 0))
+        doc['meta'][u] = {'n': (g.get('name') or '').strip(), 'c': (g.get('created') or '')[:10],
+                          'pl': str(g.get('rootPlaceId') or ''), 'g': (g.get('genre_l1') or '').strip(), 'r': int(u in restricted)}
+    for u in restricted - set(add):
+        doc['meta'][u] = {**doc['meta'].get(u, {}), 'r': 1}
+    doc['snap'] = snap
+    index = {u: i for i, u in enumerate(doc['u'])}
+    doc['charts'] = {k: [index[u] for u in new_lists[k]] for k, _ in CHARTS if k in new_lists}
+    doc['partial'] = [k for k in doc.get('partial', []) if k not in fixed]
+    doc['source'] = 'browser' if not doc['partial'] else 'mixed'
+    doc['patched18'] = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    avg, status = load_day_averages(a.date)
+    ccu_line = apply_day_averages(doc, avg, status)
+    with open(a.out, 'w', encoding='utf-8') as f:
+        f.write(json.dumps(doc, ensure_ascii=False, separators=(',', ':')))
+    print('OK patch18 date=%s charts=%s restricted=%d added=%d still_partial=%s' % (a.date, ','.join(fixed), len(restricted), len(add), ','.join(doc['partial']) or '-'))
+    print(ccu_line)
 
 
 def main():
@@ -368,8 +421,14 @@ def main():
     r.add_argument('--date', required=True)
     r.add_argument('--dump', required=True)
     r.add_argument('--out', required=True)
+    r.add_argument('--day-file', help="local copy of roblox-ccu's data/daily/<date>.json")
+    q = sub.add_parser('patch18')
+    q.add_argument('--date', required=True)
+    q.add_argument('--ids', required=True)
+    q.add_argument('--dump', required=True)
+    q.add_argument('--out', required=True)
     a = ap.parse_args()
-    {'check': cmd_check, 'prepare': cmd_prepare, 'refresh': cmd_refresh}[a.cmd](a)
+    {'check': cmd_check, 'prepare': cmd_prepare, 'refresh': cmd_refresh, 'patch18': cmd_patch18}[a.cmd](a)
 
 
 if __name__ == '__main__':
