@@ -1,119 +1,119 @@
-## Q46 · Sol's RNG [ Eon 1-29 ] (universe 5361032378)
-Charts today: Top Earning #86 | Age: 1041 days | Genre: Simulation / Incremental Simulator | Max players: 20
-Creator: Group "Sol's Studio" | Visits 2.2B | Favorites 1.0M | Likes 91% of 1.6M votes | Updated 2026-10-03
-Game passes (7): RNG Premium Pass - Season VIII 499; VIP+ 350; VIP 249; Quick roll 100; Invisible Gear 80; Starter Pack 49; Merchant Teleporter 40
-Developer products (97): R$10 Donation! 10; R$50 Donation! 50; R$100 Donation! 100; R$500 Donation! 500; R$1,000 Donation! 1000; R$5,000 Donation! 5000; R$10,000 Donation! 10000; Reroll daily quest 10; Quick Roll [Gift] 100; VIP [Gift] 249
-Badges: 86 | Page media: 9 images, 1 videos
-Description: 🎲 Sol's RNG is the #1 luck-based RNG game on Roblox! Roll for 400+ unique auras, craft powerful gear, and drink potions to boost your luck. How rare can you go? 🔄 Click ""Roll"" to discover 400+ unique auras of varying rarity 🛠️ Craft unique gear using your collected auras 🍀 Drink potions to increase your luck and chase rare finds 🎯 Test your fortune and compete with friends for the rarest auras 🆓 Free private servers available for the best performance! 📢 Join our community for update announcements!
-
-## Q47 · [🎃🦆] Detective Duck (universe 8851542818)
-Charts today: Top Trending #86 | Age: 372 days | Genre: Puzzle / ? | Max players: 30
-Creator: Group "Protocol: Anomaly" | Visits 61.4M | Favorites 392.4K | Likes 96% of 98.5K votes | Updated 2026-10-09
-Game passes (17): PREMIUM PASS 199; ANGEL BUNDLE 199; DONUT BUNDLE 199; ELEGANT BUNDLE 189; MONSTER BUNDLE 159; ALIEN BUNDLE 159; ASK UNLIMITED QUESTIONS [PERMANENT] 139; PIZZA BOX DUCK SKIN 129; 2026 HALLOWEEN HORNS SKIN 99; ANGEL THEME 99; CYAN SHINY ALIEN DUCK 99; THANOS POWER 99
-Developer products (37): UNJAIL EVERYONE 19; +1 QUESTION 19; +1 BAIL BOND 19; +3 BAIL BONDS 49; +5 BAIL BONDS 75; +3 QUESTIONS 45; +5 QUESTIONS 69; +10 QUESTIONS 119; +1 CLUE 49; +3 CLUES 139
-Badges: 53 | Page media: 3 images, 1 videos
-Description: Will you solve the crime scene?! Detective Duck is a unique puzzle game similiar to an escape room, where you will find yourself in different maps. Your ultimate goal is to find the criminal! 🎮Play solo or with a group of up to 5 players! 📱This game is suitable for mobile players! Private servers support up to 10 player groups! ❗Join the group for updates and sneak peeks! Make sure to like 👍 and favorite ⭐ if you enjoyed, this greatly supports development! Thank you! turn on notifications so you will know when new rooms will be released :)
-
-## Q48 · Bewitched (universe 4991126644)
-Charts today: Top Earning #87 | Age: 1151 days | Genre: Action / ? | Max players: 25
-Creator: Group "Вewitched" | Visits 4.8M | Favorites 12.3K | Likes 90% of 9.9K votes | Updated 2026-10-09
-Game passes (10): Inadu 1000; Hope 1000; Dahlia 950; Freya 950; Bonnie 850; Davina 800; Esther 800; Mora Miserium 700; The Originals 600; Original Slayers 600
-Developer products (19): 1000 Coins 100; 10.000 Coins 350; 500 Coins 25; 100.000 Coins 1000; Hope [GIFT] 1000; Inadu [GIFT] 1000; Bonnie [GIFT] 850; Dahlia [GIFT] 950; Freya [GIFT] 950; Davina [GIFT] 800
-Badges: 0 | Page media: 3 images, 0 videos
-Description: Welcome to Bewitched! If you are experiencing lag, please decrease your graphics quality located in settings and/or enable optimization related settings. All updates and codes are listed within the communications server. The game will be constantly getting updates and fixes, please do lower your expectations.
-
-## Q49 · Natural Disaster Survival (universe 65241)
-Charts today: Top Earning #199, Most Popular #87 | Age: 6769 days | Genre: Survival / ? | Max players: 30
-Creator: User "Stickmasterluke" | Visits 4.5B | Favorites 11.9M | Likes 91% of 4.9M votes | Updated 2026-09-17
-Game passes (3): Green Balloon 95; Red Apple 80; Yellow Compass 60
-Developer products (13): Power Up Machine 75; Power Up Machine (+) 120; Power Up Machine (25) 25; Power Up Machine (40) 40; Power Up Machine (20) 20; Power Up Machine (10) 10; Power Up Machine (140) 140; Power Up Machine (125) 125; Power Up Machine (115) 115; Power Up Machine (85) 85
-Badges: 25 | Page media: 10 images, 0 videos
-Description: Quickly, run around in circles! Your life depends on it!
-
-## Q50 · Musical Chairs 🎵🪑 (universe 6688157118)
-Charts today: Top Trending #87 | Age: 721 days | Genre: Party & Casual / Childhood Game | Max players: 14
-Creator: Group "Infinity Forge Interactive" | Visits 535.0M | Favorites 1.7M | Likes 68% of 94.5K votes | Updated 2026-09-23
-Game passes (13): +25% Speed Boost 199; X2 Coins! 199; VIP! 149; Music Timer 99; Easter Pack 49; Glitch Pack 39; Squid Pack 39; Festive Pack 39; Rainbow Pack 19; Galaxy Pack 19; Snow Pack 19; Auto Spin 19
-Developer products (66): X2 Coins [Lasts 1 game] 5; Buy Next Song 35; +500 Coins 50; +4,500 Coins 450; +17,500 Coins 1400; +12,000 Coins 950; +1,200 Coins 120; +26,000 Coins 2000; Starter Pack 99; +1 Spin 35
-Badges: 8 | Page media: 7 images, 1 videos
-Description: 🎵 Welcome to Musical Chairs! 🪑 Don't be the last one to find a seat! How to play: - Run around the chairs and find one when the music stops! If you don't, you're out! - The last person alive wins! 🪙 Earn coins to buy pets, trails, and chair skins! Premium users get extra coins every win! LIKE AND FAVORITE FOR NEW UPDATES AND FEATURES! 👍⭐
-
-## Q51 · Greenville RP (⭐AUDI + SHELBY RELATED + RACES!) (universe 371263894)
-Charts today: Top Earning #89 | Age: 3390 days | Genre: Roleplay & Avatar Sim / Life | Max players: 30
-Creator: Group "Greenville, Wisconsin" | Visits 1.5B | Favorites 2.7M | Likes 88% of 1.2M votes | Updated 2026-10-08
-Game passes (7): Sports Vehicles Access 500; Luxury Vehicles Access 250; More Vehicle Storage 150; Zero Emissions Vehicles Access 125; Premium Customize Pass 110; Public Services Access 75; Classic Vehicles Access 75
-Developer products (19): 200,000 1000; 112,500 750; 75,000 375; 31,250 250; 12,500 75; 3,000 Cash 50; 600,000 3000; 30 Day Server 35; 6 Month Server (1 Month Free!) 175; 1 Year Server (2 1/2 Months Free!) 335
-Badges: 3 | Page media: 10 images, 0 videos
-Description: 🏡 🚗 Greenville is one of the biggest, most realistic car & roleplay games on Roblox, with hundreds of cars of all types for you to choose and drive! Set in a small American town, Greenville is the perfect place to drive your favorite cars and roleplay with friends! 🖌️ Greenville's widespread car selection allows you to customize each and every one to your liking, with parts, wheels, colors, plates, and real life options replicated on our licensed cars! 💼 Roleplay options include interactive jobs, roleplay tools, houses, a large detailed map, and many other systems you'll only find available here! Last Update Changelogs: 🐎 2 NEW Ford Mustang Shelby Vehicles! 🐍 3 NEW Shelby Vehicles! 💎 2 NEW Audi Vehicles! 🏁 NEW Racing System! 🍂 Autumn is falling! 🔧 Tons of QOL & Bug fixes! ⚠️ Running into problems? Shoot us a message with the details, and we'll do our best to help you. All rights reserved. All other trademarks are property of their respective owners.
-
-## Q52 · 100 Days At Sea (universe 9167377564)
-Charts today: Top Earning #209, Most Popular #89 | Age: 329 days | Genre: Survival / ? | Max players: 27
-Creator: Group "Stranded Devs" | Visits 385.8M | Favorites 9.1M | Likes 97% of 682.2K votes | Updated 2026-10-07
+## Q46 · Last Stop [Beta] (universe 10759337137)
+Charts today: Top Earning #152 | Age: 46 days | Genre: Survival / ? | Max players: 25
+Creator: Group "The Hidden Route" | Visits 37.9M | Favorites 377.5K | Likes 97% of 189.5K votes | Updated 2026-10-05
 Game passes (0): none
-Developer products (41): Self Revive 80; Revive Everyone! 200; 25 Pearls 99; 100 Pearls 350; 250 Pearls 800; 1000 Pearls 2500; Gift 25 Pearls 99; Gift 100 Pearls 350; Gift 250 Pearls 800; Gift 1000 Pearls 2500
-Badges: 62 | Page media: 10 images, 1 videos
-Description: Inspired by 99 Nights in The Forest created by Grandma's Favorite Games 🏴‍☠️ You are sent on a mission to the middle of the ocean. 🏴‍☠️ You must uncover the mystery of the Bermuda Triangle... ✅ Survive 100 Days and get rich! Open-World Survival game where exploration and base building is the key to survival. HOW TO PLAY: 🔩 Grab resources or hook them with your Harpoon. 🔨 Build your raft base with structures and defenses. 🗺️ Explore the sea and visit mysterious islands. ⚔️ Find weapons and take on fearsome foes!
+Developer products (49): 100 Tickets 79; 500 Tickets 319; 1,5K Tickets 799; 3,5K Tickets 1699; Revive Teammates 79; Revive Yourself 45; Revive All 249; Weapon Airdrop 99; 25x Medium Ammo 9; 50x Medium Ammo 15
+Badges: 34 | Page media: 1 images, 0 videos
+Description: Like and favorite the game, it motivates us to push better updates! Build up your bus, scavenge abandoned buildings for loot, sell what you find, gear up with powerful weapons and fight through waves of zombies, dangerous bosses and whatever else is waiting down the road. How far can you make it... and will you reach the Last Stop? [Controls] Click - grab action/shoot Z - place Build/attach E - Equip (or use item) Q - Drop item R - Reload gun TAB - Inventory Y - Inspect
 
-## Q53 · Survive The Swarm (universe 10741792653)
-Charts today: Top Earning #90 | Age: 51 days | Genre: Survival / ? | Max players: 30
-Creator: Group "FAKT" | Visits 12.2M | Favorites 104.8K | Likes 97% of 30.0K votes | Updated 2026-10-09
-Game passes (0): none
-Developer products (44): Revive I 50; 2x Gold 800; Draft Reroll 25; Starter Pack 49; 2x Essence 800; Premium Chest 90; Revive II 50; Revive III 100; Revive IV 200; Revive V 400
-Badges: 0 | Page media: 4 images, 1 videos
-Description: ⚔️ Welcome To Survive The Swarm, a one of a kind RPG on Roblox, Fight hundreds of enemies at once with only one goal... Survive The Swarm and Defeat The Final Boss. Choose from 6 Different Classes! ⚔️ Warrior: Charge into battle and crush enemies with raw power. 🗡️ Rogue: Strike from the shadows with lightning-fast critical hits. 🔮 Mage: Unleash devastating spells that wipe out entire hordes. 🏹 Ranger: Rain arrows from afar and never let enemies get close. 🔧 Engineer: Deploy turrets and gadgets to control the battlefield. 💚 Healer: Keep your team alive and turn the tide of every fight. 💰 Collect Gold to upgrade and unlock weapons and Gear. 🔮 Synergize them to unlock their evolution and obliterate your enemies. 🤝 CO-OP: Team up with friends, every map you clear, you clear together. 🔄 Updated EVERY WEEK! Expect some bugs 🎁 Codes: Join our Discord server for exclusive codes! 🎮 Console Support! Made with love by a solo dev
+## Q47 · Build A Boat For Treasure (universe 210851291)
+Charts today: Top Earning #153 | Age: 3628 days | Genre: Simulation / Sandbox | Max players: 7
+Creator: Group "Chillz Studios" | Visits 5.2B | Favorites 8.5M | Likes 93% of 3.9M votes | Updated 2026-10-09
+Game passes (4): Gold Multiplier 500; Penguin Character 250; Fox Character 250; Chicken Character 250
+Developer products (40): 50 Gold 5; 300 Gold 30; 1050 Gold 100; 7700 Gold 700; +100 Glass Blocks 100; +100 Wood Blocks 50; +1 Saving Slot 100; +4 Huge Wheels 250; +5 Harpoons 200; +3 Sonic Jet Turbines 500
+Badges: 5 | Page media: 5 images, 0 videos
+Description: Build your ship and set sail for your adventure! Liked the game? Don't forget to leave a Thumbs Up(👍) and Favorite(🌟) . Thank you! Don't forget to check out our group! https://www.roblox.com/My/Groups.aspx?gid=2782840 Group Perks: ✨Member✨ --- 25% more gold! 💫Mega Member💫 --- 300% more health! --- 25% more gold! 🌟Royal Member🌟 --- +4 Barrels Of TNT! --- 300% more health! --- 25% more gold!
 
-## Q54 · Flee the Facility (universe 372226183)
-Charts today: Top Earning #334, Most Popular #90 | Age: 3387 days | Genre: Survival / 1 vs All | Max players: 5
-Creator: Group "A.W. Apps" | Visits 6.1B | Favorites 9.7M | Likes 92% of 3.0M votes | Updated 2026-10-01
-Game passes (1): VIP 420
-Developer products (14): Increase Beast Chance 15; Donate R$15 15; Donate R$50 50; Donate R$250 250; Donate R$1000 1000; Donate R$5000 5000; Donate R$25000 25000; Buy 50 Credits 25; Buy 100 Credits 50; Buy 200 Credits 90
-Badges: 8 | Page media: 6 images, 0 videos
-Description: RUN, HIDE, ESCAPE! Run from the beast, unlock the exits, and flee the facility! This game runs well on phones, tablets, PC, Xbox, and PlayStation. 📋GAME RULES📋 https://devforum.roblox.com/t/flee-the-facility-game-rules/3941301 ⭐CREDITS⭐ https://devforum.roblox.com/t/flee-the-facility-credits/2026108 📄 Latest Update [10/01/26] End of 9th Anniversary 2026 Event -Changed lobby and trading post season to Autumn. -Fixed a bug where ragdoll limbs were not colliding with the player. More info here: https://devforum.roblox.com/t/flee-the-facility-change-log-100126/4907900 [09/08/26] HOT FIX UPDATE - We fixed up most bugs from the event update. More info here: https://devforum.roblox.com/t/flee-the-facility-change-log-090726/4858054 📄 [09/07/26] 🎂 9th Anniversary Event 🎪 - new items - new lobby decor - New Facility_0 map - Private servers can now play old maps - too many changes to list here More info here: https://devforum.roblox.com/t/flee-the-facility-change-log-090726/4858054
+## Q48 · Run a Restaurant! (universe 9970645639)
+Charts today: Top Earning #154 | Age: 191 days | Genre: Simulation / Tycoon | Max players: 6
+Creator: Group "Burnt Toast Labs!" | Visits 126.4M | Favorites 768.0K | Likes 99% of 547.6K votes | Updated 2026-10-08
+Game passes (6): Plot Expansion! 999; Extra Market Slots 699; Rare Customers! 629; VIP! 399; Cash Flow! 249; Auto Collect Cash 199
+Developer products (69): Tiny Diamonds Pack! 49; Medium Diamonds Pack! 199; Large Diamonds Pack! 479; Massive Diamonds Pack! 1499; Waiter! 349; Cook! 349; Cleaner! 149; Farmer! 499; Rancher! 149; Starter Pack! 29
+Badges: 8 | Page media: 3 images, 1 videos
+Description: Welcome to Run a Restaurant! 🍔 Cook recipes and serve customers! 🪑 Build and decorate your restaurant! 🐮 Raise animals and farm crops! 🧑‍🍳 Hire staff to do the work for you! 💵 Your restaurant makes money offline! 💵 Thanks for playing! 🩵
 
-## Q55 · Build with Voxels 🔨 (universe 9490116046)
-Charts today: Top Trending #90 | Age: 280 days | Genre: Simulation / Sandbox | Max players: 32
-Creator: Group "Toro_king Studios" | Visits 147.6M | Favorites 6.6M | Likes 65% of 16.0K votes | Updated 2026-09-05
-Game passes (9): Ruby Pick 249; Rainbow Carpet 69; VIP Commands 69; Perm Shield 69; Ruby Cart [⚡FAST ] 39; Diamond Pick 34; Increased Block Placement Range 29; Gravity Coil 24; Infinite Slime Block 9
-Developer products (14): 15x Zombie Shawn Egg 8; 3x Explosive 49; 15x Explosive 189; 40x Lava Block 29; Flood Troll 😂 79; Super Size Troll 😂 59; Super Shrink Troll 😂 59; Temp Shield 9; Gift 39 39; Gift 70 - 1 69
-Badges: 12 | Page media: 5 images, 1 videos
-Description: Welcome to Build with Voxels! Build on a flat plane and let your creativity go wild. 🔨Build with hundreds of different blocks! 🛋️Furnish your creations with over a hundred furniture items 💾Builds automatically save in private servers 😎Have fun
+## Q49 · Iron Soul: Dungeon (universe 9910245722)
+Charts today: Top Earning #155 | Age: 203 days | Genre: RPG / Action RPG | Max players: 16
+Creator: Group "Iron Soul" | Visits 324.9M | Favorites 1.5M | Likes 98% of 518.5K votes | Updated 2026-10-06
+Game passes (11): Super VIP Pass 2399; EXP Boost Pass 599; Skip Forge Pass 499; Gold Pass 499; VIP Pass 399; Extra Ore Drop Pass 399; Forge Luck Pass 349; Big Inventory Expansion 349; Double Ticket Use 299; Ores Inventory +200 199; Material Inventory +600 199
+Developer products (107): OP Weapon Pack II 1599; Rune Break 49; Rune Break x3 99; Rune Break x5 139; Race Reroll 99; Race Rerolls x3 259; Race Rerolls x10 799; Medium Gold Pack 149; Big Gold Pack 449; Huge Gold Pack 999
+Badges: 0 | Page media: 5 images, 1 videos
+Description: Dragons and men fought side by side. Then the world broke - scattered into floating isles, swarmed by dark creatures born from an ancient seal. ⚔️ Dynamic combat - Face creatures crawling from the depths; each defeat drops rare materials. 🔥 Skill Tree - Unlock and upgrade your own path. Choose abilities that fit your playstyle - become a relentless attacker, a forge master, or a survivor built to last. ⚒️ Crafting loop - Gather, forge, upgrade. Every new weapon changes how you fight. The world is broken. Build your legend - one skill, one strike, one blade at a time. Cheating/Exploiting will result in PERMANENT BAN.
 
-## Q56 · Emergency Hamburg (universe 2992873140)
-Charts today: Top Earning #91 | Age: 1824 days | Genre: Roleplay & Avatar Sim / Life | Max players: 50
-Creator: Group "Emergency Hamburg" | Visits 1.4B | Favorites 1.0M | Likes 86% of 578.0K votes | Updated 2026-10-06
-Game passes (10): Special Operations Command 799; Crime Boss 399; Motorcycles 399; Advanced Tuning Garage 399; Undercover Police 349; Electric Vehicles 349; Convertible Vehicles 299; Classic Cars 249; Quads 249; Athlete 199
-Developer products (117): Release from Prison 29; Stuttgart Kasten Police Unlock 79; Stuttgart Executive Police Unlock 119; Avantismo A6 Police Unlock 189; Stuttgart Jogger Police Unlock 249; Stuttgart Landschaft Police Unlock 499; Stuttgart Lastkraft XL Truck Company Unlock 79; MEN TMG Truck Company Unlock 149; MEN TMG XL Truck Company Unlock 249; Stuttgart Lastkraft HT Truck Company Unlock 349
-Badges: 8 | Page media: 10 images, 0 videos
-Description: Emergency Hamburg is an emergency services roleplay (RP) game set in the German city of Hamburg. Play as a police officer, firefighter, medic, criminal, car mechanic, bus driver, truck driver, or civilian - team up with friends in a huge open city with realistic vehicles, robberies, and emergency callouts. 🔰 NEW TO THE GAME? Read our Beginner's Guide: devforum.roblox.com/t/4812499 👮 Enforce the law, respond to calls, and arrest criminals - unlock Traffic Police, Undercover, and SEK. 💰 Rob the bank, jeweler, and harbor containers, escape the police, and get rich as a criminal. 🚒 Extinguish fires as a firefighter, revive downed players as a medic. 🔧 Tow broken vehicles and repair traffic lights as a car mechanic. 🚚 Deliver cargo as a truck driver. 🚌 Drive city and rural bus routes. 🚗 Earn money, buy your dream car, and tune it your way. 🗺️ Explore Hamburg and write your own story as a civilian. 📋 Latest updates: devforum.roblox.com/t/2388146
+## Q50 · [UPD 7] Defeat Anime RNG (universe 10552240401)
+Charts today: Top Earning #156 | Age: 78 days | Genre: Simulation / Incremental Simulator | Max players: 6
+Creator: Group "Defeat Anime Bosses" | Visits 6.4M | Favorites 97.4K | Likes 96% of 24.7K votes | Updated 2026-10-09
+Game passes (11): Auto Roll + 699; x8 Luck [STACKS] 499; x2 drops 499; VIP 449; x2 Speed Tower 399; x2 Mutations 399; x2 offline rewards 299; x4 Luck [STACKS] 249; x2 Gold 149; x2 Luck [STACKS] 149; Auto Roll 29
+Developer products (55): 250 Trait Shards 1749; 100 Trait Shards 699; 50 Trait Shards 449; 25 Trait Shards 299; 1 Exclusive Roll 249; 5 Exclusive Rolls 999; 10 Exclusive Rolls 1499; Server Luck 79; Cosmic Bundle 1999; Divine Bundle 1119
+Badges: 0 | Page media: 6 images, 0 videos
+Description: 🌌 Defeat Anime RNG ⚡ Roll for anime units! 💥Fight anime bosses with your units! 📈 Merge animes to level them up! 👹 Survive endless enemy waves! 🏆 Unlock new zones! ✨ Collect rare animes and mutations! 👍 Like and join the group for EXTRA LUCK! Tags: Anime, Simulator, Bosses, Gacha, Merge, Idle, Battle, Defense, RNG, roll
 
-## Q57 · [🎃]🏀Basketball Legends🏀 (universe 4931927012)
-Charts today: Top Earning #92 | Age: 1166 days | Genre: Sports & Racing / Sports | Max players: 10
-Creator: Group "InfinitySports" | Visits 769.5M | Favorites 697.1K | Likes 86% of 773.2K votes | Updated 2026-10-07
-Game passes (13): Crystal Mythic Bundle 3399; Crystal Mythic Effect 1699; Crystal Mythic Skin 1699; All Star 699; Eurostep [UNLOCK] 499; Autocaptain 499; Lob [UNLOCK] 449; Post [UNLOCK] 399; Dunk Pack 299; 2X Coins 299; Celebration Pack 199; Toxic Pack 199
-Developer products (300+): Case 1 79; 10X Case 1 699; Forget Match 39; Gift 10X Case 1 699; Case 2 79; 10X Case 2 699; Elite Case 249; 10X Elite Case 2249; +3,000 Coins 50; +10,000 Coins 150
-Badges: 8 | Page media: 2 images, 1 videos
-Description: 🏀Welcome to Basketball Legends! A new basketball experience with quick gameplay that lets players quickly join a 5v5 or select pickups. 🏀 Leave a like 👍 and favorite ⭐ for more Basketball Legends content! Join InfinitySports for 1.5X coins: https://www.roblox.com/groups/32333865/InfinitySports#!/about
+## Q51 · Final Swarm [🌊Atlantis] (universe 9551044479)
+Charts today: Top Earning #157 | Age: 270 days | Genre: Survival / ? | Max players: 20
+Creator: Group "Evolution Studio Games" | Visits 55.2M | Favorites 266.8K | Likes 97% of 192.3K votes | Updated 2026-10-09
+Game passes (3): VIP 799; Quick Chest Open 149; Lucky Grading 99
+Developer products (106): Revive I 65; Legendary Chests x1 49; Premium Chests x5 199; Legendary Chests x12 399; MEGA Legendary Chests Bundle 3499; Keys Pack 39; Big Key Pack 149; Huge Key Pack 339; Ultra Key Bundle 1649; Ultimate Key Bundle 3749
+Badges: 2 | Page media: 5 images, 1 videos
+Description: Welcome to Final Swarm, the most intense RPG on Roblox! Fight against hundreds of enemies at once with only one goal... Survive waves and defeat the Final Swarm! 🔥 New LIMITED Set! 🧟 Fight against hundreds of enemies! 🗝️ Collect keys to upgrade and unlock new weapons! ⚔️ Make the best weapon loadout! 👑 Progress through worlds and become the best fighter! ❤️ Like and join the group for exclusive rewards!
 
-## Q58 · Zombie Rush Survival 🧟‍♂️ (universe 10138624079)
-Charts today: Top Earning #298, Top Trending #93 | Age: 154 days | Genre: Survival / ? | Max players: 30
-Creator: Group "Undead Dev." | Visits 129.3M | Favorites 165.7K | Likes 97% of 115.9K votes | Updated 2026-09-14
-Game passes (6): Stormlinker 875; RPG 399; Double Health 199; More Ammo 179; Extra Starter Cash 149; Fast Reload 149
-Developer products (38): Zombux Stack 79; Pile of Zombux 199; Bag of Zombux 499; Case of Zombux 1199; Vault of Zombux 1799; $20,000 79; $100,000 299; Self-Revive 25; Revive All 35; Respawn Now 25
-Badges: 0 | Page media: 4 images, 0 videos
-Description: Fight endless waves of zombies, get upgrades, defeat bosses, and build defenses to survive with your team! 🔫 Buy powerful weapons and upgrades 🧱 Place turrets, barricades, and traps! 👥 Team up with friends 🏆 Survive as many waves as you can Each wave gets tougher. How far can you get?
+## Q52 · 🦸 +1 Superhero Evolution (universe 10577588270)
+Charts today: Top Earning #159 | Age: 74 days | Genre: Simulation / Incremental Simulator | Max players: 12
+Creator: Group "Giggity Goo Games" | Visits 41.9M | Favorites 637.3K | Likes 98% of 154.5K votes | Updated 2026-10-04
+Game passes (4): Hacker Zone 649; Galaxy Zone 199; +3 Pets 189; Golden Zone 99
+Developer products (144): 10x Wins Reward [T1] 9; Hatch +3 Eggs [STACKS] 29; Hatch +8 Eggs [STACKS] 115; Hatch +16 Eggs [STACKS] 299; Boost Bundle 149; Power Boost 49; 2x Offline Earning  5; 2x Speed [PERMA] 29; Buff Bro 249; Nyan Cat 499
+Badges: 0 | Page media: 1 images, 1 videos
+Description: 🦸 Become the greatest Superhero! Train your power, defeat powerful enemies, and unlock legendary heroes as you grow stronger! 🖱️ Click to gain +1 Power! 💥 More Power = Stronger Attacks! 🦸 Unlock new Superheroes as you progress! ⚔️ Defeat enemies to unlock new worlds! 🏆 Earn Wins and climb the leaderboards! 🥚 Hatch pets for powerful boosts! 🔄 Rebirth to become even stronger! 👍 Like and ⭐ Favorite the game to support future updates!
 
-## Q59 · Anime Vanguards: Wrathful Assault (universe 5578556129)
-Charts today: Top Earning #94 | Age: 985 days | Genre: Strategy / Tower Defense | Max players: 24
-Creator: Group "Kitawari" | Visits 2.1B | Favorites 2.0M | Likes 97% of 2.7M votes | Updated 2026-10-09
-Game passes (5): Shiny Hunter 1299; Cosmetic Recolor 799; Display All Units 599; VIP 299; Extra Unit Storage 149
-Developer products (300+): 1100 Gold 99; 11,000 Gold 699; 1250 Gems 449; 1 Trait Reroll 149; 10 Trait Rerolls 999; 100 Trait Rerolls (20% MORE) 6500; 1 Stat Chip 74; 10 Stat Chips 499; 100 Stat Chips 3999; (GIFT) Buzzcut Baddie Bundle 1999
-Badges: 9 | Page media: 6 images, 1 videos
-Description: Welcome To Anime Vanguards! ✨ All the worlds and universes need your help! An event has caused multiple worlds to collide. Summon units to fight these enemies and save these worlds and embark on a thrilling journey to become the strongest! ✨ 🚀 Summon units to fend off enemies! 🤩 Level Up and Evolve units to strengthen them for more battles to come! 🔥 Play with your friends to fend off enemies in multiple game modes!
+## Q53 · [🛡️ CLANS] Pets Universe! (universe 10759638075)
+Charts today: Top Earning #160 | Age: 46 days | Genre: Simulation / Incremental Simulator | Max players: 6
+Creator: Group "Lip Builds" | Visits 5.5M | Favorites 155.6K | Likes 98% of 75.9K votes | Updated 2026-10-09
+Game passes (8): Forever VIP! ⭐ 1995; Ultra Luck! 🍀🌟 975; Item Drops! 🎁 745; +2 Eggs! 🥚 495; +2 Pets! 🐾😺 245; Auto Fishing Tap! 🎣 225; Luck! 🍀 195; +1 Pet! 🐾 60
+Developer products (33): VIP (1 Day) 👑 95; VIP (3 Days) 👑 295; VIP (7 Days) 👑 495; Lightning Charm! 🌩️ 395; Party Eggs (x3) 🎉 145; Charm Slot (+1) 145; Charm Slot +1 345; Gamepass Pack (5% Sale) 2575; [GIFT] Item Drops! 🎁 745; [GIFT] Forever VIP! ⭐ 1995
+Badges: 7 | Page media: 4 images, 1 videos
+Description: 🐾 Discover hundreds of Unique Pets! 🥚 Collect Coins and Buy Eggs! 📅 New updates every week! 💫 Join Group & Follow the Game for Bonus Rewards! 💎 Premium Players get +10% More Coins & Rubies! ❤️ Made by Lip Builds!
 
-## Q60 · Ability Arena 💥 (universe 10230942274)
-Charts today: Top Earning #173, Top Trending #95 | Age: 135 days | Genre: Action / Battlegrounds & Fighting | Max players: 20
-Creator: Group "Banjomeni" | Visits 100.9M | Favorites 216.5K | Likes 93% of 259.4K votes | Updated 2026-10-08
-Game passes (7): Sorcerer Abilities 1499; Monkey King Abilities 1249; One Punch Abilities 1249; Angelic Abilities 649; Space Outlaw Abilities 499; Early Access 299; Double Hits 249
-Developer products (16): Angelic Abilities 999; Angelic Gift 649; Best Value Hits 1999; Double Hits Gift 249; Early Access Gift 299; Large Hits 299; Massive Hits 999; Medium Hits 99; One Punch Abilities 999; One Punch Gift 1249
-Badges: 0 | Page media: 6 images, 1 videos
-Description: Choose your ability and head straight into the arena. Unlock powerful abilities to dominate the arena! Abilities can be unlocked by fighting other players and gaining hits. There are currently 28 useable ability movesets in the game, more are on the way! 🎮 Platform Support PC 💻 | Mobile/Tablet 📱| Console 🎮 (Xbox & PlayStation supported) 👍 Enjoying the game? Leave a thumbs-up, it helps a lot! ⚠️ NOTICE: Cheating, exploiting, or farming with alts will result in a permanent ban.
+## Q54 · [💥] Heroes Battlegrounds (universe 4568630521)
+Charts today: Top Earning #161 | Age: 1277 days | Genre: Action / Battlegrounds & Fighting | Max players: 15
+Creator: Group "more awesome games yo" | Visits 1.7B | Favorites 1.6M | Likes 86% of 1.3M votes | Updated 2026-10-09
+Game passes (7): VIP 799; Private Server Commands 499; Early Access 245; Custom Move Text 199; Custom Kill Sound 199; Toxic Emotes 95; Emote Pages 95
+Developer products (90): Emote! 25; Reset Daily Quest Timer 35; Cosmetics Gift 95; VIP Gift 799; Toxic Emotes Gift 95; Early Access Gift 245; Private Server Commands Gift 499; Spawn Namu [BOSS] 485; [🎁] 1 Emote 25; Gift Emote 75
+Badges: 21 | Page media: 4 images, 0 videos
+Description: This update: MASTERED EXPLOSION HERO, FULL THROTTLE REWORKED -- Fight to become the #1 Hero or Villain. 🎮 This experience works on all devices (CONSOLE, PC, MOBILE). ❤️ Please consider liking and supporting this experience to speed up our updates! 💪 Fight bosses, and unlock mastered versions of characters to become the strongest hero or villain. a Battleground experience Computer Keybinds G - Ultimate F - Block Q - Dash Q (while Ragdolled) - Recovery Dash Left Click - Punch Jump + Left Click - Downslam B - Emote Menu
+
+## Q55 · ✈️ Cabin Crew Simulator (universe 1802741133)
+Charts today: Top Earning #162 | Age: 2310 days | Genre: Simulation / ? | Max players: 10
+Creator: Group "Cruising Studios" | Visits 439.5M | Favorites 1.1M | Likes 93% of 435.3K votes | Updated 2026-10-07
+Game passes (12): 2x Earnings 650; Multiplayer Connect 400; Emergency Control 350; Premium AI Flight Attendant  300; VIP 300; Skilled Pilots 300; Custom Logo 250; Extra Design Colors & Materials 250; Elite Influencer 200; Custom Cabin Music 150; Custom Cabin Lighting 150; Premium Room 100
+Developer products (26): 400 SkyBux 50; 800 SkyBux 95; 1500 SkyBux 160; 3000 SkyBux 300; 6000 SkyBux 550; 10000 SkyBux 950; 20000 SkyBux 1800; 40000 SkyBux 3200; Boost Flight Attendants [1st Airline] 80; Boost Flight Attendants [2nd Airline] 80
+Badges: 86 | Page media: 10 images, 1 videos
+Description: Welcome to Cabin Crew Simulator! ⭐The major update just released!⭐ 🎨 Create your own airline and design your aircraft's look inside and out! 🍽️ Pick your meals and drinks! 🛫 Ensure your passengers have a safe and enjoyable flight as a flight attendant! 🔥 Experience a range of emergencies in-flight, from fires to water and crash landings! 💸 Complete exciting and dangerous missions to earn more in-game Skybux! 👍 Support for the game is appreciated through favorites and thumbs-ups! 🌟 Premium players also earn immediate access to Sky Lounge!
+
+## Q56 · [✨] Anime Fighting Simulator (universe 10321202755)
+Charts today: Top Earning #163 | Age: 118 days | Genre: Simulation / Incremental Simulator | Max players: 24
+Creator: Group "Anime Fighting Simulator | BZ" | Visits 53.9M | Favorites 495.0K | Likes 98% of 176.5K votes | Updated 2026-10-04
+Game passes (21): No Limit 1499; Fruit Tracker 1499; Shiny Hunter 999; Super Luck 599; VIP 499; x2 Yen 499; x2 Strength 449; x2 Chakra 449; x2 Durability 449; x2 Sword 449; x2 Mastery 399; x2 Tensei Shards 399
+Developer products (124): Rush Adventure 399; Adventure Slot 6 1499; Adventure Slot 5 799; Adventure Slot 4 399; Surge Bundle 299; Beginner Bundle 199; + Clan Member 79; Premium Clan 999; [GIFT] 1 Hour Stat Boost 79; [GIFT] 1 Day Stat Boost 299
+Badges: 12 | Page media: 10 images, 1 videos
+Description: ⭐ Use Code "WIZARDKING" for FREE rewards! ⚔️ Welcome to Anime Fighting Simulator! Train your stats, unlock powerful anime abilities, and become the strongest fighter! 💪 Train your power! 🔥 Unlock powerful anime powers, transformations, fruits, stands, and specials! 👑 Show off your strength 😈 Battle bosses for rare drops and rewards! 🛡️ Summon and level up champions to train and fight alongside you! 🎁 Collect mounts, auras, weapons, titles, and exclusive cosmetics 🌍 Become the strongest and dominate the leaderboards ⚔️ Fight other players and prove you're the ultimate fighter! 🎉 Join our community for exclusive rewards, codes, sneak peeks, and update announcements!
+
+## Q57 · [Wild Hunt Upd!] Legacy Piece (universe 9880286438)
+Charts today: Top Earning #164 | Age: 209 days | Genre: RPG / Action RPG | Max players: 12
+Creator: Group "Gwynn's Shrine" | Visits 26.7M | Favorites 66.7K | Likes 97% of 88.6K votes | Updated 2026-10-06
+Game passes (5): x2 Drops 849; x2 Luck Drop 649; VIP 399; Permanent 2x EXP 299; Permanent 2x Money 249
+Developer products (101): x2 Drops 849; Pernament 2x EXP 299; Permanent 2x Money 249; VIP 399; Bundle: All Gamepasses 1999; Flashy Flash 1299; One Eyed Ghowl 1399; Cursed Child 1599; War General 1999; Starter Bundle 499
+Badges: 0 | Page media: 2 images, 1 videos
+Description: ⭐ Join our community server to stay up to date with news, updates, and exclusive reward codes! ⚓ Legacy Piece Max Level: 12000 Embark on an action-packed adventure filled with intense combat, rewarding progression, and endless challenges. Train your character, master powerful abilities, defeat fearsome bandits, and rise through the ranks on your journey to max level. 💻 PC Support 📱 Mobile Support 🎮 Console Support 🔔 Join our community server for new Codes and Updates 🔧 Server shutdowns may occur for updates, improvements, or bug fixes to ensure the best experience.
+
+## Q58 · Anime Breaker [🏰TOWER] (universe 10675117523)
+Charts today: Top Earning #166 | Age: 60 days | Genre: Simulation / Incremental Simulator | Max players: 12
+Creator: Group "HF x Anime Breaker" | Visits 14.1M | Favorites 111.7K | Likes 95% of 25.3K votes | Updated 2026-10-09
+Game passes (15): Mega Lucky 499; 2x Drops 299; Extra Weapon 249; Extra Heroes 249; VIP 249; Fast Spin 199; Simul. Spin 199; Multi Spin 199; Super Lucky 199; 2x Energy 199; 2x Gold 199; 2x Avatar XP 199
+Developer products (51): Gift: VIP 249; Gift: 2x Energy 199; Gift: 2x Gold 199; Gift: 2x Drops 299; Gift: 2x Avatar XP 199; Gift: Extra Weapon 249; Gift: Extra Heroes 249; Gift: Lucky 99; Gift: Super Lucky 199; Gift: Mega Lucky 499
+Badges: 9 | Page media: 4 images, 0 videos
+Description: 💥 Welcome to Anime Breaker! 💥 🌍 Explore incredible anime worlds! 👊 Tap to gain energy — every click brings you closer to power! 🃏 Open cards to collect companions who will help you! ⚔️ Fight enemies to earn resources, unlock avatars, weapons, and discover rare items ! 📈 Rank up. Upgrade everything! 🏰 Epic battles and challenging raids. ✨Discover why Anime Breaker is a favorite among adventure and strategy simulator enthusiasts. Enter the world of Anime Breaker now and begin your journey to become the best! 💻📱🎮 Available on computers, phones, tablets, and consoles!
+
+## Q59 · a dusty trip [🚗SEASON] (universe 5650396773)
+Charts today: Top Earning #167 | Age: 966 days | Genre: Adventure / ? | Max players: 25
+Creator: Group "Jandel's Road Trip" | Visits 2.6B | Favorites 2.3M | Likes 90% of 2.3M votes | Updated 2026-10-08
+Game passes (36): Trailhawk 699; Flame Truck 699; Quad Bike 699; 10 SLOT BACKPACK #01 679; Minigun 599; Nuke Launcher 599; SUV 599; Orbital Cannon 599; Hoverboard 599; Ray Sniper 599; Gravity Gun 599; Tri-nade Launcher 599
+Developer products (250): 25 robux donate 25; 50 robux donate 50; 1000 robux donate 1000; 500 robux donate 500; 100 robux donate 100; Developer Product 4 188; 5000 robux donate 5000; 5 robux donate 5; Golden AK 99; EXOTICA 1275
+Badges: 104 | Page media: 10 images, 0 videos
+Description: Press R to start engine 🚗 Welcome to "Dusty Trip," where adventures never cease! Embark on an epic journey through vast desert landscapes, where the road stretches endlessly before you. 🏜️ Immerse yourself in the desert scenery, with the hum of your engine as your only companion as you traverse the boundless expanses. Take the wheel of powerful vehicles, each designed to withstand the challenges of desert terrain.
+
+## Q60 · [MOBILE!📱]Prior Extinction - Dinosaur Survival! (universe 2527789729)
+Charts today: Top Earning #168 | Age: 2000 days | Genre: Roleplay & Avatar Sim / Animal Sim | Max players: 30
+Creator: Group "Jacys Studios ROBLOX" | Visits 118.3M | Favorites 373.4K | Likes 79% of 125.0K votes | Updated 2026-10-05
+Game passes (14): Dynamotitan! 1999; Acanthocaudia! 1999; Amphiceratops! 1333; Faster Monster! 799; Therodontosaurus! 649; Better Luck! 599; Radar! 399; Faster Growth! 299; More Amber! 299; More Mastery XP! 299; Slower Wellbeing Drain! 299; Senti! 299
+Developer products (299+): 2x Faster Growth! (1 Hour) 149; 2x Faster Growth! (2 Hours) 249; 2x Faster Growth! (8 Hours) 799; 1.5x Slower Drainage! (1 Hour) 79; 1.5x Slower Drainage! (2 Hours) 149; 1.5x Slower Drainage! (8 Hours) 499; Amber 250! 3; Amber 700! 5; Amber 2,000! 9; Amber 7,500! 25
+Badges: 0 | Page media: 9 images, 1 videos
+Description: Prior Extinction is a dinosaur survival game. You will be taking charge of your very own realistic dinosaur surviving & fighting other dinosaurs for domination of a prehistoric land, housing animals of various time ages prior to becoming extinct. Prior Extinction is still in public ALPHA stage. This means that the game is nowhere near completion, & will receive many more updates in the future. Tags: Survival, Dinosaur, Prehistoric, Mesozoic, Realistic, Hardcore, Roleplay

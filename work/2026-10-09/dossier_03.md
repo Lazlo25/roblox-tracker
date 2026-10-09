@@ -1,119 +1,119 @@
-## Q31 · Swing For Eggs (universe 10763764817)
-Charts today: Top Earning #278, Most Popular #74 | Age: 43 days | Genre: Simulation / Tycoon | Max players: 6
-Creator: Group "faderanat's spiders" | Visits 30.4M | Favorites 1.1M | Likes 84% of 19.4K votes | Updated 2026-10-07
-Game passes (15): Cosmic Suit 499; Golden Suit 249; 2x Money 149; Spider 2099 149; Symbiote Suit 109; 2x Egg Growth 99; 16x Speed 99; Stealth Suit 89; 2x Speed 79; Iron Spider 59; Miles Suit 49; 8x Speed 39
-Developer products (91): Speed 1 79; Speed 2  249; Speed 3 560; Speed 4 1200; Speed 5 1600; Speed 6 2999; Cash 1 9; Cash 2 16; Cash 3 89; Cash 4 99
-Badges: 0 | Page media: 4 images, 0 videos
-Description: 🕷️ SWING FOR EGGS 🕷️ Web-swing over the guardians, snatch the egg mid-air, and hatch it back at base! 🥚 🕸️ Swing between rings to cross every zone 🏃 Upgrade your Speed and web range 🌙 All nests reset every night 🏏 Knock eggs out of other players' hands 👑 Common → Secret → Eternal → DIVINE 🎁 Join the group for a free gift! 👍 Like & ⭐ Favorite for updates!
+## Q31 · Deep Fishing🎣 (universe 10526853622)
+Charts today: Top Earning #131 | Age: 83 days | Genre: Simulation / Incremental Simulator | Max players: 12
+Creator: Group "LazyGames." | Visits 10.1M | Favorites 167.0K | Likes 97% of 30.2K votes | Updated 2026-10-09
+Game passes (9): Ultra Lucky 599; Double Coins 399; More Mutations 349; Super Lucky 249; VIP 249; Double XP 249; Auto Sell 149; Lucky 99; Fish Magnet 99
+Developer products (97): Stat Upgrade [1] 39; Stat Upgrade [2] 79; Stat Upgrade [3] 149; Stat Upgrade [4] 249; Stat Upgrade [5] 399; Stat Upgrade [6] 599; Restock Baits 24; Mutation Reroll 49; x5 Mutation Rerolls 199; Starter Pack 99
+Badges: 13 | Page media: 5 images, 1 videos
+Description: 🎣 Cast your fishing rod as far as possible and reel in tons of fish! 💪 Upgrade your Strength to throw farther 🌊 Reach new waters with rarer fish 🐟 Catch multiple fish in a single cast 💰 Sell your fish and become the ultimate angler 🛟 HOW TO PLAY * Hold and release to cast your rod * Reach the water to start fishing * Catch multiple fish at once * Upgrade and cast even farther! ⭐ Like the game, favorite it, and join the group for rewards and updates!
 
-## Q32 · [🦑UPD] Fish It! 🐟 (universe 6701277882)
-Charts today: Top Earning #77 | Age: 718 days | Genre: Simulation / Incremental Simulator | Max players: 20
-Creator: Group "Fish Atelier" | Visits 4.8B | Favorites 1.3M | Likes 83% of 1.6M votes | Updated 2026-10-08
-Game passes (12): Hyper Pack ⭐ 999; Advanced Luck 🍀✨ 545; VIP 👑 445; Blossom Pack 🌸 399; Lightning Pack ⚡ 399; Futuristic Pack 🚨 399; Sell Anywhere 🌍 315; More Mutations 🌈⭐ 295; Extra Luck 🍀✨ 245; Mini Hoverboat 🔥 225; Double XP 💜 195; Small Luck 🍀 50
-Developer products (269+): 1,000 Coins 25; 7,500 Coins 125; 20,000 Coins 245; 50,000 Coins 575; 100,000 Coins 995; 10 Coin Potions 79; 10 Luck Potions 79; 1 Luck Potion 9; 1 Coin Potion 9; 1,000 Doubloons 79
-Badges: 20 | Page media: 10 images, 1 videos
-Description: 🦑 BOSS BATTLES, ALIEN INVASION EVENT, NEW PIXEL PET EGG, +1 ARCADIA SECRET 👾 ARCADIA EXPANSION, NEW FORGOTTEN + SECRET, +8 FISH, NEW BATTLEPASS REWARDS + SKIN! 🕹️ NEW LIMITED ISLAND, ARCADIA! NEW SECRET, +16 FISH, LIMITED GACHA, 8-BIT MUTATION 🍀 Collect from 1,000,000+ variations 🎣 Fish with your friends Or just sail the seas and explore⛵ 🛟 HOW DO I FISH? - Click to charge up - Click as fast as you can! ⭐ Remember to join the group and send feedback! Inspired by Fisch and Fishing Simulator
-
-## Q33 · SNIPER DUELS (universe 7264587281)
-Charts today: Top Earning #79 | Age: 597 days | Genre: Shooter / Deathmatch Shooter | Max players: 50
-Creator: Group "LOCKED IN NETWORK" | Visits 408.7M | Favorites 2.0M | Likes 77% of 166.6K votes | Updated 2026-10-08
+## Q32 · [Update!] Survive The Hulk 😱 (universe 10742937135)
+Charts today: Top Earning #132 | Age: 50 days | Genre: Survival / 1 vs All | Max players: 12
+Creator: Group "Survive The Hulk" | Visits 6.6M | Favorites 75.8K | Likes 81% of 13.7K votes | Updated 2026-10-09
 Game passes (0): none
-Developer products (22): Gems 100 80; Gems 500 400; Gems 1000 800; Gems 2450 1700; Gems 6750 4500; Gems 16250 10000; Double XP - 10 Minutes 35; Double XP - 30 Minutes 75; Double XP - 1 Hour 135; [ Gift ] Double XP - 1 Hour 135
-Badges: 24 | Page media: 10 images, 1 videos
-Description: SNIPER DUELS is a fast-paced first person shooter (FPS) centered around hardcore aggressive sniping. Challenge players in 1v1 to 4v4 (and occasionally 12v12) duels where the first to 6 wins. (Now featuring: Free For All and various LTMs) 🆚 Challenge players by stepping on a duel pad! 📈 Earn coins from challenges to get new skins for your sniper! 🔁 Collect and trade your skins with other players! 🏆 Rack up win streaks and earn your spot on the global leaderboard! PC, Phones, Tablets, and Consoles (XBOX / PS5) are supported. If you enjoy the game, please leave a thumbs-up👍! It's the easiest way to support us. ⚠️ NOTICE: Cheaters and farmers using alts/friends will be permanently banned. There are no appeals. Drawn thumbnail by @sentubai High Speed Sniper Team
+Developer products (5): Become Hulk Next Round 59; Buy Skin 99; Buy Skin 2 198; Buy Skin 3 396; Buy Hulk Buster Ability 750
+Badges: 0 | Page media: 1 images, 1 videos
+Description: SURVIVE THE HULK One player is chosen to become the Hulk. Everyone else must run, hide and survive until the round ends. As the Hulk, hunt down every survivor using powerful punch combos, sprint attacks, a destructive thunder clap and the ability to locate hiding players. Smash through walls, doors, windows and furniture as the entire facility falls apart around you. As a survivor, explore the facility, crawl through vents, break through glass and work together to escape. Unlock the Hulkbuster to fight back with heavy punches and repulsor blasts. Can you survive the Hulk, or will you destroy everyone in your path? 🎮 PC, Mobile, Xbox and PlayStation ⭐ Like and favourite the game for more updates! #Hulk #Scary #Survive #Killer #Destruction #Destroy #Escape #Horror #Survival #Multiplayer #Hulkbuster
 
-## Q34 · Bee Swarm Simulator (universe 601130232)
-Charts today: Top Earning #80 | Age: 3124 days | Genre: Simulation / Incremental Simulator | Max players: 6
-Creator: User "Onett" | Visits 4.6B | Favorites 6.5M | Likes 96% of 3.2M votes | Updated 2026-08-22
+## Q33 · [🤑WORKS] Forest Donations (universe 10764887435)
+Charts today: Top Earning #133 | Age: 37 days | Genre: Social / ? | Max players: 27
+Creator: Group "SushiHyper Games" | Visits 4.2M | Favorites 208.8K | Likes 94% of 16.6K votes | Updated 2026-10-09
+Game passes (3): Golf Cart 149; Invisibility Cloak 99; Donation Sign 50
+Developer products (24): 5 Wallet Robux 5; 10 Wallet Robux 10; 25 Wallet Robux 25; 50 Wallet Robux 50; 100 Wallet Robux 100; 250 Wallet Robux 250; 500 Wallet Robux 500; 1,000 Wallet Robux 1000; 2,500 Wallet Robux 2500; 5,000 Wallet Robux 5000
+Badges: 0 | Page media: 3 images, 0 videos
+Description: 🌲 Welcome to Forest Donations! 💸THIS GAME STILL WORKS EVEN AFTER THE ROBLOX UPDATE! ✅ ⏰Robux may take 3-7 days to appear in your account after claiming it from pending 😄! Claim a booth, make it your own, and spread a little kindness in a cozy forest! 💚 Support other players with donations 🎁 Send gifts, even when friends are offline ✨ Earn ForestBux and unlock booth styles and trails 🤝 Meet new friends 🛑TO ROBLOX MODERATORS (PLEASE IGNORE): This game is themed around rewards and is designed for enjoyment. This game does not misuse Roblox systems to any extent. Purchases are completed through Roblox’s official Developer Product sale system. Donations are voluntary, and receiving donations is never guaranteed.
+
+## Q34 · Sonic Speed Simulator (universe 3405618667)
+Charts today: Top Earning #134 | Age: 1675 days | Genre: Simulation / Incremental Simulator | Max players: 16
+Creator: Group "Gamefam x Sonic" | Visits 1.5B | Favorites 3.3M | Likes 92% of 1.7M votes | Updated 2026-10-03
+Game passes (15): [SALE] Infinite Magnet 1500; XP Booster 799; Triple Eggs 599; Starter Pack 499; 2x Skills 499; [SALE] +2 Pet Slots 350; Double Egg Tickets 299; x2 Levels 299; 2x Skill Pieces 199; All Music Pass 199; Sky Ring Master 199; (SALE) Double Race Tickets 150
+Developer products (300+):  750K Rings 6659; (Bundle!) ALL SONIC BUNDLE 1x 299; (Bundle!) ALL SONIC BUNDLE 2x 600; (Bundle!) ALL SONIC BUNDLE 3x 900; (Bundle!) ALL SONIC BUNDLE 10x 2999; (Bundle!) ALL SONIC BUNDLE 5x 1500; (Bundle!) ALL SONIC BUNDLE 4x 1200; (Bundle!) ALL SONIC BUNDLE 7x 2100; (Bundle!) ALL SONIC BUNDLE 8x 2400; (Bundle!) ALL SONIC BUNDLE 9x 2700
+Badges: 120 | Page media: 10 images, 0 videos
+Description: 🎃 PUMPKIN HUNT + CYBER HEIST UPDATE 🔐 ◉ PUMPKIN HUNT! Search across the various worlds in the game to find and Smash Halloween Pumpkins! Find All 19 to Unlock Pumpkin Big! ◉ HALLOWEEN SHOP Returns! Collect Candy to earn various Halloween Theme skins and Rewards with new items weekly and for a limited time Candy has been added to AFK mode! earn more Candy the longer for AFK. ◉ CYBER HEIST EVENT! Team up with Tails, Espio, and Rouge to raid Eggman’s Diamond Terminal! Put Tails’ and Espio’s new Cyber suits to work, hacking terminals and sneaking past security in a brand-new Action Stage. Complete the heist to uncover a secret bonus event! 💻 ◉ SALE! Extreme Rider Sonic, Desert Style Gemerl, and Wasteland Skins on sale for the first time + Tornado II and 10X Gold Mega Bundles 👟The fastest game in Roblox history GET FAST by running to LEVEL UP 🔓UNLOCK NEW WORLDS and go on an incredible adventure 🎈EARN SONIC CHARACTER SKINS to show off to your friends
+
+## Q35 · [📊PATCH📊] Slop Tower Defense! 💔 (universe 10529769390)
+Charts today: Top Earning #138 | Age: 82 days | Genre: Strategy / Tower Defense | Max players: 20
+Creator: Group "Slop TD!" | Visits 26.9M | Favorites 17.7K | Likes 80% of 14.4K votes | Updated 2026-10-09
 Game passes (0): none
-Developer products (92): Silver Egg 100; Gold Egg 200; Diamond Egg 400; Honey Pouch 25; Honey Sack 300; Honey Chest 800; Honey Vault 1700; Royal Jelly 45; 10 Royal Jellies 300; Bear Bee (Discontinued) 9999999999
-Badges: 130 | Page media: 3 images, 0 videos
-Description: Grow your own swarm of bees, collect pollen, and make honey in Bee Swarm Simulator! Meet friendly bears, complete their quests and get rewards! As your hive grows larger and larger, you can explore further up the mountain. Use your bees to defeat dangerous bugs and monsters. Look for treasures hidden around the map. Discover new types of bees, all with their own traits and personalities! Bee Swarm Simulator Club: https://www.roblox.com/groups/3982592
+Developer products (5): Exclusive Unit! 199; 49 Slopbux 49; 199 Slopbux 199; 399 Slopbux 399; 799 Slopbux 799
+Badges: 0 | Page media: 3 images, 0 videos
+Description: WE LOVE SLOP Use Code "SLOP" For Some Cash 🚽 Summon + Craft a BUNCH of slop ⚔️ Defend a BUNCH of slop 👀 Find codes, leaks and news in the community server 🔗 Tags: Slop, Tower Defense, TD, Strategy, Survival, Defense
 
-## Q35 · Murder Duels (universe 9561553764)
-Charts today: Top Earning #179, Most Popular #80 | Age: 268 days | Genre: Shooter / Deathmatch Shooter | Max players: 50
-Creator: Group "Breakfast" | Visits 271.9M | Favorites 227.6K | Likes 94% of 278.0K votes | Updated 2026-10-09
+## Q36 · [⚓] Navy War (universe 10246108265)
+Charts today: Top Earning #139 | Age: 132 days | Genre: Strategy / ? | Max players: 6
+Creator: Group "Parabola MMOVEMENT" | Visits 22.6M | Favorites 165.5K | Likes 97% of 98.7K votes | Updated 2026-10-09
+Game passes (7): +1 Admiral Slot 799; x2 Money 399; x2 Building Speed 199; x2 Civilians 199; Custom Flag 99; Auto Sell 79; Auto Collect 49
+Developer products (163): Hospital x1 199; Mine Factory x1 399; Container Yard x1 299; Rocket Factory x1 999; Gunpowder Factory x1 79; Bank x1 99; Prison x1 699; Nuclear Facility x1 1499; Petrol Factory 15; Oil Rig x1 7
+Badges: 0 | Page media: 10 images, 1 videos
+Description: ⚓ NAVY WAR - Build your FLEET, expand your NAVY, and command powerful BATTLESHIPS to RULE THE SEAS! UPDATE LOG (26.09.2026): • 4 New Buildings! • New VOLCANIC Weather! • Research Available for Crystals! • Easy Visual Access to your Stats in Settings! • Leviathan Statue Buff! • Inventory Preview for TRADABLE items! • And much more! Discover it yourself! ⭐ HOW TO PLAY: • Build your base and grow your ECONOMY 🏝️ • Upgrade your docks, shipyards, and FACTORIES ⚙️ • Build powerful WARSHIPS and expand your FLEET 🚢 • Unlock DESTROYERS, CRUISERS, BATTLESHIPS, SUBMARINES, and AIRCRAFT CARRIERS ⚓ • BATTLE other players and DOMINATE the OCEANS 🌊 💡 PLAY YOUR WAY: • Build a wealthy and advanced NAVAL BASE. • Create the strongest FLEET on the seas. • Or balance your economy and military to become unstoppable. Start small, build a mighty fleet, and rule the oceans! 👍 If you enjoy the game, leave a thumbs up! It really helps us! 🐞 Found a bug? Please report it on the Roblox Community!
+
+## Q37 · [FIRE FIGHTING] Flight World (universe 6336741296)
+Charts today: Top Earning #140 | Age: 803 days | Genre: Simulation / Vehicle Sim | Max players: 26
+Creator: Group "Limitless Flight" | Visits 131.1M | Favorites 7.3M | Likes 96% of 364.3K votes | Updated 2026-10-05
+Game passes (5): Air Force Two 800; Shortbus A3 440; VIP 400; 2x Job XP 250; Air Traffic Control 80
+Developer products (38): Change Call Sign 25; $30,000 50; $120,000 200; $275,000 400; $580,000 800; $1,150,000 1500; $3,500,000 4500; G650 Gold 250; SF50 Gold 125; Starter Pack 199
+Badges: 5 | Page media: 7 images, 1 videos
+Description: Welcome to Flight World, the ultimate flying experience on Roblox! Transport passengers, deliver cargo, and earn cash to unlock and pilot a wide variety of aircraft! 💎 Use code "300KLIKES" ❗❗ New code at 350,000 Likes! Tags: Airplane, flying, pilot, jet, aircraft, airport, landing, simulator
+
+## Q38 · Combat Warriors (universe 1390601379)
+Charts today: Top Earning #141 | Age: 2532 days | Genre: Action / Battlegrounds & Fighting | Max players: 45
+Creator: Group "PlayCombatWarriors" | Visits 1.5B | Favorites 2.4M | Likes 83% of 1.6M votes | Updated 2026-10-02
+Game passes (7): GOLD 999; VANGUARD 499; More Prem. AFK Rewards 499; Radio 299; Kill Sounds 199; Spray Paint 199; Spin Multiple Times 99
+Developer products (137): Credits Tier 1 49; Credits Tier 2 99; Credits Tier 3 299; Credits Tier 4 599; Credits Tier 5 999; Credits Tier 6 1999; Missile Shower Tokens Tier 1 399; Nuclear Warhead Tokens Tier 1 599; Aether Tier 1 49; Aether Tier 2 99
+Badges: 35 | Page media: 8 images, 1 videos
+Description: A bloody and gory melee & ranged weapon fighting game. Premium users have access to Premium AFK Rewards by clicking the button with the Premium icon found on the bottom left of the main menu 2x XP + chance for Daily Spins from kills every Friday, Saturday, and Sunday Type "/psCmds" in chat to view all Private Server commands | Pressing ";" opens the command bar Buy our UGC with our in-game menu for exclusive in-game rewards (Buying the UGC through the website/app will not grant you the in-game rewards) The UGC menu is located next to the "Customize" button
+
+## Q39 · [EVENT🎃] Racket Rivals (universe 7883776681)
+Charts today: Top Earning #142 | Age: 486 days | Genre: Sports & Racing / Sports | Max players: 18
+Creator: Group "⨯ Small World Games" | Visits 575.1M | Favorites 4.8M | Likes 95% of 1.3M votes | Updated 2026-10-07
+Game passes (2): Tribe Booth 299; More Booth Space 99
+Developer products (55): Cash Tier 1 49; Cash Tier 3 449; Cash Tier 4 2199; Cash Tier 2 199; Buy Awakening Slot 199; Lucky Tier 1 199; Lucky Tier 2 599; Lucky Tier 3 1899; TEST 1; Battlepass Skip Gift 1
+Badges: 3 | Page media: 3 images, 1 videos
+Description: 🎾RACKET RIVALS is a fast paced 3v3 Racket Game, with abilities, champions, a shuttle and chaos! This game is a combination of badminton, tennis, squash and volleyball, all rolled into one! CONTROLS: SWING – Left Click POWER SWING – (Hold) Left Click SET – E DASH - Q ABILITY - 1 AWAKENING - 2 EMOTES - V BUBBLES - B Unlock spirits with awesome abilities, summon powerful rackets, and get awakenings that give you crazy ultimates! Made with ❤️ by Small World Games
+
+## Q40 · [W2] +1 DMG FPS (universe 10717002748)
+Charts today: Top Earning #144 | Age: 55 days | Genre: Simulation / Incremental Simulator | Max players: 16
+Creator: Group "Mappy Tappy" | Visits 11.3M | Favorites 455.9K | Likes 96% of 108.1K votes | Updated 2026-10-09
+Game passes (6): x1000 Trainer 4999; x100 Trainer 1599; x25 Trainer 719; x9 Trainer 239; VIP [Permanent All 2x Pad] 99; x3 Trainer 69
+Developer products (48): +DMG Small 24; +DMG BIG 79; +DMG MASSIVE 399; +DMG ULTRA 799; 2x 2; x4 9; x8 29; x16 79; x32 199; x64 399
+Badges: 1 | Page media: 3 images, 1 videos
+Description: 🤖 AI ARE ATTACKING EARTH! 🌎 🔫 Shoot enemies to gain +1 DMG 💪 Get stronger with every hit 🏆 Earn Medals & unlock better guns 🔥 Rebirth for HUGE power boosts 🚀 Fight through new areas and SAVE EARTH! How strong can you become? ⚡ use code "10KCCU" for some GIFT! 👍 Like & Favorite to support, it help the game grow! ❤️
+
+## Q41 · [✨] Greedy Growers 🌱 (universe 10440833423)
+Charts today: Top Earning #145 | Age: 98 days | Genre: Simulation / Tycoon | Max players: 4
+Creator: Group "Banjo Lady Games" | Visits 102.2M | Favorites 332.3K | Likes 98% of 736.2K votes | Updated 2026-10-04
 Game passes (0): none
-Developer products (89): Coins [+1,200] 80; Coins [+5,250] 350; Coins [+20,000] 1200; Coins [+75,000] 4000; Coins [+200,000] 10000; MD Coins [+500] 80; MD Coins [+250] 80; MD Coins [+1000] 80; Release Pack 1199; Release Pack [GIFT] 1199
-Badges: 4 | Page media: 3 images, 0 videos
-Description: Welcome to Murder Duels! A fast paced first-person dueling game, supporting 1v1s up to 4v4s. 🏆 Step on a pad to begin a duel. First to 5 wins. 🔪 You get two weapons in every duel, a knife & revolver. 🔥 Both weapons have a set of unique abilities to make you stronger. 🎯 Unlock new knife & revolver skins as you progress. 💸 Trade skins with other players. ⚠️ This game is currently in beta. Expect changes! 🚨 Cheaters will be permanently banned. We do not appeal bans.
-
-## Q36 · Idle Mafia Game (universe 10643795368)
-Charts today: Top Earning #81 | Age: 64 days | Genre: Simulation / Incremental Simulator | Max players: 15
-Creator: Group "Stacks of Cash" | Visits 12.7M | Favorites 60.0K | Likes 88% of 30.5K votes | Updated 2026-10-09
-Game passes (13): Auto-roll Henchmen 1200; Auto Attack Boss 850; Permanent Player Market Shop 750; Better Henchmen 650; 2X Properties Income 550; Offline Operations 480; Extra Operations Slot 450; 2X Job Income 350; VIP 275; Faster Energy Regen 250; Faster Stamina Regen 250; Faster Health Regen 250
-Developer products (79): Refill Energy 50; Refill Stamina 50; Stack of Cash (Small) 75; Stack of Cash (Large) 299; Premium Crate 150; Instant Complete Operation 50; Instant Complete Operation (T2) 95; Instant Complete Operation (T3) 145; Refill Health 75; Reset Skill Points 50
-Badges: 0 | Page media: 10 images, 0 videos
-Description: Start from nothing and become the most powerful mafia boss in this 2D mafia game inspired by the game Mafia Wars from 2009. There is one persistent map and the game moves 24/7. Your properties keep earning while you sleep, your crew keeps defending your turf, and rival Families keep plotting. 💰 Do jobs to earn cash and level up 🏢 Invest in properties that pay you money passively 🔫 Attack other players and steal their cash 🤝 Hire henchmen and equip them with weapons, armor, and vehicles 👥 Join a Family, go to war, and take over the map 🏆 Earn trophies and climb the leaderboards
-
-## Q37 · Kitten Game 🐾 (universe 4689722433)
-Charts today: Top Trending #81 | Age: 1239 days | Genre: Roleplay & Avatar Sim / Animal Sim | Max players: 35
-Creator: User "Bro_IsThisReal" | Visits 627.4M | Favorites 772.9K | Likes 91% of 261.8K votes | Updated 2026-10-09
-Game passes (13): Ninja Cats 2000; Enchanted Key 699; Lost Kitty Pass 499; Choco Kittens 499; Baby Nightmares 399; Caracal Pass 399; Riggy 399; Special Eyes 299; 9 Lives 299; Coin Magnet 60 Studs 150; Coin Magnet 40 Studs 100; Monarch Wings Collection 90
-Developer products (7): 50 Coins 25; 100 Coins 45; 500 Coins 225; 1000 Coins 400; 2500 Coins 998; 5000 Coins 1800; 10,000 Coins 3000
-Badges: 24 | Page media: 2 images, 1 videos
-Description: 🐾Become a cat, collect fun accessories, play with friends, and explore! 🎃[October Update] Celebrate October with new Halloween kittens and accessories! - Jinx: Summon spooky cats! - Lilith: Blur the line between light and darkness. - Zombie: Become undead! 16 new accessories have also been added. Check them out! Controls: Run [desktop]🖥️: R Run [console]🎮: L3 ⭐Join the group for awesome stuff! Credits: 🔉Some sound effects provided by ZapSplat 🎵Special thanks to GoldenKittyRoblox for "The Dancer" song https://www.roblox.com/groups/15149109/Free-Time-Studio#!/about
-
-## Q38 · Royale🎃High (universe 321778215)
-Charts today: Top Earning #82 | Age: 3469 days | Genre: Roleplay & Avatar Sim / Dress Up | Max players: 12
-Creator: User "callmehbob" | Visits 10.5B | Favorites 13.3M | Likes 86% of 3.8M votes | Updated 2026-10-08
-Game passes (8): Paintbrush Pass! 300; 🔮Crystal Ball Power🔮 300; Faster Flight! (+ Custom Speeds) 299; Upload Custom Fabrics Pass! 200; Special Fabric Designs✂ (7,000+ designs!) 150; Sticker Packs Pass! 125; New Hair Colors +GLOWING Hair Pass(4,500+ colors!) 100; Materials Pass! 100
-Developer products (35): 175 Diamonds! 25; 400 Diamonds! 50; 900 Diamonds! 100; 2,000 Diamonds! 200; 4,400 Diamonds! 400; 10,000 Diamonds! 800; 26,000 Diamonds! 2000; 18,500 Diamonds! 1450; 300 Diamonds! 25; 600 Diamonds! 50
-Badges: 198+ | Page media: 10 images, 0 videos
-Description: ♡ ☁️ Welcome to your magical dream world! ☁️ ♡ 📣 Sept 18 Updates! 📣 🎃 THE ROYALLOWEEN REALMS ARE BACK!!!!!!!!!!! 👻🍬 🌙 NEW Eveningfall 2026 Halo by _Cheepi! ✨ Haunted Hollow 🌑 oOOoo 📖 NEW Eveningfall Fountain Stories + Winners & Honorable Mentions! 🏆 💌 Writer's Charm Bracelet MEGA UPDATE! Now Dorm Furniture + new Fountain Winner/Honorable Mention badges! 🪮 NEW animated hairstyles, bangs & ears with PHYSICS! + underwater hair physics! 🌊 🕺 4 NEW Walk Animation Packs + 5 NEW Idles! 💎 NEW Diamonds Sticker Pack! 🏠 Frolicking Fields 🐇 & Royale Jelly 🦑 Halos are now Dorm Furniture! 🏝️ Sunset Island's Audience is now filled with our newest Badge Holders! 💕 💖 NEW Makeup, Design Fabrics, Hair Colors & 2D Clothing! 🛠️ Music Box, Player Realm Candy Bowls, Hunger Stat & more fixes! 👏 PLUS 24 NEW AMAZING BADGE HOLDERS!!! Welcome everyone!!! 💕 🦇 More SpoOOooOooky content coming soon!!!🦇 💌 If you enjoy the game, please give it a like! It means a lot! 💌
-
-## Q39 · 🐒 +1 Speed Monkey Escape (universe 10144280947)
-Charts today: Top Earning #211, Most Popular #82 | Age: 153 days | Genre: Simulation / Incremental Simulator | Max players: 22
-Creator: Group "100% ALGO SHOT" | Visits 629.9M | Favorites 12.0M | Likes 98% of 2.1M votes | Updated 2026-09-26
-Game passes (40): x1000 Celestial Treadmill [OP] 4999; Steampunk Trail 3199; Steampunk Aura 3199; Void Trail 2799; Void Aura 2799; Electric Aura 2399; Flash Trail 2399; Sakura Trail 1799; Sakura Aura 1799; x100 Void Treadmill [OP] 1599; Bloodmoon Trail 1499; Bloodmoon Aura 1499
-Developer products (100): Revive [Tier 1] 9; Speed Bundle 1 24; Speed Bundle 2 79; [OP] Speed Bundle 3 399; Skip Rebirth 79; Skip Stage 1 3; Skip Stage 2 6; Skip Stage 3 9; Skip Stage 4 19; Skip Stage 5 29
+Developer products (146): 50 Tickets 14; 100 Tickets 30; 250 Tickets 59; 1000 Tickets 149; +$500 5; +$10K 29; +$20K 35; +$25K 6; +$500K 49; +$1M 99
 Badges: 0 | Page media: 3 images, 1 videos
-Description: ⚡ Welcome to +1 Speed Monkey Escape How to Play: 🐒 Jump on walls and run as a Monkey 👟 Every step makes you faster 🏆 Overcome obstacles to get wins 💪 Unlock new upgrades 🔥 Rebirth to push your limits If you’re having fun, don't forget to like the game! 👍
+Description: Plant seeds and watch your trees grow to the moon! But be careful, lightning can strike at any moment! Don’t get too greedy… 🌊 Buy a seed from the river 🌱 Plant it in your plot 🌳 Watch your tree grow ⚡ Harvest before lightning strikes! 🎮 Available on PC, Mobile, Tablet, and Console 👍 Enjoying the game? Leave a thumbs up and favorite to support future updates!
 
-## Q40 · Wild Horse Islands (universe 2682938349)
-Charts today: Top Earning #83 | Age: 1935 days | Genre: Roleplay & Avatar Sim / Pet Care | Max players: 20
-Creator: Group "Happy Acres" | Visits 682.7M | Favorites 661.6K | Likes 92% of 274.0K votes | Updated 2026-10-02
-Game passes (10): Expert Trainer 599; VIP 539; Enhanced Trading 399; 2x XP 399; Free Island Travel 349; Extra Inventory Slots 339; Starter Pack 329; Enhanced Storage Locker 299; Expert Farmer 299; Premium Profile 209
-Developer products (300+): Black Paint Horse (W+B) 269; Black/Blue Hair Dye 129; Black/White Hair Dye 129; Blue Fade Hair Dye 129; Bay Appaloosa (P + W) 269; Bay Sabino Clydesdale Horse 449; Bay Appaloosa Horse 99; Black Paint Horse (B + W) 269; Bay Paint Horse (C + W) 269; Bay Paint Horse (W + B) 269
-Badges: 79 | Page media: 4 images, 1 videos
-Description: Saddle up your dream horse and explore vast islands where wild horses roam free! Capture them to build your ultimate collection and expand your stables! 🐎 A wild adventure awaits in Wild Horse Islands ✨ 💰 Earn money by selling horses and resources you collected in the wild 👑 Customize and accessorize your horses in any style or colour that you can imagine 🐴 Train up your horses by doing detailed training activities ❤️ Bond with your horse by taking care of their needs and spending time together 🤝 Trade, socialize, and roleplay with friends 🏁🏇 Check out the Competition Hub! Compete against others in high detail races and take home the win! Use sabotage items to slow down your opponents! 🏇🏁 Tags: Taming, Pasture, Farm, Western, English, Fantasy, Realistic, Pony, Foal, Racing
+## Q42 · [⭐] Restaurant Tycoon 3 (universe 7094518649)
+Charts today: Top Earning #146 | Age: 631 days | Genre: Simulation / Tycoon | Max players: 6
+Creator: User "Ultraw" | Visits 376.7M | Favorites 904.6K | Likes 95% of 412.4K votes | Updated 2026-10-09
+Game passes (9): Sandbox Mode 1499; Precision Build 599; Glass Animals Bundle 399; 3x Customer Luck 399; Allow Build Collisions 349; Chip Shop Diva Bundle 349; Auto Money Collection 299; 2x Item Limits 299; 2x Milestone Boost 249
+Developer products (21): 350 Cash 99; 1000 Cash 249; 2500 Cash 499; 10,000 Cash 1499; 100 Diamonds 199; 500 Diamonds 899; Starter Pack 149; Start Rush Hour 25; Instant Grow 35; Instantly Unlock Next Challenge 35
+Badges: 37 | Page media: 5 images, 0 videos
+Description: [⭐] Today: Fun Update, Part 2! 🧑‍🍳Welcome to Restaurant Tycoon 3 [HOW TO PLAY] 👨Click to serve customers! 🍔Cook dishes for the customers! 🍝Build and upgrade your restaurant! 💵Your restaurant can literally make money while you're offline! 📂 Updates & Credits https://devforum.roblox.com/t/restaurant-tycoon-3/3670704 ⭐ What's changed since Restaurant Tycoon 2? https://devforum.roblox.com/t/t/3636102
 
-## Q41 · FIFA Super Soccer (universe 4293374620)
-Charts today: Top Earning #478, Most Popular #83 | Age: 1362 days | Genre: Sports & Racing / Sports | Max players: 8
-Creator: Group "Play! Football" | Visits 1.6B | Favorites 1.1M | Likes 81% of 567.6K votes | Updated 2026-10-07
-Game passes (6): Custom Goal Theme 999; VIP 199; Toxic Emotes 199; Shirt Name & Number Change 99; Circus Theme 89; Position Priority 79
-Developer products (159): L 1; Bag Full of Coins $16,500 399; Pile of Coins $3,000 79; Gold Trophy Full of Coins $75,000 1599; 1H Double Exp 199; 1H Double Coins 79; Diamond Item Pack 399; Brazil Spin 199; Create League 199; Noodle Hair (Exotic) 199
-Badges: 8 | Page media: 6 images, 0 videos
-Description: The game is played as 4v4 in a packed stadium. Be the best goalkeeper, the midfield master or the star striker. Show off the best saves, deliver the assists, or score the most beautiful bicycle kicks. The choice is yours. CONTROLS: LMB - Shoot/Cross RMB - Low shot/Pass E - Slide tackle Q - Dribble TAB - Show leaderboard C - Unlock camera R - Wave (request ball) 🎮 Made by Play! 🎮 This game used to be called Super League Soccer!
+## Q43 · ⛏️ My Anime Mine (universe 10740316645)
+Charts today: Top Earning #149 | Age: 51 days | Genre: Simulation / Tycoon | Max players: 12
+Creator: Group "Curseddd Games" | Visits 6.4M | Favorites 24.7K | Likes 99% of 61.9K votes | Updated 2026-10-09
+Game passes (6): Super Drop Luck 1199; Major Mutation Luck 799; Speedy Characters 399; VIP 199; Auto Sell 149; Mutation Luck 99
+Developer products (46): Ancient Mystery Block x1 149; Ancient Mystery Block x3 399; Ancient Mystery Block x10 1199; Starfall Pickaxe 199; Starter Pack 9; Potion Bundle x1 99; Potion Bundle x5 399; Infinite Blade Hero 399; New Zino 899; Unreal Lucky Block x1 249
+Badges: 0 | Page media: 3 images, 0 videos
+Description: Welcome to My Anime Mine! Your anime characters break rocks for rare ores. Sell your ores for cash and upgrade damage by leveling them up, buying new pickaxes, and enchanting them! Spend your money on the research tree to multiply your income! How to Play: ⛏️ Break rocks for anime characters 💪 Upgrade your crew's damage with levels, mutations, new pickaxes and more 🔬 Finish your zone's research tree to unlock the next mining zone! Updates every week!
 
-## Q42 · [HIGHWAY TRAFFIC] Roanoke, VA Driving RP (universe 850110028)
-Charts today: Top Earning #84 | Age: 2934 days | Genre: Simulation / Vehicle Sim | Max players: 30
-Creator: Group "Roanoke, VA" | Visits 190.0M | Favorites 707.3K | Likes 91% of 417.8K votes | Updated 2026-10-08
-Game passes (14): (SALE!) Exotic Super Car Gamepass 399; (SALE!) Motorsport Legends 399; (SALE!) Special Racing Vehicles Gamepass 399; (SALE!) VIP 375; (SALE!) +50 Vehicle Slots 320; (SALE!) Luxury Sports Cars Gamepass 249; (SALE!) Heavy Duty Vehicles Gamepass 249; (SALE!) Sports Classics Gamepass 249; (SALE!) Emergency Services Gamepass 249; (SALE!) +30 Vehicle Slots 150; Support The Team! 130; Radio Pass 79
-Developer products (68): 10,000 In-Game Cash 23; 100,000 In-Game Cash 195; 300,000 In-Game Cash 349; 1,000,000 In-Game Cash 875; 2,500,000 In-Game Cash 1899; 12,000,000 In-Game Cash 7999; Car Test Drive 35; Daily Reward Skip Day 49; Refuel Car 100% 10; Skip Jail 25
-Badges: 1 | Page media: 10 images, 0 videos
-Description: ⭐ Welcome to Roanoke, the ultimate open-world driving & roleplay experience set in the beautiful Blue Ridge Mountains of Virginia! 🚗 Explore a massive open world with 500+ cars, trucks, emergency vehicles & more 🏠 Own houses, spawn up to 5 vehicles + trailers 🚛 Haul cargo, deliver mail, fight fires, rob ATMs or patrol the streets 🏁 Race against friends, attend car meets or simply cruise together 🎨 Extensive vehicle customization, tuning & roleplay features 💰 Code: TRAFFIC 🚨 [LATEST UPDATE] - 🏁 NEW HIGHWAY MAP - 🚦 WORKING TRAFFIC - 🚗 6 NEW CARS - 💎 NEW WOMANSORY - 🔥 STUNT COMBOS - 🏆 HIGHWAY LEADERBOARDS - ⭐ MANY UI IMPROVEMENTS - ⚡ MANY FIXES ⚠️ Found a bug or have feedback? Let us know through our social media links below! -- tags: tuning, drift, virginia, city, trailer, cars, trucks, semi trucks, roleplay, customization, revamp, cops vs crims
+## Q44 · Build and Kill Zombies (universe 10741654282)
+Charts today: Top Earning #150 | Age: 51 days | Genre: Simulation / Sandbox | Max players: 5
+Creator: Group "Zombie Car Crusher" | Visits 49.4M | Favorites 1.1M | Likes 98% of 257.3K votes | Updated 2026-10-08
+Game passes (5): 4x Permanent Luck 229; 2x Cash 179; 2x Permanent Luck 149; Faster Roll 129; Premium Paint 🌟 [20% OFF] 99
+Developer products (35): Extra save slot!🔥 16; Instant Buy Item [Tier-1] 9; Instant Buy Item [Tier-2] 19; Instant Buy Item [Tier-3] 99; Instant Buy Item [Tier-4] 359; X2 SERVER LUCK ROLLS [OP 🔥] 39; X6 SERVER LUCK ROLLS [OP 🔥🔥] 99; X12 SERVER LUCK ROLLS [OP 🔥🔥🔥] 199; Tiny Cash Pack💵 25; Small Cash Pack💵🔥 149
+Badges: 3 | Page media: 1 images, 1 videos
+Description: Welcome to Build and Kill Zombies! 🔨 Build your car! ⚙️ Add crazy weapons & defenses! 🧟 Crush waves of zombies! 💰 Earn cash and upgrade your build! 🚗 How far can YOUR car survive?
 
-## Q43 · A desrt [SANDBOX] (universe 7398552394)
-Charts today: Top Trending #84 | Age: 570 days | Genre: Adventure / Exploration | Max players: 100
-Creator: Group "DarkCodes studio" | Visits 262.5M | Favorites 404.9K | Likes 89% of 148.8K votes | Updated 2026-10-07
-Game passes (5): Sandbox+ 150; Stamina Plus + 50; Slow Hunger 50; Screwdriver Pro 35; Boombox+ 15
-Developer products (10): Revive 25; 5 robux donate 5; 25 robux donate 25; 50 robux donate 50; 100 robux donate 100; 500 robux donate 500; 1000 robux donate 1000; 5000 ROBUX DONATE YO 5000; Additional Save Slot 100; Extra Build Slot 80
-Badges: 5 | Page media: 4 images, 0 videos
-Description: You’ve found yourself in the middle of a dead desert. Just you, an old garage, and a disassembled car. 🔧 Fix the car, find fuel, and set off into an endlessly procedurally generated world. 🧟‍♂️ Explore ruins, fight off zombies, scavenge supplies, and keep your vehicle running. 🌍 Every stretch of land is unique — there are no paths, no limits, only the direction you choose. 🔥 Survive alone or with friends — supports both singleplayer and multiplayer. Your goal: survive the desert, where every kilometer could be your last. press R to start engine The game may have many bugs Game inspired by The Long Drive
-
-## Q44 · (🍂) Rensselaer County (universe 1525626450)
-Charts today: Top Earning #85 | Age: 2446 days | Genre: Simulation / Vehicle Sim | Max players: 30
-Creator: Group "Rensselaer County Official" | Visits 340.9M | Favorites 888.1K | Likes 95% of 419.7K votes | Updated 2026-10-07
-Game passes (10): Performance Vehicles Access 400; Premium Customization 400; Extra Garage Space 300; Premium Vehicle Access 200; Spawn 2 Vehicles 175; Premium Law Enforcement 175; Friendly Premium 150; House Premium 100; DOT Vehicle Access 100; Music Phone Application 40
-Developer products (55): +5,000 Cash 50; +10,000 Cash 100; +30,000 Cash 200; +50,000 Cash 350; +150,000 Cash 1000; +75,000 Cash 500; Game Donation 60; 1 Month of Premium 1; 2 Months of Premium 2; 3 Months of Premium 3
-Badges: 41 | Page media: 9 images, 0 videos
-Description: Join our Community Group: https://www.roblox.com/communities/5499489/Rensselaer-County-Official If you're on PC, when in vehicle, press 'E' three times to set your gearing to Drive. 'E' and 'Q' are used to switch gears. Welcome to Rensselaer County! Located in New York, hit the road and embark on an immersive driving adventure. This open-world driving game offers lots of opportunities for exploration, with a vast network of roads, an interstate, and charming houses to discover.
-
-## Q45 · [🔥 BERSERKER] Deagle Arena (universe 10057403337)
-Charts today: Most Popular #85 | Age: 173 days | Genre: Shooter / Deathmatch Shooter | Max players: 8
-Creator: Group "Deagle Arena" | Visits 239.2M | Favorites 8.9M | Likes 87% of 91.3K votes | Updated 2026-10-08
-Game passes (5): VIP! 399; Lucky! 249; 2x Cash! 149; 2x Gems! 99; Fast Open 29
-Developer products (97): 250,000 Gems 1299; 50,000 Gems 599; 10,000 Gems 139; 2,500 Gems 39; 500 Gems 9; Starter Pack 19; Galaxy Case 49; 5x Galaxy Case 399; Release Case 39; Camo Case 19
-Badges: 14 | Page media: 4 images, 1 videos
-Description: Hop into a fast-paced Deagle-only shooter, master movement, and climb the ranks. ⚔️ FFA Deathmatch 📈 Competitive Ranking ⭐ Level up and earn rewards 🔥 Unlock and collect rare skins 🏆 Climb the leaderboards 🖥️ PC Controls: Shoot — M1 Aim — M2 Slide — C / Ctrl 🎮 Controller: Shoot — R2 Aim — L2 Slide — B / ○ 📱 Mobile Controls: on-screen buttons Hold the Shoot button to aim, release to shoot 👍 Leave a like for more Updates! 🐛 Found a bug? Report it in the group or Community Server for rewards!
+## Q45 · [UPD] Aura Dance Battles 🔥 (universe 10764533320)
+Charts today: Top Earning #151 | Age: 40 days | Genre: Party & Casual / Minigame | Max players: 14
+Creator: Group "Is It This Easy?" | Visits 28.5M | Favorites 85.4K | Likes 89% of 77.6K votes | Updated 2026-10-08
+Game passes (9): Infinite Tomatoes 99; VIP  99; 2x Votes Permanent 59; OP Aura 54; Limited Time Emote! 49; Limited Time Emote 2! 39; 2x Coins 19; 2x Cheer 19; Starter Pack 14
+Developer products (9): Coin Pack 1 9; Coin Pack 2 39; Coin Pack 3 99; Dance Next! 5; Coin Pack 4 219; Coin Pack 5 399; Slip Dancer  7; Freeze Dancer  7; Inferno Aura 54
+Badges: 0 | Page media: 5 images, 1 videos
+Description: 👑 Aura Dance Battles Build up your AURA, flex your best moves, and prove you’ve got the most aura in the entire server. 🔥 ⚡ Face off in 1v1 Aura Battles 🕺 Unlock and equip brand-new aura moves 🗳️ Vote and let players decide who has the best aura 🏆 Win tournaments and rise as the Aura King ✨ Collect rare auras, emotes, and cosmetics 💎 Earn rewards and climb your way up the leaderboards 👑 Make it through the bracket and take the crown! Think you have enough aura to reach #1? 😈 ⭐ Favorite the game to stay tuned for future updates!
