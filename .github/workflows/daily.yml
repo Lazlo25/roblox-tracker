@@ -1,11 +1,14 @@
 name: Daily snapshot
 
-# Started at 3 PM Eastern by an external timer (cron-job.org) through the Run workflow button's API; GitHub's own
-# schedule below is only a late backstop, because it can lag by hours on small repos.
+# Started at 1 PM Eastern by a Claude cloud routine that pushes trigger/daily.txt (push events start reliably);
+# GitHub's own schedule below is only a backstop, because it can lag by hours on small repos.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['trigger/daily.txt']
   schedule:
-    - cron: '30 20,21 * * *'
+    - cron: '30 17,18 * * *'
 
 permissions:
   contents: write
@@ -28,13 +31,13 @@ jobs:
           echo "date=$D" >> "$GITHUB_OUTPUT"
           echo "prev=$(TZ=America/New_York date -d "$D -1 day" +%F)" >> "$GITHUB_OUTPUT"
           if [ -f "db-copy/days/$D.json" ]; then echo "done=1" >> "$GITHUB_OUTPUT"; echo "Already recorded for $D"; fi
-          if [ "$(TZ=America/New_York date +%H)" -lt 15 ]; then echo "early=1" >> "$GITHUB_OUTPUT"; echo "Before 3 PM Eastern: nothing to do"; fi
+          if [ "$(TZ=America/New_York date +%H)" -lt 13 ]; then echo "early=1" >> "$GITHUB_OUTPUT"; echo "Before 1 PM Eastern: nothing to do"; fi
 
       - name: Install Pillow (contact sheets)
         if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
         run: pip install --quiet pillow
 
-      - name: Snapshot the public charts (18+ titles are added at 4 PM by the local task)
+      - name: Snapshot the public charts (18+ titles are added at 2 PM by the local task)
         if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'
         run: python3 tracker.py prepare --dump db-copy --out "db-copy/days/${{ steps.day.outputs.date }}.json" --date "${{ steps.day.outputs.date }}"
 

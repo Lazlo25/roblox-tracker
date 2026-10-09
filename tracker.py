@@ -356,7 +356,7 @@ def cmd_refresh(a):
 
 
 def cmd_patch18(a):
-    """Add the signed-in-only (18+) titles to a day recorded from the public 3 PM charts, at the positions the browser reports."""
+    """Add the signed-in-only (18+) titles to a day recorded from the public 1 PM charts, at the positions the browser reports."""
     doc = next((d for d in load_days(a.dump) if d['date'] == a.date), None)
     if doc is None or 'u' not in doc:
         sys.exit('NO DAY DOCUMENT for %s in %s' % (a.date, a.dump))
@@ -370,7 +370,7 @@ def cmd_patch18(a):
         if mode == 'f':  # a full signed-in list: titles absent from the public list are the signed-in-only ones
             ids = payload.split(',') if payload else []
             restricted |= set(ids) - set(pub[key])
-        else:  # only the signed-in-only titles, with their positions now; slot them into the 3 PM public list
+        else:  # only the signed-in-only titles, with their positions now; slot them into the 1 PM public list
             extra = sorted((int(p), u) for p, u in (x.split('.') for x in payload.split(';') if x))
             moved = {u for _, u in extra}
             ids = [u for u in pub[key] if u not in moved]
