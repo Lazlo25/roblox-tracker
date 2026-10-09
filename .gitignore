@@ -1,0 +1,6 @@
+work/*/img/
+__pycache__/
+*.tmp
+work_collect_log.txt
+.DS_Store
+work/*/sheet_*.jpg

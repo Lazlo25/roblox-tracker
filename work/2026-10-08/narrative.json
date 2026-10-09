@@ -1,0 +1,113 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "The top of Most Popular is led by Steal An Egg (75 days old) alongside multi-year evergreens like Brookhaven, Murder Mystery 2, 99 Nights in the Forest and RIVALS.",
+        "Movement was large below the top: Swing For Eggs (+24), Guess The Song (+19) and Sarab (+18) rose while Steal A Car, +1 Strength for Eggs and Search For The Needle each fell 24-29 places.",
+        "Seven games entered and seven left; new arrivals are mostly young (14-59 days) job sims, steal/egg titles and survival games, plus Dress Designer at 14 days.",
+        "By age, games past a year still hold the best median pillar percentile (62), while 4-12 month games sit at 36, which keeps the mid-life trough idea alive."
+      ],
+      "patterns": [
+        "Higher-priced game passes (median above 149 Robux) tend to go with higher positions (H-mp-001, 63%), though established studios likely explain part of it.",
+        "All-caps titles tend to sit lower (H-mp-002, 64%), and titles asking for likes ('cta_like') also skew lower, which may mark low-effort clones.",
+        "Solo loops tend to hold lower positions than social ones (H-mp-003 strengthened to 59%); combat PvP and roleplay loops have the best median percentiles among profiled games.",
+        "A higher favorite rate per visit goes with lower positions, likely because huge evergreens accumulate visits far faster than favorites; this is a new hypothesis today."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "A 75-day template game at the very top, against the evergreen pattern; template breakouts can briefly beat veterans."},
+        {"name": "RUNAWAYS [beta]", "note": "Popular, well-liked and well-monetized but fell 29 places, likely a gap between updates (last update 6 days ago)."}
+      ],
+      "takeaways": [
+        {"text": "Holding a top spot may depend more on a lasting social loop (PvP or roleplay) than on a viral template; templates rise fast and fall fast.", "confidence": 42},
+        {"text": "Pass prices like an established game (most above 149 Robux) tend to go with higher positions, though studio maturity may explain much of it.", "confidence": 55},
+        {"text": "A template launch may fade between months 4 and 12 unless it adds a lasting hook.", "confidence": 35}
+      ]
+    },
+    "te": {
+      "observations": [
+        "The chart held 497 games with no entries or exits recorded today, so today's signal is about efficiency, not movement.",
+        "Donation and social-spending games again top efficiency (Donation Central, Summer Donations, Simple DONATIONS), along with prison and army roleplay and a party game.",
+        "The weakest efficiency comes from big-CCU games (Fish It!, Realistic Street Soccer) and young breakouts (Peel THE Potato, Makeup Mania at 13-17 days).",
+        "Games under 6 weeks old sit at the 19th efficiency percentile versus 57th past a year, the clearest lifecycle gap in the data."
+      ],
+      "patterns": [
+        "Complexity strengthened today (rho +0.38 among 112 profiled games, H-te-013 now 67%): studio-scale games tend to earn more per player.",
+        "Pet/egg, '+1' and anime-themed games tend to earn a lower position for their CCU (all at 68%); 'Egg' (r -0.51) and 'Steal' (r -0.41) titles are the weakest keywords.",
+        "Live-ops signals (bracket tags, redeem codes, longer descriptions) consistently-ish go with better efficiency but are near the 70% threshold, not past it.",
+        "RPG and tower defense loops lead profiled efficiency; tower defense's median percentile is 91 but on only 2 games."
+      ],
+      "outliers": [
+        {"name": "[CURE] Violence District", "note": "A large asymmetric horror game with high CCU and only cheap currency packs plus one VIP pass; it breaks the 'older is more efficient' rule, likely because its spending ladder is thin."},
+        {"name": "Fish It!", "note": "Huge CCU and 269 products but the weakest efficiency; sheer player count inflates the denominator."}
+      ],
+      "takeaways": [
+        {"text": "Depth tends to earn more per player: RPG progression, tower defense and competitive cosmetics beat template simulators on efficiency.", "confidence": 55},
+        {"text": "Price most developer products above 79 Robux and offer at least one premium item above 999 Robux; cheap impulse ladders alone may cap revenue per player.", "confidence": 50},
+        {"text": "Judge a new game's earning power after about day 43, not in its first month; monetization tends to lag popularity.", "confidence": 50},
+        {"text": "Treat efficiency extremes below about 1,000 CCU with caution because of the single daily CCU snapshot.", "confidence": 40}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Top Trending turned over heavily: 34 entries and 35 exits, the biggest churn so far.",
+        "Among games under 4 months, Lift Rock For Eggs (11 days, +52), Steal From The Rich! (+48) and Peel THE Potato (+35) gained most.",
+        "Many entries are old party or obby games resurfacing: Would You Rather Cartoons Tower (6+ years old, +52), Clone Engine (844 days), Mingle Carousel, Shrink Hide & Seek and Jump Clicker.",
+        "+1 Strength for Eggs fell 62 places and Steal A Car 36, so the '+1' and steal waves are cooling on this chart."
+      ],
+      "patterns": [
+        "Party formats dominate today's entries: 1v1 table duels (Guess My Game, Spot and Paint, Hide In Pixels), would-you-rather towers and hide-and-seek variants.",
+        "Young games with a page video and verified creators climbed more slowly today (within-age effects -0.53 and -0.38), but q-values are high, so this may be noise or a sign that polished studio launches peak earlier.",
+        "Co-op loops may climb faster than solo or PvP ones (r +0.31), consistent with H-tt-008 (55%).",
+        "Upgrade-heavy and tycoon-money mechanics may slow momentum, echoing the '+1' slump."
+      ],
+      "outliers": [
+        {"name": "Would You Rather: Cartoons Tower", "note": "A 2487-day-old game jumped +52, showing old party games can be re-surfaced, likely by recommendation shifts or creator video coverage."},
+        {"name": "Lift Rock For Eggs", "note": "A solo egg-hatching loop with the best momentum, a counter-example to the social-loop pattern."}
+      ],
+      "takeaways": [
+        {"text": "One clear hook stated briefly may help a new game place higher; shorter descriptions tend to go with higher positions.", "confidence": 45},
+        {"text": "Short-session party duels may be the current momentum format, but that is speculative after one day of entries.", "confidence": 25},
+        {"text": "Momentum may peak in weeks 3 to 6, so plan the first big update before about day 40.", "confidence": 35}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Huss Valley (38 days), Get Your Driver's License! (9 days) and Peel THE Potato lead, with Sarab, Guess My Game and Firefighting Sim close behind.",
+        "16 games entered, including 2 Player Pizza Tycoon, Cut all the Grass!, Hide In Pixels, Makeup Frenzy (4 days old) and Rope an Animal.",
+        "Melt All The Ice (+33) and Film Animals (+24) rose; Swim For Eggs, Climb For Animals Eggs, Country Battles and Board Of Hell fell 24-37 places.",
+        "Games 14 days or younger hold a median percentile of 71 versus 49 for 15-42 days."
+      ],
+      "patterns": [
+        "'+1' incremental games rank lowest (r -0.69, H-uc-003 now 61%), the strongest single effect on this chart.",
+        "Social play tends to beat solo loops among same-age games (H-uc-007 strengthened to 60%), with co-op the strongest social mode.",
+        "Character-art thumbnails may beat gameplay screenshots (within-age +0.35); added as a testable hypothesis today.",
+        "Recently updated games rank higher (rho -0.37 on days since update), also added for testing; reverse cause is possible since rising games update more.",
+        "Chore and real-life job framings (cut the grass, peel the potato, driver's license, firefighting) keep placing high, supporting H-uc-009 (57%)."
+      ],
+      "outliers": [
+        {"name": "Get Your Driver's License!", "note": "Second place with a 42% like ratio; the concept and novelty seem to matter more than reception early on."},
+        {"name": "Clone to Steal Eggs", "note": "A 97%-liked steal/egg game near the bottom, showing the steal template no longer guarantees a breakout."}
+      ],
+      "takeaways": [
+        {"text": "Avoid the '+1' incremental template for a breakout; it tends to rank lowest.", "confidence": 60},
+        {"text": "A social (especially co-op) loop tends to place higher than a solo one of the same age.", "confidence": 55},
+        {"text": "Mundane chores and real-life jobs may be an under-served niche for breakouts.", "confidence": 40},
+        {"text": "Character-art thumbnails may outperform gameplay screenshots; one day of data, so treat as speculative-to-may.", "confidence": 30}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The steal/egg template remains a popularity engine rather than a monetization engine: 'Egg' r=-0.51 and 'Steal' r=-0.41 on Top Earning efficiency while still filling Up-and-Coming, though several steal/egg games fell sharply today.",
+      "Complexity is the clearest cross-chart positive: +0.38 on Top Earning efficiency and +0.22 on Up-and-Coming.",
+      "Bracket tags still flip sign: helpful on Top Earning (+0.21), harmful on Top Trending (-0.26) and Up-and-Coming (-0.25), marking mature live-ops games rather than a breakout tool.",
+      "Page video goes with weaker momentum on both Top Trending (-0.41) and Up-and-Coming (-0.25); this may reflect studio launches that peak early, and needs more days.",
+      "Data is still thin: 3-4 days per chart, so most hypotheses sit between 50% and 68% and none has crossed 70%."
+    ],
+    "progressions": [
+      "Real chart entries since tracking began: Top Trending 45, Up-and-Coming 26, Top Earning 22, Most Popular 13.",
+      "Entries by games already on another chart: Top Trending to Most Popular 10 (median 2 days), Up-and-Coming to Top Trending 9 (1 day), Top Earning to Top Trending 7 (2 days), Top Earning to Up-and-Coming 6 (3 days), Up-and-Coming to Top Earning 6 (1 day), Up-and-Coming to Most Popular 5 (1 day).",
+      "The Up-and-Coming to Top Trending to Most Popular path is the most common so far, but Top Earning is often reached early too, so the order is not strict."
+    ]
+  }
+}

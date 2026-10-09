@@ -1,0 +1,24 @@
+{
+  "new": [
+    {"chart": "te", "statement": "Survival-genre games earn a lower Top Earning position for their CCU than other genres",
+     "test": {"feature": "genre=Survival", "metric": "te_eff", "type": "binary", "direction": "-"}},
+    {"chart": "tt", "statement": "Young games that sell currency packs climb Top Trending faster than those that don't",
+     "action": "Sell currency packs from launch",
+     "test": {"feature": "prod_currency", "metric": "tt_mom", "type": "binary", "direction": "+"}},
+    {"chart": "tt", "statement": "PvP loops climb Top Trending more slowly than other young games of similar age",
+     "action": "Launch co-op or party, not PvP",
+     "test": {"feature": "social=pvp", "metric": "tt_mom", "type": "binary", "direction": "-"}},
+    {"chart": "mp", "statement": "Games whose median developer product costs more than 79 Robux stay on Most Popular longer",
+     "action": "Price most dev products above 79 R$",
+     "test": {"feature": "products_median_price", "metric": "mp_days", "type": "threshold", "cut": 79, "direction": "+"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Duel-pad first-person shooters (Sniper Duels, Murder Duels, Deagle Arena, RIVALS) form a durable sub-genre that holds both Most Popular and Top Earning with skin-and-trade economies instead of passes",
+     "rationale": "Today's profiling found four duel-pad FPS games with zero or few passes and large currency/skin product lists, each on Top Earning or Most Popular. Needs a loop/feature tag for duel pads and several weeks of presence data to confirm."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-001", "confidence": 40, "note": "Cross-chart entries keep the order: uc->tt (17, median 2d) and uc->te (10, 1d) lead, and tt->mp (10, 2d) remains the main road into Most Popular."},
+    {"id": "H-te-019", "confidence": 45, "note": "Today every game's CCU came from a single snapshot (the hourly file had under 6 hours of readings), so efficiency extremes below ~1,000 CCU again rest on one reading."}
+  ],
+  "actions": [],
+  "retire": []
+}

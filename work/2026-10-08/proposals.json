@@ -1,0 +1,278 @@
+{
+ "new": [
+  {
+   "chart": "uc",
+   "statement": "Character-art thumbnails go with higher Up-and-Coming positions than gameplay screenshots among games of the same age",
+   "test": {
+    "feature": "thumb=character_art",
+    "metric": "uc_pos",
+    "type": "binary",
+    "direction": "+",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "uc",
+   "statement": "Games updated more recently rank higher on Up-and-Coming among games of the same age",
+   "test": {
+    "feature": "days_since_update",
+    "metric": "uc_pos",
+    "type": "corr",
+    "direction": "-",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games with a page video climb Top Trending more slowly than those without",
+   "test": {
+    "feature": "has_video",
+    "metric": "tt_mom",
+    "type": "binary",
+    "direction": "-",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "te",
+   "statement": "Games with more favorites per thousand visits earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "fav_per_kvisit",
+    "metric": "te_eff",
+    "type": "corr",
+    "direction": "+"
+   }
+  },
+  {
+   "chart": "mp",
+   "statement": "A high favorite rate per visit goes with lower Most Popular positions (big evergreens convert fewer visits into favorites)",
+   "test": {
+    "feature": "fav_per_kvisit",
+    "metric": "mp_pos",
+    "type": "corr",
+    "direction": "-"
+   }
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 25,
+   "statement": "Short-session party formats (1v1 table duels, would-you-rather towers, hide-and-seek variants) are a rotating wave that re-surfaces old games on Top Trending without lifting them onto Top Earning",
+   "rationale": "Of 34 new Top Trending entries today, many are party/would-you-rather games, several 1-2 years old (Cartoons Tower 2487d, Mingle Carousel 687d, Shrink Hide & Seek 522d) and none of those are on Top Earning. Confirm if they fall off within a week and never enter Top Earning."
+  }
+ ],
+ "qualitative_updates": [
+  {
+   "id": "H-x-001",
+   "confidence": 38,
+   "note": "Entry counts grew to tt->mp 10 (median 2d), uc->tt 9 (1d), uc->te 6 (1d); the order still holds but te->tt 7 and te->uc 6 show Top Earning is often reached first too, so the sequence is not strict."
+  }
+ ],
+ "retire": [],
+ "actions": [
+  {
+   "id": "H-mp-001",
+   "action": "Price most passes above 149 R$"
+  },
+  {
+   "id": "H-mp-002",
+   "action": "Avoid all-caps titles"
+  },
+  {
+   "id": "H-mp-003",
+   "action": "Make it multiplayer, not solo"
+  },
+  {
+   "id": "H-mp-004",
+   "action": "Invest in depth and polish"
+  },
+  {
+   "id": "H-mp-005",
+   "action": "Pick an original concept over a clone"
+  },
+  {
+   "id": "H-mp-006",
+   "action": "Update often"
+  },
+  {
+   "id": "H-mp-007",
+   "action": "Use bigger servers"
+  },
+  {
+   "id": "H-mp-009",
+   "action": "Add a lasting hook before month 4"
+  },
+  {
+   "id": "H-te-001",
+   "action": "Judge revenue per player after week 6"
+  },
+  {
+   "id": "H-te-002",
+   "action": "Don't rely on pets/eggs for revenue"
+  },
+  {
+   "id": "H-te-003",
+   "action": "Don't rely on anime themes for revenue"
+  },
+  {
+   "id": "H-te-004",
+   "action": "Avoid '+1' templates for revenue"
+  },
+  {
+   "id": "H-te-005",
+   "action": "Price most dev products above 79 R$"
+  },
+  {
+   "id": "H-te-006",
+   "action": "Offer a premium pass above 999 R$"
+  },
+  {
+   "id": "H-te-007",
+   "action": "Use servers of 25+ players"
+  },
+  {
+   "id": "H-te-008",
+   "action": "Tag updates and events in the title"
+  },
+  {
+   "id": "H-te-009",
+   "action": "Post redeem codes"
+  },
+  {
+   "id": "H-te-010",
+   "action": "Build a donation/social hub"
+  },
+  {
+   "id": "H-te-011",
+   "action": "Build an RPG"
+  },
+  {
+   "id": "H-te-012",
+   "action": "Pick an original concept over a clone"
+  },
+  {
+   "id": "H-te-013",
+   "action": "Invest in depth and polish"
+  },
+  {
+   "id": "H-te-014",
+   "action": "Write a detailed description"
+  },
+  {
+   "id": "H-te-015",
+   "action": "Sell server-wide effects"
+  },
+  {
+   "id": "H-te-016",
+   "action": "Add a VIP pass"
+  },
+  {
+   "id": "H-te-017",
+   "action": "Update often"
+  },
+  {
+   "id": "H-te-020",
+   "action": "Aim for a high favorite rate"
+  },
+  {
+   "id": "H-tt-001",
+   "action": "Push hardest in the first 6 weeks"
+  },
+  {
+   "id": "H-tt-002",
+   "action": "Fast-follow a proven template"
+  },
+  {
+   "id": "H-tt-003",
+   "action": "Keep the description short"
+  },
+  {
+   "id": "H-tt-004",
+   "action": "Aim for a high like ratio"
+  },
+  {
+   "id": "H-tt-005",
+   "action": "Update often in the first weeks"
+  },
+  {
+   "id": "H-tt-006",
+   "action": "Use big-number reward thumbnails"
+  },
+  {
+   "id": "H-tt-007",
+   "action": "Skip bracket tags on a new game"
+  },
+  {
+   "id": "H-tt-008",
+   "action": "Make it multiplayer, not solo"
+  },
+  {
+   "id": "H-uc-001",
+   "action": "Use a pet/egg loop to break out"
+  },
+  {
+   "id": "H-uc-002",
+   "action": "Use a steal-a-X loop to break out"
+  },
+  {
+   "id": "H-uc-003",
+   "action": "Avoid '+1' incrementals"
+  },
+  {
+   "id": "H-uc-004",
+   "action": "Use a plain, descriptive title"
+  },
+  {
+   "id": "H-uc-006",
+   "action": "Aim for a high like ratio"
+  },
+  {
+   "id": "H-uc-007",
+   "action": "Make it multiplayer, not solo"
+  },
+  {
+   "id": "H-uc-008",
+   "action": "Add achievement badges"
+  },
+  {
+   "id": "H-uc-009",
+   "action": "Try an everyday-job sim"
+  },
+  {
+   "id": "H-uc-010",
+   "action": "Use big-number reward thumbnails"
+  },
+  {
+   "id": "H-uc-011",
+   "action": "Use character art over screenshots"
+  },
+  {
+   "id": "H-uc-012",
+   "action": "Update often in the first weeks"
+  },
+  {
+   "id": "H-x-002",
+   "action": "Use templates for reach, depth for revenue"
+  },
+  {
+   "id": "H-x-003",
+   "action": "Don't judge monetization in month one"
+  },
+  {
+   "id": "H-x-004",
+   "action": "Have monetization ready by week 3"
+  },
+  {
+   "id": "H-x-005",
+   "action": "Ride meme waves early, then move on"
+  },
+  {
+   "id": "H-x-006",
+   "action": "Try a cute job sim with a horror twist"
+  },
+  {
+   "id": "H-x-007",
+   "action": "Don't count on party formats for revenue"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "The top of Most Popular is sticky: the top 12 moved at most 4 places since yesterday, and every move of 10 or more places happened below #20.",
+        "Five of the top 11 are multi-year evergreens (Brookhaven 6.5 years, Murder Mystery 2 12.7, Adopt Me! 9.2, Jujutsu Shenanigans 4.5, Blox Fruits 7.7). The big exception is Steal An Egg: #1 at 74 days old with 988K CCU, 3.3 times Brookhaven's 301K.",
+        "Four of the five biggest risers are steal-a-X games 26 to 33 days old (Steal ASMR! +45, Steal Animal Egg +31, Steal A Car +23, Break and Steal an Egg +13). The fifth is Blade Ball (+18), a 3.3-year-old game.",
+        "By age, games over a year old (median pillar percentile 55) and 6-to-12-week-old hits (54) outrank games aged 4 to 12 months (40), which suggests a mid-life trough for games that never became evergreens.",
+        "Among profiled games, PvP combat (11 games, median percentile 80) and social roleplay (6 games, 82) sit highest; party and minigame games (3 games, 19) sit lowest."
+      ],
+      "patterns": [
+        "Pass pricing: games whose median game pass costs more than 149 Robux hold higher positions (r=+0.40, 84 games). Cheap 9-99 Robux pass ladders are a hallmark of template games, so this likely reflects studio maturity more than price itself.",
+        "Titles: 'RP' (r=+0.29) and 'Steal' (r=+0.28) titles rank higher; all-caps titles rank lower (12 games, r=-0.36).",
+        "Thumbnails: the long-running leaders use branded character art (Adopt Me!, Blox Fruits, Dandy's World, Dress To Impress). Reward-flex art with big $/s numbers appears almost only on Simulation-genre games (10 of the 12 reward-flex thumbnails among profiled Most Popular games).",
+        "Lifetime visits and favorites track position strongly (rho=+0.40), but mostly as a result of being popular rather than a cause."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "#1 at 74 days with only 2 game passes. Its verified creator group has 93.7M members, a built-in audience few developers have (a big-creator confounder)."},
+        {"name": "Tower of Hell", "note": "#14 on Most Popular but only #194 on Top Earning, with a 74% like ratio: an 8-year-old evergreen that holds players without monetizing them (2 passes, items from 9 Robux)."},
+        {"name": "Catalog Avatar Creator", "note": "#13 on Most Popular and on no other chart: a shopping utility rather than a game, earning mostly through catalog commissions."},
+        {"name": "Huss Valley", "note": "Up 4 places to #9 at 37 days old: the only game in the top 10 that is also on Up-and-Coming."}
+      ],
+      "takeaways": [
+        {"text": "Holding a top Most Popular spot may depend more on a lasting social loop (PvP or roleplay) than on a viral template: template hits rise fast, but most leaders are multi-year games.", "confidence": 40},
+        {"text": "Price game passes like an established game (most above 149 Robux) rather than as a 9-99 Robux ladder; well-priced passes tend to go with higher positions, though studio maturity may explain much of the link.", "confidence": 55},
+        {"text": "All-caps titles may signal low-effort clones and sit lower on the chart.", "confidence": 35},
+        {"text": "A template launch may fade between months 4 and 12 unless it adds a lasting hook; plan the update roadmap before launch.", "confidence": 35}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Efficiency is position x CCU (lower is better). In the top 30, Blade Ball stands out at #8 with only 17K CCU (16th most efficient of 497), followed by Gakuran (#13, 11K CCU), Kaiju Alpha (#22, 9K CCU at 51 days old), Welcome to Bloxburg (#27, 16K) and Tower Defense Simulator (#30, 10K).",
+        "Scale can buy the top spot without per-player efficiency: Steal An Egg is #1 but ranks 325th of 497 on efficiency, and Brookhaven (447th), Murder Mystery 2 (426th) and 99 Nights in the Forest (427th) sit near the bottom.",
+        "Donation hubs dominate the low-CCU end (Donation Central #231 with 241 CCU, Summer Donations, Simple DONATIONS, Forest Donations): the Social genre is the most efficient group (14 games, r=+0.47).",
+        "Efficiency rises with age: games 42 days old or younger sit at a median 22nd percentile versus 57th for games over a year old. The day's biggest climbers were all young (Survive a Million Monkeys +201 at 58 days, Anime Zero +154, dogs +148, Steal Animal Egg +146), which suggests the earning position lags behind player counts.",
+        "RPGs (37 games, r=+0.32), tower defense (r=+0.34) and more original concepts (r=+0.32 among 79 profiled games) earn more for their CCU; pet and egg games (r=-0.22), anime-themed games (r=-0.31) and '+1' titles (r=-0.28) earn less."
+      ],
+      "patterns": [
+        "Title keywords tied to efficiency: 'Defense' r=+0.30. Tied to inefficiency: 'Egg' r=-0.50, 'RP' r=-0.43, 'Steal' r=-0.42, 'Anime' r=-0.33, '+1' r=-0.28.",
+        "Live-ops signals go with efficiency: bracket tags in titles ([UPD], [🎃], [SEASON]; 276 of 497 games, r=+0.20, same direction on all 3 days), event tags (r=+0.21) and redeem codes in descriptions (r=+0.20).",
+        "Pricing: games whose median developer product costs more than 79 Robux are more efficient (r=+0.29), and a premium pass above 999 Robux helps slightly (r=+0.14). Cheap 5-49 Robux impulse ladders, typical of template simulators, go with lower efficiency.",
+        "Servers with more than 24 players go with efficiency (r=+0.23); social spaces give status purchases (donations, cosmetics, admin items) an audience.",
+        "The efficient leaders monetize in different ways: Blade Ball sells themed sword rolls (37-75 Robux) and mode tickets, Gakuran sells 3-10 Robux character rerolls, Tower Defense Simulator sells premium towers up to 7,999 Robux, and Kaiju Alpha sells 650-749 Robux monster skins with no passes.",
+        "Thumbnail style shows no measurable link to efficiency yet (reward-flex r=+0.02, 79 profiled games); the efficient leaders mostly use character art."
+      ],
+      "outliers": [
+        {"name": "Korea Army", "note": "The most efficient game by the metric (#487 with 115 CCU), but its audience is likely Korean and asleep at the 3 PM ET snapshot (about 4 AM in Seoul). Time zones can flatter regional games."},
+        {"name": "Makeup Mania! BETA [LIMITED NECKLACE]", "note": "The least efficient game (#468 with 17K CCU) at 12 days old: a fresh breakout whose revenue hasn't caught up yet. Watch whether it climbs."},
+        {"name": "Huss Valley", "note": "#38 with 94K CCU at 37 days (481st of 497 on efficiency): the month's biggest breakout earns little for its size, consistent with the age lag."},
+        {"name": "Fish It!", "note": "#80 with 71K CCU at 716 days old: age alone doesn't guarantee monetization."}
+      ],
+      "takeaways": [
+        {"text": "Original concepts with depth (RPG progression, tower defense, competitive cosmetics) tend to earn more per player than template simulators; a template game needs a progression layer worth paying for.", "confidence": 50},
+        {"text": "Price most developer products above 79 Robux and offer at least one premium item above 999 Robux; cheap impulse ladders alone may cap revenue per player.", "confidence": 45},
+        {"text": "Keep live operations visible: update and event tags in the title and redeem codes in the description tend to go with better efficiency.", "confidence": 50},
+        {"text": "Monetization may lag popularity by weeks, so judge a new game's earning power after about day 43, not in its first month.", "confidence": 45},
+        {"text": "Treat efficiency extremes below about 1,000 CCU with caution: donation hubs and regional games dominate there, and one daily CCU snapshot can mislead.", "confidence": 60}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Top Trending isn't limited to new games: four of the top five are 1.6 to 9.2 years old (99 Nights in the Forest, Adopt Me!, Jujutsu Shenanigans, Dandy's World), most with a fresh Halloween event or new content. Per the pillar, only the 58 games aged 4 months or less are scored.",
+        "Among young games, the best positions belong to Huss Valley (#2, 37 days), Ball VS Ball (#6, 56 days), Break and Steal an Egg (#7) and +1 Stone Skipping (#9).",
+        "The fastest climbers are hook-driven, and several have low approval: +9999 Speed Fast Game! +31 (68% likes, not updated in 29 days), Makeup Artist +27 (69%), Climb For Animals Eggs +23, Board Of Hell +23, Build and Kill Verity +22 and Don't press the KEY CAP +21 (68%).",
+        "Trending spots are volatile: 3-to-10-week-old games lost 22 to 28 places in a day (Motorcycle for Animals -28, Rocket Rush -26, Melt All The Ice! -23, I Can Read Your Mind -22).",
+        "By age, games 15 to 42 days old had the best momentum (median percentile 64) and games 43 to 84 days old the weakest (34). The 5 games aged 85 to 122 days scored high but are too few to judge."
+      ],
+      "patterns": [
+        "Shorter descriptions go with higher Top Trending positions among games of the same age (within-age r=-0.36): trending newcomers state one hook in a few lines.",
+        "Template games (lower novelty scores) climbed faster than original concepts (r=-0.25, 58 games), and 'Egg' titles (12% of the chart) ranked higher (r=+0.30).",
+        "Games with fewer page images ranked higher (r=-0.35), probably because the freshest games haven't built out their pages yet, not as a cause.",
+        "Recently updated games did not climb faster today (r=+0.33 the other way), against the usual advice. That's one day of data, so treat it as a hint.",
+        "Meme characters show up in titles: 'Verity' is in 3% of Top Trending titles (Build and Kill Verity +22, Steal A Verity!), alongside brainrot and egg variants."
+      ],
+      "outliers": [
+        {"name": "+9999 Speed Fast Game!", "note": "The biggest climber (+31) despite a 68% like ratio, 50 game passes and no update in 29 days: an extreme-number hook can trend without approval or updates."},
+        {"name": "Get Your Driver's License!", "note": "+18 to #20 at 8 days old with only 46% likes: a mundane real-life task framed as a challenge may draw curiosity clicks."},
+        {"name": "Color My Flag", "note": "#12 with a 51% like ratio: wide reach with poor approval suggests a polarizing or troll-friendly concept."}
+      ],
+      "takeaways": [
+        {"text": "For a new game, one clear hook stated in a short description may help it place higher on Top Trending.", "confidence": 45},
+        {"text": "Fast-follow templates (egg, steal, +1 variants) may climb faster than original ideas in the first weeks, but the Top Earning data suggests they monetize worse.", "confidence": 40},
+        {"text": "Speculative: like ratio and momentum look unrelated so far, so the hook may matter more than polish at this stage.", "confidence": 25},
+        {"text": "Momentum may peak in weeks 3 to 6, so plan the first big update before about day 40.", "confidence": 35}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Up-and-Coming is a young chart: 58 of 67 games are 6 weeks old or younger, and only Pet Store Tycoon (123 days) is older than 4 months.",
+        "Steal and egg variants hold 5 of the top 10 spots (Steal An EXE Egg!, Break and Steal an Egg, Steal Animal Egg, Don't Steal My Eggs!, Steal ASMR!). 'Egg' appears in 21% of titles and 'Steal' in 13%.",
+        "Huss Valley leads at 37 days with 94K CCU, followed by two job sims: Get Your Driver's License! (8 days) and Firefighting Sim (15 days).",
+        "'+1' games are slipping: the 7 '+1' titles sit lower (r=-0.51), and +1 Climb Obby Escape (-31), +1 Roll Ice Cream (-21) and +1 Strength for Eggs (-11) all fell.",
+        "The biggest risers were Bunker vs Verity +35, Don't Steal My Eggs! +34, Drive A Tuk Tuk +28, Sniper VS 99 Players +19 and Smash the City +18. Games 14 days old or younger sit at a median 63rd percentile, versus 45th for games 15 to 42 days old."
+      ],
+      "patterns": [
+        "Pet and egg mechanics go with higher positions among games of the same age (within-age r=+0.38, 19 games).",
+        "Bracket tags go with lower positions among games of the same age (within-age r=-0.40): breakouts usually carry plain, descriptive names.",
+        "Everyday job simulations are an emerging cluster (Get Your Driver's License!, Firefighting Sim, Deliver The Baby, Don't Miss The Train!, Dress Designer, Sell Fries! [Anomaly]), with like ratios ranging from 46% to 92%.",
+        "Solo loops rank lower than social ones among games of the same age (within-age r=-0.29), and games with more badges rank somewhat higher (within-age r=+0.27).",
+        "Reward-flex thumbnails (big $/s numbers, rare eggs) lean toward higher positions (within-age r=+0.23, profiled games only)."
+      ],
+      "outliers": [
+        {"name": "Get Your Driver's License!", "note": "#2 at 8 days old despite a 46% like ratio: reach without approval, likely curiosity about a real-life task."},
+        {"name": "Huss Valley", "note": "#1 with 94K CCU, enough for #9 on Most Popular: it has effectively graduated from this chart."},
+        {"name": "Pet Store Tycoon", "note": "The only game over 4 months old (123 days), up 3 places to #15 after jumping 91 places on Top Earning: a late bloomer."},
+        {"name": "Bunker vs Verity", "note": "The biggest riser (+35) at 15 days with 79% likes: a tower-defense take on the Verity meme."}
+      ],
+      "takeaways": [
+        {"text": "To break out, a proven pet or egg template may place higher than a '+1' incremental, which looks saturated.", "confidence": 45},
+        {"text": "A plain title that states the concept may outperform one with bracket tags at this stage.", "confidence": 40},
+        {"text": "Mundane real-life jobs (driving tests, firefighting, deliveries) may be an under-served niche: several reached the top 40 within 2 weeks.", "confidence": 35},
+        {"text": "Social play (co-op or PvP) may beat a solo loop among same-age games.", "confidence": 35}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The steal/egg template is a popularity engine, not a monetization engine: it fills Up-and-Coming and the Most Popular risers but sits low on Top Earning efficiency ('Egg' r=-0.50, 'Steal' r=-0.42).",
+      "Bracket tags flip sign by chart: they go with efficient monetization on Top Earning (r=+0.20) but lower Up-and-Coming positions (r=-0.33). They mark live operations in mature games rather than a breakout tool.",
+      "Description length flips too: longer descriptions go with Top Earning efficiency (r=+0.23) but lower Top Trending positions (r=-0.32), matching mature games versus one-hook newcomers.",
+      "Lifecycle: breakout charts favor the newest games while monetization efficiency rises steadily with age (22nd percentile under 6 weeks, 57th past a year). Survivorship is a confounder.",
+      "Seven games are on all four charts, all 21 to 37 days old (Huss Valley, Break and Steal an Egg, +1 Stone Skipping, Steal Animal Egg, Drill for Eggs, Steal ASMR!, Steal A Car), so weeks 3 to 5 look like the window when a breakout touches every chart."
+    ],
+    "progressions": [
+      "Real chart entries since tracking began: Top Earning 22, Top Trending 12, Up-and-Coming 10, Most Popular 7.",
+      "Entries by games already on another chart: Up-and-Coming to Top Earning 6 (1 day later), Top Trending to Most Popular 5 (1 day), Up-and-Coming to Top Trending 5 (1 day), Top Earning to Top Trending 4 (2 days), Most Popular to Top Trending 3, Top Earning to Most Popular 3, Top Trending to Top Earning 3, Up-and-Coming to Most Popular 2.",
+      "Early read: new games appear on Up-and-Coming, reach Top Earning and Top Trending within a day, and enter Most Popular mostly from Top Trending. That's only 2 days of entries, so it needs weeks to confirm."
+    ]
+  }
+}

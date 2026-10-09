@@ -1,0 +1,2376 @@
+[
+ {
+  "id": "H-mp-001",
+  "chart": "mp",
+  "statement": "Games whose median game pass costs more than 149 Robux hold higher Most Popular positions",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 62
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 63
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 63
+   }
+  ],
+  "test": {
+   "feature": "passes_median_price",
+   "metric": "mp_pos",
+   "type": "threshold",
+   "cut": 149,
+   "direction": "+"
+  },
+  "confidence": 63,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.407,
+   "p": 0.0017,
+   "n": 88,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "RUNAWAYS [beta]",
+    "BedWars [🎣RERELEASE🪤]",
+    "+1 Strength for Eggs"
+   ]
+  },
+  "action": "Price most passes above 149 R$"
+ },
+ {
+  "id": "H-mp-002",
+  "chart": "mp",
+  "statement": "All-caps titles sit lower on Most Popular",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 63
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 64
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 65
+   }
+  ],
+  "test": {
+   "feature": "title_caps_heavy",
+   "metric": "mp_pos",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 65,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.453,
+   "p": 0.0147,
+   "n": 100,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "RIVALS"
+   ]
+  },
+  "action": "Avoid all-caps titles"
+ },
+ {
+  "id": "H-mp-003",
+  "chart": "mp",
+  "statement": "Solo loops hold lower Most Popular positions than games built around playing with or against others",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 53
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 58
+   }
+  ],
+  "test": {
+   "feature": "social=solo",
+   "metric": "mp_pos",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 58,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.15,
+   "p": 0.3715,
+   "n": 99,
+   "days": 4,
+   "consistency": 0.75,
+   "creator_robust": true,
+   "counterexamples": [
+    "[⌛] Ride A Pet",
+    "Catalog Avatar Creator"
+   ]
+  },
+  "action": "Make it multiplayer, not solo"
+ },
+ {
+  "id": "H-mp-004",
+  "chart": "mp",
+  "statement": "More complex, studio-scale games reach higher peak positions on Most Popular",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 54
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 56
+   }
+  ],
+  "test": {
+   "feature": "complexity",
+   "metric": "mp_peak",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 56,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.066,
+   "p": 0.5039,
+   "n": 103,
+   "days": 0,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Invest in depth and polish"
+ },
+ {
+  "id": "H-mp-005",
+  "chart": "mp",
+  "statement": "Original concepts stay on Most Popular longer than template games",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 49
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 51
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 44
+   }
+  ],
+  "test": {
+   "feature": "novelty",
+   "metric": "mp_days",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 44,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.067,
+   "p": 0.4988,
+   "n": 103,
+   "days": 0,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Pick an original concept over a clone"
+ },
+ {
+  "id": "H-mp-006",
+  "chart": "mp",
+  "statement": "Recently updated games hold higher Most Popular positions",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 49
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 53
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 50
+   }
+  ],
+  "test": {
+   "feature": "days_since_update",
+   "metric": "mp_pos",
+   "type": "corr",
+   "direction": "-"
+  },
+  "confidence": 50,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.003,
+   "p": 0.9745,
+   "n": 100,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Update often"
+ },
+ {
+  "id": "H-mp-007",
+  "chart": "mp",
+  "statement": "Bigger servers go with higher Most Popular positions",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 61
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 59
+   }
+  ],
+  "test": {
+   "feature": "max_players",
+   "metric": "mp_pos",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 59,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.086,
+   "p": 0.3911,
+   "n": 100,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Use bigger servers"
+ },
+ {
+  "id": "H-mp-008",
+  "chart": "mp",
+  "statement": "The top of Most Popular is sticky: the top 12 rarely move more than a few places a day, and real competition happens below #20",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 40
+   }
+  ],
+  "confidence": 40,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Today the top 12 moved at most 4 places (Huss Valley +4) while every move of 10 or more places happened below #20. Needs weeks of daily moves to confirm."
+  }
+ },
+ {
+  "id": "H-mp-009",
+  "chart": "mp",
+  "statement": "Games aged 4 to 12 months hit a mid-life trough: they rank below both 6-to-12-week hits and multi-year evergreens",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 35
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 35
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 35
+   }
+  ],
+  "confidence": 35,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Median pillar percentile by age today: 43-84 days 54, 123-365 days 40, over a year 55. Survivorship (only lasting games reach old age) may explain part of it."
+  },
+  "action": "Add a lasting hook before month 4"
+ },
+ {
+  "id": "H-te-001",
+  "chart": "te",
+  "statement": "Games older than 6 weeks earn a higher Top Earning position for their CCU than newer games",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "age_days",
+   "metric": "te_eff",
+   "type": "threshold",
+   "cut": 43,
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.434,
+   "p": 0.0,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Realistic Street Soccer",
+    "[CURE] Violence District",
+    "[🦑UPD] Fish It! 🐟"
+   ]
+  },
+  "action": "Judge revenue per player after week 6"
+ },
+ {
+  "id": "H-te-002",
+  "chart": "te",
+  "statement": "Pet and egg games earn a lower position for their CCU",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "mech_pets_eggs",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.24,
+   "p": 0.0019,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "[🎵🎶🎵!] Dinosaur Simulator",
+    "[💥BATTLES] SCP & Siren Head Roleplay",
+    "[⭐SZN 10] Dragon Adventures 🐉"
+   ]
+  },
+  "action": "Don't rely on pets/eggs for revenue"
+ },
+ {
+  "id": "H-te-003",
+  "chart": "te",
+  "statement": "Anime-themed games earn a lower position for their CCU",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "mech_anime",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.289,
+   "p": 0.0044,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "World // Zero ⚔️ Anime RPG"
+   ]
+  },
+  "action": "Don't rely on anime themes for revenue"
+ },
+ {
+  "id": "H-te-004",
+  "chart": "te",
+  "statement": "'+1' titles earn a lower position for their CCU",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 68
+   }
+  ],
+  "test": {
+   "feature": "title_plus1",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 68,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.254,
+   "p": 0.0396,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "[2x Luck & +1 DROP] Dungeon Quest Reborn"
+   ]
+  },
+  "action": "Avoid '+1' templates for revenue"
+ },
+ {
+  "id": "H-te-005",
+  "chart": "te",
+  "statement": "Games whose median developer product costs more than 79 Robux monetize more efficiently",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "products_median_price",
+   "metric": "te_eff",
+   "type": "threshold",
+   "cut": 79,
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.34,
+   "p": 0.0001,
+   "n": 490,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Firefighting Sim 🚒",
+    "Realistic Street Soccer",
+    "[CURE] Violence District"
+   ]
+  },
+  "action": "Price most dev products above 79 R$"
+ },
+ {
+  "id": "H-te-006",
+  "chart": "te",
+  "statement": "Having a premium game pass priced above 999 Robux goes with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 68
+   }
+  ],
+  "test": {
+   "feature": "passes_max_price",
+   "metric": "te_eff",
+   "type": "threshold",
+   "cut": 999,
+   "direction": "+"
+  },
+  "confidence": 68,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.134,
+   "p": 0.0252,
+   "n": 443,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Firefighting Sim 🚒",
+    "TROLL Hug Tower",
+    "Huss Valley"
+   ]
+  },
+  "action": "Offer a premium pass above 999 R$"
+ },
+ {
+  "id": "H-te-007",
+  "chart": "te",
+  "statement": "Servers with more than 24 players go with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "max_players",
+   "metric": "te_eff",
+   "type": "threshold",
+   "cut": 24,
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.22,
+   "p": 0.0001,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Fling Things and People",
+    "Berry Avenue 🏠 RP",
+    "🎥My Movie"
+   ]
+  },
+  "action": "Use servers of 25+ players"
+ },
+ {
+  "id": "H-te-008",
+  "chart": "te",
+  "statement": "A bracket tag in the title (update, event or season) goes with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "title_bracket_tag",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.238,
+   "p": 0.0,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Makeup Mania! BETA [LASH TECH UPDATE]",
+    "[CURE] Violence District",
+    "[🦑UPD] Fish It! 🐟"
+   ]
+  },
+  "action": "Tag updates and events in the title"
+ },
+ {
+  "id": "H-te-009",
+  "chart": "te",
+  "statement": "Games that post redeem codes monetize more efficiently",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "mech_codes",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.209,
+   "p": 0.0014,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "[OVERCLOCK] Anime Astral Simulator",
+    "Survive a Million Monkeys",
+    "[🦑] Squid Game X"
+   ]
+  },
+  "action": "Post redeem codes"
+ },
+ {
+  "id": "H-te-010",
+  "chart": "te",
+  "statement": "Donation and social-spending games (Social genre) are the most efficient monetizers",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "genre=Social",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.487,
+   "p": 0.0019,
+   "n": 494,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Neighbors 🔊"
+   ]
+  },
+  "action": "Build a donation/social hub"
+ },
+ {
+  "id": "H-te-011",
+  "chart": "te",
+  "statement": "RPGs earn a higher position for their CCU than other genres",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "genre=RPG",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.372,
+   "p": 0.0002,
+   "n": 494,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Anime Zero [SHADOW MONARCH] 🦋👑"
+   ]
+  },
+  "action": "Build an RPG"
+ },
+ {
+  "id": "H-te-012",
+  "chart": "te",
+  "statement": "Original concepts monetize more efficiently than template clones",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 61
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 58
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 51
+   }
+  ],
+  "test": {
+   "feature": "novelty",
+   "metric": "te_eff",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 51,
+  "status": "Weakened",
+  "evidence": {
+   "effect": 0.009,
+   "p": 0.9115,
+   "n": 157,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": false,
+   "counterexamples": []
+  },
+  "action": "Pick an original concept over a clone"
+ },
+ {
+  "id": "H-te-013",
+  "chart": "te",
+  "statement": "More complex, studio-scale games monetize more efficiently",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 61
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "complexity",
+   "metric": "te_eff",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.343,
+   "p": 0.0,
+   "n": 157,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Invest in depth and polish"
+ },
+ {
+  "id": "H-te-014",
+  "chart": "te",
+  "statement": "Longer, more detailed descriptions go with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 67
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "desc_len_log",
+   "metric": "te_eff",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.198,
+   "p": 0.0,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Write a detailed description"
+ },
+ {
+  "id": "H-te-015",
+  "chart": "te",
+  "statement": "Selling server-wide effects (nukes, global luck, admin abuse) goes with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 39
+   }
+  ],
+  "test": {
+   "feature": "prod_server_wide",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 39,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.11,
+   "p": 0.0557,
+   "n": 495,
+   "days": 5,
+   "consistency": 0.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Firefighting Sim 🚒",
+    "[🦑UPD] Fish It! 🐟",
+    "Berry Avenue 🏠 RP"
+   ]
+  },
+  "action": "Sell server-wide effects"
+ },
+ {
+  "id": "H-te-016",
+  "chart": "te",
+  "statement": "A VIP game pass goes with higher monetization efficiency",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 43
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 42
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 44
+   }
+  ],
+  "test": {
+   "feature": "pass_vip",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 44,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": -0.035,
+   "p": 0.507,
+   "n": 495,
+   "days": 5,
+   "consistency": 0.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Makeup Mania! BETA [LASH TECH UPDATE]",
+    "Realistic Street Soccer",
+    "[🦑UPD] Fish It! 🐟"
+   ]
+  },
+  "action": "Add a VIP pass"
+ },
+ {
+  "id": "H-te-017",
+  "chart": "te",
+  "statement": "Recently updated games monetize more efficiently",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 46
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 53
+   }
+  ],
+  "test": {
+   "feature": "days_since_update",
+   "metric": "te_eff",
+   "type": "corr",
+   "direction": "-"
+  },
+  "confidence": 53,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": -0.01,
+   "p": 0.8157,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Update often"
+ },
+ {
+  "id": "H-te-018",
+  "chart": "te",
+  "statement": "Top Earning position lags popularity: young breakouts climb 100+ places a day as revenue catches up with players",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 45
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 45
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 45
+   }
+  ],
+  "confidence": 45,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Today's biggest climbers were all 26-83 days old (+201, +154, +148, +146, +135). If the lag is real, a game's efficiency should keep improving through its second month."
+  }
+ },
+ {
+  "id": "H-te-019",
+  "chart": "te",
+  "statement": "A single 3 PM ET CCU snapshot flatters games whose players live in other time zones, so efficiency extremes below about 1,000 CCU are unreliable",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 40
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 45
+   }
+  ],
+  "confidence": 45,
+  "status": "Strengthened",
+  "evidence": {
+   "rationale": "Today every game's CCU came from a single snapshot (the hourly file had under 6 hours of readings), so efficiency extremes below ~1,000 CCU again rest on one reading."
+  }
+ },
+ {
+  "id": "H-tt-001",
+  "chart": "tt",
+  "statement": "Young games older than 6 weeks climb Top Trending more slowly",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 54
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 55
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 55
+   }
+  ],
+  "test": {
+   "feature": "age_days",
+   "metric": "tt_mom",
+   "type": "threshold",
+   "cut": 42,
+   "direction": "-"
+  },
+  "confidence": 55,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.151,
+   "p": 0.343,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.67,
+   "creator_robust": true,
+   "counterexamples": [
+    "Anime Zero [SHADOW MONARCH] 🦋👑",
+    "[💰] Destroy a Vault",
+    "Board Of Hell"
+   ]
+  },
+  "action": "Push hardest in the first 6 weeks"
+ },
+ {
+  "id": "H-tt-002",
+  "chart": "tt",
+  "statement": "Template games climb Top Trending faster than original concepts",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 46
+   }
+  ],
+  "test": {
+   "feature": "novelty",
+   "metric": "tt_mom",
+   "type": "corr",
+   "direction": "-"
+  },
+  "confidence": 46,
+  "status": "Weakened",
+  "evidence": {
+   "effect": 0.135,
+   "p": 0.3175,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.33,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Fast-follow a proven template"
+ },
+ {
+  "id": "H-tt-003",
+  "chart": "tt",
+  "statement": "Shorter descriptions go with higher Top Trending positions among games of similar age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 56
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 58
+   }
+  ],
+  "test": {
+   "feature": "desc_len_log",
+   "metric": "tt_pos",
+   "type": "corr",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 58,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": -0.139,
+   "p": 0.1848,
+   "n": 65,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Keep the description short"
+ },
+ {
+  "id": "H-tt-004",
+  "chart": "tt",
+  "statement": "Higher like ratios go with stronger Top Trending momentum among games of similar age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 51
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 56
+   }
+  ],
+  "test": {
+   "feature": "like_ratio",
+   "metric": "tt_mom",
+   "type": "corr",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 56,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.403,
+   "p": 0.1059,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.67,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Aim for a high like ratio"
+ },
+ {
+  "id": "H-tt-005",
+  "chart": "tt",
+  "statement": "Recently updated young games climb Top Trending faster",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 42
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 54
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 56
+   }
+  ],
+  "test": {
+   "feature": "days_since_update",
+   "metric": "tt_mom",
+   "type": "corr",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 56,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": -0.23,
+   "p": 0.1667,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.67,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Update often in the first weeks"
+ },
+ {
+  "id": "H-tt-006",
+  "chart": "tt",
+  "statement": "Reward-flex thumbnails (big $/s numbers, rare items) go with stronger Top Trending momentum",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 54
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 51
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 55
+   }
+  ],
+  "test": {
+   "feature": "thumb=reward_flex",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 55,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.18,
+   "p": 0.3043,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.67,
+   "creator_robust": true,
+   "counterexamples": [
+    "2 Player Pizza Tycoon 🍕",
+    "💭Dream Car Collection"
+   ]
+  },
+  "action": "Use big-number reward thumbnails"
+ },
+ {
+  "id": "H-tt-007",
+  "chart": "tt",
+  "statement": "A bracket tag in the title goes with weaker Top Trending momentum among young games",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 49
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 45
+   }
+  ],
+  "test": {
+   "feature": "title_bracket_tag",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 45,
+  "status": "Weakened",
+  "evidence": {
+   "effect": 0.267,
+   "p": 0.1209,
+   "n": 56,
+   "days": 3,
+   "consistency": 0.33,
+   "creator_robust": true,
+   "counterexamples": [
+    "[🥥] COCARDO: LA HELADERIA",
+    "[🎨] Hide In Pixels",
+    "Aisles Of The Locust [CHAPTER 2]"
+   ]
+  },
+  "action": "Skip bracket tags on a new game"
+ },
+ {
+  "id": "H-tt-008",
+  "chart": "tt",
+  "statement": "Solo loops climb Top Trending more slowly than social ones",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 56
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 55
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 50
+   }
+  ],
+  "test": {
+   "feature": "social=solo",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 50,
+  "status": "Weakened",
+  "evidence": {
+   "effect": 0.009,
+   "p": 0.9613,
+   "n": 56,
+   "days": 3,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Lift Rock For Eggs",
+    "Shoot For Eggs",
+    "Climb For Animals Eggs🥚"
+   ]
+  },
+  "action": "Make it multiplayer, not solo"
+ },
+ {
+  "id": "H-uc-001",
+  "chart": "uc",
+  "statement": "Pet and egg games rank higher on Up-and-Coming than other games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 49
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 56
+   }
+  ],
+  "test": {
+   "feature": "mech_pets_eggs",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 56,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.059,
+   "p": 0.4422,
+   "n": 71,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "+1 Strength for Eggs",
+    "Open Sea For Animals!",
+    "Impossible Animals"
+   ]
+  },
+  "action": "Use a pet/egg loop to break out"
+ },
+ {
+  "id": "H-uc-002",
+  "chart": "uc",
+  "statement": "Steal-a-X games rank higher on Up-and-Coming than other games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 53
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 47
+   }
+  ],
+  "test": {
+   "feature": "mech_steal",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 47,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.041,
+   "p": 0.6408,
+   "n": 71,
+   "days": 4,
+   "consistency": 0.75,
+   "creator_robust": true,
+   "counterexamples": [
+    "Steal A Car",
+    "Drive an Egg"
+   ]
+  },
+  "action": "Use a steal-a-X loop to break out"
+ },
+ {
+  "id": "H-uc-003",
+  "chart": "uc",
+  "statement": "'+1' incremental games rank lower on Up-and-Coming",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 61
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 60
+   }
+  ],
+  "test": {
+   "feature": "mech_incremental",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 60,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.455,
+   "p": 0.0282,
+   "n": 71,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "+1 Stone Skipping"
+   ]
+  },
+  "action": "Avoid '+1' incrementals"
+ },
+ {
+  "id": "H-uc-004",
+  "chart": "uc",
+  "statement": "A bracket tag in the title goes with a lower Up-and-Coming position among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 51
+   }
+  ],
+  "test": {
+   "feature": "title_bracket_tag",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 51,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.044,
+   "p": 0.8051,
+   "n": 71,
+   "days": 4,
+   "consistency": 0.5,
+   "creator_robust": false,
+   "counterexamples": [
+    "[🥥] COCARDO: LA HELADERIA",
+    "Makeup Mania! BETA [LASH TECH UPDATE]",
+    "[🎨] Hide In Pixels"
+   ]
+  },
+  "action": "Use a plain, descriptive title"
+ },
+ {
+  "id": "H-uc-005",
+  "chart": "uc",
+  "statement": "The newest games (14 days or younger) rank higher on Up-and-Coming",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 55
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 59
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 59
+   }
+  ],
+  "test": {
+   "feature": "age_days",
+   "metric": "uc_pos",
+   "type": "threshold",
+   "cut": 14,
+   "direction": "-"
+  },
+  "confidence": 59,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.355,
+   "p": 0.0463,
+   "n": 71,
+   "days": 2,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Huss Valley",
+    "Sarab",
+    "Guess My Game"
+   ]
+  }
+ },
+ {
+  "id": "H-uc-006",
+  "chart": "uc",
+  "statement": "Higher like ratios go with higher Up-and-Coming positions among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 48
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 45
+   }
+  ],
+  "test": {
+   "feature": "like_ratio",
+   "metric": "uc_pos",
+   "type": "corr",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 45,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.13,
+   "p": 0.2956,
+   "n": 71,
+   "days": 4,
+   "consistency": 0.25,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Aim for a high like ratio"
+ },
+ {
+  "id": "H-uc-007",
+  "chart": "uc",
+  "statement": "Solo loops rank lower on Up-and-Coming than social ones of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 55
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 60
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 60
+   }
+  ],
+  "test": {
+   "feature": "social=solo",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 60,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.306,
+   "p": 0.0722,
+   "n": 71,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "+1 Stone Skipping"
+   ]
+  },
+  "action": "Make it multiplayer, not solo"
+ },
+ {
+  "id": "H-uc-008",
+  "chart": "uc",
+  "statement": "Games with more achievement badges rank higher on Up-and-Coming among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 51
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 50
+   }
+  ],
+  "test": {
+   "feature": "badges_n",
+   "metric": "uc_pos",
+   "type": "corr",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 50,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.072,
+   "p": 0.9851,
+   "n": 71,
+   "days": 4,
+   "consistency": 0.75,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Add achievement badges"
+ },
+ {
+  "id": "H-uc-009",
+  "chart": "uc",
+  "statement": "Everyday job simulations rank higher on Up-and-Coming",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 55
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 60
+   }
+  ],
+  "test": {
+   "feature": "loop=simulation_job",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 60,
+  "status": "Strengthened",
+  "evidence": {
+   "effect": 0.429,
+   "p": 0.0495,
+   "n": 71,
+   "days": 3,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Try an everyday-job sim"
+ },
+ {
+  "id": "H-uc-010",
+  "chart": "uc",
+  "statement": "Reward-flex thumbnails go with higher Up-and-Coming positions among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 57
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 54
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 55
+   }
+  ],
+  "test": {
+   "feature": "thumb=reward_flex",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 55,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.123,
+   "p": 0.517,
+   "n": 71,
+   "days": 4,
+   "consistency": 0.75,
+   "creator_robust": true,
+   "counterexamples": [
+    "+1 Strength for Eggs",
+    "Open Sea For Animals!",
+    "Impossible Animals"
+   ]
+  },
+  "action": "Use big-number reward thumbnails"
+ },
+ {
+  "id": "H-x-001",
+  "chart": "x",
+  "statement": "Breakouts appear on Up-and-Coming first, reach Top Earning and Top Trending within days, and enter Most Popular mostly from Top Trending",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 35
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 38
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 40
+   }
+  ],
+  "confidence": 40,
+  "status": "Strengthened",
+  "evidence": {
+   "rationale": "Cross-chart entries keep the order: uc->tt (17, median 2d) and uc->te (10, 1d) lead, and tt->mp (10, 2d) remains the main road into Most Popular."
+  }
+ },
+ {
+  "id": "H-x-002",
+  "chart": "x",
+  "statement": "The steal/egg template is a popularity engine, not a monetization engine: strong on Up-and-Coming and among Most Popular risers, weak on Top Earning efficiency",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 50
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 50
+   }
+  ],
+  "confidence": 50,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Steal and egg games hold 5 of the Up-and-Coming top 10 and are 4 of 5 Most Popular risers, but 'Egg' titles (r=-0.50) and 'Steal' titles (r=-0.42) sit low on efficiency. Counterexample: Steal An Egg is #1 on Top Earning through sheer scale."
+  },
+  "action": "Use templates for reach, depth for revenue"
+ },
+ {
+  "id": "H-x-003",
+  "chart": "x",
+  "statement": "Games pull players first and monetize later: breakout charts favor the newest games while monetization efficiency rises with age",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 45
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 45
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 45
+   }
+  ],
+  "confidence": 45,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Top Earning efficiency percentile: 22 at 42 days or younger, 46 at 43-84 days, 57 past a year. Up-and-Coming: 63 at 14 days or younger vs 45 at 15-42. Survivorship is a confounder."
+  },
+  "action": "Don't judge monetization in month one"
+ },
+ {
+  "id": "H-x-004",
+  "chart": "x",
+  "statement": "Breakouts touch all four charts during weeks 3 to 5 of their life",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 35
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 35
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 35
+   }
+  ],
+  "confidence": 35,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "All 7 games on all four charts today are 21-37 days old (Huss Valley, Break and Steal an Egg, +1 Stone Skipping, Steal Animal Egg, Drill for Eggs, Steal ASMR!, Steal A Car)."
+  },
+  "action": "Have monetization ready by week 3"
+ },
+ {
+  "id": "H-x-005",
+  "chart": "x",
+  "statement": "Meme-character waves (Verity, brainrot) spread across many small games at once and lift their Up-and-Coming and Top Trending entries for a few weeks",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 30
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 30
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 30
+   }
+  ],
+  "confidence": 30,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Verity appears in at least 6 tracked titles (Bunker vs Verity +35 on Up-and-Coming, Build and Kill Verity +22 on Top Trending). Watch whether these fade together."
+  },
+  "action": "Ride meme waves early, then move on"
+ },
+ {
+  "id": "H-x-006",
+  "chart": "x",
+  "statement": "Cute job simulations with a hidden horror twist ('Anomaly' games) form a durable genre that reaches Most Popular",
+  "kind": "qualitative",
+  "created": "2026-10-07",
+  "history": [
+   {
+    "date": "2026-10-07",
+    "conf": 30
+   },
+   {
+    "date": "2026-10-08",
+    "conf": 30
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 30
+   }
+  ],
+  "confidence": 30,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Animal Hospital (Anomaly) is #18 on Most Popular and #26 on Top Earning at 150 days; Animal Daycare (Anomaly) and Sell Fries! [Anomaly] followed. Needs more entries over time."
+  },
+  "action": "Try a cute job sim with a horror twist"
+ },
+ {
+  "id": "H-uc-011",
+  "chart": "uc",
+  "statement": "Character-art thumbnails go with higher Up-and-Coming positions than gameplay screenshots among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 60
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 60
+   }
+  ],
+  "test": {
+   "feature": "thumb=character_art",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 60,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.298,
+   "p": 0.0413,
+   "n": 71,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "MM2 of The Locust",
+    "A Long Walk 🪓"
+   ]
+  },
+  "action": "Use character art over screenshots"
+ },
+ {
+  "id": "H-uc-012",
+  "chart": "uc",
+  "statement": "Games updated more recently rank higher on Up-and-Coming among games of the same age",
+  "kind": "tested",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 61
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 57
+   }
+  ],
+  "test": {
+   "feature": "days_since_update",
+   "metric": "uc_pos",
+   "type": "corr",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 57,
+  "status": "Weakened",
+  "evidence": {
+   "effect": -0.07,
+   "p": 0.3865,
+   "n": 71,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Update often in the first weeks"
+ },
+ {
+  "id": "H-tt-009",
+  "chart": "tt",
+  "statement": "Young games with a page video climb Top Trending more slowly than those without",
+  "kind": "tested",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 56
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 57
+   }
+  ],
+  "test": {
+   "feature": "has_video",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 57,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.029,
+   "p": 0.1752,
+   "n": 56,
+   "days": 3,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Lift Rock For Eggs",
+    "Shoot For Eggs",
+    "Climb For Animals Eggs🥚"
+   ]
+  }
+ },
+ {
+  "id": "H-te-020",
+  "chart": "te",
+  "statement": "Games with more favorites per thousand visits earn a higher Top Earning position for their CCU",
+  "kind": "tested",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 68
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "fav_per_kvisit",
+   "metric": "te_eff",
+   "type": "corr",
+   "direction": "+"
+  },
+  "confidence": 69,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": 0.112,
+   "p": 0.0129,
+   "n": 496,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  },
+  "action": "Aim for a high favorite rate"
+ },
+ {
+  "id": "H-mp-010",
+  "chart": "mp",
+  "statement": "A high favorite rate per visit goes with lower Most Popular positions (big evergreens convert fewer visits into favorites)",
+  "kind": "tested",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 64
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 65
+   }
+  ],
+  "test": {
+   "feature": "fav_per_kvisit",
+   "metric": "mp_pos",
+   "type": "corr",
+   "direction": "-"
+  },
+  "confidence": 65,
+  "status": "Unchanged",
+  "evidence": {
+   "effect": -0.381,
+   "p": 0.0002,
+   "n": 100,
+   "days": 4,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": []
+  }
+ },
+ {
+  "id": "H-x-007",
+  "chart": "x",
+  "statement": "Short-session party formats (1v1 table duels, would-you-rather towers, hide-and-seek variants) are a rotating wave that re-surfaces old games on Top Trending without lifting them onto Top Earning",
+  "kind": "qualitative",
+  "created": "2026-10-08",
+  "history": [
+   {
+    "date": "2026-10-08",
+    "conf": 25
+   },
+   {
+    "date": "2026-10-09",
+    "conf": 25
+   }
+  ],
+  "confidence": 25,
+  "status": "Unchanged",
+  "evidence": {
+   "rationale": "Of 34 new Top Trending entries today, many are party/would-you-rather games, several 1-2 years old (Cartoons Tower 2487d, Mingle Carousel 687d, Shrink Hide & Seek 522d) and none of those are on Top Earning. Confirm if they fall off within a week and never enter Top Earning."
+  },
+  "action": "Don't count on party formats for revenue"
+ },
+ {
+  "id": "H-te-021",
+  "chart": "te",
+  "statement": "Survival-genre games earn a lower Top Earning position for their CCU than other genres",
+  "kind": "tested",
+  "created": "2026-10-09",
+  "history": [
+   {
+    "date": "2026-10-09",
+    "conf": 69
+   }
+  ],
+  "test": {
+   "feature": "genre=Survival",
+   "metric": "te_eff",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 69,
+  "status": "New",
+  "evidence": {
+   "effect": -0.287,
+   "p": 0.0015,
+   "n": 494,
+   "days": 5,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Survive The Swarm",
+    "The Undead Coming (2026)",
+    "🎃 Realistic Disaster Survival"
+   ]
+  }
+ },
+ {
+  "id": "H-tt-010",
+  "chart": "tt",
+  "statement": "Young games that sell currency packs climb Top Trending faster than those that don't",
+  "kind": "tested",
+  "created": "2026-10-09",
+  "history": [
+   {
+    "date": "2026-10-09",
+    "conf": 57
+   }
+  ],
+  "action": "Sell currency packs from launch",
+  "test": {
+   "feature": "prod_currency",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 57,
+  "status": "New",
+  "evidence": {
+   "effect": 0.47,
+   "p": 0.0264,
+   "n": 56,
+   "days": 1,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "2 Player Pizza Tycoon 🍕",
+    "Steal A Car",
+    "Make My Flag!"
+   ]
+  }
+ },
+ {
+  "id": "H-tt-011",
+  "chart": "tt",
+  "statement": "PvP loops climb Top Trending more slowly than other young games of similar age",
+  "kind": "tested",
+  "created": "2026-10-09",
+  "history": [
+   {
+    "date": "2026-10-09",
+    "conf": 58
+   }
+  ],
+  "action": "Launch co-op or party, not PvP",
+  "test": {
+   "feature": "social=pvp",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "-"
+  },
+  "confidence": 58,
+  "status": "New",
+  "evidence": {
+   "effect": -0.367,
+   "p": 0.033,
+   "n": 56,
+   "days": 3,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "[🎨] Hide In Pixels"
+   ]
+  }
+ },
+ {
+  "id": "H-mp-011",
+  "chart": "mp",
+  "statement": "Games whose median developer product costs more than 79 Robux stay on Most Popular longer",
+  "kind": "tested",
+  "created": "2026-10-09",
+  "history": [
+   {
+    "date": "2026-10-09",
+    "conf": 64
+   }
+  ],
+  "action": "Price most dev products above 79 R$",
+  "test": {
+   "feature": "products_median_price",
+   "metric": "mp_days",
+   "type": "threshold",
+   "cut": 79,
+   "direction": "+"
+  },
+  "confidence": 64,
+  "status": "New",
+  "evidence": {
+   "effect": 0.277,
+   "p": 0.0048,
+   "n": 110,
+   "days": 0,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "DON'T LET HIM IN",
+    "Steal From The Rich!",
+    "Obby But You're on a Scooter"
+   ]
+  }
+ },
+ {
+  "id": "H-x-008",
+  "chart": "x",
+  "statement": "Duel-pad first-person shooters (Sniper Duels, Murder Duels, Deagle Arena, RIVALS) form a durable sub-genre that holds both Most Popular and Top Earning with skin-and-trade economies instead of passes",
+  "kind": "qualitative",
+  "created": "2026-10-09",
+  "history": [
+   {
+    "date": "2026-10-09",
+    "conf": 25
+   }
+  ],
+  "confidence": 25,
+  "status": "New",
+  "evidence": {
+   "rationale": "Today's profiling found four duel-pad FPS games with zero or few passes and large currency/skin product lists, each on Top Earning or Most Popular. Needs a loop/feature tag for duel pads and several weeks of presence data to confirm."
+  }
+ }
+]

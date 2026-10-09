@@ -1,0 +1,1190 @@
+<title>Roblox Monetization Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@500;600;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+/* Layout: dark Anthropic sidebar beside one main column — overview grid (snapshot card, keyword box, two count tiles, genre fit, chart overlap), then one card per Roblox chart, method notes last. */
+:root {
+  --plane: #f0eee6; --surface: #faf9f5; --surface-2: #f3f1ea; --ink: #141413; --ink-2: #5e5d59; --muted: #6b6963;
+  --line: #e8e6dc; --line-strong: #d9d6ca;
+  --side: #141413; --side-ink: #faf9f5; --side-muted: #a8a69c; --side-hover: #25241f; --side-line: #2c2b27;
+  --accent: #c96442; --accent-brand: #d97757; --accent-ink: #b4552f; --accent-soft: #f6e5dd;
+  --blue: #5689c8; --blue-soft: #e4ecf6; --green-soft: #e8ecdd;
+  --up: #4f6b34; --down: #b23f2b; --up-bar: #6f8b4f; --down-bar: #c4553c; --up-soft: #e7ecdc; --down-soft: #f7e2dc;
+  --ord-1: #e0a088; --ord-2: #d07a58; --ord-3: #b45a37; --ord-4: #8a4127;
+  --warn-bg: #fbefd9; --warn-ink: #7a5212;
+  --shadow: 0 1px 2px rgba(20, 20, 19, 0.04), 0 4px 14px rgba(20, 20, 19, 0.04);
+  --display: "Poppins", "Avenir Next", Arial, sans-serif;
+  --ui: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --prose: "Lora", Georgia, serif;
+  --step--1: 0.8125rem; --step-0: 0.9375rem; --step-1: 1.0625rem; --step-2: 1.375rem; --step-3: 1.875rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --plane: #1c1b19; --surface: #262522; --surface-2: #2e2d29; --ink: #faf9f5; --ink-2: #c2c0b6; --muted: #9b998f;
+    --line: #35342f; --line-strong: #45433d; --side-hover: #22211d; --side-line: #2a2925;
+    --accent: #d4704e; --accent-ink: #e8936f; --accent-soft: #3a2a22;
+    --blue: #5b8fc9; --blue-soft: #222c38; --green-soft: #2b3024;
+    --up: #a3bd82; --down: #f08f78; --up-bar: #8eab6a; --down-bar: #e0765c; --up-soft: #2b3123; --down-soft: #3a2621;
+    --ord-1: #8f4a2e; --ord-2: #b45f3c; --ord-3: #d47a55; --ord-4: #e9a385;
+    --warn-bg: #33291a; --warn-ink: #f0c869; --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --plane: #1c1b19; --surface: #262522; --surface-2: #2e2d29; --ink: #faf9f5; --ink-2: #c2c0b6; --muted: #9b998f;
+  --line: #35342f; --line-strong: #45433d; --side-hover: #22211d; --side-line: #2a2925;
+  --accent: #d4704e; --accent-ink: #e8936f; --accent-soft: #3a2a22;
+  --blue: #5b8fc9; --blue-soft: #222c38; --green-soft: #2b3024;
+  --up: #a3bd82; --down: #f08f78; --up-bar: #8eab6a; --down-bar: #e0765c; --up-soft: #2b3123; --down-soft: #3a2621;
+  --ord-1: #8f4a2e; --ord-2: #b45f3c; --ord-3: #d47a55; --ord-4: #e9a385;
+  --warn-bg: #33291a; --warn-ink: #f0c869; --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 16px; }
+body { background: var(--plane); color: var(--ink); font: 400 var(--step-0)/1.5 var(--ui); }
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* App frame */
+.app { display: grid; grid-template-columns: 248px minmax(0, 1fr); min-height: 100vh; }
+.side { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--side); color: var(--side-ink); padding: 22px 16px; display: flex; flex-direction: column; gap: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; padding-inline: 8px; }
+.brand-mark { width: 30px; height: 30px; border-radius: 9px; background: var(--accent-brand); display: grid; place-items: center; flex: none; }
+.brand-mark svg { width: 18px; height: 18px; }
+.brand-name { font: 600 1.0625rem/1.2 var(--display); letter-spacing: -0.01em; }
+.scope { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; background: var(--side-hover); border: 1px solid var(--side-line); font-size: var(--step--1); }
+.scope svg { width: 16px; height: 16px; flex: none; color: var(--accent-brand); }
+.nav { display: grid; gap: 2px; }
+.nav a { display: flex; align-items: center; gap: 12px; padding: 9px 12px; border-radius: 10px; text-decoration: none; color: var(--side-muted); font-size: 0.9rem; }
+.nav a svg { width: 18px; height: 18px; flex: none; }
+.nav a:hover { color: var(--side-ink); background: var(--side-hover); }
+.nav a.active { color: var(--side-ink); background: var(--side-hover); box-shadow: inset 3px 0 0 var(--accent-brand); }
+.nav a .count { margin-left: auto; font-size: 0.75rem; color: var(--side-muted); font-variant-numeric: tabular-nums; }
+.side-foot { margin-top: auto; padding: 12px; border-radius: 12px; border: 1px solid var(--side-line); font-size: var(--step--1); color: var(--side-muted); display: grid; gap: 4px; }
+.side-foot strong { color: var(--side-ink); font-weight: 500; display: flex; align-items: center; gap: 8px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--up-bar); flex: none; }
+
+.main { min-width: 0; padding-inline: 28px; padding-block: 24px 56px; display: grid; gap: 20px; align-content: start; }
+.topbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.topbar h1 { margin: 0; font: 600 var(--step-3)/1.15 var(--display); letter-spacing: -0.015em; text-wrap: balance; }
+.topbar .sub { margin: 2px 0 0; color: var(--ink-2); font: 400 var(--step-0)/1.45 var(--prose); }
+.topbar .tools { margin-left: auto; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.toggle-pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-size: var(--step--1); font-weight: 500; white-space: nowrap; }
+.toggle-pill[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+
+.notice { padding: 12px 16px; border-radius: 12px; background: var(--warn-bg); color: var(--warn-ink); font: 400 var(--step-0)/1.5 var(--prose); }
+.notice strong { font-family: var(--ui); font-weight: 600; }
+
+/* Cards */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); min-width: 0; }
+.card-head { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px 16px; padding: 18px 20px 0; }
+.card-head h2, .card-head h3 { margin: 0; font: 600 var(--step-1)/1.3 var(--display); }
+.card-head p { margin: 2px 0 0; color: var(--ink-2); font: 400 var(--step--1)/1.45 var(--prose); max-width: 60ch; }
+.card-head .ctl { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.card-body { padding: 14px 20px 20px; min-width: 0; }
+select, input[type=number] { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; font-size: var(--step--1); }
+input[type=number] { width: 4.6em; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-size: var(--step--1); font-weight: 500; white-space: nowrap; }
+.btn:hover { border-color: var(--line-strong); background: var(--surface-2); }
+.icon-btn { width: 34px; height: 34px; padding: 0; justify-content: center; }
+.icon-btn svg { width: 16px; height: 16px; transition: transform 0.15s ease; }
+.icon-btn[aria-expanded="false"] svg { transform: rotate(-90deg); }
+.seg { display: inline-flex; padding: 3px; gap: 2px; border-radius: 11px; background: var(--surface-2); border: 1px solid var(--line); }
+.seg button { border: 0; background: transparent; padding: 5px 11px; border-radius: 8px; font-size: var(--step--1); font-weight: 500; color: var(--ink-2); cursor: pointer; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.field { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: var(--step--1); white-space: nowrap; }
+.search { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0 10px; min-width: 0; flex: 1 1 200px; max-width: 320px; }
+.search svg { width: 15px; height: 15px; color: var(--muted); flex: none; }
+.search input { border: 0; background: transparent; padding: 7px 0; min-width: 0; width: 100%; outline: none; font-size: var(--step--1); }
+.search:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Overview grid */
+.overview { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.feature { grid-column: span 6; background: var(--side); color: var(--side-ink); border: 1px solid var(--side-line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.feature canvas { display: block; width: 100%; height: 108px; }
+.feature-body { padding: 4px 20px 20px; display: grid; gap: 10px; }
+.feature .eyebrow { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--side-muted); font-weight: 600; }
+.feature .big { font: 600 1.5rem/1.2 var(--display); }
+.feature p { margin: 0; color: var(--side-muted); font: 400 var(--step--1)/1.5 var(--prose); }
+.feature .go { justify-self: start; margin-top: 6px; border: 0; border-radius: 10px; background: var(--accent-brand); color: var(--ink); padding: 10px 16px; font-weight: 600; font-size: var(--step--1); cursor: pointer; }
+.feature .go:hover { filter: brightness(1.06); }
+.kpis { grid-column: span 6; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; min-width: 0; align-content: stretch; }
+.kpi { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: 4px 14px; padding: 16px; }
+.kpi .ico { grid-row: span 3; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; }
+.kpi .ico svg { width: 20px; height: 20px; }
+.kpi .label { font-size: var(--step--1); color: var(--ink-2); }
+.kpi .value { font: 600 1.625rem/1.15 var(--display); letter-spacing: -0.01em; }
+.kpi .breakdown { font-size: 0.75rem; color: var(--muted); line-height: 1.5; }
+.ico.c1 { background: var(--accent-soft); color: var(--accent); }
+.ico.c3 { background: var(--green-soft); color: var(--up); }
+.span-12 { grid-column: span 12; }
+.seg button[aria-selected="true"] { background: var(--ink); color: var(--surface); }
+.deep .card-body { display: grid; gap: 18px; }
+.da-sec { display: grid; gap: 8px; min-width: 0; }
+.da-sec h4 { margin: 0; font: 600 var(--step-0)/1.3 var(--display); }
+.da-sec .chips span { font-family: var(--ui); }
+.assoc-up { color: var(--up); font-weight: 600; } .assoc-down { color: var(--down); font-weight: 600; }
+table.htable { width: 100%; border-collapse: collapse; font-size: var(--step--1); }
+table.htable th { text-align: left; color: var(--muted); font-weight: 500; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 6px 8px; border-bottom: 1px solid var(--line-strong); }
+table.htable td { padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.htable td.h-st { font: 400 var(--step-0)/1.45 var(--prose); min-width: 14rem; cursor: help; }
+table.htable td.h-conf { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.meter { display: inline-block; width: 56px; height: 6px; border-radius: 3px; background: var(--line); vertical-align: middle; margin-right: 6px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--accent); }
+.hspark { display: block; margin-top: 4px; }
+.hspark path { fill: none; stroke: var(--accent); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.st { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; white-space: nowrap; }
+.st-new { background: var(--blue-soft); color: var(--ink); }
+.st-strengthened { background: var(--up-soft); color: var(--up); }
+.st-weakened { background: var(--down-soft); color: var(--down); }
+.st-unchanged { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--line); }
+.st-retired { background: var(--surface-2); color: var(--muted); text-decoration: line-through; }
+details.retired > summary { cursor: pointer; color: var(--ink-2); font-size: var(--step--1); font-weight: 600; margin-top: 6px; }
+.htable-wrap { overflow-x: auto; }
+.fit-wrap { max-height: none; }
+table.fit-table td { vertical-align: top; }
+table.fit-table .c-game { left: 0; min-width: 11rem; }
+.fit-cell b { display: block; font-weight: 600; font-size: var(--step-0); color: var(--ink); }
+.fit-cell small { display: block; color: var(--muted); font-size: 0.75rem; }
+.fit-cell.top b { display: inline-block; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-ink); }
+.fit-cell.low b { color: var(--muted); font-weight: 500; }
+.share-card .card-head p { max-width: none; }
+.share-groups { display: grid; gap: 12px; }
+.share-group { display: grid; gap: 6px; }
+.share-group + .share-group { border-top: 1px solid var(--line); padding-top: 12px; }
+.share-group h4 { margin: 0; font: 600 0.6875rem/1.3 var(--ui); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips span { display: inline-flex; gap: 6px; align-items: baseline; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); font-size: var(--step--1); }
+.chips b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.chips .first { background: var(--accent-soft); border-color: transparent; }
+.share-empty { margin: 0; color: var(--muted); font: 400 var(--step--1)/1.5 var(--prose); }
+.plot { position: relative; height: 260px; }
+.plot .empty-note { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 16px; color: var(--muted); font: 400 var(--step--1)/1.5 var(--prose); }
+.donut-wrap { display: grid; grid-template-columns: minmax(0, 170px) minmax(0, 1fr); gap: 18px; align-items: center; }
+.donut-wrap .plot { height: 170px; }
+.donut-legend { display: grid; gap: 8px; font-size: var(--step--1); }
+.donut-legend div { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+.donut-legend i { width: 10px; height: 10px; border-radius: 50%; }
+.donut-legend b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.overlap-body { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 24px; align-items: start; }
+.multi-lists { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; min-width: 0; }
+.multi-list h4 { margin: 0 0 8px; font: 600 0.6875rem/1.3 var(--ui); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+.multi-list ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; max-height: 320px; overflow: auto; }
+.multi-list li { display: grid; gap: 4px; padding-bottom: 8px; border-bottom: 1px solid var(--line); min-width: 0; }
+.multi-list li a { text-decoration: none; font-weight: 500; font-size: var(--step--1); overflow-wrap: anywhere; }
+.multi-list li a:hover { color: var(--accent-ink); text-decoration: underline; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tags span { font-size: 0.6875rem; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); color: var(--ink-2); }
+
+/* Chart sections */
+#sections { display: grid; gap: 20px; }
+.chart-card { scroll-margin-top: 16px; }
+.chart-card .card-head { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.chart-card[data-open="false"] .card-head, .method[data-open="false"] .card-head, .card[data-open="false"] > .card-head { border-bottom: 0; padding-bottom: 18px; }
+.title-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.chart-card h2 { font-size: var(--step-2); }
+.meta { color: var(--ink-2); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; padding: 14px 20px 0; }
+.toolbar .count { margin-left: auto; color: var(--muted); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.section-note { margin: 12px 20px 0; }
+.view { padding: 14px 20px 20px; }
+.ledger { overflow: auto; max-height: min(72vh, 900px); border: 1px solid var(--line); border-radius: 12px; }
+table.data { --c1: 6.2rem; border-collapse: separate; border-spacing: 0; width: 100%; font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+table.data th, table.data td { padding: 9px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); background: var(--surface); }
+table.data thead th { position: sticky; z-index: 2; color: var(--muted); font-weight: 500; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+table.data thead tr.groups th { top: 0; height: 30px; padding-block: 0; text-align: center; border-bottom: 0; font-weight: 600; letter-spacing: 0.07em; font-size: 0.6875rem; }
+table.data thead tr.groups th.g { box-shadow: inset 0 -2px 0 var(--line-strong); color: var(--ink-2); }
+table.data thead tr.cols th { top: 30px; vertical-align: bottom; }
+table.data thead tr.cols.plain th { top: 0; }
+th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+th button:hover { color: var(--ink); }
+th button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+th[aria-sort] button { color: var(--ink); font-weight: 600; }
+th[aria-sort="ascending"] button::after { content: "↑"; }
+th[aria-sort="descending"] button::after { content: "↓"; }
+.c1 { position: sticky; left: 0; z-index: 1; width: var(--c1); min-width: var(--c1); text-align: left !important; }
+.c-game { position: sticky; left: var(--c1); z-index: 1; text-align: left !important; white-space: normal !important; min-width: 13rem; max-width: 20rem; box-shadow: 1px 0 0 var(--line); }
+.fallen-table .c-game { left: 0; }
+thead .c1, thead .c-game { z-index: 3; }
+td.c-game a { text-decoration: none; font-weight: 500; color: var(--ink); font-size: var(--step-0); }
+td.c-game a:hover { color: var(--accent-ink); text-decoration: underline; }
+table.data tbody tr:hover td { background: var(--surface-2); }
+.pos { font-weight: 600; color: var(--ink); }
+td.score { font: 600 var(--step-0)/1.2 var(--display); color: var(--ink); }
+td.snapv { font-style: italic; }
+th.score-col, td.score { box-shadow: inset 1px 0 0 var(--line); }
+.pill { display: inline-block; margin-left: 6px; padding: 2px 8px; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.02em; vertical-align: 1px; }
+.pill.new { background: var(--accent-soft); color: var(--accent-ink); text-transform: uppercase; letter-spacing: 0.05em; }
+.pill.up { background: var(--up-soft); color: var(--up); }
+.pill.down { background: var(--down-soft); color: var(--down); }
+.pill.peak { background: var(--blue-soft); color: var(--ink); margin-left: 0; }
+.pill.warn { background: var(--warn-bg); color: var(--warn-ink); }
+.up { color: var(--up); } .down { color: var(--down); } .muted { color: var(--muted); }
+.money { font-weight: 600; }
+td.empty { text-align: left !important; white-space: normal !important; padding: 26px 16px; color: var(--muted); font-family: var(--prose); }
+.bars-plot { position: relative; }
+.graph-title { margin: 0 0 10px; font-size: var(--step--1); color: var(--ink-2); }
+.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.mult { border: 1px solid var(--line); border-radius: 12px; padding: 12px; display: grid; gap: 6px; min-width: 0; background: var(--surface); }
+.mult .nm { font-weight: 500; font-size: var(--step--1); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mult .fig { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: var(--step--1); }
+.mult .fig b { font: 600 1rem/1.2 var(--display); }
+.mult svg { width: 100%; height: auto; display: block; }
+.mult svg .a { fill: var(--accent-soft); stroke: none; }
+.mult svg .l { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.mult svg .g { stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.mult svg .e { fill: var(--accent); stroke: var(--surface); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.view-note { color: var(--muted); font: 400 var(--step--1)/1.5 var(--prose); margin: 10px 0 0; }
+
+.fallen { margin: 0 20px 20px; border: 1px dashed var(--line-strong); border-radius: 12px; background: var(--surface-2); }
+.fallen > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 12px 16px; }
+.fallen > summary::-webkit-details-marker { display: none; }
+.fallen > summary::before { content: "▸"; color: var(--muted); display: inline-block; transition: transform 0.15s ease; }
+.fallen[open] > summary::before { transform: rotate(90deg); }
+.fh-title { font: 600 var(--step-0)/1.3 var(--display); }
+.fallen .fh-body { padding: 0 16px 16px; display: grid; gap: 10px; }
+.fh-note { margin: 0; color: var(--ink-2); font: 400 var(--step--1)/1.5 var(--prose); }
+.fallen .ledger { max-height: 46vh; background: var(--surface); }
+tr.faded td { color: var(--muted); }
+tr.faded td.c-game { opacity: 0.55; font-weight: 400; }
+
+.method .card-body { display: grid; gap: 14px; max-width: 80ch; font-family: var(--prose); }
+.method h3 { margin: 6px 0 0; font: 600 var(--step-0)/1.4 var(--display); }
+.method p, .method dl { margin: 0; }
+.method dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; }
+.method dt { font: 600 var(--step--1)/1.6 var(--ui); }
+.method dd { margin: 0; color: var(--ink-2); }
+footer { color: var(--muted); font-size: var(--step--1); }
+footer a { color: var(--accent-ink); }
+
+@media (max-width: 1280px) {
+  .feature, .kpis { grid-column: span 6; }
+  .overlap-body { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 960px) {
+  .app { grid-template-columns: minmax(0, 1fr); }
+  .side { position: static; height: auto; padding: 14px 16px; gap: 12px; }
+  .scope, .side-foot { display: none; }
+  .nav { display: flex; overflow-x: auto; gap: 4px; padding-bottom: 2px; }
+  .nav a { flex: none; padding: 8px 12px; }
+  .nav a.active { box-shadow: inset 0 -2px 0 var(--accent-brand); }
+  .nav a .count { display: none; }
+  .main { padding-inline: 16px; }
+  .feature, .kpis { grid-column: span 12; }
+}
+@media (max-width: 520px) {
+  .toolbar .count { margin-left: 0; width: 100%; }
+  .search { max-width: none; }
+  .kpis { grid-template-columns: minmax(0, 1fr); }
+  .donut-wrap, .multi-lists { grid-template-columns: minmax(0, 1fr); }
+  .method dl { grid-template-columns: 1fr; gap: 2px; }
+  .method dd { margin-bottom: 8px; }
+  .c-game { min-width: 10rem; max-width: 13rem; }
+  .fallen { margin-inline: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .icon-btn svg, .fallen > summary::before { transition: none; } }
+</style>
+
+<div class="app">
+  <aside class="side" aria-label="Sections">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141413" stroke-width="2.4" stroke-linecap="round"><path d="M5 19V11M12 19V5M19 19v-5"/></svg></span>
+      <span class="brand-name">Roblox Tracker</span>
+    </div>
+    <div class="scope" title="Chart filters used for every snapshot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>All Devices · All Locations</div>
+    <nav class="nav" id="nav">
+      <a href="#overview" data-target="overview" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="2"/><rect x="14" y="3" width="7" height="5" rx="2"/><rect x="14" y="12" width="7" height="9" rx="2"/><rect x="3" y="16" width="7" height="5" rx="2"/></svg>Overview</a>
+      <a href="#sec-te" data-target="sec-te"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 6.5c0-1.9-2.2-3.5-5-3.5S7 4.6 7 6.5 9.2 10 12 10s5 1.6 5 3.5S14.8 17 12 17s-5-1.6-5-3.5"/></svg>Top Earning<span class="count" id="nav-te"></span></a>
+      <a href="#sec-mp" data-target="sec-mp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7M18 14.8c2 .7 3.2 2.5 3.5 5.2"/></svg>Most Popular<span class="count" id="nav-mp"></span></a>
+      <a href="#sec-tt" data-target="sec-tt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>Top Trending<span class="count" id="nav-tt"></span></a>
+      <a href="#sec-uc" data-target="sec-uc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.6 5.6L20 9.3l-4 4 1 5.7L12 16.3 7 19l1-5.7-4-4 5.4-.7z"/></svg>Up-and-Coming<span class="count" id="nav-uc"></span></a>
+      <a href="#method" data-target="method"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></svg>How it works</a>
+    </nav>
+    <div class="side-foot"><strong><span class="dot" aria-hidden="true"></span>Recording daily</strong>Around 3 PM Eastern, while the Claude app is open.</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <h1>Roblox Monetization Tracker</h1>
+        <p class="sub" id="sub">Top Earning, Most Popular, Top Trending and Up-and-Coming, recorded once a day.</p>
+      </div>
+      <div class="tools">
+        <button type="button" class="toggle-pill" id="onlyNew" aria-pressed="false">New today only</button>
+      </div>
+    </header>
+
+    <div class="notice" id="notice" hidden></div>
+
+    <section class="overview" id="overview" aria-label="Overview">
+      <article class="feature">
+        <canvas id="art" aria-hidden="true"></canvas>
+        <div class="feature-body">
+          <span class="eyebrow">Latest snapshot</span>
+          <span class="big" id="f-when">Loading…</span>
+          <p id="f-detail">Reading the stored snapshots.</p>
+          <button type="button" class="go" id="f-go">Open Top Earning</button>
+        </div>
+      </article>
+
+      <div class="kpis">
+        <article class="card kpi"><span class="ico c3" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span><span class="label">New chart entries today</span><span class="value" id="k-new">—</span><span class="breakdown" id="k-new-d"></span></article>
+        <article class="card kpi"><span class="ico c1" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6M5 20h14"/></svg></span><span class="label">New Fallen Heroes today</span><span class="value" id="k-fall">—</span><span class="breakdown" id="k-fall-d"></span></article>
+      </div>
+
+      <article class="card span-12 deep" id="deep">
+        <div class="card-head">
+          <div><h3>Deep Analysis</h3><p id="da-meta">The patterns behind each chart’s pillar, re-tested every day.</p></div>
+          <div class="ctl"><div class="seg" role="tablist" aria-label="Deep Analysis chart"><button type="button" role="tab" data-da="mp">Most Popular</button><button type="button" role="tab" data-da="te">Top Earning</button><button type="button" role="tab" data-da="tt">Top Trending</button><button type="button" role="tab" data-da="uc">Up-and-Coming</button><button type="button" role="tab" data-da="x">Across charts</button></div><button type="button" class="btn icon-btn" id="deep-min" aria-controls="da-body" aria-expanded="true" aria-label="Minimize Deep Analysis"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
+        </div>
+        <div class="card-body" id="da-body" role="tabpanel"><p class="share-empty">Loading the latest analysis…</p></div>
+      </article>
+
+    </section>
+
+    <div id="sections"></div>
+
+    <article class="card" id="fit-card">
+      <div class="card-head">
+        <div><h3>Genre fit</h3><p>Each chart’s share of games in a genre, divided by that genre’s share of all Roblox plays (Dubit). Above 1× the chart holds more of the genre than its audience size predicts; below 1×, fewer. The highest number in each column is highlighted.</p></div>
+        <div class="ctl"><button type="button" class="btn icon-btn" id="fit-min" aria-controls="fit-body" aria-expanded="true" aria-label="Minimize Genre fit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
+      </div>
+      <div class="card-body" id="fit-body">
+        <div class="ledger fit-wrap"><table class="data fit-table"><thead><tr class="cols plain"><th class="c-game">Genre</th><th>Share of plays</th><th>Top Earning</th><th>Most Popular</th><th>Top Trending</th><th>Up-and-Coming</th></tr></thead><tbody id="fit-rows"><tr><td class="empty" colspan="6">Loading…</td></tr></tbody></table></div>
+        <p class="view-note" id="fit-note"></p>
+      </div>
+    </article>
+
+    <article class="card" id="ov-card">
+      <div class="card-head">
+        <div><h3>Chart overlap</h3><p>Today’s games by how many of the four charts they appear on, and the games that appear on three or all four.</p></div>
+        <div class="ctl"><button type="button" class="btn icon-btn" id="ov-min" aria-controls="ov-body" aria-expanded="true" aria-label="Minimize Chart overlap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
+      </div>
+      <div class="card-body overlap-body" id="ov-body">
+        <div class="donut-wrap" id="ov-chart"><div class="plot" id="ov-plot"><canvas id="ov-canvas" role="img" aria-label="Games by number of charts"></canvas></div><div class="donut-legend" id="ov-legend"></div></div>
+        <div class="multi-lists" id="ov-lists"></div>
+      </div>
+    </article>
+
+    <section class="card method" id="method" aria-labelledby="method-title">
+      <div class="card-head">
+        <div><h2 id="method-title">How it works</h2></div>
+        <div class="ctl"><button type="button" class="btn icon-btn" id="method-min" aria-controls="method-body" aria-expanded="true" aria-label="Minimize How it works"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
+      </div>
+      <div class="card-body" id="method-body">
+        <p>Once a day a scheduled Claude task reads four Roblox charts (All Devices, All Locations) while signed in, so 18+ titles are included, and stores every game on them. Names, genres and creation dates come from Roblox’s public games API at the same moment, and Dubit’s share of plays by genre is re-read then too. Separately, a cloud job reads the charts every hour and records each game’s CCU, so each day’s CCU is the average of that day’s hourly readings rather than one reading. A game’s CCU history covers every day it was recorded.</p>
+        <h3>Columns in every chart</h3>
+        <dl>
+          <dt>Position</dt><dd>Place on that chart today, with its move since the previous snapshot or a New tag. Top Trending lists only games up to 4 months old; they keep their real chart position, so its numbering has gaps, and games that age out leave without becoming Fallen Heroes.</dd>
+          <dt>Avg CCU (day)</dt><dd>Concurrent players averaged over the day’s hourly readings, counted from midnight Eastern. At the 3 PM snapshot it covers midnight to 3 PM; updates at about 7:15 and 11:15 PM extend it, and the next afternoon’s run finalizes it with the full midnight-to-midnight day. Hover a value for the hours covered, their low–high and the snapshot reading. A game needs readings in at least half the hours so far (12 for a finished day); otherwise it shows its snapshot reading, in italics, as do all days before the hourly job started. Every column built on CCU (history, the CCU change columns, Monetization Score) uses this value</dd>
+          <dt>Created</dt><dd>The date the experience was created on Roblox.</dd>
+          <dt>History</dt><dd>Days the game has been recorded on that chart.</dd>
+          <dt>CCU change</dt><dd>All four columns compare market share: a game’s daily CCU divided by that day’s combined CCU of the 100 biggest games, so weekday swings and platform-wide growth or decline cancel out.</dd>
+          <dt>vs same day last week</dt><dd>Today’s share compared with the same weekday a week earlier, which also cancels the game’s own weekly rhythm. Blank until the game has a reading from exactly 7 days ago.</dd>
+          <dt>Last 7 days vs prior 7</dt><dd>Average share over the last 7 recorded days compared with the 7 before.</dd>
+          <dt>vs first 7 days</dt><dd>Average share over the last 7 days compared with the game’s first 7 recorded days.</dd>
+          <dt>vs peak 7 days</dt><dd>Average share over the last 7 days compared with its highest 7-day average. “Peak” means the latest week is the high.</dd>
+          <dt>Under 14 days</dt><dd>Until a game has 14 recorded days, its history is split into two equal halves and those averages are compared instead; a small superscript (for example 2d) shows the window length used.</dd>
+        </dl>
+        <h3>Monetization estimate (Top Earning only)</h3>
+        <dl>
+          <dt>Monetization Score</dt><dd>Rank of chart position × today’s Avg CCU (day), using nothing else: 1 is the game holding the highest earning position for the fewest players.</dd>
+          <dt>Est. revenue / month</dt><dd>Chart position sets the estimate: yearly revenue ≈ C × position<sup>−1.084</sup>, a curve that matches Roblox’s reported creator averages for the 12 months to June 30, 2026 (top 10: $65.7M, top 100: $10.8M, top 1,000: $1.4M), scaled so the top 10 average $68M a year, then divided by 12. CCU nudges it: a game with more players than is typical for its position moves toward the game above, fewer moves it toward the game below, never by more than half a position or 10%, so the estimates keep the chart’s order.</dd>
+        </dl>
+        <h3>Fallen Heroes</h3>
+        <p>When a game drops off a chart it moves to that chart’s Fallen Heroes list, showing its name, CCU, creation date and the days it was recorded on the chart. Its CCU keeps being tracked for 3 days after it leaves. After that tracking stops and only its name stays, faded, until it returns to the chart.</p>
+        <h3>Deep Analysis</h3>
+        <p>Every day the task also reads each charted game’s public page (description, game passes and developer products with prices, badges, media, likes, favorites, visits, update date, creator) and profiles the gameplay of new or changed games from their descriptions and thumbnails. A script then measures each chart’s pillar, scans every collected trait against it (checking whether one creator, game age or a single threshold drives the result), and re-tests every hypothesis. Confidence rises only when a pattern holds across more games and more days, and each hypothesis is marked New, Strengthened, Weakened, Unchanged or Retired against the day before. The card shows each chart’s title keywords and the hypotheses that point to something a developer can do, worded as short steps with their confidence; hover a step for the hypothesis and evidence behind it. Findings describe associations, not proven causes.</p>
+        <h3>Overview</h3>
+        <dl>
+          <dt>Title keywords</dt><dd>Words in game titles, ignoring tags in brackets such as [UPD] and common filler words, with the share of each chart’s titles that use them.</dd>
+          <dt>Genre fit</dt><dd>Each chart’s share of games in a genre (Roblox’s own genre for each game) divided by that genre’s share of all Roblox plays, from <a href="https://dubit.io/library/which-roblox-genres-get-the-most-plays" target="_blank" rel="noopener">Dubit’s genre tracker</a>, which the daily task re-reads at every snapshot. It is not a probability: neither source gives the number of games in each genre. It shows which genres a chart favors relative to how much they’re played.</dd>
+          <dt>Entries and Fallen Heroes</dt><dd>Games that joined or dropped off each chart since its previous snapshot.</dd>
+          <dt>Chart overlap</dt><dd>How many of the four charts each of today’s games appears on, with the games on three or all four listed by Top Earning position and tagged with their charts.</dd>
+        </dl>
+        <p class="muted">Averaging the day’s hourly readings removes most of the time-of-day effect, so games whose players live in other time zones are no longer flattered or penalized by when the snapshot runs; update days and events still move a day’s average. Roblox’s tier averages are per creator, not per game. Revenue figures are for comparing games, not exact earnings.</p>
+      </div>
+    </section>
+
+    <footer>Sources: Roblox charts and games API; creator earnings via <a href="https://www.techspot.com/news/113855-roblox-top-creators-making-65-million-year-while.html">TechSpot</a> and <a href="https://www.dexerto.com/roblox/robloxs-top-creators-average-65-7-million-a-year-but-most-make-far-less-3408675/">Dexerto</a>.</footer>
+  </main>
+</div>
+
+<script>
+// ===== Model: pure functions over the stored day documents =====
+const TT_MAX_AGE = 122;
+const SHARE_TOP = 100, SHARE_WIN = 7;
+const A = 1.084, TOP10_AVG = 68e6, MAX_NUDGE = Math.log(1.1), TRACK_DAYS = 3, TREND_DAYS = 7;
+const CHART_KEYS = ['te', 'mp', 'tt', 'uc'];
+const CHART_NAMES = { te: 'Top Earning', mp: 'Most Popular', tt: 'Top Trending', uc: 'Up-and-Coming' };
+
+function ols(X, Y) {
+  const n = X.length; let mx = 0, my = 0;
+  for (let i = 0; i < n; i++) { mx += X[i]; my += Y[i]; }
+  mx /= n; my /= n;
+  let sxy = 0, sxx = 0;
+  for (let i = 0; i < n; i++) { sxy += (X[i] - mx) * (Y[i] - my); sxx += (X[i] - mx) ** 2; }
+  const b = sxx ? sxy / sxx : 0;
+  return [my - b * mx, b];
+}
+
+// Monthly revenue: the position curve, nudged by how a game's CCU compares with what's typical
+// for its position. The nudge stays within half a position (and 10%), so the chart order holds.
+function revenueModel(ccu) {
+  let s = 0; for (let p = 1; p <= 10; p++) s += Math.pow(p, -A);
+  const C = TOP10_AVG * 10 / s;
+  const lp = ccu.map((_, i) => Math.log(i + 1)), ln = ccu.map(n => Math.log(Math.max(1, n)));
+  const [c0, c1] = ols(lp, ln);
+  const res = ln.map((y, i) => y - (c0 + c1 * lp[i]));
+  const sigma = Math.sqrt(res.reduce((a, r) => a + r * r, 0) / Math.max(1, res.length - 2)) || 1;
+  return ccu.map((n, i) => {
+    const p = i + 1, yr = C * Math.pow(p, -A), t = Math.tanh(res[i] / sigma);
+    const hUp = p > 1 ? Math.min(A * Math.log(p / (p - 0.5)), MAX_NUDGE) : MAX_NUDGE;
+    const hDown = Math.min(A * Math.log((p + 0.5) / p), MAX_NUDGE);
+    return { base: yr / 12, mo: (yr / 12) * Math.exp(t >= 0 ? t * hUp : t * hDown) };
+  });
+}
+
+function shares(values) {
+  const counts = new Map(); values.forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
+  return [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([label, c]) => ({ label, share: c / Math.max(1, values.length) }));
+}
+
+const dayNum = d => { const [y, m, dd] = d.split('-').map(Number); return Date.UTC(y, m - 1, dd) / 864e5; };
+const change = (a, b) => (b > 0 ? a / b - 1 : null);
+function trendPerDay(h) {
+  const [, b] = ols(h.map(x => x.t), h.map(x => Math.log(Math.max(1, x.ccu))));
+  return Math.exp(b) - 1;
+}
+
+// v2 days hold every chart; the first (v1) day holds Top Earning only.
+function validDay(d) {
+  if (!d || typeof d.date !== 'string' || !Array.isArray(d.ccu)) return false;
+  if (Array.isArray(d.u)) return d.u.length === d.ccu.length && d.charts && typeof d.charts === 'object';
+  return Array.isArray(d.ids) && d.ids.length === d.ccu.length && d.ids.length > 0;
+}
+function normalize(d) {
+  if (Array.isArray(d.u)) {
+    const charts = {};
+    for (const k of CHART_KEYS) if (Array.isArray(d.charts[k])) charts[k] = d.charts[k].map(i => d.u[i]).filter(Boolean);
+    const aligned = a => (Array.isArray(a) && a.length === d.u.length ? a : null);
+    return { date: d.date, takenAt: d.takenAt, u: d.u, ccu: d.ccu, charts, partial: Array.isArray(d.partial) ? d.partial : [], meta: d.meta || {}, dubit: d.dubit && d.dubit.shares ? d.dubit : null,
+      snap: aligned(d.snap), src: aligned(d.src), rng: aligned(d.rng), avg24: d.avg24 || null };
+  }
+  return { date: d.date, takenAt: d.takenAt, u: d.ids, ccu: d.ccu, charts: { te: d.ids }, partial: d.source === 'public' ? ['te'] : [], meta: d.meta || {} };
+}
+
+function buildModel(rawDays) {
+  const days = rawDays.map(normalize);
+  // Top Trending shows only games up to 4 months old on each day; every game keeps its real chart position.
+  const created = {};
+  for (const d of days) for (const [u, m] of Object.entries(d.meta)) if (m.c) created[u] = m.c;
+  const ttYoung = (u, date) => !created[u] || dayNum(date) - dayNum(created[u]) <= TT_MAX_AGE;
+  for (const d of days) {
+    d.rank = {};
+    for (const k of CHART_KEYS) if (d.charts[k]) d.rank[k] = new Map(d.charts[k].map((u, i) => [u, i + 1]));
+    if (d.charts.tt) d.charts.tt = d.charts.tt.filter(u => ttYoung(u, d.date));
+  }
+  const meta = {}, hist = new Map(), onChart = {}, lastOn = {};
+  CHART_KEYS.forEach(k => { onChart[k] = new Map(); lastOn[k] = new Map(); });
+  for (const d of days) {
+    for (const [u, m] of Object.entries(d.meta)) meta[u] = Object.assign({}, meta[u], m);
+    // Market share: a game's CCU divided by that day's combined CCU of the 100 biggest games.
+    const total = [...d.ccu].sort((a, b) => b - a).slice(0, SHARE_TOP).reduce((a, x) => a + (x || 0), 0) || 1;
+    d.u.forEach((u, i) => {
+      if (!hist.has(u)) hist.set(u, []);
+      hist.get(u).push({ t: dayNum(d.date), ccu: d.ccu[i] || 0, share: (d.ccu[i] || 0) / total });
+    });
+    for (const k of CHART_KEYS) (d.charts[k] || []).forEach((u, i) => {
+      onChart[k].set(u, (onChart[k].get(u) || 0) + 1);
+      lastOn[k].set(u, { date: d.date, pos: d.rank[k].get(u) });
+    });
+  }
+  const latest = days[days.length - 1], prevDay = days.length > 1 ? days[days.length - 2] : null;
+  const latestT = dayNum(latest.date);
+  const ccuOf = d => new Map(d.u.map((u, i) => [u, d.ccu[i] || 0]));
+  const ccuNow = ccuOf(latest), ccuPrev = prevDay ? ccuOf(prevDay) : null;
+  // How today's CCU was measured: the average of today's hourly readings ('a') or the snapshot ('s').
+  const srcNow = new Map(latest.u.map((u, i) => [u, {
+    src: latest.src ? latest.src[i] : null, snap: latest.snap ? latest.snap[i] : null, rng: latest.rng ? latest.rng[i] : null,
+  }]));
+  const ccuInfo = u => srcNow.get(u) || { src: null, snap: null, rng: null };
+  const restricted = u => (meta[u] || {}).r === 1;
+  const info = u => { const m = meta[u] || {}; return { name: m.n || 'Universe ' + u, created: m.c || '', place: m.pl || '', genre: m.g || '' }; };
+  const game = u => {
+    const h = hist.get(u) || [], n = ccuNow.get(u) || 0;
+    // Windows of 7 recorded days; with under 14 days of history, the history is split into two equal halves instead.
+    const w = h.length >= 2 * SHARE_WIN ? SHARE_WIN : Math.floor(h.length / 2);
+    const avg = xs => xs.reduce((a, x) => a + x.share, 0) / xs.length;
+    const last = w ? avg(h.slice(-w)) : null;
+    let peak = null;
+    for (let i = 0; w && i + w <= h.length; i++) peak = Math.max(peak == null ? 0 : peak, avg(h.slice(i, i + w)));
+    const today = h.length && h[h.length - 1].t === latestT ? h[h.length - 1] : null;
+    const weekAgo = today ? h.find(x => x.t === latestT - 7) : null;
+    return Object.assign({ u, n, hist: h, ccuSrc: ccuInfo(u), win: w }, info(u), {
+      vsPrev: today && weekAgo ? change(today.share, weekAgo.share) : null,
+      trend: w ? change(last, avg(h.slice(-2 * w, -w))) : null,
+      vsFirst: w ? change(last, avg(h.slice(0, w))) : null,
+      vsPeak: w ? change(last, peak) : null,
+    });
+  };
+  const prevWith = (k, before) => {
+    for (let i = before - 1; i >= 0; i--) if (days[i].charts[k]) return days[i];
+    return null;
+  };
+  const moveOf = (k, idx) => {
+    const d = days[idx], p = prevWith(k, idx);
+    if (!d.charts[k] || !p) return null;
+    const now = new Set(d.charts[k]), was = new Set(p.charts[k]);
+    const skipNew = u => p.partial.includes(k) && restricted(u), skipLeft = u => d.partial.includes(k) && restricted(u);
+    return { added: d.charts[k].filter(u => !was.has(u) && !skipNew(u)), left: p.charts[k].filter(u => !now.has(u) && !skipLeft(u) && (k !== 'tt' || ttYoung(u, d.date))), prevDate: p.date, prev: p };
+  };
+
+  const sections = {};
+  for (const key of CHART_KEYS) {
+    const ids = latest.charts[key];
+    if (!ids) { sections[key] = null; continue; }
+    const mv = moveOf(key, days.length - 1);
+    const prevPos = mv ? mv.prev.rank[key] : null;
+    const added = new Set(mv ? mv.added : []);
+    const rev = key === 'te' ? revenueModel(ids.map(u => ccuNow.get(u) || 0)) : null;
+    const rows = ids.map((u, i) => {
+      const r = Object.assign(game(u), {
+        p: latest.rank[key].get(u), onDays: onChart[key].get(u) || 0,
+        prevPos: prevPos ? (prevPos.get(u) || null) : null, isNew: added.has(u),
+        rev: rev ? rev[i].mo : null, score: null,
+      });
+      return r;
+    });
+    // Monetization Score: rank of position × today's CCU (a high position with few players ranks best).
+    if (key === 'te') [...rows].sort((a, b) => a.p * Math.max(1, a.n) - b.p * Math.max(1, b.n) || a.p - b.p).forEach((r, i) => { r.score = i + 1; });
+
+    // Fallen Heroes: tracked for TRACK_DAYS days after leaving, then just a faded name until they return.
+    const members = new Set(ids), fallen = [];
+    for (const [u, last] of lastOn[key]) {
+      if (members.has(u) || (latest.partial.includes(key) && restricted(u)) || (key === 'tt' && !ttYoung(u, latest.date))) continue;
+      const daysOff = latestT - dayNum(last.date), tracked = daysOff <= TRACK_DAYS, h = hist.get(u) || [];
+      fallen.push(Object.assign({
+        u, daysOff, tracked, lastPos: last.pos, days: onChart[key].get(u) || 0,
+        ccu: tracked ? (ccuNow.has(u) ? ccuNow.get(u) : h.length ? h[h.length - 1].ccu : null) : null,
+        ccuSrc: tracked && ccuNow.has(u) ? ccuInfo(u) : { src: null, snap: null, rng: null },
+      }, info(u)));
+    }
+    fallen.sort((a, b) => (a.tracked === b.tracked ? 0 : a.tracked ? -1 : 1) || a.daysOff - b.daysOff || (a.tracked ? a.lastPos - b.lastPos : a.name.localeCompare(b.name)));
+
+    const genres = rows.map(r => r.genre).filter(Boolean);
+    sections[key] = {
+      rows, fallen, prevDate: mv ? mv.prevDate : null, partial: latest.partial.includes(key),
+      newCount: added.size, fallenToday: mv ? mv.left.length : null,
+      genres: genres.length ? shares(genres) : [],
+    };
+  }
+
+  const compared = CHART_KEYS.filter(k => sections[k] && sections[k].prevDate);
+  const kpi = {
+    compared,
+    added: compared.reduce((a, k) => a + sections[k].newCount, 0),
+    fallen: compared.reduce((a, k) => a + sections[k].fallenToday, 0),
+  };
+  const membersOf = d => new Set(CHART_KEYS.flatMap(k => d.charts[k] || []));
+  const overlap = [0, 0, 0, 0], members = membersOf(latest);
+  const onMany = { 3: [], 4: [] }, teSet = new Set(latest.charts.te || []);
+  for (const u of members) {
+    const on = CHART_KEYS.filter(k => latest.charts[k] && latest.charts[k].includes(u));
+    if (on.length >= 1) overlap[on.length - 1]++;
+    if (on.length >= 3) onMany[on.length].push(Object.assign({ u, on, te: teSet.has(u) ? latest.charts.te.indexOf(u) + 1 : Infinity }, info(u)));
+  }
+  for (const n of [3, 4]) onMany[n].sort((a, b) => a.te - b.te || a.name.localeCompare(b.name));
+  const dubitDay = [...days].reverse().find(d => d.dubit) || null;
+  return { days, latest, sections, kpi, overlap, onMany, dubit: dubitDay ? dubitDay.dubit : null, dubitDate: dubitDay ? dubitDay.date : null, members: members.size, span: [dayNum(days[0].date), latestT] };
+}
+
+// ===== Formatting =====
+const int = n => Math.round(n).toLocaleString('en-US');
+const compact = n => (n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 1 : 2) + 'M' : n >= 1e4 ? (n / 1e3).toFixed(1) + 'K' : int(n));
+const money3 = v => {
+  if (v == null) return '—';
+  const f = (x, s) => '$' + (x >= 100 ? Math.round(x) : x >= 10 ? x.toFixed(1) : x.toFixed(2)) + s;
+  return v >= 1e9 ? f(v / 1e9, 'B') : v >= 1e6 ? f(v / 1e6, 'M') : v >= 1e3 ? f(v / 1e3, 'K') : '$' + Math.round(v);
+};
+const sharePct = x => { const v = x * 100; return (v >= 10 ? Math.round(v) : v.toFixed(1)) + '%'; };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const utcDate = (iso, opts) => { const [y, m, d] = iso.split('-').map(Number); return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString('en-US', Object.assign({ timeZone: 'UTC' }, opts)); };
+const shortDate = iso => (iso ? utcDate(iso, { month: 'short', day: 'numeric', year: 'numeric' }) : '—');
+const dayLabel = iso => utcDate(iso, { month: 'short', day: 'numeric' });
+const dash = '<span class="muted">—</span>';
+function pctText(x, digits) {
+  const v = x * 100, a = Math.abs(v);
+  return (v > 0 ? '+' : v < 0 ? '−' : '') + (a < 10 ? a.toFixed(digits == null ? 1 : digits) : Math.round(a).toLocaleString('en-US')) + '%';
+}
+function pct(x) {
+  if (x == null || !isFinite(x)) return dash;
+  if (Math.abs(x) < 0.0005) return '<span class="muted">0.0%</span>';
+  return `<span class="${x > 0 ? 'up' : 'down'}">${pctText(x)}</span>`;
+}
+const gameLink = r => r.place ? `<a href="https://www.roblox.com/games/${esc(r.place)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name);
+const shortName = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+// ===== Theme & charts =====
+const cssVar = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const charts = {};
+function chartReady() { return typeof window.Chart === 'function'; }
+function makeChart(id, config) {
+  if (charts[id]) { charts[id].destroy(); delete charts[id]; }
+  const canvas = document.getElementById(id);
+  if (!canvas || !chartReady()) return null;
+  const ink2 = cssVar('--ink-2'), muted = cssVar('--muted'), line = cssVar('--line');
+  Chart.defaults.font.family = '"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif';
+  Chart.defaults.font.size = 12;
+  Chart.defaults.color = muted;
+  config.options = Object.assign({ responsive: true, maintainAspectRatio: false, animation: reduceMotion() ? false : { duration: 300 } }, config.options || {});
+  const o = config.options;
+  o.plugins = Object.assign({ legend: { display: false } }, o.plugins || {});
+  o.plugins.tooltip = Object.assign({
+    backgroundColor: cssVar('--ink'), titleColor: cssVar('--surface'), bodyColor: cssVar('--surface'),
+    titleFont: { weight: '500' }, bodyFont: { weight: '600' }, padding: 10, cornerRadius: 8, displayColors: true, boxWidth: 10, boxHeight: 2,
+  }, o.plugins.tooltip || {});
+  for (const ax of Object.values(o.scales || {})) {
+    ax.grid = Object.assign({ color: line, drawTicks: false }, ax.grid || {});
+    ax.border = Object.assign({ color: line }, ax.border || {});
+    ax.ticks = Object.assign({ color: muted, padding: 6 }, ax.ticks || {});
+    if (ax.title) ax.title = Object.assign({ color: ink2 }, ax.title);
+  }
+  charts[id] = new Chart(canvas, config);
+  return charts[id];
+}
+// Value labels at bar tips (only on charts that opt in).
+const tipLabels = {
+  id: 'tipLabels',
+  afterDatasetsDraw(chart, _args, opts) {
+    if (!opts || !opts.format) return;
+    const { ctx } = chart, horizontal = chart.options.indexAxis === 'y';
+    ctx.save();
+    ctx.font = '600 11px "IBM Plex Sans", Arial, sans-serif';
+    ctx.fillStyle = cssVar('--ink-2');
+    chart.data.datasets.forEach((ds, di) => {
+      chart.getDatasetMeta(di).data.forEach((bar, i) => {
+        const v = ds.data[i]; if (v == null) return;
+        const text = opts.format(v, i);
+        if (horizontal) {
+          const neg = v < 0; ctx.textAlign = neg ? 'right' : 'left'; ctx.textBaseline = 'middle';
+          ctx.fillText(text, bar.x + (neg ? -6 : 6), bar.y);
+        } else {
+          ctx.textAlign = 'center'; ctx.textBaseline = 'bottom';
+          ctx.fillText(text, bar.x, bar.y - 4);
+        }
+      });
+    });
+    ctx.restore();
+  },
+};
+// Extend the value axis past the longest bar so its tip label stays inside the plot.
+function roomFor(vals) {
+  const hi = Math.max(0, ...vals), lo = Math.min(0, ...vals);
+  return { beginAtZero: true, suggestedMax: hi > 0 ? hi * 1.25 : 0, suggestedMin: lo < 0 ? lo * 1.25 : 0 };
+}
+function plotNote(plotId, text) {
+  const plot = document.getElementById(plotId);
+  let note = plot.querySelector('.empty-note');
+  if (!text) { if (note) note.remove(); plot.querySelector('canvas').hidden = false; return; }
+  if (!note) { note = document.createElement('div'); note.className = 'empty-note'; plot.appendChild(note); }
+  note.textContent = text;
+  plot.querySelector('canvas').hidden = true;
+}
+
+// ===== Per-viewer preferences (kept in this browser only) =====
+const PREF_KEY = 'roblox-tracker-prefs-v3';
+let prefs = {};
+try { prefs = JSON.parse(localStorage.getItem(PREF_KEY) || '{}') || {}; } catch (e) { prefs = {}; }
+const savePrefs = () => { try { localStorage.setItem(PREF_KEY, JSON.stringify(prefs)); } catch (e) { /* storage unavailable: keep for this visit */ } };
+
+// ===== Chart sections =====
+function ccuCell(n, c) {
+  const L = model ? model.latest : null, A = L && L.avg24;
+  const snapAt = L && L.takenAt ? ' (' + new Date(L.takenAt).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) + ')' : '';
+  if (c && c.src === 'a' && c.rng) {
+    const span = A && A.through_et === '24:00' ? 'the whole day (midnight to midnight ET)' : `midnight to ${A ? A.through_et : 'now'} ET`;
+    const tip = `Average of ${c.rng[2]} hourly readings, ${span}\nRange those hours: ${int(c.rng[0])}–${int(c.rng[1])}` + (c.snap != null ? `\nSnapshot${snapAt}: ${int(c.snap)}` : '');
+    return `<td title="${esc(tip)}">${int(n)}</td>`;
+  }
+  const why = c && c.src === 's' ? `Not enough hourly readings yet today${A && A.min_samples ? ` (needs ${A.min_samples})` : ''}, so this is the snapshot reading` : 'Single snapshot reading';
+  return `<td class="snapv" title="${esc(why + snapAt)}">${int(n)}</td>`;
+}
+const COL = {
+  p: { label: 'Position', dir: 1, cls: 'c1', cell: r => `<td class="c1"><span class="pos">#${r.p}</span>${posPill(r)}</td>` },
+  name: { label: 'Game', dir: 1, cls: 'c-game', sortVal: r => r.name.toLowerCase(), cell: r => `<td class="c-game">${gameLink(r)}</td>` },
+  n: { label: 'Avg CCU (day)', title: 'Avg CCU (day): the average of the day’s hourly readings since midnight Eastern, updated through the evening and finalized the next day. Hover a value for the hours covered, their low–high and the snapshot reading; italic values are single snapshot readings.', dir: -1, cell: r => ccuCell(r.n, r.ccuSrc) },
+  created: { label: 'Created', dir: -1, cell: r => `<td>${shortDate(r.created)}</td>` },
+  onDays: { label: 'History', title: 'History (days on this chart)', dir: -1, cell: r => `<td>${plural(r.onDays, 'day', 'days')}</td>` },
+  vsPrev: { label: 'vs same day last week', title: 'Market share today vs the same weekday a week ago', dir: -1, cell: r => `<td>${pct(r.vsPrev)}</td>` },
+  trend: { label: 'Last 7 days vs prior 7', title: 'Average market share, last 7 days vs the 7 before (halves of the history until 14 days exist)', dir: -1, cell: r => `<td>${winCell(r, r.trend)}</td>` },
+  vsFirst: { label: 'vs first 7 days', title: 'Average market share, last 7 days vs the first 7 recorded', dir: -1, cell: r => `<td>${winCell(r, r.vsFirst)}</td>` },
+  vsPeak: { label: 'vs peak 7 days', title: 'Average market share, last 7 days vs the highest 7-day average', dir: -1, cell: r => `<td>${peakCell(r)}</td>` },
+  score: { label: 'Monetization Score', title: 'Monetization Score (rank of position × CCU; 1 = the highest position for the fewest players)', dir: 1, cls: 'score-col', cell: r => `<td class="score">${r.score}</td>` },
+  rev: { label: 'Est. revenue / month', dir: -1, cell: r => `<td class="money">${money3(r.rev)}</td>` },
+};
+const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days on this chart', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
+const SIGNED = new Set(['trend', 'vsFirst', 'vsPrev', 'vsPeak']);
+const BASE_COLS = ['p', 'name', 'n', 'created', 'onDays', 'vsPrev', 'trend', 'vsFirst', 'vsPeak'];
+const SECTIONS = CHART_KEYS.map(key => ({
+  key, title: CHART_NAMES[key],
+  cols: key === 'te' ? BASE_COLS.concat('score', 'rev') : BASE_COLS,
+  groups: key === 'te' ? [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g'], ['Monetization estimate', 2, 'g']] : [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g']],
+}));
+function posPill(r) {
+  if (r.isNew) return '<span class="pill new">New</span>';
+  if (r.prevPos && r.prevPos !== r.p) {
+    const k = r.prevPos - r.p;
+    return `<span class="pill ${k > 0 ? 'up' : 'down'}" title="Position ${r.prevPos} in the previous snapshot">${k > 0 ? '▲' : '▼'}${Math.abs(k)}</span>`;
+  }
+  return '';
+}
+// Values from half-history windows (under 14 days recorded) are marked so they read as provisional.
+const winCell = (r, x) => (x == null ? dash : r.win < SHARE_WIN ? `<span title="Based on ${r.win}-day averages until 14 days are recorded">${pct(x)}<sup class="muted">${r.win}d</sup></span>` : pct(x));
+function peakCell(r) {
+  if (r.vsPeak == null) return dash;
+  if (Math.abs(r.vsPeak) < 0.0005) return '<span class="pill peak">Peak</span>';
+  return winCell(r, r.vsPeak);
+}
+function pref(key) {
+  const s = SECTIONS.find(x => x.key === key), p = prefs[key] || {};
+  const sort = s.cols.includes(p.sort) ? p.sort : 'p';
+  return { sort, dir: p.dir === -1 || p.dir === 1 ? p.dir : COL[sort].dir, show: Number.isInteger(p.show) && p.show >= 0 ? p.show : 25, open: p.open !== false, view: ['table', 'bars', 'trend'].includes(p.view) ? p.view : 'table', fallen: p.fallen !== false };
+}
+function setPref(key, patch) { prefs[key] = Object.assign(pref(key), patch); savePrefs(); }
+
+const el = id => document.getElementById(id);
+let model = null;
+
+function sectionShell(s) {
+  const options = s.cols.map(id => `<option value="${id}">${esc(COL[id].title || COL[id].label)}</option>`).join('');
+  const groups = s.groups.map(([label, span, cls]) => `<th${cls ? ` class="${cls}"` : ''}${span > 1 ? ` colspan="${span}"` : ''}>${esc(label)}</th>`).join('');
+  const k = s.key;
+  return `<section class="card chart-card" id="sec-${k}" aria-labelledby="${k}-title">
+  <div class="card-head">
+    <div class="title-row"><h2 id="${k}-title">${esc(s.title)}</h2><span class="meta" id="${k}-meta">Loading…</span></div>
+    <div class="ctl">
+      <div class="seg" role="group" aria-label="${esc(s.title)} view"><button type="button" data-sec="${k}" data-sv="table">Table</button><button type="button" data-sec="${k}" data-sv="bars">Bars</button><button type="button" data-sec="${k}" data-sv="trend">Trend</button></div>
+      <button type="button" class="btn icon-btn" id="${k}-min" aria-controls="${k}-body" aria-label="Minimize ${esc(s.title)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>
+    </div>
+  </div>
+  <div id="${k}-body">
+    <div class="toolbar">
+      <label class="search" for="${k}-q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr-only">Search ${esc(s.title)} by game name</span><input type="search" id="${k}-q" placeholder="Search ${esc(s.title)}"></label>
+      <label class="field" for="${k}-sort">Sort by <select id="${k}-sort">${options}</select></label>
+      <button type="button" class="btn" id="${k}-dir"></button>
+      <label class="field" for="${k}-show">Show top <input type="number" id="${k}-show" min="1" step="1" inputmode="numeric" placeholder="All"></label>
+      <button type="button" class="btn" id="${k}-all">All</button>
+      <span class="count" id="${k}-count"></span>
+    </div>
+    <div class="notice section-note" id="${k}-note" hidden></div>
+    <div class="view" id="${k}-view-table"><div class="ledger"><table class="data">
+      <thead><tr class="groups">${groups}</tr><tr class="cols" id="${k}-head"></tr></thead>
+      <tbody id="${k}-rows"><tr><td class="empty" colspan="${s.cols.length}">Loading the latest snapshot…</td></tr></tbody>
+    </table></div></div>
+    <div class="view" id="${k}-view-bars" hidden><p class="graph-title" id="${k}-bars-title"></p><div class="bars-plot" id="${k}-bars-plot"><canvas id="${k}-bars" role="img" aria-label="${esc(s.title)} bar chart"></canvas></div><p class="view-note" id="${k}-bars-note" hidden></p></div>
+    <div class="view" id="${k}-view-trend" hidden><p class="graph-title" id="${k}-trend-title"></p><div class="multiples" id="${k}-multiples"></div><p class="view-note" id="${k}-trend-note" hidden></p></div>
+    <details class="fallen" id="${k}-fallen">
+      <summary><span class="fh-title">Fallen Heroes</span><span class="meta" id="${k}-fallen-meta"></span></summary>
+      <div class="fh-body">
+        <p class="fh-note">Games that dropped off ${esc(s.title)}. Their CCU is tracked for 3 days after they leave; after that only the name stays, faded, until they return.</p>
+        <div class="ledger"><table class="data fallen-table"><thead><tr class="cols plain"><th class="c-game">Game</th><th>Avg CCU (day)</th><th>Created</th><th>Days on chart</th></tr></thead><tbody id="${k}-fallen-rows"></tbody></table></div>
+      </div>
+    </details>
+  </div>
+</section>`;
+}
+
+function sortRows(rows, id, dir) {
+  const get = COL[id].sortVal || (r => r[id]);
+  return rows.sort((a, b) => {
+    const x = get(a), y = get(b), xn = x == null || x === '', yn = y == null || y === '';
+    if (xn || yn) return xn === yn ? a.p - b.p : xn ? 1 : -1;
+    return (x < y ? -1 : x > y ? 1 : 0) * dir || a.p - b.p;
+  });
+}
+
+function renderControls(s) {
+  const p = pref(s.key), k = s.key;
+  el(k + '-sort').value = p.sort;
+  el(k + '-dir').textContent = p.dir === 1 ? '↑ Ascending' : '↓ Descending';
+  el(k + '-show').value = p.show ? String(p.show) : '';
+  el(k + '-head').innerHTML = s.cols.map(id => {
+    const c = COL[id], sorted = p.sort === id ? ` aria-sort="${p.dir === 1 ? 'ascending' : 'descending'}"` : '';
+    return `<th class="${c.cls || ''}"${sorted}${c.title ? ` title="${esc(c.title)}"` : ''}><button type="button" data-k="${id}">${esc(c.label)}</button></th>`;
+  }).join('');
+  document.querySelectorAll(`[data-sec="${k}"]`).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.sv === p.view)));
+  el('sec-' + k).dataset.open = String(p.open);
+  el(k + '-body').hidden = !p.open;
+  el(k + '-min').setAttribute('aria-expanded', String(p.open));
+  el(k + '-min').setAttribute('aria-label', (p.open ? 'Minimize ' : 'Expand ') + s.title);
+  el(k + '-fallen').open = p.fallen;
+  ['table', 'bars', 'trend'].forEach(v => { el(`${k}-view-${v}`).hidden = v !== p.view; });
+}
+
+const query = k => el(k + '-q').value.trim().toLowerCase();
+function visibleRows(s) {
+  const sec = model.sections[s.key], p = pref(s.key), q = query(s.key);
+  const onlyNew = el('onlyNew').getAttribute('aria-pressed') === 'true';
+  const matched = sec.rows.filter(r => (!q || r.name.toLowerCase().includes(q)) && (!onlyNew || r.isNew));
+  const sorted = sortRows(matched.slice(), p.sort, p.dir);
+  return { matched, shown: p.show ? sorted.slice(0, p.show) : sorted };
+}
+
+function renderSection(s) {
+  renderControls(s);
+  const k = s.key, cols = s.cols.length;
+  if (!model) return;
+  const sec = model.sections[k];
+  el('nav-' + k).textContent = sec ? String(sec.rows.length) : '';
+  if (!sec) {
+    el(k + '-meta').textContent = 'Not recorded yet';
+    el(k + '-rows').innerHTML = `<tr><td class="empty" colspan="${cols}">No snapshot of this chart yet. It’s recorded with the next daily run.</td></tr>`;
+    el(k + '-count').textContent = '';
+    el(k + '-fallen-meta').textContent = '';
+    el(k + '-fallen-rows').innerHTML = '<tr><td class="empty" colspan="4">No fallen heroes yet.</td></tr>';
+    const v = pref(k).view;
+    if (v === 'bars') { el(k + '-bars-title').textContent = ''; el(k + '-bars-note').hidden = true; el(k + '-bars-plot').style.height = '120px'; plotNote(k + '-bars-plot', 'No snapshot of this chart yet.'); }
+    if (v === 'trend') { el(k + '-trend-title').textContent = ''; el(k + '-multiples').innerHTML = ''; el(k + '-trend-note').hidden = false; el(k + '-trend-note').textContent = 'No snapshot of this chart yet.'; }
+    return;
+  }
+  const { matched, shown } = visibleRows(s);
+  el(k + '-rows').innerHTML = shown.length
+    ? shown.map(r => '<tr>' + s.cols.map(id => COL[id].cell(r)).join('') + '</tr>').join('')
+    : `<tr><td class="empty" colspan="${cols}">No games match these filters.</td></tr>`;
+  const filtered = matched.length !== sec.rows.length;
+  el(k + '-count').textContent = `${shown.length === matched.length ? 'All ' + matched.length : shown.length + ' of ' + matched.length}${filtered ? ' matching' : ''} shown`;
+  const bits = [`${sec.rows.length} titles`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
+  el(k + '-meta').innerHTML = esc(bits.join(' · ')) + (sec.partial ? ' <span class="pill warn">Partial</span>' : '');
+  el(k + '-note').hidden = !sec.partial;
+  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart came from the public chart, so 18+ titles are missing and positions after them may be off by a few.' : '';
+  renderFallen(s);
+  const view = pref(k).view;
+  if (view === 'bars') renderBars(s, shown); else if (charts[k + '-bars']) { charts[k + '-bars'].destroy(); delete charts[k + '-bars']; }
+  if (view === 'trend') renderTrend(s, shown);
+}
+
+function renderFallen(s) {
+  const k = s.key, sec = model.sections[k], q = query(k);
+  const list = sec.fallen.filter(f => !q || f.name.toLowerCase().includes(q));
+  const tracked = sec.fallen.filter(f => f.tracked).length, faded = sec.fallen.length - tracked;
+  el(k + '-fallen-meta').textContent = sec.fallen.length ? `${tracked} tracked · ${faded} faded` : 'None yet';
+  el(k + '-fallen-rows').innerHTML = list.length
+    ? list.map(f => (f.tracked
+      ? `<tr><td class="c-game">${gameLink(f)}</td>${f.ccu == null ? `<td>${dash}</td>` : ccuCell(f.ccu, f.ccuSrc)}<td>${shortDate(f.created)}</td><td>${plural(f.days, 'day', 'days')}</td></tr>`
+      : `<tr class="faded"><td class="c-game">${esc(f.name)}</td><td></td><td></td><td></td></tr>`)).join('')
+    : `<tr><td class="empty" colspan="4">${sec.fallen.length ? 'No fallen heroes match this search.' : sec.prevDate ? 'No game has dropped off this chart yet.' : 'Fallen Heroes start with this chart’s second snapshot.'}</td></tr>`;
+}
+
+const BAR_CAP = 60, MULT_CAP = 24;
+function renderBars(s, shown) {
+  const k = s.key, p = pref(k);
+  if (p.view !== 'bars') return;
+  const metric = GRAPH[p.sort] ? p.sort : p.sort === 'score' ? 'rev' : 'n', signed = SIGNED.has(metric);
+  const rows = shown.filter(r => r[metric] != null).slice(0, BAR_CAP);
+  const sortName = p.sort === 'score' ? 'Monetization Score' : (COL[p.sort].title || COL[p.sort].label).toLowerCase();
+  el(k + '-bars-title').textContent = `${GRAPH[metric]} · ${rows.length ? 'in the order of the table' : 'nothing to plot'}${GRAPH[p.sort] ? '' : ` (sorted by ${sortName})`}`;
+  const note = el(k + '-bars-note'), dropped = shown.length - rows.length;
+  note.hidden = !(shown.length > BAR_CAP || dropped > 0);
+  note.textContent = shown.length > BAR_CAP ? `The graph shows the first ${BAR_CAP}; the table has all ${shown.length}.` : dropped > 0 ? `${dropped} games have no value for this yet and are left out.` : '';
+  const plot = el(k + '-bars-plot');
+  plot.style.height = Math.max(120, rows.length * 26 + 40) + 'px';
+  if (!rows.length) { plotNote(k + '-bars-plot', signed ? 'This view fills in after a second daily snapshot.' : 'No games match these filters.'); return; }
+  plotNote(k + '-bars-plot', '');
+  const vals = rows.map(r => (signed ? r[metric] * 100 : r[metric]));
+  const fmt = v => (signed ? pctText(v / 100) : metric === 'rev' ? money3(v) : metric === 'onDays' ? v + 'd' : compact(v));
+  makeChart(k + '-bars', {
+    type: 'bar', plugins: [tipLabels],
+    data: { labels: rows.map(r => shortName(r.name, 30)), datasets: [{ data: vals, backgroundColor: signed ? vals.map(v => (v >= 0 ? cssVar('--up-bar') : cssVar('--down-bar'))) : cssVar('--accent'), borderRadius: 4, borderSkipped: 'start', maxBarThickness: 18, categoryPercentage: 0.8, barPercentage: 0.9 }] },
+    options: {
+      indexAxis: 'y',
+      plugins: { tipLabels: { format: fmt }, tooltip: { displayColors: false, callbacks: { title: items => rows[items[0].dataIndex].name, label: item => `${GRAPH[metric]}: ${fmt(item.raw)} · #${rows[item.dataIndex].p}` } } },
+      scales: { x: Object.assign(roomFor(vals), { grid: { display: true }, ticks: { callback: v => (signed ? v + '%' : metric === 'rev' ? money3(v) : compact(v)) } }), y: { grid: { display: false }, ticks: { autoSkip: false, color: cssVar('--ink-2') } } },
+    },
+  });
+}
+
+function sparkSvg(h, span) {
+  const W = 200, H = 44, pad = 4, vals = h.map(x => x.ccu), lo = Math.min(...vals), hi = Math.max(...vals);
+  const X = t => (span[1] > span[0] ? pad + (t - span[0]) / (span[1] - span[0]) * (W - 2 * pad) : W / 2);
+  const Y = c => (hi > lo ? H - pad - (c - lo) / (hi - lo) * (H - 2 * pad) : H / 2);
+  const pts = h.map(x => [X(x.t).toFixed(1), Y(x.ccu).toFixed(1)]);
+  const line = 'M' + pts.map(p => p.join(',')).join('L');
+  const end = pts[pts.length - 1];
+  return `<svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><line class="g" x1="0" y1="${H - 0.5}" x2="${W}" y2="${H - 0.5}"/><path class="a" d="${line}L${end[0]},${H}L${pts[0][0]},${H}Z"/><path class="l" d="${line}"/><circle class="e" cx="${end[0]}" cy="${end[1]}" r="4"/></svg>`;
+}
+function renderTrend(s, shown) {
+  const k = s.key, p = pref(k);
+  if (p.view !== 'trend') return;
+  const rows = shown.slice(0, MULT_CAP), note = el(k + '-trend-note');
+  el(k + '-trend-title').textContent = 'CCU on every recorded day · in the order of the table';
+  if (!model || model.days.length < 2) {
+    el(k + '-multiples').innerHTML = '';
+    note.hidden = false; note.textContent = 'Trend lines appear once there are two recorded days.';
+    return;
+  }
+  note.hidden = shown.length <= MULT_CAP;
+  note.textContent = `Showing the first ${MULT_CAP}; the table has all ${shown.length}.`;
+  el(k + '-multiples').innerHTML = rows.map(r => `<div class="mult" title="${esc(r.name)}">
+    <div class="nm">#${r.p} · ${esc(r.name)}</div>
+    <div class="fig"><b>${compact(r.n)}</b><span>${r.hist.length >= 2 ? pct(r.vsFirst) + ' <span class="muted">vs first</span>' : '<span class="muted">1 day</span>'}</span></div>
+    ${r.hist.length >= 2 ? sparkSvg(r.hist, model.span) : '<div class="muted" style="font-size:.75rem;height:44px;display:grid;place-items:center">One reading so far</div>'}
+  </div>`).join('') || '<p class="view-note">No games match these filters.</p>';
+}
+
+// ===== Overview =====
+// ===== Deep Analysis (written daily by the scheduled task into the `analysis` collection) =====
+let analysis = null;
+const DA_TABS = ['mp', 'te', 'tt', 'uc', 'x'];
+const daTab = () => (DA_TABS.includes(prefs.da) ? prefs.da : 'mp');
+function hSpark(hist) {
+  if (!hist || hist.length < 2) return '';
+  const W = 64, H = 16, pts = hist.map((e, i) => [(i / (hist.length - 1)) * W, H - (e[1] / 100) * H]);
+  return `<svg class="hspark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><path d="M${pts.map(p => p[0].toFixed(1) + ',' + p[1].toFixed(1)).join('L')}"/></svg>`;
+}
+// The step is all the table shows; the hypothesis behind it and its evidence sit in the hover text.
+function stepTip(h) {
+  const ev = h.evidence || {}, bits = [h.statement];
+  if (ev.n != null) bits.push(`${ev.n} games${ev.days ? ', ' + plural(ev.days, 'day', 'days') : ''}${ev.effect != null ? `, effect ${ev.effect > 0 ? '+' : ''}${ev.effect}` : ''}`);
+  if (h.kind === 'qualitative') bits.push('Judgment, not yet testable with the data');
+  if (ev.creator_robust === false) bits.push('May be driven by one creator');
+  if ((ev.counterexamples || []).length) bits.push('Counterexamples: ' + ev.counterexamples.join(', '));
+  if (ev.retired_because) bits.push('Retired: ' + ev.retired_because);
+  return bits.join('\n');
+}
+function stepRows(list) {
+  return list.map(h => `<tr><td class="h-st" title="${esc(stepTip(h))}">${esc(h.action)}</td>`
+    + `<td class="h-conf"><span class="meter"><i style="width:${Math.max(2, Math.min(100, h.confidence))}%"></i></span><b>${h.confidence}%</b>${hSpark(h.history)}</td>`
+    + `<td><span class="st st-${esc(String(h.status).toLowerCase())}">${esc(h.status)}</span></td></tr>`).join('');
+}
+function stepBlock(hs) {
+  const active = hs.filter(h => h.status !== 'Retired').sort((a, b) => b.confidence - a.confidence);
+  const retired = hs.filter(h => h.status === 'Retired');
+  const table = list => `<div class="htable-wrap"><table class="htable"><thead><tr><th>Step</th><th>Confidence</th><th>Status</th></tr></thead><tbody>${stepRows(list)}</tbody></table></div>`;
+  return `<section class="da-sec"><h4>Actionable steps</h4>${active.length ? table(active) : '<p class="share-empty">None yet.</p>'}`
+    + (retired.length ? `<details class="retired"><summary>Retired (${retired.length})</summary>${table(retired)}</details>` : '') + '</section>';
+}
+function renderAnalysis() {
+  const tab = daTab();
+  document.querySelectorAll('[data-da]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.da === tab)));
+  const A = analysis;
+  if (!A) {
+    el('da-body').innerHTML = '<p class="share-empty">The first Deep Analysis is written with the next daily snapshot, around 3 PM Eastern.</p>';
+    return;
+  }
+  el('da-meta').textContent = `Day ${A.dayIndex || 1} · updated ${dayLabel(A.date)} · re-tested daily. Hover a step for the evidence.`;
+  const steps = (A.hypotheses || []).filter(h => h.chart === tab && h.action);
+  const kw = tab === 'x' ? '' : (((A.charts || {})[tab] || {}).keywords || []).map(w => {
+    const a = w.assoc, arrow = a ? (a.effect > 0 ? `<span class="assoc-up">▲${a.effect.toFixed(2)}</span>` : `<span class="assoc-down">▼${Math.abs(a.effect).toFixed(2)}</span>`) : '';
+    return `<span>${esc(w.label)} <b>${sharePct(w.share)}</b> ${arrow}</span>`;
+  }).join('');
+  el('da-body').innerHTML = (kw ? `<section class="da-sec"><h4>Title keywords</h4><p class="share-empty">Share of this chart’s titles. ▲/▼: linked with doing better or worse on the chart’s goal.</p><div class="chips">${kw}</div></section>` : '')
+    + stepBlock(steps);
+}
+
+function renderFit() {
+  const D = model.dubit;
+  if (!D) {
+    el('fit-rows').innerHTML = '<tr><td class="empty" colspan="6">Dubit’s share of plays is fetched with the next daily snapshot, around 3 PM Eastern.</td></tr>';
+    el('fit-note').textContent = '';
+    return;
+  }
+  const genres = Object.keys(D.shares).sort((a, b) => D.shares[b] - D.shares[a]);
+  const cell = k => {
+    const sec = model.sections[k];
+    if (!sec || !sec.genres.length) return null;
+    return genres.map(g => { const f = sec.genres.find(x => x.label === g); const share = f ? f.share * 100 : 0; return { share, idx: share / D.shares[g] }; });
+  };
+  const cols = CHART_KEYS.map(cell);
+  const best = cols.map(c => (c ? Math.max(...c.map(x => x.idx)) : null));
+  const topPlays = Math.max(...genres.map(g => D.shares[g]));
+  el('fit-rows').innerHTML = genres.map((g, i) => `<tr><td class="c-game">${esc(g)}</td>`
+    + `<td class="fit-cell${D.shares[g] === topPlays ? ' top' : ''}"><b>${D.shares[g].toFixed(1)}%</b></td>`
+    + cols.map((c, ci) => (!c ? `<td>${dash}</td>` : `<td class="fit-cell${c[i].idx === best[ci] ? ' top' : c[i].idx < 1 ? ' low' : ''}"><b>${c[i].idx.toFixed(2)}×</b><small>${c[i].share.toFixed(1)}% of chart</small></td>`)).join('')
+    + '</tr>').join('');
+  el('fit-note').textContent = `Share of plays: Dubit Roblox games tracker${D.from ? `, ${D.from} to ${D.to}` : ''}, as read on ${dayLabel(model.dubitDate)}. Chart shares use today’s games with a Roblox genre. Charts count every game equally, and small charts like Up-and-Coming swing a lot from one game.`;
+}
+function renderCounts() {
+  const k = model.kpi, line = key => k.compared.map(c => `${CHART_NAMES[c]} ${model.sections[c][key]}`).join(' · ');
+  el('k-new').textContent = k.compared.length ? int(k.added) : '—';
+  el('k-new-d').textContent = k.compared.length ? line('newCount') : 'Starts with each chart’s second snapshot.';
+  el('k-fall').textContent = k.compared.length ? int(k.fallen) : '—';
+  el('k-fall-d').textContent = k.compared.length ? line('fallenToday') : 'Starts with each chart’s second snapshot.';
+}
+
+function renderFeature() {
+  const L = model.latest, when = new Date(L.takenAt);
+  el('f-when').textContent = when.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) + ' · ' + when.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  const n = Object.keys(L.charts).length;
+  el('f-detail').textContent = `${L.partial.length ? 'Partly from the public charts' : 'Signed-in charts'} · ${n} of 4 charts · ${plural(model.days.length, 'day', 'days')} recorded since ${dayLabel(model.days[0].date)}. Next snapshot around 3 PM Eastern.`;
+  el('sub').textContent = `Snapshot of ${dayLabel(L.date)} · ${int(model.members)} games across ${plural(n, 'chart', 'charts')}.`;
+}
+
+function renderOverlap() {
+  const counts = model.overlap, total = counts.reduce((a, b) => a + b, 0);
+  const colors = ['--ord-1', '--ord-2', '--ord-3', '--ord-4'].map(cssVar);
+  const labels = ['On 1 chart', 'On 2 charts', 'On 3 charts', 'On all 4'];
+  const share = c => (total ? Math.round((c / total) * 100) : 0) + '%';
+  el('ov-legend').innerHTML = counts.map((c, i) => `<div><i style="background:${colors[i]}"></i><span>${labels[i]}</span><b>${share(c)}</b></div>`).join('') + `<div><i style="background:transparent"></i><span class="muted">${int(total)} games today</span><span></span></div>`;
+  const list = (n, title) => `<div class="multi-list"><h4>${title} (${model.onMany[n].length})</h4>${model.onMany[n].length
+    ? `<ul>${model.onMany[n].map(g => `<li>${gameLink(g)}<div class="tags">${g.on.map(k => `<span>${CHART_NAMES[k]}</span>`).join('')}</div></li>`).join('')}</ul>`
+    : '<p class="share-empty">None today.</p>'}</div>`;
+  el('ov-lists').innerHTML = list(4, 'On all 4 charts') + list(3, 'On 3 charts');
+  makeChart('ov-canvas', {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: counts, backgroundColor: colors, borderWidth: 0, spacing: 2, hoverOffset: 4 }] },
+    options: { cutout: '62%', plugins: { tooltip: { callbacks: { label: item => `${item.label}: ${int(item.raw)} games (${share(item.raw)})` } } } },
+  });
+}
+
+// Decorative clay ribbon for the snapshot card.
+function drawArt() {
+  const c = el('art'); if (!c) return;
+  const dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = c.clientHeight;
+  if (!w || !h) return;
+  c.width = w * dpr; c.height = h * dpr;
+  const ctx = c.getContext('2d'); ctx.scale(dpr, dpr); ctx.clearRect(0, 0, w, h);
+  const hues = ['#d97757', '#e8936f', '#6a9bcc', '#788c5d'];
+  for (let i = 0; i < 26; i++) {
+    ctx.beginPath();
+    const off = i * 3.2, amp = 18 + i * 0.9;
+    for (let x = -10; x <= w + 10; x += 6) {
+      const y = h * 0.55 + Math.sin(x / 46 + i * 0.18) * amp * 0.6 + Math.cos(x / 23 - i * 0.11) * 6 - off + 30;
+      x === -10 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = hues[i % 4];
+    ctx.globalAlpha = 0.18 + (i / 26) * 0.55;
+    ctx.lineWidth = 1.4;
+    ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+}
+
+const methodOpen = () => (prefs.method || {}).open !== false;
+function renderMethod() {
+  const open = methodOpen();
+  el('method').dataset.open = String(open);
+  el('method-body').hidden = !open;
+  el('method-min').setAttribute('aria-expanded', String(open));
+  el('method-min').setAttribute('aria-label', (open ? 'Minimize' : 'Expand') + ' How it works');
+}
+
+// Minimize buttons on overview cards (state kept per viewer).
+const MINI = { deep: ['deep', 'da-body', 'Deep Analysis'], fit: ['fit-card', 'fit-body', 'Genre fit'], ov: ['ov-card', 'ov-body', 'Chart overlap'] };
+const cardOpen = k => ((prefs.cards || {})[k] || {}).open !== false;
+function renderCardMins() {
+  for (const [k, [card, body, label]] of Object.entries(MINI)) {
+    const open = cardOpen(k), b = el(k + '-min');
+    el(card).dataset.open = String(open);
+    el(body).hidden = !open;
+    b.setAttribute('aria-expanded', String(open));
+    b.setAttribute('aria-label', (open ? 'Minimize ' : 'Expand ') + label);
+  }
+}
+function renderOverview() { renderFeature(); renderFit(); renderCounts(); renderOverlap(); }
+function renderAll() { if (model) renderOverview(); SECTIONS.forEach(renderSection); }
+
+function showMessage(title, body) {
+  el('f-when').textContent = '—';
+  el('f-detail').textContent = body;
+  el('notice').innerHTML = `<strong>${esc(title)}</strong> ${esc(body)}`;
+  el('notice').hidden = false;
+  plotNote('ov-plot', body);
+  el('da-body').innerHTML = `<p class="share-empty">${esc(body)}</p>`;
+  el('fit-rows').innerHTML = `<tr><td class="empty" colspan="6">${esc(body)}</td></tr>`;
+  SECTIONS.forEach(s => {
+    el(s.key + '-meta').textContent = '';
+    el(s.key + '-rows').innerHTML = `<tr><td class="empty" colspan="${s.cols.length}">${esc(body)}</td></tr>`;
+  });
+}
+
+// ===== Boot =====
+function boot() {
+  el('sections').innerHTML = SECTIONS.map(sectionShell).join('');
+  drawArt();
+  renderMethod();
+  renderAnalysis();
+  SECTIONS.forEach(s => {
+    const k = s.key;
+    renderControls(s);
+    el(k + '-q').addEventListener('input', () => renderSection(s));
+    el(k + '-sort').addEventListener('change', e => { setPref(k, { sort: e.target.value, dir: COL[e.target.value].dir }); renderSection(s); });
+    el(k + '-dir').addEventListener('click', () => { setPref(k, { dir: -pref(k).dir }); renderSection(s); });
+    el(k + '-show').addEventListener('input', e => {
+      const v = parseInt(e.target.value, 10);
+      if (e.target.value === '' || (Number.isInteger(v) && v >= 1)) { setPref(k, { show: e.target.value === '' ? 0 : v }); renderSection(s); }
+    });
+    el(k + '-all').addEventListener('click', () => { setPref(k, { show: 0 }); renderSection(s); });
+    el(k + '-min').addEventListener('click', () => { setPref(k, { open: !pref(k).open }); renderSection(s); });
+    el(k + '-fallen').addEventListener('toggle', e => { if (e.target.open !== pref(k).fallen) setPref(k, { fallen: e.target.open }); });
+    el(k + '-head').addEventListener('click', e => {
+      const b = e.target.closest('button[data-k]'); if (!b) return;
+      const id = b.dataset.k, p = pref(k);
+      setPref(k, p.sort === id ? { dir: -p.dir } : { sort: id, dir: COL[id].dir });
+      renderSection(s);
+      const again = el(k + '-head').querySelector(`button[data-k="${id}"]`); if (again) again.focus();
+    });
+  });
+  document.addEventListener('click', e => {
+    const sv = e.target.closest('[data-sec]');
+    if (sv) { const s = SECTIONS.find(x => x.key === sv.dataset.sec); setPref(s.key, { view: sv.dataset.sv, open: true }); renderSection(s); return; }
+    const nav = e.target.closest('.nav a');
+    if (nav) {
+      e.preventDefault();
+      const target = el(nav.dataset.target);
+      if (target) target.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
+      document.querySelectorAll('.nav a').forEach(a => a.classList.toggle('active', a === nav));
+    }
+  });
+  Object.keys(MINI).forEach(k => el(k + '-min').addEventListener('click', () => { prefs.cards = Object.assign({}, prefs.cards, { [k]: { open: !cardOpen(k) } }); savePrefs(); renderCardMins(); }));
+  renderCardMins();
+  el('method-min').addEventListener('click', () => { prefs.method = { open: !methodOpen() }; savePrefs(); renderMethod(); });
+  document.querySelectorAll('[data-da]').forEach(b => b.addEventListener('click', () => { prefs.da = b.dataset.da; savePrefs(); renderAnalysis(); }));
+  el('onlyNew').addEventListener('click', e => { const b = e.currentTarget; b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true')); SECTIONS.forEach(renderSection); });
+  el('f-go').addEventListener('click', () => { const t = el('sec-te'); if (t) t.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' }); });
+
+  // Highlight the nav item for the section in view.
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(entries => {
+      const vis = entries.filter(x => x.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (vis) document.querySelectorAll('.nav a').forEach(a => a.classList.toggle('active', a.dataset.target === vis.target.id));
+    }, { rootMargin: '-10% 0px -70% 0px' });
+    ['overview', ...CHART_KEYS.map(k => 'sec-' + k), 'method'].forEach(id => { const t = el(id); if (t) io.observe(t); });
+  }
+  // Charts follow the viewer's theme.
+  const rerender = () => { drawArt(); renderAll(); };
+  if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', rerender);
+  new MutationObserver(rerender).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawArt, 150); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (model) renderAll(); });
+  if (!chartReady()) {
+    el('notice').hidden = false;
+    el('notice').innerHTML = '<strong>Charts didn’t load.</strong> The tables still work; reload the page to try the charts again.';
+  }
+
+  const use = window.claude && window.claude.use ? window.claude.use('db') : Promise.resolve(null);
+  use.then(db => {
+    if (!db) { showMessage('Sign in to see the tracker.', 'The daily snapshots are stored in this page’s database, which loads for signed-in claude.ai viewers.'); return; }
+    db.collection('analysis').orderBy('date', 'desc').limit(1).onSnapshot(snap => {
+      const d = snap.docs.find(x => x.exists);
+      analysis = d ? d.data() : null;
+      renderAnalysis();
+    }, () => { analysis = null; renderAnalysis(); });
+    db.collection('days').onSnapshot(snap => {
+      const days = snap.docs.filter(d => d.exists).map(d => d.data()).filter(validDay).sort((a, b) => (a.date < b.date ? -1 : 1));
+      if (!days.length) { showMessage('No snapshots yet.', 'The first one is recorded at the next daily run, around 3 PM Eastern.'); return; }
+      model = buildModel(days);
+      if (chartReady()) el('notice').hidden = true;
+      renderAll();
+    }, err => showMessage('The tracker data didn’t load.', 'Reload the page to try again (' + ((err && err.code) || 'error') + ').'));
+  });
+}
+
+if (typeof document !== 'undefined') boot();
+if (typeof module !== 'undefined') module.exports = { revenueModel, buildModel, trendPerDay, normalize, validDay };
+</script>
