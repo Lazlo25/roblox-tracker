@@ -1,23 +1,30 @@
 {
   "new": [
-    {"chart": "te", "statement": "Survival-genre games earn a lower Top Earning position for their CCU than other genres",
-     "test": {"feature": "genre=Survival", "metric": "te_eff", "type": "binary", "direction": "-"}},
-    {"chart": "tt", "statement": "Young games that sell currency packs climb Top Trending faster than those that don't",
-     "action": "Sell currency packs from launch",
-     "test": {"feature": "prod_currency", "metric": "tt_mom", "type": "binary", "direction": "+"}},
-    {"chart": "tt", "statement": "PvP loops climb Top Trending more slowly than other young games of similar age",
-     "action": "Launch co-op or party, not PvP",
-     "test": {"feature": "social=pvp", "metric": "tt_mom", "type": "binary", "direction": "-"}},
-    {"chart": "mp", "statement": "Games whose median developer product costs more than 79 Robux stay on Most Popular longer",
-     "action": "Price most dev products above 79 R$",
-     "test": {"feature": "products_median_price", "metric": "mp_days", "type": "threshold", "cut": 79, "direction": "+"}},
-    {"chart": "x", "kind": "qualitative", "confidence": 25,
-     "statement": "Duel-pad first-person shooters (Sniper Duels, Murder Duels, Deagle Arena, RIVALS) form a durable sub-genre that holds both Most Popular and Top Earning with skin-and-trade economies instead of passes",
-     "rationale": "Today's profiling found four duel-pad FPS games with zero or few passes and large currency/skin product lists, each on Top Earning or Most Popular. Needs a loop/feature tag for duel pads and several weeks of presence data to confirm."}
+    {"chart": "tt", "statement": "Pet and egg games hold higher Top Trending positions than other young games of similar age",
+     "action": "Use a pet/egg loop for trending",
+     "test": {"feature": "mech_pets_eggs", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Upgrade-heavy young games climb Top Trending more slowly than other young games",
+     "action": "Avoid upgrade grinds at launch",
+     "test": {"feature": "mech_upgrade", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Descriptions that ask players to favorite the game go with higher Up-and-Coming positions among games of the same age",
+     "action": "Ask players to favorite the game",
+     "test": {"feature": "cta_favorite", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games whose median game pass costs more than 89 Robux rank lower on Up-and-Coming",
+     "action": "Keep launch passes at 89 R$ or less",
+     "test": {"feature": "passes_median_price", "metric": "uc_pos", "type": "threshold", "cut": 89, "direction": "-"}},
+    {"chart": "te", "statement": "All-caps titles go with higher monetization efficiency, the opposite of their effect on Most Popular",
+     "test": {"feature": "title_caps_heavy", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "mp", "statement": "More novel concepts hold higher Most Popular positions",
+     "test": {"feature": "novelty", "metric": "mp_pos", "type": "corr", "direction": "+"}},
+    {"chart": "uc", "kind": "qualitative", "confidence": 25,
+     "statement": "Short horror-escape games with a single named monster (Sarab, Cocardo, MM2 of The Locust) break out on Up-and-Coming in their first two weeks, then fade quickly",
+     "action": "Launch horror escapes around one named monster",
+     "rationale": "Horror-escape loops hold the best median Up-and-Coming percentile today (85, n=4) with two games at 11-15 days near the top, while MM2 of The Locust (16 days) sits near the bottom. Needs several weeks of uc_pos trajectories by age for horror_escape games to confirm the rise-and-fade shape."}
   ],
   "qualitative_updates": [
-    {"id": "H-x-001", "confidence": 40, "note": "Cross-chart entries keep the order: uc->tt (17, median 2d) and uc->te (10, 1d) lead, and tt->mp (10, 2d) remains the main road into Most Popular."},
-    {"id": "H-te-019", "confidence": 45, "note": "Today every game's CCU came from a single snapshot (the hourly file had under 6 hours of readings), so efficiency extremes below ~1,000 CCU again rest on one reading."}
+    {"id": "H-x-001", "confidence": 40, "note": "Entry counts are unchanged from yesterday (uc->tt 9 at 1 day, tt->mp 10 at 2 days, uc->te 6 at 1 day); no new evidence either way."},
+    {"id": "H-x-002", "confidence": 45, "note": "The monetization side holds ('Egg' r=-0.58, 'Steal' r=-0.40 on Top Earning), but the popularity side weakened: steal_defend_base sits at the 36th Up-and-Coming percentile and H-uc-002 fell to 46%. Pets/eggs still lead Top Trending positions (+0.40)."},
+    {"id": "H-x-007", "confidence": 30, "note": "Party loops hold a median 72nd percentile on Top Trending momentum but only 37th on Top Earning efficiency, which fits the idea."}
   ],
   "actions": [],
   "retire": []

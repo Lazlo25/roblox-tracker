@@ -1,17 +1,713 @@
 [
-{"label":"Q46","loop":"click roll for auras of varying rarity -> craft gear from auras -> drink luck potions -> chase rarer auras","loop_archetype":"rng_roll_collect","objectives":"roll the rarest auras","progression":"aura collection, gear, luck","instructions":"click roll, craft gear, use potions","mechanics":["rng rolls","crafting","luck potions","biomes/events"],"social":"solo","competitive":"light","unique":[],"themes":["auras","rng"],"audience":"teens","trend_hooks":["rng"],"monetization_signals":["premium season pass","quick roll","VIP","donations"],"update_signals":["seasons/eons"],"thumbnails":"rare aura cutscenes with 1 in 800,000,000 odds","thumbnail_style":"reward_flex","thumb_text_numbers":true,"video":"present","complexity":3,"complexity_notes":"400+ aura VFX cutscenes","novelty":1,"confidence":80},
-{"label":"Q47","loop":"enter crime-scene room -> investigate clues and ask questions -> identify the criminal","loop_archetype":"other","objectives":"find the criminal","progression":"rooms solved, badges","instructions":"solve crime scenes solo or up to 5 players","mechanics":["deduction puzzle","escape room","limited questions/clues"],"social":"coop","competitive":"none","unique":["detective deduction puzzle with paid hints"],"themes":["detective","ducks","halloween"],"audience":"kids","trend_hooks":[],"monetization_signals":["questions/clues products","bail bonds","skin bundles","premium pass"],"update_signals":["new rooms released","halloween skins"],"thumbnails":"duck detective investigating with crime tape","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"present","complexity":3,"complexity_notes":"handcrafted puzzle rooms","novelty":2,"confidence":70},
-{"label":"Q48","loop":"roleplay as witches/vampires from The Vampire Diaries universe -> buy character passes -> fight with magic","loop_archetype":"roleplay_social","objectives":"unclear","progression":"character unlocks","instructions":"unclear","mechanics":["character passes","magic abilities","roleplay"],"social":"mixed","competitive":"light","unique":["TV-show character (Vampire Diaries/Originals) roleplay"],"themes":["witches","vampires"],"audience":"older","trend_hooks":[],"monetization_signals":["character passes 600-1000","gift products","coins"],"update_signals":["constant updates"],"thumbnails":"dark cinematic witch characters, fire","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"none","complexity":3,"complexity_notes":"unclear; abilities and map","novelty":1,"confidence":40},
-{"label":"Q49","loop":"spawn on island map -> survive random natural disaster -> repeat rounds","loop_archetype":"wave_survival_coop","objectives":"survive disasters","progression":"wins, badges","instructions":"run around and survive","mechanics":["random disasters","round based","physics destruction"],"social":"mixed","competitive":"none","unique":[],"themes":["disasters"],"audience":"broad","trend_hooks":[],"monetization_signals":["cheap gear passes","power up machine"],"update_signals":[],"thumbnails":"islands with disasters, classic art","thumbnail_style":"gameplay","thumb_text_numbers":false,"video":"none","complexity":2,"complexity_notes":"classic round game","novelty":1,"confidence":85},
-{"label":"Q50","loop":"run around chairs -> sit when music stops -> last alive wins -> coins for cosmetics","loop_archetype":"party_minigames","objectives":"be last seated","progression":"coins, pets, trails","instructions":"find a chair when music stops","mechanics":["elimination","round based","cosmetics"],"social":"pvp","competitive":"light","unique":[],"themes":["musical chairs","childhood games"],"audience":"young_kids","trend_hooks":["childhood games"],"monetization_signals":["speed boost","coin packs","buy next song"],"update_signals":[],"thumbnails":"players racing to chairs with ME arrow","thumbnail_style":"gameplay","thumb_text_numbers":false,"video":"present","complexity":1,"complexity_notes":"single simple round mechanic","novelty":0,"confidence":80},
-{"label":"Q51","loop":"drive licensed cars in small town -> jobs for cash -> buy and customize vehicles -> roleplay/race","loop_archetype":"racing_driving","objectives":"own and customize cars","progression":"cash, vehicles","instructions":"drive, customize, roleplay","mechanics":["driving","car customization","jobs","racing"],"social":"social_hub","competitive":"light","unique":["licensed real cars"],"themes":["american town","cars"],"audience":"teens","trend_hooks":["driving rp"],"monetization_signals":["vehicle access passes","cash packs up to 3000","private servers"],"update_signals":["new cars, racing system"],"thumbnails":"realistic licensed cars drifting","thumbnail_style":"gameplay","thumb_text_numbers":false,"video":"none","complexity":4,"complexity_notes":"large detailed map and many cars","novelty":0,"confidence":80},
-{"label":"Q52","loop":"collect floating resources with harpoon -> expand raft base -> explore islands and fight -> survive 100 days","loop_archetype":"wave_survival_coop","objectives":"survive 100 days, uncover Bermuda mystery","progression":"days, raft size, gear","instructions":"grab resources, build raft, explore","mechanics":["base building","day counter","exploration","coop survival"],"social":"coop","competitive":"none","unique":[],"themes":["ocean","raft","survival"],"audience":"kids","trend_hooks":["99 nights-like"],"monetization_signals":["revives","pearls up to 2500"],"update_signals":[],"thumbnails":"raft expansion, big built raft fortress","thumbnail_style":"gameplay","thumb_text_numbers":false,"video":"present","complexity":3,"complexity_notes":"open sea, building, enemies","novelty":1,"confidence":75},
-{"label":"Q53","loop":"pick class -> fight hordes on maps (survivor-like) -> draft upgrades and evolve weapons -> defeat final boss","loop_archetype":"wave_survival_coop","objectives":"survive swarm, beat final boss","progression":"gold, gear, weapon evolutions","instructions":"choose class, survive, synergize upgrades","mechanics":["horde survivor","class choice","draft upgrades","coop"],"social":"coop","competitive":"none","unique":["Vampire Survivors-style horde RPG"],"themes":["fantasy","swarm"],"audience":"teens","trend_hooks":["survivors-like"],"monetization_signals":["revives escalating","2x gold/essence 800","draft rerolls"],"update_signals":["weekly updates"],"thumbnails":"dragon boss, class select, class lineup","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"present","complexity":3,"complexity_notes":"many enemies on screen, 6 classes, solo dev","novelty":2,"confidence":75},
-{"label":"Q54","loop":"survivors hack computers and escape while beast hunts -> earn credits for cosmetics","loop_archetype":"horror_escape","objectives":"escape or catch all as beast","progression":"credits, cosmetics","instructions":"run, hide, hack, escape","mechanics":["1 vs all","hacking","beast role"],"social":"pvp","competitive":"light","unique":[],"themes":["facility","beast"],"audience":"kids","trend_hooks":[],"monetization_signals":["beast chance","credits","donations"],"update_signals":["anniversary event"],"thumbnails":"beast hammer, merch ad","thumbnail_style":"mixed","thumb_text_numbers":false,"video":"none","complexity":3,"complexity_notes":"classic asymmetric horror","novelty":1,"confidence":80},
-{"label":"Q55","loop":"build freely with blocks and furniture on flat plane -> troll others","loop_archetype":"sandbox_physics","objectives":"build creations","progression":"none","instructions":"build with blocks","mechanics":["voxel building","troll products","explosives"],"social":"social_hub","competitive":"none","unique":[],"themes":["minecraft","building"],"audience":"kids","trend_hooks":["minecraft-like"],"monetization_signals":["pick passes","troll products","explosives"],"update_signals":[],"thumbnails":"minecraft-style build before/after","thumbnail_style":"mixed","thumb_text_numbers":false,"video":"present","complexity":2,"complexity_notes":"voxel build system","novelty":0,"confidence":70},
-{"label":"Q56","loop":"pick emergency/criminal job -> respond to calls or rob -> earn money -> buy and tune cars","loop_archetype":"roleplay_social","objectives":"progress in jobs, get rich","progression":"cash, unlocks, vehicles","instructions":"police, fire, medic, criminal roles","mechanics":["cops and robbers","jobs","vehicles","tuning"],"social":"mixed","competitive":"light","unique":[],"themes":["hamburg","emergency services"],"audience":"teens","trend_hooks":["jailbreak-like"],"monetization_signals":["role passes","vehicle unlocks","prison release"],"update_signals":["regular updates"],"thumbnails":"robbers and police chases","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"none","complexity":5,"complexity_notes":"huge city, many jobs and vehicles","novelty":0,"confidence":80},
-{"label":"Q57","loop":"5v5 or pickup basketball -> earn coins -> open cases for cosmetics, unlock moves","loop_archetype":"sports_competitive","objectives":"win games","progression":"moves, cosmetics","instructions":"join 5v5 or pickups","mechanics":["basketball","cases","move unlocks"],"social":"pvp","competitive":"core","unique":[],"themes":["basketball","halloween"],"audience":"teens","trend_hooks":[],"monetization_signals":["mythic bundles up to 3399","cases","move unlocks"],"update_signals":["halloween event"],"thumbnails":"players dunking, ankle break","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"present","complexity":3,"complexity_notes":"sports animation and physics","novelty":0,"confidence":75},
-{"label":"Q58","loop":"fight zombie waves with team -> earn cash -> buy weapons, turrets, barricades -> bosses","loop_archetype":"wave_survival_coop","objectives":"survive as many waves as possible","progression":"waves, weapons","instructions":"buy weapons, place defenses, team up","mechanics":["wave survival","turrets","barricades","bosses"],"social":"coop","competitive":"none","unique":[],"themes":["zombies"],"audience":"kids","trend_hooks":[],"monetization_signals":["weapon passes","zombux packs","revives"],"update_signals":[],"thumbnails":"players with laser turrets vs zombie horde","thumbnail_style":"gameplay","thumb_text_numbers":false,"video":"none","complexity":2,"complexity_notes":"wave AI and placement","novelty":0,"confidence":75},
-{"label":"Q59","loop":"summon anime units -> place on map to stop waves -> level/evolve units -> reroll traits","loop_archetype":"tower_defense","objectives":"clear stages and modes","progression":"units, traits, evolutions","instructions":"summon units, defend","mechanics":["gacha summons","tower defense","trait rerolls","evolutions"],"social":"coop","competitive":"none","unique":[],"themes":["anime"],"audience":"teens","trend_hooks":["anime td"],"monetization_signals":["trait rerolls up to 6500","stat chips","gems","shiny hunter"],"update_signals":["frequent updates"],"thumbnails":"anime character art","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"present","complexity":4,"complexity_notes":"many units with VFX, multiple modes","novelty":0,"confidence":80},
-{"label":"Q60","loop":"choose ability moveset -> fight in arena to gain hits -> unlock more abilities","loop_archetype":"combat_pvp","objectives":"dominate arena","progression":"hits currency, ability unlocks","instructions":"choose ability, fight, gain hits","mechanics":["ability movesets","arena pvp","unlocks"],"social":"pvp","competitive":"core","unique":[],"themes":["anime-inspired abilities"],"audience":"kids","trend_hooks":["battlegrounds"],"monetization_signals":["ability passes up to 1499","hit packs up to 1999","gifts"],"update_signals":["more abilities coming"],"thumbnails":"blocky characters casting abilities","thumbnail_style":"character_art","thumb_text_numbers":false,"video":"present","complexity":3,"complexity_notes":"28 movesets with VFX","novelty":0,"confidence":75}
+  {
+    "label": "Q46",
+    "loop": "build up and armor your bus -> drive the road, stop to scavenge abandoned buildings -> sell loot for tickets/gear -> fight zombie waves and bosses -> push further down the road",
+    "loop_archetype": "wave_survival_coop",
+    "objectives": "travel as far as possible down the road and reach the Last Stop",
+    "progression": "distance reached, bus upgrades/attachments, weapons and gear",
+    "instructions": "build your bus, scavenge buildings, sell loot, gear up with weapons, fight zombies and bosses; controls listed (grab, place, equip, reload, inventory)",
+    "mechanics": [
+      "vehicle building",
+      "scavenging",
+      "looting and selling",
+      "shooting",
+      "zombie waves",
+      "boss fights",
+      "revives"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "dusty-trip-style road journey combined with zombie wave defense and attachable bus building"
+    ],
+    "themes": [
+      "zombies",
+      "post-apocalyptic",
+      "road trip",
+      "bus"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "dusty-trip-like road journey"
+    ],
+    "monetization_signals": [
+      "ticket packs",
+      "revive products",
+      "weapon airdrop",
+      "ammo packs"
+    ],
+    "update_signals": [
+      "beta",
+      "x2 ticket event",
+      "frequent updates"
+    ],
+    "thumbnails": "spiked armored school bus on a road at night/forest; 'X2 TICKET EVENT' banner on icon",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "vehicle construction/attachment system, procedural road, zombie and boss AI, weapons and inventory",
+    "novelty": 1,
+    "confidence": 65
+  },
+  {
+    "label": "Q47",
+    "loop": "build a boat from blocks -> sail it down a hazardous river -> reach the treasure chest at the end -> earn gold -> buy more blocks and tools",
+    "loop_archetype": "sandbox_physics",
+    "objectives": "build a boat that survives the river to reach the treasure",
+    "progression": "gold, block inventory, unlocked blocks/parts",
+    "instructions": "build your ship and set sail; like/favorite; join group for gold and health perks",
+    "mechanics": [
+      "block building",
+      "physics boats",
+      "treasure run",
+      "gold currency"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "free-form physics boat building with a stage-based treasure voyage"
+    ],
+    "themes": [
+      "boats",
+      "treasure",
+      "building"
+    ],
+    "audience": "kids",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "gold multiplier pass",
+      "gold packs",
+      "character skins",
+      "block packs",
+      "save slots"
+    ],
+    "update_signals": [
+      "group perks"
+    ],
+    "thumbnails": "built boats on grass and water, treasure chest; captions 'Build! Explore! Treasure!'",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "long-running classic; freeform building tools, physics simulation, river stages with hazards, save slots",
+    "novelty": 2,
+    "confidence": 85
+  },
+  {
+    "label": "Q48",
+    "loop": "cook recipes and serve customers -> earn cash (also offline) -> build/decorate and expand restaurant -> hire staff, farm crops and raise animals -> earn more per second",
+    "loop_archetype": "idle_income_tycoon",
+    "objectives": "grow restaurant income from $100/s toward millions",
+    "progression": "restaurant size, income per second, staff, recipes, farm/ranch",
+    "instructions": "cook recipes, serve customers, build and decorate, raise animals and farm crops, hire staff; earns money offline",
+    "mechanics": [
+      "cooking",
+      "serving customers",
+      "decoration",
+      "farming",
+      "animal raising",
+      "staff hiring",
+      "offline income"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "restaurant tycoon combined with farming/ranching supply chain"
+    ],
+    "themes": [
+      "restaurant",
+      "cooking",
+      "food",
+      "farming"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "$/s income growth"
+    ],
+    "monetization_signals": [
+      "plot expansion",
+      "auto collect",
+      "VIP",
+      "diamond packs",
+      "staff purchases",
+      "starter pack"
+    ],
+    "update_signals": [],
+    "thumbnails": "chef character with burger and dish; $100/s vs $1,000,000/s restaurant comparison",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": true,
+    "video": "has video",
+    "complexity": 3,
+    "complexity_notes": "customer AI, cooking stations, building/decoration system, farm and animal systems, staff automation",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q49",
+    "loop": "fight creatures on floating isles -> collect ores/materials -> forge and upgrade weapons/armor -> unlock skill tree -> take on harder dungeons",
+    "loop_archetype": "combat_pvp",
+    "objectives": "build your legend by forging stronger weapons and clearing dungeons",
+    "progression": "levels/EXP, skill tree, forged gear, races, runes",
+    "instructions": "fight creatures for rare materials, unlock skill tree, gather/forge/upgrade weapons",
+    "mechanics": [
+      "melee combat",
+      "dungeons",
+      "forging/crafting",
+      "ore gathering",
+      "skill tree",
+      "race reroll",
+      "runes"
+    ],
+    "social": "coop",
+    "competitive": "light",
+    "unique": [
+      "forge-focused crafting loop as the core of a dungeon action RPG"
+    ],
+    "themes": [
+      "fantasy",
+      "dragons",
+      "dungeons",
+      "forging"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "forge/crafting RPG"
+    ],
+    "monetization_signals": [
+      "super VIP",
+      "EXP boost",
+      "forge luck",
+      "inventory expansions",
+      "gold packs",
+      "race rerolls",
+      "OP weapon pack"
+    ],
+    "update_signals": [
+      "regular updates"
+    ],
+    "thumbnails": "fantasy art of knight vs dragon in lava, character with armor set pieces, mage with glowing book",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 4,
+    "complexity_notes": "action combat, dungeon content, crafting/forge system, skill tree, many gear models",
+    "novelty": 1,
+    "confidence": 60
+  },
+  {
+    "label": "Q50",
+    "loop": "roll for anime units -> units fight bosses and enemy waves -> merge units to level them -> earn gold/drops -> unlock zones and roll for rarer units",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "collect rare anime units and mutations to defeat stronger bosses",
+    "progression": "unit rarity, merge levels, zones, mutations, traits",
+    "instructions": "roll for anime units, fight bosses, merge to level up, survive waves, unlock zones; join group for luck",
+    "mechanics": [
+      "rng rolling",
+      "unit merging",
+      "boss fights",
+      "wave defense",
+      "mutations",
+      "traits",
+      "offline rewards"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "RNG roll + merge + tower-defense-like wave mix"
+    ],
+    "themes": [
+      "anime",
+      "bosses"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "anime RNG",
+      "merge"
+    ],
+    "monetization_signals": [
+      "luck passes (stacking)",
+      "auto roll",
+      "exclusive rolls",
+      "trait shards",
+      "server luck",
+      "bundles"
+    ],
+    "update_signals": [
+      "UPD 7 in title",
+      "group luck bonus"
+    ],
+    "thumbnails": "anime character portraits; '1 IN 2 10 DPS' vs '1 IN 10,000,000 200K DPS' rarity flex",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "mostly UI-driven rolling and merging, auto-battle units, simple waves",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q51",
+    "loop": "pick a class -> fight hordes of hundreds of enemies in waves -> earn keys and chests -> unlock/upgrade weapons and loadout -> progress to new worlds",
+    "loop_archetype": "wave_survival_coop",
+    "objectives": "survive waves and defeat the Final Swarm",
+    "progression": "worlds, weapon/armor levels, loadout, chest rarities, card upgrades",
+    "instructions": "fight hundreds of enemies, collect keys to upgrade and unlock weapons, build loadout, progress worlds; join group for rewards",
+    "mechanics": [
+      "horde combat",
+      "classes",
+      "roguelite card picks",
+      "chests and keys",
+      "weapon loadout",
+      "revives"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "Vampire-Survivors-style horde roguelite with in-run card upgrades"
+    ],
+    "themes": [
+      "fantasy",
+      "underwater/Atlantis",
+      "hordes"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "survivors-like horde"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "chest bundles",
+      "key packs",
+      "revives",
+      "lucky grading"
+    ],
+    "update_signals": [
+      "Atlantis update",
+      "new limited set"
+    ],
+    "thumbnails": "giant octopus Atlantis icon, class select screen, limited inferno gear, upgrade cards (Bolt, Multishot, Damage)",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 3,
+    "complexity_notes": "many simultaneous enemies, classes, card upgrade system, multiple worlds",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q52",
+    "loop": "click for +1 power -> defeat enemies -> earn wins -> hatch pets and unlock heroes -> rebirth -> unlock new worlds",
+    "loop_archetype": "incremental_plus1",
+    "objectives": "become the strongest superhero and top the wins leaderboard",
+    "progression": "power, wins, heroes, pets, rebirths, worlds/zones",
+    "instructions": "click to gain +1 power, defeat enemies to unlock worlds, earn wins, hatch pets, rebirth",
+    "mechanics": [
+      "clicking",
+      "pets",
+      "egg hatching",
+      "rebirth",
+      "leaderboards",
+      "hero unlocks"
+    ],
+    "social": "solo",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "superheroes"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "+1 every second",
+      "24 hours timelapse"
+    ],
+    "monetization_signals": [
+      "zone passes",
+      "+pets",
+      "multi-hatch",
+      "boosts",
+      "offline earnings",
+      "special pets"
+    ],
+    "update_signals": [],
+    "thumbnails": "Thor-like hero surrounded by hammers; '24 HOURS' hourglass icon",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": true,
+    "video": "has video",
+    "complexity": 1,
+    "complexity_notes": "standard +1 simulator template with pets and zones",
+    "novelty": 0,
+    "confidence": 80
+  },
+  {
+    "label": "Q53",
+    "loop": "collect coins -> buy and hatch eggs -> collect hundreds of pets -> unlock new areas -> join clans",
+    "loop_archetype": "hatch_collect_pets",
+    "objectives": "collect hundreds of unique pets, including rare exclusives",
+    "progression": "pet collection, rarity, areas, charms, clans",
+    "instructions": "discover pets, collect coins, buy eggs; weekly updates; join group for bonus",
+    "mechanics": [
+      "egg hatching",
+      "pet collecting",
+      "coin collecting",
+      "fishing",
+      "charms",
+      "clans"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "pets",
+      "cute animals"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "pet-sim-like",
+      "1 in 10m rarity"
+    ],
+    "monetization_signals": [
+      "VIP (timed and forever)",
+      "luck passes",
+      "+eggs/+pets",
+      "charms",
+      "gamepass bundle",
+      "gifting"
+    ],
+    "update_signals": [
+      "weekly updates",
+      "clans update"
+    ],
+    "thumbnails": "cute cat/panda pets, NOOB/PRO/ADMIN tiers, '1 in 10m' and exclusive Pop Cat hatch",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "has video",
+    "complexity": 2,
+    "complexity_notes": "pet sim template: egg hatching, areas, pet follow AI, clans",
+    "novelty": 0,
+    "confidence": 80
+  },
+  {
+    "label": "Q54",
+    "loop": "pick a hero -> fight other players in a battleground with combos, blocks and ultimates -> earn kills -> unlock mastered characters and fight bosses",
+    "loop_archetype": "combat_pvp",
+    "objectives": "become the #1 hero or villain",
+    "progression": "character masteries, unlocks, emotes",
+    "instructions": "fight bosses and players, unlock mastered characters; keybinds listed",
+    "mechanics": [
+      "melee combos",
+      "ultimates",
+      "blocking/dashing",
+      "ragdoll",
+      "bosses",
+      "emotes"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [],
+    "themes": [
+      "superheroes",
+      "anime (My Hero Academia-inspired)"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "battlegrounds"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "private server commands",
+      "early access",
+      "custom kill sound/move text",
+      "emotes",
+      "boss spawns",
+      "gifts"
+    ],
+    "update_signals": [
+      "frequent character updates",
+      "early access"
+    ],
+    "thumbnails": "anime hero splash art and in-game ice/explosion move effects",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "many characters with custom animations and VFX, combat netcode",
+    "novelty": 1,
+    "confidence": 85
+  },
+  {
+    "label": "Q55",
+    "loop": "run a flight as a flight attendant -> serve meals/drinks and handle emergencies -> earn SkyBux -> customize your own airline and aircraft",
+    "loop_archetype": "simulation_job",
+    "objectives": "keep passengers safe and happy and build your own airline",
+    "progression": "SkyBux, airline customization, missions, badges",
+    "instructions": "create your airline, design aircraft, pick meals/drinks, act as flight attendant, handle emergencies, complete missions",
+    "mechanics": [
+      "role-based job",
+      "passenger service",
+      "emergencies",
+      "airline customization",
+      "missions"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "flight-attendant job simulator with own-airline customization"
+    ],
+    "themes": [
+      "airplanes",
+      "travel",
+      "aviation"
+    ],
+    "audience": "broad",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "2x earnings",
+      "SkyBux packs",
+      "VIP",
+      "custom logo/music/lighting",
+      "AI flight attendant"
+    ],
+    "update_signals": [
+      "major update released"
+    ],
+    "thumbnails": "airplane cabin with passengers, boarding at airport, logo",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 3,
+    "complexity_notes": "aircraft interiors, passenger NPCs, emergency events, customization system",
+    "novelty": 2,
+    "confidence": 80
+  },
+  {
+    "label": "Q56",
+    "loop": "train strength/chakra/durability/sword stats -> unlock anime powers and transformations -> fight bosses for drops -> summon champions -> fight players and climb leaderboards",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "become the strongest fighter",
+    "progression": "stats, powers, fruits/stands, champions, mounts/auras",
+    "instructions": "use code, train stats, unlock powers, battle bosses, summon champions, fight players",
+    "mechanics": [
+      "stat training",
+      "anime powers",
+      "bosses",
+      "champions",
+      "pvp",
+      "clans",
+      "codes"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "anime"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime fighting sim"
+    ],
+    "monetization_signals": [
+      "no limit",
+      "stat x2 passes",
+      "luck",
+      "VIP",
+      "adventure slots",
+      "bundles",
+      "clans",
+      "gifts"
+    ],
+    "update_signals": [
+      "codes",
+      "community announcements"
+    ],
+    "thumbnails": "anime character splash art with logo",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 3,
+    "complexity_notes": "many stats and power systems, bosses, champion summons",
+    "novelty": 0,
+    "confidence": 65
+  },
+  {
+    "label": "Q57",
+    "loop": "fight bandits and enemies -> level up (max 12000) -> earn drops and money -> master abilities/fruits -> rise through ranks",
+    "loop_archetype": "combat_pvp",
+    "objectives": "reach max level and master powerful abilities",
+    "progression": "level (to 12000), abilities, drops",
+    "instructions": "train character, master abilities, defeat bandits; join community for codes",
+    "mechanics": [
+      "combat",
+      "leveling",
+      "abilities",
+      "drops",
+      "bosses"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "anime",
+      "pirates (One Piece-like)"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "One Piece-like grind"
+    ],
+    "monetization_signals": [
+      "x2 drops",
+      "x2 luck",
+      "VIP",
+      "2x EXP",
+      "2x money",
+      "character bundles"
+    ],
+    "update_signals": [
+      "Wild Hunt update",
+      "codes"
+    ],
+    "thumbnails": "anime character art with logo",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 3,
+    "complexity_notes": "open-world piece-style grinder with abilities and bosses",
+    "novelty": 0,
+    "confidence": 55
+  },
+  {
+    "label": "Q58",
+    "loop": "tap for energy -> fight enemies for resources -> open cards for companions -> upgrade avatars/weapons -> rank up and tackle tower raids",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "become the strongest across anime worlds",
+    "progression": "energy, rank, companions, avatars, weapons, worlds",
+    "instructions": "tap to gain energy, open cards for companions, fight enemies, rank up, raids",
+    "mechanics": [
+      "clicking",
+      "card opening",
+      "companions",
+      "raids",
+      "tower",
+      "rank up"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [],
+    "themes": [
+      "anime"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "anime clicker",
+      "24 hours"
+    ],
+    "monetization_signals": [
+      "luck passes",
+      "2x drops/energy/gold",
+      "extra slots",
+      "spin passes",
+      "gifts"
+    ],
+    "update_signals": [
+      "Tower update",
+      "new in 24 hours"
+    ],
+    "thumbnails": "'24 HOURS' icon; anime character art with logo",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "clicker sim with card gacha and anime worlds",
+    "novelty": 0,
+    "confidence": 60
+  },
+  {
+    "label": "Q59",
+    "loop": "start the engine -> drive across desert with friends -> repair/refuel and scavenge supplies -> fight hazards and enemies -> go as far as possible",
+    "loop_archetype": "story_adventure",
+    "objectives": "travel as far as possible across the desert",
+    "progression": "distance, vehicles, weapons, badges",
+    "instructions": "press R to start engine, journey across desert",
+    "mechanics": [
+      "driving",
+      "scavenging",
+      "car repair",
+      "weapons",
+      "survival"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "original long-road-trip survival template"
+    ],
+    "themes": [
+      "desert",
+      "road trip",
+      "cars"
+    ],
+    "audience": "broad",
+    "trend_hooks": [
+      "dusty-trip road journey"
+    ],
+    "monetization_signals": [
+      "vehicle passes",
+      "weapons passes",
+      "backpack",
+      "donation products"
+    ],
+    "update_signals": [
+      "seasons"
+    ],
+    "thumbnails": "characters on sidecar motorcycle and rusty van in desert, tornado",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "procedural desert road, vehicle physics, many weapons and badges",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q60",
+    "loop": "spawn as a dinosaur -> eat, drink and survive -> grow and fight other dinosaurs -> earn amber -> unlock more dinosaurs",
+    "loop_archetype": "roleplay_social",
+    "objectives": "survive and dominate as a realistic dinosaur",
+    "progression": "growth stages, mastery XP, amber, unlocked species",
+    "instructions": "survive and fight other dinosaurs; game in alpha",
+    "mechanics": [
+      "animal survival",
+      "growth",
+      "hunger/wellbeing",
+      "pvp fighting",
+      "species unlocks"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "dinosaurs",
+      "prehistoric"
+    ],
+    "audience": "teens",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "dinosaur passes",
+      "faster growth",
+      "slower drainage",
+      "amber packs",
+      "radar"
+    ],
+    "update_signals": [
+      "alpha stage",
+      "many updates promised"
+    ],
+    "thumbnails": "realistic dinosaur renders in prehistoric landscapes",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "has video",
+    "complexity": 4,
+    "complexity_notes": "realistic creature models and animations, large map, survival stats",
+    "novelty": 1,
+    "confidence": 70
+  }
 ]
