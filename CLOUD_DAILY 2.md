@@ -18,8 +18,7 @@ step fails in a way these steps don't cover, stop and report the error text.
 
 1. `cd` into roblox-tracker, check out the MODE's branch and `git pull --rebase`. Set D = `TZ=America/New_York date +%F`
    and PREV = the day before D. If `db-copy/days/D.json` doesn't exist, stop and reply
-   "No 3 PM snapshot for D yet (GitHub Actions hasn't run)." If `analysis/archive/D.json` already exists, stop and
-   reply "Already done for D." (this routine fires twice a day in case the snapshot was late).
+   "No 3 PM snapshot for D yet (GitHub Actions hasn't run)."
 2. Contact sheets: `mkdir -p work/D && git fetch -q origin sheets && git archive origin/sheets | tar -x -C work/D`.
 3. Gameplay profiling. Read `PROFILE_GUIDE.md` once. For each `work/D/dossier_NN.md`: read it, look at its contact
    sheets (dossier_01 covers sheet_01–03, dossier_02 sheet_04–06, and so on; view them with the Read tool) and
