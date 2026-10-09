@@ -303,7 +303,7 @@ footer a { color: var(--accent-ink); }
       <a href="#sec-uc" data-target="sec-uc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.6 5.6L20 9.3l-4 4 1 5.7L12 16.3 7 19l1-5.7-4-4 5.4-.7z"/></svg>Up-and-Coming<span class="count" id="nav-uc"></span></a>
       <a href="#method" data-target="method"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></svg>How it works</a>
     </nav>
-    <div class="side-foot"><strong><span class="dot" aria-hidden="true"></span>Recording daily</strong>Around 3 PM Eastern, while the Claude app is open.</div>
+    <div class="side-foot"><strong><span class="dot" aria-hidden="true"></span>Recording daily</strong>3 PM Eastern in the cloud; 18+ titles added at 4 PM.</div>
   </aside>
 
   <main class="main">
@@ -375,7 +375,7 @@ footer a { color: var(--accent-ink); }
         <div class="ctl"><button type="button" class="btn icon-btn" id="method-min" aria-controls="method-body" aria-expanded="true" aria-label="Minimize How it works"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
       </div>
       <div class="card-body" id="method-body">
-        <p>Once a day a scheduled Claude task reads four Roblox charts (All Devices, All Locations) while signed in, so 18+ titles are included, and stores every game on them. Names, genres and creation dates come from Roblox’s public games API at the same moment, and Dubit’s share of plays by genre is re-read then too. Separately, a cloud job reads the charts every hour and records each game’s CCU, so each day’s CCU is the average of that day’s hourly readings rather than one reading. A game’s CCU history covers every day it was recorded.</p>
+        <p>At 3 PM Eastern a cloud job reads the four public Roblox charts (All Devices, All Locations) and stores every game on them; at 4 PM a Claude task on the owner’s Mac reads the signed-in charts and adds the 18+ titles the public charts leave out, and a cloud Claude run then updates the Deep Analysis. Names, genres and creation dates come from Roblox’s public games API at the same moment, and Dubit’s share of plays by genre is re-read then too. Separately, a cloud job reads the charts every hour and records each game’s CCU, so each day’s CCU is the average of that day’s hourly readings rather than one reading. A game’s CCU history covers every day it was recorded.</p>
         <h3>Columns in every chart</h3>
         <dl>
           <dt>Position</dt><dd>Place on that chart today, with its move since the previous snapshot or a New tag. Top Trending lists only games up to 4 months old; they keep their real chart position, so its numbering has gaps, and games that age out leave without becoming Fallen Heroes.</dd>
@@ -551,6 +551,7 @@ function buildModel(rawDays) {
     const prevPos = mv ? mv.prev.rank[key] : null;
     const added = new Set(mv ? mv.added : []);
     const rev = key === 'te' ? revenueModel(ids.map(u => ccuNow.get(u) || 0)) : null;
+    const members0 = new Set(ids);
     const rows = ids.map((u, i) => {
       const r = Object.assign(game(u), {
         p: latest.rank[key].get(u), onDays: onChart[key].get(u) || 0,
@@ -561,6 +562,16 @@ function buildModel(rawDays) {
     });
     // Monetization Score: rank of position × today's CCU (a high position with few players ranks best).
     if (key === 'te') [...rows].sort((a, b) => a.p * Math.max(1, a.n) - b.p * Math.max(1, b.n) || a.p - b.p).forEach((r, i) => { r.score = i + 1; });
+    // 18+ titles only the signed-in fetch sees: on a day recorded from the public chart they stay listed at their
+    // last signed-in position, marked as awaiting the 4 PM update, until the local task adds them.
+    if (latest.partial.includes(key)) {
+      let pd = null;
+      for (let i = days.length - 2; i >= 0 && !pd; i--) if (days[i].charts[key] && !days[i].partial.includes(key)) pd = days[i];
+      if (pd) for (const u of pd.charts[key]) {
+        if (!restricted(u) || members0.has(u)) continue;
+        rows.push(Object.assign(game(u), { p: pd.rank[key].get(u), onDays: onChart[key].get(u) || 0, prevPos: null, isNew: false, rev: null, score: null, stale: true }));
+      }
+    }
 
     // Fallen Heroes: tracked for TRACK_DAYS days after leaving, then just a faded name until they return.
     const members = new Set(ids), fallen = [];
@@ -725,7 +736,7 @@ const COL = {
   trend: { label: 'Last 7 days vs prior 7', title: 'Average market share, last 7 days vs the 7 before (halves of the history until 14 days exist)', dir: -1, cell: r => `<td>${winCell(r, r.trend)}</td>` },
   vsFirst: { label: 'vs first 7 days', title: 'Average market share, last 7 days vs the first 7 recorded', dir: -1, cell: r => `<td>${winCell(r, r.vsFirst)}</td>` },
   vsPeak: { label: 'vs peak 7 days', title: 'Average market share, last 7 days vs the highest 7-day average', dir: -1, cell: r => `<td>${peakCell(r)}</td>` },
-  score: { label: 'Monetization Score', title: 'Monetization Score (rank of position × CCU; 1 = the highest position for the fewest players)', dir: 1, cls: 'score-col', cell: r => `<td class="score">${r.score}</td>` },
+  score: { label: 'Monetization Score', title: 'Monetization Score (rank of position × CCU; 1 = the highest position for the fewest players)', dir: 1, cls: 'score-col', cell: r => `<td class="score">${r.score == null ? dash : r.score}</td>` },
   rev: { label: 'Est. revenue / month', dir: -1, cell: r => `<td class="money">${money3(r.rev)}</td>` },
 };
 const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days on this chart', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
@@ -737,6 +748,7 @@ const SECTIONS = CHART_KEYS.map(key => ({
   groups: key === 'te' ? [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g'], ['Monetization estimate', 2, 'g']] : [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g']],
 }));
 function posPill(r) {
+  if (r.stale) return '<span class="pill warn" title="18+ title: this position is from the last signed-in snapshot. The 4 PM update replaces it.">Awaiting 4 PM update</span>';
   if (r.isNew) return '<span class="pill new">New</span>';
   if (r.prevPos && r.prevPos !== r.p) {
     const k = r.prevPos - r.p;
@@ -862,7 +874,7 @@ function renderSection(s) {
   const bits = [`${sec.rows.length} titles`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
   el(k + '-meta').innerHTML = esc(bits.join(' · ')) + (sec.partial ? ' <span class="pill warn">Partial</span>' : '');
   el(k + '-note').hidden = !sec.partial;
-  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart came from the public chart, so 18+ titles are missing and positions after them may be off by a few.' : '';
+  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart is from the public 3 PM chart. 18+ titles are shown at their last known position, marked “Awaiting 4 PM update”, until the 4 PM signed-in update adds them; other positions may be off by a few until then.' : '';
   renderFallen(s);
   const view = pref(k).view;
   if (view === 'bars') renderBars(s, shown); else if (charts[k + '-bars']) { charts[k + '-bars'].destroy(); delete charts[k + '-bars']; }
@@ -1188,3 +1200,4 @@ function boot() {
 if (typeof document !== 'undefined') boot();
 if (typeof module !== 'undefined') module.exports = { revenueModel, buildModel, trendPerDay, normalize, validDay };
 </script>
+
