@@ -394,6 +394,8 @@ footer a { color: var(--accent-ink); }
           <dt>Monetization Score</dt><dd>Rank of chart position × today’s Avg CCU (day), using nothing else: 1 is the game holding the highest earning position for the fewest players.</dd>
           <dt>Est. revenue / month</dt><dd>Chart position sets the estimate: yearly revenue ≈ C × position<sup>−1.084</sup>, a curve that matches Roblox’s reported creator averages for the 12 months to June 30, 2026 (top 10: $65.7M, top 100: $10.8M, top 1,000: $1.4M), scaled so the top 10 average $68M a year, then divided by 12. CCU nudges it: a game with more players than is typical for its position moves toward the game above, fewer moves it toward the game below, never by more than half a position or 10%, so the estimates keep the chart’s order.</dd>
         </dl>
+        <h3>18+ titles</h3>
+        <p>Games rated 18+ appear only on the signed-in charts. Each chart lists them in their own box between the chart and its Fallen Heroes, with their real chart position, so the main table’s numbering skips them. They still count toward the Monetization Score, chart overlap and genre fit. On a day still waiting for the 2 PM update they show their last known position, marked “Awaiting 2 PM update”.</p>
         <h3>Fallen Heroes</h3>
         <p>When a game drops off a chart it moves to that chart’s Fallen Heroes list, showing its name, CCU, creation date and the days it was recorded on the chart. Its CCU keeps being tracked for 3 days after it leaves. After that tracking stops and only its name stays, faded, until it returns to the chart.</p>
         <h3>Deep Analysis</h3>
@@ -587,8 +589,10 @@ function buildModel(rawDays) {
     fallen.sort((a, b) => (a.tracked === b.tracked ? 0 : a.tracked ? -1 : 1) || a.daysOff - b.daysOff || (a.tracked ? a.lastPos - b.lastPos : a.name.localeCompare(b.name)));
 
     const genres = rows.map(r => r.genre).filter(Boolean);
+    // 18+ titles get their own list between the chart and its Fallen Heroes.
+    const adult = rows.filter(r => restricted(r.u)).sort((a, b) => a.p - b.p);
     sections[key] = {
-      rows, fallen, prevDate: mv ? mv.prevDate : null, partial: latest.partial.includes(key),
+      rows: rows.filter(r => !restricted(r.u)), adult, fallen, prevDate: mv ? mv.prevDate : null, partial: latest.partial.includes(key),
       newCount: added.size, fallenToday: mv ? mv.left.length : null,
       genres: genres.length ? shares(genres) : [],
     };
@@ -766,7 +770,7 @@ function peakCell(r) {
 function pref(key) {
   const s = SECTIONS.find(x => x.key === key), p = prefs[key] || {};
   const sort = s.cols.includes(p.sort) ? p.sort : 'p';
-  return { sort, dir: p.dir === -1 || p.dir === 1 ? p.dir : COL[sort].dir, show: Number.isInteger(p.show) && p.show >= 0 ? p.show : 25, open: p.open !== false, view: ['table', 'bars', 'trend'].includes(p.view) ? p.view : 'table', fallen: p.fallen !== false };
+  return { sort, dir: p.dir === -1 || p.dir === 1 ? p.dir : COL[sort].dir, show: Number.isInteger(p.show) && p.show >= 0 ? p.show : 25, open: p.open !== false, view: ['table', 'bars', 'trend'].includes(p.view) ? p.view : 'table', fallen: p.fallen !== false, adult: p.adult !== false };
 }
 function setPref(key, patch) { prefs[key] = Object.assign(pref(key), patch); savePrefs(); }
 
@@ -801,6 +805,13 @@ function sectionShell(s) {
     </table></div></div>
     <div class="view" id="${k}-view-bars" hidden><p class="graph-title" id="${k}-bars-title"></p><div class="bars-plot" id="${k}-bars-plot"><canvas id="${k}-bars" role="img" aria-label="${esc(s.title)} bar chart"></canvas></div><p class="view-note" id="${k}-bars-note" hidden></p></div>
     <div class="view" id="${k}-view-trend" hidden><p class="graph-title" id="${k}-trend-title"></p><div class="multiples" id="${k}-multiples"></div><p class="view-note" id="${k}-trend-note" hidden></p></div>
+    <details class="fallen" id="${k}-adult">
+      <summary><span class="fh-title">18+ titles</span><span class="meta" id="${k}-adult-meta"></span></summary>
+      <div class="fh-body">
+        <p class="fh-note">18+ games on ${esc(s.title)}, at their real chart position. Only the signed-in chart lists them, so they are added at 2 PM.</p>
+        <div class="ledger"><table class="data"><thead><tr class="cols plain">${adultCols(s).map(id => `<th class="${COL[id].cls || ''}">${esc(COL[id].label)}</th>`).join('')}</tr></thead><tbody id="${k}-adult-rows"></tbody></table></div>
+      </div>
+    </details>
     <details class="fallen" id="${k}-fallen">
       <summary><span class="fh-title">Fallen Heroes</span><span class="meta" id="${k}-fallen-meta"></span></summary>
       <div class="fh-body">
@@ -812,6 +823,7 @@ function sectionShell(s) {
 </section>`;
 }
 
+const adultCols = s => ['p', 'name', 'n', 'created', 'onDays'].concat(s.key === 'te' ? ['score', 'rev'] : []);
 function sortRows(rows, id, dir) {
   const get = COL[id].sortVal || (r => r[id]);
   return rows.sort((a, b) => {
@@ -836,6 +848,7 @@ function renderControls(s) {
   el(k + '-min').setAttribute('aria-expanded', String(p.open));
   el(k + '-min').setAttribute('aria-label', (p.open ? 'Minimize ' : 'Expand ') + s.title);
   el(k + '-fallen').open = p.fallen;
+  el(k + '-adult').open = p.adult;
   ['table', 'bars', 'trend'].forEach(v => { el(`${k}-view-${v}`).hidden = v !== p.view; });
 }
 
@@ -860,6 +873,8 @@ function renderSection(s) {
     el(k + '-count').textContent = '';
     el(k + '-fallen-meta').textContent = '';
     el(k + '-fallen-rows').innerHTML = '<tr><td class="empty" colspan="4">No fallen heroes yet.</td></tr>';
+    el(k + '-adult-meta').textContent = '';
+    el(k + '-adult-rows').innerHTML = `<tr><td class="empty" colspan="${adultCols(s).length}">No 18+ titles yet.</td></tr>`;
     const v = pref(k).view;
     if (v === 'bars') { el(k + '-bars-title').textContent = ''; el(k + '-bars-note').hidden = true; el(k + '-bars-plot').style.height = '120px'; plotNote(k + '-bars-plot', 'No snapshot of this chart yet.'); }
     if (v === 'trend') { el(k + '-trend-title').textContent = ''; el(k + '-multiples').innerHTML = ''; el(k + '-trend-note').hidden = false; el(k + '-trend-note').textContent = 'No snapshot of this chart yet.'; }
@@ -871,14 +886,26 @@ function renderSection(s) {
     : `<tr><td class="empty" colspan="${cols}">No games match these filters.</td></tr>`;
   const filtered = matched.length !== sec.rows.length;
   el(k + '-count').textContent = `${shown.length === matched.length ? 'All ' + matched.length : shown.length + ' of ' + matched.length}${filtered ? ' matching' : ''} shown`;
-  const bits = [`${sec.rows.length} titles`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
+  const bits = [`${sec.rows.length} titles${sec.adult.length ? ` + ${sec.adult.length} 18+` : ''}`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
   el(k + '-meta').innerHTML = esc(bits.join(' · ')) + (sec.partial ? ' <span class="pill warn">Partial</span>' : '');
   el(k + '-note').hidden = !sec.partial;
-  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart is from the public 1 PM chart. 18+ titles are shown at their last known position, marked “Awaiting 2 PM update”, until the 2 PM signed-in update adds them; other positions may be off by a few until then.' : '';
+  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart is from the public 1 PM chart. The 18+ titles below show their last known position, marked “Awaiting 2 PM update”, until the 2 PM signed-in update adds them; other positions may be off by a few until then.' : '';
+  renderAdult(s);
   renderFallen(s);
   const view = pref(k).view;
   if (view === 'bars') renderBars(s, shown); else if (charts[k + '-bars']) { charts[k + '-bars'].destroy(); delete charts[k + '-bars']; }
   if (view === 'trend') renderTrend(s, shown);
+}
+
+function renderAdult(s) {
+  const k = s.key, sec = model.sections[k], q = query(k), cols = adultCols(s);
+  const onlyNew = el('onlyNew').getAttribute('aria-pressed') === 'true';
+  const list = sec.adult.filter(r => (!q || r.name.toLowerCase().includes(q)) && (!onlyNew || r.isNew));
+  const stale = sec.adult.filter(r => r.stale).length;
+  el(k + '-adult-meta').textContent = sec.adult.length ? `${plural(sec.adult.length, "title", "titles")}${stale ? ' · awaiting 2 PM update' : ''}` : 'None today';
+  el(k + '-adult-rows').innerHTML = list.length
+    ? list.map(r => '<tr>' + cols.map(id => COL[id].cell(r)).join('') + '</tr>').join('')
+    : `<tr><td class="empty" colspan="${cols.length}">${sec.adult.length ? 'No 18+ titles match these filters.' : 'No 18+ titles on this chart today.'}</td></tr>`;
 }
 
 function renderFallen(s) {
@@ -1133,6 +1160,7 @@ function boot() {
     });
     el(k + '-all').addEventListener('click', () => { setPref(k, { show: 0 }); renderSection(s); });
     el(k + '-min').addEventListener('click', () => { setPref(k, { open: !pref(k).open }); renderSection(s); });
+    el(k + '-adult').addEventListener('toggle', e => { if (e.target.open !== pref(k).adult) setPref(k, { adult: e.target.open }); });
     el(k + '-fallen').addEventListener('toggle', e => { if (e.target.open !== pref(k).fallen) setPref(k, { fallen: e.target.open }); });
     el(k + '-head').addEventListener('click', e => {
       const b = e.target.closest('button[data-k]'); if (!b) return;
