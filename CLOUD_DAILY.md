@@ -1,6 +1,6 @@
 # Daily cloud run (Deep Analysis + tracker update)
 
-Runs at about 2:15 PM Eastern, after the 1 PM GitHub Actions snapshot and the 2 PM 18+ update. Work in the `roblox-tracker` checkout; the
+Runs at about 1:45 PM Eastern (retry 2:45), after the 1 PM GitHub Actions snapshot; the 2 PM local task adds the 18+ titles afterwards. Work in the `roblox-tracker` checkout; the
 `roblox-ccu` checkout sits next to it. The routine's prompt sets MODE (`live` or `dryrun`).
 
 | MODE | git branch | collections written |
