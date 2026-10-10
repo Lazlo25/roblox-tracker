@@ -1,0 +1,736 @@
+[
+  {
+    "label": "Q16",
+    "loop": "shoot invading AI robots -> each hit gives +1 DMG -> earn medals, unlock better guns -> rebirth for multipliers -> push into new areas",
+    "loop_archetype": "incremental_plus1",
+    "objectives": "get as strong as possible and clear areas to save Earth",
+    "progression": "damage stat, medals, gun unlocks, rebirths, new areas (World 2)",
+    "instructions": "shoot enemies to gain +1 DMG, earn medals, unlock guns, rebirth, use code 10KCCU",
+    "mechanics": [
+      "first-person shooting",
+      "+1 stat per hit",
+      "gun unlocks",
+      "rebirth",
+      "area unlocks",
+      "trainer multipliers"
+    ],
+    "social": "solo",
+    "competitive": "light",
+    "unique": [
+      "+1-per-action incremental wrapped in an FPS shooting frame"
+    ],
+    "themes": [
+      "robots",
+      "AI invasion",
+      "guns",
+      "sci-fi"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "+1 every x",
+      "fps"
+    ],
+    "monetization_signals": [
+      "trainer multiplier passes up to x1000",
+      "VIP 2x pad",
+      "+DMG packs",
+      "stacking multiplier products"
+    ],
+    "update_signals": [
+      "World 2 update",
+      "daily updates (updated today)",
+      "CCU code"
+    ],
+    "thumbnails": "+1 popups over robot enemies, first-person gun view, avatar holding rifles, gun upgrade with +67 numbers",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 page video (content not shown)",
+    "complexity": 2,
+    "complexity_notes": "FPS shooting with simple enemy AI, stat counters, a few areas; standard incremental UI",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q17",
+    "loop": "take a job role (cashier, cook, boxer, delivery, manager) -> fulfil pizza orders as a team -> earn paycheck -> upgrade house and furniture",
+    "loop_archetype": "simulation_job",
+    "objectives": "work shifts to earn money and build up your house",
+    "progression": "money, house upgrades, furniture, vehicles",
+    "instructions": "work as a team to fulfil food orders, spend earnings on house and furniture",
+    "mechanics": [
+      "job roles",
+      "order fulfilment",
+      "house building",
+      "furniture placement",
+      "vehicles",
+      "pets"
+    ],
+    "social": "social_hub",
+    "competitive": "none",
+    "unique": [
+      "classic cooperative restaurant-job sim with housing; one of Roblox's oldest games"
+    ],
+    "themes": [
+      "pizza",
+      "restaurant",
+      "jobs",
+      "housing"
+    ],
+    "audience": "broad",
+    "trend_hooks": [
+      "work at a"
+    ],
+    "monetization_signals": [
+      "house tier passes (Estate, Mansion)",
+      "VIP",
+      "seasonal furniture bundles",
+      "vehicles",
+      "Moneyz packs"
+    ],
+    "update_signals": [
+      "Autumn bundle",
+      "recent update 2026-10-08"
+    ],
+    "thumbnails": "pizza delivery scooter, crowded pizzeria interior, character holding pizza box",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "restaurant workflow systems, housing/furniture builder, vehicles; mature large codebase",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q18",
+    "loop": "ride motorcycles around open world -> race and do challenges -> earn cash -> buy/unlock and customize 90+ bikes",
+    "loop_archetype": "racing_driving",
+    "objectives": "unlock and customize a large motorcycle collection and win races",
+    "progression": "cash, 90+ motorcycles, upgrades, customization",
+    "instructions": "ride, race, customize bikes, explore open world, redeem codes",
+    "mechanics": [
+      "motorcycle physics",
+      "open world",
+      "racing",
+      "vehicle customization",
+      "dynamic weather",
+      "codes"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "motorcycle-only open world with large licensed-style bike roster"
+    ],
+    "themes": [
+      "motorcycles",
+      "open world",
+      "Halloween"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "bike sims"
+    ],
+    "monetization_signals": [
+      "tuned/police bike passes",
+      "2x cash",
+      "VIP",
+      "cash packs up to $1M",
+      "starter pack"
+    ],
+    "update_signals": [
+      "Halloween event",
+      "dynamic events"
+    ],
+    "thumbnails": "studio-style renders of sport bikes, Halloween chopper, rider with bikes",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "large open map with varied biomes, custom bike physics, many vehicle models, weather system",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q19",
+    "loop": "climb a giant waterslide tower -> slide down on a raft collecting coins -> earn wins/coins -> unlock rafts, pets and new worlds",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "climb ever-taller slides and unlock new worlds and rare pets",
+    "progression": "wins, coins, rafts, pets, worlds (World 6)",
+    "instructions": "climb landmarks and the world's tallest waterslide, slide and collect coins, unlock rafts, get pets, join group, code CCU MONEY",
+    "mechanics": [
+      "climbing",
+      "sliding",
+      "coin collection",
+      "pets",
+      "raft unlocks",
+      "offline earnings for friends"
+    ],
+    "social": "solo",
+    "competitive": "light",
+    "unique": [
+      "waterslide theme on climb-and-slide sim; friends earn while you are offline"
+    ],
+    "themes": [
+      "waterslides",
+      "water park",
+      "landmarks",
+      "pets"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "climb and slide",
+      "poor vs rich"
+    ],
+    "monetization_signals": [
+      "x2 wins/coins/speed",
+      "auto wins",
+      "VIP",
+      "pet and raft products",
+      "luck products"
+    ],
+    "update_signals": [
+      "weekly updates",
+      "World 6"
+    ],
+    "thumbnails": "colourful spiral slides with rafts, poor vs rich slide comparison",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": true,
+    "video": "1 page video (content not shown)",
+    "complexity": 2,
+    "complexity_notes": "repeated slide tracks per world, raft/pet models, simple sim UI",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q20",
+    "loop": "spot the fake anime character among doors -> grab characters and haul them to your base -> earn $/s from rare variants -> steal from other players -> upgrade speed and climb stages",
+    "loop_archetype": "steal_defend_base",
+    "objectives": "collect rare anime character variants for income per second",
+    "progression": "income per second, stages, speed upgrades, rare variants",
+    "instructions": "spot the fake, grab characters to your base, collect rare variants, fight others to steal, unlock speed",
+    "mechanics": [
+      "spot the difference",
+      "carrying",
+      "base income",
+      "stealing",
+      "lucky blocks",
+      "speed upgrades"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "real-vs-fake guessing puzzle combined with steal-a-brainrot base loop"
+    ],
+    "themes": [
+      "anime",
+      "Halloween"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "steal-a-x",
+      "spot the fake",
+      "anime"
+    ],
+    "monetization_signals": [
+      "cash packs",
+      "server luck",
+      "lucky blocks",
+      "double carry",
+      "OP bat",
+      "auto-collect"
+    ],
+    "update_signals": [
+      "Halloween update"
+    ],
+    "thumbnails": "real vs fake anime characters (Gojo-like), question-mark poses, $6,941,251/s income",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 page video (content not shown)",
+    "complexity": 2,
+    "complexity_notes": "door/stage course, character models, base income loop; template steal-a-x systems",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q21",
+    "loop": "ride and collect motorcycles -> race circuits and do delivery jobs for cash -> customize bikes -> climb leaderboards and earn badges",
+    "loop_archetype": "racing_driving",
+    "objectives": "build a bike collection and set top leaderboard times",
+    "progression": "cash (RM), motorcycle collection, badges, leaderboard times, tasks",
+    "instructions": "race tracks, collect/customize bikes, delivery jobs, join group for 30% cash, code THATSWILD95K; controls listed",
+    "mechanics": [
+      "motorcycle physics",
+      "racing circuits",
+      "delivery jobs",
+      "customization",
+      "ragdoll crashes",
+      "bike damage",
+      "tasks",
+      "leaderboards"
+    ],
+    "social": "mixed",
+    "competitive": "core",
+    "unique": [
+      "Malaysian-flavoured (RM currency) bike sim with manual transmission, wheelies and new ragdoll damage"
+    ],
+    "themes": [
+      "motorcycles",
+      "racing",
+      "Malaysia"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "bike sims"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "underglow/lighting passes",
+      "RM cash packs",
+      "2x cash",
+      "task refresh purchases"
+    ],
+    "update_signals": [
+      "Ragdoll + Damage update",
+      "like-goal codes"
+    ],
+    "thumbnails": "realistic superbikes on race track, rider with delivery backpack, bike damage title",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "1 page video (content not shown)",
+    "complexity": 4,
+    "complexity_notes": "detailed open world and circuits, transmission/wheelie physics, damage and ragdoll systems, 64 badges",
+    "novelty": 2,
+    "confidence": 75
+  },
+  {
+    "label": "Q22",
+    "loop": "create a character with a random bloodline -> explore and fight in a single-player action world -> reroll bloodlines for powers",
+    "loop_archetype": "story_adventure",
+    "objectives": "explore and survive high-stakes action-adventure; unclear specifics",
+    "progression": "bloodlines (rerolls), character slots; otherwise unclear",
+    "instructions": "unclear; description only says exploration is key and points to a server for reports",
+    "mechanics": [
+      "bloodline RNG",
+      "rerolling",
+      "exploration",
+      "combat",
+      "save slots"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "max 1 player per server despite action-RPG framing; heavy RNG bloodline rerolls"
+    ],
+    "themes": [
+      "anime",
+      "dark fantasy"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime rpg"
+    ],
+    "monetization_signals": [
+      "new/reroll bloodline",
+      "Beast Spawn",
+      "Renimation",
+      "save slots",
+      "emote pack"
+    ],
+    "update_signals": [
+      "event tag in title"
+    ],
+    "thumbnails": "single dark anime character art, nothing on gameplay",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "action RPG combat and abilities, exploration world; longstanding project",
+    "novelty": 1,
+    "confidence": 45
+  },
+  {
+    "label": "Q23",
+    "loop": "start a vehicle and drive across endless desert -> scavenge loot and fuel -> fight hazards and enemies -> go as far as possible with friends",
+    "loop_archetype": "story_adventure",
+    "objectives": "survive and travel as far as possible along the desert road",
+    "progression": "distance, vehicles, weapons, badges, season content",
+    "instructions": "press R to start engine; journey through desert in powerful vehicles",
+    "mechanics": [
+      "driving",
+      "scavenging",
+      "vehicle repair",
+      "weapons",
+      "co-op travel",
+      "procedural road"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "endless road-trip survival genre leader"
+    ],
+    "themes": [
+      "desert",
+      "road trip",
+      "vehicles",
+      "survival"
+    ],
+    "audience": "broad",
+    "trend_hooks": [
+      "road trip survival"
+    ],
+    "monetization_signals": [
+      "vehicle passes",
+      "weapon passes (nuke, orbital cannon)",
+      "backpack slots",
+      "donations"
+    ],
+    "update_signals": [
+      "season update"
+    ],
+    "thumbnails": "rusty sidecar bike, van and car driving through desert with friends, tornado",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "procedural endless road, vehicle physics, many weapons/items, 104 badges",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q24",
+    "loop": "a monster hunts the maze -> find paint colours -> stand at the wall matching your colour to survive -> find all colours to win",
+    "loop_archetype": "horror_escape",
+    "objectives": "survive rounds by matching colours and escape the monster",
+    "progression": "wins, pets, lives",
+    "instructions": "stand by the wall of your colour, find all colours, escape the monster through the maze",
+    "mechanics": [
+      "colour matching",
+      "maze",
+      "monster chase",
+      "rounds",
+      "extra lives",
+      "pets"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "colour-matching hide mechanic with stick-figure monster"
+    ],
+    "themes": [
+      "colours",
+      "paint",
+      "monster",
+      "maze"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "horror chase"
+    ],
+    "monetization_signals": [
+      "extra lives/continues",
+      "x2 wins",
+      "pet equip slots",
+      "running shoes",
+      "starter pack"
+    ],
+    "update_signals": [
+      "last updated 2026-08-15"
+    ],
+    "thumbnails": "stick-figure monster creeping on players holding paint buckets at coloured walls",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "round-based maze map, monster AI, colour assignment",
+    "novelty": 2,
+    "confidence": 75
+  },
+  {
+    "label": "Q25",
+    "loop": "roll for random fishermen -> place them on the dock -> they catch fish -> put fish on stands for $/s (even offline) -> upgrade and rebirth",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "roll rarer fishermen to catch giant fish and maximise income",
+    "progression": "cash per second, fishermen rarity, fish, rebirths, upgrades",
+    "instructions": "roll a fisherman, place on dock, collect fish to stand, collect cash and upgrade; codes listed",
+    "mechanics": [
+      "rolling",
+      "placement",
+      "income per second",
+      "offline earnings",
+      "rebirth",
+      "crates",
+      "stealing cash",
+      "auctions"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "roll-a-x applied to fishing with dock placement and an auction house"
+    ],
+    "themes": [
+      "fishing",
+      "sea creatures",
+      "ocean"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "roll a x",
+      "fishing"
+    ],
+    "monetization_signals": [
+      "auto collect",
+      "x2 fishing/roll speed",
+      "crates",
+      "money packs",
+      "rebirth skip",
+      "steal cash"
+    ],
+    "update_signals": [
+      "release and update codes"
+    ],
+    "thumbnails": "row of fishermen on a dock over giant orca and megalodon, $9,732,457,643/s labels",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 page video (content not shown)",
+    "complexity": 2,
+    "complexity_notes": "single dock map, fish models, standard tycoon UI",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q26",
+    "loop": "create a cat -> pick a clan role (warrior, medicine cat, leader) -> roleplay and explore the forest territory with others",
+    "loop_archetype": "roleplay_social",
+    "objectives": "tell your own Warriors story with friends",
+    "progression": "cosmetics (furs, markings, accessories), save slots",
+    "instructions": "create cats, choose a path, explore, make alliances; controls listed",
+    "mechanics": [
+      "character creator",
+      "roleplay",
+      "exploration",
+      "animations",
+      "save slots"
+    ],
+    "social": "social_hub",
+    "competitive": "none",
+    "unique": [
+      "official licensed Warriors book roleplay"
+    ],
+    "themes": [
+      "cats",
+      "Warriors books",
+      "forest",
+      "fantasy"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "animal roleplay"
+    ],
+    "monetization_signals": [
+      "seasonal fur/marking packs",
+      "large warrior",
+      "donations",
+      "save slots"
+    ],
+    "update_signals": [
+      "seasonal fur packs (Summer 2026)"
+    ],
+    "thumbnails": "detailed cat characters in forest scenes with Warrior Cats logo",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "detailed custom cat rig and animations, large territory map, deep customization",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q27",
+    "loop": "enter arena -> deflect the accelerating ball at opponents -> last player standing wins -> unlock champions, swords, abilities and climb ranked ladder",
+    "loop_archetype": "combat_pvp",
+    "objectives": "be the last survivor and climb the ranked ladder",
+    "progression": "ranks, champions, abilities, swords, emotes, auras",
+    "instructions": "deflect the ball, unlock champions, climb the ladder",
+    "mechanics": [
+      "deflect timing",
+      "abilities",
+      "ranked",
+      "trading booths",
+      "enchants"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "Blade Ball-style deflect with anime champions and abilities"
+    ],
+    "themes": [
+      "anime",
+      "abilities"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "blade ball-like"
+    ],
+    "monetization_signals": [
+      "aura packs",
+      "ability unlocks",
+      "storage",
+      "shiny hunter",
+      "booth passes"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "logo with red ball, character art with ball in arena",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "1 page video (content not shown)",
+    "complexity": 3,
+    "complexity_notes": "fast networked ball physics, many abilities and cosmetics, trading",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q28",
+    "loop": "train speed -> win races against giant creatures to earn eggs -> hatch pets -> pets earn cash -> rebirth",
+    "loop_archetype": "hatch_collect_pets",
+    "objectives": "collect the rarest pets and win faster races",
+    "progression": "speed, eggs, pets, cash, rebirths",
+    "instructions": "train speed, win races to earn eggs, use pets to earn cash",
+    "mechanics": [
+      "speed training",
+      "racing",
+      "egg hatching",
+      "pets",
+      "rebirth"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "racing giant animals (T-rex, shark) to win their eggs"
+    ],
+    "themes": [
+      "dinosaurs",
+      "sharks",
+      "pets",
+      "eggs"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "race for x"
+    ],
+    "monetization_signals": [
+      "pet slots",
+      "x2 cash",
+      "exclusive packs",
+      "HYDRA pet 14999"
+    ],
+    "update_signals": [
+      "updates every Saturday",
+      "live event"
+    ],
+    "thumbnails": "player racing a giant T-rex and shark, LIVE EVENT banner, $/s number",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": true,
+    "video": "1 page video (content not shown)",
+    "complexity": 2,
+    "complexity_notes": "race tracks, creature models, pet systems",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q29",
+    "loop": "roll anime cards -> build a deck -> battle story maps, towers and bosses -> upgrade luck and cooldown -> PVP ranking",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "build the strongest deck and top the PVP leaderboard",
+    "progression": "cards, traits, luck upgrades, story maps, battle pass",
+    "instructions": "roll cards, build deck, teleport to story, upgrade, battle bosses/towers/PVP",
+    "mechanics": [
+      "card rolling",
+      "deck building",
+      "auto battles",
+      "boss raids",
+      "infinite towers",
+      "pvp ladder",
+      "potions"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "RNG rolling combined with deck-building auto battler"
+    ],
+    "themes": [
+      "anime",
+      "cards"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime rng"
+    ],
+    "monetization_signals": [
+      "server luck",
+      "moon potions",
+      "trait crystals",
+      "battle pass",
+      "roll speed jugs"
+    ],
+    "update_signals": [
+      "Update 9.1 Power Dungeon",
+      "Battlepass Season 7"
+    ],
+    "thumbnails": "anime character art (Goku/Luffy-style), mystery card",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "1 page video (content not shown)",
+    "complexity": 3,
+    "complexity_notes": "many card/character assets, battle modes, deck systems",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q30",
+    "loop": "drop into voxel map -> snipe or knife opponents -> hits launch ragdolled players and destroy terrain -> earn coins, open cases for skins",
+    "loop_archetype": "combat_pvp",
+    "objectives": "top the kill leaderboard",
+    "progression": "XP, coins, sniper/knife unlocks, case skins",
+    "instructions": "fast first-person sniper/knife shooter; controls listed; beta",
+    "mechanics": [
+      "first-person sniping",
+      "knives",
+      "ragdoll knockback",
+      "destructible voxels",
+      "cases"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "physics fling knockback plus fully destructible voxel maps in FPS"
+    ],
+    "themes": [
+      "guns",
+      "physics",
+      "voxels"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "fps"
+    ],
+    "monetization_signals": [
+      "2x case luck",
+      "coin packs",
+      "cases",
+      "nuke all",
+      "starter pack"
+    ],
+    "update_signals": [
+      "beta, frequent changes"
+    ],
+    "thumbnails": "cartoon sniper sending avatar flying, blasting voxel blocks",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "FPS netcode, voxel destruction, ragdoll physics",
+    "novelty": 2,
+    "confidence": 70
+  }
+]

@@ -1,0 +1,708 @@
+[
+  {
+    "label": "Q31",
+    "loop": "shoot food shapes for XP -> level up and upgrade stats -> evolve into new tank classes -> destroy other tanks for gems",
+    "loop_archetype": "combat_pvp",
+    "objectives": "grow the strongest tank and dominate the arena",
+    "progression": "levels, stat upgrades (damage/health/speed), 150+ tank evolutions, gems",
+    "instructions": "shoot food for levels, upgrade stats, destroy tanks to earn gems, unlock 150+ tanks; redeem codes",
+    "mechanics": [
+      "top-down shooting",
+      "stat allocation",
+      "class evolution tree",
+      "pvp arena",
+      "codes"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "Diep.io-style tank evolution arena on Roblox"
+    ],
+    "themes": [
+      "tanks",
+      "arena shooter"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "io-game"
+    ],
+    "monetization_signals": [
+      "timed VIP access",
+      "gem bundles",
+      "revive",
+      "revenge"
+    ],
+    "update_signals": [
+      "codes",
+      "rebalance updates"
+    ],
+    "thumbnails": "simple 3D tank icon; top-down arena gameplay with food dots; damage stat upgrade UI; Double/Triple/Super barrel evolutions",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": true,
+    "video": "present",
+    "complexity": 2,
+    "complexity_notes": "single arena, simple primitive tank models, top-down camera, upgrade UI; many tank variants",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q32",
+    "loop": "spawn vehicles and trailers -> drive/off-road in mud, tow, farm, boat -> customize builds -> roleplay in town",
+    "loop_archetype": "racing_driving",
+    "objectives": "drive, tow, farm and customize vehicles in an open roleplay world",
+    "progression": "vehicle and trailer unlocks, customization (mostly via passes)",
+    "instructions": "grab friends, hit the mud pits, test towing, farm the fields, boat and off-road, create builds; like and favorite for a vehicle",
+    "mechanics": [
+      "vehicle driving",
+      "off-road mud physics",
+      "towing",
+      "farming",
+      "vehicle customization",
+      "roleplay"
+    ],
+    "social": "social_hub",
+    "competitive": "none",
+    "unique": [
+      "detailed mudding/towing physics with trailers and farming in one open world"
+    ],
+    "themes": [
+      "off-roading",
+      "rural America",
+      "farming",
+      "trucks"
+    ],
+    "audience": "broad",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "vehicle spawner passes",
+      "premium vehicles",
+      "premium trailers",
+      "gift products",
+      "limited holiday vehicles",
+      "private servers"
+    ],
+    "update_signals": [
+      "new town map update",
+      "Halloween vehicle",
+      "Thanksgiving vehicle"
+    ],
+    "thumbnails": "realistic dirt bike rider in town, UTV/ATV jumping with US flag, large fifth-wheel trailer",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "present",
+    "complexity": 4,
+    "complexity_notes": "large open map, many detailed vehicles and trailers, mud/vehicle physics, customization systems",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q33",
+    "loop": "fish for gigantic fish -> sell for coins -> upgrade rod, strength and skills -> fight boss fish and catch bigger ones",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "catch the biggest fish and become the ultimate Fishing Master",
+    "progression": "rods, rod mastery, skill books, units (companions), daily quests",
+    "instructions": "learn fishing techniques and skills, challenge giant fish, upgrade strength and abilities; join group for rod skin",
+    "mechanics": [
+      "fishing",
+      "rod upgrades",
+      "skill books",
+      "companion units",
+      "boss drops",
+      "weather events",
+      "daily quests"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "martial-arts style fishing skills inspired by Vietnamese 'Fishing for Ten Thousand Pounds'"
+    ],
+    "themes": [
+      "fishing",
+      "martial arts",
+      "sea monsters"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "fishing sim"
+    ],
+    "monetization_signals": [
+      "auto fishing",
+      "2x fish value",
+      "sell anywhere",
+      "unit slots",
+      "coin and gem packs",
+      "starter bundle"
+    ],
+    "update_signals": [
+      "units update",
+      "daily quests",
+      "skill stock"
+    ],
+    "thumbnails": "anime-style character with yin-yang fire; angler battling giant sea monster",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "fishing systems, boss fish, skills/effects, weather spawns",
+    "novelty": 1,
+    "confidence": 60
+  },
+  {
+    "label": "Q34",
+    "loop": "explore world -> fight cursed spirits and sorcerers -> roll clans and cursed techniques -> level skill trees and gear -> fight tougher enemies",
+    "loop_archetype": "combat_pvp",
+    "objectives": "hone cursed techniques and become the strongest sorcerer",
+    "progression": "levels, mastery, clan rolls, skill trees, weapon ascension, crafting",
+    "instructions": "roam the world, find cursed objects, hone techniques, defeat cursed spirits and sorcerers",
+    "mechanics": [
+      "clan rolls",
+      "pity system",
+      "skill trees",
+      "shikigami",
+      "weapons",
+      "crafting",
+      "pve bosses",
+      "pvp"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "Jujutsu Kaisen-inspired anime RPG with clan gacha and skill trees"
+    ],
+    "themes": [
+      "anime",
+      "Jujutsu Kaisen",
+      "sorcery"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime battlegrounds",
+      "jujutsu kaisen"
+    ],
+    "monetization_signals": [
+      "clan rerolls",
+      "pity booster",
+      "luck passes",
+      "special grade notifier",
+      "yen and lumens currency packs"
+    ],
+    "update_signals": [
+      "beta updates",
+      "QOL + passives update"
+    ],
+    "thumbnails": "anime character art in glowing frames (curse spirit, red-eyed fighter, purple domain)",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "open world, many abilities and VFX, skill trees, crafting, enemy AI",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q35",
+    "loop": "slap other players with gloves -> earn slaps -> unlock new gloves with abilities -> slap more chaotically",
+    "loop_archetype": "combat_pvp",
+    "objectives": "knock players off the arena and collect gloves",
+    "progression": "slaps currency, glove unlocks, badges (168)",
+    "instructions": "slap people using gloves with unique abilities; press E for ability; shift lock recommended",
+    "mechanics": [
+      "slapping knockback",
+      "glove abilities",
+      "glove collecting",
+      "badge hunting",
+      "bosses"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "huge roster of chaotic ability gloves and badge quests"
+    ],
+    "themes": [
+      "slapping",
+      "meme chaos"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "slap battles"
+    ],
+    "monetization_signals": [
+      "slap packs",
+      "ability gloves passes",
+      "custom glove",
+      "killstreak",
+      "boss revive"
+    ],
+    "update_signals": [
+      "frequent updates"
+    ],
+    "thumbnails": "cartoon art of chaotic slapping, many characters, giant hands",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "many glove abilities, physics knockback, bosses, many badges",
+    "novelty": 2,
+    "confidence": 85
+  },
+  {
+    "label": "Q36",
+    "loop": "chase storms across the map -> deploy probes, photograph and intercept tornadoes -> earn money -> buy better vehicles and gear",
+    "loop_archetype": "simulation_job",
+    "objectives": "get close data and photos of tornadoes while surviving",
+    "progression": "money, vehicles, equipment, jobs (trucking, fire/EMS)",
+    "instructions": "chase severe weather in Keysota; deploy probes, intercept in armored vehicles, or take photos",
+    "mechanics": [
+      "storm chasing",
+      "driving",
+      "tornado simulation",
+      "photography",
+      "probes",
+      "jobs"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "realistic tornado/weather simulation storm-chasing"
+    ],
+    "themes": [
+      "weather",
+      "tornadoes",
+      "storm chasing"
+    ],
+    "audience": "broad",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "2x income",
+      "NWS access",
+      "job passes",
+      "cash packs",
+      "starter pack"
+    ],
+    "update_signals": [
+      "beta",
+      "candy currency (Halloween)"
+    ],
+    "thumbnails": "dark atmospheric shots of tornado and armored intercept vehicle",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "present",
+    "complexity": 5,
+    "complexity_notes": "large terrain map, dynamic weather/tornado simulation, vehicles; heavy on low-end devices",
+    "novelty": 3,
+    "confidence": 80
+  },
+  {
+    "label": "Q37",
+    "loop": "spawn soldiers -> merge into stronger units/tanks/helicopters -> earn cash per second (also offline) -> capture enemy camps",
+    "loop_archetype": "merge_upgrade",
+    "objectives": "build the ultimate mini army and conquer camps",
+    "progression": "unit tiers, spawn upgrades, camps captured",
+    "instructions": "merge troops, earn cash every second even offline, capture enemy camps, dominate other players",
+    "mechanics": [
+      "merging",
+      "income per second",
+      "offline earnings",
+      "camp capture",
+      "upgrades"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "army merge with territory capture"
+    ],
+    "themes": [
+      "military",
+      "army",
+      "toy soldiers"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "merge-a-x"
+    ],
+    "monetization_signals": [
+      "auto merge",
+      "x2 spawn",
+      "cash multipliers",
+      "unit packs",
+      "skip upgrade"
+    ],
+    "update_signals": [
+      "weekly updates"
+    ],
+    "thumbnails": "soldier + soldier = tank merge equation, 6.5B helicopter, mass army merge",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "simple plates, merge UI, unit models",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q38",
+    "loop": "play 5v5-style Blue Lock soccer matches -> use flows/skills to score -> earn cash -> unlock styles and cosmetics",
+    "loop_archetype": "sports_competitive",
+    "objectives": "score goals and win matches with anime soccer skills",
+    "progression": "cash, styles/flows, cosmetics",
+    "instructions": "M1 to shoot, Q tackle/dash, R whistle, E dribble; goalkeeper dives",
+    "mechanics": [
+      "soccer",
+      "skills",
+      "dribbling",
+      "goalkeeping",
+      "flow awakening"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "Blue Lock anime licensed soccer"
+    ],
+    "themes": [
+      "anime",
+      "soccer",
+      "Blue Lock"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "blue lock"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "PS+",
+      "cash packs",
+      "limited MVP items",
+      "customization passes"
+    ],
+    "update_signals": [
+      "QOL update"
+    ],
+    "thumbnails": "manga-panel style Blue Lock character art",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 3,
+    "complexity_notes": "sports pitch, ball physics, many skill VFX and animations",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q39",
+    "loop": "train strength/durability/agility -> unlock gyms -> fight players in arenas -> collect pets -> rebirth",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "become the strongest player",
+    "progression": "strength, gyms, pets, rebirths",
+    "instructions": "train body, unlock gyms, fight players, collect pets, gain moves, compete in arenas; codes",
+    "mechanics": [
+      "clicker training",
+      "pets",
+      "arenas",
+      "pvp",
+      "daily spins",
+      "rebirth"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [],
+    "themes": [
+      "muscles",
+      "gym",
+      "fitness"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "strength sim"
+    ],
+    "monetization_signals": [
+      "x2 strength",
+      "auto lift",
+      "pet slots",
+      "gem packs",
+      "protein/energy items"
+    ],
+    "update_signals": [
+      "Halloween",
+      "codes"
+    ],
+    "thumbnails": "glowing muscular avatars lifting weights (pumpkin head)",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "multiple gym zones, pets, simple combat",
+    "novelty": 0,
+    "confidence": 85
+  },
+  {
+    "label": "Q40",
+    "loop": "hang out at school -> fight other players free-for-all -> earn respect and lunch money -> buy weapons/abilities",
+    "loop_archetype": "combat_pvp",
+    "objectives": "fight and beat other players at school",
+    "progression": "respect, XP, lunch money, gear",
+    "instructions": "walk around, talk, or start fights; left click attack, space+WASD weave",
+    "mechanics": [
+      "melee fighting",
+      "weaving",
+      "one-time weapons",
+      "roleplay",
+      "free-for-all"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "school setting street-fight game with weaving"
+    ],
+    "themes": [
+      "school",
+      "fighting"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "fight in a x"
+    ],
+    "monetization_signals": [
+      "knockout luck",
+      "VIP",
+      "one-time weapons",
+      "x2 respect/xp"
+    ],
+    "update_signals": [
+      "unbans",
+      "beta updates"
+    ],
+    "thumbnails": "cartoon art of school fights, bat attack",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "school map, fighting system with animations",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q41",
+    "loop": "sell lemons -> earn cash (also offline) -> buy upgrades -> rebirth/evolve -> unlock powers and new areas",
+    "loop_archetype": "idle_income_tycoon",
+    "objectives": "grow lemon business into massive wealth",
+    "progression": "cash, evolutions, rebirths, investors, new areas (space)",
+    "instructions": "sell lemons, earn cash, unlock powers, make deals; earn offline",
+    "mechanics": [
+      "idle income",
+      "offline earnings",
+      "rebirth",
+      "evolve",
+      "investors"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "lemonade stand escalating to cosmic scale"
+    ],
+    "themes": [
+      "lemons",
+      "money",
+      "space"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "sell-a-x"
+    ],
+    "monetization_signals": [
+      "timed cash",
+      "speed up time",
+      "offline cash",
+      "free evolve/rebirth"
+    ],
+    "update_signals": [],
+    "thumbnails": "avatar on lemon mountain with black hole, lemonade stand, space base",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": false,
+    "video": "present",
+    "complexity": 2,
+    "complexity_notes": "tycoon plots and upgrades",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q42",
+    "loop": "pick weapon -> duel opponents with light/heavy attacks, parries and dodges -> win rounds -> unlock weapons",
+    "loop_archetype": "combat_pvp",
+    "objectives": "become the strongest duelist",
+    "progression": "weapons unlocks, gems",
+    "instructions": "M1/M2 attacks, F parry/block, Q dodge, R ultimate",
+    "mechanics": [
+      "melee combat",
+      "parry",
+      "dodge",
+      "lock-on",
+      "ultimates"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "souls-like dueling in Roblox"
+    ],
+    "themes": [
+      "samurai",
+      "medieval"
+    ],
+    "audience": "teens",
+    "trend_hooks": [],
+    "monetization_signals": [
+      "weapons early access",
+      "gem packs",
+      "weapon unlocks",
+      "video ads"
+    ],
+    "update_signals": [],
+    "thumbnails": "samurai art and realistic dueling gameplay screenshots with HUD",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "present",
+    "complexity": 4,
+    "complexity_notes": "detailed environments, combat animations, parry system",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q43",
+    "loop": "summon snack units -> place them to defend against waves -> earn currency -> summon/collect more snacks",
+    "loop_archetype": "tower_defense",
+    "objectives": "collect all snacks and beat maps",
+    "progression": "snack collection, traits, maps",
+    "instructions": "collect snacks, follow events, like and favorite for new snacks/maps",
+    "mechanics": [
+      "tower defense",
+      "summoning",
+      "traits",
+      "index",
+      "events"
+    ],
+    "social": "coop",
+    "competitive": "light",
+    "unique": [
+      "cute food snack units in TD"
+    ],
+    "themes": [
+      "food",
+      "snacks",
+      "Halloween"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "anime TD clones"
+    ],
+    "monetization_signals": [
+      "luck boosts",
+      "game speed",
+      "packs",
+      "daily deal"
+    ],
+    "update_signals": [
+      "Halloween event",
+      "Update 2"
+    ],
+    "thumbnails": "cute pumpkin snack event art, snack characters, ghosts",
+    "thumbnail_style": "event_banner",
+    "thumb_text_numbers": false,
+    "video": "present",
+    "complexity": 3,
+    "complexity_notes": "multiple maps, unit models, TD systems",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q44",
+    "loop": "spin for race/magic/grimoire -> fight enemies to gain mastery -> unlock spells -> fight bosses",
+    "loop_archetype": "story_adventure",
+    "objectives": "master grimoire magic and get rare spells",
+    "progression": "mastery levels, spells, gear, spins",
+    "instructions": "R weapon, G grimoire, M menu; spells come from mastery levels",
+    "mechanics": [
+      "grimoire magic",
+      "spins",
+      "mastery",
+      "bosses",
+      "stats"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "Black Clover-inspired single-player servers"
+    ],
+    "themes": [
+      "anime",
+      "Black Clover",
+      "magic",
+      "dragons"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime rpg"
+    ],
+    "monetization_signals": [
+      "magic spins",
+      "trait spins",
+      "race spins",
+      "storage",
+      "VIP"
+    ],
+    "update_signals": [
+      "dragons update"
+    ],
+    "thumbnails": "anime character art and Clover Retribution logos",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "RPG world, many spells, bosses",
+    "novelty": 1,
+    "confidence": 65
+  },
+  {
+    "label": "Q45",
+    "loop": "buy and open packs -> grade cards -> sell/collect -> battle players in pack battles -> rebirth",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "pull and grade the rarest cards",
+    "progression": "cash, card collection, grading, rebirths",
+    "instructions": "open packs, grade cards, battle in pack battles, rebirth",
+    "mechanics": [
+      "pack opening",
+      "grading",
+      "pack battles",
+      "offline earnings",
+      "rebirth"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "card grading mechanic with pack battles"
+    ],
+    "themes": [
+      "trading cards",
+      "Pokemon-like cards"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "pack opening"
+    ],
+    "monetization_signals": [
+      "premium grading",
+      "odds boosts",
+      "buy packs",
+      "2x money",
+      "vault slots"
+    ],
+    "update_signals": [
+      "battles update"
+    ],
+    "thumbnails": "mystery cards with big $ numbers, profit +$921 flex",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "present",
+    "complexity": 2,
+    "complexity_notes": "simple shop and card systems",
+    "novelty": 2,
+    "confidence": 80
+  }
+]

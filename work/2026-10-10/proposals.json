@@ -1,0 +1,75 @@
+{
+ "new": [
+  {
+   "chart": "tt",
+   "statement": "Young games whose thumbnails show plain gameplay screenshots climb Top Trending more slowly than those with art, reward or event thumbnails",
+   "action": "Avoid plain screenshots as thumbnails",
+   "test": {
+    "feature": "thumb=gameplay",
+    "metric": "tt_mom",
+    "type": "binary",
+    "direction": "-"
+   }
+  },
+  {
+   "chart": "te",
+   "statement": "Combat PvP loops earn a higher Top Earning position for their CCU than other profiled loops",
+   "action": "Build around PvP combat for revenue",
+   "test": {
+    "feature": "loop=combat_pvp",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   }
+  },
+  {
+   "chart": "uc",
+   "statement": "Games pitched as 'play with your friends' co-op rank lower on Up-and-Coming among games of the same age",
+   "test": {
+    "feature": "mech_coop_friends",
+    "metric": "uc_pos",
+    "type": "binary",
+    "direction": "-"
+   }
+  },
+  {
+   "chart": "mp",
+   "statement": "Games selling a generic 2x multiplier pass sit lower on Most Popular",
+   "test": {
+    "feature": "pass_double",
+    "metric": "mp_pos",
+    "type": "binary",
+    "direction": "-"
+   }
+  },
+  {
+   "chart": "tt",
+   "statement": "Pet and egg games hold higher Top Trending positions than other young games of similar age",
+   "test": {
+    "feature": "mech_pets_eggs",
+    "metric": "tt_pos",
+    "type": "binary",
+    "direction": "+"
+   }
+  }
+ ],
+ "qualitative_updates": [
+  {
+   "id": "H-x-001",
+   "confidence": 40,
+   "note": "No new cross-chart entries were counted today because every chart in the 2026-10-10 snapshot is flagged partial (public lists only); the uc->tt (17), te->tt (11) and tt->mp (10) counts are unchanged."
+  },
+  {
+   "id": "H-x-006",
+   "confidence": 32,
+   "note": "Sell Fries! [Anomaly] stays among the best Up-and-Coming holders and simulation_job keeps a high median percentile there (63); still no Anomaly game on Most Popular, so the 'durable genre' part is untested."
+  },
+  {
+   "id": "H-x-008",
+   "confidence": 27,
+   "note": "Today's profiles added more duel/arena shooters on Up-and-Coming and Top Earning (Archer, ONE TAP PISTOLS, Knife VS Gun DUELS, [FPS] FLING) that lean on rolls, cases and skins rather than passes; combat_pvp is now the largest profiled loop on Top Earning (32, median percentile 60)."
+  }
+ ],
+ "actions": [],
+ "retire": []
+}
