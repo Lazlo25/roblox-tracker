@@ -1,0 +1,91 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg (78 days) still leads Most Popular ahead of Brookhaven, 99 Nights in the Forest, Murder Mystery 2, the 266-day +1 Speed Keyboard Escape and RIVALS; the top six are unchanged in membership.",
+        "Today's snapshot is again flagged partial (public lists only), so no presence day was added and day-based confidences stayed flat on four recorded days.",
+        "Games past a year keep the best median pillar percentile (58), 15-42 day games sit at 52, and the 85-365 day bands sit at 34, which keeps the mid-life trough idea (H-mp-009, 35%) speculative but consistent with today.",
+        "The weakest holders are Swing For Eggs, the 1,079-day DON'T GET ELIMINATED, +1 Paint Keyboard Adventure and Board Of Hell."
+      ],
+      "patterns": [
+        "Higher pass prices (H-mp-001, 63%) and dev products above 79 Robux (H-mp-011, 64%) tend to go with higher and longer presence; studio maturity and age remain likely confounders.",
+        "Novelty now correlates with position (rho = +0.30), the first clear sign for originality on this chart; a new tested idea tracks it alongside H-mp-005 (47%), which uses days on chart.",
+        "Plain gameplay-screenshot thumbnails go with fewer days on the chart (r = -0.22, 39 games), echoing the same signal on Top Trending; a new tested idea tracks it.",
+        "Bigger servers (H-mp-007, now 54%) and solo loops sitting lower (H-mp-003, 55%) both weakened with today's added profiles; generic 2x passes tend to sit lower (H-mp-012, 64%), likely marking the simulator template.",
+        "Combat PvP (68) and roleplay (66) loops keep the best median percentiles; obby (27), job sims (25) and story adventures (24) sit lowest."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "A 78-day template game at #1 above multi-year evergreens, against the template-is-short-lived idea; the steal/egg wave is at its peak."},
+        {"name": "DON'T GET ELIMINATED", "note": "A three-year-old party game near the bottom, a counterexample to evergreen strength, probably held up by a recurring short-session party wave."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation and social-spending games still top efficiency (Donation Central, Summer Donations, Simple DONATIONS), joined by evil plate game, Korea Army and Strikeborn.",
+        "The 15-42 day band has the weakest median efficiency (18) against 57 for games past a year, matching H-te-001 (69%).",
+        "The weakest monetizers are young breakouts updated today: Peel THE Potato, Firefighting Sim, 7 Days Cat-Sitting and Makeup Mania!.",
+        "The list is again the public chart only (479 games); single-snapshot noise for small games (H-te-019, 45%) still applies."
+      ],
+      "patterns": [
+        "Most tested ideas sit at the 69% ceiling set by five recorded days: dev products above 79 Robux, bracket tags, codes, 25+ player servers, RPG genre, complexity and longer descriptions tend to go with better efficiency, and more days are needed before any reads as consistent.",
+        "Combat PvP (41 profiled games, median 60), tower defense (72) and story adventure (76) loops rank high, while '+1' incrementals (21), wave-survival co-op (20) and sandbox physics (15) rank low, which may point to depth-driven spending.",
+        "Pet/egg (r = -0.26), '+1', anime and steal titles tend to sit low on efficiency, consistent with H-x-002.",
+        "Caps-heavy titles show a positive link (r = +0.26) opposite to their Most Popular effect; it may simply mark older update-tagged games, and a new tested idea tracks it without an action."
+      ],
+      "outliers": [
+        {"name": "Strikeborn [EARLY ACCESS]", "note": "No game passes at all yet among the six most efficient games, against the pass-pricing ideas; early-access product sales may concentrate spending."},
+        {"name": "Firefighting Sim", "note": "Sells products above typical prices yet is among the weakest, a counterexample to H-te-005, likely because it is 19 days old and its player count outruns revenue."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "COCARDO: LA HELADERIA, Hide In Pixels and Lift Rock For Eggs lead momentum, followed by Shoot For Eggs, Climb For Animals Eggs and the 87-day Anime Zero.",
+        "The 0-14 day band keeps a median momentum percentile of 96 versus 43 for 15-42 day games, though the young band has only three scored games.",
+        "Steal templates (Steal A Car, Steal an Clown Egg) and the party format I Can Read Your Mind are the weakest climbers.",
+        "Hatch-collect-pets loops keep the best median momentum among profiled loops (93), party minigames the worst (16)."
+      ],
+      "patterns": [
+        "Plain gameplay thumbnails tend to go with weaker momentum (H-tt-012, 56%; within-age -0.62), and reward-flex thumbnails tend to go with stronger momentum (H-tt-006, 56%).",
+        "PvP loops tend to climb more slowly (H-tt-011, 57%; within-age -0.51), and pet/egg games tend to hold higher positions (H-tt-013, 59%).",
+        "A VIP pass goes with faster climbs (r = +0.34) while generic 2x passes go with lower positions (within-age -0.55); two new tested ideas track these, and simulator-template genre mix is the obvious confounder for the second.",
+        "Short descriptions (H-tt-003, now 53%) and the six-week cutoff (H-tt-001, 47%) both weakened; age alone explains little of momentum within this chart (within-age effect -0.10)."
+      ],
+      "outliers": [
+        {"name": "Anime Zero [Void Arbiter]", "note": "At 87 days it climbs like a two-week game, again the main counterexample to H-tt-001, likely driven by its fresh 'Void Arbiter' content update."},
+        {"name": "[🎨] Hide In Pixels", "note": "A party format with a 59% like ratio among the top climbers, against H-tt-004 and the weakness of party loops."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Huss Valley (41 days) now leads, ahead of Get Your Driver's License! (24% likes), Makeup Mania!, Sell Fries! [Anomaly], COCARDO and Break and Steal an Egg.",
+        "Today's 60 new profiles covered many chart entries, among them a backrooms maze tycoon, a packing tycoon, an AI-judged pancake painter, a bricklaying sandbox and a +1 rock-lifting incremental.",
+        "Egg titles make up 17% of the chart (r = +0.27) and '+1' titles 9% (r = -0.48), the strongest keyword split on this chart.",
+        "The weakest holders are Locust Murder Mystery, Create Pottery!, Open Sea For Animals! and 2 Player Pizza Tycoon."
+      ],
+      "patterns": [
+        "Selling currency packs goes with higher positions (r = +0.40, within-age +0.37) and more updates per week goes with higher positions (r = +0.33); both are new tested ideas next to H-uc-012 (60%), which tends to favor recently updated games.",
+        "Cash-tycoon loops tend to rank lower (r = -0.29 within age), matching the low idle-tycoon median (30); a new tested idea tracks it.",
+        "Solo loops tend to rank lower (H-uc-007, now 58%) and character-art thumbnails tend to rank higher (H-uc-011, 59%); '+1' incrementals tend to rank low (H-uc-003, 60%).",
+        "Horror-escape (87) and hatch-pets (81) loops hold the best medians, while like ratio still shows no reliable link (H-uc-006, 47%)."
+      ],
+      "outliers": [
+        {"name": "Get Your Driver's License!", "note": "Second place with a 24% like ratio, likely curiosity and meme traffic outrunning satisfaction; a new speculative idea tracks such curiosity hooks."},
+        {"name": "Locust Murder Mystery", "note": "A horror/1-vs-all game at the bottom while horror-escape loops otherwise rank high, probably because it is a murder-mystery clone rather than an escape."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Every chart was again flagged partial, so day-based tests did not advance; movement came from 60 new gameplay profiles (342 profiled in total).",
+      "The popularity-versus-revenue split held: egg and steal templates lift Up-and-Coming and Top Trending entries but sit low on Top Earning efficiency, while RPG, combat PvP, tower defense and donation hubs earn most per player.",
+      "Plain gameplay-screenshot thumbnails now point the same way on Most Popular and Top Trending, the first thumbnail signal seen on two charts.",
+      "Generic 2x passes go with lower positions on both Most Popular and Top Trending, which may reflect the simulator-template genre rather than the pass itself.",
+      "Survival genre splits the charts: lower efficiency on Top Earning (H-te-021, 69%) but higher Up-and-Coming positions (r = +0.31), consistent with horror-escape breakouts that monetize late."
+    ],
+    "progressions": [
+      "Up-and-Coming to Top Trending remains the most common path (17 games, median 2 days), then Top Earning to Top Trending (11, 3 days) and Up-and-Coming to Top Earning (10, 1 day).",
+      "Top Trending to Most Popular stays the main entry into Most Popular (10 games, 2 days), ahead of Up-and-Coming to Most Popular (5, 1 day).",
+      "No new progressions were counted today because the snapshot's lists are flagged partial."
+    ]
+  }
+}

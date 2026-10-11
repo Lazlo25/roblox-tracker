@@ -1,0 +1,33 @@
+{
+  "new": [
+    {"chart": "mp", "statement": "More original concepts hold higher Most Popular positions",
+     "action": "Pick an original concept over a clone",
+     "test": {"feature": "novelty", "metric": "mp_pos", "type": "corr", "direction": "+"}},
+    {"chart": "mp", "statement": "Games whose thumbnails show plain gameplay screenshots stay on Most Popular for fewer days",
+     "action": "Avoid plain screenshots as thumbnails",
+     "test": {"feature": "thumb=gameplay", "metric": "mp_days", "type": "binary", "direction": "-"}},
+    {"chart": "uc", "statement": "Games that sell currency packs rank higher on Up-and-Coming among games of the same age",
+     "action": "Sell currency packs from launch",
+     "test": {"feature": "prod_currency", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games shipping more than about 3 updates a week rank higher on Up-and-Coming",
+     "action": "Ship several updates a week",
+     "test": {"feature": "updates_per_week", "metric": "uc_pos", "type": "threshold", "cut": 3.5, "direction": "+"}},
+    {"chart": "uc", "statement": "Cash-tycoon loops rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip cash-tycoon loops for breakout",
+     "test": {"feature": "mech_tycoon_money", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with a VIP pass climb Top Trending faster than those without",
+     "action": "Add a VIP pass at launch",
+     "test": {"feature": "pass_vip", "metric": "tt_mom", "type": "binary", "direction": "+"}},
+    {"chart": "tt", "statement": "Young games selling a generic 2x multiplier pass hold lower Top Trending positions among games of similar age",
+     "action": "Skip generic 2x passes",
+     "test": {"feature": "pass_double", "metric": "tt_pos", "type": "binary", "direction": "-"}},
+    {"chart": "te", "statement": "Caps-heavy titles go with higher monetization efficiency (likely a marker of older, update-tagged games rather than a cause)",
+     "test": {"feature": "title_caps_heavy", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Curiosity hooks (licence tests, guessing games, AI-judged drawing) can carry a game high on Up-and-Coming despite a low like ratio, but rarely convert into Top Earning",
+     "rationale": "Get Your Driver's License! (24% likes) sits #2 on Up-and-Coming and Guess My Youtuber (47%) entered Top Trending; confirm by tracking whether low-like-ratio breakouts reach Top Earning within 2 weeks."}
+  ],
+  "qualitative_updates": [],
+  "actions": [],
+  "retire": []
+}
