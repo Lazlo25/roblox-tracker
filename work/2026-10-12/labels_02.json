@@ -1,0 +1,686 @@
+[
+ {
+  "label": "Q16",
+  "loop": "field-trip survivors complete collection objectives each night while hiding from colored monsters -> survive to the end of the story",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the nights and escape the Rainbow Friends",
+  "progression": "story chapters; gems",
+  "instructions": "unclear beyond the field-trip premise",
+  "mechanics": [
+   "hiding",
+   "collection objectives",
+   "monster AI",
+   "chapters"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "horror",
+   "mascot monsters",
+   "field trip"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "mascot horror"
+  ],
+  "monetization_signals": [
+   "gem packs up to 4600"
+  ],
+  "update_signals": [
+   "no update since May"
+  ],
+  "thumbnails": "blue mascot monster on a stage and a 'Odd World' chapter-2 icon",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "chaptered story maps with custom monster animations",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q17",
+  "loop": "use a fake iPad home screen with mini-game apps while hanging out",
+  "loop_archetype": "roleplay_social",
+  "objectives": "play the iPad's apps",
+  "progression": "unclear",
+  "instructions": "none beyond 'a normal day playing on your iPad'",
+  "mechanics": [
+   "device simulation",
+   "in-game apps",
+   "mini-games"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "playable iPad replica with block-puzzle app"
+  ],
+  "themes": [
+   "iPad",
+   "Apple",
+   "technology"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "device simulator",
+   "brand parody"
+  ],
+  "monetization_signals": [
+   "supporter product",
+   "one cheap pass"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "iPad home screen held by avatar hands and a block-puzzle app",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "UI replica with small mini-games",
+  "novelty": 1,
+  "confidence": 55
+ },
+ {
+  "label": "Q18",
+  "loop": "run across a field while a deer-headed monster turns -> freeze on red light -> reach the end; buy troll tools to fling/kill others",
+  "loop_archetype": "party_minigames",
+  "objectives": "reach the finish without being seen moving",
+  "progression": "cash for tools",
+  "instructions": "run when green, stop when the deer looks",
+  "mechanics": [
+   "red light green light",
+   "elimination",
+   "troll tools",
+   "admin commands"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "mash-up of Squid Game red light with 99 Nights' deer"
+  ],
+  "themes": [
+   "Squid Game",
+   "99 Nights",
+   "deer monster"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "99 nights",
+   "squid game"
+  ],
+  "monetization_signals": [
+   "admin commands 1499",
+   "frontman light control",
+   "slap/fling/kill products",
+   "coils",
+   "cash packs"
+  ],
+  "update_signals": [
+   "frequent small updates"
+  ],
+  "thumbnails": "two avatars before a deer monster with a countdown timer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single field map and a timer loop",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q19",
+  "loop": "fly jets/helicopters over a zombie horde -> rocket and gun them down, drop defenses with allies -> earn credits -> buy among 180 upgrades -> push the front line",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "push the front line as far as the squad can",
+  "progression": "credits, 180 upgrades, aircraft, medals",
+  "instructions": "pilot aircraft, fire rockets and chain guns, call air strikes, drop defenses",
+  "mechanics": [
+   "piloting",
+   "horde shooting",
+   "air strikes",
+   "co-op defense",
+   "upgrades",
+   "supply wheel"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "horde defense from the air with mass zombie crowds",
+   "solo dev"
+  ],
+  "themes": [
+   "military",
+   "zombies",
+   "aircraft"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "zombie horde"
+  ],
+  "monetization_signals": [
+   "fighter jet and helicopter passes",
+   "credit packs up to 1199",
+   "supply wheel spins",
+   "weekend 2x"
+  ],
+  "update_signals": [
+   "alpha with ongoing updates"
+  ],
+  "thumbnails": "fighter jet and attack helicopter over a bridge packed with zombies; $0 vs $1.5M upgrade",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "flight controls and crowd rendering of large hordes; many upgrades",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q20",
+  "loop": "design phones part by part -> set price -> launch with marketing and read reviews -> research new tech by year -> grow the office and team -> sell the company for a legacy bonus",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the biggest phone company in the world",
+  "progression": "cash, research by year, device categories, office, legacy bonus",
+  "instructions": "design devices, hire friends as staff, research, launch, beat rivals",
+  "mechanics": [
+   "product design",
+   "pricing",
+   "research tree",
+   "office building",
+   "hiring",
+   "prestige"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Game Dev Tycoon-style business sim applied to phones, with friends appearing as employees"
+  ],
+  "themes": [
+   "phones",
+   "business",
+   "technology"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "build a x empire",
+   "business tycoon"
+  ],
+  "monetization_signals": [
+   "complete bundle",
+   "2x money",
+   "auto-research",
+   "bankruptcy save",
+   "instant development"
+  ],
+  "update_signals": [
+   "recent update tag"
+  ],
+  "thumbnails": "designer phones in many colors and a $1B sales tablet",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "deep UI-driven design and simulation systems, office builder",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q21",
+  "loop": "tap to earn coins -> hatch eggs for pets that multiply taps -> rebirth -> unlock islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "become the #1 tapper",
+  "progression": "coins, pets, rebirths, islands",
+  "instructions": "tap, hatch, rebirth, unlock islands",
+  "mechanics": [
+   "tapping",
+   "egg hatching",
+   "pet multipliers",
+   "rebirth",
+   "islands"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "pets",
+   "islands",
+   "autumn"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tap simulator",
+   "pet sim"
+  ],
+  "monetization_signals": [
+   "secret hunter 1999",
+   "magic eggs",
+   "x8 hatch",
+   "luck passes",
+   "token packs up to 17500",
+   "hatch bundle 5749"
+  ],
+  "update_signals": [
+   "trading coming soon",
+   "autumn event"
+  ],
+  "thumbnails": "neon secret pets with multiplier stats and a pumpkin with +1 cursors",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard tapper template with pet models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q22",
+  "loop": "pick from 1000+ gem morphs -> roleplay in open-world eras -> fuse with friends -> hunt badges in events to unlock characters",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect characters and roleplay gem history",
+  "progression": "morphs via badges, events and passes",
+  "instructions": "explore, roleplay, fuse, join events",
+  "mechanics": [
+   "morphs",
+   "fusions",
+   "badge hunting",
+   "events",
+   "open world"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "fan-made original morph universe with 50+ fusions"
+  ],
+  "themes": [
+   "Steven Universe",
+   "gems",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "fandom roleplay",
+   "Halloween"
+  ],
+  "monetization_signals": [
+   "character passes up to 2865",
+   "skip trial products",
+   "donation"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "anniversary"
+  ],
+  "thumbnails": "crowds of pastel gem characters with 'Get her!' callouts",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "1000+ custom morph models and multiple open maps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "school roleplay with anime abilities -> fight other students -> reroll characters/accessories -> socialize",
+  "loop_archetype": "roleplay_social",
+  "objectives": "fight and hang out at an anime high school",
+  "progression": "rerolls, yen, characters",
+  "instructions": "fight, socialize, customize via rerolls",
+  "mechanics": [
+   "rerolls",
+   "fighting",
+   "school roleplay",
+   "character slots"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "anime battlegrounds fused with school RP"
+  ],
+  "themes": [
+   "anime",
+   "high school",
+   "Jujutsu Kaisen"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "school RP"
+  ],
+  "monetization_signals": [
+   "VIP 499",
+   "character passes",
+   "reroll bundles up to 3000",
+   "character slots",
+   "gift characters"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "chibi anime students eating, in class, arguing in a hallway",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "school map, fighting moves for several characters",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q24",
+  "loop": "summon anime units -> place them to defend against waves -> earn coins/gems -> summon and upgrade more",
+  "loop_archetype": "tower_defense",
+  "objectives": "clear stages and collect strong units",
+  "progression": "units, coins, gems, shiny units",
+  "instructions": "summon, build strategy, defend waves",
+  "mechanics": [
+   "gacha summons",
+   "unit placement",
+   "waves",
+   "rerolls"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "Fate",
+   "Jujutsu Kaisen"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime tower defense"
+  ],
+  "monetization_signals": [
+   "shiny hunter",
+   "x3 game speed",
+   "autoreroll",
+   "coin/gem packs up to 9999"
+  ],
+  "update_signals": [
+   "update 0.5"
+  ],
+  "thumbnails": "bright anime character art clashes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many unit models and abilities, wave stages",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "ride a train across a zombie desert with friends -> scavenge fuel, weapons and bonds -> fight through to Mexico for the cure",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "reach the end of the line alive",
+  "progression": "bonds, classes, weapons, mastery",
+  "instructions": "fight through the zombie-infested desert by train",
+  "mechanics": [
+   "train driving",
+   "scavenging",
+   "shooting",
+   "revives",
+   "classes"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "Wild West",
+   "zombies",
+   "trains"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "survive x nights/journey",
+   "zombies"
+  ],
+  "monetization_signals": [
+   "weapon passes",
+   "bonds",
+   "revive team",
+   "storage"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "steam train across desert flats; mastery icon with zombie",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "procedural long map, train systems, zombie AI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q26",
+  "loop": "fight in an open-world Dragon Ball-style MMO -> charge ki, transform, fly -> raid and collect dragon balls for wishes",
+  "loop_archetype": "story_adventure",
+  "objectives": "grow stronger, unlock forms like the Great Ape, collect dragon balls",
+  "progression": "XP, forms, souls, raid crystals, wishes",
+  "instructions": "lock on, punch, charge ki, transform, fly",
+  "mechanics": [
+   "anime combat",
+   "transformations",
+   "flight",
+   "raids",
+   "daily login",
+   "drops"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "full Dragon Ball-style RPG with free passes via daily login"
+  ],
+  "themes": [
+   "Dragon Ball",
+   "anime",
+   "martial arts"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "Dragon Ball"
+  ],
+  "monetization_signals": [
+   "Great Ape form 9999",
+   "bundles",
+   "luck boosts",
+   "tradable products",
+   "weekly sale"
+  ],
+  "update_signals": [
+   "codes, weekly sale, x2 events"
+  ],
+  "thumbnails": "golden Super Saiyan-style hero, giant ape, shadowy dragon",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, flashy cutscenes, many moves and forms",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q27",
+  "loop": "build rides and custom coasters on your plot with friends -> earn from guests -> expand and decorate",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build the best theme park",
+  "progression": "money, plots, rides, scenery",
+  "instructions": "build rides, design coasters, decorate",
+  "mechanics": [
+   "building",
+   "coaster design",
+   "park management",
+   "co-op building"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "theme parks",
+   "roller coasters"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "tycoon"
+  ],
+  "monetization_signals": [
+   "expansion plots",
+   "ride operations",
+   "money packs",
+   "height limit"
+  ],
+  "update_signals": [
+   "weather & tilt tracks update"
+  ],
+  "thumbnails": "roller coasters through scenic parks and an update banner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "rich building tools and coaster track system, long-lived",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q28",
+  "loop": "choose a jungle animal -> grow, survive and hunt or forage -> raise family/pack -> earn coins for skins",
+  "loop_archetype": "roleplay_social",
+  "objectives": "survive and rise to the top of the jungle",
+  "progression": "growth stages, coins, animals, skins, quests",
+  "instructions": "pick an animal and survive the ecosystem",
+  "mechanics": [
+   "animal growth",
+   "survival",
+   "hunting",
+   "quests",
+   "skins"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "jungle",
+   "animals",
+   "rainforest"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "animal sim"
+  ],
+  "monetization_signals": [
+   "1.5x coins",
+   "faster growth",
+   "skin passes",
+   "coin packs up to 14999"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "realistic white tigers, gorilla, capybaras",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "realistic animal models and a large map",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "pick red or blue -> drive onto an arena and ram enemy cars off the edge -> last team standing -> buy better cars and bumpers",
+  "loop_archetype": "combat_pvp",
+  "objectives": "push the other team into the water",
+  "progression": "money, cars, bumpers",
+  "instructions": "ram enemies off the edge",
+  "mechanics": [
+   "vehicle ramming",
+   "team rounds",
+   "car unlocks"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "car sumo team arena"
+  ],
+  "themes": [
+   "cars",
+   "sumo",
+   "red vs blue"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "red vs blue",
+   "duels"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x money",
+   "ramp car/truck",
+   "money packs",
+   "server money"
+  ],
+  "update_signals": [
+   "new map updates, codes"
+  ],
+  "thumbnails": "cars with ramp and scoop bumpers pushing others off a platform",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "vehicle physics arena with simple maps",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "descend into a labyrinth -> slay hordes and collect weapons -> deal with outlaw PvP -> complete the story questline",
+  "loop_archetype": "story_adventure",
+  "objectives": "complete the story and defeat the evil below",
+  "progression": "weapons by rarity, items, story quests",
+  "instructions": "dive, fight hordes, loot, quest",
+  "mechanics": [
+   "horde combat",
+   "loot",
+   "PvP outlaws",
+   "questline",
+   "summons"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Made in Abyss/Terraria-inspired labyrinth MMORPG"
+  ],
+  "themes": [
+   "dark fantasy",
+   "labyrinth",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Halloween"
+  ],
+  "monetization_signals": [
+   "inventory and silver capacity",
+   "emote packs",
+   "donations",
+   "weapon bundle"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "dark fiery title cards over dungeon scenes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 4,
+  "complexity_notes": "large labyrinth, RPG systems, horde AI",
+  "novelty": 2,
+  "confidence": 60
+ }
+]

@@ -1,0 +1,687 @@
+[
+ {
+  "label": "Q46",
+  "loop": "pick a nation -> build economy and industry -> research and focus trees -> move troops to capture territory -> dominate the world map",
+  "loop_archetype": "other",
+  "objectives": "world domination",
+  "progression": "research, territory, formable nations, nukes",
+  "instructions": "lead your nation through WW1/WW2/WW3 scenarios",
+  "mechanics": [
+   "grand strategy",
+   "economy",
+   "troop micromanagement",
+   "research",
+   "diplomacy"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Hearts of Iron-style grand strategy on Roblox"
+  ],
+  "themes": [
+   "WW2",
+   "history",
+   "maps"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "grand strategy"
+  ],
+  "monetization_signals": [
+   "40 skin passes up to 1500",
+   "2x research/focus",
+   "money packs"
+  ],
+  "update_signals": [
+   "formables update, map editor coming"
+  ],
+  "thumbnails": "Europe map with flag arrows",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 4,
+  "complexity_notes": "global map with 200+ countries, economy and war simulation",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q47",
+  "loop": "tap to earn clicks -> hatch eggs for pets that multiply clicks -> rebirth -> unlock worlds like the moon",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect the rarest pets and biggest multipliers",
+  "progression": "clicks, pets, rebirths, worlds",
+  "instructions": "tap, rebirth, hatch",
+  "mechanics": [
+   "clicking",
+   "egg hatching",
+   "pet multipliers",
+   "rebirth",
+   "dice rolls"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "pets",
+   "space/moon"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clicker simulator",
+   "pet sim"
+  ],
+  "monetization_signals": [
+   "secret hunter",
+   "magic eggs",
+   "infinite rebirths",
+   "equip slots",
+   "token packs",
+   "gift versions"
+  ],
+  "update_signals": [
+   "weekly updates, moon world"
+  ],
+  "thumbnails": "glowing secret pets with odds like 1/2Qa and equip cards",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard clicker/pet template",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "open-world military shooter: team PvP, zombie rescue mode, build an HQ for offline income -> buy vehicles, outfits and attachments",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win battles and build your operator and arsenal",
+  "progression": "currency, XP, operators, guns, vehicles, HQ",
+  "instructions": "fight across Ronograd Island or rescue survivors",
+  "mechanics": [
+   "tactical shooting",
+   "vehicles and helicopters",
+   "gunsmith",
+   "base income",
+   "sandbox editor",
+   "zombies mode"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "military",
+   "helicopters",
+   "zombies"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "military shooter"
+  ],
+  "monetization_signals": [
+   "vehicle and camo packs",
+   "double EXP",
+   "currency up to 999"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "tactical operators in realistic gear and helicopter door gunner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large open maps, vehicles, deep gunsmith, sandbox editor",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "cars drive through your toll booth and pay -> earn $/s -> buy more and better cars and multipliers -> grow income",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "maximize toll income per second",
+  "progression": "cars, multiplier tiers, income",
+  "instructions": "not described beyond rewards",
+  "mechanics": [
+   "idle income",
+   "car collection",
+   "multipliers",
+   "offline progress"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "toll-booth framing of the idle income template"
+  ],
+  "themes": [
+   "cars",
+   "toll road"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "my x farm",
+   "idle"
+  ],
+  "monetization_signals": [
+   "car purchases",
+   "+5 cars",
+   "multiplier tiers up to 599+",
+   "132 dev products"
+  ],
+  "update_signals": [
+   "released, eternal update"
+  ],
+  "thumbnails": "sports car stopped at a toll gate with $9,425/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 1,
+  "complexity_notes": "simple idle loop",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q50",
+  "loop": "fly any of 96 aircraft around airports and islands -> earn badges -> buy special aircraft",
+  "loop_archetype": "simulation_job",
+  "objectives": "fly a wide range of aircraft",
+  "progression": "aircraft unlocks, badges",
+  "instructions": "pick an aircraft and fly",
+  "mechanics": [
+   "flight sim",
+   "aircraft collection",
+   "badges",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "aviation",
+   "airliners"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "flight sim"
+  ],
+  "monetization_signals": [
+   "aircraft passes up to 295",
+   "volcano eruption product",
+   "support"
+  ],
+  "update_signals": [
+   "recent updates"
+  ],
+  "thumbnails": "airliners taking off and a Concorde on a runway",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "96 aircraft models and a flight model, long-lived",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q51",
+  "loop": "dig up dirty junk and treasure -> spray it clean to reveal it -> collect rare items for your museum -> buy better shovels and sprayers",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "find and show off the rarest items",
+  "progression": "shovels, sprayers, item rarity, museum",
+  "instructions": "dig, spray clean, hunt rares, display",
+  "mechanics": [
+   "digging",
+   "cleaning reveal",
+   "rarity RNG",
+   "museum display",
+   "upgrades"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "satisfying clean-reveal mechanic as the RNG unlock"
+  ],
+  "themes": [
+   "treasure",
+   "archaeology",
+   "cleaning"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dig x",
+   "cleaning ASMR"
+  ],
+  "monetization_signals": [
+   "mint condition+",
+   "2x gold/dig power",
+   "instant clean",
+   "skip clean",
+   "recover products",
+   "2x luck"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "spray bottle cleaning a gem and golden statue out of dirt",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "simple dig/clean loop with item models",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q52",
+  "loop": "open CS2-style cases -> unbox rare skins -> sell or keep for inventory value -> AFK open, rebirth, case battles",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "build the most valuable inventory",
+  "progression": "money, skins, rebirths, leaderboards",
+  "instructions": "open cases, unbox, battle, rebirth",
+  "mechanics": [
+   "case opening",
+   "RNG",
+   "AFK auto open",
+   "case battles",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "CS2",
+   "knife skins",
+   "gambling-style unboxing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "rng",
+   "case opening"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "hunter passes",
+   "VIP",
+   "forever packs"
+  ],
+  "update_signals": [
+   "Halloween event, like-goal codes"
+  ],
+  "thumbnails": "butterfly and karambit knives with 1 IN 1,000,000,000 odds",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 1,
+  "complexity_notes": "UI-centric unboxing",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q53",
+  "loop": "click a pond to fish -> catch anime characters by RNG -> place them in your base for offline cash -> upgrade and rebirth",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect the rarest anime characters",
+  "progression": "cash, characters, mutations, rebirths",
+  "instructions": "fish, place catches, upgrade, rebirth",
+  "mechanics": [
+   "fishing",
+   "RNG catches",
+   "base income",
+   "potions",
+   "rebirth",
+   "mutations"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "fishing as the RNG roll for anime waifu characters"
+  ],
+  "themes": [
+   "anime",
+   "fishing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "fish a x",
+   "anime rng"
+  ],
+  "monetization_signals": [
+   "4x luck 1749",
+   "triple hook",
+   "backpack",
+   "auto sell",
+   "gem packs",
+   "potions"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "anime girl character art with 1/9,721,367 odds",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple fishing/base loop with character art",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q54",
+  "loop": "spin for a class -> enter random dungeons and hack through to the boss -> extract with loot -> optimize builds; guilds",
+  "loop_archetype": "story_adventure",
+  "objectives": "clear dungeons fastest with optimized builds",
+  "progression": "player level 325, classes, loot, forging",
+  "instructions": "enter dungeons, slay, extract, build stats",
+  "mechanics": [
+   "hack and slash",
+   "procedural dungeons",
+   "class spins",
+   "loot extraction",
+   "guilds",
+   "boss rush"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "dungeons",
+   "anime fantasy",
+   "slimes"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dungeon arpg",
+   "anime"
+  ],
+  "monetization_signals": [
+   "luck and drop passes",
+   "cash packs up to 2999",
+   "prevent loss on death",
+   "portal finder"
+  ],
+  "update_signals": [
+   "guilds update"
+  ],
+  "thumbnails": "anime-style armored figures and a slime on treasure",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "procedural dungeons, 30+ classes",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q55",
+  "loop": "choose an element -> fight others in an arena with spells -> collect diamonds -> spin/unlock new and secret elements",
+  "loop_archetype": "combat_pvp",
+  "objectives": "dominate the arena with the best elements",
+  "progression": "diamonds, elements, souls",
+  "instructions": "choose element, fight, collect diamonds",
+  "mechanics": [
+   "elemental abilities",
+   "arena PvP",
+   "spins",
+   "weekly new element"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "magic",
+   "elements",
+   "fantasy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "elemental battlegrounds"
+  ],
+  "monetization_signals": [
+   "dragon element",
+   "multi-elements",
+   "x2 diamonds",
+   "diamond packs"
+  ],
+  "update_signals": [
+   "new element every week"
+  ],
+  "thumbnails": "fire vs ice avatars and an 80% vs 0.1% spin ring",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "element ability set on simple arena",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q56",
+  "loop": "spawn and merge bombs into bigger nukes -> nukes earn cash per second (offline too) -> launch nukes at other bases to steal cash -> lock your base",
+  "loop_archetype": "merge_upgrade",
+  "objectives": "build the deadliest nuke collection and raid everyone",
+  "progression": "nuke levels, cash/s, bosses",
+  "instructions": "merge, earn, launch, lock",
+  "mechanics": [
+   "merging",
+   "idle income",
+   "raiding",
+   "base lock",
+   "bosses"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "merge template fused with steal-a-x raiding"
+  ],
+  "themes": [
+   "nukes",
+   "explosions"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "merge a x",
+   "steal/raid"
+  ],
+  "monetization_signals": [
+   "auto merge",
+   "nuke packs up to 6499",
+   "launch OP nuke",
+   "lock base",
+   "skip cooldown"
+  ],
+  "update_signals": [
+   "new updates every Saturday, boss update"
+  ],
+  "thumbnails": "bombs merging from level 1 to 6.5b with EARN OFFLINE banner",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "simple base map with merge UI and raid loop",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q57",
+  "loop": "spawn on a beach with a rock -> harvest and craft -> build a base -> raid and defend against players and NPCs; weekly wipe",
+  "loop_archetype": "combat_pvp",
+  "objectives": "survive and raid to dominate the server",
+  "progression": "crafting recipes, base, gear",
+  "instructions": "harvest, craft, build, raid, fight",
+  "mechanics": [
+   "survival crafting",
+   "base building",
+   "raiding",
+   "PvPvE",
+   "wipes",
+   "vehicles"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "survival",
+   "Rust-like",
+   "wilderness"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "survival crafting"
+  ],
+  "monetization_signals": [
+   "VIP priority queue",
+   "bottle caps up to 9999",
+   "skin bundles",
+   "clan access"
+  ],
+  "update_signals": [
+   "new map, weekly wipes"
+  ],
+  "thumbnails": "first-person rock and gun near a log base, players in a field",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large map, crafting and building systems, 100 players",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q58",
+  "loop": "team up with a friend in a two-sided factory -> build droppers, conveyors and floors -> buy weapons -> raid rival factories' vaults and defend yours",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the richest factory and raid the others",
+  "progression": "cash, gems, floors, 9 weapons, guards",
+  "instructions": "claim a side, build, raid, defend",
+  "mechanics": [
+   "2 player tycoon",
+   "droppers",
+   "raiding",
+   "base defense",
+   "guard gacha",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "duo tycoon with raiding and guard rolls"
+  ],
+  "themes": [
+   "factory",
+   "military",
+   "raid"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "2 player tycoon",
+   "raid"
+  ],
+  "monetization_signals": [
+   "weapon passes and bundles",
+   "x2 cash",
+   "cash/gem packs",
+   "timed boosts"
+  ],
+  "update_signals": [
+   "bunker update, codes"
+  ],
+  "thumbnails": "two avatars, day 1 shack vs day 999 rich base, rocket launcher",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "standard tycoon kit plus combat",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q59",
+  "loop": "hang out in a hub -> donate or win Robux via minigame events (Last to Leave, races) -> cash out earnings",
+  "loop_archetype": "roleplay_social",
+  "objectives": "win events and earn or give Robux",
+  "progression": "wallet balance",
+  "instructions": "donate, host events, win prizes",
+  "mechanics": [
+   "donations",
+   "hosted events",
+   "minigames",
+   "cash-out"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "real-Robux prizes for event winners after Roblox's donation update"
+  ],
+  "themes": [
+   "Robux",
+   "donations"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "donation game",
+   "pls donate"
+  ],
+  "monetization_signals": [
+   "wallet reloads",
+   "stand and TTS passes",
+   "donation tools"
+  ],
+  "update_signals": [
+   "works after Roblox's update"
+  ],
+  "thumbnails": "grinning avatar with pending 67 Robux and a 10,000 Robux stand",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "social hub with donation and event UI",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q60",
+  "loop": "ride realistic dirt and street bikes -> wheelies, combos and swerves -> earn money riding or doing jobs -> buy and trade bikes",
+  "loop_archetype": "racing_driving",
+  "objectives": "master bike control and own the best bikes",
+  "progression": "money, levels, bikes, clothing",
+  "instructions": "learn throttle, brake and balance; ride, jobs",
+  "mechanics": [
+   "wheelie physics",
+   "combos",
+   "dealership",
+   "trading",
+   "jobs",
+   "character creation"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "licensed-looking real bike models and skill-heavy wheelie physics"
+  ],
+  "themes": [
+   "bikelife",
+   "motorbikes",
+   "street culture"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "wheelie",
+   "bikelife"
+  ],
+  "monetization_signals": [
+   "28 bike passes up to 649",
+   "2X riding cash",
+   "money packs up to 3999",
+   "bailout"
+  ],
+  "update_signals": [
+   "trail map update"
+  ],
+  "thumbnails": "rider crews with dirt bikes and quads in a neon city and woods",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, real-bike models, big map",
+  "novelty": 1,
+  "confidence": 70
+ }
+]

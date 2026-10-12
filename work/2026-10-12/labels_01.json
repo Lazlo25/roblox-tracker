@@ -1,0 +1,716 @@
+[
+ {
+  "label": "Q01",
+  "loop": "use a fake in-game iPad (apps, calls, chat) while hanging out with others -> buy coins/cosmetics",
+  "loop_archetype": "roleplay_social",
+  "objectives": "hang out and play with the iPad's apps",
+  "progression": "unclear; coins",
+  "instructions": "none given beyond 'a normal day playing on your iPad'",
+  "mechanics": [
+   "device simulation",
+   "in-game apps",
+   "social chat"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "a playable replica of a real consumer device UI"
+  ],
+  "themes": [
+   "iPad",
+   "Apple",
+   "technology"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "device simulator",
+   "brand parody"
+  ],
+  "monetization_signals": [
+   "supporter pass",
+   "coin packs",
+   "donation products"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "Apple logo icon and an iPad held up showing lock screen and a FaceTime-style call list",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "UI-heavy screen replica; small map; little 3D content",
+  "novelty": 2,
+  "confidence": 45
+ },
+ {
+  "label": "Q02",
+  "loop": "ride e-scooters around an open city -> earn cash while riding (more near other riders) -> buy faster scooters and tuning",
+  "loop_archetype": "racing_driving",
+  "objectives": "own the fastest, best-tuned scooter and pull wheelies",
+  "progression": "cash, scooter unlocks, tuning parts, daily/weekly quests",
+  "instructions": "ride, wheelie, earn cash, buy and tune scooters, join rideouts",
+  "mechanics": [
+   "vehicle physics",
+   "wheelies",
+   "tuning",
+   "passive earn by riding",
+   "group ride bonus",
+   "quests"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "rideout boost that pays more for riding near others",
+   "e-scooter culture niche"
+  ],
+  "themes": [
+   "scooters",
+   "city",
+   "street culture"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "vehicle sim",
+   "police chase"
+  ],
+  "monetization_signals": [
+   "17 scooter passes up to 699",
+   "2x cash",
+   "cash bundles",
+   "quest refresh products"
+  ],
+  "update_signals": [
+   "early beta, frequent updates"
+  ],
+  "thumbnails": "rendered rider doing wheelies through a city, a police chase, first-person handlebar view",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "open world with cities and highways; custom vehicle physics and crash ragdoll; first/third person",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "grow hair +1 per step and on treadmills -> throw hair across gaps and zipline down it -> reach next world -> collect wins -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "escape through worlds with ever-longer hair",
+  "progression": "hair length, wins, hair skins, rebirths, worlds",
+  "instructions": "grow hair, aim it across gaps, zipline, rebirth",
+  "mechanics": [
+   "+1 per step",
+   "treadmills",
+   "aim/throw traversal",
+   "zipline",
+   "rebirth",
+   "leaderboards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "hair used as a traversal rope/bridge mechanic on top of the +1 template"
+  ],
+  "themes": [
+   "hair",
+   "lava",
+   "obby worlds"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "escape"
+  ],
+  "monetization_signals": [
+   "treadmill multiplier passes up to 3999",
+   "hair packs",
+   "chests",
+   "server boosts",
+   "199 dev products"
+  ],
+  "update_signals": [
+   "new worlds promised"
+  ],
+  "thumbnails": "Roblox avatar riding a giant stream of hair over lava with +1 popups",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard +1 template with an added hair-rope mechanic; multiple themed worlds",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "coop group in a cabin barricades windows, keeps fire and power on -> creature tries to get in -> survive until 6 AM",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the night until dawn",
+  "progression": "badges; unclear otherwise",
+  "instructions": "close curtains, board windows, keep fire and breaker running, hide, stay quiet",
+  "mechanics": [
+   "barricading",
+   "resource upkeep",
+   "hiding",
+   "monster AI",
+   "night timer"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "home-defense horror where every opening must be managed",
+   "troll products that let buyers jumpscare or black out the server"
+  ],
+  "themes": [
+   "horror",
+   "cabin",
+   "woods",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "horror",
+   "survive the night",
+   "Halloween"
+  ],
+  "monetization_signals": [
+   "jumpscare-all product",
+   "blackout",
+   "skip an hour",
+   "respawn"
+  ],
+  "update_signals": [
+   "seasonal October setting"
+  ],
+  "thumbnails": "pale horned creature clawing at a door and in a dark forest",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "atmospheric lighting, a climbing/crawling monster with custom animation, interactive house systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "do a makeup look on a head base within a timer -> players vote on the best look -> earn credits for more tools",
+  "loop_archetype": "party_minigames",
+  "objectives": "win the vote with the best makeup look",
+  "progression": "credits, tools, layers",
+  "instructions": "use brushes, makeup, hair, lashes, rhinestones; vote; or freeplay",
+  "mechanics": [
+   "makeup painting",
+   "timed rounds",
+   "player voting",
+   "freeplay"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "detailed face-painting tool on a head base, a beauty take on DTI-style voting rounds"
+  ],
+  "themes": [
+   "makeup",
+   "beauty",
+   "fashion"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dress to impress-style voting",
+   "makeup"
+  ],
+  "monetization_signals": [
+   "credit packs up to 2999",
+   "VIP",
+   "layer limit pass",
+   "reaction uses",
+   "+2 min time"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "before/after of a bald head base turned into a glamorous made-up face",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "custom paint/brush layer system on a head model; voting round flow",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q06",
+  "loop": "sumo-style ring brawl as cats: punch, grab, toss rivals out -> earn coins each bout -> open crates for furs and emotes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "be the last cat standing in the ring",
+  "progression": "coins, rare furs, sumo gear, emotes",
+  "instructions": "punch, grab, kick, lift, use one of 8 abilities; classic or team modes",
+  "mechanics": [
+   "ring-out brawling",
+   "grab/throw",
+   "abilities",
+   "crates",
+   "team modes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "cats in a sumo ring-out party brawler"
+  ],
+  "themes": [
+   "cats",
+   "sumo",
+   "wrestling"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cats",
+   "party brawler"
+  ],
+  "monetization_signals": [
+   "double coins",
+   "VIP",
+   "coin packs up to 999",
+   "crates",
+   "fur purchases"
+  ],
+  "update_signals": [
+   "codes at release"
+  ],
+  "thumbnails": "cute cartoon cats slapping each other out of a wrestling ring with a HIT prompt",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "small arena, ragdoll/physics brawling, 8 abilities, cat character rigs",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "timing-bar throws to hit receivers -> earn cash -> open card packs for players -> upgrade accuracy/strength -> beat teams to climb leagues -> rebirth",
+  "loop_archetype": "sports_competitive",
+  "objectives": "beat every team and climb the leagues",
+  "progression": "cash, 260 player cards, stat upgrades, leagues, rebirths",
+  "instructions": "stop the power bar on the marker, read routes, hit the open receiver",
+  "mechanics": [
+   "timing minigame",
+   "card packs",
+   "team building",
+   "stat upgrades",
+   "rebirth",
+   "daily rewards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "football card collecting fused with a one-button throw simulator"
+  ],
+  "themes": [
+   "American football",
+   "sports cards"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw a x",
+   "card packs"
+  ],
+  "monetization_signals": [
+   "receiver/lineman packs up to 799",
+   "2x touchdowns",
+   "2x money",
+   "cash packs",
+   "skip rebirth"
+  ],
+  "update_signals": [
+   "daily rewards, playbook goals"
+  ],
+  "thumbnails": "Roblox avatar quarterback throwing a spiral in a stadium with a red defensive line",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "stadium map, AI route running, card system",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q08",
+  "loop": "get drafted -> ride through a scripted boot-camp sequence of mini events -> graduate with a random job -> collect 14 jobs and rank up",
+  "loop_archetype": "story_adventure",
+  "objectives": "collect all 14 jobs and rank up to General",
+  "progression": "job collection, ranks",
+  "instructions": "follow the drill sergeant through boot camp stages",
+  "mechanics": [
+   "scripted sequence",
+   "random job outcome",
+   "collection",
+   "troll products"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "queue-based scripted 'experience' with heavy troll monetization (kill all, ban hammer)"
+  ],
+  "themes": [
+   "army",
+   "boot camp",
+   "military"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "you've been x",
+   "scripted experience"
+  ],
+  "monetization_signals": [
+   "skip line/time",
+   "kill/kill all",
+   "ban hammer 1200",
+   "be the drill sergeant",
+   "+1 minute"
+  ],
+  "update_signals": [
+   "none recent"
+  ],
+  "thumbnails": "panicked avatar receiving a draft notice at the door",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "linear scripted sequence with vehicles and NPC sergeant",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q09",
+  "loop": "ride and train to gain +1 speed -> race through obstacles for wins -> unlock faster motorbikes -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "get the fastest bike and most wins",
+  "progression": "speed, wins, bikes, rebirths",
+  "instructions": "ride, train on treadmills, clear obstacles, rebirth",
+  "mechanics": [
+   "+1 speed",
+   "treadmills",
+   "vehicle unlocks",
+   "obstacle course",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "motorcycles",
+   "police",
+   "snow"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "evolution"
+  ],
+  "monetization_signals": [
+   "speed packs",
+   "treadmill tiers up to 799",
+   "x2 win",
+   "starter pack"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "avatar on a motorbike with +1 popups, rusty-to-gold bike evolution, police chase",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "standard +1 speed template with bike models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q10",
+  "loop": "eat plants or other cells in a pond -> collect DNA -> evolve body parts and paint your creature -> grow and fight bosses",
+  "loop_archetype": "other",
+  "objectives": "grow huge and take down giant bosses",
+  "progression": "DNA, body parts, size",
+  "instructions": "eat, hunt cells and players, evolve, customize",
+  "mechanics": [
+   "eat to grow",
+   "creature editor",
+   "pvp eating",
+   "bosses",
+   "revives"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "Spore-like creature editor with parts on Roblox"
+  ],
+  "themes": [
+   "cells",
+   "evolution",
+   "ocean",
+   "Spore"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolve a x",
+   "Spore"
+  ],
+  "monetization_signals": [
+   "2x DNA",
+   "VIP",
+   "DNA packs",
+   "revives",
+   "mutation"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "cartoon cell with big eyes chasing/being chased by a larger creature",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "creature part editor and painting, AI cells, bosses",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q11",
+  "loop": "train speed -> steal items from stores -> outrun police -> place loot in base to earn cash (also offline) -> upgrade",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "steal more valuable items and grow cash income",
+  "progression": "speed levels, cash/s, rebirths",
+  "instructions": "train, steal, run from police, place it in your base",
+  "mechanics": [
+   "speed training",
+   "stealing",
+   "police chase",
+   "base income",
+   "offline earnings",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "police chase replaces player stealing in the steal-a-x template"
+  ],
+  "themes": [
+   "robbery",
+   "police",
+   "jewelry"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal a x",
+   "escape the police"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "remove cops",
+   "skip jail",
+   "treadmill tiers",
+   "skip rebirth"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "avatar running with a big ruby while police cars chase, speed 0 vs 100M+",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple city map, police NPC chase, base slots",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "climb to a cliff -> jump and chain flips/twists -> score on entry -> earn shells/XP -> unlock higher cliffs and cosmetics",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "reach the highest cliffs and top the leaderboards",
+  "progression": "XP, shells, 18 cliffs across 4 worlds, cosmetics",
+  "instructions": "flip, twist, spin and nail the entry; enter judged competitions",
+  "mechanics": [
+   "trick combos",
+   "physics diving",
+   "judged competitions",
+   "slow-motion replays",
+   "daily challenges",
+   "leaderboards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "judged live dive competitions and cinematic slow-mo replays",
+   "mystery cliff teaser"
+  ],
+  "themes": [
+   "cliff diving",
+   "ocean",
+   "summer"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "jump/dive",
+   "physics"
+  ],
+  "monetization_signals": [
+   "cliff unlocks sold individually up to 799",
+   "2x XP",
+   "2x shells",
+   "157 dev products"
+  ],
+  "update_signals": [
+   "daily challenges"
+  ],
+  "thumbnails": "avatar mid-dive off a seaside cliff with bold logo text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "trick system with animations, scoring and judging, replay camera, 4 worlds",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "fly as crew on a plane -> handle cabin chaos tasks (luggage, turbulence, emergencies) -> earn stars to unlock cities -> buy pets/pilots",
+  "loop_archetype": "party_minigames",
+  "objectives": "keep passengers happy and reach the next destination",
+  "progression": "stars, cities, coins, pets/pilot skins",
+  "instructions": "complete cabin tasks and survive emergencies, solo or with friends",
+  "mechanics": [
+   "task chaos",
+   "random events",
+   "coop",
+   "pets",
+   "eggs"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "airplane cabin chaos co-op"
+  ],
+  "themes": [
+   "airplane",
+   "travel",
+   "Halloween pets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "chaos coop",
+   "Halloween"
+  ],
+  "monetization_signals": [
+   "42 passes incl. Halloween pets",
+   "coin packs up to 2500",
+   "eggs",
+   "2x rewards"
+  ],
+  "update_signals": [
+   "Halloween content"
+  ],
+  "thumbnails": "cheerful pilot selfie with passengers in a messy cabin, objects flying out a broken window",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "plane interior, task and event system, pets",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q14",
+  "loop": "work night shifts at a shawarma kiosk -> serve customers while following strange rules -> spot anomalies and survive",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the night shifts by spotting anomalies",
+  "progression": "badges, new clients, shifts",
+  "instructions": "keep the grill hot, serve every order, follow the taped rules",
+  "mechanics": [
+   "order serving",
+   "rule following",
+   "anomaly detection",
+   "jumpscares"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "fan-submitted characters as customers"
+  ],
+  "themes": [
+   "horror",
+   "fast food",
+   "night shift"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly/rules horror",
+   "night shift"
+  ],
+  "monetization_signals": [
+   "summon anomaly",
+   "troll scream products",
+   "VIP server",
+   "friend pass"
+  ],
+  "update_signals": [
+   "Roblox 20th anniversary quest",
+   "regular client updates"
+  ],
+  "thumbnails": "dark kiosk with a screaming customer; anniversary update banner",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 3,
+  "complexity_notes": "many custom NPC customers, anomaly scripting, lighting",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "hiders morph into props and hide; seekers hunt them; caught hiders join the seekers -> earn coins for powers and weapons",
+  "loop_archetype": "party_minigames",
+  "objectives": "hide until the end or find all hiders",
+  "progression": "coins, gems, weapons, powers",
+  "instructions": "morph into props and hide, or seek and eliminate",
+  "mechanics": [
+   "prop hunt",
+   "hide and seek",
+   "infection",
+   "powers",
+   "weapons"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "hide and seek",
+   "props",
+   "school"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "prop hunt",
+   "hide and seek"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x coins",
+   "more damage/health",
+   "gem and coin packs up to 2500",
+   "seeker next"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "red 'YOU' prop hidden among lockers and toilets while a seeker with a bat looks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "page video",
+  "complexity": 2,
+  "complexity_notes": "prop morph system and several maps",
+  "novelty": 0,
+  "confidence": 80
+ }
+]

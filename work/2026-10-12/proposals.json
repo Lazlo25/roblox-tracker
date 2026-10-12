@@ -1,0 +1,23 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games selling auto-play passes (auto-click, auto-rebirth, auto-collect) climb Top Trending more slowly",
+     "action": "Skip auto-play passes at launch",
+     "test": {"feature": "pass_auto", "metric": "tt_mom", "type": "binary", "direction": "-"}},
+    {"chart": "mp", "statement": "More complex, studio-scale games stay on Most Popular for more days",
+     "action": "Invest in depth and polish",
+     "test": {"feature": "complexity", "metric": "mp_days", "type": "corr", "direction": "+"}},
+    {"chart": "uc", "statement": "Thumbnails carrying text or big numbers go with lower Up-and-Coming positions among games of the same age",
+     "action": "Keep text and numbers off thumbnails",
+     "test": {"feature": "thumb_text_numbers", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "te", "statement": "Steal-and-defend-base loops earn a lower Top Earning position for their CCU than other profiled loops",
+     "test": {"feature": "loop=steal_defend_base", "metric": "te_eff", "type": "binary", "direction": "-"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Realistic-physics bike and scooter sims (wheelies, rideouts, police chases) form a growing niche that monetizes well through vehicle passes",
+     "rationale": "Wheelie Road is today's most efficient Top Earning game; Untitled Wheelie Game, Project Bikelife and Scooter Empire all sell many bike passes and sit on Top Earning or Up-and-Coming. Confirm if more such games enter and keep efficient Top Earning positions over the next two weeks."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-006", "confidence": 40, "note": "Sell Fries! [Anomaly] rose 28 places on Most Popular, is among the best on Top Trending momentum and top 3 on Up-and-Coming, a full three-chart run at 21 days old."}
+  ],
+  "actions": [],
+  "retire": []
+}

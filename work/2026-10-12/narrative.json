@@ -1,0 +1,87 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg (79 days) leads the chart ahead of evergreens Brookhaven, 99 Nights in the Forest and Murder Mystery 2, so the top still mixes one young template hit with multi-year staples.",
+        "Sell Fries! [Anomaly] gained 28 places at 21 days old, the biggest rise today, while FIFA Super Soccer (-20) and Slayers 2 (-17) fell most.",
+        "Seven games entered, mostly old horror and combat titles resurfacing (Piggy, Rainbow Friends, Lethal Ape, Street Fighter 6 x UBG), consistent with an October horror lift.",
+        "Games aged 4 to 12 months again had the lowest median pillar percentile (33), below both 15–42-day games (48) and multi-year games (56), which keeps the mid-life trough idea (H-mp-009) alive."
+      ],
+      "patterns": [
+        "Original concepts consistently rank higher (H-mp-013, 67%) and stay longer (H-mp-005, 65%); complexity also goes with more days on the chart (rho +0.27), so depth and originality tend to travel together here.",
+        "Higher pass and product prices tend to go with longer presence (median pass above 89 R$, products above 349 R$), though big evergreens with mature shops are a likely confounder.",
+        "Roleplay and social loops hold the highest median pillar percentile among profiled games (72), while story_adventure (14) and obby (33) lag.",
+        "RP in the title shows the strongest keyword link (r +0.40), driven by Brookhaven-style hubs."
+      ],
+      "outliers": [
+        {"name": "[X15] +1 Speed Keyboard Escape | Candy & Chocolate", "note": "A '+1' template among the top six, against the originality pattern; 46 passes and daily updates may carry it."},
+        {"name": "🐒 +1 Speed Monkey Escape", "note": "98% likes yet among the weakest and falling 12 places; it has not updated in 16 days."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs (Donation Central, Summer Donations, Simple DONATIONS) and Wheelie Road lead monetization efficiency, while horror games (Lethal Ape Experience, Violence District, 7 Days Cat-Sitting, Sarab) are the least efficient.",
+        "Tap Simulator: Reborn climbed 183 places and Anime Ball Duels 123, in line with young games catching up on revenue (H-te-018).",
+        "Games aged 15–42 days have a median pillar percentile of 22 versus 58 for games over a year old; games older than 6 weeks consistently monetize more efficiently (H-te-001, 71%)."
+      ],
+      "patterns": [
+        "Median developer product price above 79 R$ is consistently linked to higher efficiency (H-te-005, 71%, rho +0.30), the strongest page-data signal again today.",
+        "RPGs (r +0.42) and combat PvP loops (H-te-022) consistently earn more per player, while pet/egg mechanics (r -0.30) and steal-and-defend-base loops (r -0.49, median percentile 20) consistently earn less.",
+        "Longer descriptions, bracket tags in the title and posted codes all consistently go with efficiency; all three also mark older, actively updated games, so age is a likely confounder.",
+        "Survival and wave-survival loops sit low (median percentile 19), matching the weak horror tail."
+      ],
+      "outliers": [
+        {"name": "(EARLY BETA) Wheelie Road 🔥", "note": "Only 26 days old yet the most efficient game, against the age pattern; realistic bike physics sold through vehicle passes may monetize unusually early."},
+        {"name": "[🎃] Lethal Ape Experience", "note": "Over a year old yet the least efficient; a horror game with few products and large CCU."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Save a Baddie (112 days) gained 42 places and leads momentum; younger leaders are Hide In Pixels (17 days), Piano Rhythm Tiles (25), Lift Rock For Eggs (15) and Sell Fries! [Anomaly] (21).",
+        "Duck Duck (Tag) gained 56 places but at 224 days old falls outside the pillar's age window.",
+        "Fifteen games entered, many of them old sports and driving titles (FIFA Super Soccer, Taxi Boss, NFL Universe), which do not count for early momentum."
+      ],
+      "patterns": [
+        "Younger games tend to climb faster: momentum falls after about 27 days (rho -0.39, within-age -0.39), and H-tt-001 (6 weeks) rose to 57%.",
+        "Auto-play passes show the strongest single link today (r -0.65, only 8 games), which may mean idle-style simulators trend less; it is now a tested hypothesis.",
+        "Solo loops tend to climb more slowly (H-tt-008, 58%), and party_minigames and pet/egg loops have the highest median momentum (75).",
+        "Reward-flex thumbnails and high like ratios lost support today (H-tt-006 46%, H-tt-004 44%)."
+      ],
+      "outliers": [
+        {"name": "[🎨] Hide In Pixels", "note": "Only 59% likes yet among the strongest climbers, consistent with curiosity hooks outrunning like ratio (H-x-009)."},
+        {"name": "Don't Steal My Eggs!", "note": "A 20-day-old steal/egg template with 95% likes among the weakest, against the template-momentum idea (H-tt-002)."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Huss Valley, Hide In Pixels, Sell Fries! [Anomaly], Paint a Pancake and PORTALS lead; Paint a Pancake jumped 52 places.",
+        "Fourteen new entries include two iPad simulators (Apple iPad Original at 3 days old and the older Apple IPad Origional on Top Trending), a makeup voting game and a cat ring-brawler.",
+        "Halloween Outfit Tower fell 45 places and Parcel Tycoon 20; several egg and +1 games dropped off the chart."
+      ],
+      "patterns": [
+        "Selling currency packs tends to go with higher positions (H-uc-014, 62%, within-age +0.40).",
+        "Solo loops (H-uc-007, 60%) and cash-tycoon loops (H-uc-016, 60%) tend to rank lower, while co-op games (r +0.29) and gameplay-screenshot thumbnails (r +0.22) lean higher.",
+        "Thumbnails with text or big numbers lean lower (r -0.30, within-age -0.34), against the reward-flex idea; a new tested hypothesis tracks it.",
+        "Grow-a-garden mechanics lean lower (r -0.42, 8 games), suggesting that wave is cooling."
+      ],
+      "outliers": [
+        {"name": "Dear Passengers Chaos ✈️", "note": "42 passes and 256K favorites, yet among the weakest positions; a heavy Halloween pet shop may not help a young co-op chaos game."},
+        {"name": "You've Been Drafted!", "note": "Entered with only 33% likes and troll products, another curiosity-hook entry."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The popularity-versus-revenue split held again: steal/egg and +1 templates are weak on Top Earning efficiency (steal loops median percentile 20), while RPG, combat PvP and donation hubs earn the most per player.",
+      "Complexity now goes the same way on Most Popular (days, +0.27) and Top Earning (+0.24), so depth may pay off for both staying power and revenue.",
+      "Higher pass and product prices go with both longer Most Popular presence and Top Earning efficiency, though mature evergreens likely explain part of it.",
+      "Anomaly-style job sims gained ground: Sell Fries! [Anomaly] is strong on Most Popular, Top Trending and Up-and-Coming at once (H-x-006 raised to 40%).",
+      "Physics-heavy bike and scooter sims (Wheelie Road, Untitled Wheelie Game, Project Bikelife, Scooter Empire) appeared across Top Earning and Up-and-Coming, a speculative new niche."
+    ],
+    "progressions": [
+      "Top Trending to Most Popular remains the main entry into Most Popular (38 games, median 2 days), ahead of Top Earning to Most Popular (20, 5 days) and Up-and-Coming to Most Popular (19, 4 days).",
+      "Top Earning to Top Trending (23 games, 4 days) and Up-and-Coming to Top Trending (22, 2 days) are the most common routes onto Top Trending.",
+      "Up-and-Coming to Top Earning (19 games, 3 days) and Top Trending to Top Earning (19, 3 days) are about as common as each other."
+    ]
+  }
+}
