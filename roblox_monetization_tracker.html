@@ -1,10 +1,11 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Roblox Monetization Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@500;600;700&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-/* Layout: dark Anthropic sidebar beside one main column — overview grid (snapshot card, keyword box, two count tiles, genre fit, chart overlap), then one card per Roblox chart, method notes last. */
+/* Layout: dark Anthropic sidebar beside one main column — a moving strip of today's biggest movers, the overview grid (snapshot card, two count tiles, players on Roblox, Deep Analysis), one card per Roblox chart, genre fit, chart overlap, method notes last. */
 :root {
   --plane: #f0eee6; --surface: #faf9f5; --surface-2: #f3f1ea; --ink: #141413; --ink-2: #5e5d59; --muted: #6b6963;
   --line: #e8e6dc; --line-strong: #d9d6ca;
@@ -14,6 +15,7 @@
   --up: #4f6b34; --down: #b23f2b; --up-bar: #6f8b4f; --down-bar: #c4553c; --up-soft: #e7ecdc; --down-soft: #f7e2dc;
   --ord-1: #e0a088; --ord-2: #d07a58; --ord-3: #b45a37; --ord-4: #8a4127;
   --warn-bg: #fbefd9; --warn-ink: #7a5212;
+  --glow: rgba(217, 119, 87, 0.42); --glow-soft: rgba(217, 119, 87, 0.18); --live: rgba(111, 139, 79, 0.55);
   --shadow: 0 1px 2px rgba(20, 20, 19, 0.04), 0 4px 14px rgba(20, 20, 19, 0.04);
   --display: "Poppins", "Avenir Next", Arial, sans-serif;
   --ui: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
@@ -29,6 +31,7 @@
     --up: #a3bd82; --down: #f08f78; --up-bar: #8eab6a; --down-bar: #e0765c; --up-soft: #2b3123; --down-soft: #3a2621;
     --ord-1: #8f4a2e; --ord-2: #b45f3c; --ord-3: #d47a55; --ord-4: #e9a385;
     --warn-bg: #33291a; --warn-ink: #f0c869; --shadow: none; color-scheme: dark;
+    --glow: rgba(232, 147, 111, 0.5); --glow-soft: rgba(232, 147, 111, 0.2); --live: rgba(142, 171, 106, 0.55);
   }
 }
 :root[data-theme="dark"] {
@@ -39,6 +42,7 @@
   --up: #a3bd82; --down: #f08f78; --up-bar: #8eab6a; --down-bar: #e0765c; --up-soft: #2b3123; --down-soft: #3a2621;
   --ord-1: #8f4a2e; --ord-2: #b45f3c; --ord-3: #d47a55; --ord-4: #e9a385;
   --warn-bg: #33291a; --warn-ink: #f0c869; --shadow: none; color-scheme: dark;
+  --glow: rgba(232, 147, 111, 0.5); --glow-soft: rgba(232, 147, 111, 0.2); --live: rgba(142, 171, 106, 0.55);
 }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 16px; }
@@ -260,6 +264,66 @@ tr.faded td.c-game { opacity: 0.55; font-weight: 400; }
 footer { color: var(--muted); font-size: var(--step--1); }
 footer a { color: var(--accent-ink); }
 
+/* Motion: every clickable thing glows on hover and focus and presses in; a few things move on their own. */
+.btn, .seg button, .nav a, .toggle-pill, .feature .go, select, input[type=number], .search, th button, td.c-game a,
+.multi-list li a, .fallen > summary, details.retired > summary, .tick, .footer-link {
+  transition: box-shadow 0.22s ease, transform 0.16s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, text-shadow 0.2s ease, filter 0.2s ease;
+}
+.btn:hover, .seg button:hover, .toggle-pill:hover, select:hover, input[type=number]:hover, .search:hover {
+  box-shadow: 0 0 0 1px var(--glow), 0 0 16px var(--glow); border-color: var(--accent-brand); transform: translateY(-1px);
+}
+.seg button:hover { color: var(--ink); }
+.seg button[aria-pressed="true"]:hover, .seg button[aria-selected="true"]:hover { color: var(--surface); }
+.nav a:hover { box-shadow: 0 0 14px var(--glow-soft); transform: translateX(2px); }
+.nav a.active:hover { box-shadow: inset 3px 0 0 var(--accent-brand), 0 0 14px var(--glow-soft); }
+.feature .go:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn:active, .seg button:active, .toggle-pill:active, .feature .go:active, .nav a:active, .tick:active { transform: translateY(0) scale(0.96); }
+th button:hover, td.c-game a:hover, .multi-list li a:hover, .footer-link:hover { text-shadow: 0 0 12px var(--glow); }
+.fallen > summary:hover, details.retired > summary:hover { text-shadow: 0 0 12px var(--glow); }
+:focus-visible { box-shadow: 0 0 0 4px var(--glow-soft), 0 0 16px var(--glow); }
+.feature .go { animation: breathe 3.4s ease-in-out infinite; }
+@keyframes breathe { 0%, 100% { box-shadow: 0 0 0 0 rgba(217, 119, 87, 0); } 50% { box-shadow: 0 0 22px 3px rgba(217, 119, 87, 0.55); } }
+.dot { animation: pulse 2.2s ease-out infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 var(--live); } 75%, 100% { box-shadow: 0 0 0 9px rgba(0, 0, 0, 0); } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.overview > *, #sections > .card { animation: rise 0.5s ease both; }
+.overview > :nth-child(2) { animation-delay: 0.05s; } .overview > :nth-child(3) { animation-delay: 0.1s; } .overview > :nth-child(4) { animation-delay: 0.15s; }
+tr.flash td { animation: flash 2.4s ease; }
+@keyframes flash { 0%, 35% { background: var(--accent-soft); box-shadow: inset 0 0 0 9999px var(--glow-soft); } 100% { background: var(--surface); } }
+
+/* Movers strip: today's biggest market-share moves, scrolling on a loop; each one opens the game in its chart. */
+.ticker { grid-column: span 12; display: flex; align-items: center; gap: 12px; background: var(--side); color: var(--side-ink); border: 1px solid var(--side-line); border-radius: 14px; padding: 8px 0 8px 14px; overflow: hidden; min-width: 0; }
+.ticker-label { flex: none; display: inline-flex; align-items: center; gap: 8px; font: 600 0.75rem/1 var(--ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--side-muted); }
+.ticker-view { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
+.ticker-track { display: flex; gap: 8px; width: max-content; animation: marquee var(--ticker-dur, 60s) linear infinite; }
+.ticker:hover .ticker-track, .ticker:focus-within .ticker-track { animation-play-state: paused; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.tick { display: inline-flex; align-items: baseline; gap: 7px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--side-line); background: var(--side-hover); color: var(--side-ink); font-size: var(--step--1); cursor: pointer; white-space: nowrap; }
+.tick:hover { border-color: var(--accent-brand); box-shadow: 0 0 0 1px var(--glow), 0 0 18px var(--glow); transform: translateY(-1px); }
+.tick b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.tick .tu { color: #a3bd82; } .tick .td { color: #f08f78; }
+.tick small { color: var(--side-muted); font-size: 0.75rem; }
+.ticker-empty { color: var(--side-muted); font: 400 var(--step--1)/1.5 var(--prose); padding-right: 14px; }
+
+/* Players on Roblox */
+.players .card-body { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 22px; align-items: start; }
+.pl-now { display: grid; gap: 4px; }
+.pl-now .eyebrow { display: flex; align-items: center; gap: 8px; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.pl-now .huge { font: 600 2.25rem/1.1 var(--display); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.pl-now .when { color: var(--muted); font-size: var(--step--1); }
+.pl-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+.pl-stat { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: var(--surface-2); display: grid; gap: 2px; min-width: 0; }
+.pl-stat span { font-size: 0.75rem; color: var(--muted); }
+.pl-stat b { font: 600 1.0625rem/1.25 var(--display); font-variant-numeric: tabular-nums; }
+.pl-stat small { font-size: 0.75rem; }
+.players .plot { height: 250px; }
+.legend-line { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 8px; font-size: 0.75rem; color: var(--ink-2); }
+.legend-line i { display: inline-block; width: 14px; height: 0; border-top: 2px solid var(--accent); vertical-align: middle; margin-right: 6px; }
+.legend-line i.dash { border-top: 2px dashed var(--blue); }
+
+/* Session length and like %: the day's value with its change since the game's previous recorded day */
+.dlt { margin-left: 6px; font-size: 0.75rem; font-weight: 600; }
+
 @media (max-width: 1280px) {
   .feature, .kpis { grid-column: span 6; }
   .overlap-body { grid-template-columns: minmax(0, 1fr); }
@@ -274,6 +338,7 @@ footer a { color: var(--accent-ink); }
   .nav a .count { display: none; }
   .main { padding-inline: 16px; }
   .feature, .kpis { grid-column: span 12; }
+  .players .card-body { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 520px) {
   .toolbar .count { margin-left: 0; width: 100%; }
@@ -285,7 +350,13 @@ footer a { color: var(--accent-ink); }
   .c-game { min-width: 10rem; max-width: 13rem; }
   .fallen { margin-inline: 12px; }
 }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .icon-btn svg, .fallen > summary::before { transition: none; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .ticker-view { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+  .ticker-track { width: auto; }
+  .btn:hover, .seg button:hover, .toggle-pill:hover, .tick:hover, .nav a:hover, .feature .go:hover { transform: none; }
+}
 </style>
 
 <div class="app">
@@ -303,14 +374,14 @@ footer a { color: var(--accent-ink); }
       <a href="#sec-uc" data-target="sec-uc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.6 5.6L20 9.3l-4 4 1 5.7L12 16.3 7 19l1-5.7-4-4 5.4-.7z"/></svg>Up-and-Coming<span class="count" id="nav-uc"></span></a>
       <a href="#method" data-target="method"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></svg>How it works</a>
     </nav>
-    <div class="side-foot"><strong><span class="dot" aria-hidden="true"></span>Recording daily</strong>1 PM Eastern in the cloud; 18+ titles added at 2 PM.</div>
+    <div class="side-foot"><strong><span class="dot" aria-hidden="true"></span>Recording hourly</strong>Charts at 1 PM Eastern; the page updates every 4 hours, all in the cloud.</div>
   </aside>
 
   <main class="main">
     <header class="topbar">
       <div>
         <h1>Roblox Monetization Tracker</h1>
-        <p class="sub" id="sub">Top Earning, Most Popular, Top Trending and Up-and-Coming, recorded once a day.</p>
+        <p class="sub" id="sub">Top Earning, Most Popular, Top Trending and Up-and-Coming, recorded every day.</p>
       </div>
       <div class="tools">
         <button type="button" class="toggle-pill" id="onlyNew" aria-pressed="false">New today only</button>
@@ -320,6 +391,10 @@ footer a { color: var(--accent-ink); }
     <div class="notice" id="notice" hidden></div>
 
     <section class="overview" id="overview" aria-label="Overview">
+      <div class="ticker" id="ticker" role="region" aria-label="Today’s biggest movers">
+        <span class="ticker-label"><span class="dot" aria-hidden="true"></span>Movers</span>
+        <div class="ticker-view"><div class="ticker-track" id="ticker-track"><span class="ticker-empty">Loading today’s movers…</span></div></div>
+      </div>
       <article class="feature">
         <canvas id="art" aria-hidden="true"></canvas>
         <div class="feature-body">
@@ -335,6 +410,27 @@ footer a { color: var(--accent-ink); }
         <article class="card kpi"><span class="ico c1" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6M5 20h14"/></svg></span><span class="label">New Fallen Heroes today</span><span class="value" id="k-fall">—</span><span class="breakdown" id="k-fall-d"></span></article>
       </div>
 
+      <article class="card span-12 players" id="players">
+        <div class="card-head">
+          <div><h3>Players on Roblox</h3><p>Everyone playing Roblox at once, from RoTerminal, read every hour. CCU change and genre fit are measured against this total.</p></div>
+          <div class="ctl"><div class="seg" role="group" aria-label="Players range"><button type="button" data-pr="72h">72 hours</button><button type="button" data-pr="30">30 days</button><button type="button" data-pr="90">90 days</button><button type="button" data-pr="365">1 year</button></div><button type="button" class="btn icon-btn" id="pl-min" aria-controls="pl-body" aria-expanded="true" aria-label="Minimize Players on Roblox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
+        </div>
+        <div class="card-body" id="pl-body">
+          <div class="pl-now">
+            <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Playing now</span>
+            <span class="huge" id="pl-now">—</span>
+            <span class="when" id="pl-when">Loading…</span>
+            <div class="pl-stats">
+              <div class="pl-stat"><span>Today so far, average</span><b id="pl-today">—</b><small class="muted" id="pl-today-peak"></small></div>
+              <div class="pl-stat"><span>Yesterday, average</span><b id="pl-yday">—</b><small id="pl-yday-chg"></small></div>
+              <div class="pl-stat"><span>Last 7 days, average</span><b id="pl-week">—</b><small id="pl-week-chg"></small></div>
+              <div class="pl-stat"><span>Highest daily peak</span><b id="pl-rec">—</b><small class="muted" id="pl-rec-when"></small></div>
+            </div>
+          </div>
+          <div><p class="legend-line" id="pl-legend"></p><div class="plot" id="pl-plot"><canvas id="pl-canvas" role="img" aria-label="Players on Roblox over time"></canvas></div></div>
+        </div>
+      </article>
+
       <article class="card span-12 deep" id="deep">
         <div class="card-head">
           <div><h3>Deep Analysis</h3><p id="da-meta">The patterns behind each chart’s pillar, re-tested every day.</p></div>
@@ -349,11 +445,11 @@ footer a { color: var(--accent-ink); }
 
     <article class="card" id="fit-card">
       <div class="card-head">
-        <div><h3>Genre fit</h3><p>Each chart’s share of games in a genre, divided by that genre’s share of all Roblox plays (Dubit). Above 1× the chart holds more of the genre than its audience size predicts; below 1×, fewer. The highest number in each column is highlighted.</p></div>
+        <div><h3>Genre fit</h3><p>Each chart’s share of games in a genre, divided by that genre’s share of players on Roblox. Above 1× the chart holds more of the genre than its audience size predicts; below 1×, fewer. The highest number in each column is highlighted.</p></div>
         <div class="ctl"><button type="button" class="btn icon-btn" id="fit-min" aria-controls="fit-body" aria-expanded="true" aria-label="Minimize Genre fit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
       </div>
       <div class="card-body" id="fit-body">
-        <div class="ledger fit-wrap"><table class="data fit-table"><thead><tr class="cols plain"><th class="c-game">Genre</th><th>Share of plays</th><th>Top Earning</th><th>Most Popular</th><th>Top Trending</th><th>Up-and-Coming</th></tr></thead><tbody id="fit-rows"><tr><td class="empty" colspan="6">Loading…</td></tr></tbody></table></div>
+        <div class="ledger fit-wrap"><table class="data fit-table"><thead><tr class="cols plain"><th class="c-game">Genre</th><th id="fit-base-h">Share of players</th><th>Top Earning</th><th>Most Popular</th><th>Top Trending</th><th>Up-and-Coming</th></tr></thead><tbody id="fit-rows"><tr><td class="empty" colspan="6">Loading…</td></tr></tbody></table></div>
         <p class="view-note" id="fit-note"></p>
       </div>
     </article>
@@ -375,14 +471,16 @@ footer a { color: var(--accent-ink); }
         <div class="ctl"><button type="button" class="btn icon-btn" id="method-min" aria-controls="method-body" aria-expanded="true" aria-label="Minimize How it works"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button></div>
       </div>
       <div class="card-body" id="method-body">
-        <p>At 1 PM Eastern a cloud job reads the four public Roblox charts (All Devices, All Locations) and stores every game on them; at 2 PM a Claude task on the owner’s Mac reads the signed-in charts and adds the 18+ titles the public charts leave out, and a cloud Claude run then updates the Deep Analysis. Names, genres and creation dates come from Roblox’s public games API at the same moment, and Dubit’s share of plays by genre is re-read then too. Separately, a cloud job reads the charts every hour and records each game’s CCU, so each day’s CCU is the average of that day’s hourly readings rather than one reading. A game’s CCU history covers every day it was recorded.</p>
+        <p>Everything runs in the cloud. Every hour a GitHub job reads the public Roblox charts and records each game’s CCU, total visits and votes, plus RoTerminal’s count of everyone playing Roblox and its players by genre. At 1 PM Eastern a second job stores the four public charts (All Devices, All Locations), with names, genres and creation dates from Roblox’s public games API. A Claude run every 4 hours (11 PM, 3, 7 and 11 AM, 3 and 7 PM Eastern) brings the day’s figures into this page, and the 3 PM run also updates the Deep Analysis. 18+ games appear only on signed-in charts, so they aren’t tracked. A game’s CCU history covers every day it was recorded.</p>
         <h3>Columns in every chart</h3>
         <dl>
           <dt>Position</dt><dd>Place on that chart today, with its move since the previous snapshot or a New tag. Top Trending lists only games up to 4 months old; they keep their real chart position, so its numbering has gaps, and games that age out leave without becoming Fallen Heroes.</dd>
-          <dt>Avg CCU (day)</dt><dd>Concurrent players averaged over the day’s hourly readings, counted from midnight Eastern. At the 1 PM snapshot it covers midnight to 1 PM; updates at about 7:30 and 11:30 PM extend it, and the next afternoon’s run finalizes it with the full midnight-to-midnight day. Hover a value for the hours covered, their low–high and the snapshot reading. A game needs readings in at least half the hours so far (12 for a finished day); otherwise it shows its snapshot reading, in italics, as do all days before the hourly job started. Every column built on CCU (history, the CCU change columns, Monetization Score) uses this value</dd>
+          <dt>Avg CCU (day)</dt><dd>Concurrent players averaged over the day’s hourly readings, counted from midnight Eastern. At the 1 PM snapshot it covers midnight to 1 PM; the 4-hourly updates extend it, and the 3 AM run finalizes it with the full midnight-to-midnight day. Hover a value for the hours covered, their low–high and the snapshot reading. A game needs readings in at least half the hours so far (12 for a finished day); otherwise it shows its snapshot reading, in italics, as do all days before the hourly job started. Every column built on CCU (history, the CCU change columns, Monetization Score) uses this value</dd>
           <dt>Created</dt><dd>The date the experience was created on Roblox.</dd>
           <dt>History</dt><dd>Days the game has been recorded on that chart.</dd>
-          <dt>CCU change</dt><dd>All four columns compare market share: a game’s daily CCU divided by that day’s combined CCU of the 100 biggest games, so weekday swings and platform-wide growth or decline cancel out.</dd>
+          <dt>Session length</dt><dd>Minutes per visit, measured from Roblox’s own counts: the game’s average players over the day divided by its visits per minute (Little’s law), using its visit count at the day’s first and latest hourly readings. It needs at least 6 hours of readings. The small figure is the change since the game’s previous recorded day.</dd>
+          <dt>Like %</dt><dd>Share of the game’s votes that are thumbs-up, read every hour from Roblox’s votes API; the day’s latest reading is shown, with its change in percentage points since the previous recorded day.</dd>
+          <dt>CCU change</dt><dd>All four columns compare market share: a game’s daily CCU divided by everyone playing Roblox that day (RoTerminal’s day average), so weekday swings, holidays and platform-wide growth or decline cancel out.</dd>
           <dt>vs same day last week</dt><dd>Today’s share compared with the same weekday a week earlier, which also cancels the game’s own weekly rhythm. Blank until the game has a reading from exactly 7 days ago.</dd>
           <dt>Last 7 days vs prior 7</dt><dd>Average share over the last 7 recorded days compared with the 7 before.</dd>
           <dt>vs first 7 days</dt><dd>Average share over the last 7 days compared with the game’s first 7 recorded days.</dd>
@@ -394,8 +492,6 @@ footer a { color: var(--accent-ink); }
           <dt>Monetization Score</dt><dd>Rank of chart position × today’s Avg CCU (day), using nothing else: 1 is the game holding the highest earning position for the fewest players.</dd>
           <dt>Est. revenue / month</dt><dd>Chart position sets the estimate: yearly revenue ≈ C × position<sup>−1.084</sup>, a curve that matches Roblox’s reported creator averages for the 12 months to June 30, 2026 (top 10: $65.7M, top 100: $10.8M, top 1,000: $1.4M), scaled so the top 10 average $68M a year, then divided by 12. CCU nudges it: a game with more players than is typical for its position moves toward the game above, fewer moves it toward the game below, never by more than half a position or 10%, so the estimates keep the chart’s order.</dd>
         </dl>
-        <h3>18+ titles</h3>
-        <p>Games rated 18+ appear only on the signed-in charts. Each chart lists them in their own box between the chart and its Fallen Heroes, with their real chart position, so the main table’s numbering skips them. They still count toward the Monetization Score, chart overlap and genre fit. On a day still waiting for the 2 PM update they show their last known position, marked “Awaiting 2 PM update”.</p>
         <h3>Fallen Heroes</h3>
         <p>When a game drops off a chart it moves to that chart’s Fallen Heroes list, showing its name, CCU, creation date and the days it was recorded on the chart. Its CCU keeps being tracked for 3 days after it leaves. After that tracking stops and only its name stays, faded, until it returns to the chart.</p>
         <h3>Deep Analysis</h3>
@@ -403,7 +499,9 @@ footer a { color: var(--accent-ink); }
         <h3>Overview</h3>
         <dl>
           <dt>Title keywords</dt><dd>Words in game titles, ignoring tags in brackets such as [UPD] and common filler words, with the share of each chart’s titles that use them.</dd>
-          <dt>Genre fit</dt><dd>Each chart’s share of games in a genre (Roblox’s own genre for each game) divided by that genre’s share of all Roblox plays, from <a href="https://dubit.io/library/which-roblox-genres-get-the-most-plays" target="_blank" rel="noopener">Dubit’s genre tracker</a>, which the daily task re-reads at every snapshot. It is not a probability: neither source gives the number of games in each genre. It shows which genres a chart favors relative to how much they’re played.</dd>
+          <dt>Movers</dt><dd>The strip at the top: today’s biggest rises and falls in market share among charted games with at least 1,000 players, against each game’s previous recorded day. Click one to open it in its chart.</dd>
+          <dt>Players on Roblox</dt><dd>Everyone playing Roblox at once, from <a class="footer-link" href="https://roterminal.co" target="_blank" rel="noopener">RoTerminal</a>: the latest hourly reading, the day averages and peaks RoTerminal publishes for every day, and the hourly readings of the last 72 hours.</dd>
+          <dt>Genre fit</dt><dd>Each chart’s share of games in a genre (Roblox’s own genre for each game) divided by that genre’s share of players, averaged over the day’s hourly readings of RoTerminal’s top 600 games, which use the same Roblox genres. It is read hourly, so it replaces <a class="footer-link" href="https://dubit.io/library/which-roblox-genres-get-the-most-plays" target="_blank" rel="noopener">Dubit’s genre tracker</a> (a multi-month share of plays with its own genre names), which stays as the fallback when RoTerminal’s figures are missing. It is not a probability: it shows which genres a chart favors relative to how much they’re played.</dd>
           <dt>Entries and Fallen Heroes</dt><dd>Games that joined or dropped off each chart since its previous snapshot.</dd>
           <dt>Chart overlap</dt><dd>How many of the four charts each of today’s games appears on, with the games on three or all four listed by Top Earning position and tagged with their charts.</dd>
         </dl>
@@ -411,7 +509,7 @@ footer a { color: var(--accent-ink); }
       </div>
     </section>
 
-    <footer>Sources: Roblox charts and games API; creator earnings via <a href="https://www.techspot.com/news/113855-roblox-top-creators-making-65-million-year-while.html">TechSpot</a> and <a href="https://www.dexerto.com/roblox/robloxs-top-creators-average-65-7-million-a-year-but-most-make-far-less-3408675/">Dexerto</a>.</footer>
+    <footer>Sources: Roblox charts, games and votes APIs; players on Roblox and by genre via <a href="https://roterminal.co" target="_blank" rel="noopener">RoTerminal</a>; creator earnings via <a href="https://www.techspot.com/news/113855-roblox-top-creators-making-65-million-year-while.html">TechSpot</a> and <a href="https://www.dexerto.com/roblox/robloxs-top-creators-average-65-7-million-a-year-but-most-make-far-less-3408675/">Dexerto</a>.</footer>
   </main>
 </div>
 
@@ -473,11 +571,13 @@ function normalize(d) {
     const charts = {};
     for (const k of CHART_KEYS) if (Array.isArray(d.charts[k])) charts[k] = d.charts[k].map(i => d.u[i]).filter(Boolean);
     const aligned = a => (Array.isArray(a) && a.length === d.u.length ? a : null);
-    return { date: d.date, takenAt: d.takenAt, u: d.u, ccu: d.ccu, charts, partial: Array.isArray(d.partial) ? d.partial : [], meta: d.meta || {}, dubit: d.dubit && d.dubit.shares ? d.dubit : null,
-      snap: aligned(d.snap), src: aligned(d.src), rng: aligned(d.rng), avg24: d.avg24 || null };
+    return { date: d.date, takenAt: d.takenAt, u: d.u, ccu: d.ccu, charts, meta: d.meta || {}, dubit: d.dubit && d.dubit.shares ? d.dubit : null,
+      snap: aligned(d.snap), src: aligned(d.src), rng: aligned(d.rng), avg24: d.avg24 || null,
+      sess: aligned(d.sess), like: aligned(d.like), plat: platOf(d), rtg: d.rtg && d.rtg.shares ? d.rtg : null };
   }
-  return { date: d.date, takenAt: d.takenAt, u: d.ids, ccu: d.ccu, charts: { te: d.ids }, partial: d.source === 'public' ? ['te'] : [], meta: d.meta || {} };
+  return { date: d.date, takenAt: d.takenAt, u: d.ids, ccu: d.ccu, charts: { te: d.ids }, meta: d.meta || {}, plat: platOf(d) };
 }
+const platOf = d => (d.plat && d.plat.avg > 0 ? d.plat : null);
 
 function buildModel(rawDays) {
   const days = rawDays.map(normalize);
@@ -492,13 +592,15 @@ function buildModel(rawDays) {
   }
   const meta = {}, hist = new Map(), onChart = {}, lastOn = {};
   CHART_KEYS.forEach(k => { onChart[k] = new Map(); lastOn[k] = new Map(); });
+  // Market share: a game's CCU divided by everyone playing Roblox that day (RoTerminal's day average). If any day lacks
+  // that total, every day falls back to the combined CCU of its 100 biggest games, so the days stay comparable.
+  const platShare = days.every(d => d.plat);
   for (const d of days) {
     for (const [u, m] of Object.entries(d.meta)) meta[u] = Object.assign({}, meta[u], m);
-    // Market share: a game's CCU divided by that day's combined CCU of the 100 biggest games.
-    const total = [...d.ccu].sort((a, b) => b - a).slice(0, SHARE_TOP).reduce((a, x) => a + (x || 0), 0) || 1;
+    const total = platShare ? d.plat.avg : [...d.ccu].sort((a, b) => b - a).slice(0, SHARE_TOP).reduce((a, x) => a + (x || 0), 0) || 1;
     d.u.forEach((u, i) => {
       if (!hist.has(u)) hist.set(u, []);
-      hist.get(u).push({ t: dayNum(d.date), ccu: d.ccu[i] || 0, share: (d.ccu[i] || 0) / total });
+      hist.get(u).push({ t: dayNum(d.date), ccu: d.ccu[i] || 0, share: (d.ccu[i] || 0) / total, sess: d.sess ? d.sess[i] : null, like: d.like ? d.like[i] : null });
     });
     for (const k of CHART_KEYS) (d.charts[k] || []).forEach((u, i) => {
       onChart[k].set(u, (onChart[k].get(u) || 0) + 1);
@@ -514,7 +616,6 @@ function buildModel(rawDays) {
     src: latest.src ? latest.src[i] : null, snap: latest.snap ? latest.snap[i] : null, rng: latest.rng ? latest.rng[i] : null,
   }]));
   const ccuInfo = u => srcNow.get(u) || { src: null, snap: null, rng: null };
-  const restricted = u => (meta[u] || {}).r === 1;
   const info = u => { const m = meta[u] || {}; return { name: m.n || 'Universe ' + u, created: m.c || '', place: m.pl || '', genre: m.g || '' }; };
   const game = u => {
     const h = hist.get(u) || [], n = ccuNow.get(u) || 0;
@@ -526,7 +627,12 @@ function buildModel(rawDays) {
     for (let i = 0; w && i + w <= h.length; i++) peak = Math.max(peak == null ? 0 : peak, avg(h.slice(i, i + w)));
     const today = h.length && h[h.length - 1].t === latestT ? h[h.length - 1] : null;
     const weekAgo = today ? h.find(x => x.t === latestT - 7) : null;
+    // Session length and like %: today's value, and the game's previous recorded day for the day-to-day change.
+    const before = today && h.length > 1 ? h[h.length - 2] : null;
     return Object.assign({ u, n, hist: h, ccuSrc: ccuInfo(u), win: w }, info(u), {
+      sess: today ? today.sess : null, sessPrev: before ? before.sess : null,
+      like: today ? today.like : null, likePrev: before ? before.like : null, beforeT: before ? before.t : null,
+      dayChg: today && before ? change(today.share, before.share) : null,
       vsPrev: today && weekAgo ? change(today.share, weekAgo.share) : null,
       trend: w ? change(last, avg(h.slice(-2 * w, -w))) : null,
       vsFirst: w ? change(last, avg(h.slice(0, w))) : null,
@@ -541,8 +647,7 @@ function buildModel(rawDays) {
     const d = days[idx], p = prevWith(k, idx);
     if (!d.charts[k] || !p) return null;
     const now = new Set(d.charts[k]), was = new Set(p.charts[k]);
-    const skipNew = u => p.partial.includes(k) && restricted(u), skipLeft = u => d.partial.includes(k) && restricted(u);
-    return { added: d.charts[k].filter(u => !was.has(u) && !skipNew(u)), left: p.charts[k].filter(u => !now.has(u) && !skipLeft(u) && (k !== 'tt' || ttYoung(u, d.date))), prevDate: p.date, prev: p };
+    return { added: d.charts[k].filter(u => !was.has(u)), left: p.charts[k].filter(u => !now.has(u) && (k !== 'tt' || ttYoung(u, d.date))), prevDate: p.date, prev: p };
   };
 
   const sections = {};
@@ -553,7 +658,6 @@ function buildModel(rawDays) {
     const prevPos = mv ? mv.prev.rank[key] : null;
     const added = new Set(mv ? mv.added : []);
     const rev = key === 'te' ? revenueModel(ids.map(u => ccuNow.get(u) || 0)) : null;
-    const members0 = new Set(ids);
     const rows = ids.map((u, i) => {
       const r = Object.assign(game(u), {
         p: latest.rank[key].get(u), onDays: onChart[key].get(u) || 0,
@@ -564,21 +668,11 @@ function buildModel(rawDays) {
     });
     // Monetization Score: rank of position × today's CCU (a high position with few players ranks best).
     if (key === 'te') [...rows].sort((a, b) => a.p * Math.max(1, a.n) - b.p * Math.max(1, b.n) || a.p - b.p).forEach((r, i) => { r.score = i + 1; });
-    // 18+ titles only the signed-in fetch sees: on a day recorded from the public chart they stay listed at their
-    // last signed-in position, marked as awaiting the 2 PM update, until the local task adds them.
-    if (latest.partial.includes(key)) {
-      let pd = null;
-      for (let i = days.length - 2; i >= 0 && !pd; i--) if (days[i].charts[key] && !days[i].partial.includes(key)) pd = days[i];
-      if (pd) for (const u of pd.charts[key]) {
-        if (!restricted(u) || members0.has(u)) continue;
-        rows.push(Object.assign(game(u), { p: pd.rank[key].get(u), onDays: onChart[key].get(u) || 0, prevPos: null, isNew: false, rev: null, score: null, stale: true }));
-      }
-    }
 
     // Fallen Heroes: tracked for TRACK_DAYS days after leaving, then just a faded name until they return.
     const members = new Set(ids), fallen = [];
     for (const [u, last] of lastOn[key]) {
-      if (members.has(u) || (latest.partial.includes(key) && restricted(u)) || (key === 'tt' && !ttYoung(u, latest.date))) continue;
+      if (members.has(u) || (key === 'tt' && !ttYoung(u, latest.date))) continue;
       const daysOff = latestT - dayNum(last.date), tracked = daysOff <= TRACK_DAYS, h = hist.get(u) || [];
       fallen.push(Object.assign({
         u, daysOff, tracked, lastPos: last.pos, days: onChart[key].get(u) || 0,
@@ -589,10 +683,8 @@ function buildModel(rawDays) {
     fallen.sort((a, b) => (a.tracked === b.tracked ? 0 : a.tracked ? -1 : 1) || a.daysOff - b.daysOff || (a.tracked ? a.lastPos - b.lastPos : a.name.localeCompare(b.name)));
 
     const genres = rows.map(r => r.genre).filter(Boolean);
-    // 18+ titles get their own list between the chart and its Fallen Heroes.
-    const adult = rows.filter(r => restricted(r.u)).sort((a, b) => a.p - b.p);
     sections[key] = {
-      rows: rows.filter(r => !restricted(r.u)), adult, fallen, prevDate: mv ? mv.prevDate : null, partial: latest.partial.includes(key),
+      rows, fallen, prevDate: mv ? mv.prevDate : null,
       newCount: added.size, fallenToday: mv ? mv.left.length : null,
       genres: genres.length ? shares(genres) : [],
     };
@@ -613,8 +705,20 @@ function buildModel(rawDays) {
     if (on.length >= 3) onMany[on.length].push(Object.assign({ u, on, te: teSet.has(u) ? latest.charts.te.indexOf(u) + 1 : Infinity }, info(u)));
   }
   for (const n of [3, 4]) onMany[n].sort((a, b) => a.te - b.te || a.name.localeCompare(b.name));
-  const dubitDay = [...days].reverse().find(d => d.dubit) || null;
-  return { days, latest, sections, kpi, overlap, onMany, dubit: dubitDay ? dubitDay.dubit : null, dubitDate: dubitDay ? dubitDay.date : null, members: members.size, span: [dayNum(days[0].date), latestT] };
+  // Movers: today's biggest day-to-day market-share moves among charted games with at least 1,000 players.
+  const seen = new Set(), moves = [];
+  for (const k of CHART_KEYS) for (const r of (sections[k] ? sections[k].rows : [])) {
+    if (seen.has(r.u)) continue; seen.add(r.u);
+    if (r.dayChg != null && r.n >= 1000 && Math.abs(r.dayChg) >= 0.01) moves.push({ u: r.u, name: r.name, k, p: r.p, chg: r.dayChg, n: r.n });
+  }
+  const ups = moves.filter(m => m.chg > 0).sort((a, b) => b.chg - a.chg).slice(0, 12), downs = moves.filter(m => m.chg < 0).sort((a, b) => a.chg - b.chg).slice(0, 12);
+  const movers = [];
+  for (let i = 0; i < Math.max(ups.length, downs.length); i++) { if (ups[i]) movers.push(ups[i]); if (downs[i]) movers.push(downs[i]); }
+  // Genre fit's baseline: RoTerminal's players by genre (hourly, same genres as Roblox), else Dubit's share of plays.
+  const rtgDay = [...days].reverse().find(d => d.rtg) || null, dubitDay = [...days].reverse().find(d => d.dubit) || null;
+  const genreBase = rtgDay ? { src: 'rt', shares: rtgDay.rtg.shares, date: rtgDay.date, hours: rtgDay.rtg.hours, through: rtgDay.rtg.through_et }
+    : dubitDay ? { src: 'dubit', shares: dubitDay.dubit.shares, date: dubitDay.date, from: dubitDay.dubit.from, to: dubitDay.dubit.to } : null;
+  return { days, latest, sections, kpi, overlap, onMany, movers, genreBase, platShare, members: members.size, span: [dayNum(days[0].date), latestT] };
 }
 
 // ===== Formatting =====
@@ -736,6 +840,8 @@ const COL = {
   n: { label: 'Avg CCU (day)', title: 'Avg CCU (day): the average of the day’s hourly readings since midnight Eastern, updated through the evening and finalized the next day. Hover a value for the hours covered, their low–high and the snapshot reading; italic values are single snapshot readings.', dir: -1, cell: r => ccuCell(r.n, r.ccuSrc) },
   created: { label: 'Created', dir: -1, cell: r => `<td>${shortDate(r.created)}</td>` },
   onDays: { label: 'History', title: 'History (days on this chart)', dir: -1, cell: r => `<td>${plural(r.onDays, 'day', 'days')}</td>` },
+  sess: { label: 'Session', title: 'Session length: minutes per visit today (average players ÷ visits per minute), with the change since the previous recorded day', dir: -1, cell: r => sessCell(r) },
+  like: { label: 'Like %', title: 'Like %: share of votes that are thumbs-up, with the change in points since the previous recorded day', dir: -1, cell: r => likeCell(r) },
   vsPrev: { label: 'vs same day last week', title: 'Market share today vs the same weekday a week ago', dir: -1, cell: r => `<td>${pct(r.vsPrev)}</td>` },
   trend: { label: 'Last 7 days vs prior 7', title: 'Average market share, last 7 days vs the 7 before (halves of the history until 14 days exist)', dir: -1, cell: r => `<td>${winCell(r, r.trend)}</td>` },
   vsFirst: { label: 'vs first 7 days', title: 'Average market share, last 7 days vs the first 7 recorded', dir: -1, cell: r => `<td>${winCell(r, r.vsFirst)}</td>` },
@@ -743,16 +849,32 @@ const COL = {
   score: { label: 'Monetization Score', title: 'Monetization Score (rank of position × CCU; 1 = the highest position for the fewest players)', dir: 1, cls: 'score-col', cell: r => `<td class="score">${r.score == null ? dash : r.score}</td>` },
   rev: { label: 'Est. revenue / month', dir: -1, cell: r => `<td class="money">${money3(r.rev)}</td>` },
 };
-const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days on this chart', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
+const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days on this chart', sess: 'Session length (minutes per visit)', like: 'Like %', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
 const SIGNED = new Set(['trend', 'vsFirst', 'vsPrev', 'vsPeak']);
-const BASE_COLS = ['p', 'name', 'n', 'created', 'onDays', 'vsPrev', 'trend', 'vsFirst', 'vsPeak'];
+const BASE_COLS = ['p', 'name', 'n', 'created', 'onDays', 'sess', 'like', 'vsPrev', 'trend', 'vsFirst', 'vsPeak'];
 const SECTIONS = CHART_KEYS.map(key => ({
   key, title: CHART_NAMES[key],
   cols: key === 'te' ? BASE_COLS.concat('score', 'rev') : BASE_COLS,
-  groups: key === 'te' ? [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g'], ['Monetization estimate', 2, 'g']] : [['', 2, 'c1'], ['', 3], ['CCU change', 4, 'g']],
+  groups: key === 'te' ? [['', 2, 'c1'], ['', 3], ['Engagement', 2, 'g'], ['CCU change', 4, 'g'], ['Monetization estimate', 2, 'g']] : [['', 2, 'c1'], ['', 3], ['Engagement', 2, 'g'], ['CCU change', 4, 'g']],
 }));
+// Day-to-day change next to a value: relative for session length, percentage points for like %.
+function dltSpan(d, text, since) {
+  if (d == null || !isFinite(d)) return '';
+  const cls = Math.abs(d) < 1e-9 ? 'muted' : d > 0 ? 'up' : 'down';
+  return `<span class="dlt ${cls}" title="Change since ${esc(since)}">${text}</span>`;
+}
+const sinceLabel = r => (r.beforeT != null ? dayLabel(new Date(r.beforeT * 864e5).toISOString().slice(0, 10)) : 'the previous day');
+function sessCell(r) {
+  if (r.sess == null) return `<td title="Needs at least 6 hours of hourly readings today">${dash}</td>`;
+  const d = r.sessPrev ? r.sess / r.sessPrev - 1 : null;
+  return `<td>${r.sess.toFixed(1)} min${dltSpan(d, d == null ? '' : pctText(d), sinceLabel(r))}</td>`;
+}
+function likeCell(r) {
+  if (r.like == null) return `<td>${dash}</td>`;
+  const d = r.likePrev != null ? r.like - r.likePrev : null, a = d == null ? 0 : Math.abs(d);
+  return `<td>${r.like.toFixed(1)}%${dltSpan(d, d == null ? '' : (d > 0 ? '+' : d < 0 ? '−' : '') + (a < 0.1 ? a.toFixed(2) : a.toFixed(1)) + ' pt', sinceLabel(r))}</td>`;
+}
 function posPill(r) {
-  if (r.stale) return '<span class="pill warn" title="18+ title: this position is from the last signed-in snapshot. The 2 PM update replaces it.">Awaiting 2 PM update</span>';
   if (r.isNew) return '<span class="pill new">New</span>';
   if (r.prevPos && r.prevPos !== r.p) {
     const k = r.prevPos - r.p;
@@ -770,7 +892,7 @@ function peakCell(r) {
 function pref(key) {
   const s = SECTIONS.find(x => x.key === key), p = prefs[key] || {};
   const sort = s.cols.includes(p.sort) ? p.sort : 'p';
-  return { sort, dir: p.dir === -1 || p.dir === 1 ? p.dir : COL[sort].dir, show: Number.isInteger(p.show) && p.show >= 0 ? p.show : 25, open: p.open !== false, view: ['table', 'bars', 'trend'].includes(p.view) ? p.view : 'table', fallen: p.fallen !== false, adult: p.adult !== false };
+  return { sort, dir: p.dir === -1 || p.dir === 1 ? p.dir : COL[sort].dir, show: Number.isInteger(p.show) && p.show >= 0 ? p.show : 25, open: p.open !== false, view: ['table', 'bars', 'trend'].includes(p.view) ? p.view : 'table', fallen: p.fallen !== false };
 }
 function setPref(key, patch) { prefs[key] = Object.assign(pref(key), patch); savePrefs(); }
 
@@ -805,13 +927,6 @@ function sectionShell(s) {
     </table></div></div>
     <div class="view" id="${k}-view-bars" hidden><p class="graph-title" id="${k}-bars-title"></p><div class="bars-plot" id="${k}-bars-plot"><canvas id="${k}-bars" role="img" aria-label="${esc(s.title)} bar chart"></canvas></div><p class="view-note" id="${k}-bars-note" hidden></p></div>
     <div class="view" id="${k}-view-trend" hidden><p class="graph-title" id="${k}-trend-title"></p><div class="multiples" id="${k}-multiples"></div><p class="view-note" id="${k}-trend-note" hidden></p></div>
-    <details class="fallen" id="${k}-adult">
-      <summary><span class="fh-title">18+ titles</span><span class="meta" id="${k}-adult-meta"></span></summary>
-      <div class="fh-body">
-        <p class="fh-note">18+ games on ${esc(s.title)}, at their real chart position. Only the signed-in chart lists them, so they are added at 2 PM.</p>
-        <div class="ledger"><table class="data"><thead><tr class="cols plain">${adultCols(s).map(id => `<th class="${COL[id].cls || ''}">${esc(COL[id].label)}</th>`).join('')}</tr></thead><tbody id="${k}-adult-rows"></tbody></table></div>
-      </div>
-    </details>
     <details class="fallen" id="${k}-fallen">
       <summary><span class="fh-title">Fallen Heroes</span><span class="meta" id="${k}-fallen-meta"></span></summary>
       <div class="fh-body">
@@ -823,7 +938,6 @@ function sectionShell(s) {
 </section>`;
 }
 
-const adultCols = s => ['p', 'name', 'n', 'created', 'onDays'].concat(s.key === 'te' ? ['score', 'rev'] : []);
 function sortRows(rows, id, dir) {
   const get = COL[id].sortVal || (r => r[id]);
   return rows.sort((a, b) => {
@@ -848,7 +962,6 @@ function renderControls(s) {
   el(k + '-min').setAttribute('aria-expanded', String(p.open));
   el(k + '-min').setAttribute('aria-label', (p.open ? 'Minimize ' : 'Expand ') + s.title);
   el(k + '-fallen').open = p.fallen;
-  el(k + '-adult').open = p.adult;
   ['table', 'bars', 'trend'].forEach(v => { el(`${k}-view-${v}`).hidden = v !== p.view; });
 }
 
@@ -873,8 +986,6 @@ function renderSection(s) {
     el(k + '-count').textContent = '';
     el(k + '-fallen-meta').textContent = '';
     el(k + '-fallen-rows').innerHTML = '<tr><td class="empty" colspan="4">No fallen heroes yet.</td></tr>';
-    el(k + '-adult-meta').textContent = '';
-    el(k + '-adult-rows').innerHTML = `<tr><td class="empty" colspan="${adultCols(s).length}">No 18+ titles yet.</td></tr>`;
     const v = pref(k).view;
     if (v === 'bars') { el(k + '-bars-title').textContent = ''; el(k + '-bars-note').hidden = true; el(k + '-bars-plot').style.height = '120px'; plotNote(k + '-bars-plot', 'No snapshot of this chart yet.'); }
     if (v === 'trend') { el(k + '-trend-title').textContent = ''; el(k + '-multiples').innerHTML = ''; el(k + '-trend-note').hidden = false; el(k + '-trend-note').textContent = 'No snapshot of this chart yet.'; }
@@ -882,30 +993,16 @@ function renderSection(s) {
   }
   const { matched, shown } = visibleRows(s);
   el(k + '-rows').innerHTML = shown.length
-    ? shown.map(r => '<tr>' + s.cols.map(id => COL[id].cell(r)).join('') + '</tr>').join('')
+    ? shown.map(r => `<tr data-u="${esc(r.u)}">` + s.cols.map(id => COL[id].cell(r)).join('') + '</tr>').join('')
     : `<tr><td class="empty" colspan="${cols}">No games match these filters.</td></tr>`;
   const filtered = matched.length !== sec.rows.length;
   el(k + '-count').textContent = `${shown.length === matched.length ? 'All ' + matched.length : shown.length + ' of ' + matched.length}${filtered ? ' matching' : ''} shown`;
-  const bits = [`${sec.rows.length} titles${sec.adult.length ? ` + ${sec.adult.length} 18+` : ''}`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
-  el(k + '-meta').innerHTML = esc(bits.join(' · ')) + (sec.partial ? ' <span class="pill warn">Partial</span>' : '');
-  el(k + '-note').hidden = !sec.partial;
-  el(k + '-note').textContent = sec.partial ? 'Today’s list for this chart is from the public 1 PM chart. The 18+ titles below show their last known position, marked “Awaiting 2 PM update”, until the 2 PM signed-in update adds them; other positions may be off by a few until then.' : '';
-  renderAdult(s);
+  const bits = [`${sec.rows.length} titles`, sec.prevDate ? `+${sec.newCount} new · ${sec.fallenToday} fallen since ${dayLabel(sec.prevDate)}` : 'first day recorded'];
+  el(k + '-meta').textContent = bits.join(' · ');
   renderFallen(s);
   const view = pref(k).view;
   if (view === 'bars') renderBars(s, shown); else if (charts[k + '-bars']) { charts[k + '-bars'].destroy(); delete charts[k + '-bars']; }
   if (view === 'trend') renderTrend(s, shown);
-}
-
-function renderAdult(s) {
-  const k = s.key, sec = model.sections[k], q = query(k), cols = adultCols(s);
-  const onlyNew = el('onlyNew').getAttribute('aria-pressed') === 'true';
-  const list = sec.adult.filter(r => (!q || r.name.toLowerCase().includes(q)) && (!onlyNew || r.isNew));
-  const stale = sec.adult.filter(r => r.stale).length;
-  el(k + '-adult-meta').textContent = sec.adult.length ? `${plural(sec.adult.length, "title", "titles")}${stale ? ' · awaiting 2 PM update' : ''}` : 'None today';
-  el(k + '-adult-rows').innerHTML = list.length
-    ? list.map(r => '<tr>' + cols.map(id => COL[id].cell(r)).join('') + '</tr>').join('')
-    : `<tr><td class="empty" colspan="${cols.length}">${sec.adult.length ? 'No 18+ titles match these filters.' : 'No 18+ titles on this chart today.'}</td></tr>`;
 }
 
 function renderFallen(s) {
@@ -936,14 +1033,14 @@ function renderBars(s, shown) {
   if (!rows.length) { plotNote(k + '-bars-plot', signed ? 'This view fills in after a second daily snapshot.' : 'No games match these filters.'); return; }
   plotNote(k + '-bars-plot', '');
   const vals = rows.map(r => (signed ? r[metric] * 100 : r[metric]));
-  const fmt = v => (signed ? pctText(v / 100) : metric === 'rev' ? money3(v) : metric === 'onDays' ? v + 'd' : compact(v));
+  const fmt = v => (signed ? pctText(v / 100) : metric === 'rev' ? money3(v) : metric === 'onDays' ? v + 'd' : metric === 'sess' ? v.toFixed(1) + ' min' : metric === 'like' ? v.toFixed(1) + '%' : compact(v));
   makeChart(k + '-bars', {
     type: 'bar', plugins: [tipLabels],
     data: { labels: rows.map(r => shortName(r.name, 30)), datasets: [{ data: vals, backgroundColor: signed ? vals.map(v => (v >= 0 ? cssVar('--up-bar') : cssVar('--down-bar'))) : cssVar('--accent'), borderRadius: 4, borderSkipped: 'start', maxBarThickness: 18, categoryPercentage: 0.8, barPercentage: 0.9 }] },
     options: {
       indexAxis: 'y',
       plugins: { tipLabels: { format: fmt }, tooltip: { displayColors: false, callbacks: { title: items => rows[items[0].dataIndex].name, label: item => `${GRAPH[metric]}: ${fmt(item.raw)} · #${rows[item.dataIndex].p}` } } },
-      scales: { x: Object.assign(roomFor(vals), { grid: { display: true }, ticks: { callback: v => (signed ? v + '%' : metric === 'rev' ? money3(v) : compact(v)) } }), y: { grid: { display: false }, ticks: { autoSkip: false, color: cssVar('--ink-2') } } },
+      scales: { x: Object.assign(roomFor(vals), { grid: { display: true }, ticks: { callback: v => (signed ? v + '%' : metric === 'rev' ? money3(v) : metric === 'like' ? v + '%' : metric === 'sess' ? v + ' min' : compact(v)) } }), y: { grid: { display: false }, ticks: { autoSkip: false, color: cssVar('--ink-2') } } },
     },
   });
 }
@@ -1027,9 +1124,10 @@ function renderAnalysis() {
 }
 
 function renderFit() {
-  const D = model.dubit;
+  const D = model.genreBase;
+  el('fit-base-h').textContent = D && D.src === 'dubit' ? 'Share of plays' : 'Share of players';
   if (!D) {
-    el('fit-rows').innerHTML = '<tr><td class="empty" colspan="6">Dubit’s share of plays is fetched with the next daily snapshot, around 1 PM Eastern.</td></tr>';
+    el('fit-rows').innerHTML = '<tr><td class="empty" colspan="6">Players by genre are added with the next update.</td></tr>';
     el('fit-note').textContent = '';
     return;
   }
@@ -1046,13 +1144,16 @@ function renderFit() {
     + `<td class="fit-cell${D.shares[g] === topPlays ? ' top' : ''}"><b>${D.shares[g].toFixed(1)}%</b></td>`
     + cols.map((c, ci) => (!c ? `<td>${dash}</td>` : `<td class="fit-cell${c[i].idx === best[ci] ? ' top' : c[i].idx < 1 ? ' low' : ''}"><b>${c[i].idx.toFixed(2)}×</b><small>${c[i].share.toFixed(1)}% of chart</small></td>`)).join('')
     + '</tr>').join('');
-  el('fit-note').textContent = `Share of plays: Dubit Roblox games tracker${D.from ? `, ${D.from} to ${D.to}` : ''}, as read on ${dayLabel(model.dubitDate)}. Chart shares use today’s games with a Roblox genre. Charts count every game equally, and small charts like Up-and-Coming swing a lot from one game.`;
+  const base = D.src === 'rt'
+    ? `Share of players: RoTerminal’s top 600 games, averaged over ${plural(D.hours, 'hourly reading', 'hourly readings')} on ${dayLabel(D.date)}${D.through && D.through !== '24:00' ? ` (to ${D.through} ET)` : ''}.`
+    : `Share of plays: Dubit Roblox games tracker${D.from ? `, ${D.from} to ${D.to}` : ''}, as read on ${dayLabel(D.date)} (RoTerminal’s players by genre weren’t available).`;
+  el('fit-note').textContent = `${base} Chart shares use today’s games with a Roblox genre. Charts count every game equally, and small charts like Up-and-Coming swing a lot from one game.`;
 }
 function renderCounts() {
   const k = model.kpi, line = key => k.compared.map(c => `${CHART_NAMES[c]} ${model.sections[c][key]}`).join(' · ');
-  el('k-new').textContent = k.compared.length ? int(k.added) : '—';
+  countTo(el('k-new'), k.compared.length ? k.added : null, int);
   el('k-new-d').textContent = k.compared.length ? line('newCount') : 'Starts with each chart’s second snapshot.';
-  el('k-fall').textContent = k.compared.length ? int(k.fallen) : '—';
+  countTo(el('k-fall'), k.compared.length ? k.fallen : null, int);
   el('k-fall-d').textContent = k.compared.length ? line('fallenToday') : 'Starts with each chart’s second snapshot.';
 }
 
@@ -1060,7 +1161,8 @@ function renderFeature() {
   const L = model.latest, when = new Date(L.takenAt);
   el('f-when').textContent = when.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) + ' · ' + when.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
   const n = Object.keys(L.charts).length;
-  el('f-detail').textContent = `${L.partial.length ? 'Partly from the public charts' : 'Signed-in charts'} · ${n} of 4 charts · ${plural(model.days.length, 'day', 'days')} recorded since ${dayLabel(model.days[0].date)}. Next snapshot around 1 PM Eastern.`;
+  const upd = L.avg24 && L.avg24.through_et ? ` · figures to ${L.avg24.through_et === '24:00' ? 'midnight' : L.avg24.through_et + ' ET'}` : '';
+  el('f-detail').textContent = `Public charts · ${n} of 4 charts · ${plural(model.days.length, 'day', 'days')} recorded since ${dayLabel(model.days[0].date)}${upd}. Updates every 4 hours; charts at 1 PM Eastern.`;
   el('sub').textContent = `Snapshot of ${dayLabel(L.date)} · ${int(model.members)} games across ${plural(n, 'chart', 'charts')}.`;
 }
 
@@ -1081,19 +1183,20 @@ function renderOverlap() {
   });
 }
 
-// Decorative clay ribbon for the snapshot card.
+// Decorative clay ribbon for the snapshot card; it drifts slowly while on screen (still with reduced motion).
+let artPhase = 0;
 function drawArt() {
   const c = el('art'); if (!c) return;
   const dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = c.clientHeight;
   if (!w || !h) return;
-  c.width = w * dpr; c.height = h * dpr;
-  const ctx = c.getContext('2d'); ctx.scale(dpr, dpr); ctx.clearRect(0, 0, w, h);
-  const hues = ['#d97757', '#e8936f', '#6a9bcc', '#788c5d'];
+  if (c.width !== Math.round(w * dpr) || c.height !== Math.round(h * dpr)) { c.width = Math.round(w * dpr); c.height = Math.round(h * dpr); }
+  const ctx = c.getContext('2d'); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, w, h);
+  const hues = ['#d97757', '#e8936f', '#6a9bcc', '#788c5d'], ph = artPhase;
   for (let i = 0; i < 26; i++) {
     ctx.beginPath();
-    const off = i * 3.2, amp = 18 + i * 0.9;
+    const off = i * 3.2, amp = 18 + i * 0.9 + Math.sin(ph * 0.7 + i * 0.3) * 3;
     for (let x = -10; x <= w + 10; x += 6) {
-      const y = h * 0.55 + Math.sin(x / 46 + i * 0.18) * amp * 0.6 + Math.cos(x / 23 - i * 0.11) * 6 - off + 30;
+      const y = h * 0.55 + Math.sin(x / 46 + i * 0.18 + ph) * amp * 0.6 + Math.cos(x / 23 - i * 0.11 - ph * 1.3) * 6 - off + 30;
       x === -10 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
     }
     ctx.strokeStyle = hues[i % 4];
@@ -1102,6 +1205,102 @@ function drawArt() {
     ctx.stroke();
   }
   ctx.globalAlpha = 1;
+}
+
+function animateArt() {
+  const c = el('art'); if (!c || reduceMotion()) return;
+  let onScreen = true, last = 0;
+  if ('IntersectionObserver' in window) new IntersectionObserver(e => { onScreen = e[0].isIntersecting; }).observe(c);
+  const step = t => {
+    if (onScreen && !document.hidden && t - last > 33) { artPhase += (t - last > 200 ? 33 : t - last) / 2600; last = t; drawArt(); }
+    requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+// Numbers count up to their new value.
+function countTo(node, value, fmt) {
+  if (value == null) { node.textContent = '—'; node.dataset.v = ''; return; }
+  const from = Number(node.dataset.v || 0); node.dataset.v = String(value);
+  if (reduceMotion() || from === value) { node.textContent = fmt(value); return; }
+  const t0 = performance.now(), dur = 700;
+  const tick = t => { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); node.textContent = fmt(from + (value - from) * e); if (k < 1) requestAnimationFrame(tick); };
+  requestAnimationFrame(tick);
+}
+
+// Movers strip: two copies of the list scroll left on a loop; hovering or focusing it pauses it.
+function renderTicker() {
+  const list = model ? model.movers : [];
+  const track = el('ticker-track');
+  if (!list.length) { track.innerHTML = `<span class="ticker-empty">${model && model.days.length < 2 ? 'Movers start with the second recorded day.' : 'No big moves today.'}</span>`; track.style.removeProperty('--ticker-dur'); return; }
+  const item = (m, copy) => `<button type="button" class="tick" data-u="${esc(m.u)}" data-k="${m.k}"${copy ? ' tabindex="-1" aria-hidden="true"' : ''} title="Market share vs the previous recorded day. Open in ${esc(CHART_NAMES[m.k])}">`
+    + `<b class="${m.chg > 0 ? 'tu' : 'td'}">${m.chg > 0 ? '▲' : '▼'} ${pctText(m.chg)}</b><span>${esc(shortName(m.name, 34))}</span><small>${esc(CHART_NAMES[m.k])} #${m.p}</small></button>`;
+  track.innerHTML = list.map(m => item(m, false)).join('') + list.map(m => item(m, true)).join('');
+  track.style.setProperty('--ticker-dur', Math.max(30, list.length * 4.5) + 's');
+}
+function openGame(u, k) {
+  const s = SECTIONS.find(x => x.key === k), r = model && model.sections[k] && model.sections[k].rows.find(x => x.u === u);
+  if (!s || !r) return;
+  setPref(k, { open: true, view: 'table' });
+  el(k + '-q').value = r.name;
+  renderSection(s);
+  const row = el(k + '-rows').querySelector(`tr[data-u="${CSS.escape(u)}"]`);
+  (row || el('sec-' + k)).scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'center' });
+  if (row) { row.classList.remove('flash'); void row.offsetWidth; row.classList.add('flash'); }
+}
+
+// ===== Players on Roblox (the `live` collection's platform document, written every 4 hours) =====
+let live = null;
+const PL_RANGES = ['72h', '30', '90', '365'];
+const plRange = () => (PL_RANGES.includes(prefs.pl) ? prefs.pl : '30');
+const avgOf = xs => (xs.length ? xs.reduce((a, x) => a + x, 0) / xs.length : null);
+function renderPlayers() {
+  document.querySelectorAll('[data-pr]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.pr === plRange())));
+  const L = live;
+  if (!L || !Array.isArray(L.daily) || !L.daily.length) {
+    el('pl-when').textContent = 'The first reading arrives with the next 4-hourly update.';
+    plotNote('pl-plot', 'Waiting for the first reading.');
+    return;
+  }
+  const daily = L.daily, full = daily.filter(d => !d[3]), today = daily[daily.length - 1][3] ? daily[daily.length - 1] : null;
+  countTo(el('pl-now'), L.now ? L.now[1] : null, int);
+  const at = L.now ? new Date(L.now[0]) : new Date(L.at);
+  el('pl-when').textContent = `${L.now ? 'Read' : 'Updated'} ${at.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit' })} · page updates every 4 hours`;
+  el('pl-today').textContent = today ? int(today[1]) : '—';
+  el('pl-today-peak').textContent = today ? `peak ${compact(today[2])}` : '';
+  const y = full[full.length - 1], wk = y ? full.find(d => dayNum(d[0]) === dayNum(y[0]) - 7) : null;
+  el('pl-yday').textContent = y ? int(y[1]) : '—';
+  el('pl-yday-chg').innerHTML = wk ? `${pct(change(y[1], wk[1]))} <span class="muted">vs same day last week</span>` : '';
+  const last7 = full.slice(-7), prev7 = full.slice(-14, -7);
+  el('pl-week').textContent = last7.length ? int(avgOf(last7.map(d => d[1]))) : '—';
+  el('pl-week-chg').innerHTML = prev7.length === 7 ? `${pct(change(avgOf(last7.map(d => d[1])), avgOf(prev7.map(d => d[1]))))} <span class="muted">vs the 7 before</span>` : '';
+  const rec = daily.reduce((a, d) => (d[2] > a[2] ? d : a), daily[0]);
+  el('pl-rec').textContent = compact(rec[2]);
+  el('pl-rec-when').textContent = `${dayLabel(rec[0])}, since ${dayLabel(daily[0][0])}`;
+  const range = plRange(), accent = cssVar('--accent'), blue = cssVar('--blue');
+  if (range === '72h') {
+    const h = (L.hourly || []).map(x => [new Date(x[0]), x[1]]);
+    el('pl-legend').innerHTML = '<span><i></i>Players, hourly readings</span>';
+    if (h.length < 2) { plotNote('pl-plot', 'Hourly readings started recently; this fills in over the next hours.'); return; }
+    plotNote('pl-plot', '');
+    makeChart('pl-canvas', {
+      type: 'line',
+      data: { labels: h.map(x => x[0].toLocaleString('en-US', { weekday: 'short', hour: 'numeric' })), datasets: [{ data: h.map(x => x[1]), borderColor: accent, backgroundColor: cssVar('--glow-soft'), fill: true, borderWidth: 2, pointRadius: 0, tension: 0.3 }] },
+      options: { interaction: { mode: 'index', intersect: false }, plugins: { tooltip: { callbacks: { label: i => `Players: ${int(i.raw)}` } } }, scales: { x: { ticks: { maxTicksLimit: 8, autoSkip: true } }, y: { ticks: { callback: v => compact(v) } } } },
+    });
+    return;
+  }
+  const pts = daily.slice(-Number(range));
+  el('pl-legend').innerHTML = '<span><i></i>Day average</span><span><i class="dash"></i>Day peak</span>' + (pts[pts.length - 1][3] ? '<span class="muted">Today is so far</span>' : '');
+  plotNote('pl-plot', '');
+  makeChart('pl-canvas', {
+    type: 'line',
+    data: { labels: pts.map(d => dayLabel(d[0])), datasets: [
+      { label: 'Day average', data: pts.map(d => d[1]), borderColor: accent, backgroundColor: cssVar('--glow-soft'), fill: true, borderWidth: 2, pointRadius: 0, tension: 0.25 },
+      { label: 'Day peak', data: pts.map(d => d[2]), borderColor: blue, borderDash: [5, 4], borderWidth: 1.5, pointRadius: 0, tension: 0.25, fill: false },
+    ] },
+    options: { interaction: { mode: 'index', intersect: false }, plugins: { tooltip: { callbacks: { label: i => `${i.dataset.label}: ${int(i.raw)}` } } }, scales: { x: { ticks: { maxTicksLimit: 9, autoSkip: true } }, y: { ticks: { callback: v => compact(v) } } } },
+  });
 }
 
 const methodOpen = () => (prefs.method || {}).open !== false;
@@ -1114,7 +1313,7 @@ function renderMethod() {
 }
 
 // Minimize buttons on overview cards (state kept per viewer).
-const MINI = { deep: ['deep', 'da-body', 'Deep Analysis'], fit: ['fit-card', 'fit-body', 'Genre fit'], ov: ['ov-card', 'ov-body', 'Chart overlap'] };
+const MINI = { pl: ['players', 'pl-body', 'Players on Roblox'], deep: ['deep', 'da-body', 'Deep Analysis'], fit: ['fit-card', 'fit-body', 'Genre fit'], ov: ['ov-card', 'ov-body', 'Chart overlap'] };
 const cardOpen = k => ((prefs.cards || {})[k] || {}).open !== false;
 function renderCardMins() {
   for (const [k, [card, body, label]] of Object.entries(MINI)) {
@@ -1125,8 +1324,8 @@ function renderCardMins() {
     b.setAttribute('aria-label', (open ? 'Minimize ' : 'Expand ') + label);
   }
 }
-function renderOverview() { renderFeature(); renderFit(); renderCounts(); renderOverlap(); }
-function renderAll() { if (model) renderOverview(); SECTIONS.forEach(renderSection); }
+function renderOverview() { renderFeature(); renderTicker(); renderFit(); renderCounts(); renderOverlap(); }
+function renderAll() { if (model) renderOverview(); renderPlayers(); SECTIONS.forEach(renderSection); }
 
 function showMessage(title, body) {
   el('f-when').textContent = '—';
@@ -1146,6 +1345,8 @@ function showMessage(title, body) {
 function boot() {
   el('sections').innerHTML = SECTIONS.map(sectionShell).join('');
   drawArt();
+  animateArt();
+  renderPlayers();
   renderMethod();
   renderAnalysis();
   SECTIONS.forEach(s => {
@@ -1160,7 +1361,6 @@ function boot() {
     });
     el(k + '-all').addEventListener('click', () => { setPref(k, { show: 0 }); renderSection(s); });
     el(k + '-min').addEventListener('click', () => { setPref(k, { open: !pref(k).open }); renderSection(s); });
-    el(k + '-adult').addEventListener('toggle', e => { if (e.target.open !== pref(k).adult) setPref(k, { adult: e.target.open }); });
     el(k + '-fallen').addEventListener('toggle', e => { if (e.target.open !== pref(k).fallen) setPref(k, { fallen: e.target.open }); });
     el(k + '-head').addEventListener('click', e => {
       const b = e.target.closest('button[data-k]'); if (!b) return;
@@ -1171,6 +1371,10 @@ function boot() {
     });
   });
   document.addEventListener('click', e => {
+    const tk = e.target.closest('.tick');
+    if (tk) { openGame(tk.dataset.u, tk.dataset.k); return; }
+    const pr = e.target.closest('[data-pr]');
+    if (pr) { prefs.pl = pr.dataset.pr; savePrefs(); renderPlayers(); return; }
     const sv = e.target.closest('[data-sec]');
     if (sv) { const s = SECTIONS.find(x => x.key === sv.dataset.sec); setPref(s.key, { view: sv.dataset.sv, open: true }); renderSection(s); return; }
     const nav = e.target.closest('.nav a');
@@ -1210,6 +1414,7 @@ function boot() {
   const use = window.claude && window.claude.use ? window.claude.use('db') : Promise.resolve(null);
   use.then(db => {
     if (!db) { showMessage('Sign in to see the tracker.', 'The daily snapshots are stored in this page’s database, which loads for signed-in claude.ai viewers.'); return; }
+    db.doc('live/platform').onSnapshot(snap => { live = snap.exists ? snap.data() : null; renderPlayers(); }, () => { live = null; renderPlayers(); });
     db.collection('analysis').orderBy('date', 'desc').limit(1).onSnapshot(snap => {
       const d = snap.docs.find(x => x.exists);
       analysis = d ? d.data() : null;
@@ -1229,3 +1434,5 @@ if (typeof document !== 'undefined') boot();
 if (typeof module !== 'undefined') module.exports = { revenueModel, buildModel, trendPerDay, normalize, validDay };
 </script>
 
+
+</body></html>
