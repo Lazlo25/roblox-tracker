@@ -21,7 +21,8 @@ collections from the table.
 
 ## Steps
 
-1. `cd` into roblox-tracker, check out the MODE's branch and `git pull --rebase`; then `git -C ../roblox-ccu pull --rebase`.
+1. `cd` into roblox-tracker, check out the MODE's branch and `git pull --rebase`; then
+   `git -C ../roblox-ccu checkout -q main && git -C ../roblox-ccu pull -q --rebase` (the checkouts start detached).
    Set D = `TZ=America/New_York date +%F`, PREV = the day before D, and H = `TZ=America/New_York date +%H` (00–23).
 2. Total players: run `python3 tracker.py live --ccu ../roblox-ccu --out /tmp/live.json` and write LIVE doc `platform`
    from file `/tmp/live.json`. If it prints a line starting with "NO LIVE DATA", note it and carry on.
