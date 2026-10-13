@@ -1,0 +1,29 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young pet and egg games climb Top Trending more slowly than other games of similar age",
+     "action": "Skip pet/egg loops for trending momentum",
+     "test": {"feature": "mech_pets_eggs", "metric": "tt_mom", "type": "binary", "direction": "-"}},
+    {"chart": "uc", "statement": "Games selling a luck game pass rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip luck passes at launch",
+     "test": {"feature": "pass_luck", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with servers above 6 players hold higher Top Trending positions among games of similar age",
+     "action": "Use servers of 7+ players",
+     "test": {"feature": "max_players", "metric": "tt_pos", "type": "threshold", "cut": 6, "direction": "+", "strata": "age"}},
+    {"chart": "mp", "statement": "Games whose median game pass costs more than 90 Robux stay on Most Popular for more days",
+     "action": "Price most passes above 90 R$",
+     "test": {"feature": "passes_median_price", "metric": "mp_days", "type": "threshold", "cut": 90, "direction": "+"}},
+    {"chart": "uc", "statement": "Co-op loops rank higher on Up-and-Coming than other games of the same age",
+     "action": "Build a co-op loop for breakout",
+     "test": {"feature": "social=coop", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "The steal/egg template wave is fading: its young clones now fall on Most Popular, Top Trending and Up-and-Coming at once while the original Steal An Egg holds the top",
+     "rationale": "On 2026-10-13 Steal Animal Egg (-10), Steal An EXE Egg (-11) and Kick a Lucky Block (-13) were among the biggest Most Popular fallers, steal loops had the weakest Top Trending momentum (median percentile 19) and Clone to Steal Eggs fell 51 on Up-and-Coming. Confirm if steal-titled entries keep shrinking across the next 2 weeks while the leader stays put."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-010", "confidence": 30, "note": "Kukirin Life [Testing] (scooter life sim, 24 days) and WRONG WAY! (12 days) lead Top Trending momentum; racing_driving loops have the best median Top Trending (99) and Up-and-Coming (77) percentiles and 69 on Top Earning. Small samples."},
+    {"id": "H-x-006", "confidence": 45, "note": "Sell Fries! [Anomaly] now leads Up-and-Coming and [EVENT] Home Alone: Anomalies entered Most Popular at 162 days, a second anomaly title reaching the top chart; Halloween season is a confounder."},
+    {"id": "H-mp-009", "confidence": 38, "note": "Day 8: 123-365-day games again have the lowest median pillar percentile (35) versus 46-48 for 15-84-day games and 58 for multi-year games."}
+  ],
+  "actions": [],
+  "retire": []
+}
