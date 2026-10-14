@@ -275,8 +275,15 @@ def cmd_prepare(a):
         if cur and cur != known.get(u):
             meta[u] = cur
 
+    # Per-game history charts: each game's total visits now (new visits per day = the change between snapshots), and
+    # current players and total visits for every earlier tracker game that is no longer tracked.
+    vis = [int(det[u]['visits']) if u in det and det[u].get('visits') else None for u in union]
+    gone = sorted({u for d in days for u in (d.get('u') or d.get('ids') or [])} - set(union), key=int)
+    gone_det = game_details(gone)
+    extra = {u: [int(g.get('playing') or 0), int(g['visits']) if g.get('visits') else None] for u, g in gone_det.items()}
+
     doc = {'v': 2, 'date': date, 'takenAt': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-           'source': 'public', 'u': union, 'ccu': ccu,
+           'source': 'public', 'u': union, 'ccu': ccu, 'vis': vis, 'x': extra,
            'charts': {k: [index[u] for u in charts[k]] for k, _ in CHARTS if charts.get(k)},
            'partial': [], 'meta': meta}
     ccu_line = apply_day_averages(doc, avg, avg_status)
@@ -300,8 +307,8 @@ def cmd_prepare(a):
         else:
             parts.append('%s=%d(+%d/-%d)' % (key, len(now), len(set(now) - set(prev)), len(set(prev) - set(now))))
     missing = sum(1 for u in union if u not in det)
-    print('OK date=%s games=%d fallen_tracked=%d %s meta=%d missing_details=%d bytes=%d dubit=%s'
-          % (date, members, len(fallen), ' '.join(parts), len(meta), missing, len(body.encode()), 'ok' if dubit else 'missing'))
+    print('OK date=%s games=%d fallen_tracked=%d %s meta=%d missing_details=%d untracked_history=%d/%d bytes=%d dubit=%s'
+          % (date, members, len(fallen), ' '.join(parts), len(meta), missing, len(extra), len(gone), len(body.encode()), 'ok' if dubit else 'missing'))
     print(ccu_line)
     print(extras_line)
 

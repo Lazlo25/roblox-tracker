@@ -1,4 +1,3 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Roblox Monetization Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -212,6 +211,20 @@ th[aria-sort="descending"] button::after { content: "↓"; }
 .c1 { position: sticky; left: 0; z-index: 1; width: var(--c1); min-width: var(--c1); text-align: left !important; }
 .c-game { position: sticky; left: var(--c1); z-index: 1; text-align: left !important; white-space: normal !important; min-width: 13rem; max-width: 20rem; box-shadow: 1px 0 0 var(--line); }
 .fallen-table .c-game { left: 0; }
+.gh { all: unset; cursor: pointer; display: inline-grid; place-items: center; width: 22px; height: 22px; margin-left: 6px; border-radius: 6px; color: var(--muted); vertical-align: -5px; transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease; }
+.gh svg { width: 15px; height: 15px; }
+.gh:hover { color: var(--accent-ink); background: var(--accent-soft); box-shadow: 0 0 10px var(--glow-soft); }
+.gh:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+dialog.gdlg { width: min(980px, calc(100vw - 24px)); max-height: calc(100vh - 32px); padding: 0; border: 1px solid var(--line-strong); border-radius: 16px; background: var(--surface); color: var(--ink); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35); overflow: auto; }
+dialog.gdlg::backdrop { background: rgba(20, 20, 19, 0.55); }
+.gdlg-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.gdlg-head h3 { margin: 0; font: 600 var(--step-1)/1.3 var(--display); }
+.gdlg-head .ctl { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.gdlg-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 16px 20px 20px; }
+.gchart h4 { margin: 0 0 6px; font: 500 var(--step--1)/1.3 var(--ui); color: var(--ink-2); text-align: center; }
+.gchart .plot { height: 260px; }
+.gdlg-foot { padding: 0 20px 16px; color: var(--muted); font-size: var(--step--1); }
+@media (max-width: 760px) { .gdlg-body { grid-template-columns: minmax(0, 1fr); } }
 thead .c1, thead .c-game { z-index: 3; }
 td.c-game a { text-decoration: none; font-weight: 500; color: var(--ink); font-size: var(--step-0); }
 td.c-game a:hover { color: var(--accent-ink); text-decoration: underline; }
@@ -477,7 +490,7 @@ tr.flash td { animation: flash 2.4s ease; }
           <dt>Position</dt><dd>Place on that chart today, with its move since the previous snapshot or a New tag. Top Trending lists only games up to 4 months old; they keep their real chart position, so its numbering has gaps, and games that age out leave without becoming Fallen Heroes.</dd>
           <dt>Avg CCU (day)</dt><dd>Concurrent players averaged over the day’s hourly readings, counted from midnight Eastern. At the 1 PM snapshot it covers midnight to 1 PM; the 4-hourly updates extend it, and the 3 AM run finalizes it with the full midnight-to-midnight day. Hover a value for the hours covered, their low–high and the snapshot reading. A game needs readings in at least half the hours so far (12 for a finished day); otherwise it shows its snapshot reading, in italics, as do all days before the hourly job started. Every column built on CCU (history, the CCU change columns, Monetization Score) uses this value</dd>
           <dt>Created</dt><dd>The date the experience was created on Roblox.</dd>
-          <dt>History</dt><dd>Days the game has been recorded on that chart.</dd>
+          <dt>History</dt><dd>Days in a row the game has stayed on that particular chart; it restarts at 1 if the game drops off and returns, and differs from chart to chart.</dd>
           <dt>Session length</dt><dd>Minutes per visit, measured from Roblox’s own counts: the game’s average players over the day divided by its visits per minute (Little’s law), using its visit count at the day’s first and latest hourly readings. It needs at least 6 hours of readings. The small figure is the change since the game’s previous recorded day.</dd>
           <dt>Like %</dt><dd>Share of the game’s votes that are thumbs-up, read every hour from Roblox’s votes API; the day’s latest reading is shown, with its change in percentage points since the previous recorded day.</dd>
           <dt>CCU change</dt><dd>All four columns compare market share: a game’s daily CCU divided by everyone playing Roblox that day (RoTerminal’s day average), so weekday swings, holidays and platform-wide growth or decline cancel out.</dd>
@@ -493,7 +506,7 @@ tr.flash td { animation: flash 2.4s ease; }
           <dt>Est. revenue / month</dt><dd>Chart position sets the estimate: yearly revenue ≈ C × position<sup>−1.084</sup>, a curve that matches Roblox’s reported creator averages for the 12 months to June 30, 2026 (top 10: $65.7M, top 100: $10.8M, top 1,000: $1.4M), scaled so the top 10 average $68M a year, then divided by 12. CCU nudges it: a game with more players than is typical for its position moves toward the game above, fewer moves it toward the game below, never by more than half a position or 10%, so the estimates keep the chart’s order.</dd>
         </dl>
         <h3>Fallen Heroes</h3>
-        <p>When a game drops off a chart it moves to that chart’s Fallen Heroes list, showing its name, CCU, creation date and the days it was recorded on the chart. Its CCU keeps being tracked for 3 days after it leaves. After that tracking stops and only its name stays, faded, until it returns to the chart.</p>
+        <p>When a game drops off a chart it moves to that chart’s Fallen Heroes list, showing its name, CCU, creation date and the days in a row it had stayed on the chart. Its CCU keeps being tracked for 3 days after it leaves. After that tracking stops and only its name stays, faded, until it returns to the chart.</p>
         <h3>Deep Analysis</h3>
         <p>Every day the task also reads each charted game’s public page (description, game passes and developer products with prices, badges, media, likes, favorites, visits, update date, creator) and profiles the gameplay of new or changed games from their descriptions and thumbnails. A script then measures each chart’s pillar, scans every collected trait against it (checking whether one creator, game age or a single threshold drives the result), and re-tests every hypothesis. Confidence rises only when a pattern holds across more games and more days, and each hypothesis is marked New, Strengthened, Weakened, Unchanged or Retired against the day before. The card shows each chart’s title keywords and the hypotheses that point to something a developer can do, worded as short steps with their confidence; hover a step for the hypothesis and evidence behind it. Findings describe associations, not proven causes.</p>
         <h3>Overview</h3>
@@ -508,6 +521,22 @@ tr.flash td { animation: flash 2.4s ease; }
         <p class="muted">Averaging the day’s hourly readings removes most of the time-of-day effect, so games whose players live in other time zones are no longer flattered or penalized by when the snapshot runs; update days and events still move a day’s average. Roblox’s tier averages are per creator, not per game. Revenue figures are for comparing games, not exact earnings.</p>
       </div>
     </section>
+
+    <dialog class="gdlg" id="gh-dlg" aria-labelledby="gh-title">
+      <div class="gdlg-head">
+        <h3 id="gh-title">Game history</h3>
+        <div class="ctl">
+          <a class="btn" id="gh-roblox" href="#" target="_blank" rel="noopener">Roblox page</a>
+          <div class="seg" role="group" aria-label="History range"><button type="button" data-gr="7">1w</button><button type="button" data-gr="30">1m</button><button type="button" data-gr="90">3m</button><button type="button" data-gr="0">All</button></div>
+          <button type="button" class="btn icon-btn" id="gh-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        </div>
+      </div>
+      <div class="gdlg-body">
+        <div class="gchart"><h4>Concurrent Players</h4><div class="plot"><canvas id="gh-ccu" role="img" aria-label="Concurrent players by day"></canvas></div></div>
+        <div class="gchart"><h4>New Visits</h4><div class="plot"><canvas id="gh-vis" role="img" aria-label="New visits by day"></canvas></div></div>
+      </div>
+      <p class="gdlg-foot" id="gh-foot"></p>
+    </dialog>
 
     <footer>Sources: Roblox charts, games and votes APIs; players on Roblox and by genre via <a href="https://roterminal.co" target="_blank" rel="noopener">RoTerminal</a>; creator earnings via <a href="https://www.techspot.com/news/113855-roblox-top-creators-making-65-million-year-while.html">TechSpot</a> and <a href="https://www.dexerto.com/roblox/robloxs-top-creators-average-65-7-million-a-year-but-most-make-far-less-3408675/">Dexerto</a>.</footer>
   </main>
@@ -571,7 +600,7 @@ function normalize(d) {
     const charts = {};
     for (const k of CHART_KEYS) if (Array.isArray(d.charts[k])) charts[k] = d.charts[k].map(i => d.u[i]).filter(Boolean);
     const aligned = a => (Array.isArray(a) && a.length === d.u.length ? a : null);
-    return { date: d.date, takenAt: d.takenAt, u: d.u, ccu: d.ccu, charts, meta: d.meta || {}, dubit: d.dubit && d.dubit.shares ? d.dubit : null,
+    return { date: d.date, takenAt: d.takenAt, u: d.u, ccu: d.ccu, vis: aligned(d.vis), x: d.x && typeof d.x === 'object' ? d.x : null, charts, meta: d.meta || {}, dubit: d.dubit && d.dubit.shares ? d.dubit : null,
       snap: aligned(d.snap), src: aligned(d.src), rng: aligned(d.rng), avg24: d.avg24 || null,
       sess: aligned(d.sess), like: aligned(d.like), plat: platOf(d), rtg: d.rtg && d.rtg.shares ? d.rtg : null };
   }
@@ -590,22 +619,31 @@ function buildModel(rawDays) {
     for (const k of CHART_KEYS) if (d.charts[k]) d.rank[k] = new Map(d.charts[k].map((u, i) => [u, i + 1]));
     if (d.charts.tt) d.charts.tt = d.charts.tt.filter(u => ttYoung(u, d.date));
   }
-  const meta = {}, hist = new Map(), onChart = {}, lastOn = {};
-  CHART_KEYS.forEach(k => { onChart[k] = new Map(); lastOn[k] = new Map(); });
+  const meta = {}, hist = new Map(), onChart = {}, lastOn = {}, runs = {}, prevSet = {}, ser = new Map();
+  const addSer = (u, d, ccu, vis) => { if (!ser.has(u)) ser.set(u, []); ser.get(u).push({ date: d.date, t: dayNum(d.date), ccu, vis }); };
+  CHART_KEYS.forEach(k => { onChart[k] = new Map(); lastOn[k] = new Map(); runs[k] = new Map(); });
   // Market share: a game's CCU divided by everyone playing Roblox that day (RoTerminal's day average). If any day lacks
   // that total, every day falls back to the combined CCU of its 100 biggest games, so the days stay comparable.
   const platShare = days.every(d => d.plat);
   for (const d of days) {
     for (const [u, m] of Object.entries(d.meta)) meta[u] = Object.assign({}, meta[u], m);
     const total = platShare ? d.plat.avg : [...d.ccu].sort((a, b) => b - a).slice(0, SHARE_TOP).reduce((a, x) => a + (x || 0), 0) || 1;
+    d.u.forEach((u, i) => addSer(u, d, d.ccu[i] || 0, d.vis ? d.vis[i] : null));
+    if (d.x) for (const [u, v] of Object.entries(d.x)) addSer(u, d, v[0], v[1]);
     d.u.forEach((u, i) => {
       if (!hist.has(u)) hist.set(u, []);
       hist.get(u).push({ t: dayNum(d.date), ccu: d.ccu[i] || 0, share: (d.ccu[i] || 0) / total, sess: d.sess ? d.sess[i] : null, like: d.like ? d.like[i] : null });
     });
-    for (const k of CHART_KEYS) (d.charts[k] || []).forEach((u, i) => {
-      onChart[k].set(u, (onChart[k].get(u) || 0) + 1);
-      lastOn[k].set(u, { date: d.date, pos: d.rank[k].get(u) });
-    });
+    // History: days in a row on this chart (a day without the game resets it). Days that hold no list for the chart are skipped.
+    for (const k of CHART_KEYS) if (d.charts[k]) {
+      (d.charts[k]).forEach(u => {
+        const run = prevSet[k] && prevSet[k].has(u) ? runs[k].get(u) + 1 : 1;
+        runs[k].set(u, run);
+        onChart[k].set(u, (onChart[k].get(u) || 0) + 1);
+        lastOn[k].set(u, { date: d.date, pos: d.rank[k].get(u), run });
+      });
+      prevSet[k] = new Set(d.charts[k]);
+    }
   }
   const latest = days[days.length - 1], prevDay = days.length > 1 ? days[days.length - 2] : null;
   const latestT = dayNum(latest.date);
@@ -660,7 +698,7 @@ function buildModel(rawDays) {
     const rev = key === 'te' ? revenueModel(ids.map(u => ccuNow.get(u) || 0)) : null;
     const rows = ids.map((u, i) => {
       const r = Object.assign(game(u), {
-        p: latest.rank[key].get(u), onDays: onChart[key].get(u) || 0,
+        p: latest.rank[key].get(u), onDays: runs[key].get(u) || 0,
         prevPos: prevPos ? (prevPos.get(u) || null) : null, isNew: added.has(u),
         rev: rev ? rev[i].mo : null, score: null,
       });
@@ -675,7 +713,7 @@ function buildModel(rawDays) {
       if (members.has(u) || (key === 'tt' && !ttYoung(u, latest.date))) continue;
       const daysOff = latestT - dayNum(last.date), tracked = daysOff <= TRACK_DAYS, h = hist.get(u) || [];
       fallen.push(Object.assign({
-        u, daysOff, tracked, lastPos: last.pos, days: onChart[key].get(u) || 0,
+        u, daysOff, tracked, lastPos: last.pos, days: last.run || 0,
         ccu: tracked ? (ccuNow.has(u) ? ccuNow.get(u) : h.length ? h[h.length - 1].ccu : null) : null,
         ccuSrc: tracked && ccuNow.has(u) ? ccuInfo(u) : { src: null, snap: null, rng: null },
       }, info(u)));
@@ -718,7 +756,7 @@ function buildModel(rawDays) {
   const rtgDay = [...days].reverse().find(d => d.rtg) || null, dubitDay = [...days].reverse().find(d => d.dubit) || null;
   const genreBase = rtgDay ? { src: 'rt', shares: rtgDay.rtg.shares, date: rtgDay.date, hours: rtgDay.rtg.hours, through: rtgDay.rtg.through_et }
     : dubitDay ? { src: 'dubit', shares: dubitDay.dubit.shares, date: dubitDay.date, from: dubitDay.dubit.from, to: dubitDay.dubit.to } : null;
-  return { days, latest, sections, kpi, overlap, onMany, movers, genreBase, platShare, members: members.size, span: [dayNum(days[0].date), latestT] };
+  return { info, ser, days, latest, sections, kpi, overlap, onMany, movers, genreBase, platShare, members: members.size, span: [dayNum(days[0].date), latestT] };
 }
 
 // ===== Formatting =====
@@ -745,6 +783,7 @@ function pct(x) {
   return `<span class="${x > 0 ? 'up' : 'down'}">${pctText(x)}</span>`;
 }
 const gameLink = r => r.place ? `<a href="https://www.roblox.com/games/${esc(r.place)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name);
+const histBtn = u => `<button type="button" class="gh" data-gh="${esc(u)}" title="CCU and visits history" aria-label="Show history charts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 3 8-9"/><path d="M3 21h18"/></svg></button>`;
 const shortName = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
@@ -836,10 +875,10 @@ function ccuCell(n, c) {
 }
 const COL = {
   p: { label: 'Position', dir: 1, cls: 'c1', cell: r => `<td class="c1"><span class="pos">#${r.p}</span>${posPill(r)}</td>` },
-  name: { label: 'Game', dir: 1, cls: 'c-game', sortVal: r => r.name.toLowerCase(), cell: r => `<td class="c-game">${gameLink(r)}</td>` },
+  name: { label: 'Game', dir: 1, cls: 'c-game', sortVal: r => r.name.toLowerCase(), cell: r => `<td class="c-game">${gameLink(r)}${histBtn(r.u)}</td>` },
   n: { label: 'Avg CCU (day)', title: 'Avg CCU (day): the average of the day’s hourly readings since midnight Eastern, updated through the evening and finalized the next day. Hover a value for the hours covered, their low–high and the snapshot reading; italic values are single snapshot readings.', dir: -1, cell: r => ccuCell(r.n, r.ccuSrc) },
   created: { label: 'Created', dir: -1, cell: r => `<td>${shortDate(r.created)}</td>` },
-  onDays: { label: 'History', title: 'History (days on this chart)', dir: -1, cell: r => `<td>${plural(r.onDays, 'day', 'days')}</td>` },
+  onDays: { label: 'History', title: 'History (days in a row on this chart; resets when the game drops off)', dir: -1, cell: r => `<td>${plural(r.onDays, 'day', 'days')}</td>` },
   sess: { label: 'Session', title: 'Session length: minutes per visit today (average players ÷ visits per minute), with the change since the previous recorded day', dir: -1, cell: r => sessCell(r) },
   like: { label: 'Like %', title: 'Like %: share of votes that are thumbs-up, with the change in points since the previous recorded day', dir: -1, cell: r => likeCell(r) },
   vsPrev: { label: 'vs same day last week', title: 'Market share today vs the same weekday a week ago', dir: -1, cell: r => `<td>${pct(r.vsPrev)}</td>` },
@@ -849,7 +888,7 @@ const COL = {
   score: { label: 'Monetization Score', title: 'Monetization Score (rank of position × CCU; 1 = the highest position for the fewest players)', dir: 1, cls: 'score-col', cell: r => `<td class="score">${r.score == null ? dash : r.score}</td>` },
   rev: { label: 'Est. revenue / month', dir: -1, cell: r => `<td class="money">${money3(r.rev)}</td>` },
 };
-const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days on this chart', sess: 'Session length (minutes per visit)', like: 'Like %', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
+const GRAPH = { n: 'Avg CCU (day)', onDays: 'Days in a row on this chart', sess: 'Session length (minutes per visit)', like: 'Like %', vsPrev: 'Share vs same day last week', trend: 'Share, last 7 days vs prior 7', vsFirst: 'Share vs first 7 days', vsPeak: 'Share vs peak 7 days', rev: 'Est. revenue / month' };
 const SIGNED = new Set(['trend', 'vsFirst', 'vsPrev', 'vsPeak']);
 const BASE_COLS = ['p', 'name', 'n', 'created', 'onDays', 'sess', 'like', 'vsPrev', 'trend', 'vsFirst', 'vsPeak'];
 const SECTIONS = CHART_KEYS.map(key => ({
@@ -1012,8 +1051,8 @@ function renderFallen(s) {
   el(k + '-fallen-meta').textContent = sec.fallen.length ? `${tracked} tracked · ${faded} faded` : 'None yet';
   el(k + '-fallen-rows').innerHTML = list.length
     ? list.map(f => (f.tracked
-      ? `<tr><td class="c-game">${gameLink(f)}</td>${f.ccu == null ? `<td>${dash}</td>` : ccuCell(f.ccu, f.ccuSrc)}<td>${shortDate(f.created)}</td><td>${plural(f.days, 'day', 'days')}</td></tr>`
-      : `<tr class="faded"><td class="c-game">${esc(f.name)}</td><td></td><td></td><td></td></tr>`)).join('')
+      ? `<tr><td class="c-game">${gameLink(f)}${histBtn(f.u)}</td>${f.ccu == null ? `<td>${dash}</td>` : ccuCell(f.ccu, f.ccuSrc)}<td>${shortDate(f.created)}</td><td>${plural(f.days, 'day', 'days')}</td></tr>`
+      : `<tr class="faded"><td class="c-game">${esc(f.name)}${histBtn(f.u)}</td><td></td><td></td><td></td></tr>`)).join('')
     : `<tr><td class="empty" colspan="4">${sec.fallen.length ? 'No fallen heroes match this search.' : sec.prevDate ? 'No game has dropped off this chart yet.' : 'Fallen Heroes start with this chart’s second snapshot.'}</td></tr>`;
 }
 
@@ -1341,6 +1380,64 @@ function showMessage(title, body) {
   });
 }
 
+// ===== Game history charts (Rolimons-style daily Concurrent Players and New Visits) =====
+// Before tracking began the days come from the `hist` collection (loaded once per game); after that, from this page's own daily snapshots.
+let dbh = null, ghState = null;
+const GH_RANGES = [7, 30, 90, 0];
+const ghRange = () => (GH_RANGES.includes(prefs.gh) ? prefs.gh : 0);
+const dayStr = t => new Date(t * 864e5).toISOString().slice(0, 10);
+async function ghBase(u) {
+  if (!dbh) return null;
+  try { const snap = await dbh.doc('hist/' + u).get(); return snap.exists ? snap.data() : null; } catch (e) { return null; }
+}
+function ghSeries(u, base) {
+  const rows = new Map();
+  if (base && Array.isArray(base.c)) {
+    const t0 = dayNum(base.d0);
+    base.c.forEach((c, i) => rows.set(t0 + i, { c, v: base.v ? base.v[i] : null }));
+  }
+  const through = base && base.through ? dayNum(base.through) : -Infinity;
+  const own = (model.ser.get(u) || []).slice().sort((a, b) => a.t - b.t);
+  own.forEach((e, i) => {
+    if (e.t <= through) return;
+    const prev = own[i - 1], v = prev && prev.t === e.t - 1 && prev.vis != null && e.vis != null ? Math.max(0, e.vis - prev.vis) : null;
+    rows.set(e.t, { c: e.ccu, v });
+  });
+  const ts = [...rows.keys()].sort((a, b) => a - b);
+  return { ts, c: ts.map(t => rows.get(t).c), v: ts.map(t => rows.get(t).v), base: !!base };
+}
+function renderGhCharts() {
+  if (!ghState) return;
+  const { series: S } = ghState, n = ghRange(), from = n ? Math.max(0, S.ts.length - n) : 0;
+  const labels = S.ts.slice(from).map(t => shortDate(dayStr(t)));
+  const mk = (id, vals, bar) => makeChart(id, {
+    type: bar ? 'bar' : 'line',
+    data: { labels, datasets: [bar
+      ? { data: vals, backgroundColor: cssVar('--accent'), borderWidth: 0, barPercentage: 1, categoryPercentage: 1 }
+      : { data: vals, borderColor: cssVar('--blue'), backgroundColor: cssVar('--blue-soft'), fill: true, borderWidth: 1.5, pointRadius: 0, tension: 0.2, spanGaps: true }] },
+    options: { interaction: { mode: 'index', intersect: false }, plugins: { tooltip: { displayColors: false, callbacks: { label: i => (i.raw == null ? 'No reading' : int(i.raw)) } } },
+      scales: { x: { ticks: { maxTicksLimit: 7, autoSkip: true, maxRotation: 0 } }, y: { beginAtZero: true, ticks: { callback: v => compact(v) } } } },
+  });
+  mk('gh-ccu', S.c.slice(from), false);
+  mk('gh-vis', S.v.slice(from), true);
+  document.querySelectorAll('[data-gr]').forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.gr) === n)));
+}
+async function openHist(u) {
+  const dlg = el('gh-dlg'), info = model.info(u);
+  el('gh-title').textContent = info.name;
+  const link = el('gh-roblox'); link.hidden = !info.place; link.href = info.place ? 'https://www.roblox.com/games/' + info.place : '#';
+  el('gh-foot').textContent = 'Loading history…';
+  ghState = { u, series: ghSeries(u, null) };
+  if (!dlg.open) dlg.showModal();
+  renderGhCharts();
+  const base = await ghBase(u);
+  if (!ghState || ghState.u !== u) return;
+  ghState.series = ghSeries(u, base);
+  const S = ghState.series;
+  el('gh-foot').textContent = S.ts.length ? `${plural(S.ts.length, 'day', 'days')}, ${shortDate(dayStr(S.ts[0]))} to ${shortDate(dayStr(S.ts[S.ts.length - 1]))}` + (base ? '' : ' · only this tracker’s own days; earlier history isn’t stored for this game') : 'No readings yet';
+  renderGhCharts();
+}
+
 // ===== Boot =====
 function boot() {
   el('sections').innerHTML = SECTIONS.map(sectionShell).join('');
@@ -1387,6 +1484,13 @@ function boot() {
   });
   Object.keys(MINI).forEach(k => el(k + '-min').addEventListener('click', () => { prefs.cards = Object.assign({}, prefs.cards, { [k]: { open: !cardOpen(k) } }); savePrefs(); renderCardMins(); }));
   renderCardMins();
+  document.addEventListener('click', e => {
+    const g = e.target.closest('.gh'); if (g && model) { openHist(g.dataset.gh); return; }
+    const r = e.target.closest('[data-gr]'); if (r) { prefs.gh = Number(r.dataset.gr); savePrefs(); renderGhCharts(); }
+  });
+  el('gh-close').addEventListener('click', () => el('gh-dlg').close());
+  el('gh-dlg').addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+  el('gh-dlg').addEventListener('close', () => { ghState = null; for (const id of ['gh-ccu', 'gh-vis']) if (charts[id]) { charts[id].destroy(); delete charts[id]; } });
   el('method-min').addEventListener('click', () => { prefs.method = { open: !methodOpen() }; savePrefs(); renderMethod(); });
   document.querySelectorAll('[data-da]').forEach(b => b.addEventListener('click', () => { prefs.da = b.dataset.da; savePrefs(); renderAnalysis(); }));
   el('onlyNew').addEventListener('click', e => { const b = e.currentTarget; b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true')); SECTIONS.forEach(renderSection); });
@@ -1413,6 +1517,7 @@ function boot() {
 
   const use = window.claude && window.claude.use ? window.claude.use('db') : Promise.resolve(null);
   use.then(db => {
+    dbh = db;
     if (!db) { showMessage('Sign in to see the tracker.', 'The daily snapshots are stored in this page’s database, which loads for signed-in claude.ai viewers.'); return; }
     db.doc('live/platform').onSnapshot(snap => { live = snap.exists ? snap.data() : null; renderPlayers(); }, () => { live = null; renderPlayers(); });
     db.collection('analysis').orderBy('date', 'desc').limit(1).onSnapshot(snap => {
@@ -1433,6 +1538,3 @@ function boot() {
 if (typeof document !== 'undefined') boot();
 if (typeof module !== 'undefined') module.exports = { revenueModel, buildModel, trendPerDay, normalize, validDay };
 </script>
-
-
-</body></html>
