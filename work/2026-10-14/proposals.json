@@ -1,0 +1,27 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games with more than one game pass climb Top Trending faster than games of similar age with one or none",
+     "action": "Launch with several game passes",
+     "test": {"feature": "passes_n", "metric": "tt_mom", "type": "threshold", "cut": 1, "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with more than two page images climb Top Trending faster than games of similar age",
+     "action": "Upload several page images",
+     "test": {"feature": "media_images", "metric": "tt_mom", "type": "threshold", "cut": 2, "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Descriptions that ask players to favorite the game go with higher Up-and-Coming positions among games of the same age",
+     "action": "Ask players to favorite the game",
+     "test": {"feature": "cta_favorite", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games selling revives or second chances rank higher on Up-and-Coming among games of the same age",
+     "action": "Sell revives",
+     "test": {"feature": "prod_revive", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-006", "confidence": 50, "note": "Sell Fries! [Anomaly] (23 days) leads Up-and-Coming and was the biggest Most Popular riser (+30); Home Alone: Anomalies stays on Top Trending. Halloween season remains a confounder, and Sell Fries! is also among the least efficient Top Earning games."},
+    {"id": "H-x-011", "confidence": 35, "note": "Day 2 of support: Steal A Verity! (-24) and Kick a Lucky Block (-31) are among the biggest Most Popular fallers, 'Steal' titles go with weaker Top Trending momentum (r -0.55), and steal loops have the lowest Up-and-Coming median (19), while Steal An Egg still leads. Counter: Steal An EXE Egg rose 32 on Top Trending."},
+    {"id": "H-x-010", "confidence": 35, "note": "Scooter Empire (+144) and THROTTLE Motorcycle Street Racing (+126) were among the biggest Top Earning risers, and racing_driving loops now have the best median Top Earning percentile (72) of profiled loops; WRONG WAY! stays among the Top Trending leaders. Scooter Empire fell 25 on Up-and-Coming."},
+    {"id": "H-mp-009", "confidence": 40, "note": "Day 9: 123-365-day games again have a low median pillar percentile (35), below 15-42-day games (45) and multi-year games (62); 85-122 days has only 2 games."}
+  ],
+  "actions": [
+    {"id": "H-te-021", "action": "Don't rely on survival games for revenue"},
+    {"id": "H-te-024", "action": "Avoid steal-a-X loops for revenue"}
+  ],
+  "retire": []
+}

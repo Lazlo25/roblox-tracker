@@ -1,0 +1,749 @@
+[
+  {
+    "label": "Q31",
+    "loop": "get a $20 budget -> draft anime characters at different prices -> compare teams with other players -> vote/win -> earn cash and wins",
+    "loop_archetype": "party_minigames",
+    "objectives": "draft the strongest anime team within a fixed budget and beat other players' teams",
+    "progression": "wins and cash (2x wins/cash passes); unclear beyond that",
+    "instructions": "spend your $20 budget to draft the strongest anime team and compare with other players",
+    "mechanics": [
+      "budget drafting",
+      "team comparison",
+      "voting/judging",
+      "troll effects"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "budget-draft 'who would win' anime debate turned into a round-based party game",
+      "paid troll effects on other players (fat seal, tomato, flashbang)"
+    ],
+    "themes": [
+      "anime",
+      "draft",
+      "budget"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "choose the stronger",
+      "anime draft",
+      "who would win"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "2x cash pass",
+      "2x wins pass",
+      "draft cash",
+      "steal",
+      "troll effects",
+      "cash packs"
+    ],
+    "update_signals": [],
+    "thumbnails": "anime characters (Goku, Naruto, Gojo) at a table with $20 budgets, draft board with prices; Roblox avatar with $ vs 0$",
+    "thumbnail_style": "text_ad",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 1,
+    "complexity_notes": "lobby plus draft UI and round logic; characters likely shown as images/models; simple",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q32",
+    "loop": "queue for 1v1/2v2/3v3 basketball match -> score and win -> earn rep/rewards -> spin crates and unlock cosmetics -> climb leaderboard",
+    "loop_archetype": "sports_competitive",
+    "objectives": "win basketball matches and climb the leaderboards",
+    "progression": "rep/level, leaderboards, season pass, cosmetic collection",
+    "instructions": "play 1v1, 2v2, 3v3 matches, customize your look, climb leaderboards, hang out",
+    "mechanics": [
+      "arcade basketball",
+      "dunks and moves",
+      "matchmaking",
+      "cosmetic crates",
+      "spins",
+      "season pass",
+      "social hangout"
+    ],
+    "social": "mixed",
+    "competitive": "core",
+    "unique": [
+      "large rotating themed bundles (Halloween, March Madness, Cinco de Mayo)"
+    ],
+    "themes": [
+      "basketball",
+      "sports",
+      "halloween"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "spooky season"
+    ],
+    "monetization_signals": [
+      "44 game passes",
+      "themed bundles up to 2999",
+      "season pass premium",
+      "spins",
+      "ball skin crates",
+      "rep boosts",
+      "badge slots",
+      "gifts"
+    ],
+    "update_signals": [
+      "Halloween/Spooky SZN update",
+      "regular updates",
+      "seasonal bundles",
+      "season pass"
+    ],
+    "thumbnails": "cartoon players dunking, Halloween skeleton costumes and pumpkins, UPDATE banner, 1% rare move",
+    "thumbnail_style": "event_banner",
+    "thumb_text_numbers": true,
+    "video": "1 video on page; content unclear",
+    "complexity": 3,
+    "complexity_notes": "court gameplay with ball physics, custom animations for dunks/moves, matchmaking, large cosmetic catalog",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q33",
+    "loop": "skydive into arena -> grab free weapons and airdrops -> eliminate rivals -> earn gold/loot boxes -> customize weapons",
+    "loop_archetype": "combat_pvp",
+    "objectives": "eliminate every enemy and grab legendary airdrop weapons",
+    "progression": "seasons (S5), gold, loot boxes, weapon skins",
+    "instructions": "skydive in, land anywhere, get any weapon free, fight rivals, loot airdrops",
+    "mechanics": [
+      "first-person shooting",
+      "skydive drop-in",
+      "airdrops",
+      "loot boxes",
+      "weapon customization",
+      "cross-platform"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [],
+    "themes": [
+      "military",
+      "guns",
+      "shooter"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "FPS",
+      "airdrop"
+    ],
+    "monetization_signals": [
+      "VIP pass",
+      "loot boxes",
+      "gold packs",
+      "starter/advanced packs",
+      "codes at like goals"
+    ],
+    "update_signals": [
+      "Season 5",
+      "like-goal codes",
+      "new weapon drops"
+    ],
+    "thumbnails": "first-person sniper scopes and skinned rifles in a shipping-container arena, gold gun icon",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 3,
+    "complexity_notes": "FPS framework, weapon system with skins, airdrop spawning, cross-platform incl. console",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q34",
+    "loop": "roll for rare plants -> place in base to earn money (also offline) -> build defenses (turrets, walls) -> break into other bases to steal plants -> upgrade",
+    "loop_archetype": "steal_defend_base",
+    "objectives": "build the best base and collect rare plants while protecting them",
+    "progression": "plant rarity, cash, base upgrades/defenses, pets",
+    "instructions": "roll plants, build base, break into others, steal and protect plants, collect pets, earn offline; co-op available",
+    "mechanics": [
+      "rng rolling",
+      "base building",
+      "turret defense",
+      "stealing",
+      "pets",
+      "offline income",
+      "co-op"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "co-op team bases combined with build-your-own defenses in the steal-a-x format"
+    ],
+    "themes": [
+      "plants",
+      "base building"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "steal-a-x",
+      "build a base",
+      "rng"
+    ],
+    "monetization_signals": [
+      "luck passes",
+      "VIP",
+      "2x cash",
+      "auto collect",
+      "base lock timer",
+      "cash packs",
+      "server luck",
+      "gift versions"
+    ],
+    "update_signals": [],
+    "thumbnails": "robber climbing palm tree, BUILD & DEFEND base with turrets, giant pink plant guarded by turrets",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 2,
+    "complexity_notes": "base building/turrets plus steal loop; template-like",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q35",
+    "loop": "open anime card packs -> place cards to generate cash (offline too) -> upgrade cards / craft -> buy better packs -> find mutated rare cards",
+    "loop_archetype": "idle_income_tycoon",
+    "objectives": "collect the best (rare/mutated) anime cards and climb the leaderboard",
+    "progression": "cash/s, pack tiers, card upgrades, mutations, base expansion",
+    "instructions": "open packs, upgrade cards to earn more money, buy epic packs, find mutated cards, climb leaderboard",
+    "mechanics": [
+      "pack opening",
+      "idle income",
+      "offline earnings",
+      "card upgrades",
+      "mutations",
+      "conveyor",
+      "crafting",
+      "leaderboard"
+    ],
+    "social": "solo",
+    "competitive": "light",
+    "unique": [
+      "trading-card pack opening as a tycoon income source"
+    ],
+    "themes": [
+      "anime",
+      "trading cards"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "card packs",
+      "anime"
+    ],
+    "monetization_signals": [
+      "auto conveyor",
+      "luck passes",
+      "VIP",
+      "2x cash",
+      "offline cash",
+      "cash packs",
+      "discount bundles",
+      "claim all"
+    ],
+    "update_signals": [
+      "[UPD] tag",
+      "new passes"
+    ],
+    "thumbnails": "big $/s and $1 -> $961M card value, rainbow UR cards of anime characters",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 video on page; content unclear",
+    "complexity": 2,
+    "complexity_notes": "tycoon plot with conveyor and card displays; simple systems",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q36",
+    "loop": "enter zombie dungeons -> hack-and-slash with anime abilities -> earn coins/loot -> spin abilities, traits, gadgets -> harder modes",
+    "loop_archetype": "wave_survival_coop",
+    "objectives": "survive and clear zombie-filled dungeons",
+    "progression": "abilities, traits, gadgets, pets, loadouts, ability slots",
+    "instructions": "fight through zombie dungeons with anime abilities; full control scheme listed",
+    "mechanics": [
+      "hack-and-slash combat",
+      "ability spins",
+      "trait rerolls",
+      "gadgets",
+      "parkour movement",
+      "pets",
+      "dungeons",
+      "game modes"
+    ],
+    "social": "coop",
+    "competitive": "light",
+    "unique": [
+      "parkour movement combined with anime ability dungeon crawling"
+    ],
+    "themes": [
+      "anime",
+      "zombies",
+      "apocalypse"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "anime abilities",
+      "Asta"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "auto spin/reroll passes",
+      "lucky ability spins",
+      "ability slots",
+      "pet packs",
+      "coin packs"
+    ],
+    "update_signals": [
+      "beta, frequent updates",
+      "ASTA character update"
+    ],
+    "thumbnails": "dramatic anime-style character art (Asta, dark-haired fighters) with effects",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "combat VFX, many abilities with animations, dungeons, multiple modes and controller support",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q37",
+    "loop": "pick a team (Class-D, Scientist, Guard, etc.) -> roleplay experiments, riots, escapes or containment -> rank up and unlock teams",
+    "loop_archetype": "roleplay_social",
+    "objectives": "escape or contain SCP anomalies depending on your team",
+    "progression": "ranks, unlocking teams, credits",
+    "instructions": "play as prisoner, scientist or guard; escape, experiment or protect; modes like Infection via menu",
+    "mechanics": [
+      "team roleplay",
+      "escape",
+      "containment",
+      "combat",
+      "SCP monsters",
+      "game modes"
+    ],
+    "social": "mixed",
+    "competitive": "light",
+    "unique": [
+      "asymmetric team roleplay in an SCP facility with paid faction access"
+    ],
+    "themes": [
+      "SCP",
+      "horror",
+      "sci-fi facility"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "SCP"
+    ],
+    "monetization_signals": [
+      "paid team/faction passes (O5 Council 1875)",
+      "VIP",
+      "credits",
+      "nuke",
+      "boombox",
+      "riot",
+      "one-life keycard"
+    ],
+    "update_signals": [
+      "modes such as Infection"
+    ],
+    "thumbnails": "cinematic SCP creatures in a dark facility, cartoon Class-D and guard characters",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 4,
+    "complexity_notes": "large facility map, many teams and roles, SCP AI, weapons; long-running",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q38",
+    "loop": "dig asteroids for orbs -> hatch orbs into planets -> planets earn money (offline) -> buy better orbs -> complete collection",
+    "loop_archetype": "hatch_collect_pets",
+    "objectives": "collect all planets and grow your solar system",
+    "progression": "planet rarity, $/s, better orbs",
+    "instructions": "dig asteroids, hatch orbs into planets, earn money, buy better orbs",
+    "mechanics": [
+      "digging",
+      "hatching",
+      "collection",
+      "idle income",
+      "offline earnings"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "planets as hatchable pets in a personal solar system"
+    ],
+    "themes": [
+      "space",
+      "planets"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "collect-x"
+    ],
+    "monetization_signals": [
+      "collect all pass",
+      "cash multiplier products up to x100 (6767)",
+      "timed cash"
+    ],
+    "update_signals": [],
+    "thumbnails": "glowing planets with $/s figures, solar system, mystery planet, EARNS OFFLINE",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "small map, hatching UI, planet models",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q39",
+    "loop": "summon units -> place them to defend rooms of The House against waves -> earn coins/tokens -> equip items and summon rarer units -> progress floors",
+    "loop_archetype": "tower_defense",
+    "objectives": "defeat the evil inside The House across cursed floors and modes",
+    "progression": "units, items, floors, game modes",
+    "instructions": "summon units, equip items, battle zombies/ghosts/bosses, team up with friends",
+    "mechanics": [
+      "unit summoning",
+      "tower placement",
+      "items/equipment",
+      "boss waves",
+      "co-op",
+      "auto replay"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "horror haunted-house setting for a TD"
+    ],
+    "themes": [
+      "horror",
+      "haunted house",
+      "halloween"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "tower defense",
+      "halloween"
+    ],
+    "monetization_signals": [
+      "2x coins",
+      "2x voodoo tokens",
+      "shiny hunter",
+      "gamespeed",
+      "auto replay",
+      "fast roll",
+      "urns (summons)",
+      "token/coin packs"
+    ],
+    "update_signals": [
+      "[UPD] tag",
+      "Halloween theme",
+      "early beta"
+    ],
+    "thumbnails": "Halloween pumpkin, creepy characters in The House rooms, units fighting with HP bars",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 3,
+    "complexity_notes": "many units and enemies, TD logic, multiple floors/modes",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q40",
+    "loop": "steal eggs from anime -> hatch rare anime -> earn money -> upgrade treadmill and base -> train speed -> steal other players' eggs",
+    "loop_archetype": "steal_defend_base",
+    "objectives": "collect the rarest anime eggs and anime",
+    "progression": "speed, treadmill levels, egg rarity, sizes, mutations",
+    "instructions": "steal eggs, hatch anime, earn money, upgrade treadmill and base, train speed, steal from players",
+    "mechanics": [
+      "stealing",
+      "egg hatching",
+      "treadmill training",
+      "speed",
+      "income",
+      "mutations"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "treadmill speed training combined with steal-a-x egg theft"
+    ],
+    "themes": [
+      "anime",
+      "eggs"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "steal-a-x",
+      "anime"
+    ],
+    "monetization_signals": [
+      "treadmill level passes",
+      "speed multipliers",
+      "rarity passes",
+      "speed and cash products"
+    ],
+    "update_signals": [],
+    "thumbnails": "avatars running off with giant eggs, anime characters chasing, YOU arrow",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 2,
+    "complexity_notes": "template steal-a-x map with treadmill; simple",
+    "novelty": 0,
+    "confidence": 75
+  },
+  {
+    "label": "Q41",
+    "loop": "choose a car -> weave through highway traffic at speed -> earn cash -> buy more cars -> meet up and show off",
+    "loop_archetype": "racing_driving",
+    "objectives": "drive fast cars through traffic and build a car collection",
+    "progression": "cash, car collection, track pass",
+    "instructions": "swerve through traffic, race, explore highways/cities with friends, host meetups; code given",
+    "mechanics": [
+      "driving",
+      "traffic weaving",
+      "car collection",
+      "customization",
+      "police",
+      "meetups",
+      "minimap"
+    ],
+    "social": "social_hub",
+    "competitive": "light",
+    "unique": [
+      "highway traffic cut-up simulator focus"
+    ],
+    "themes": [
+      "cars",
+      "highways",
+      "city"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "car meetups",
+      "codes"
+    ],
+    "monetization_signals": [
+      "VIP",
+      "track pass",
+      "police pass",
+      "mobile customization",
+      "paid cars",
+      "presents currency"
+    ],
+    "update_signals": [
+      "like-goal codes",
+      "minimap update"
+    ],
+    "thumbnails": "realistic supercars on highways, scenic city and lighthouse sunsets",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "large highway/city map, many vehicle models and driving physics",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q42",
+    "loop": "loot the city -> build defenses -> survive zombie waves (with revives/generators) -> escape",
+    "loop_archetype": "wave_survival_coop",
+    "objectives": "survive the zombies and escape",
+    "progression": "classes, emeralds; unclear",
+    "instructions": "loot the city, build defenses, survive zombies, escape",
+    "mechanics": [
+      "looting",
+      "building defenses",
+      "guns",
+      "zombie waves",
+      "classes",
+      "revives",
+      "vehicles"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [],
+    "themes": [
+      "zombies",
+      "apocalypse"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "zombie survival"
+    ],
+    "monetization_signals": [
+      "self-revive",
+      "revive all",
+      "repair generator",
+      "class rerolls",
+      "emeralds",
+      "gifts"
+    ],
+    "update_signals": [
+      "[UPD] tag"
+    ],
+    "thumbnails": "cartoon survivors shooting zombies, driving pickup truck, first-person pistol",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "1 video on page; content unclear",
+    "complexity": 3,
+    "complexity_notes": "city map, zombie AI, defenses, vehicles, guns",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q43",
+    "loop": "roll for mounts -> explore islands -> fight enemies -> boost luck -> complete 700+ mount collection",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "collect ultra-rare mounts and complete the collection",
+    "progression": "mount rarity, islands, luck boosts",
+    "instructions": "roll for mounts, explore islands, fight enemies; luck from friends, likes, group",
+    "mechanics": [
+      "rng rolling",
+      "mount collection",
+      "exploration",
+      "combat",
+      "luck boosts"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "mounts as the RNG collectible, used for travel and fighting"
+    ],
+    "themes": [
+      "dragons",
+      "mounts",
+      "fantasy",
+      "halloween"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "RNG"
+    ],
+    "monetization_signals": [
+      "luck rolls",
+      "fast roll",
+      "magnet",
+      "essences",
+      "donation tiers",
+      "luck stars"
+    ],
+    "update_signals": [
+      "update 54",
+      "biweekly updates",
+      "Halloween"
+    ],
+    "thumbnails": "dragons with 1 in 67,677,766,677 and 1 in 1,000,000,000 odds",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 video on page; content unclear",
+    "complexity": 3,
+    "complexity_notes": "700+ mount models, several islands, combat",
+    "novelty": 1,
+    "confidence": 80
+  },
+  {
+    "label": "Q44",
+    "loop": "roll for height -> train strength -> defeat opponents -> earn cash -> flex",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "become the tallest and strongest",
+    "progression": "height rolls, strength, cash",
+    "instructions": "roll for height, train strength, defeat opponents, flex",
+    "mechanics": [
+      "rng rolling",
+      "training",
+      "fighting",
+      "luck"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "rolling for body height as the RNG reward"
+    ],
+    "themes": [
+      "height",
+      "gym",
+      "strength"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "roll your x",
+      "RNG"
+    ],
+    "monetization_signals": [
+      "luck passes",
+      "2x strength/train speed",
+      "auto train",
+      "VIP",
+      "server luck boosts",
+      "cash packs"
+    ],
+    "update_signals": [],
+    "thumbnails": "avatar growing taller (7ft, 100cm to 200cm), buff muscled avatar, +100 numbers",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "1 video on page; content unclear",
+    "complexity": 1,
+    "complexity_notes": "flat baseplate, avatar scaling",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q45",
+    "loop": "items spawn -> push/collect items -> earn cash -> upgrade pusher and luck -> rebirth -> find rarer items",
+    "loop_archetype": "incremental_plus1",
+    "objectives": "collect rare and secret items toward 1 million",
+    "progression": "cash, pusher upgrades, rebirths, luck, streaks",
+    "instructions": "collect items, earn cash, find secrets, unlock better pushers, rebirth",
+    "mechanics": [
+      "item collection",
+      "pusher upgrades",
+      "rebirth",
+      "luck",
+      "pets",
+      "abilities",
+      "auras",
+      "streaks"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "pusher tool to collect massive numbers of items"
+    ],
+    "themes": [
+      "items",
+      "treasure"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "collect x items",
+      "1 million"
+    ],
+    "monetization_signals": [
+      "server luck up to x512 (9984)",
+      "auras",
+      "pushers",
+      "pet equip",
+      "VIP",
+      "restore streak"
+    ],
+    "update_signals": [],
+    "thumbnails": "$1,000,000, diamonds and crowns, 1/974,395,235 rare dominus, SECRET DROP sword",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "open map with spawning items, pushers and abilities",
+    "novelty": 1,
+    "confidence": 70
+  }
+]
