@@ -320,8 +320,9 @@ def cmd_youtube(a):
             continue
         with tempfile.TemporaryDirectory() as tmp:
             path = os.path.join(tmp, 'v.mp4')
-            r = subprocess.run(['yt-dlp', '-f', 'bv*[height<=480]+ba/b[height<=480]/b', '--merge-output-format', 'mp4', '--no-playlist',
-                                '--no-warnings', '-o', path, 'https://www.youtube.com/watch?v=' + v['id']], capture_output=True, text=True, timeout=1800)
+            # The tv/mweb clients give a plain 360p-480p file; yt-dlp's default client is refused with 403 from here.
+            r = subprocess.run(['yt-dlp', '--extractor-args', 'youtube:player_client=tv,mweb', '-f', 'b[height<=480]/bv*[height<=480]+ba/b',
+                                '--merge-output-format', 'mp4', '--no-playlist', '--no-warnings', '-o', path, 'https://www.youtube.com/watch?v=' + v['id']], capture_output=True, text=True, timeout=1800)
             if r.returncode or not os.path.exists(path):
                 print('skip', u, 'download failed:', r.stderr[-200:])
                 continue

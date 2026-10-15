@@ -9,7 +9,7 @@
    ],
    "name": "Brookhaven 🏡RP",
    "place": "4924922222",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "1686885941"
   },
   {
@@ -20,7 +20,7 @@
    ],
    "name": "RIVALS",
    "place": "17625359962",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "6035872082"
   },
   {
@@ -31,7 +31,7 @@
    ],
    "name": "[🎃] Adopt Me!",
    "place": "920587237",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "383310974"
   },
   {
@@ -42,7 +42,7 @@
    ],
    "name": "Blox Fruits",
    "place": "2753915549",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "994732206"
   },
   {
@@ -52,7 +52,7 @@
    ],
    "name": "Catalog Avatar Creator",
    "place": "7041939546",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "2711375305"
   },
   {
@@ -63,7 +63,7 @@
    ],
    "name": "Dress To Impress ⭐",
    "place": "15101393044",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "5203828273"
   },
   {
@@ -74,7 +74,7 @@
    ],
    "name": "The Strongest Battlegrounds",
    "place": "10449761463",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "3808081382"
   },
   {
@@ -85,7 +85,7 @@
    ],
    "name": "🔥Hypershot",
    "place": "17516596118",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "5995470825"
   },
   {
@@ -96,8 +96,69 @@
    ],
    "name": "Evade",
    "place": "9872472334",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "3647333358"
+  },
+  {
+   "age_days": 1197,
+   "charts": [
+    "mp"
+   ],
+   "name": "LifeTogether 🏠 RP",
+   "place": "13967668166",
+   "status": "queued",
+   "u": "4839802560"
+  },
+  {
+   "age_days": 1946,
+   "charts": [
+    "mp"
+   ],
+   "name": "Fling Things and People",
+   "place": "6961824067",
+   "status": "queued",
+   "u": "2668101271"
+  },
+  {
+   "age_days": 1741,
+   "charts": [
+    "mp"
+   ],
+   "name": "Berry Avenue 🏠 RP",
+   "place": "8481844229",
+   "status": "queued",
+   "u": "3240075297"
+  },
+  {
+   "age_days": 2670,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Driving Empire [✨RAM DEBUT✨ ]",
+   "place": "3351674303",
+   "status": "queued",
+   "u": "1202096104"
+  },
+  {
+   "age_days": 1215,
+   "charts": [
+    "te"
+   ],
+   "name": "Blade Ball",
+   "place": "13772394625",
+   "status": "queued",
+   "u": "4777817887"
+  },
+  {
+   "age_days": 945,
+   "charts": [
+    "te"
+   ],
+   "name": "Fisch 🐟 [SAVE NATE]",
+   "place": "16732694052",
+   "status": "queued",
+   "u": "5750914919"
   },
   {
    "age_days": 4362,
@@ -106,8 +167,38 @@
    ],
    "name": "[🎃] Welcome to Bloxburg",
    "place": "185655149",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "88070565"
+  },
+  {
+   "age_days": 2302,
+   "charts": [
+    "te"
+   ],
+   "name": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals",
+   "place": "5233782396",
+   "status": "queued",
+   "u": "1831550657"
+  },
+  {
+   "age_days": 1966,
+   "charts": [
+    "te"
+   ],
+   "name": "BedWars [UPDATE]",
+   "place": "6872265039",
+   "status": "queued",
+   "u": "2619619496"
+  },
+  {
+   "age_days": 1472,
+   "charts": [
+    "te"
+   ],
+   "name": "Baddies 💅",
+   "place": "11158043705",
+   "status": "queued",
+   "u": "3990106548"
   },
   {
    "age_days": 3153,
@@ -116,7 +207,7 @@
    ],
    "name": "ABA",
    "place": "1458767429",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "578392296"
   },
   {
@@ -126,180 +217,99 @@
    ],
    "name": "[🗺️] Emergency Response: Liberty County",
    "place": "2534724415",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "903807016"
+  },
+  {
+   "age_days": 649,
+   "charts": [
+    "te"
+   ],
+   "name": "[😈JOHNNY🐎] Basketball: Zero",
+   "place": "130739873848552",
+   "status": "queued",
+   "u": "7028566528"
+  },
+  {
+   "age_days": 3474,
+   "charts": [
+    "te"
+   ],
+   "name": "Royale🎃High",
+   "place": "735030788",
+   "status": "queued",
+   "u": "321778215"
+  },
+  {
+   "age_days": 2450,
+   "charts": [
+    "te"
+   ],
+   "name": "[Visby] War Tycoon",
+   "place": "4639625707",
+   "status": "queued",
+   "u": "1526814825"
+  },
+  {
+   "age_days": 810,
+   "charts": [
+    "te"
+   ],
+   "name": "[🌟Sendou] Blue Lock: Rivals",
+   "place": "18668065416",
+   "status": "queued",
+   "u": "6325068386"
+  },
+  {
+   "age_days": 2648,
+   "charts": [
+    "te"
+   ],
+   "name": "[⭐SZN 10] Dragon Adventures 🐉",
+   "place": "3475397644",
+   "status": "queued",
+   "u": "1235188606"
+  },
+  {
+   "age_days": 707,
+   "charts": [
+    "te"
+   ],
+   "name": "BlockSpin 🔪 [FISHING UPDATE!]",
+   "place": "104715542330896",
+   "status": "queued",
+   "u": "6765805766"
+  },
+  {
+   "age_days": 711,
+   "charts": [
+    "te"
+   ],
+   "name": "Asylum Life 🔊",
+   "place": "132352755769957",
+   "status": "queued",
+   "u": "6749060816"
+  },
+  {
+   "age_days": 2456,
+   "charts": [
+    "te"
+   ],
+   "name": "Piggy [FRIGHTFUL FOREST]",
+   "place": "4623386862",
+   "status": "queued",
+   "u": "1516533665"
+  },
+  {
+   "age_days": 1829,
+   "charts": [
+    "te"
+   ],
+   "name": "Emergency Hamburg",
+   "place": "7711635737",
+   "status": "queued",
+   "u": "2992873140"
   }
  ],
- "waiting": [
-  {
-   "name": "DOORS 🚨",
-   "u": "2440500124",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "LifeTogether 🏠 RP",
-   "u": "4839802560",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Fling Things and People",
-   "u": "2668101271",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Berry Avenue 🏠 RP",
-   "u": "3240075297",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Realistic Street Soccer",
-   "u": "4949420752",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Forsaken",
-   "u": "6331902150",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Driving Empire [✨RAM DEBUT✨ ]",
-   "u": "1202096104",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Dreamville 🏡 RP [Boats! 🚤]",
-   "u": "6521100398",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Slayers 2",
-   "u": "5595353122",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Blade Ball",
-   "u": "4777817887",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Fisch 🐟 [SAVE NATE]",
-   "u": "5750914919",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[🌙 NIGHT 1] Tower Defense Simulator",
-   "u": "1176784616",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "🔥 [BLOOD MOON] Pet Simulator 99! 👻",
-   "u": "3317771874",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals",
-   "u": "1831550657",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Vanguards: 2nd Anniversary",
-   "u": "5578556129",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[RANKED] SNIPER DUELS",
-   "u": "7264587281",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[🔥NIKE] NFL Universe Football",
-   "u": "184199275",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "BedWars [UPDATE]",
-   "u": "2619619496",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Baddies 💅",
-   "u": "3990106548",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Cold War [VIETNAM]",
-   "u": "4750561026",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[🧚‍♀️] Grow a Garden 🌶️",
-   "u": "7436755782",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[🪸UPD] Fish It! 🐟",
-   "u": "6701277882",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[⚔️] Ink Game",
-   "u": "7008097940",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "TB II | Tower Defense X: BETA",
-   "u": "3541611379",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[😈JOHNNY🐎] Basketball: Zero",
-   "u": "7028566528",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Royale🎃High",
-   "u": "321778215",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Attack on Titan Revolution",
-   "u": "4658598196",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[Visby] War Tycoon",
-   "u": "1526814825",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[🌟Sendou] Blue Lock: Rivals",
-   "u": "6325068386",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "[⭐SZN 10] Dragon Adventures 🐉",
-   "u": "1235188606",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "BlockSpin 🔪 [FISHING UPDATE!]",
-   "u": "6765805766",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Asylum Life 🔊",
-   "u": "6749060816",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Piggy [FRIGHTFUL FOREST]",
-   "u": "1516533665",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Emergency Hamburg",
-   "u": "2992873140",
-   "why": "needs Rolimons history"
-  }
- ]
+ "waiting": []
 }
