@@ -41,7 +41,11 @@ collections from the table.
    b. Gameplay profiling. Read `PROFILE_GUIDE.md` once. For each `work/D/dossier_NN.md`: read it, look at its contact
       sheets (dossier_01 covers sheet_01–03, dossier_02 sheet_04–06, and so on; view them with the Read tool) and
       write `work/D/labels_NN.json` exactly as the guide describes. At most 4 dossiers; skip if there are none.
-   c. Run `python3 analyze.py ingest --date D`, then `python3 analyze.py stats --date D`.
+   b2. Gameplay videos (long-running hits). `mkdir -p work/videos && git fetch -q origin videos && git archive origin/videos | tar -x -C work/videos`
+      (skip if the branch doesn't exist). For each folder in `work/videos/` whose game is `frames_ready` in
+      `videos/state.json` (at most 6): read `meta.json`, look at its `sheet_*.jpg` with the Read tool and write
+      `video_labels.json` in that folder exactly as `VIDEO_GUIDE.md` describes (read it once).
+   c. Run `python3 video.py ingest`, `python3 analyze.py ingest --date D`, then `python3 analyze.py stats --date D`.
    d. Synthesis. Read `ANALYSIS_GUIDE.md`, then `work/D/stats_report.md`, then the most recent earlier file in
       `analysis/archive/`. Write `work/D/proposals.json` and `work/D/narrative.json` exactly as the guide describes,
       building on yesterday's analysis.
@@ -52,7 +56,7 @@ collections from the table.
    `mv /tmp/day.json db-copy/days/PREV.json` and mark PREV as changed.
 7. Write DAYS doc D and/or PREV from `db-copy/days/<date>.json` for each date marked as changed (and D whenever step 5
    ran).
-8. `git add -A db-copy analysis profiles work trigger && git commit -m "Cloud run D H:00"`, then `git push` (on
+8. `git add -A db-copy analysis profiles work trigger videos && git commit -m "Cloud run D H:00"`, then `git push` (on
    rejection: `git pull --rebase` and push again, up to 3 times). Skip if there's nothing to commit.
 9. Reply in up to three short lines: "Players: <now from step 2>", "Day D: <snapshot status, and the OK/EXTRAS lines
    from step 4>", and, if step 5 ran, "Analysis: <hypotheses count> hypotheses, <N> games profiled today, <one-sentence

@@ -1,0 +1,62 @@
+name: Gameplay videos
+
+# After each daily snapshot (or on demand): pick long-running hits that still need a gameplay video, download the Roblox
+# preview video of each that has one, and cut contact sheets for the cloud Claude run to label. The sheets wait on the
+# `videos` branch until labeled. Games without a Roblox video are marked for the Mac's YouTube task.
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Daily snapshot"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videos
+  cancel-in-progress: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Tools
+        run: |
+          pip install --quiet pillow
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Pick candidates and cut sheets of their Roblox preview videos
+        run: |
+          git pull -q --rebase
+          python3 video.py candidates
+          python3 video.py roblox
+
+      - name: Commit the queue and state, and publish the sheets waiting for labels
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add videos
+          git commit -q -m "Video queue $(date -u +%F)" || true
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 10; done
+          if git ls-remote --exit-code --heads origin videos >/dev/null 2>&1; then
+            git fetch -q origin videos && git worktree add -B videos /tmp/vb origin/videos
+          else
+            git worktree add --orphan -b videos /tmp/vb
+          fi
+          # drop folders whose games are labeled; add the new ones
+          python3 - <<'PY'
+          import json, os, shutil
+          st = json.load(open('videos/state.json')) if os.path.exists('videos/state.json') else {}
+          for u in os.listdir('/tmp/vb'):
+              if os.path.isdir('/tmp/vb/' + u) and st.get(u, {}).get('status') != 'frames_ready':
+                  shutil.rmtree('/tmp/vb/' + u)
+          if os.path.isdir('work/videos'):
+              for u in os.listdir('work/videos'):
+                  shutil.copytree('work/videos/' + u, '/tmp/vb/' + u, dirs_exist_ok=True)
+          PY
+          git -C /tmp/vb add -A
+          git -C /tmp/vb commit -q -m "Video sheets $(date -u +%F)" || true
+          git -C /tmp/vb push -q origin videos

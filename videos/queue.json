@@ -1,0 +1,305 @@
+{
+ "date": "2026-10-14",
+ "queue": [
+  {
+   "age_days": 2367,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Brookhaven 🏡RP",
+   "place": "4924922222",
+   "status": "queued",
+   "u": "1686885941"
+  },
+  {
+   "age_days": 871,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "RIVALS",
+   "place": "17625359962",
+   "status": "queued",
+   "u": "6035872082"
+  },
+  {
+   "age_days": 3379,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "[🎃] Adopt Me!",
+   "place": "920587237",
+   "status": "queued",
+   "u": "383310974"
+  },
+  {
+   "age_days": 2828,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Blox Fruits",
+   "place": "2753915549",
+   "status": "queued",
+   "u": "994732206"
+  },
+  {
+   "age_days": 1929,
+   "charts": [
+    "mp"
+   ],
+   "name": "Catalog Avatar Creator",
+   "place": "7041939546",
+   "status": "queued",
+   "u": "2711375305"
+  },
+  {
+   "age_days": 1092,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Dress To Impress ⭐",
+   "place": "15101393044",
+   "status": "queued",
+   "u": "5203828273"
+  },
+  {
+   "age_days": 1534,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "The Strongest Battlegrounds",
+   "place": "10449761463",
+   "status": "queued",
+   "u": "3808081382"
+  },
+  {
+   "age_days": 880,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "🔥Hypershot",
+   "place": "17516596118",
+   "status": "queued",
+   "u": "5995470825"
+  },
+  {
+   "age_days": 1587,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Evade",
+   "place": "9872472334",
+   "status": "queued",
+   "u": "3647333358"
+  },
+  {
+   "age_days": 4362,
+   "charts": [
+    "te"
+   ],
+   "name": "[🎃] Welcome to Bloxburg",
+   "place": "185655149",
+   "status": "queued",
+   "u": "88070565"
+  },
+  {
+   "age_days": 3153,
+   "charts": [
+    "te"
+   ],
+   "name": "ABA",
+   "place": "1458767429",
+   "status": "queued",
+   "u": "578392296"
+  },
+  {
+   "age_days": 2904,
+   "charts": [
+    "te"
+   ],
+   "name": "[🗺️] Emergency Response: Liberty County",
+   "place": "2534724415",
+   "status": "queued",
+   "u": "903807016"
+  }
+ ],
+ "waiting": [
+  {
+   "name": "DOORS 🚨",
+   "u": "2440500124",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "LifeTogether 🏠 RP",
+   "u": "4839802560",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Fling Things and People",
+   "u": "2668101271",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Berry Avenue 🏠 RP",
+   "u": "3240075297",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Realistic Street Soccer",
+   "u": "4949420752",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Forsaken",
+   "u": "6331902150",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Driving Empire [✨RAM DEBUT✨ ]",
+   "u": "1202096104",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Dreamville 🏡 RP [Boats! 🚤]",
+   "u": "6521100398",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Slayers 2",
+   "u": "5595353122",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Blade Ball",
+   "u": "4777817887",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Fisch 🐟 [SAVE NATE]",
+   "u": "5750914919",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🌙 NIGHT 1] Tower Defense Simulator",
+   "u": "1176784616",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "🔥 [BLOOD MOON] Pet Simulator 99! 👻",
+   "u": "3317771874",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals",
+   "u": "1831550657",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Vanguards: 2nd Anniversary",
+   "u": "5578556129",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[RANKED] SNIPER DUELS",
+   "u": "7264587281",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🔥NIKE] NFL Universe Football",
+   "u": "184199275",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "BedWars [UPDATE]",
+   "u": "2619619496",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Baddies 💅",
+   "u": "3990106548",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Cold War [VIETNAM]",
+   "u": "4750561026",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🧚‍♀️] Grow a Garden 🌶️",
+   "u": "7436755782",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🪸UPD] Fish It! 🐟",
+   "u": "6701277882",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[⚔️] Ink Game",
+   "u": "7008097940",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "TB II | Tower Defense X: BETA",
+   "u": "3541611379",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[😈JOHNNY🐎] Basketball: Zero",
+   "u": "7028566528",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Royale🎃High",
+   "u": "321778215",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Attack on Titan Revolution",
+   "u": "4658598196",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[Visby] War Tycoon",
+   "u": "1526814825",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🌟Sendou] Blue Lock: Rivals",
+   "u": "6325068386",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[⭐SZN 10] Dragon Adventures 🐉",
+   "u": "1235188606",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "BlockSpin 🔪 [FISHING UPDATE!]",
+   "u": "6765805766",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Asylum Life 🔊",
+   "u": "6749060816",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Piggy [FRIGHTFUL FOREST]",
+   "u": "1516533665",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Emergency Hamburg",
+   "u": "2992873140",
+   "why": "needs Rolimons history"
+  }
+ ]
+}

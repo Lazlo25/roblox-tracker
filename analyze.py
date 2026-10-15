@@ -530,6 +530,16 @@ def features(p, date, ctx, creator_counts, groups):
         for s in SOCIALS:
             f['social=' + s] = int(llm.get('social') == s)
         f['competitive_core'] = int(llm.get('competitive') == 'core')
+    vid = p.get('video')
+    if vid:  # long-running hits only: observed from a gameplay video (see video.py)
+        for s_ in ('slow', 'medium', 'fast'):
+            f['vid_pacing=' + s_] = int(vid.get('pacing') == s_)
+        f['vid_hud_density'] = vid.get('hud_density')
+        f['vid_polish'] = vid.get('visual_polish')
+        f['vid_monetization_shown'] = len(vid.get('monetization_visible') or [])
+        f['vid_retention_hooks'] = len(vid.get('retention_hooks') or [])
+        for c_ in ('first_person', 'third_person', 'top_down', 'side_2d'):
+            f['vid_camera=' + c_] = int(vid.get('camera') == c_)
     return f
 
 
@@ -1013,6 +1023,14 @@ def cmd_stats(a):
             pc = lambda u: 100 * sum(1 for v in allv if v <= vals[u]) / len(allv)
             lines.append('Gameplay loops among profiled games (n; median pillar percentile): ' + '; '.join(
                 f'{a} {len(us)} ({med([pc(u) for u in us]):.0f})' for a, us in sorted(arch.items(), key=lambda kv: -len(kv[1]))))
+        vids = [u for u in vals if (D['profiles'].get(u, {}).get('video') or {}).get('loop_observed')]
+        if vids:
+            lines.append(f'Video observations ({len(vids)} long-running hits; polish/HUD 1-5):')
+            for u in sorted(vids, key=lambda u: -vals[u])[:12]:
+                v = D['profiles'][u]['video']
+                lines.append(f'- {name(D, u)}: {v.get("loop_observed")} | pacing {v.get("pacing")}, HUD {v.get("hud_density")}, polish {v.get("visual_polish")}, '
+                             f'monetization seen: {", ".join(v.get("monetization_visible") or []) or "none"}; hooks: {", ".join(v.get("retention_hooks") or []) or "none"}'
+                             + (f'; notable: {"; ".join(v.get("notable") or [])}' if v.get('notable') else ''))
         stats['charts'][k] = {'metric': used, 'n': len(vals), 'top': top, 'keywords': kw,
                               'best': [{'u': u, 'name': name(D, u)} for u in ranked[:10]]}
     # cross-chart

@@ -15,6 +15,14 @@ patterns over more descriptive statistics.
 For Top Trending and Up-and-Coming, compare games of similar age (the report gives within-age effects). When two games'
 trajectories differ, consider whether the age gap alone explains it.
 
+## Video observations
+
+Long-running hits whose CCU has stayed stable for a year get one gameplay video analysed (`video.py`, `VIDEO_GUIDE.md`).
+Where the stats report lists "Video observations" for a chart, treat them as evidence about what durable games look like
+on screen: pacing, HUD density, visual polish, the monetization and retention hooks visible in play. Their numeric traits
+are in the feature scan as `vid_*`. There are only a few such games, so propose qualitative hypotheses from them
+(confidence stays low until several games agree) and let the scan test the numeric ones.
+
 ## What the page shows
 
 The page shows only each chart's title keywords and an **Actionable steps** table: every active hypothesis that carries
