@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Most Popular barely moved today: no new entries, only PORTALS fell off, and the biggest risers gained a single place.",
+        "Steal An Egg (82 days) still leads, ahead of evergreens such as Brookhaven, Murder Mystery 2, 99 Nights in the Forest and RIVALS.",
+        "Multi-year games hold the best median pillar percentile (62), while 4-to-12-month games sit lower (35), which keeps the mid-life trough idea alive at low confidence.",
+        "The day's small risers are duel shooters (KNIFE DUELS, Murder Duels) and survival or social staples (100 Days At Sea, Welcome to Bloxburg)."
+      ],
+      "patterns": [
+        "Games pricing most passes above about 90 to 149 R$ and dev products above 79 R$ tend to stay on Most Popular longer; age is a confounder, since older games also price higher.",
+        "More complex, more original games tend to hold more days on the chart, and combat PvP and roleplay loops have the best median standing among profiled loops.",
+        "A high favorite rate per visit goes with lower positions, because the biggest evergreens turn fewer of their huge visit counts into favorites.",
+        "Video observations of long-running hits show two durable styles: near-empty HUD social worlds (Brookhaven, Adopt Me!) and dense progression HUDs (Blox Fruits); it is speculative which matters more."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "Tops Most Popular at under three months old with a template loop, the opposite of the age and originality patterns; it is the original of its wave and still updates daily."},
+        {"name": "Scooter Empire [UPD]", "note": "The weakest game on the pillar at 12 days old, likely a young breakout that reached the chart briefly before its reach settled."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again lead monetization efficiency, with The Company and Elemental Dungeons close behind.",
+        "Young survival and horror games (Violence District, Bunker vs Verity, Sarab, Sell Fries!) are the least efficient, earning little for their player counts.",
+        "15-to-42-day games have the lowest median efficiency (25) while games past 85 days sit near 58, consistent with revenue catching up with age.",
+        "Only one new entry (Jump Showdown) arrived, and the biggest risers moved a single place."
+      ],
+      "patterns": [
+        "Dev products priced above 79 R$, servers of 25+ players, redeem codes, detailed descriptions and bracket tags in the title consistently go with higher efficiency, though many of these also mark older, actively run games.",
+        "RPGs and combat PvP loops consistently earn more for their CCU, while pet/egg, steal-a-X, '+1' and survival games consistently earn less.",
+        "More complex, studio-scale builds consistently monetize better, matching the polished long-running hits in the video observations (War Tycoon, BedWars, Dress To Impress).",
+        "Long-running hits in the videos show the shop or currency on the HUD at all times (War Tycoon, Blox Fruits, ABA), suggesting constant purchase visibility is part of durable monetization; this remains speculative."
+      ],
+      "outliers": [
+        {"name": "Morioh High", "note": "Among the most efficient games at 13 days old, against the age pattern; a small CCU flatters efficiency, and the single 3 PM snapshot may favor it."},
+        {"name": "[CURE] Violence District", "note": "Nearly two years old yet the least efficient game, breaking the age pattern; survival games with few products earn little per player."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Wash the Car (+38), IT WANTS IN (+25) and Surf And Rescue (+22) led the day's momentum, a mix of idle tycoon, horror and rescue-sim loops.",
+        "Nine games entered and ten left, including Adopt Me!, Dandy's World and Tower Defense Simulator, so the chart turned over heavily.",
+        "The youngest games (0-14 days) have the best median momentum (84), well above 43-84-day games (42).",
+        "Dogs of War fell 55 places after a brief resurgence, the day's sharpest drop."
+      ],
+      "patterns": [
+        "Young games built around building or crafting may climb faster, while creature-themed games may climb slower, both new ideas to test with the age effect held fixed.",
+        "Co-op young games may hold higher positions among games of similar age (within-age effect +0.62 on a small sample).",
+        "'Steal' and 'Egg' titles go with weaker momentum today, in line with the fading steal/egg wave, while '+1' titles do a little better.",
+        "Age explains much of the momentum gap: games past six weeks rarely lead, though Wash the Car (60 days) and Surf And Rescue (51 days) are counter-examples."
+      ],
+      "outliers": [
+        {"name": "Wash the Car 🧽", "note": "The day's top climber at 60 days old, with no game passes, against the age and pass-count patterns; a simple satisfying cleaning loop may be drawing a late wave."},
+        {"name": "100 Player Lava Escape 🔥", "note": "Climbed 21 places at almost a year old, outside the young-game pattern; big-server party obbies resurface in waves."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Chop A Forest, Sell Fries!, Paint a Pancake, +1 Karate Evolution and WRONG WAY! lead, all between 14 and 24 days old.",
+        "DIVINE HATCHERS (+45) and HUNTRESS (+44) made the biggest jumps, the latter at 108 days old.",
+        "Seven games entered and eight left, including several steal/egg titles such as Swim For Eggs and Drive an Egg.",
+        "Games 43-84 days old have a low median position percentile (22), well behind the 0-14-day group (60)."
+      ],
+      "patterns": [
+        "Selling currency packs and updating frequently tend to go with higher positions among games of the same age.",
+        "Luck passes and passes priced above about 349 R$ may go with lower positions, suggesting expensive launch monetization costs reach.",
+        "Co-op loops tend to rank higher, and horror and hatch/collect loops have strong medians, while steal and simulation-job loops have weak ones today.",
+        "No association reaches significance after correction on this chart, so all Up-and-Coming ideas stay in the 'may' to 'tends to' range."
+      ],
+      "outliers": [
+        {"name": "HUNTRESS 🕷️ [NIGHTMARE]", "note": "Jumped 44 places at 108 days old, well past the usual breakout window; a horror update or creator push likely revived it."},
+        {"name": "[⛩️W3]  +1 Karate Evolution", "note": "A top-five '+1' incremental with 28 passes, against both the '+1' and the luck/expensive-pass patterns; its weekly world updates may carry it."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Breakout charts favor the newest games while Top Earning efficiency rises with age, so games may pull players first and monetize later.",
+      "The steal/egg template keeps showing reach without revenue: weak Top Earning efficiency, falling young clones on Top Trending and Up-and-Coming, and only the original Steal An Egg holding the top of Most Popular.",
+      "Higher product and pass prices go with longer Most Popular stays and better Top Earning efficiency, while expensive passes may hurt Up-and-Coming reach, so pricing may need to rise as a game matures.",
+      "Complexity goes with both Most Popular staying power and Top Earning efficiency, the clearest sign that depth pays off over time."
+    ],
+    "progressions": [
+      "Top Trending to Most Popular is the largest flow (52 entries, median 2 days later).",
+      "Up-and-Coming to Top Trending follows closely (49 entries, median 2 days).",
+      "Up-and-Coming to Most Popular (30, median 4 days) and Top Earning to Top Trending (34, median 5 days) come next; Most Popular rarely feeds the other charts (10 each)."
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games built around building or crafting climb Top Trending faster than other games of similar age",
+     "action": "Let players build something",
+     "test": {"feature": "mech_build", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young creature and monster-themed games climb Top Trending more slowly than other games of similar age",
+     "action": "Skip creature-collection themes for momentum",
+     "test": {"feature": "mech_creatures", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young co-op games hold higher Top Trending positions than other games of similar age",
+     "action": "Build a co-op loop for trending",
+     "test": {"feature": "social=coop", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Young games selling a game pass priced above 349 Robux rank lower on Up-and-Coming among games of the same age",
+     "action": "Cap launch passes at 349 R$",
+     "test": {"feature": "passes_max_price", "metric": "uc_pos", "type": "threshold", "cut": 349, "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Long-running hits stage one signature moment with heavy visual effects (egg-hatch reveal, ultimate ability, runway podium) while keeping the rest of the screen simple",
+     "action": "Stage one signature VFX moment",
+     "rationale": "Video observations for Adopt Me!, The Strongest Battlegrounds, Dress To Impress and BedWars all show one heavily staged payoff, while Brookhaven and Adopt Me! keep the HUD almost empty; Blox Fruits is the counter-example with a dense HUD. More long-running hits with video labels, and a vid_* feature for staged reveals, would confirm it."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-011", "confidence": 40, "note": "Day 3 of support: 'Steal' titles now go with much weaker Top Trending standing (r -0.75), steal loops have low medians on Top Earning (31) and Up-and-Coming (28), Steal A Verity! is among the weakest on Most Popular, and Steal an Clown Egg is among the weakest Top Trending games, while the original Steal An Egg still leads Most Popular."},
+    {"id": "H-x-001", "confidence": 42, "note": "Cross-chart entries again run tt->mp (52, median 2 days) and uc->tt (49, median 2 days) as the two largest flows, ahead of uc->mp (30) and te-> moves."},
+    {"id": "H-x-006", "confidence": 50, "note": "Sell Fries! [Anomaly] is #2 on Up-and-Coming but among the weakest Top Earning games; Home Alone: Anomalies slipped 4 on Top Trending. The genre keeps reach without revenue; Halloween season remains a confounder."},
+    {"id": "H-x-010", "confidence": 35, "note": "Mixed: Young Street, Ontario RP rose on Top Earning and racing_driving loops keep a good Top Earning median (65), but Scooter Empire is now the weakest game on Most Popular."}
+  ],
+  "actions": [],
+  "retire": []
+}
