@@ -49,11 +49,11 @@ def save(path, obj):
         json.dump(obj, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
-def get(url, binary=False, tries=4):
+def get(url, binary=False, tries=4, ua='Mozilla/5.0'):
     import time
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            req = urllib.request.Request(url, headers={'User-Agent': ua})
             with urllib.request.urlopen(req, timeout=120) as r:
                 data = r.read()
             return data if binary else json.loads(data)
@@ -119,7 +119,7 @@ def cmd_hist_todo(a):
             meta[u] = {**meta.get(u, {}), **m}
     top = [latest['u'][i] for i in latest['charts'].get('te', [])[:HIST_TE]] + [latest['u'][i] for i in latest['charts'].get('mp', [])[:HIST_MP]]
     missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl')]
-    listed = get('https://api.rolimons.com/games/v1/gamelist')['games']
+    listed = get('https://api.rolimons.com/games/v1/gamelist', ua='roblox-tracker personal research')['games']
     todo = [[u, meta[u]['pl']] for u in missing if meta[u]['pl'] in listed]
     with open(a.out, 'w') as f:
         json.dump(todo, f)
