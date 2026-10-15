@@ -120,7 +120,17 @@ def cmd_hist_todo(a):
             meta[u] = {**meta.get(u, {}), **m}
     top = [latest['u'][i] for i in latest['charts'].get('te', [])[:HIST_TE]] + [latest['u'][i] for i in latest['charts'].get('mp', [])[:HIST_MP]]
     today = dt.date.fromisoformat(latest['date'])
-    old_enough = lambda u: meta.get(u, {}).get('c') and (today - dt.date.fromisoformat(meta[u]['c'])).days >= HIST_MIN_AGE
+    if (today - dt.date.fromisoformat(days[0]['date'])).days < HIST_MIN_AGE:
+        # the tracker itself is under a year old: judge by the game's own age (Roblox creation date)
+        old_enough = lambda u: meta.get(u, {}).get('c') and (today - dt.date.fromisoformat(meta[u]['c'])).days >= HIST_MIN_AGE
+    else:
+        # the tracker is a year old: require the game to have been in a top group on a day at least a year ago
+        first_top = {}
+        for d in days:
+            for chart, n in (('te', HIST_TE), ('mp', HIST_MP)):
+                for i in d['charts'].get(chart, [])[:n]:
+                    first_top.setdefault(d['u'][i], d['date'])
+        old_enough = lambda u: u in first_top and (today - dt.date.fromisoformat(first_top[u])).days >= HIST_MIN_AGE
     missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl') and old_enough(u)]
     listed = get('https://api.rolimons.com/games/v1/gamelist', ua='roblox-tracker personal research')['games']
     todo = [[u, meta[u]['pl']] for u in missing if meta[u]['pl'] in listed]
