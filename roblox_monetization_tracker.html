@@ -783,7 +783,8 @@ function pct(x) {
   return `<span class="${x > 0 ? 'up' : 'down'}">${pctText(x)}</span>`;
 }
 const gameLink = r => r.place ? `<a href="https://www.roblox.com/games/${esc(r.place)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name);
-const histBtn = u => `<button type="button" class="gh" data-gh="${esc(u)}" title="CCU and visits history" aria-label="Show history charts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 3 8-9"/><path d="M3 21h18"/></svg></button>`;
+let histIdx = {};  // games with stored history (hist/_index): the top 100 of Top Earning and Most Popular, now or ever
+const histBtn = u => !histIdx[u] ? '' : `<button type="button" class="gh" data-gh="${esc(u)}" title="CCU and visits history" aria-label="Show history charts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 3 8-9"/><path d="M3 21h18"/></svg></button>`;
 const shortName = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
@@ -1518,6 +1519,7 @@ function boot() {
   const use = window.claude && window.claude.use ? window.claude.use('db') : Promise.resolve(null);
   use.then(db => {
     dbh = db;
+    if (db) db.doc('hist/_index').onSnapshot(snap => { histIdx = snap.exists ? snap.data() : {}; if (model) renderAll(); }, () => { histIdx = {}; });
     if (!db) { showMessage('Sign in to see the tracker.', 'The daily snapshots are stored in this page’s database, which loads for signed-in claude.ai viewers.'); return; }
     db.doc('live/platform').onSnapshot(snap => { live = snap.exists ? snap.data() : null; renderPlayers(); }, () => { live = null; renderPlayers(); });
     db.collection('analysis').orderBy('date', 'desc').limit(1).onSnapshot(snap => {

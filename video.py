@@ -13,6 +13,7 @@ A game qualifies once, when all of these hold on the latest day:
                                                   sheets into work/videos/<universe>/; games without one are marked youtube_needed
   python3 video.py youtube [--limit N]            for youtube_needed games: pick the most-watched 8+ minute YouTube video with yt-dlp,
                                                   cut contact sheets from its first 20 minutes, then delete the file
+  python3 video.py hist-todo --out F              top-100 games still without Rolimons history -> F ([[universe, place], ...])
   python3 video.py ingest                         read work/videos/<universe>/video_labels.json into profiles/<universe>.json
 """
 import argparse, datetime as dt, glob, gzip, json, os, re, shutil, statistics, subprocess, sys, tempfile, urllib.request, urllib.parse
@@ -102,6 +103,27 @@ def cmd_index(a):
         idx[str(h['u'])] = {'stable': ok, 'lo': lo, 'hi': hi, 'days': len(h['c']), 'through': h.get('through')}
     save(INDEX, idx)
     print('OK index games=%d stable=%d' % (len(idx), sum(1 for v in idx.values() if v['stable'])))
+
+
+# ---------------------------------------------------------------- which games need Rolimons history
+HIST_TE, HIST_MP = 100, 100   # a game gets stored history once it is in either top group
+
+
+def cmd_hist_todo(a):
+    """[[universe, place], ...] for games now in Top Earning's or Most Popular's top 100 that have no history yet and are on Rolimons."""
+    days = days_docs()
+    latest, idx = days[-1], load(INDEX, {})
+    meta = {}
+    for d in days:
+        for u, m in (d.get('meta') or {}).items():
+            meta[u] = {**meta.get(u, {}), **m}
+    top = [latest['u'][i] for i in latest['charts'].get('te', [])[:HIST_TE]] + [latest['u'][i] for i in latest['charts'].get('mp', [])[:HIST_MP]]
+    missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl')]
+    listed = get('https://api.rolimons.com/games/v1/gamelist')['games']
+    todo = [[u, meta[u]['pl']] for u in missing if meta[u]['pl'] in listed]
+    with open(a.out, 'w') as f:
+        json.dump(todo, f)
+    print('OK hist-todo need=%d (not on Rolimons: %d)' % (len(todo), len(missing) - len(todo)))
 
 
 # ---------------------------------------------------------------- candidates
@@ -347,8 +369,9 @@ def main():
         sub.add_parser(name).add_argument('--date')
     sub.add_parser('youtube').add_argument('--limit', type=int, default=3)
     sub.add_parser('ingest')
+    sub.add_parser('hist-todo').add_argument('--out', required=True)
     a = ap.parse_args()
-    {'index': cmd_index, 'candidates': cmd_candidates, 'roblox': cmd_roblox, 'youtube': cmd_youtube, 'ingest': cmd_ingest}[a.cmd](a)
+    {'index': cmd_index, 'candidates': cmd_candidates, 'roblox': cmd_roblox, 'youtube': cmd_youtube, 'ingest': cmd_ingest, 'hist-todo': cmd_hist_todo}[a.cmd](a)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,20 @@
 {
+ "10004244222": {
+  "days": 174,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10035204815": {
   "days": 29,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10057403337": {
+  "days": 72,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -20,8 +34,134 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "10173311467": {
+  "days": 63,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10258991999": {
+  "days": 35,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10261267004": {
+  "days": 110,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10282097014": {
+  "days": 7,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10308844888": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10399136326": {
+  "days": 68,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10436530264": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10460801145": {
+  "days": 72,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10512942223": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10526853622": {
+  "days": 45,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10550257968": {
+  "days": 26,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10563114921": {
   "days": 63,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10624691669": {
+  "days": 38,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10634461028": {
+  "days": 43,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10643795368": {
+  "days": 39,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10667357873": {
+  "days": 21,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10673920146": {
+  "days": 9,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10681914462": {
+  "days": 39,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10684750879": {
+  "days": 26,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -34,6 +174,48 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "10700618962": {
+  "days": 16,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10701628624": {
+  "days": 21,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10708913337": {
+  "days": 38,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10732236937": {
+  "days": 49,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10737656087": {
+  "days": 29,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10740316645": {
+  "days": 9,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10744310825": {
   "days": 14,
   "hi": null,
@@ -41,8 +223,36 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "10756011174": {
+  "days": 39,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10762388019": {
+  "days": 18,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10762636904": {
+  "days": 3,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10764627709": {
   "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10765012427": {
+  "days": 21,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -62,8 +272,71 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "10765490774": {
+  "days": 3,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10765582175": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10765686447": {
+  "days": 14,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10766056678": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10766506199": {
   "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10766721625": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10766812776": {
+  "days": 2,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10766845655": {
+  "days": 3,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10767012496": {
+  "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10767138232": {
+  "days": 3,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -76,8 +349,57 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "10767408330": {
+  "days": 7,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10767567751": {
+  "days": 3,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10767634248": {
+  "days": 7,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10767774668": {
+  "days": 1,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "10767825538": {
   "days": 12,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10768316438": {
+  "days": 2,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10768866246": {
+  "days": 2,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "10770000716": {
+  "days": 3,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -90,10 +412,87 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "1176784616": {
+  "days": 2537,
+  "hi": 2.12,
+  "lo": 0.62,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "1202096104": {
+  "days": 2309,
+  "hi": 1.66,
+  "lo": 0.66,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "1235188606": {
+  "days": 2425,
+  "hi": 1.19,
+  "lo": 0.56,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "1374118848": {
+  "days": 1605,
+  "hi": 9.28,
+  "lo": 0.73,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "1516533665": {
+  "days": 2425,
+  "hi": 1.96,
+  "lo": 0.68,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "1525626450": {
+  "days": 1942,
+  "hi": 2.01,
+  "lo": 0.59,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "1526814825": {
+  "days": 1965,
+  "hi": 1.33,
+  "lo": 0.84,
+  "stable": true,
+  "through": "2026-10-14"
+ },
  "1686885941": {
   "days": 2301,
   "hi": 1.41,
   "lo": 0.67,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "1782832995": {
+  "days": 2091,
+  "hi": 1.76,
+  "lo": 0.39,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "1831550657": {
+  "days": 2133,
+  "hi": 1.32,
+  "lo": 0.79,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "184199275": {
+  "days": 1155,
+  "hi": 2.54,
+  "lo": 0.49,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "1946714362": {
+  "days": 389,
+  "hi": 1.3,
+  "lo": 0.82,
   "stable": true,
   "through": "2026-10-14"
  },
@@ -104,6 +503,13 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "2440500124": {
+  "days": 1524,
+  "hi": 3.5,
+  "lo": 0.73,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "2471084": {
   "days": 2425,
   "hi": 3.57,
@@ -111,10 +517,38 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "2619619496": {
+  "days": 1966,
+  "hi": 1.59,
+  "lo": 0.54,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "2668101271": {
+  "days": 1884,
+  "hi": 1.26,
+  "lo": 0.82,
+  "stable": true,
+  "through": "2026-10-14"
+ },
  "2711375305": {
   "days": 1917,
   "hi": 1.47,
   "lo": 0.73,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "2936053166": {
+  "days": 1838,
+  "hi": 1.45,
+  "lo": 0.81,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "2992873140": {
+  "days": 1325,
+  "hi": 1.61,
+  "lo": 0.56,
   "stable": true,
   "through": "2026-10-14"
  },
@@ -125,10 +559,38 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "321778215": {
+  "days": 2537,
+  "hi": 1.44,
+  "lo": 0.57,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "3240075297": {
+  "days": 1593,
+  "hi": 1.43,
+  "lo": 0.67,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "3317771874": {
+  "days": 1378,
+  "hi": 2.39,
+  "lo": 0.27,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "3508322461": {
   "days": 914,
   "hi": 1.37,
   "lo": 0.3,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "3541611379": {
+  "days": 1103,
+  "hi": 2.86,
+  "lo": 0.49,
   "stable": false,
   "through": "2026-10-14"
  },
@@ -137,6 +599,13 @@
   "hi": 1.74,
   "lo": 0.77,
   "stable": true,
+  "through": "2026-10-14"
+ },
+ "372226183": {
+  "days": 2425,
+  "hi": 1.52,
+  "lo": 0.38,
+  "stable": false,
   "through": "2026-10-14"
  },
  "3808081382": {
@@ -153,6 +622,55 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "3936365689": {
+  "days": 260,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "3990106548": {
+  "days": 840,
+  "hi": 1.33,
+  "lo": 0.64,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "4293374620": {
+  "days": 1196,
+  "hi": 2.58,
+  "lo": 0.68,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "4348829796": {
+  "days": 1251,
+  "hi": 1.72,
+  "lo": 0.67,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "4658598196": {
+  "days": 879,
+  "hi": 4.63,
+  "lo": 0.63,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "4730278139": {
+  "days": 1201,
+  "hi": 1.29,
+  "lo": 0.68,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "4750561026": {
+  "days": 1056,
+  "hi": 118.66,
+  "lo": 0.58,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "47545": {
   "days": 2537,
   "hi": 1.36,
@@ -160,11 +678,39 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "4777817887": {
+  "days": 1139,
+  "hi": 1.32,
+  "lo": 0.81,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "4839802560": {
+  "days": 1147,
+  "hi": 1.67,
+  "lo": 0.74,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "4949420752": {
+  "days": 927,
+  "hi": 2.28,
+  "lo": 0.61,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "5203828273": {
   "days": 1064,
   "hi": 1.22,
   "lo": 0.73,
   "stable": true,
+  "through": "2026-10-14"
+ },
+ "5283219861": {
+  "days": 502,
+  "hi": 10.24,
+  "lo": 0.54,
+  "stable": false,
   "through": "2026-10-14"
  },
  "547524060": {
@@ -179,6 +725,27 @@
   "hi": 2.08,
   "lo": 0.49,
   "stable": false,
+  "through": "2026-10-14"
+ },
+ "5578556129": {
+  "days": 765,
+  "hi": 1.9,
+  "lo": 0.42,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "5595353122": {
+  "days": 26,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "5750914919": {
+  "days": 736,
+  "hi": 1.91,
+  "lo": 0.52,
+  "stable": true,
   "through": "2026-10-14"
  },
  "578392296": {
@@ -216,10 +783,38 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "6161049307": {
+  "days": 502,
+  "hi": 2.94,
+  "lo": 0.18,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "6325068386": {
+  "days": 682,
+  "hi": 1.59,
+  "lo": 0.71,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "6331902150": {
+  "days": 683,
+  "hi": 2.28,
+  "lo": 0.72,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "648454481": {
   "days": 2154,
   "hi": 4.32,
   "lo": 0.28,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "6521100398": {
+  "days": 751,
+  "hi": 2.37,
+  "lo": 0.25,
   "stable": false,
   "through": "2026-10-14"
  },
@@ -237,11 +832,60 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "6701277882": {
+  "days": 657,
+  "hi": 5.85,
+  "lo": 0.44,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "6739698191": {
+  "days": 456,
+  "hi": 1.7,
+  "lo": 0.67,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "6749060816": {
+  "days": 685,
+  "hi": 1.33,
+  "lo": 0.76,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "6765805766": {
+  "days": 605,
+  "hi": 1.6,
+  "lo": 0.8,
+  "stable": true,
+  "through": "2026-10-14"
+ },
+ "6774320049": {
+  "days": 521,
+  "hi": 2.93,
+  "lo": 0.56,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "6931042565": {
   "days": 634,
   "hi": 2.47,
   "lo": 0.84,
   "stable": false,
+  "through": "2026-10-14"
+ },
+ "7008097940": {
+  "days": 474,
+  "hi": 3.25,
+  "lo": 0.62,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "7028566528": {
+  "days": 579,
+  "hi": 1.5,
+  "lo": 0.67,
+  "stable": true,
   "through": "2026-10-14"
  },
  "703124385": {
@@ -251,10 +895,24 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "7089588429": {
+  "days": 468,
+  "hi": 1.79,
+  "lo": 0.2,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "7219654364": {
   "days": 495,
   "hi": 1.38,
   "lo": 0.36,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "7264587281": {
+  "days": 358,
+  "hi": null,
+  "lo": null,
   "stable": false,
   "through": "2026-10-14"
  },
@@ -272,6 +930,34 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "7436755782": {
+  "days": 553,
+  "hi": 5.2,
+  "lo": 0.35,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "7554119808": {
+  "days": 271,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "7585140258": {
+  "days": 57,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "7633926880": {
+  "days": 292,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "7709344486": {
   "days": 510,
   "hi": 3.29,
@@ -279,10 +965,24 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "8178086002": {
+  "days": 86,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "850110028": {
   "days": 1883,
   "hi": 1.41,
   "lo": 0.13,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "8719555347": {
+  "days": 283,
+  "hi": null,
+  "lo": null,
   "stable": false,
   "through": "2026-10-14"
  },
@@ -314,8 +1014,36 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "9167377564": {
+  "days": 218,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "9294074907": {
   "days": 249,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "9296252245": {
+  "days": 236,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "9534705677": {
+  "days": 243,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "9561553764": {
+  "days": 138,
   "hi": null,
   "lo": null,
   "stable": false,
@@ -328,11 +1056,32 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "9641502068": {
+  "days": 96,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "97314177": {
   "days": 2013,
   "hi": 1.76,
   "lo": 0.69,
   "stable": true,
+  "through": "2026-10-14"
+ },
+ "9837612476": {
+  "days": 167,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
+ "9855761734": {
+  "days": 117,
+  "hi": null,
+  "lo": null,
+  "stable": false,
   "through": "2026-10-14"
  },
  "985731078": {
@@ -349,6 +1098,13 @@
   "stable": false,
   "through": "2026-10-14"
  },
+ "9891331827": {
+  "days": 9,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "98929893": {
   "days": 2044,
   "hi": 1.31,
@@ -356,11 +1112,25 @@
   "stable": true,
   "through": "2026-10-14"
  },
+ "9931749389": {
+  "days": 62,
+  "hi": null,
+  "lo": null,
+  "stable": false,
+  "through": "2026-10-14"
+ },
  "994732206": {
   "days": 2392,
   "hi": 1.67,
   "lo": 0.78,
   "stable": true,
+  "through": "2026-10-14"
+ },
+ "9978329815": {
+  "days": 112,
+  "hi": null,
+  "lo": null,
+  "stable": false,
   "through": "2026-10-14"
  }
 }
