@@ -1,8 +1,8 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "queue": [
   {
-   "age_days": 2367,
+   "age_days": 2368,
    "charts": [
     "mp",
     "te"
@@ -13,7 +13,7 @@
    "u": "1686885941"
   },
   {
-   "age_days": 871,
+   "age_days": 872,
    "charts": [
     "mp",
     "te"
@@ -24,7 +24,7 @@
    "u": "6035872082"
   },
   {
-   "age_days": 3379,
+   "age_days": 3380,
    "charts": [
     "mp",
     "te"
@@ -35,18 +35,7 @@
    "u": "383310974"
   },
   {
-   "age_days": 2828,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Blox Fruits",
-   "place": "2753915549",
-   "status": "youtube_needed",
-   "u": "994732206"
-  },
-  {
-   "age_days": 1929,
+   "age_days": 1930,
    "charts": [
     "mp"
    ],
@@ -56,7 +45,7 @@
    "u": "2711375305"
   },
   {
-   "age_days": 1092,
+   "age_days": 1093,
    "charts": [
     "mp",
     "te"
@@ -67,18 +56,7 @@
    "u": "5203828273"
   },
   {
-   "age_days": 1534,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "The Strongest Battlegrounds",
-   "place": "10449761463",
-   "status": "youtube_needed",
-   "u": "3808081382"
-  },
-  {
-   "age_days": 880,
+   "age_days": 881,
    "charts": [
     "mp",
     "te"
@@ -89,18 +67,7 @@
    "u": "5995470825"
   },
   {
-   "age_days": 1587,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Evade",
-   "place": "9872472334",
-   "status": "youtube_needed",
-   "u": "3647333358"
-  },
-  {
-   "age_days": 1197,
+   "age_days": 1198,
    "charts": [
     "mp"
    ],
@@ -110,7 +77,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 1946,
+   "age_days": 1947,
    "charts": [
     "mp"
    ],
@@ -120,7 +87,7 @@
    "u": "2668101271"
   },
   {
-   "age_days": 1741,
+   "age_days": 1742,
    "charts": [
     "mp"
    ],
@@ -130,7 +97,7 @@
    "u": "3240075297"
   },
   {
-   "age_days": 2670,
+   "age_days": 2671,
    "charts": [
     "mp",
     "te"
@@ -141,7 +108,7 @@
    "u": "1202096104"
   },
   {
-   "age_days": 1215,
+   "age_days": 1216,
    "charts": [
     "te"
    ],
@@ -151,7 +118,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 945,
+   "age_days": 946,
    "charts": [
     "te"
    ],
@@ -161,17 +128,17 @@
    "u": "5750914919"
   },
   {
-   "age_days": 4362,
+   "age_days": 4363,
    "charts": [
     "te"
    ],
-   "name": "[🎃] Welcome to Bloxburg",
+   "name": "[🦇] Welcome to Bloxburg",
    "place": "185655149",
    "status": "frames_ready",
    "u": "88070565"
   },
   {
-   "age_days": 2302,
+   "age_days": 2303,
    "charts": [
     "te"
    ],
@@ -181,7 +148,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1966,
+   "age_days": 1967,
    "charts": [
     "te"
    ],
@@ -191,7 +158,7 @@
    "u": "2619619496"
   },
   {
-   "age_days": 1472,
+   "age_days": 1473,
    "charts": [
     "te"
    ],
@@ -201,17 +168,7 @@
    "u": "3990106548"
   },
   {
-   "age_days": 3153,
-   "charts": [
-    "te"
-   ],
-   "name": "ABA",
-   "place": "1458767429",
-   "status": "youtube_needed",
-   "u": "578392296"
-  },
-  {
-   "age_days": 2904,
+   "age_days": 2905,
    "charts": [
     "te"
    ],
@@ -221,7 +178,7 @@
    "u": "903807016"
   },
   {
-   "age_days": 649,
+   "age_days": 650,
    "charts": [
     "te"
    ],
@@ -231,7 +188,7 @@
    "u": "7028566528"
   },
   {
-   "age_days": 3474,
+   "age_days": 3475,
    "charts": [
     "te"
    ],
@@ -241,17 +198,17 @@
    "u": "321778215"
   },
   {
-   "age_days": 2450,
+   "age_days": 2451,
    "charts": [
     "te"
    ],
-   "name": "[Visby] War Tycoon",
+   "name": "War Tycoon",
    "place": "4639625707",
    "status": "queued",
    "u": "1526814825"
   },
   {
-   "age_days": 810,
+   "age_days": 811,
    "charts": [
     "te"
    ],
@@ -261,7 +218,7 @@
    "u": "6325068386"
   },
   {
-   "age_days": 2648,
+   "age_days": 2649,
    "charts": [
     "te"
    ],
@@ -271,7 +228,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 707,
+   "age_days": 708,
    "charts": [
     "te"
    ],
@@ -281,7 +238,7 @@
    "u": "6765805766"
   },
   {
-   "age_days": 711,
+   "age_days": 712,
    "charts": [
     "te"
    ],
@@ -291,7 +248,7 @@
    "u": "6749060816"
   },
   {
-   "age_days": 2456,
+   "age_days": 2457,
    "charts": [
     "te"
    ],
@@ -301,7 +258,7 @@
    "u": "1516533665"
   },
   {
-   "age_days": 1829,
+   "age_days": 1830,
    "charts": [
     "te"
    ],
