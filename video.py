@@ -107,10 +107,11 @@ def cmd_index(a):
 
 # ---------------------------------------------------------------- which games need Rolimons history
 HIST_TE, HIST_MP = 100, 100   # a game gets stored history once it is in either top group
+HIST_MIN_AGE = 365            # ...and only if the game is at least a year old, so its history is worth storing
 
 
 def cmd_hist_todo(a):
-    """[[universe, place], ...] for games now in Top Earning's or Most Popular's top 100 that have no history yet and are on Rolimons."""
+    """[[universe, place], ...] for games now in Top Earning's or Most Popular's top 100 that are at least a year old, have no history yet and are on Rolimons."""
     days = days_docs()
     latest, idx = days[-1], load(INDEX, {})
     meta = {}
@@ -118,7 +119,9 @@ def cmd_hist_todo(a):
         for u, m in (d.get('meta') or {}).items():
             meta[u] = {**meta.get(u, {}), **m}
     top = [latest['u'][i] for i in latest['charts'].get('te', [])[:HIST_TE]] + [latest['u'][i] for i in latest['charts'].get('mp', [])[:HIST_MP]]
-    missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl')]
+    today = dt.date.fromisoformat(latest['date'])
+    old_enough = lambda u: meta.get(u, {}).get('c') and (today - dt.date.fromisoformat(meta[u]['c'])).days >= HIST_MIN_AGE
+    missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl') and old_enough(u)]
     listed = get('https://api.rolimons.com/games/v1/gamelist', ua='roblox-tracker personal research')['games']
     todo = [[u, meta[u]['pl']] for u in missing if meta[u]['pl'] in listed]
     with open(a.out, 'w') as f:
