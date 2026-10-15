@@ -2,17 +2,6 @@
  "date": "2026-10-15",
  "queue": [
   {
-   "age_days": 2368,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Brookhaven 🏡RP",
-   "place": "4924922222",
-   "status": "frames_ready",
-   "u": "1686885941"
-  },
-  {
    "age_days": 872,
    "charts": [
     "mp",
@@ -22,38 +11,6 @@
    "place": "17625359962",
    "status": "frames_ready",
    "u": "6035872082"
-  },
-  {
-   "age_days": 3380,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "[🎃] Adopt Me!",
-   "place": "920587237",
-   "status": "frames_ready",
-   "u": "383310974"
-  },
-  {
-   "age_days": 1930,
-   "charts": [
-    "mp"
-   ],
-   "name": "Catalog Avatar Creator",
-   "place": "7041939546",
-   "status": "frames_ready",
-   "u": "2711375305"
-  },
-  {
-   "age_days": 1093,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Dress To Impress ⭐",
-   "place": "15101393044",
-   "status": "frames_ready",
-   "u": "5203828273"
   },
   {
    "age_days": 881,
@@ -73,7 +30,7 @@
    ],
    "name": "LifeTogether 🏠 RP",
    "place": "13967668166",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "4839802560"
   },
   {
@@ -83,7 +40,7 @@
    ],
    "name": "Fling Things and People",
    "place": "6961824067",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "2668101271"
   },
   {
@@ -93,7 +50,7 @@
    ],
    "name": "Berry Avenue 🏠 RP",
    "place": "8481844229",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "3240075297"
   },
   {
@@ -104,7 +61,7 @@
    ],
    "name": "Driving Empire [✨RAM DEBUT✨ ]",
    "place": "3351674303",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "1202096104"
   },
   {
@@ -114,7 +71,7 @@
    ],
    "name": "Blade Ball",
    "place": "13772394625",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "4777817887"
   },
   {
@@ -124,7 +81,7 @@
    ],
    "name": "Fisch 🐟 [SAVE NATE]",
    "place": "16732694052",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "5750914919"
   },
   {
@@ -144,18 +101,8 @@
    ],
    "name": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals",
    "place": "5233782396",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "1831550657"
-  },
-  {
-   "age_days": 1967,
-   "charts": [
-    "te"
-   ],
-   "name": "BedWars [UPDATE]",
-   "place": "6872265039",
-   "status": "queued",
-   "u": "2619619496"
   },
   {
    "age_days": 1473,
@@ -164,7 +111,7 @@
    ],
    "name": "Baddies 💅",
    "place": "11158043705",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "3990106548"
   },
   {
@@ -184,7 +131,7 @@
    ],
    "name": "[😈JOHNNY🐎] Basketball: Zero",
    "place": "130739873848552",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "7028566528"
   },
   {
@@ -194,18 +141,8 @@
    ],
    "name": "Royale🎃High",
    "place": "735030788",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "321778215"
-  },
-  {
-   "age_days": 2451,
-   "charts": [
-    "te"
-   ],
-   "name": "War Tycoon",
-   "place": "4639625707",
-   "status": "queued",
-   "u": "1526814825"
   },
   {
    "age_days": 811,
@@ -214,7 +151,7 @@
    ],
    "name": "[🌟Sendou] Blue Lock: Rivals",
    "place": "18668065416",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "6325068386"
   },
   {
@@ -224,7 +161,7 @@
    ],
    "name": "[⭐SZN 10] Dragon Adventures 🐉",
    "place": "3475397644",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "1235188606"
   },
   {
@@ -234,7 +171,7 @@
    ],
    "name": "BlockSpin 🔪 [FISHING UPDATE!]",
    "place": "104715542330896",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "6765805766"
   },
   {
@@ -244,7 +181,7 @@
    ],
    "name": "Asylum Life 🔊",
    "place": "132352755769957",
-   "status": "queued",
+   "status": "frames_ready",
    "u": "6749060816"
   },
   {
@@ -254,7 +191,7 @@
    ],
    "name": "Piggy [FRIGHTFUL FOREST]",
    "place": "4623386862",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "1516533665"
   },
   {
@@ -264,7 +201,7 @@
    ],
    "name": "Emergency Hamburg",
    "place": "7711635737",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "2992873140"
   }
  ],
