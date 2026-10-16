@@ -2,28 +2,6 @@
  "date": "2026-10-16",
  "queue": [
   {
-   "age_days": 873,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "RIVALS",
-   "place": "17625359962",
-   "status": "frames_ready",
-   "u": "6035872082"
-  },
-  {
-   "age_days": 882,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "🔥Hypershot",
-   "place": "17516596118",
-   "status": "frames_ready",
-   "u": "5995470825"
-  },
-  {
    "age_days": 1199,
    "charts": [
     "mp"
@@ -85,16 +63,6 @@
    "u": "5750914919"
   },
   {
-   "age_days": 4364,
-   "charts": [
-    "te"
-   ],
-   "name": "[🦇] Welcome to Bloxburg",
-   "place": "185655149",
-   "status": "frames_ready",
-   "u": "88070565"
-  },
-  {
    "age_days": 2304,
    "charts": [
     "te"
@@ -135,16 +103,6 @@
    "u": "7028566528"
   },
   {
-   "age_days": 2906,
-   "charts": [
-    "te"
-   ],
-   "name": "[🗺️] Emergency Response: Liberty County",
-   "place": "2534724415",
-   "status": "frames_ready",
-   "u": "903807016"
-  },
-  {
    "age_days": 812,
    "charts": [
     "te"
@@ -163,26 +121,6 @@
    "place": "7711635737",
    "status": "youtube_needed",
    "u": "2992873140"
-  },
-  {
-   "age_days": 713,
-   "charts": [
-    "te"
-   ],
-   "name": "Asylum Life 🔊",
-   "place": "132352755769957",
-   "status": "frames_ready",
-   "u": "6749060816"
-  },
-  {
-   "age_days": 709,
-   "charts": [
-    "te"
-   ],
-   "name": "BlockSpin 🔪 [FISHING UPDATE!]",
-   "place": "104715542330896",
-   "status": "frames_ready",
-   "u": "6765805766"
   },
   {
    "age_days": 2650,
