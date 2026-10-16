@@ -1,0 +1,28 @@
+{
+  "new": [
+    {"chart": "mp", "statement": "Games built around cash-tycoon money mechanics stay on Most Popular for fewer days",
+     "action": "Skip cash-tycoon loops for staying power",
+     "test": {"feature": "mech_tycoon_money", "metric": "mp_days", "type": "binary", "direction": "-"}},
+    {"chart": "te", "statement": "Games whose median game pass costs more than 399 Robux monetize more efficiently",
+     "action": "Price most passes above 399 R$",
+     "test": {"feature": "passes_median_price", "metric": "te_eff", "type": "threshold", "cut": 400, "direction": "+"}},
+    {"chart": "tt", "statement": "Young escape and flee games climb Top Trending more slowly than other games of similar age",
+     "action": "Skip escape/flee loops for momentum",
+     "test": {"feature": "mech_escape_flee", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games selling luck products hold lower Top Trending positions among games of similar age",
+     "action": "Skip luck products at launch",
+     "test": {"feature": "prod_luck", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with a core competitive loop rank higher on Up-and-Coming among games of the same age",
+     "test": {"feature": "competitive_core", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Durable PvP hits sell identity rather than power: weapon skins (Hypershot, RIVALS), paid roles and teams (Asylum Life) and character rosters (ABA, Strongest Battlegrounds) carry their monetization",
+     "action": "Sell cosmetics and roles, not power",
+     "rationale": "Six of the 16 analysed long-running hits are PvP, and their videos show cosmetic or role purchases rather than stat boosts. More PvP videos, plus a product-name feature that separates cosmetics from boosts, would test it against Top Earning efficiency."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-012", "confidence": 27, "note": "Hypershot's trailer centres on heavy hit effects and skin close-ups over simple arenas; another long-running hit fits the pattern."},
+    {"id": "H-x-011", "confidence": 40, "note": "Mixed today: Steal Animal Egg fell 16 on Most Popular and steal games are among the weakest there, yet two new steal-egg titles entered Most Popular and Steal An Egg still leads."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Most Popular turned over more than yesterday: eight games entered and eight left, after a day with almost no movement.",
+        "Steal An Egg (83 days) still leads, ahead of Brookhaven, Murder Mystery 2, +1 Speed Keyboard Escape, 99 Nights in the Forest and RIVALS.",
+        "Young games drove the movement: Climb For Animals Eggs (+27), Bunker vs Verity (+23) and three 15-to-25-day games (+21 each) were the biggest risers, while newcomers include Chop A Forest, +1 Karate Evolution and Smash the City.",
+        "Multi-year games keep the best median standing (percentile 61) while 4-to-12-month games sit lower (39), so the mid-life trough idea stays alive at low confidence."
+      ],
+      "patterns": [
+        "Higher dev product and pass prices consistently go with longer Most Popular stays (split near 199 R$ for products and 89 R$ for passes); age is a confounder, because older games also price higher.",
+        "Games with cash-tycoon money mechanics hold fewer days on the chart (r=-0.30), a new idea to test.",
+        "Combat PvP (median percentile 71), story adventure and roleplay loops hold the best standing, while steal-and-defend, obby and idle-tycoon loops sit near the bottom.",
+        "More complex games tend to stay longer, and the video observations show two durable looks: near-empty HUD social worlds (Brookhaven, Bloxburg, Adopt Me!) and dense progression or match HUDs (Blox Fruits, Hypershot)."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "Leads Most Popular with a steal-and-defend loop that ranks poorly elsewhere, likely because it was the original of the wave rather than a clone."},
+        {"name": "Dogs of War", "note": "Re-entered Most Popular at 1,046 days despite no update in 27 days and a 77% like ratio, a sign of a short-lived resurgence rather than a durable trend."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again lead monetization efficiency, followed by The Company, Morioh High and Elemental Dungeons.",
+        "Young survival and horror games (Violence District, Bunker vs Verity, Sarab, Sell Fries!) remain the least efficient for their player counts.",
+        "Sell Fries! (+140) and Army Commander Tycoon (+135) made the largest climbs, in line with revenue catching up with breakouts' player counts.",
+        "15-to-42-day games have the lowest median efficiency (23) while games past a year sit near 59, consistent with revenue catching up with age."
+      ],
+      "patterns": [
+        "Dev products above about 100 R$, servers of 25+ players, longer descriptions, bracket tags and higher pass prices consistently go with better efficiency, though many of these also mark older, actively run games.",
+        "RPGs, roleplay and combat PvP loops consistently earn more for their CCU, while survival, pet/egg, steal-a-X and '+1' games consistently earn less.",
+        "Games with a median pass above about 399 R$ may monetize better, a new threshold test that sits between the 149 R$ and 999 R$ ideas already tracked.",
+        "Long-running PvP hits in the videos (Hypershot, RIVALS, Asylum Life) put weapon skins and paid roles at the centre, which speculatively suggests cosmetics carry durable monetization."
+      ],
+      "outliers": [
+        {"name": "Morioh High", "note": "Ranks among the most efficient at 14 days old with one pass and six products, which runs against the age effect; a small CCU makes this reading unreliable."},
+        {"name": "Anime Expeditions", "note": "Fell 75 places at 536 days, while a tower-defense update cycle and an anime theme both work against it."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "DIVINE HATCHERS (+36) and the Arabic-language صيد الضبّان (+33) led the day's momentum, both under 16 days old.",
+        "Twelve games entered and eleven left, including several older returners such as Maple Hospital, PARANORMAL and My Movie.",
+        "The youngest games (0-14 days) again have the best median momentum (95), well above 43-84-day games (37).",
+        "Evolve a Cell (-31) and 100 Player Lava Escape (-22) had the sharpest drops."
+      ],
+      "patterns": [
+        "Escape and flee mechanics may go with weaker momentum (r=-0.42 on 10 games), a new idea to test with age held fixed.",
+        "Luck products may go with lower positions among games of similar age (within-age effect -0.38), echoing the luck-pass penalty already tracked on Up-and-Coming.",
+        "Creature-themed young games may climb more slowly, though DIVINE HATCHERS, a pet hatcher, topped today's momentum.",
+        "Age explains much of the momentum gap, with Wash the Car (61 days) and Surf And Rescue (52 days) as the main older counter-examples."
+      ],
+      "outliers": [
+        {"name": "DIVINE HATCHERS 0.0001% [NEW!]", "note": "Led momentum as a pet hatcher with a bracket tag and luck products, three traits that the hypotheses say should slow it."},
+        {"name": "Steve the Craftsman", "note": "Climbed 16 places despite no update in 34 days and a 70% like ratio, possibly carried by a building/crafting loop."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Chop A Forest, Sell Fries!, Sarab, Climb For Animals Eggs and DIVINE HATCHERS lead, all between 15 and 40 days old.",
+        "Harpoon a Fish (+32), Scooter Duo (+24) and Solve The Cube (+21) made the biggest jumps.",
+        "Six games entered and nine left, and two of the six newcomers are steal/egg titles (Bike For Egg!, Drive an Egg).",
+        "15-to-42-day games hold the best median position (55), ahead of the newest 0-14-day group (36), which weakens the 'newest ranks highest' idea."
+      ],
+      "patterns": [
+        "Frequent updates and recent updates tend to go with higher positions among games of the same age, the most consistent signal on this chart.",
+        "Selling currency packs and revives tends to go with higher positions, while luck passes and expensive launch passes may go with lower ones.",
+        "Collect-upgrade-rebirth, horror and hatch/collect loops have strong medians, while steal-and-defend and simulation-job loops have weak ones today.",
+        "No association reaches significance after correction here, so all Up-and-Coming ideas stay in the 'may' to 'tends to' range."
+      ],
+      "outliers": [
+        {"name": "Sarab", "note": "Ranks third with a story-adventure survival loop and a single pass, unlike the simulation templates around it."},
+        {"name": "Clone to Steal Eggs", "note": "Sits near the bottom despite a 97% like ratio and 154 products, in line with the fading steal/egg wave."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Breakout charts favor the newest games while Top Earning efficiency rises with age, so games may pull players first and monetize later.",
+      "The steal/egg template shows reach without revenue: weak Top Earning efficiency and weak Up-and-Coming medians, yet two new steal-egg entries on Most Popular keep the wave alive.",
+      "Higher product and pass prices go with longer Most Popular stays and better Top Earning efficiency, while expensive launch passes and luck products may hold back young games on Top Trending and Up-and-Coming.",
+      "Complexity goes with both Most Popular staying power and Top Earning efficiency, and the long-running hits in the videos pair it with cosmetic monetization."
+    ],
+    "progressions": [
+      "Top Trending to Most Popular remains the largest flow (59 entries, median 2 days later).",
+      "Up-and-Coming to Top Trending follows (51 entries, median 2 days), then Top Earning to Top Trending (38, median 5 days) and Up-and-Coming to Most Popular (35, median 4 days).",
+      "Most Popular rarely feeds the other charts (10-11 entries each)."
+    ]
+  }
+}
