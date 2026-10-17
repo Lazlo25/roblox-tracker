@@ -1,0 +1,699 @@
+[
+ {
+  "label": "Q01",
+  "loop": "scoop marbles/products -> pack customer orders -> earn coins -> upgrade basket/cart capacity -> customize studio",
+  "loop_archetype": "simulation_job",
+  "objectives": "fulfil orders and grow the small business",
+  "progression": "carrying capacity upgrades, studio customization",
+  "instructions": "complete orders, earn coins, upgrade capacity, customize studio",
+  "mechanics": [
+   "order fulfillment",
+   "packing",
+   "capacity upgrades",
+   "decoration"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "ASMR-style 'satisfying' marble scooping and packing as the core action"
+  ],
+  "themes": [
+   "small business",
+   "packing",
+   "marbles",
+   "cozy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying/ASMR job sim"
+  ],
+  "monetization_signals": [
+   "cart/basket unlock passes",
+   "coin bundles",
+   "donations"
+  ],
+  "update_signals": [
+   "beta, recent update"
+  ],
+  "thumbnails": "first-person hands scooping colourful marbles and an order sheet",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tabletop scene, first-person hands, simple order system",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q02",
+  "loop": "disguise as an egg -> wait for another player -> steal their best pet -> hatch/fuse rarer eggs",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "steal the best pets and hatch the rarest eggs",
+  "progression": "egg rarity tiers common to divine, fusing",
+  "instructions": "disguise as an egg, wait for a victim, steal their best pet",
+  "mechanics": [
+   "disguise",
+   "stealing",
+   "egg hatching",
+   "fusing",
+   "timers"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "prop-hunt-style egg disguise combined with pet stealing"
+  ],
+  "themes": [
+   "eggs",
+   "pets",
+   "pranks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "fake/disguise"
+  ],
+  "monetization_signals": [
+   "skip-egg timer products by rarity",
+   "skip fuse timer"
+  ],
+  "update_signals": [
+   "'mutates offline' feature"
+  ],
+  "thumbnails": "player face peeking out of an egg among real eggs, 'YOU' arrows, sleeping victim",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "small field map, egg models, timers; simple systems",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q03",
+  "loop": "get an injured puppy -> race through traffic to the vet -> wait in line and answer questions -> surgery -> collect the saved pet",
+  "loop_archetype": "story_adventure",
+  "objectives": "save the pet and collect all 16 pets",
+  "progression": "pet collection common to mythic, playing as the vet",
+  "instructions": "rush the pet to the vet, wait, answer questions, collect pets",
+  "mechanics": [
+   "short story run",
+   "queue/wait",
+   "pet collection",
+   "trolling items"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "monetized waiting line (skip line/skip time) plus troll products like Bonk and Squirrel"
+  ],
+  "themes": [
+   "pets",
+   "vet",
+   "puppies"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "rush/save-the-x story",
+   "troll products"
+  ],
+  "monetization_signals": [
+   "skip line/skip time",
+   "ban hammer and gravity gun passes",
+   "troll products",
+   "be the vet"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "cartoon art of a girl hugging a puppy at the vet, 'SAVE THE PUP!' text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "linear short scenes, queue system, pet followers",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q04",
+  "loop": "click to eat food bite by bite -> calories as currency -> buy gym upgrades (multi eat, speed, reach) -> clear the whole store with a party",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "eat all 4.3M calories in the store and complete the 175-food index",
+  "progression": "calorie upgrades, multi eat up to x12, food index",
+  "instructions": "click to eat everything, upgrade at the gym, clear the store with friends",
+  "mechanics": [
+   "clicking",
+   "eating",
+   "upgrades",
+   "collection index",
+   "leaderboards"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "recreates a real-life internet challenge; destructible food items eaten bite by bite"
+  ],
+  "themes": [
+   "grocery store",
+   "food",
+   "eating challenge"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "eat-everything",
+   "real-life challenge remake"
+  ],
+  "monetization_signals": [
+   "cash packs up to 2499",
+   "VIP",
+   "starter pass",
+   "frenzy/army products"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "noob character stuffing food, 'DAY 1 / DAY 201' transformation",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many food models with bite-by-bite breaking, party lobby, gym upgrades",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "click for +1 beauty -> makeup stations for auto beauty -> beauty duels -> wins unlock stages and princesses -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "reach the final stage as the most beautiful princess",
+  "progression": "beauty, wins, stages, princesses, rebirths, stands",
+  "instructions": "click to gain beauty, duel other princesses, unlock stages",
+  "mechanics": [
+   "clicking",
+   "auto income stations",
+   "duels",
+   "rolls/luck",
+   "rebirth",
+   "daily reward"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "+1 template reskinned for a princess/makeup audience"
+  ],
+  "themes": [
+   "princesses",
+   "beauty",
+   "makeup",
+   "fashion"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "+1 every click"
+  ],
+  "monetization_signals": [
+   "21 passes (VIP, luck, triple wins, makeup stations)",
+   "91 developer products (stands)",
+   "instant/extra roll"
+  ],
+  "update_signals": [
+   "daily reward",
+   "updated today"
+  ],
+  "thumbnails": "princess art with '+1/+1M' numbers and Level 1 -> 67 -> 999 progression",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard +1 template with duel arena and stations",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q06",
+  "loop": "play Bikini Bottom characters -> run register, grill, assemble and deliver orders -> survive Plankton's sabotage -> upgrade the restaurant",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "keep the Krusty Krab out of bankruptcy",
+  "progression": "restaurant and character upgrades, doubloons, badges",
+  "instructions": "clock in, cook and serve customers, watch out for Plankton",
+  "mechanics": [
+   "cooking",
+   "order assembly",
+   "co-op roles",
+   "sabotage events",
+   "upgrades",
+   "revive"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "officially licensed SpongeBob (Viacom) co-op restaurant survival"
+  ],
+  "themes": [
+   "SpongeBob",
+   "restaurant",
+   "cooking"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed IP",
+   "cooking co-op"
+  ],
+  "monetization_signals": [
+   "revive / revive everyone",
+   "doubloon bundles",
+   "upgrade tiers"
+  ],
+  "update_signals": [
+   "33 badges",
+   "community rewards"
+  ],
+  "thumbnails": "high-quality SpongeBob, Patrick and Squidward cooking burgers",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "licensed IP, multiple characters, cooking stations and customer AI",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q07",
+  "loop": "follow a 12-part story -> search houses and desert, follow tracks -> sneak past masked men -> find hidden tapes and uncover the secret",
+  "loop_archetype": "story_adventure",
+  "objectives": "find the missing boy Fahd",
+  "progression": "story parts, hidden tapes",
+  "instructions": "play the 12-part story solo or with friends, search, sneak, find tapes",
+  "mechanics": [
+   "story chapters",
+   "stealth",
+   "searching",
+   "collectibles",
+   "choices"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Arabic voice acting and a Gulf setting; regional-language story game"
+  ],
+  "themes": [
+   "Gulf neighborhood",
+   "desert",
+   "mystery",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "story horror chapters",
+   "regional/Arabic content"
+  ],
+  "monetization_signals": [
+   "golden flashlight",
+   "night vision",
+   "lantern passes"
+  ],
+  "update_signals": [
+   "new game (2 days)"
+  ],
+  "thumbnails": "dark, cinematic scenes of an older man in a red headdress",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "cinematic scenes, voice acting, 12 parts, stealth AI",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q08",
+  "loop": "build a voxel base -> start the snowstorm and survive -> earn coins the longer you survive -> buy blocks and expand",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive the snowstorm as long as possible",
+  "progression": "coins, new blocks, base size, build limits",
+  "instructions": "build your base, start the snowstorm, survive to earn coins",
+  "mechanics": [
+   "voxel building",
+   "survival",
+   "warmth",
+   "base building",
+   "save slots"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Minecraft-like voxel building tied to a survival timer"
+  ],
+  "themes": [
+   "winter",
+   "snowstorm",
+   "voxel",
+   "minecraft-like"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "survive-the-x",
+   "voxel/minecraft"
+  ],
+  "monetization_signals": [
+   "block-limit upgrades",
+   "x2 coins",
+   "more warmth",
+   "save slots",
+   "skip day"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "blizzard with a character trudging toward a cabin, cosy bunker cutaway",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "voxel building system with saves and survival timer",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q09",
+  "loop": "escape a lava-filled prison -> dodge guards -> jump across obstacles -> rent weapons/items",
+  "loop_archetype": "obby_platformer",
+  "objectives": "escape the prison",
+  "progression": "stages, coins",
+  "instructions": "escape the lava prison, dodge guards, jump obstacles",
+  "mechanics": [
+   "obby",
+   "guard chase",
+   "item rental"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Barry's Prison Run template with a lava variant"
+  ],
+  "themes": [
+   "prison",
+   "lava",
+   "escape"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "prison run/Barry"
+  ],
+  "monetization_signals": [
+   "rent item",
+   "weapons/batons",
+   "2x coins",
+   "VIP bundle",
+   "guard pass"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "Barry-like guard standing in lava, mobile buttons shown",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "standard prison-run obby template",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "control a doll -> explore surreal hand-drawn worlds -> collect clothes, hats and shoes",
+  "loop_archetype": "story_adventure",
+  "objectives": "collect every outfit piece",
+  "progression": "clothing collection, badges",
+  "instructions": "control a doll and adventure, collecting clothes, hats and shoes",
+  "mechanics": [
+   "exploration",
+   "collecting",
+   "dress up"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "distinctive hand-drawn surreal art style; no monetization at all"
+  ],
+  "themes": [
+   "dolls",
+   "surreal",
+   "fashion",
+   "art"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "artist-made game"
+  ],
+  "monetization_signals": [],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "painterly surreal scenes of a doll girl with giant shoes and snail-shell trees",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom 2D-style art direction throughout",
+  "novelty": 3,
+  "confidence": 60
+ },
+ {
+  "label": "Q11",
+  "loop": "vote on a theme -> build an outfit from catalog items -> walk the runway -> rate others -> win podium spots",
+  "loop_archetype": "roleplay_social",
+  "objectives": "win runway rounds and climb leaderboards",
+  "progression": "wins, leaderboards",
+  "instructions": "vote on themes, design looks, walk the runway, rate outfits",
+  "mechanics": [
+   "dress up",
+   "voting",
+   "runway",
+   "catalog purchases"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "outfits are exported to a sister 'Avatar Outfit Catalog' game"
+  ],
+  "themes": [
+   "fashion",
+   "avatar",
+   "runway"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dress-to-impress-like",
+   "catalog avatar"
+  ],
+  "monetization_signals": [
+   "pick next theme",
+   "add minute",
+   "song request",
+   "catalog item sales"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "stylish avatar with long hair on a dark/glow background",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "catalog integration, voting, round system",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q12",
+  "loop": "run timed ninja-warrior obstacle courses -> fall and retry -> earn cash and wins -> buy abilities",
+  "loop_archetype": "obby_platformer",
+  "objectives": "beat the hardest course",
+  "progression": "cash, wins, passes",
+  "instructions": "beat Roblox's hardest obstacle course against the clock",
+  "mechanics": [
+   "obby",
+   "timed runs",
+   "physics obstacles",
+   "revive"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "American Ninja Warrior / Sasuke physics course"
+  ],
+  "themes": [
+   "ninja warrior",
+   "TV show"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ninja warrior"
+  ],
+  "monetization_signals": [
+   "extra life",
+   "double jump",
+   "sprint",
+   "cash packs",
+   "monthly VIP",
+   "winter pass"
+  ],
+  "update_signals": [
+   "Halloween update",
+   "2x weekend"
+  ],
+  "thumbnails": "Roblox characters on red spinning obstacles over water",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many moving physics obstacles",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "pick a heist -> plan stealth or loud -> co-op first-person heist -> earn money and XP -> buy weapons and masks",
+  "loop_archetype": "combat_pvp",
+  "objectives": "complete heists and gain infamy",
+  "progression": "money, XP, infamy, weapons, masks",
+  "instructions": "choose a heist, play with the crew, view controls in game",
+  "mechanics": [
+   "FPS",
+   "co-op heists",
+   "stealth",
+   "loadouts",
+   "cosmetics"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "licensed PAYDAY co-op heist shooter"
+  ],
+  "themes": [
+   "heist",
+   "crime",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "licensed IP",
+   "heist"
+  ],
+  "monetization_signals": [
+   "weapon packs",
+   "heist passes",
+   "double XP/cash",
+   "money packs"
+  ],
+  "update_signals": [
+   "Halloween boss fight",
+   "version 3.20.2"
+  ],
+  "thumbnails": "weapons, masks and armed crew posters",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "many heists, FPS systems, AI, long-running studio game",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "stock and sell products -> serve customers -> earn cash -> upgrade and decorate the store",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow a Filipino sari-sari store",
+  "progression": "store upgrades, decorations",
+  "instructions": "sell products, serve customers, upgrade store; free code RELEASE",
+  "mechanics": [
+   "shopkeeping",
+   "checkout",
+   "stocking",
+   "upgrades",
+   "decoration"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "culturally specific Filipino store sim"
+  ],
+  "themes": [
+   "Philippines",
+   "store",
+   "snacks"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "store sim",
+   "regional content"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x cash",
+   "luck",
+   "permits",
+   "gift passes"
+  ],
+  "update_signals": [
+   "Halloween icon",
+   "codes"
+  ],
+  "thumbnails": "basket of Filipino snacks with Halloween variant",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "store sim with customer AI",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q15",
+  "loop": "buy cars cheap -> repair and modify -> sell high / auction -> expand the dealership -> trade and race",
+  "loop_archetype": "simulation_job",
+  "objectives": "become the top car dealer",
+  "progression": "cash, rare cars, dealership size, skills",
+  "instructions": "buy low, repair, sell high, expand the dealership",
+  "mechanics": [
+   "negotiation",
+   "car repair",
+   "customization",
+   "auctions",
+   "trading",
+   "racing"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Middle-East car flipping with negotiation skills and auctions"
+  ],
+  "themes": [
+   "cars",
+   "dealership",
+   "Middle East"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "car flipping"
+  ],
+  "monetization_signals": [
+   "warehouses up to 1599",
+   "skills (convince/bargain)",
+   "cash packs",
+   "wraps and upgrades"
+  ],
+  "update_signals": [
+   "auctions update"
+  ],
+  "thumbnails": "realistic cars in a parking garage with logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many car models, negotiation and auction systems",
+  "novelty": 2,
+  "confidence": 70
+ }
+]

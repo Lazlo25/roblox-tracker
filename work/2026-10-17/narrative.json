@@ -1,0 +1,88 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Most Popular was calmer than yesterday: three games entered (Wash the Car, RUNAWAYS, MVSD) and two left (Dogs of War, Smash the City).",
+        "Steal An Egg (84 days) still leads, ahead of Brookhaven, Murder Mystery 2, +1 Speed Keyboard Escape, 99 Nights in the Forest and RIVALS.",
+        "DIVINE HATCHERS (16 days) made the biggest climb (+37), followed by Facecard: Makeup Showdown and Peel THE Potato (+12 each), while young egg games (Drill for Eggs -16, Steal An EXE Egg -9) and COCARDO (-16) fell.",
+        "Multi-year games keep the best median standing (percentile 61) against 33 to 44 for every younger band, so the mid-life trough idea stays at low confidence."
+      ],
+      "patterns": [
+        "Higher dev product and pass prices tend to go with longer Most Popular stays (splits near 199 R$ and 69 R$), with age as a confounder because older games price higher.",
+        "Games left more than a week without an update stay fewer days on the chart (r=-0.46 at the 7-day split), a new threshold test.",
+        "Combat PvP (median percentile 74), story adventure and simulation-job loops hold the best standing, while idle-tycoon, wave-survival, obby and steal-and-defend loops sit near the bottom.",
+        "More complex games tend to stay longer (rho +0.26); the video set still shows two durable looks, near-empty HUD social worlds and dense progression or match HUDs."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "Leads with a steal-and-defend loop whose clones rank near the bottom, consistent with being the original of the wave."},
+        {"name": "DIVINE HATCHERS 0.0001% [NEW!]", "note": "Climbed 37 places at 16 days with a pet-hatching loop that usually holds weak standing, while falling 13 on Top Trending the same day."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again lead efficiency, followed by The Company, Elemental Dungeons and Morioh High.",
+        "Young survival and horror titles (Bunker vs Verity, Sarab, Sell Fries!) plus Chop A Forest are the least efficient for their player counts.",
+        "Older games made the biggest climbs (Emergency Emden +104, Swordburst 2 +84, MORPH WORLD +73), while young '+1' titles fell hardest (+1 Mog Evolution -91, +1 DMG FPS -63).",
+        "15-to-42-day games have the lowest median efficiency (22) and games past a year sit near 59, consistent with revenue catching up with age."
+      ],
+      "patterns": [
+        "Dev products above about 249 R$, servers of 25+ players, longer descriptions, bracket tags and higher pass prices consistently go with better efficiency, though many of these also mark older, actively run games.",
+        "RPGs, roleplay and combat PvP loops consistently earn more for their CCU; roleplay/social loops (r=+0.30) are now tested on their own, separate from the donation-hub genre idea.",
+        "Survival, pet/egg, steal-a-X and '+1' games consistently earn less, and 'Egg' and 'Steal' title words carry the strongest negative keyword links (r=-0.53 and -0.43).",
+        "Video observations from long-running PvP hits keep pointing to cosmetics and paid roles as the visible monetization, which stays speculative."
+      ],
+      "outliers": [
+        {"name": "Morioh High", "note": "Among the most efficient at 15 days with one pass and six products, against the age effect; a small CCU makes this unreliable."},
+        {"name": "Emergency Emden", "note": "Climbed 104 places at 1,320 days, likely an update or weekend spike in a roleplay game rather than a structural change."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Cat Battles (12 days) led momentum, ahead of Wash the Car, Build a Keyboard (+29), صيد الضبّان, Facecard: Makeup Showdown and RoFront.",
+        "The chart turned over heavily: 23 entries and 22 exits, with many older games (Forsaken, Evade, Squid Game X, Tower Defense Simulator) re-entering on Halloween updates.",
+        "The youngest band (0-14 days) holds a median momentum percentile of 94, far above 15-to-84-day games (51) and 85-to-122-day games (16).",
+        "Young '+1' escape games (+1 Hair Escape, +1 Web Escape, +1 Lift Rock for Treasure) are the weakest on momentum, and Swim For Eggs fell 33."
+      ],
+      "patterns": [
+        "Young games selling spins or crates may climb faster (r=+0.43, within-age +0.51), a new test; age is a confounder because the youngest games dominate the band.",
+        "'+1' titles may climb more slowly (r=-0.49 on 8 games), now tested separately from the Top Earning '+1' idea.",
+        "Luck products, escape/flee loops and creature themes tend to go with weaker momentum, while currency packs and building loops tend to go with stronger momentum.",
+        "Many re-entries carry a Halloween bracket tag, so the seasonal event is a confounder for this week's turnover."
+      ],
+      "outliers": [
+        {"name": "Cat Battles 🐾", "note": "Led momentum with a creature-themed PvP loop and 152 dev products, against both the PvP and creature-theme ideas."},
+        {"name": "Wash the Car 🧽", "note": "A 62-day solo idle game with no passes still ranks second on momentum and entered Most Popular, against the solo-loop and age ideas."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Chop A Forest and Sell Fries! (both 26 days) lead Up-and-Coming, ahead of Climb For Animals Eggs, Facecard: Makeup Showdown, Sarab and WRONG WAY!.",
+        "Cat Battles (+36) and Bike For Egg (+26) made the biggest climbs, while Draw a Dumpling (-21), Army Commander Tycoon (-20) and Pogo For Animals (-18) fell.",
+        "Eight games entered, including licensed Save the Krusty Krab, the Arabic story game Where Is Fahd? (2 days) and Eat Everything In A Grocery Store.",
+        "The 15-to-42-day band holds the best median standing (54), slightly above the 0-14-day band (47)."
+      ],
+      "patterns": [
+        "Recently and frequently updated games consistently rank higher among games of the same age (days since update rho -0.34, updates per week +0.32).",
+        "Core competitive loops (r=+0.46) and revive products tend to go with higher positions, and asking players to favorite the game tends to help (within-age +0.41).",
+        "Shorter titles may rank higher (split at 23 characters, r=-0.41), a new test.",
+        "Steal-and-defend (median 22) and idle-tycoon (23) loops sit lowest, while hatch-pet (84) and collect-upgrade-rebirth (76) loops sit highest."
+      ],
+      "outliers": [
+        {"name": "Deliver The Baby 🍼", "note": "Weakest on the chart with a 45% like ratio and no update in 18 days, consistent with the update and like-ratio ideas."},
+        {"name": "Where Is Fahd?", "note": "Entered at 2 days with no dev products and a 73% like ratio, carried by an Arabic-language story audience."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Visits and favorites lead associations on Most Popular, Top Trending and Up-and-Coming, but they are partly outcomes of success rather than causes.",
+      "Higher product and pass prices go with both longer Most Popular stays and better Top Earning efficiency, while complexity helps both, so depth and pricing travel together.",
+      "Steal and egg templates keep reaching the breakout charts while their young clones fall on several charts at once and earn poorly, supporting the fading-wave idea.",
+      "Regional-language games (Arabic, Filipino, Middle-East car culture) appear across Top Trending and Up-and-Coming entries, a new speculative pattern."
+    ],
+    "progressions": [
+      "Top Trending to Most Popular remains the most common sequence (60 entries, median 2 days later).",
+      "Up-and-Coming to Top Trending follows (54, median 2 days), then Top Earning to Top Trending (41, 5 days) and Up-and-Coming to Most Popular (36, 4 days)."
+    ]
+  }
+}

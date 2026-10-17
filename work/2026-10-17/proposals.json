@@ -1,0 +1,29 @@
+{
+  "new": [
+    {"chart": "mp", "statement": "Games updated within the last week stay on Most Popular for more days than games left longer without an update",
+     "action": "Update at least weekly",
+     "test": {"feature": "days_since_update", "metric": "mp_days", "type": "threshold", "cut": 7, "direction": "-"}},
+    {"chart": "te", "statement": "Roleplay and social-hub loops earn a higher Top Earning position for their CCU than other profiled loops",
+     "action": "Build a roleplay hub for revenue",
+     "test": {"feature": "loop=roleplay_social", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "tt", "statement": "Young games selling spins or crates climb Top Trending faster than games of similar age without them",
+     "action": "Sell spins or crates from launch",
+     "test": {"feature": "prod_spin_crate", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with '+1' titles climb Top Trending more slowly than other games of similar age",
+     "action": "Avoid '+1' titles for momentum",
+     "test": {"feature": "title_plus1", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Shorter titles (23 characters or fewer) go with higher Up-and-Coming positions among games of the same age",
+     "action": "Keep the title under 24 characters",
+     "test": {"feature": "title_len", "metric": "uc_pos", "type": "threshold", "cut": 23, "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Games built for an underserved language or region (Arabic story and hunting games, a Filipino sari-sari store, a Middle-East car flipper) break onto Top Trending and Up-and-Coming with modest player counts",
+     "action": "Localize for an underserved region",
+     "rationale": "Today's entrants include Where Is Fahd? (Arabic voice acting), صيد الضبّان, Run a Sari-Sari Store and Car Sales 2, and Sarab sits near the top of Up-and-Coming. A language or region feature from the description would test whether they over-perform for their visits."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-011", "confidence": 45, "note": "More support: Steal An EXE Egg (-9 Most Popular), Swim For Eggs (-33 Top Trending) and Clone to Steal Eggs and Drive an Egg (weakest on Up-and-Coming) fall while Steal An Egg still leads Most Popular; Bike For Egg's +26 on Up-and-Coming is the exception."},
+    {"id": "H-x-001", "confidence": 44, "note": "Sequence counts keep the same order: tt→mp 60 (median 2 days), uc→tt 54 (2 days), te→tt 41 (5 days)."}
+  ],
+  "actions": [],
+  "retire": []
+}
