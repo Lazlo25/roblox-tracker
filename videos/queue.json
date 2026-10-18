@@ -1,8 +1,8 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "queue": [
   {
-   "age_days": 1200,
+   "age_days": 1201,
    "charts": [
     "mp"
    ],
@@ -12,27 +12,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 1949,
-   "charts": [
-    "mp"
-   ],
-   "name": "Fling Things and People",
-   "place": "6961824067",
-   "status": "youtube_needed",
-   "u": "2668101271"
-  },
-  {
-   "age_days": 1744,
-   "charts": [
-    "mp"
-   ],
-   "name": "Berry Avenue 🏠 RP",
-   "place": "8481844229",
-   "status": "youtube_needed",
-   "u": "3240075297"
-  },
-  {
-   "age_days": 2673,
+   "age_days": 2674,
    "charts": [
     "mp",
     "te"
@@ -43,7 +23,27 @@
    "u": "1202096104"
   },
   {
-   "age_days": 1218,
+   "age_days": 1950,
+   "charts": [
+    "mp"
+   ],
+   "name": "Fling Things and People",
+   "place": "6961824067",
+   "status": "youtube_needed",
+   "u": "2668101271"
+  },
+  {
+   "age_days": 1745,
+   "charts": [
+    "mp"
+   ],
+   "name": "Berry Avenue 🏠 RP",
+   "place": "8481844229",
+   "status": "youtube_needed",
+   "u": "3240075297"
+  },
+  {
+   "age_days": 1219,
    "charts": [
     "te"
    ],
@@ -53,7 +53,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 948,
+   "age_days": 949,
    "charts": [
     "te"
    ],
@@ -63,7 +63,7 @@
    "u": "5750914919"
   },
   {
-   "age_days": 2305,
+   "age_days": 2306,
    "charts": [
     "te"
    ],
@@ -73,17 +73,17 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1475,
+   "age_days": 1476,
    "charts": [
     "te"
    ],
-   "name": "Baddies 💅",
+   "name": "[UPD] Baddies 💅",
    "place": "11158043705",
    "status": "youtube_needed",
    "u": "3990106548"
   },
   {
-   "age_days": 3477,
+   "age_days": 3478,
    "charts": [
     "te"
    ],
@@ -93,7 +93,17 @@
    "u": "321778215"
   },
   {
-   "age_days": 652,
+   "age_days": 2652,
+   "charts": [
+    "te"
+   ],
+   "name": "[🎃] Dragon Adventures 🐉",
+   "place": "3475397644",
+   "status": "frames_ready",
+   "u": "1235188606"
+  },
+  {
+   "age_days": 653,
    "charts": [
     "te"
    ],
@@ -103,17 +113,7 @@
    "u": "7028566528"
   },
   {
-   "age_days": 813,
-   "charts": [
-    "te"
-   ],
-   "name": "[🌟Sendou] Blue Lock: Rivals",
-   "place": "18668065416",
-   "status": "youtube_needed",
-   "u": "6325068386"
-  },
-  {
-   "age_days": 1832,
+   "age_days": 1833,
    "charts": [
     "te"
    ],
@@ -123,15 +123,21 @@
    "u": "2992873140"
   },
   {
-   "age_days": 2651,
+   "age_days": 814,
    "charts": [
     "te"
    ],
-   "name": "[🎃] Dragon Adventures 🐉",
-   "place": "3475397644",
-   "status": "frames_ready",
-   "u": "1235188606"
+   "name": "[🐍 NEL Aiku] Blue Lock: Rivals",
+   "place": "18668065416",
+   "status": "youtube_needed",
+   "u": "6325068386"
   }
  ],
- "waiting": []
+ "waiting": [
+  {
+   "name": "🎃 Your Bizarre Adventure 🎃",
+   "u": "1016936714",
+   "why": "needs Rolimons history"
+  }
+ ]
 }
