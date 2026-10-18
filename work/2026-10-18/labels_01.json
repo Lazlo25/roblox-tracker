@@ -1,0 +1,672 @@
+[
+ {
+  "label": "Q01",
+  "loop": "ride a stampeding dino down a canyon -> train grip on machines to stay on longer -> tame dinos and place them in ranch pens for $/s -> unlock rarer eras",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "ride farther to tame rarer dinos and grow ranch income",
+  "progression": "grip stat, 9 eras, 50+ dino rarities up to Divine, pen upgrades",
+  "instructions": "leap onto a dinosaur, train grip, race through eras, tame and collect dinos, earn cash at your ranch",
+  "mechanics": [
+   "riding",
+   "grip training",
+   "creature collection",
+   "income per second",
+   "rarity tiers",
+   "secret spawns"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "rodeo-style riding as the collection mechanic"
+  ],
+  "themes": [
+   "dinosaurs",
+   "cowboy",
+   "prehistoric"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ride-a-x",
+   "1-in-N rarity odds"
+  ],
+  "monetization_signals": [
+   "2x money pass",
+   "85 grip multiplier products"
+  ],
+  "update_signals": [
+   "new eras",
+   "Halloween meteor tag"
+  ],
+  "thumbnails": "rider on giant blocky dinos with '1 in 90Qa' odds and $/s income callouts",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "runner track with ridable dino models, ranch plot, multiplier UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "get a theme -> do makeup on a face before the timer -> everyone's look is rated -> podium",
+  "loop_archetype": "party_minigames",
+  "objectives": "win the rating round with the best themed look",
+  "progression": "coins, unlocked palettes and brushes",
+  "instructions": "create a look matching the theme before time runs out, rate others, compete for top spot",
+  "mechanics": [
+   "makeup painting",
+   "timed rounds",
+   "player voting",
+   "theme prompts"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "face-canvas makeup painting in a Dress-to-Impress-style voting format"
+  ],
+  "themes": [
+   "makeup",
+   "beauty",
+   "fashion"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dress-to-impress-like",
+   "makeup games"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "brush and palette passes",
+   "coin packs",
+   "reaction throws"
+  ],
+  "update_signals": [
+   "UPD tag",
+   "Halloween pack"
+  ],
+  "thumbnails": "bald face to glam before/after and a 1-2-3 podium",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "face painting/texture system, round flow and voting UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "press the button -> random disaster or obby triggers -> survive the round -> earn coins",
+  "loop_archetype": "party_minigames",
+  "objectives": "survive as many of the 62 disasters as possible",
+  "progression": "coins for gear passes",
+  "instructions": "press the button and survive whatever happens with friends",
+  "mechanics": [
+   "random events",
+   "disasters",
+   "obbies",
+   "coins"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "button",
+   "disasters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dont-press-the-button sequel"
+  ],
+  "monetization_signals": [
+   "x2 coins",
+   "coil and carpet gear passes",
+   "coin packs",
+   "body swap potion"
+  ],
+  "update_signals": [
+   "new maps",
+   "coin shop"
+  ],
+  "thumbnails": "lone green button on grass with 'Don't Press!' text",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many small disaster scripts and mini-maps",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "pick a level -> use traps (anvil, hammer, disasters) to kill the 'friend' NPC -> next level across 25 worlds",
+  "loop_archetype": "party_minigames",
+  "objectives": "clear 250 levels of ways to kill your friend",
+  "progression": "levels, worlds, ranks Innocent to Friendless",
+  "instructions": "swap the target for a Roblox friend, kill them with traps and disasters, advance islands",
+  "mechanics": [
+   "level puzzles",
+   "ragdoll kills",
+   "disasters",
+   "friend avatar as target"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "uses your real friend's avatar as the victim"
+  ],
+  "themes": [
+   "slapstick",
+   "friends",
+   "disasters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "kill-your-x / troll friend",
+   "free UGC"
+  ],
+  "monetization_signals": [
+   "skip packs",
+   "disaster trolls",
+   "laser blaster",
+   "VIP"
+  ],
+  "update_signals": [
+   "level count in title (250)"
+  ],
+  "thumbnails": "giant yellow hand menacing a scared bacon; anvil and hammer gags; 'Free UGC'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many small levels, ragdoll physics, avatar loading",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "explore a FNAF-style map -> complete objectives -> juke animatronic attacks to break their ankles -> escape",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive and escape the animatronics",
+  "progression": "unclear; revives and admin tools",
+  "instructions": "explore, complete objectives, feint and dodge animatronics, hide and escape",
+  "mechanics": [
+   "juking",
+   "chase AI",
+   "objectives",
+   "jumpscares",
+   "revives"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "ankle-break juking meme applied to FNAF chase"
+  ],
+  "themes": [
+   "FNAF",
+   "horror",
+   "animatronics",
+   "meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "FNAF fan games",
+   "ankle breaker meme"
+  ],
+  "monetization_signals": [
+   "admin panel",
+   "god slap/bomb weapons",
+   "revive credits",
+   "donations"
+  ],
+  "update_signals": [
+   "UPDATE tag"
+  ],
+  "thumbnails": "troll-face bacon dodging Freddy with 'CRACK' text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "one map, animatronic chase AI",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q06",
+  "loop": "walk a tower choosing between two outfit doors (would you rather) -> assemble a queen look -> enter outfit contest",
+  "loop_archetype": "obby_platformer",
+  "objectives": "build the best queen outfit and win the contest",
+  "progression": "outfit collection, votes",
+  "instructions": "choose outfits, climb the tower, compete in the contest",
+  "mechanics": [
+   "binary choice doors",
+   "outfit collection",
+   "contest voting",
+   "troll products"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "would-you-rather tower merged with dress-up contest"
+  ],
+  "themes": [
+   "princess",
+   "fashion",
+   "pink"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "would you rather",
+   "dress-to-impress-like"
+  ],
+  "monetization_signals": [
+   "troll products (kick/kill)",
+   "coils",
+   "2x votes",
+   "unlock all"
+  ],
+  "update_signals": [],
+  "thumbnails": "princess choosing between two pink dress doors with question marks",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "linear tower of door choices, outfit attach, simple vote",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q07",
+  "loop": "build a custom pro scooter from branded parts -> ride skate maps doing tricks -> earn in-store credit for more parts",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build and ride your perfect scooter setup",
+  "progression": "in-store credit, parts and cosmetics",
+  "instructions": "build a setup, ride 8 community maps; controller recommended",
+  "mechanics": [
+   "scooter physics",
+   "trick riding",
+   "part customization",
+   "first person"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic pro-scooter building with real-brand style parts"
+  ],
+  "themes": [
+   "scooters",
+   "extreme sports",
+   "skatepark"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "build & ride"
+  ],
+  "monetization_signals": [
+   "VIP/VIP+",
+   "47 cosmetic passes (decks, riding effects)",
+   "credit packs"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "new map",
+   "Halloween effects",
+   "BETA"
+  ],
+  "thumbnails": "scooter in a shop with 'Build your own!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom vehicle physics and trick system, part configurator, multiple maps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "drive a rally car blind while a friend (or AI co-driver) calls the corners -> finish stages for medals or race others",
+  "loop_archetype": "racing_driving",
+  "objectives": "get medals on stages using your co-driver's calls",
+  "progression": "7 cars, 5 stages, crates for parts/liveries",
+  "instructions": "drive on your friend's calls through forests and snow; race head-to-head",
+  "mechanics": [
+   "co-driver pace notes",
+   "asymmetric coop",
+   "rally driving",
+   "weather"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "asymmetric two-player rally: one sees the road, one drives"
+  ],
+  "themes": [
+   "rally",
+   "cars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "asymmetric coop with friends"
+  ],
+  "monetization_signals": [
+   "crates (gacha)",
+   "premium car",
+   "VIP",
+   "starter pack"
+  ],
+  "update_signals": [],
+  "thumbnails": "rally car drifting on dirt and an interior cockpit view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "vehicle physics, cockpit view, weather, stage tracks",
+  "novelty": 3,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "fight in first person in a boxing ring -> slip, guard, counter -> earn coins -> roll gloves/trunks/styles",
+  "loop_archetype": "combat_pvp",
+  "objectives": "knock out opponents and become champion",
+  "progression": "coins, glove/trunk cosmetics, style rolls",
+  "instructions": "slip, counter, manage stamina; fight players or AI",
+  "mechanics": [
+   "first-person melee",
+   "stamina",
+   "guards",
+   "knockouts",
+   "style rolls"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "true first-person boxing on Roblox"
+  ],
+  "themes": [
+   "boxing",
+   "sports"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "first person x"
+  ],
+  "monetization_signals": [
+   "glove/trunk crates",
+   "style rolls",
+   "slot passes",
+   "coins"
+  ],
+  "update_signals": [],
+  "thumbnails": "first-person red gloves punching an opponent in the ring",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "first-person combat animations, replays",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q10",
+  "loop": "sit at a vanity -> paint makeup by hand layer by layer -> save looks, give salon customers makeovers -> earn pearls for new shades",
+  "loop_archetype": "simulation_job",
+  "objectives": "create looks and fulfil salon customer wishes",
+  "progression": "pearls, shades, finishes, look diary",
+  "instructions": "paint skin prep, blush, lipstick, eyes by hand; save looks; serve customers",
+  "mechanics": [
+   "face painting",
+   "customer orders",
+   "cosmetic unlocks",
+   "photo mode"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "private hand-painted makeup canvas"
+  ],
+  "themes": [
+   "makeup",
+   "beauty"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "makeup games"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "glam bundle 1099",
+   "pearl packs up to 1299",
+   "gifting"
+  ],
+  "update_signals": [],
+  "thumbnails": "bald face transformed into glam faces with arrows",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "paint-on-face texture system, vanity UI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "click for +1 aura -> upgrade dances on treadmills -> dance-battle opponents for wins -> rebirth and climb",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "out-dance opponents and climb the leaderboard",
+  "progression": "aura, wins, rebirth tiers, worlds (W2)",
+  "instructions": "click for aura, upgrade dances, earn wins",
+  "mechanics": [
+   "clicking",
+   "+1 per click",
+   "dance battles",
+   "rebirth",
+   "treadmills"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Michael Jackson dance battle skin on +1 template"
+  ],
+  "themes": [
+   "dance",
+   "Michael Jackson",
+   "meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x evolution",
+   "MJ meme"
+  ],
+  "monetization_signals": [
+   "treadmill passes up to 1999",
+   "aura multipliers",
+   "skip rebirth",
+   "auto clicker"
+  ],
+  "update_signals": [
+   "World 2"
+  ],
+  "thumbnails": "MJ-style dancer vs sad noob, '+99999999 DANCE'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "+1 template with battle lane",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "get $20 -> bid on/draft 10 animals with hidden power -> animals battle -> best team wins",
+  "loop_archetype": "party_minigames",
+  "objectives": "draft the stronger animal team",
+  "progression": "money, animal skins",
+  "instructions": "outbid opponent with $20, draft animals, reveal power, see who wins",
+  "mechanics": [
+   "drafting",
+   "bidding",
+   "hidden stats",
+   "auto battle",
+   "troll products"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "budget-draft auction with hidden animal power"
+  ],
+  "themes": [
+   "animals",
+   "dinosaurs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "who wins? / stronger animal"
+  ],
+  "monetization_signals": [
+   "skin bundles up to 1899",
+   "troll products",
+   "luck boosts",
+   "2x money"
+  ],
+  "update_signals": [
+   "72 animals added"
+  ],
+  "thumbnails": "lion vs tiger with $20 budgets and 'WHO WINS?' draft board",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "draft UI, animal models, simple battle sim",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q13",
+  "loop": "start with a bare face canvas -> skincare prep -> layer foundation, contour, eye glam -> before/after reveal",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create realistic makeup looks",
+  "progression": "unclear; stencils and palettes arrive with updates",
+  "instructions": "clear acne, prep skin, layer makeup, add hair; see before/after",
+  "mechanics": [
+   "face painting",
+   "skincare",
+   "stencils"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic skincare-prep step"
+  ],
+  "themes": [
+   "makeup",
+   "beauty",
+   "aesthetic"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "makeup games"
+  ],
+  "monetization_signals": [
+   "single 25 Robux jewelry pass"
+  ],
+  "update_signals": [
+   "stencil update",
+   "private servers",
+   "drop at 5k likes"
+  ],
+  "thumbnails": "stylized girl applying blush, 'VANITY' logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "face texture painting, single studio room",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q14",
+  "loop": "scan visitors at the hospital gate -> check IDs -> refuse, tase, cuff, jail threats -> earn cash -> survive 7 days",
+  "loop_archetype": "simulation_job",
+  "objectives": "keep the hospital safe for 7 days",
+  "progression": "cash, classes, weapons, day counter",
+  "instructions": "scan IDs, refuse/tase/cuff bad guys, earn cash, unlock classes",
+  "mechanics": [
+   "ID checking",
+   "scanning",
+   "tasing/cuffing",
+   "day survival"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Papers-Please-style security checkpoint"
+  ],
+  "themes": [
+   "hospital",
+   "security",
+   "creepy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "checkpoint/ID-check games"
+  ],
+  "monetization_signals": [
+   "OP guns up to 1499",
+   "revives",
+   "skip days",
+   "spins"
+  ],
+  "update_signals": [],
+  "thumbnails": "scanner showing creepy patients flagged DANGER",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "checkpoint scene, NPC variants, simple weapons",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "train laser power -> burn the city -> earn cash -> upgrade laser -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest laser destroyer",
+  "progression": "power, laser size/speed, targets, rebirths",
+  "instructions": "train power, burn stuff, earn cash, upgrade, rebirth",
+  "mechanics": [
+   "training",
+   "destruction",
+   "rebirth",
+   "+1 power"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "laser-eye city destruction on +1 template"
+  ],
+  "themes": [
+   "lasers",
+   "destruction",
+   "city"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "destruction sim"
+  ],
+  "monetization_signals": [
+   "target passes up to 999",
+   "2x laser size/speed",
+   "power/cash offers"
+  ],
+  "update_signals": [],
+  "thumbnails": "muscled bacon firing eye lasers over a burning city, '99M' power",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "destructible city, laser VFX",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

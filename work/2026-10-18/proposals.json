@@ -1,0 +1,27 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games with a collection index (complete-the-index goals) hold higher Top Trending positions among games of similar age",
+     "action": "Add a collection index",
+     "test": {"feature": "mech_collect_index", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with a video in their page media rank higher on Up-and-Coming among games of the same age",
+     "action": "Add a gameplay video to the page",
+     "test": {"feature": "has_video", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games whose thumbnails show gameplay hold higher Top Trending positions among games of similar age, even though they climb more slowly",
+     "test": {"feature": "thumb=gameplay", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Asymmetric two-player co-op, where one player sees and the other acts (rally driver and navigator, scooter driver and passenger), is a new wave reaching Up-and-Coming and Top Trending within two weeks of launch",
+     "action": "Design a two-role co-op mechanic",
+     "rationale": "Rally Panic! (+30 Up-and-Coming, new on Top Trending at 16 days), Backseat Rally (new on Up-and-Coming at 13 days) and Scooter Duo all split one vehicle between two roles; Rally Panic credits Left Left LEFT! as its inspiration. A role-split feature from the description would test it, and the wave should fade within weeks if it is a fad."},
+    {"chart": "uc", "kind": "qualitative", "confidence": 25,
+     "statement": "Hand-painted makeup games (a bare face canvas you paint layer by layer) form a cluster on Up-and-Coming, and the round-based, rated versions rank above the solo studio versions",
+     "action": "Add rating rounds to creative tools",
+     "rationale": "Facecard: Makeup Showdown is among the best on Up-and-Coming and Makeup Salon entered both Up-and-Coming and Top Trending with 98% likes, while the solo Makeup Star (57% likes) and VANITY sit lower; all are 13–14 days old. Comparing rated-round and solo versions over the next weeks would confirm or reject it."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-010", "confidence": 42, "note": "Kukirin Life is Top Earning #42, Most Popular #41 (+8) and Up-and-Coming #6 at 29 days; Escooter Life entered Top Earning at 7 days; ScootX and Bike Universe joined Up-and-Coming, though Redlane and Scooter Empire sit low on it."},
+    {"id": "H-x-011", "confidence": 45, "note": "Mixed: DIVINE HATCHERS, Lift Rock For Eggs and Pogo For Animals fell 41–55 places while Steal An Egg still leads Most Popular, but Fake an Egg (+24 Top Trending) and Bike For Egg (+29 Up-and-Coming) rose."},
+    {"id": "H-x-001", "confidence": 44, "note": "Sequence counts keep their order: tt→mp 62 (median 2 days), uc→tt 59 (2 days), te→tt 48 (7 days)."}
+  ],
+  "actions": [],
+  "retire": []
+}

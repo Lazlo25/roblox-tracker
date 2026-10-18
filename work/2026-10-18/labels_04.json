@@ -1,0 +1,661 @@
+[
+ {
+  "label": "Q46",
+  "loop": "become a kitten -> explore and play with friends -> collect coins -> buy cat breeds and accessories",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect cat types and accessories, hang out",
+  "progression": "coins, breeds, accessories",
+  "instructions": "become a cat, collect accessories, play with friends, explore",
+  "mechanics": [
+   "animal roleplay",
+   "accessories",
+   "coin collecting"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "cats",
+   "pets",
+   "Halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "animal roleplay"
+  ],
+  "monetization_signals": [
+   "breed passes up to 2000",
+   "coin packs up to 3000",
+   "coin magnet"
+  ],
+  "update_signals": [
+   "October update with Halloween cats"
+  ],
+  "thumbnails": "cute cats in a group, Halloween cat with pumpkin",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "cat rig and animations, maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q47",
+  "loop": "spawn in Dubai -> build a home, raise a family, drive supercars -> play sports, travel to London",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live a dream life and roleplay with friends",
+  "progression": "homes, vehicles, props",
+  "instructions": "build a home, raise family, drive, shop, explore, play sports",
+  "mechanics": [
+   "life roleplay",
+   "houses",
+   "vehicles",
+   "sports minigames",
+   "travel"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "Dubai",
+   "luxury",
+   "family",
+   "London"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "life RP (Brookhaven-like)"
+  ],
+  "monetization_signals": [
+   "182 products: vehicles, pets, bundles",
+   "VIP 549"
+  ],
+  "update_signals": [
+   "sports update",
+   "London travel",
+   "limited strollers"
+  ],
+  "thumbnails": "girls taking selfies in London, beach volleyball",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large city maps, vehicles, houses, sports",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q48",
+  "loop": "browse the Roblox catalog -> try on and buy items -> earn points -> redeem free accessories",
+  "loop_archetype": "other",
+  "objectives": "build avatars and earn free items",
+  "progression": "points",
+  "instructions": "browse catalog, build avatars, earn points to claim free items",
+  "mechanics": [
+   "catalog browsing",
+   "avatar editor",
+   "points rewards"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "in-game catalog with loyalty points"
+  ],
+  "themes": [
+   "avatars",
+   "fashion"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "avatar shopping"
+  ],
+  "monetization_signals": [
+   "point packs up to 25000",
+   "catalog commissions"
+  ],
+  "update_signals": [
+   "point shop items at like goals"
+  ],
+  "thumbnails": "avatar editor UI with 'EQUIP', 'EARN FREE ITEMS!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "catalog UI integration",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q49",
+  "loop": "chew gum to grow bubble power -> trap an EXE egg in a bubble -> run from its monster back to your plot -> hatch for $/s EXE -> unlock bigger areas",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare and huge EXEs and earn more",
+  "progression": "bubble power, gum, areas, mutations",
+  "instructions": "chew gum, bubble an egg, run, hatch, earn",
+  "mechanics": [
+   "egg capture",
+   "monster chase",
+   "hatching",
+   "income per second",
+   "training"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "bubble-gum capture of creepy EXE eggs"
+  ],
+  "themes": [
+   "EXE creepypasta",
+   "Sonic.EXE",
+   "eggs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal/capture-a-x",
+   "EXE memes"
+  ],
+  "monetization_signals": [
+   "egg packs up to 1399",
+   "speed products",
+   "troll weapons",
+   "2x growth/money"
+  ],
+  "update_signals": [],
+  "thumbnails": "bacon carrying Sonic.EXE/smiley eggs from monsters, '$86,979Sp/s'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "chase AI, plot hatching",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q50",
+  "loop": "survive rounds against hordes of dogs on varied maps -> earn coins -> buy tools to fight back",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive the dog hordes each round",
+  "progression": "coins, tools",
+  "instructions": "survive hordes of dogs, earn coins, buy tools",
+  "mechanics": [
+   "round survival",
+   "horde AI",
+   "tools",
+   "maps with conditions"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "low-fi meme horror with dog swarm"
+  ],
+  "themes": [
+   "dogs",
+   "horror",
+   "meme"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "worm-cave-like round survival"
+  ],
+  "monetization_signals": [
+   "donations",
+   "supporter",
+   "custom death sound",
+   "coins"
+  ],
+  "update_signals": [
+   "v0.6.2",
+   "Halloween tag"
+  ],
+  "thumbnails": "creepy blue dog meme faces and players with gear",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "horde AI, multiple maps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q51",
+  "loop": "drive in an open-world Virginia map -> jobs (haul, mail, fire, police) or crime -> earn cash -> buy/tune cars from 500+",
+  "loop_archetype": "roleplay_social",
+  "objectives": "own and tune cars, roleplay jobs",
+  "progression": "cash, cars, houses",
+  "instructions": "explore, own houses, haul cargo, race, cruise",
+  "mechanics": [
+   "driving",
+   "jobs",
+   "cops vs crims",
+   "tuning",
+   "car meets"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "cars",
+   "Virginia",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "driving RP"
+  ],
+  "monetization_signals": [
+   "vehicle category passes",
+   "cash packs up to 7999",
+   "vehicle slots"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "new cars",
+   "global candy counter"
+  ],
+  "thumbnails": "realistic cars with giant pumpkin and Roanoke logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "massive map, 500+ vehicles, jobs",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q52",
+  "loop": "blow bubble gum -> hatch eggs for pets -> rebirth -> reach sky islands -> events and season passes",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "build the strongest pet team",
+  "progression": "bubbles, pets, rebirths, islands, season pass",
+  "instructions": "blow gum to jump to clouds, hatch pets",
+  "mechanics": [
+   "bubble blowing",
+   "egg hatching",
+   "pets",
+   "enchants",
+   "fishing",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "bubble gum",
+   "pets",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pet sim"
+  ],
+  "monetization_signals": [
+   "263+ products, many 50% off passes",
+   "spin tickets",
+   "season pass"
+  ],
+  "update_signals": [
+   "Halloween part 2",
+   "weekly Friday updates"
+  ],
+  "thumbnails": "cute pets with '+1T' bubbles",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many worlds and pet systems",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q53",
+  "loop": "run to level up speed -> unlock worlds -> hatch eggs for Sonic characters and pets -> race",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "get fastest and collect Sonic skins",
+  "progression": "speed levels, worlds, skins, pets",
+  "instructions": "run to level up, unlock worlds, earn skins",
+  "mechanics": [
+   "running",
+   "leveling",
+   "eggs",
+   "races",
+   "fastpass"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Sonic",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed IP sims"
+  ],
+  "monetization_signals": [
+   "300+ products: bundles up to 2999, rings",
+   "passes up to 1500",
+   "fastpass"
+  ],
+  "update_signals": [
+   "Halloween shop",
+   "pumpkin hunt",
+   "Ruby egg"
+  ],
+  "thumbnails": "Sonic/Werehog split art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "licensed studio build, 19 worlds",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q54",
+  "loop": "present slides in a classroom or interrupt others with paid actions (fart, earthquake) -> earn points -> spend on more actions",
+  "loop_archetype": "roleplay_social",
+  "objectives": "present or troll presentations",
+  "progression": "points, gems, desk cosmetics",
+  "instructions": "hold a presentation or interrupt someone else's",
+  "mechanics": [
+   "presenting",
+   "troll actions",
+   "passive points",
+   "quests"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "classroom presentation trolling"
+  ],
+  "themes": [
+   "school",
+   "memes",
+   "trolling"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "troll actions"
+  ],
+  "monetization_signals": [
+   "199 products: points, action packs",
+   "passes for desk/slides"
+  ],
+  "update_signals": [
+   "update 134 actions"
+  ],
+  "thumbnails": "bacons in a classroom with ':CRASHOUT' ':RICKROLL' commands",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "classroom, slide UI, many action effects",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q55",
+  "loop": "rob banks or play cop in Oasis City -> earn cash and missions -> unlock cars, weapons, bigger base",
+  "loop_archetype": "combat_pvp",
+  "objectives": "get rich robbing or bring justice",
+  "progression": "cash, vehicles, weapons, base",
+  "instructions": "rob banks or fight criminals, complete missions",
+  "mechanics": [
+   "cops and robbers",
+   "heists",
+   "vehicles",
+   "guns",
+   "bounties"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "crime",
+   "cars",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cops-vs-robbers"
+  ],
+  "monetization_signals": [
+   "cash packs up to 3649",
+   "vehicle packs",
+   "money printers"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "zombie waves",
+   "new vehicles",
+   "fall map"
+  ],
+  "thumbnails": "flaming motorbike, muscle car chased by police",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open city, vehicles, missions",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q56",
+  "loop": "steal boxes from Monster Verity -> unbox Verity pets -> pets earn money -> upgrade treadmill speed and base -> steal from players",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "become the richest on the server",
+  "progression": "speed, base, pets",
+  "instructions": "steal boxes, open them, earn, upgrade, steal from players",
+  "mechanics": [
+   "stealing",
+   "unboxing",
+   "income",
+   "treadmills",
+   "monster chase"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "meme monster",
+   "Minecraft-style"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "unbox products",
+   "x2 money/rewards",
+   "secret trail 599",
+   "buttons"
+  ],
+  "update_signals": [
+   "speed days (4X)"
+  ],
+  "thumbnails": "bacon running from a creepy yellow monster with a smiley box",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "monster AI, plots",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q57",
+  "loop": "grow plant units -> place them to defend base against swarms -> earn seeds -> unlock 350+ plants and traits",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend the base and top leaderboards",
+  "progression": "seeds, plants, traits, game modes",
+  "instructions": "assemble garden army, defeat enemies, try modes",
+  "mechanics": [
+   "tower defense",
+   "plant collection",
+   "trait rolls",
+   "morph mode",
+   "pvp"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "plants",
+   "garden"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "garden TD",
+   "grow-a-garden"
+  ],
+  "monetization_signals": [
+   "264 seed products",
+   "sandbox 999",
+   "x2 fertilizer/seeds",
+   "speed"
+  ],
+  "update_signals": [
+   "weekly Saturday updates",
+   "1.5M likes update"
+  ],
+  "thumbnails": "plant units in incubators with 'NOW!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "350+ units, modes",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q58",
+  "loop": "receive Blue Lock invite -> play matches and make career choices -> raise Overall -> reach the World Cup or restart",
+  "loop_archetype": "story_adventure",
+  "objectives": "become world's best striker",
+  "progression": "overall rating, egocoins, slots",
+  "instructions": "start career, compete, make choices, raise overall",
+  "mechanics": [
+   "career mode",
+   "choices",
+   "spins",
+   "matches"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "choice-driven soccer career story"
+  ],
+  "themes": [
+   "Blue Lock",
+   "anime",
+   "soccer"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "start-your-x-career",
+   "anime IP"
+  ],
+  "monetization_signals": [
+   "egocoin packs up to 2200",
+   "slot passes",
+   "match skip"
+  ],
+  "update_signals": [
+   "World Cup update",
+   "codes at like goals"
+  ],
+  "thumbnails": "anime-style striker art in stadium",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "career UI, match sim",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q59",
+  "loop": "pick a mode -> team tactical shooting in open-world maps -> build HQ for offline income -> research weapons",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win missions and PvP, upgrade operator and guns",
+  "progression": "currency, weapons, attachments, vehicles, HQ",
+  "instructions": "engage in team combat, PvP, build HQ",
+  "mechanics": [
+   "tactical shooter",
+   "gunsmith",
+   "vehicles",
+   "HQ",
+   "sandbox editor"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "military",
+   "modern warfare"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "military shooters"
+  ],
+  "monetization_signals": [
+   "packs",
+   "currency up to 999",
+   "double EXP"
+  ],
+  "update_signals": [
+   "new map"
+  ],
+  "thumbnails": "realistic soldiers, helicopters, boats",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large maps, weapons customization",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q60",
+  "loop": "serve customers -> cook dishes -> build and upgrade restaurant -> earn offline",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow your restaurant",
+  "progression": "cash, diamonds, milestones",
+  "instructions": "click to serve, cook, build, upgrade",
+  "mechanics": [
+   "building",
+   "serving",
+   "customer AI",
+   "offline income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "restaurant",
+   "food",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "restaurant tycoon"
+  ],
+  "monetization_signals": [
+   "sandbox 1499",
+   "cash/diamond packs",
+   "auto collect"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "restaurant buildings and chefs with logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "free-build restaurant, customer AI",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

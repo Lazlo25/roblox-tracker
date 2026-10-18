@@ -1,0 +1,684 @@
+[
+ {
+  "label": "Q31",
+  "loop": "fish in biome lakes for rare fish and eggs -> carry them home past bosses -> place in aquarium for $/s -> upgrade treadmill speed -> steal from or bat other players",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "complete the fish index and grow aquarium income",
+  "progression": "speed tiers, treadmill levels, aquarium levels, biomes",
+  "instructions": "collect fish, fish for eggs, battle bosses, bat players, escape bosses, upgrade",
+  "mechanics": [
+   "fishing",
+   "stealing",
+   "bat pvp",
+   "boss escape",
+   "income per second",
+   "index"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "steal-a-x template with fishing as the source"
+  ],
+  "themes": [
+   "fishing",
+   "sea creatures",
+   "eggs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "fishing"
+  ],
+  "monetization_signals": [
+   "42 passes: treadmills up to 1199, speed x1024, trails",
+   "money/speed packs up to 799"
+  ],
+  "update_signals": [
+   "X2 event"
+  ],
+  "thumbnails": "bacon fishing up a 'Paradise Egg' with $127,450/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "biome map, boss NPCs, plot system",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "fight monsters on Death Road -> die -> revive with +1 damage -> push further -> climb Death Tower and rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "conquer Death Road by stacking revive damage",
+  "progression": "damage per revive, rebirths, weapons, offline gains",
+  "instructions": "fight, lose HP, revive stronger, climb the tower, rebirth",
+  "mechanics": [
+   "death as progression",
+   "+1 damage",
+   "rebirth",
+   "offline income",
+   "daily rewards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "dying is the upgrade button"
+  ],
+  "themes": [
+   "death",
+   "reaper",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x per y"
+  ],
+  "monetization_signals": [
+   "weapon stones and weapons up to 499",
+   "Halloween premium pass",
+   "auto rebirth",
+   "x2 boosts"
+  ],
+  "update_signals": [
+   "Halloween pass"
+  ],
+  "thumbnails": "bacon reaper with '+1' skulls and a skull pile '+99999'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "road of monsters, tower, simple combat",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q33",
+  "loop": "one player becomes a dinosaur, others are human survivors with weapons -> survivors escape the island before time, dino hunts everyone",
+  "loop_archetype": "combat_pvp",
+  "objectives": "survive and escape, or hunt every human",
+  "progression": "bones, EXP, dino and vehicle unlocks",
+  "instructions": "survivors use weapons to escape; the dinosaur hunts them",
+  "mechanics": [
+   "1 vs all",
+   "asymmetric pvp",
+   "guns",
+   "vehicles",
+   "dino roster"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "realistic dino models in asymmetric survival"
+  ],
+  "themes": [
+   "dinosaurs",
+   "survival",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "humans vs x",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "dino/vehicle passes up to 2699 incl. LIMITED",
+   "bone packs",
+   "pumpkin currency"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "new code at like goals"
+  ],
+  "thumbnails": "realistic Indominus/T-rex and first-person gun view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic creature models and animation, island map, shooter systems",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q34",
+  "loop": "open packs -> pull K-pop idol cards with rarity and mutations -> collect income -> buy better packs -> complete index",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect every idol and mutation",
+  "progression": "pack tiers Basic to Apex, mutations, index",
+  "instructions": "spin to unlock idols, collect mutations, unlock packs, complete index",
+  "mechanics": [
+   "pack opening",
+   "rarity rolls",
+   "mutations",
+   "index",
+   "income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "real K-pop idols as collectible cards"
+  ],
+  "themes": [
+   "K-pop",
+   "idols",
+   "cards"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "spin-a-x",
+   "K-pop"
+  ],
+  "monetization_signals": [
+   "119 pack products from 2 to 900",
+   "mutation luck",
+   "auto collect"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "idol photo cards from packs with '1/978,829' and '0.0099%' odds",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "card UI and pack animations",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q35",
+  "loop": "roll anime cards with rarity variants -> battle bosses and climb infinite tower -> prestige for permanent luck",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "pull 1-in-trillions cards and top the leaderboard",
+  "progression": "prestige, skill tree, tower floor, relics",
+  "instructions": "roll cards, battle bosses, prestige, raid bosses",
+  "mechanics": [
+   "card rolls",
+   "boss battles",
+   "infinite tower",
+   "prestige",
+   "skill tree",
+   "weather"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "cards",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime card rng"
+  ],
+  "monetization_signals": [
+   "potion bundles up to 1499",
+   "server luck",
+   "auto boss",
+   "charm slot"
+  ],
+  "update_signals": [
+   "2H event tag",
+   "update codes"
+  ],
+  "thumbnails": "collage of anime characters with card-game logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "card roller UI, boss sim",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q36",
+  "loop": "summon anime units from the gate -> place and upgrade them to stop waves -> clear story/infinity tower -> summon more",
+  "loop_archetype": "tower_defense",
+  "objectives": "collect units and clear story, raids and infinity tower",
+  "progression": "units, gems, stardust, shinies",
+  "instructions": "use units to fend off waves, upgrade in battle, summon new units",
+  "mechanics": [
+   "tower defense",
+   "gacha summon",
+   "unit upgrades",
+   "coop"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime tower defense"
+  ],
+  "monetization_signals": [
+   "gem packages up to 1600",
+   "capsules",
+   "shiny hunter",
+   "3x speed"
+  ],
+  "update_signals": [
+   "hourly shop rotation",
+   "OG tag"
+  ],
+  "thumbnails": "anime character collage with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "hundreds of units with abilities, many maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "build a harbor tycoon -> buy warships, subs, planes -> team naval battles -> rebirth",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "dominate the seas with your fleet",
+  "progression": "400+ tycoon buys, rebirths, pro servers",
+  "instructions": "build harbor, grow fleet, battle in teams of 5",
+  "mechanics": [
+   "tycoon droppers",
+   "vehicles",
+   "team pvp",
+   "rebirth",
+   "offline income",
+   "events"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "navy",
+   "military",
+   "ships"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "military tycoon"
+  ],
+  "monetization_signals": [
+   "capital ship passes up to 2499",
+   "cash packs",
+   "spins",
+   "instant rebirth"
+  ],
+  "update_signals": [
+   "Halloween boss fights",
+   "volcano event every 30 min"
+  ],
+  "thumbnails": "warships firing missiles, aircraft",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large tycoon tree, 300+ vehicles, naval combat",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "ride an e-scooter around an open-world city -> wheelies and tuning -> run from police -> quests and gangs",
+  "loop_archetype": "racing_driving",
+  "objectives": "build the best scooter and outrun cops",
+  "progression": "money, scooters, paint/underglow, achievements",
+  "instructions": "ride, customize, evade police, do quests",
+  "mechanics": [
+   "vehicle riding",
+   "police chases",
+   "customization",
+   "gangs",
+   "crates"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "branded e-scooter fan game riding the scooter trend"
+  ],
+  "themes": [
+   "e-scooters",
+   "city",
+   "police"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "scooter life",
+   "AI cops"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x cash",
+   "cosmetic passes",
+   "speed/power hacks",
+   "money packs"
+  ],
+  "update_signals": [
+   "testing",
+   "Halloween tag"
+  ],
+  "thumbnails": "Kukirin scooter wheelies past police, open-world map",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "open-world map, vehicle physics, police AI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "pick driver or navigator -> navigator reads the map and calls turns -> driver steers through forest stages -> reach the finish",
+  "loop_archetype": "racing_driving",
+  "objectives": "finish stages together without wrong turns",
+  "progression": "coins, cars, stages",
+  "instructions": "one drives, one navigates; communicate to the finish",
+  "mechanics": [
+   "asymmetric coop",
+   "map reading",
+   "first-person driving",
+   "stages"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "explicit Left Left LEFT!-inspired 2-player rally"
+  ],
+  "themes": [
+   "rally",
+   "cars",
+   "friendship"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "asymmetric coop with friends",
+   "rally"
+  ],
+  "monetization_signals": [
+   "unlock all cars 1999",
+   "bundles",
+   "admin panel",
+   "coins",
+   "stage unlocks"
+  ],
+  "update_signals": [
+   "Halloween bundle",
+   "codes at like goals"
+  ],
+  "thumbnails": "two bacons in a car panicking, scenic touge roads",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, branching forest stages",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q40",
+  "loop": "roll for rare tanks -> tanks blast the vault -> smelt gold into cash -> upgrade army -> unlock stronger vaults",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "break ever-stronger vaults",
+  "progression": "tank rarity, vault tiers, cash multipliers",
+  "instructions": "roll tanks, blast vault, smelt gold, upgrade",
+  "mechanics": [
+   "rng rolls",
+   "idle income",
+   "offline earnings",
+   "upgrades"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "roll-tanks-vs-vault framing"
+  ],
+  "themes": [
+   "tanks",
+   "gold",
+   "vault"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "destroy-a-x",
+   "rng"
+  ],
+  "monetization_signals": [
+   "277+ products: cash multipliers, production skips up to 999",
+   "VIP 799",
+   "server luck"
+  ],
+  "update_signals": [
+   "Halloween code"
+  ],
+  "thumbnails": "tanks blasting a vault with '$967,789,483/s'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "idle tycoon UI, tank models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q41",
+  "loop": "summon anime fighters -> roll traits -> beat waves and raid bosses in story/infinite/raids -> season pass",
+  "loop_archetype": "combat_pvp",
+  "objectives": "clear raids and trials with your best fighters",
+  "progression": "fighters, traits, enchants, season pass, guilds",
+  "instructions": "story, infinite, raids, trials; play with up to 5 friends",
+  "mechanics": [
+   "anime combat",
+   "gacha summon",
+   "raids",
+   "traits",
+   "guilds"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime raids"
+  ],
+  "monetization_signals": [
+   "gem/enchant packs up to 6999",
+   "VIP+",
+   "2x luck/drop"
+  ],
+  "update_signals": [
+   "new raid",
+   "season pass"
+  ],
+  "thumbnails": "anime fighter key art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many fighters and skill VFX, raid bosses",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q42",
+  "loop": "tap to earn coins -> hatch eggs for pets that multiply taps -> rebirth -> unlock islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "become the #1 tapper",
+  "progression": "coins, pets, rebirths, islands",
+  "instructions": "tap anywhere, hatch eggs, rebirth, unlock islands",
+  "mechanics": [
+   "tapping",
+   "egg hatching",
+   "pets",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "pets",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tap/clicker sim"
+  ],
+  "monetization_signals": [
+   "secret hunter 1999",
+   "magic eggs",
+   "hatch bundle 5749",
+   "tokens up to 17500"
+  ],
+  "update_signals": [
+   "Halloween update",
+   "trading removed"
+  ],
+  "thumbnails": "pumpkin with +1 cursors, rainbow pets, pet card x4.42k",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "pet hatching system, islands",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q43",
+  "loop": "cook ramen from ingredients -> eat it on camera as a mukbanger -> gain followers and cash -> buy rarer ingredients and better homes",
+  "loop_archetype": "simulation_job",
+  "objectives": "become a rich and famous mukbanger",
+  "progression": "followers, cash, ingredients, penthouse",
+  "instructions": "cook, record yourself eating, get rich",
+  "mechanics": [
+   "cooking",
+   "mukbang recording",
+   "followers",
+   "restocks",
+   "weather"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "mukbang streaming as the income loop"
+  ],
+  "themes": [
+   "ramen",
+   "food",
+   "influencer"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "make-x-to-get-rich",
+   "mukbang"
+  ],
+  "monetization_signals": [
+   "2x followers/cash/luck",
+   "penthouse",
+   "ingredient products",
+   "weather packs"
+  ],
+  "update_signals": [
+   "release"
+  ],
+  "thumbnails": "spicy ramen packet and avatar eating a ramen bowl",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "cooking interactions, recording UI",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q44",
+  "loop": "pair with a partner -> one drives the scooter, one rides behind -> clear obby worlds with checkpoints",
+  "loop_archetype": "obby_platformer",
+  "objectives": "beat the obby together",
+  "progression": "worlds, checkpoints",
+  "instructions": "driver controls, passenger holds on; teamwork",
+  "mechanics": [
+   "2 player coop",
+   "scooter obby",
+   "matchmaking"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "duo scooter obby"
+  ],
+  "themes": [
+   "scooters",
+   "friends"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "2 player obby",
+   "scooters"
+  ],
+  "monetization_signals": [
+   "donations only"
+  ],
+  "update_signals": [
+   "global matchmaking update"
+  ],
+  "thumbnails": "two avatars on one red scooter, driver/passenger icons",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "obby course with shared vehicle",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q45",
+  "loop": "cast and click to reel fish -> sell for coins -> buy rods, boats, luck -> sail islands and events",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "collect from 1M+ fish variations",
+  "progression": "rods, luck, mutations, islands, battlepass",
+  "instructions": "click to charge, click fast to reel; fish with friends",
+  "mechanics": [
+   "fishing",
+   "rarity",
+   "mutations",
+   "boss battles",
+   "events",
+   "gacha"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "fishing",
+   "ocean",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing games"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "coin packs up to 995",
+   "potions",
+   "battlepass",
+   "gacha crates"
+  ],
+  "update_signals": [
+   "Halloween update",
+   "limited battlepass",
+   "boss battles"
+  ],
+  "thumbnails": "bacon reeling giant monster fish",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large world, many fish models, events",
+  "novelty": 1,
+  "confidence": 85
+ }
+]

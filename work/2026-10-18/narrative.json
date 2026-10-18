@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg, Brookhaven, Murder Mystery 2, 99 Nights in the Forest and RIVALS hold the top, and evergreens over a year old still have the best median pillar percentile (62).",
+        "The biggest risers are horror and survival games (MONOCHROME +14, Forsaken +9, 100 Days At Sea +9) plus Kukirin Life (+8 at 29 days), the first e-scooter game to climb this chart.",
+        "Young template games lead the fallers: Wash the Car (-14), DIVINE HATCHERS (-12) and Survive a Million Monkeys (-11).",
+        "Four horror or escape games entered (he ate them., Escape Running Head, Dig to Escape) as Halloween approaches, while Bloxburg and Lethal Ape fell off."
+      ],
+      "patterns": [
+        "Multiplayer and original concepts consistently sit higher (solo loops 69%, original concepts 70%); combat_pvp loops have the best median percentile (70) among profiled loops.",
+        "Median pass and product prices above about 69–90 R$ tend to go with longer stays, but older, deeper games set higher prices, so age and complexity are confounders.",
+        "A high favorite rate per visit goes with lower positions, because the big evergreens turn fewer of their huge visit counts into favorites; this is a measurement fact, not advice.",
+        "Halloween tags and events are everywhere among risers, so seasonal lift may explain part of today's horror movement."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "An 85-day-old template game at the top, against the originality pattern; it was the first of its wave and its clones are falling."},
+        {"name": "Kukirin Life [Testing]", "note": "A 29-day-old e-scooter fan game rising on Most Popular while still labelled testing, which points to demand for the niche rather than polish."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) and The Company lead efficiency again, followed by Spin a KPOP Idol and Elemental Dungeons.",
+        "Games 15–42 days old have the worst median pillar percentile (22), while games over a year old score 59, in line with revenue lagging popularity.",
+        "Chop A Forest (+101), HUNTRESS (+94) and Dinosaur Simulator's Halloween part (+83) were the biggest climbers; Anime Expeditions (-69) and Voltline (-51) fell most.",
+        "Ten new entries include Escooter Life at 7 days, Spin a KPOP Idol, Card Battles: Prestige and the 1,380-day-old Primal Pursuit with its Halloween bundles."
+      ],
+      "patterns": [
+        "Higher median product prices (split at 249 R$), RPG and roleplay genres, larger servers and more complex games consistently go with better efficiency.",
+        "Survival-genre, steal-a-X and pet/egg games consistently earn less for their CCU, while combat PvP earns more.",
+        "Title bracket tags and caps-heavy titles go with efficiency, but both mostly mark older games running events, so age is the likely confounder.",
+        "Pack-opening collection games with real-world idols (Spin a KPOP Idol, 119 pack products from 2 to 900 R$) rank among the most efficient, an example of many small, laddered purchases working."
+      ],
+      "outliers": [
+        {"name": "[🎃] Spin a KPOP Idol", "note": "A low-complexity rng card game in the top tier of efficiency; a fandom theme and a long price ladder of packs may stand in for depth."},
+        {"name": "Climb For Animals Eggs🥚", "note": "Best on Up-and-Coming but among the weakest Top Earning efficiencies, a clear case of popularity coming before revenue."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Eat Everything In A Grocery Store (+45), Rush To The Vet! (+40), Save the Krusty Krab (+29) and Fake an Egg (+24) lead momentum, all under 20 days old.",
+        "Games 0–14 days old have a median pillar percentile of 91, against 47 for 15–42 days, which shows how strongly momentum favors the newest games.",
+        "+1 incrementals fill the weakest list (+1 Web Escape, +1 Assassin Leveling, +1 Princess Evolution) and DIVINE HATCHERS fell 41 places.",
+        "Seventeen new entries include Rally Panic!, Makeup Salon and Ride a Dino alongside old games resurfacing with Halloween updates (Fish It!, Dragon Adventures, Emergency Hamburg)."
+      ],
+      "patterns": [
+        "'+1' titles may go with weaker momentum (title keyword r=-0.64 today), and the existing '+1' hypothesis sits at 57%.",
+        "Collection-index and creature mechanics go with higher positions among young games, while reward-flex thumbnails go with weaker momentum today (r=-0.38), so H-tt-006 keeps weakening.",
+        "Co-op and social loops tend to climb faster than solo ones (H-tt-008 rose to 58%), matching the wave of two-player rally and duo games.",
+        "Gameplay thumbnails go with higher positions but slower climbs, which may mean screenshots suit games that are already established on the chart; this is speculative."
+      ],
+      "outliers": [
+        {"name": "Rush To The Vet! 🐶", "note": "Climbed 40 places with only 60% likes, against the like-ratio idea; a curiosity premise seems to pull players despite reviews."},
+        {"name": "[UPD] SCP MORPH", "note": "Rose 48 places at 245 days old, outside the young-game pillar; an update revived it."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Cat Battles, Chop A Forest, Facecard: Makeup Showdown, Sell Fries! and Climb For Animals Eggs hold the top, a mix of combat, collection, party and job-horror loops.",
+        "Thirty-two new entries arrived, many 13–16 days old: makeup painting (Makeup Salon, Makeup Star, VANITY), asymmetric rally (Backseat Rally), First Person Boxing and ScootX.",
+        "Template egg and animal games fell hardest (Pogo For Animals -55, Lift Rock For Eggs -45, DIVINE HATCHERS -45), as did Fart Obby (-42) and Parcel Tycoon (-37).",
+        "Games updated in the last day moved a median +3 against -2 for the rest."
+      ],
+      "patterns": [
+        "Co-op loops (68%) and solo-loop penalties (67%) are among the strongest Up-and-Coming hypotheses, and recent updates (67%) and frequent updates (62%) tend to help.",
+        "More achievement badges tend to go with higher positions (H-uc-008 up to 66%), possibly because badges mark more finished games.",
+        "A page video goes with higher positions among games of the same age (within-age effect +0.30), now proposed as a hypothesis.",
+        "Vehicle-physics games (bikes, scooters) cluster here but split: Kukirin Life near the top, Scooter Empire and Redlane at the bottom, so the theme alone does not carry a game."
+      ],
+      "outliers": [
+        {"name": "[X2] Steal and Fish", "note": "Near the bottom despite 206K favorites and 42 passes, against the steal-a-X breakout idea; the wave looks saturated."},
+        {"name": "Eat Everything In A Grocery Store", "note": "A +1 incremental that rose 61 places, breaking the '+1' penalty, probably on the strength of its absurd premise."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Visits and favorites lead associations on three charts but are partly outcomes of success; prices and complexity remain the most consistent levers shared by Most Popular and Top Earning.",
+      "Co-op and social play is strengthening across Most Popular, Top Trending and Up-and-Coming, and today's profiles add a wave of asymmetric two-role co-op (driver and navigator).",
+      "E-scooter and bike sims now span all four charts (Kukirin Life on Most Popular, Top Earning and Up-and-Coming; Escooter Life on Top Earning at 7 days).",
+      "Steal and egg clones keep falling on several charts at once while new variants (Fake an Egg, Bike For Egg) still break out, so the wave is thinning rather than over.",
+      "Halloween events lift old games back onto Top Trending and horror games onto Most Popular; seasonal effects confound this week's movement."
+    ],
+    "progressions": [
+      "Top Trending to Most Popular remains the most common sequence (62 entries, median 2 days later).",
+      "Up-and-Coming to Top Trending follows (59, median 2 days), then Top Earning to Top Trending (48, 7 days) and Up-and-Coming to Most Popular (36, 4 days)."
+    ]
+  }
+}

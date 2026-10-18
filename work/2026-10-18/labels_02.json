@@ -1,0 +1,648 @@
+[
+ {
+  "label": "Q16",
+  "loop": "pick a bike -> ride an open baseplate doing wheelies, stoppies and burnouts -> evade AI cops -> earn cash for more bikes",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "master skill wheelies and collect bikes",
+  "progression": "cash, bike garage, builds",
+  "instructions": "ride bikes with realistic physics, wheelie and do tricks",
+  "mechanics": [
+   "bike physics",
+   "wheelies",
+   "tricks",
+   "AI police",
+   "two-seat bikes"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "skill-based wheelie physics"
+  ],
+  "themes": [
+   "bikes",
+   "street riding"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "wheelie/bike life games",
+   "AI cops"
+  ],
+  "monetization_signals": [
+   "luxury pack",
+   "2x cash",
+   "cash packs with gifting",
+   "VIP"
+  ],
+  "update_signals": [
+   "BETA",
+   "AI cops tag"
+  ],
+  "thumbnails": "plain gameplay screenshots of avatars wheelieing on a baseplate",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "bike physics and animation; map is a bare baseplate",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q17",
+  "loop": "spawn in a Minecraft-like voxel world -> mine and build -> save the world on a private server",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build and survive in a blocky world",
+  "progression": "unclear; Minecraft-style items",
+  "instructions": "create a private server to save your world",
+  "mechanics": [
+   "voxel mining",
+   "building",
+   "crafting items"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "near-direct Minecraft recreation"
+  ],
+  "themes": [
+   "Minecraft",
+   "blocks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Minecraft clone"
+  ],
+  "monetization_signals": [
+   "sells Minecraft items (diamonds, netherite, shulker box)"
+  ],
+  "update_signals": [],
+  "thumbnails": "creeper face icon and Steve in a forest",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "voxel terrain engine, inventory, saving",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q18",
+  "loop": "skate a park/tree course on a board -> land tricks for points -> buy boards and outfits",
+  "loop_archetype": "sports_competitive",
+  "objectives": "land tricks and style on skate spots",
+  "progression": "points, boards, outfits",
+  "instructions": "play on controller; beta",
+  "mechanics": [
+   "skateboarding physics",
+   "tricks",
+   "cosmetics"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "EA Skate-style controls on Roblox, sketched art style"
+  ],
+  "themes": [
+   "skateboarding",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "skate games"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "premium boards",
+   "skate-as-avatar pass",
+   "point packs"
+  ],
+  "update_signals": [
+   "Halloween update",
+   "beta"
+  ],
+  "thumbnails": "sketch-style skater art and a group of skaters mid-air",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "skate physics and trick system",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q19",
+  "loop": "ride an e-scooter around a city -> wheelies, drag races, tricks -> evade AI police -> earn cash and tune/customize scooters",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and tune e-scooters, win races",
+  "progression": "cash, XP, scooter garage, tuning tiers",
+  "instructions": "ride, race, do wheelies, customize",
+  "mechanics": [
+   "vehicle riding",
+   "AI police chases",
+   "drag racing",
+   "tuning"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "first-person e-scooter with police chases"
+  ],
+  "themes": [
+   "e-scooters",
+   "city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "scooter / bike life",
+   "AI cops"
+  ],
+  "monetization_signals": [
+   "premium scooters up to 799",
+   "2x cash/XP",
+   "timed boosts",
+   "cash packs up to 1499"
+  ],
+  "update_signals": [
+   "beta release"
+  ],
+  "thumbnails": "first-person handlebars with police cars and helicopter",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, city map, police AI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q20",
+  "loop": "draw a spell shape on screen -> it casts toward enemies -> fastest accurate wizard wins the arena",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels by drawing spells fast and precisely",
+  "progression": "souls, spell unlocks",
+  "instructions": "battle players by drawing spell images and launching them",
+  "mechanics": [
+   "gesture drawing",
+   "spell casting",
+   "pvp arena"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "drawing-recognition spellcasting"
+  ],
+  "themes": [
+   "wizards",
+   "magic"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "draw-to-x"
+  ],
+  "monetization_signals": [
+   "91 spell products at 79 each",
+   "legendary bundle 2199",
+   "VIP",
+   "double souls"
+  ],
+  "update_signals": [
+   "early access"
+  ],
+  "thumbnails": "wizard drawing glowing shapes: black hole, tornado; 'DRAW TO CAST!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "shape recognition, many spell VFX",
+  "novelty": 3,
+  "confidence": 75
+ },
+ {
+  "label": "Q21",
+  "loop": "play rated online chess -> review games with engine accuracy -> solve puzzles -> climb leaderboards",
+  "loop_archetype": "sports_competitive",
+  "objectives": "raise rating across time controls",
+  "progression": "Elo rating, puzzle rating, leaderboards",
+  "instructions": "play rated chess, review games, solve puzzles, play bots",
+  "mechanics": [
+   "chess",
+   "rating",
+   "engine analysis",
+   "puzzles",
+   "bots"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "full chess.com-style feature set inside Roblox"
+  ],
+  "themes": [
+   "chess"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "chess games"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "game review pass",
+   "donations",
+   "tokens"
+  ],
+  "update_signals": [],
+  "thumbnails": "chess board with ?? and !! annotations, 'Real Online Chess!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "chess engine integration, review analytics UI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q22",
+  "loop": "race horses in a chaotic arena -> dodge explosions, lasers and events -> survive to finish and earn coins",
+  "loop_archetype": "racing_driving",
+  "objectives": "survive and win chaotic horse races",
+  "progression": "coins, badges, badge board",
+  "instructions": "compete with horses and try not to get killed",
+  "mechanics": [
+   "racing",
+   "chaos events",
+   "ragdolls",
+   "custom rounds"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "absurdist chaos horse racing with lo-fi meme text"
+  ],
+  "themes": [
+   "horses",
+   "chaos",
+   "meme"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "chaos/meme racing"
+  ],
+  "monetization_signals": [
+   "custom round products",
+   "coins",
+   "x2 coins",
+   "supporter passes"
+  ],
+  "update_signals": [
+   "mecha T-Rex event",
+   "new badges"
+  ],
+  "thumbnails": "horse ragdolls and explosions with lowercase meme captions",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "race track, event VFX",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "care for five babies (feed, bathe, bed) -> anomalies appear at night -> protect babies from the thing in the dark",
+  "loop_archetype": "horror_escape",
+  "objectives": "keep all five babies alive through the night",
+  "progression": "unclear; baby coins and supplies",
+  "instructions": "feed, bathe and put babies to bed; protect them from 'something'",
+  "mechanics": [
+   "caretaking",
+   "anomaly spotting",
+   "night survival",
+   "supplies"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "baby-care sim turned horror"
+  ],
+  "themes": [
+   "babies",
+   "horror",
+   "anomaly"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anomaly games",
+   "baby care"
+  ],
+  "monetization_signals": [
+   "baby coin packs",
+   "revive",
+   "flashlight",
+   "restock"
+  ],
+  "update_signals": [],
+  "thumbnails": "cute babies in the dark with red glowing eyes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "house map, baby models, event scripting",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "pick up a realistic phone -> drop, burn, soak, charge or repair it -> earn chips -> unlock more phones",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "test phones to destruction and collect models",
+  "progression": "chips, phone models",
+  "instructions": "break, charge, repair, soak or burn phones",
+  "mechanics": [
+   "physics destruction",
+   "item interaction",
+   "repair"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "usable realistic phone UI as a toy"
+  ],
+  "themes": [
+   "smartphones",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "realistic x test"
+  ],
+  "monetization_signals": [
+   "chip packs",
+   "x2 chips",
+   "delivery drone"
+  ],
+  "update_signals": [
+   "more phones at like goals"
+  ],
+  "thumbnails": "cracked iPhone-style phones and hand holding a phone",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "phone model with working UI, damage states",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q25",
+  "loop": "grab a boarding pass -> race through security and lines to the gate -> board, fly, land at a destination -> repeat for new destinations",
+  "loop_archetype": "story_adventure",
+  "objectives": "make your flight and unlock destinations",
+  "progression": "destinations",
+  "instructions": "race to gate, find your seat, fly to Paris, replay for more",
+  "mechanics": [
+   "timed run",
+   "queues",
+   "security",
+   "troll products"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "airport",
+   "travel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dont-miss-x story games"
+  ],
+  "monetization_signals": [
+   "skip products",
+   "kill/scare troll products",
+   "ban hammer",
+   "be the pilot"
+  ],
+  "update_signals": [],
+  "thumbnails": "bacon running with luggage to a plane, panicked passenger",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "airport and plane interior maps, linear sequence",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q26",
+  "loop": "jump off a cliff/board -> control flips and twists -> land in the target -> earn coins, skip levels",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "land precise dives through levels including hardcore/boss",
+  "progression": "levels, coins, splash/trail cosmetics",
+  "instructions": "leap, flip, twist, plunge into the water",
+  "mechanics": [
+   "ragdoll diving",
+   "trick control",
+   "level targets"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "cliff diving",
+   "water"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll physics games"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "splash/trail cosmetics",
+   "level skips",
+   "coin packs"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "avatar diving toward a ring target in the sea",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "diving physics, levels",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q27",
+  "loop": "escape Cell 51 -> run and jump past traps through underwater prison -> dodge the alien guard",
+  "loop_archetype": "obby_platformer",
+  "objectives": "escape the prison",
+  "progression": "stages",
+  "instructions": "run, jump and dodge traps to freedom",
+  "mechanics": [
+   "obby",
+   "chase guard",
+   "item rentals"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "aliens",
+   "prison",
+   "underwater"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "prison run obby"
+  ],
+  "monetization_signals": [
+   "item rentals",
+   "guard pass",
+   "2x coins",
+   "VIP bundle"
+  ],
+  "update_signals": [],
+  "thumbnails": "alien guard with baton in an underwater cell",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "standard obby with guard NPC",
+  "novelty": 0,
+  "confidence": 60
+ },
+ {
+  "label": "Q28",
+  "loop": "train with sound speakers for +1 venom -> fight enemies to clear stages -> collect wins -> evolve into bigger venom forms",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "reach max venom transformation",
+  "progression": "venom stat, evolutions, worlds",
+  "instructions": "train, fight enemies, collect wins, evolve",
+  "mechanics": [
+   "+1 stat",
+   "evolution forms",
+   "stage fights",
+   "multipliers"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "sound-based training flavor"
+  ],
+  "themes": [
+   "Venom",
+   "symbiote",
+   "superhero"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x evolution"
+  ],
+  "monetization_signals": [
+   "venom multiplier tiers up to 1499",
+   "chamber passes",
+   "2x wins",
+   "revive"
+  ],
+  "update_signals": [
+   "World 2"
+  ],
+  "thumbnails": "bacon turning into Venom with '+7M' numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "+1 template with evolution models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "throw an egg as far as possible -> outrun the tsunami to grab it -> place eggs on plot to hatch -> earn money -> train arms to throw farther",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "throw farther for huge rare eggs and grow income",
+  "progression": "strength, egg rarity, plot income, offline earnings",
+  "instructions": "throw eggs, run from tsunami, hatch for money, train arms",
+  "mechanics": [
+   "throwing",
+   "power meter",
+   "tsunami escape",
+   "hatching",
+   "offline income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "throw-distance as rarity roll"
+  ],
+  "themes": [
+   "eggs",
+   "Halloween",
+   "creatures"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x",
+   "tsunami escape"
+  ],
+  "monetization_signals": [
+   "139 products: flying eggs, creatures, 2x cash/strength, packs"
+  ],
+  "update_signals": [
+   "Halloween eggs"
+  ],
+  "thumbnails": "bacon throwing a pumpkin/dragon egg with a power meter",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "throw physics, plot hatching, tsunami wave",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "spawn as a nation on a world map -> expand territory and grow troops -> attack, ally, invade by sea -> nukes late game",
+  "loop_archetype": "other",
+  "objectives": "conquer the world map",
+  "progression": "territory, gold/cash, army size",
+  "instructions": "expand, attack, build cities, form alliances, launch nukes",
+  "mechanics": [
+   "territory control",
+   "real-time strategy",
+   "alliances",
+   "nukes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "OpenFront/territorial.io-style map conquest on Roblox"
+  ],
+  "themes": [
+   "world map",
+   "nations",
+   "war"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "io-style conquest"
+  ],
+  "monetization_signals": [
+   "double gold",
+   "warlord",
+   "super nuke",
+   "head start",
+   "cash packs",
+   "skins"
+  ],
+  "update_signals": [],
+  "thumbnails": "world map with player nation labels and troop counts",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "world map territory sim for 100 players",
+  "novelty": 1,
+  "confidence": 75
+ }
+]
