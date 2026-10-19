@@ -1,8 +1,8 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "queue": [
   {
-   "age_days": 1201,
+   "age_days": 1202,
    "charts": [
     "mp"
    ],
@@ -12,7 +12,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 2674,
+   "age_days": 2675,
    "charts": [
     "mp",
     "te"
@@ -23,17 +23,7 @@
    "u": "1202096104"
   },
   {
-   "age_days": 1950,
-   "charts": [
-    "mp"
-   ],
-   "name": "Fling Things and People",
-   "place": "6961824067",
-   "status": "youtube_needed",
-   "u": "2668101271"
-  },
-  {
-   "age_days": 1745,
+   "age_days": 1746,
    "charts": [
     "mp"
    ],
@@ -43,7 +33,28 @@
    "u": "3240075297"
   },
   {
-   "age_days": 1219,
+   "age_days": 950,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Fisch 🎃 [FISCHFRIGHT]",
+   "place": "16732694052",
+   "status": "youtube_needed",
+   "u": "5750914919"
+  },
+  {
+   "age_days": 1951,
+   "charts": [
+    "mp"
+   ],
+   "name": "Fling Things and People",
+   "place": "6961824067",
+   "status": "youtube_needed",
+   "u": "2668101271"
+  },
+  {
+   "age_days": 1220,
    "charts": [
     "te"
    ],
@@ -53,17 +64,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 949,
-   "charts": [
-    "te"
-   ],
-   "name": "Fisch 🎃 [FISCHFRIGHT]",
-   "place": "16732694052",
-   "status": "youtube_needed",
-   "u": "5750914919"
-  },
-  {
-   "age_days": 2306,
+   "age_days": 2307,
    "charts": [
     "te"
    ],
@@ -73,27 +74,17 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1476,
+   "age_days": 1477,
    "charts": [
     "te"
    ],
-   "name": "[UPD] Baddies 💅",
+   "name": "Baddies 💅",
    "place": "11158043705",
    "status": "youtube_needed",
    "u": "3990106548"
   },
   {
-   "age_days": 3478,
-   "charts": [
-    "te"
-   ],
-   "name": "Royale🎃High",
-   "place": "735030788",
-   "status": "youtube_needed",
-   "u": "321778215"
-  },
-  {
-   "age_days": 2652,
+   "age_days": 2653,
    "charts": [
     "te"
    ],
@@ -103,7 +94,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 653,
+   "age_days": 654,
    "charts": [
     "te"
    ],
@@ -113,7 +104,17 @@
    "u": "7028566528"
   },
   {
-   "age_days": 1833,
+   "age_days": 2461,
+   "charts": [
+    "te"
+   ],
+   "name": "Piggy [MR. STITCHY]",
+   "place": "4623386862",
+   "status": "youtube_needed",
+   "u": "1516533665"
+  },
+  {
+   "age_days": 1834,
    "charts": [
     "te"
    ],
@@ -123,20 +124,25 @@
    "u": "2992873140"
   },
   {
-   "age_days": 814,
+   "age_days": 3479,
    "charts": [
     "te"
    ],
-   "name": "[🐍 NEL Aiku] Blue Lock: Rivals",
-   "place": "18668065416",
+   "name": "Royale🎃High",
+   "place": "735030788",
    "status": "youtube_needed",
-   "u": "6325068386"
+   "u": "321778215"
   }
  ],
  "waiting": [
   {
    "name": "🎃 Your Bizarre Adventure 🎃",
    "u": "1016936714",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Sol's RNG [ Radiant Forest🌙]",
+   "u": "5361032378",
    "why": "needs Rolimons history"
   }
  ]
