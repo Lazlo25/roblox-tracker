@@ -1,0 +1,715 @@
+[
+ {
+  "label": "Q01",
+  "loop": "roll for yarn colors -> tuft a rug design -> shave it smooth -> sell to shop customers -> hire staff and expand",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow a rug-making business into an empire",
+  "progression": "yarn rarity rolls, cash, gems, employees, shop upgrades",
+  "instructions": "roll yarn, tuft and shave rugs, sell them, fill phone orders, hire employees",
+  "mechanics": [
+   "rng rolls",
+   "crafting",
+   "shop selling",
+   "orders",
+   "hiring staff"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "satisfying tufting/shaving craft loop as the core verb",
+   "ASMR-style crafting meets rng yarn rolls"
+  ],
+  "themes": [
+   "rugs",
+   "crafting",
+   "cozy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying ASMR crafting",
+   "make-a-x job sim"
+  ],
+  "monetization_signals": [
+   "1.5x cash pass",
+   "lucky yarn",
+   "every-gamepass bundle",
+   "cash/gem bundles",
+   "lucky rolls"
+  ],
+  "update_signals": [
+   "new game, updated daily"
+  ],
+  "thumbnails": "close-up renders of a frog rug being shaved with a clipper; satisfying craft result",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "small workshop map, tufting/shaving tool mechanics, customer NPCs, rolling UI",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q02",
+  "loop": "ride a bus route -> inspect passengers for anomalies -> refuse anomalies -> manage sanity, items and bus upgrades -> survive monsters",
+  "loop_archetype": "horror_escape",
+  "objectives": "get passengers to their destinations and solve the Route Zero mystery",
+  "progression": "bus upgrades, sanity coins, items",
+  "instructions": "help passengers, spot anomalies and keep them off the bus, manage sanity and items",
+  "mechanics": [
+   "anomaly spotting",
+   "sanity meter",
+   "bus management",
+   "revives",
+   "inventory"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "'spot the anomaly' observation game wrapped in a bus-driving shift loop"
+  ],
+  "themes": [
+   "horror",
+   "bus",
+   "anomalies",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly / I'm on observation duty",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "paid revives",
+   "sanity charm",
+   "money charm",
+   "starter pack",
+   "pistol and ammo products"
+  ],
+  "update_signals": [
+   "Halloween update until Nov 2",
+   "like-goal updates"
+  ],
+  "thumbnails": "cartoon scared passenger on a bus and a shadow monster at night",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "bus interior and route, anomaly variants, monster AI, narrative secrets",
+  "novelty": 2,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q03",
+  "loop": "enter themed round -> paint makeup on a face, style hair and lashes -> players vote -> earn coins -> unlock beauty items",
+  "loop_archetype": "party_minigames",
+  "objectives": "win themed beauty battles",
+  "progression": "coins, level-locked items",
+  "instructions": "paint makeup looks, customise hair and lashes, compete and vote",
+  "mechanics": [
+   "face painting",
+   "dress-up",
+   "voting rounds",
+   "unlocks"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "detailed face makeup painting instead of whole-outfit dress-up"
+  ],
+  "themes": [
+   "makeup",
+   "beauty",
+   "fashion"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dress-to-impress style voting"
+  ],
+  "monetization_signals": [
+   "unlock-all items + VIP",
+   "2x coins",
+   "coin packs",
+   "extra time"
+  ],
+  "update_signals": [
+   "new themes added"
+  ],
+  "thumbnails": "realistic bald face before/after makeup and hair transformation",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "face painting system on a realistic head, hair/lash assets, voting rounds",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q04",
+  "loop": "players creep toward the fox while he looks away -> freeze when he turns -> fox chases at 12 o'clock -> survivors or fox win",
+  "loop_archetype": "party_minigames",
+  "objectives": "reach the fox without being caught, or catch players as the fox",
+  "progression": "coins, gems, emotes",
+  "instructions": "unclear (description just '12 o'clock')",
+  "mechanics": [
+   "red light green light",
+   "tag/chase",
+   "role selection",
+   "trolling items"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "classic playground game 'What's the Time Mr Fox' as a Roblox round game"
+  ],
+  "themes": [
+   "playground game",
+   "fox",
+   "Halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "playground-game remakes",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "fox chance x2",
+   "VIP",
+   "2x coins",
+   "gem packs",
+   "banana peel trolls",
+   "fox peek"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "blocky noobs running from a white fox character, giant clock",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "single round-based map, chase role, clock timing",
+  "novelty": 1,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q05",
+  "loop": "drop in -> loot/equip guns -> fight in real-time shootouts with gloo walls -> rank up and spin for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win firefights and rank up",
+  "progression": "rank, weapon skins, Lucky Royale spins",
+  "instructions": "explore, fight, rank up, customise weapons",
+  "mechanics": [
+   "shooter",
+   "gloo walls",
+   "weapon skins",
+   "gacha spin",
+   "ranks"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Free Fire mobile clone (gloo walls, Booyah) for Spanish-speaking players"
+  ],
+  "themes": [
+   "battle royale",
+   "guns",
+   "Free Fire"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Free Fire/mobile shooter remake"
+  ],
+  "monetization_signals": [
+   "VIP max/normal",
+   "weapon kits",
+   "diamond packs",
+   "gifting products"
+  ],
+  "update_signals": [
+   "rebuilt from scratch"
+  ],
+  "thumbnails": "Free-Fire-style HUD with BOOYAH banner, skydiving avatar, first-person gun",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "shooter systems, mobile HUD, multiple weapons with recoil, skins",
+  "novelty": 1,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q06",
+  "loop": "build a fort in a closed mega store -> scavenge items and weapons -> survive the night's monsters -> earn tokens",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive the night inside the store",
+  "progression": "tokens, weapons, item slots, badges",
+  "instructions": "build your fort and survive the night",
+  "mechanics": [
+   "base building",
+   "scavenging",
+   "night survival",
+   "weapons",
+   "revives"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "3008-inspired infinite-store survival with a Halloween reskin"
+  ],
+  "themes": [
+   "survival",
+   "store",
+   "night",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "survive-overnight",
+   "3008-like",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "gold minigun",
+   "OP saber",
+   "x3 tokens",
+   "weapon passes",
+   "revives",
+   "token packs"
+  ],
+  "update_signals": [
+   "Halloween update 1.5 on 10/15"
+  ],
+  "thumbnails": "characters hiding behind toilet paper shelves at night with flashlights",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "large store map, monster AI, fort building, many weapons",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q07",
+  "loop": "queue to climb -> climb a very tall tower -> ride a cart down the enormous track -> repeat",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "ride the highest cart ride",
+  "progression": "none",
+  "instructions": "climb, wait your turn, ride down",
+  "mechanics": [
+   "cart ride",
+   "queue",
+   "trolling products"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "paid trolling (kill, push, nuke) and paid skip-queue in a giant cart ride"
+  ],
+  "themes": [
+   "cart ride",
+   "heights",
+   "space"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cart ride into space"
+  ],
+  "monetization_signals": [
+   "kill all",
+   "nuke",
+   "skip queue",
+   "push",
+   "revive",
+   "teleport"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "rail track from space and a cart over clouds",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 1,
+  "complexity_notes": "long track, queue system, simple physics carts",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q08",
+  "loop": "choose a prehistoric animal -> survive, hunt or graze in an open Ice Age ecosystem -> pack with friends -> grow",
+  "loop_archetype": "roleplay_social",
+  "objectives": "survive as an Ice Age animal and play with your pack",
+  "progression": "tracks currency, animal variants and morphs",
+  "instructions": "pick an animal species and survive/roleplay; mammoths terraform",
+  "mechanics": [
+   "animal survival",
+   "hunting",
+   "pack play",
+   "terraforming",
+   "morphs"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "educational La Brea Tar Pits setting",
+   "mammoth terraforming"
+  ],
+  "themes": [
+   "Ice Age",
+   "prehistoric animals",
+   "wolves",
+   "saber-tooth"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "animal sim"
+  ],
+  "monetization_signals": [
+   "rare color morph passes",
+   "tracks currency packs"
+  ],
+  "update_signals": [
+   "Halloween"
+  ],
+  "thumbnails": "realistic dire wolf art, mammoth and saber-tooth hunting scenes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "large open-world terrain, many quadruped models with custom animation, ecosystem AI",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q09",
+  "loop": "sail across seas -> fight enemy ships and sea monsters -> dig up treasure -> sell and upgrade ships -> reach new seas",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become the most feared captain across 8 seas",
+  "progression": "24 ships, 8 seas, gold, experience",
+  "instructions": "sail, blast ships, survive the Kraken, beat bosses, dig treasure",
+  "mechanics": [
+   "sailing",
+   "ship combat",
+   "treasure digging",
+   "bosses",
+   "luck potions"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "extreme pass pricing ladder up to 29,999 Robux"
+  ],
+  "themes": [
+   "pirates",
+   "ocean",
+   "kraken"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pirate adventure"
+  ],
+  "monetization_signals": [
+   "29,999 Sea Emperor pass",
+   "whale tier passes",
+   "2x treasure",
+   "luck potions",
+   "server golden hour",
+   "gold bundles"
+  ],
+  "update_signals": [
+   "new game, updated daily"
+  ],
+  "thumbnails": "cartoon pirate with treasure, giant whale and kraken monsters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "8 seas, 24 ships, ship combat and bosses",
+  "novelty": 1,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q10",
+  "loop": "roll for unit cards -> build an army -> fight enemies and bosses -> roll more (AFK too) -> chase rare VOID cards",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect the rarest cards and beat bosses",
+  "progression": "card rarities, gear, potions, raids, ranked",
+  "instructions": "roll cards, fight, roll AFK, beat bosses with friends, use codes",
+  "mechanics": [
+   "rng rolls",
+   "army auto-battle",
+   "AFK rolling",
+   "bosses",
+   "raids",
+   "potions"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "rng rolling feeds an army battler (stickman armies)"
+  ],
+  "themes": [
+   "stickman",
+   "army",
+   "fantasy knights"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng roll",
+   "1 in X billion odds"
+  ],
+  "monetization_signals": [
+   "crates/chests",
+   "luck/haste potions",
+   "auto expedition",
+   "auto raid",
+   "VIP"
+  ],
+  "update_signals": [
+   "update tag",
+   "like-goal codes",
+   "ranked mode"
+  ],
+  "thumbnails": "giant gold-armored knight with '1 in 6 billion' odds text and huge army",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 3,
+  "complexity_notes": "many unit types, army battles, raids and expeditions",
+  "novelty": 2,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q11",
+  "loop": "play a speedster superhero -> zoom around the city -> defeat criminals -> race players -> level skills and unlock suits",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become a powerful speedster hero",
+  "progression": "EXP, skill points, suits and bundles",
+  "instructions": "defeat criminals, zoom around, race players",
+  "mechanics": [
+   "super speed",
+   "combat",
+   "racing",
+   "skill tree",
+   "costume bundles"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Flash-speedster traversal at high polish"
+  ],
+  "themes": [
+   "superheroes",
+   "DC",
+   "speed"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "superhero"
+  ],
+  "monetization_signals": [
+   "many costume bundles",
+   "2x EXP/skillpoints",
+   "Ignition currency",
+   "cash packs"
+  ],
+  "update_signals": [
+   "Halloween bundle"
+  ],
+  "thumbnails": "red speedster in lightning effects, versus a dark rival",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "city map, high-speed movement, VFX, many costumes",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q12",
+  "loop": "fly Miami to Tokyo -> stay in hotels, explore airport, board flight -> ride the train to Shibuya -> explore Tokyo with friends",
+  "loop_archetype": "roleplay_social",
+  "objectives": "experience a full vacation trip",
+  "progression": "rooms, penthouse, destinations",
+  "instructions": "explore airport, fly, arrive in Japan, ride the train, explore Tokyo",
+  "mechanics": [
+   "roleplay",
+   "travel",
+   "airport",
+   "hotels",
+   "exploration"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "full travel itinerary from airport to destination city as roleplay"
+  ],
+  "themes": [
+   "travel",
+   "Japan",
+   "Tokyo",
+   "airport"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "travel/vacation roleplay"
+  ],
+  "monetization_signals": [
+   "penthouse/luxury room passes",
+   "first class",
+   "VIP",
+   "hoverboard",
+   "donations"
+  ],
+  "update_signals": [
+   "more destinations coming"
+  ],
+  "thumbnails": "torii gate with plane, luxury hotel room in Tokyo",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "airport, plane, Miami and Tokyo maps, train ride, detailed interiors",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q13",
+  "loop": "pick an anime character -> fight in arenas with skills, combos, blocks and ultimates -> earn cash and tokens to unlock more characters",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win anime arena fights",
+  "progression": "levels, characters, cash, tokens",
+  "instructions": "pick characters and fight; controls listed",
+  "mechanics": [
+   "battlegrounds",
+   "combo system",
+   "awakening",
+   "characters"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "multi-anime roster (Bleach, Naruto, JJK, MHA)"
+  ],
+  "themes": [
+   "anime",
+   "shonen",
+   "fighting"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime battlegrounds",
+   "new character update"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "private server",
+   "XP/luck/cash potions",
+   "level skips"
+  ],
+  "update_signals": [
+   "Grimmjow & Ulquiorra update"
+  ],
+  "thumbnails": "anime manga-panel art of Bleach/Naruto/JJK characters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "many characters with custom move sets and VFX",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q14",
+  "loop": "open seed packs -> plant and water in base -> plants earn $/s -> sell to buyers, guard from thieves -> upgrade base and drones -> rare/secret plants",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow income per second with rare plants",
+  "progression": "base size, watering can, drones, seed rarities",
+  "instructions": "open seeds, plant and water, earn, upgrade base, find secret plants",
+  "mechanics": [
+   "seed packs",
+   "planting",
+   "income per second",
+   "stealing threat",
+   "drones"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "NPC buyers and bad actors visiting your base"
+  ],
+  "themes": [
+   "plants",
+   "garden",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "grow-a-garden",
+   "$/s numbers"
+  ],
+  "monetization_signals": [
+   "base/money upgrades",
+   "cheap seed pack products"
+  ],
+  "update_signals": [
+   "update 4.0",
+   "Halloween"
+  ],
+  "thumbnails": "plants growing from $30/s to $997,942,125/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 2,
+  "complexity_notes": "base plots, seed packs, simple income loop",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q15",
+  "loop": "play as human soldiers firing on alien tripods or as a tripod vaporizing humans -> earn EXP -> unlock vehicles and gear",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win the war as humans or tripods",
+  "progression": "EXP, vehicles, weapons",
+  "instructions": "join the military and shoot tripods, or as tripod kill humans",
+  "mechanics": [
+   "asymmetric pvp",
+   "vehicles",
+   "weapons",
+   "EXP"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "asymmetric humans vs giant tripods",
+   "atmospheric realistic visuals"
+  ],
+  "themes": [
+   "War of the Worlds",
+   "aliens",
+   "military"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "asymmetric pvp"
+  ],
+  "monetization_signals": [
+   "fighter jet",
+   "spec-ops pack",
+   "VIP",
+   "EXP packs",
+   "2x EXP"
+  ],
+  "update_signals": [
+   "V3.0"
+  ],
+  "thumbnails": "dark realistic tripods over a burning landscape",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "large maps, giant tripod models, vehicles, atmospheric lighting",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ }
+]

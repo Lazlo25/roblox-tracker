@@ -1,0 +1,29 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Grow-a-garden games (plant seeds, water, harvest income) rank lower on Up-and-Coming than other games of the same age",
+     "action": "Skip grow-a-garden clones for breakout",
+     "test": {"feature": "mech_grow_garden", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with a video in their page media climb Top Trending faster than games of similar age without one",
+     "action": "Add a gameplay video to the page",
+     "test": {"feature": "has_video", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Descriptions shorter than about 700 characters go with higher Up-and-Coming positions among games of the same age",
+     "action": "Keep the description short",
+     "test": {"feature": "desc_len_log", "metric": "uc_pos", "type": "threshold", "cut": 2.86, "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Job sims built around one satisfying, ASMR-style craft verb (tufting and shaving rugs, washing cars, peeling potatoes) break out on Up-and-Coming and some carry on to Most Popular",
+     "action": "Build around one satisfying craft verb",
+     "rationale": "Make Rugs! entered Up-and-Coming at 12 days with 95% likes and close-up 'satisfying' thumbnails, and Wash the Car rose 38 places on Most Popular at 64 days; but Peel THE Potato fell off Top Trending and Paint a Pancake fell 41 on Up-and-Coming, so the verb alone is not enough. A craft-verb feature from the profiles would test it."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-uc-026", "confidence": 32, "note": "A third round-based makeup game, Makeup All Stars (themed beauty battles with voting), entered Up-and-Coming at 15 days; Facecard: Makeup Showdown rose 35 on Most Popular and Makeup Salon rose 22 on Top Trending. The rated-round versions keep outperforming the solo ones."},
+    {"id": "H-x-015", "confidence": 27, "note": "Backseat Rally is among the best on Up-and-Coming and newly on Top Trending at 14 days, but Rally Panic! is among the weakest Top Trending movers and Scooter Duo fell off Up-and-Coming; the wave holds but is not lifting every entrant."},
+    {"id": "H-x-010", "confidence": 44, "note": "Escooter Life climbed 162 places on Top Earning at 8 days and Bike Universe entered Top Trending; Redlane fell off Up-and-Coming."},
+    {"id": "H-x-011", "confidence": 48, "note": "Steal Animal Egg (-17) and Steal ASMR! (-19) fell on Most Popular, Clone to Steal Eggs fell 118 on Top Earning and Bike For Egg is among the weakest on Most Popular, while Steal An Egg still leads; Kick a Lucky Block (+42) is the exception."},
+    {"id": "H-x-006", "confidence": 52, "note": "Anomaly-spotting keeps spreading: Clone Baby Care (Anomaly) rose 54 on Up-and-Coming at 10 days, Sell Fries! [Anomaly] is among the best on Up-and-Coming, and Route Zero wraps anomaly spotting in a bus route on Top Trending."},
+    {"id": "H-x-001", "confidence": 45, "note": "uc→tt (70, median 2 days) now edges tt→mp (69, 2 days); the order of the sequence holds."}
+  ],
+  "actions": [],
+  "retire": [
+    {"id": "H-tt-009", "reason": "The page-video association with Top Trending momentum has turned positive (r=+0.37, within-age +0.35); replaced by the opposite hypothesis so the action can follow the data."}
+  ]
+}

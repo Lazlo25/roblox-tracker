@@ -1,0 +1,378 @@
+[
+ {
+  "label": "Q46",
+  "loop": "roll anime cards with rare variants -> battle bosses and climb infinite tower -> prestige for permanent luck -> raid bosses for currency",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "roll the rarest card variants and top the leaderboard",
+  "progression": "prestige, skill tree, tower floors, raids",
+  "instructions": "roll cards, battle bosses, prestige, use codes",
+  "mechanics": [
+   "rng rolls",
+   "auto battle",
+   "prestige",
+   "skill tree",
+   "raids",
+   "leaderboard"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "prestige resets for permanent luck in a card roller"
+  ],
+  "themes": [
+   "anime",
+   "cards",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng roll",
+   "1 in trillions",
+   "anime"
+  ],
+  "monetization_signals": [
+   "charm slot",
+   "auto boss",
+   "multi-roll",
+   "potion x100 bundles",
+   "weather rerolls"
+  ],
+  "update_signals": [
+   "update 2 Halloween; frequent codes"
+  ],
+  "thumbnails": "dense anime card art and 'RAID CARD?!'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "card UI, boss battles, menus",
+  "novelty": 1,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q47",
+  "loop": "place fruits on plot -> drop them into the hole -> earn coins -> upgrade plot -> unlock better fruits",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "grow coin income with better fruits",
+  "progression": "plot upgrades, fruit tiers, time skips",
+  "instructions": "place fruits, drop them into the hole, earn, upgrade",
+  "mechanics": [
+   "dropping",
+   "idle income",
+   "plot upgrades",
+   "fruit packs",
+   "time skips"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "drop-into-hole income verb"
+  ],
+  "themes": [
+   "fruit",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "$/s numbers",
+   "drop-a-x"
+  ],
+  "monetization_signals": [
+   "time skips",
+   "fruit packs",
+   "2x luck",
+   "VIP",
+   "coin boost"
+  ],
+  "update_signals": [
+   "Halloween update, code"
+  ],
+  "thumbnails": "pumpkin fruit over a hole; MEGA APPLE $67,316,469/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 1,
+  "complexity_notes": "simple plot and drop mechanic",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q48",
+  "loop": "swing saber to gain strength -> sell strength for coins -> buy sabers, DNA, pets -> fight other players -> top leaderboards",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "top the leaderboards",
+  "progression": "strength, sabers, classes, pets, elements",
+  "instructions": "swing, sell, upgrade, fight players",
+  "mechanics": [
+   "clicking",
+   "selling",
+   "pets",
+   "pvp",
+   "classes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "classic 2019 simulator template still earning"
+  ],
+  "themes": [
+   "sabers",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "simulator classic"
+  ],
+  "monetization_signals": [
+   "many 2x passes",
+   "auto swing/sell timed products",
+   "crowns",
+   "pets equipped"
+  ],
+  "update_signals": [
+   "Halloween event pt 2, new eggs, classes"
+  ],
+  "thumbnails": "lightsaber battles with Roblox avatars",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "simulator template, pets, classes",
+  "novelty": 0,
+  "confidence": 85,
+  "video": "none"
+ },
+ {
+  "label": "Q49",
+  "loop": "dig into a giant cake mountain with a spoon -> collect cakes into bag -> sell -> buy stronger spoons and bigger bags -> dig deeper for rarer cakes",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "find the rarest cakes",
+  "progression": "spoons, bag size, cake rarities, depth",
+  "instructions": "dig, find cakes, sell, upgrade, decorate plate",
+  "mechanics": [
+   "digging",
+   "collecting",
+   "selling",
+   "upgrades",
+   "plate decoration"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "edible cake-digging theme with 'eating speed'"
+  ],
+  "themes": [
+   "cake",
+   "food",
+   "cute"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "dig-a-x"
+  ],
+  "monetization_signals": [
+   "2x sell",
+   "spoon products",
+   "bag capacity",
+   "eating speed",
+   "starter pack"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "cute illustrated character eating rainbow cake mountain",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "digging terrain, cake collection",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q50",
+  "loop": "explore seaside city -> own and decorate a house -> drive and modify cars -> roleplay and hang out -> do event mini-games",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live your life in Metro Life",
+  "progression": "houses, furniture, cars, events",
+  "instructions": "roleplay, customise house, modify cars, explore",
+  "mechanics": [
+   "roleplay",
+   "housing",
+   "cars",
+   "events",
+   "brand collab"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "LEGO Friends brand collab mini-games"
+  ],
+  "themes": [
+   "city life",
+   "LEGO Friends",
+   "houses"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "life roleplay",
+   "brand collab"
+  ],
+  "monetization_signals": [
+   "house passes",
+   "vehicle pass",
+   "furniture products",
+   "seasonal passes"
+  ],
+  "update_signals": [
+   "update 141 LEGO Friends"
+  ],
+  "thumbnails": "pink supercar and scooter avatars, LEGO Friends collab art",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "large city, houses, vehicles, events",
+  "novelty": 1,
+  "confidence": 85,
+  "video": "none"
+ },
+ {
+  "label": "Q51",
+  "loop": "explore open world -> fight cursed spirits and players -> collect cursed objects -> spin innate techniques -> level and master skills",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest sorcerer",
+  "progression": "levels, innate techniques, mastery, items",
+  "instructions": "explore, fight curses and sorcerers, find cursed objects",
+  "mechanics": [
+   "open-world combat",
+   "innate spins",
+   "pvp",
+   "bosses",
+   "mastery"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "Jujutsu Kaisen RPG with technique reworks"
+  ],
+  "themes": [
+   "anime",
+   "Jujutsu Kaisen"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG",
+   "character reworks"
+  ],
+  "monetization_signals": [
+   "item notifier 2699",
+   "heavenly restriction",
+   "innate slots",
+   "timed 2x boosts"
+  ],
+  "update_signals": [
+   "Judgeman rework",
+   "weekend 2x EXP"
+  ],
+  "thumbnails": "JJK anime characters (Higuruma, Itadori)",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "open world, many techniques, VFX",
+  "novelty": 1,
+  "confidence": 85,
+  "video": "none"
+ },
+ {
+  "label": "Q52",
+  "loop": "roll anime units -> place them on maps -> defend waves -> upgrade team -> roll for rarer units",
+  "loop_archetype": "tower_defense",
+  "objectives": "clear every map with the strongest team",
+  "progression": "units, maps, crystals",
+  "instructions": "roll units, enter maps, place units, upgrade, boost luck",
+  "mechanics": [
+   "rng rolls",
+   "tower defense",
+   "upgrades",
+   "chests"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "RNG-only unit acquisition in anime TD"
+  ],
+  "themes": [
+   "anime",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anime TD",
+   "rng roll"
+  ],
+  "monetization_signals": [
+   "super luck",
+   "double roll",
+   "2x speed",
+   "crystal packs",
+   "chests"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "anime characters (Alucard, Gojo, Sukuna) in dramatic art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "TD maps, many units",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q53",
+  "loop": "fish giant fish with skills -> sell for coins -> upgrade rods and strength -> raid and conquer islands -> fight bosses",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "catch the biggest fish and become Fishing Master",
+  "progression": "rods, skills, islands, mastery",
+  "instructions": "fish, learn techniques, upgrade strength, raid",
+  "mechanics": [
+   "fishing",
+   "skills",
+   "bosses",
+   "raids",
+   "units"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "Vietnamese 'Fishing for Ten Thousand Pounds' wuxia fishing"
+  ],
+  "themes": [
+   "fishing",
+   "martial arts",
+   "sea monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing sim"
+  ],
+  "monetization_signals": [
+   "unit slots",
+   "auto fishing",
+   "2x fish value",
+   "coin/gem packs",
+   "gifts"
+  ],
+  "update_signals": [
+   "update 2 rework: raids, island"
+  ],
+  "thumbnails": "anime-styled fisherman vs giant sea monster",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "islands, skills, fish models, raids",
+  "novelty": 2,
+  "confidence": 65,
+  "video": "none"
+ }
+]

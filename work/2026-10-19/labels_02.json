@@ -1,0 +1,698 @@
+[
+ {
+  "label": "Q16",
+  "loop": "spawn on the archipelago -> scavenge guns, food and gear -> fight infected and other players -> repair vehicles -> hunt rare cosmetics",
+  "loop_archetype": "combat_pvp",
+  "objectives": "survive the zombie apocalypse and keep your loot",
+  "progression": "gear, 1,000+ cosmetics, vehicles",
+  "instructions": "survive alone or with friends, find guns, explore, gather, hunt infected",
+  "mechanics": [
+   "looting",
+   "open-world survival",
+   "pvpve",
+   "vehicles",
+   "stealth melee",
+   "cosmetic unlocks"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "DayZ-style tactical extraction-survival on Roblox"
+  ],
+  "themes": [
+   "zombies",
+   "apocalypse",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "zombie survival"
+  ],
+  "monetization_signals": [
+   "starter kits",
+   "2x infected loot",
+   "cosmetic outfits"
+  ],
+  "update_signals": [
+   "classic reimagined map added"
+  ],
+  "thumbnails": "masked infected and armed survivors with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 5,
+  "complexity_notes": "huge archipelago map, 100+ weapons, vehicles, inventory systems",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q17",
+  "loop": "buy cars -> race and drive around the city -> earn cash -> upgrade parts and customize -> build a garage house",
+  "loop_archetype": "racing_driving",
+  "objectives": "build a dream car collection and win races",
+  "progression": "cars, performance parts, house",
+  "instructions": "race, upgrade and customise cars, decorate your house",
+  "mechanics": [
+   "driving",
+   "racing",
+   "car tuning",
+   "customization",
+   "housing"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "first-person steering wheel view and deep tuning"
+  ],
+  "themes": [
+   "cars",
+   "supercars",
+   "racing"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "car sim"
+  ],
+  "monetization_signals": [
+   "car packs",
+   "VIP",
+   "cash packs",
+   "underglow and nitro tuning"
+  ],
+  "update_signals": [
+   "frequent updates, like-goal codes"
+  ],
+  "thumbnails": "first-person steering wheel, supercars in front of a modern house, race car",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 5,
+  "complexity_notes": "large city, realistic cars with tuning, houses",
+  "novelty": 1,
+  "confidence": 85,
+  "video": "none"
+ },
+ {
+  "label": "Q18",
+  "loop": "claim a stand -> wait / AFK -> receive Robux donations -> donate to earn points -> spend points on trolling power-ups and global events",
+  "loop_archetype": "roleplay_social",
+  "objectives": "earn and give Robux donations",
+  "progression": "points, power-ups",
+  "instructions": "claim a stand, personalise text, receive and donate Robux",
+  "mechanics": [
+   "donation stand",
+   "AFK",
+   "points",
+   "trolling power-ups"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "time-based donation bonus variant of PLS DONATE"
+  ],
+  "themes": [
+   "donations",
+   "robux"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pls donate"
+  ],
+  "monetization_signals": [
+   "donation products",
+   "make it rain",
+   "invisibility remote",
+   "early access"
+  ],
+  "update_signals": [
+   "works after Roblox update"
+  ],
+  "thumbnails": "stand with Robux amounts and +100 Robux",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "complexity": 1,
+  "complexity_notes": "stand claiming and donation UI",
+  "novelty": 0,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q19",
+  "loop": "run a Chiikawa restaurant -> cook recipes and serve customers -> hire and smack lazy workers, catch dine-and-dashers -> earn stars and decorate",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the first 10-star restaurant",
+  "progression": "stars, recipes, themes, pets, friendships",
+  "instructions": "run restaurant, hire Chiikawas, unlock recipes, decorate, befriend characters",
+  "mechanics": [
+   "restaurant management",
+   "hiring staff",
+   "decorating",
+   "friendships",
+   "pets"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Chiikawa IP fan game with cozy ASMR decor"
+  ],
+  "themes": [
+   "Chiikawa",
+   "restaurant",
+   "cute",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cozy restaurant tycoon",
+   "Chiikawa"
+  ],
+  "monetization_signals": [
+   "themes",
+   "pet equip slots",
+   "money/luck boosts",
+   "cash packs",
+   "fast delivery"
+  ],
+  "update_signals": [
+   "Halloween theme"
+  ],
+  "thumbnails": "cute pastel Chiikawa characters and cozy restaurant",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "restaurant sim with NPC customers/workers, decor system",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q20",
+  "loop": "claim tycoon -> buy droppers and upgrades -> unlock elemental powers -> fight other players and bosses",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build an empire and master elemental powers",
+  "progression": "money, elements, spells, bosses",
+  "instructions": "claim a tycoon, build, use dash/double jump",
+  "mechanics": [
+   "tycoon",
+   "superpowers",
+   "pvp",
+   "bosses"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "classic tycoon plus elemental superpowers"
+  ],
+  "themes": [
+   "elements",
+   "superpowers",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "superpower tycoon"
+  ],
+  "monetization_signals": [
+   "all powers",
+   "infinite money",
+   "x2 money",
+   "auto collect",
+   "money packs",
+   "meteor shower"
+  ],
+  "update_signals": [
+   "new wind ability, 4 bosses",
+   "Halloween"
+  ],
+  "thumbnails": "element icons and classic tycoon base",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "complexity": 2,
+  "complexity_notes": "standard tycoon kit plus ability set",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q21",
+  "loop": "pick a grimoire -> learn spells and combos -> quest, fish, mine and craft -> fight bosses and raids -> awaken and climb skill trees",
+  "loop_archetype": "combat_pvp",
+  "objectives": "rise among the Magic Knights",
+  "progression": "grimoires, spells, skill trees, clans",
+  "instructions": "explore the Clover Kingdom, master magic, beat bosses, use codes",
+  "mechanics": [
+   "grimoire rolls",
+   "combat",
+   "bosses/raids",
+   "clans spins",
+   "AFK rewards",
+   "crafting"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Black Clover anime RPG with broom flight"
+  ],
+  "themes": [
+   "anime",
+   "Black Clover",
+   "magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG",
+   "Halloween characters"
+  ],
+  "monetization_signals": [
+   "bundles up to 6,999",
+   "clan spins",
+   "currency packs",
+   "VIP"
+  ],
+  "update_signals": [
+   "new characters (Yuno, Mereoleona)",
+   "beta"
+  ],
+  "thumbnails": "anime character art with fire/wind magic",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "open kingdom map, many spells and bosses, raids",
+  "novelty": 1,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q22",
+  "loop": "fight wild monsters -> capture them -> hatch rare eggs -> rank up and build a squad -> battle stronger monsters",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect the strongest monster squad",
+  "progression": "monster ranks, eggs, battle pass",
+  "instructions": "defeat, capture, hatch and collect monsters",
+  "mechanics": [
+   "monster capture",
+   "turn-based battles",
+   "egg hatching",
+   "battle pass"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Pokemon-like capture loop on Roblox"
+  ],
+  "themes": [
+   "monsters",
+   "pokemon-like",
+   "creatures"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pokemon-like"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "egg hatch skips",
+   "battle pass skips",
+   "pet inventory"
+  ],
+  "update_signals": [
+   "Christmas keys (seasonal)"
+  ],
+  "thumbnails": "stylised mecha monsters, trainer, elemental starters, 'Free S' ad",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "complexity": 4,
+  "complexity_notes": "many creature models, battle system, egg hatch",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q23",
+  "loop": "pick a horse -> race against others -> survive chaotic disasters and creatures -> win coins -> buy custom chaos rounds",
+  "loop_archetype": "racing_driving",
+  "objectives": "finish the race without being killed",
+  "progression": "coins, custom rounds",
+  "instructions": "compete with horses and try not to die",
+  "mechanics": [
+   "racing",
+   "random disasters",
+   "custom rounds"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "chaotic disaster race; players pay for chaos custom rounds"
+  ],
+  "themes": [
+   "horses",
+   "chaos",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "chaotic meme games"
+  ],
+  "monetization_signals": [
+   "custom chaos rounds",
+   "x2 coins",
+   "coin packs"
+  ],
+  "update_signals": [
+   "Halloween event 10/18"
+  ],
+  "thumbnails": "meme captions ('obliteration.', 'it all went wrong') over explosive horse races",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "race track with scripted disaster events",
+  "novelty": 2,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q24",
+  "loop": "work at an office desk -> complete tasks while managing stress -> survive random cinematic events -> sabotage others -> avoid being fired by the boss",
+  "loop_archetype": "party_minigames",
+  "objectives": "don't get fired by the boss",
+  "progression": "office coins, chair skins, quests",
+  "instructions": "manage stress, complete work, join events, sabotage others",
+  "mechanics": [
+   "tasks",
+   "stress meter",
+   "random events",
+   "sabotage",
+   "skins"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "overstimulating random-event office comedy"
+  ],
+  "themes": [
+   "office",
+   "boss",
+   "meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "don't get X",
+   "meme/overstimulation"
+  ],
+  "monetization_signals": [
+   "2x earnings",
+   "quest skips",
+   "coin packs",
+   "auto update"
+  ],
+  "update_signals": [
+   "limited Halloween skin event"
+  ],
+  "thumbnails": "meme faces, boss, Nokia phone 'use tools to relieve your stress'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "office map, random event scripts",
+  "novelty": 2,
+  "confidence": 65,
+  "video": "none"
+ },
+ {
+  "label": "Q25",
+  "loop": "dungeon run -> fight monsters with parry/dash -> collect spirits, defend the Mother Tree -> loot chests, upgrade -> wishes for rare weapons",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "beat worlds and get the rarest weapons",
+  "progression": "worlds, weapons, wishes, raids",
+  "instructions": "defeat monsters, collect loot, party up to 4, raid defense",
+  "mechanics": [
+   "dungeon crawler",
+   "roguelite",
+   "parry",
+   "loot",
+   "raids",
+   "fishing"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "pixel-art voxel weapon style roguelite"
+  ],
+  "themes": [
+   "pixel art",
+   "fantasy",
+   "dungeons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "roguelite"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "wishes",
+   "godly potions",
+   "revives",
+   "currency packs"
+  ],
+  "update_signals": [
+   "v2.2.0 Nightmare"
+  ],
+  "thumbnails": "pixel weapons with damage numbers, combat scenes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "complexity": 4,
+  "complexity_notes": "multiple worlds, many weapons, combat with parry",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q26",
+  "loop": "fly helicopters and jets over a zombie horde -> rain rockets and airstrikes -> drop defenses with allies -> earn credits -> unlock 180+ upgrades",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "push the front line through every season",
+  "progression": "credits, 180+ upgrades, aircraft",
+  "instructions": "fly, attack hordes, drop defenses, push the front",
+  "mechanics": [
+   "flying",
+   "air strikes",
+   "horde defense",
+   "upgrades",
+   "supply wheel"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "air-power vs massive horde, 'They Are Billions' from the sky"
+  ],
+  "themes": [
+   "zombies",
+   "aircraft",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "zombie horde"
+  ],
+  "monetization_signals": [
+   "aircraft passes",
+   "credit packs",
+   "supply wheel spins",
+   "starter pack"
+  ],
+  "update_signals": [
+   "alpha, solo dev"
+  ],
+  "thumbnails": "aircraft over massive zombie hordes with explosions",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "hundreds of zombies, flyable aircraft, VFX",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q27",
+  "loop": "step on a pad -> 1v1 to 4v4 first-to-5 duel with knife and revolver -> earn coins -> unlock and trade skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels",
+  "progression": "skins, battle pass, cases",
+  "instructions": "step on a pad, duel first to 5, unlock skins, trade",
+  "mechanics": [
+   "dueling",
+   "FPS",
+   "skills",
+   "skin cases",
+   "trading"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "MM2 weapons in a fast FPS duel format"
+  ],
+  "themes": [
+   "murder mystery",
+   "duels",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "duels",
+   "MM2-like"
+  ],
+  "monetization_signals": [
+   "coin packs",
+   "release pack",
+   "cases",
+   "battle pass"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "blue gangster with revolver and knife vs red",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "duel pads, FPS, skins and trading",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q28",
+  "loop": "become a vampire -> level up, hunt enemies -> grow powerful; or play werewolf or witch with crafting and spells",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest vampire",
+  "progression": "levels, money, factions",
+  "instructions": "become a vampire, level up, destroy enemies",
+  "mechanics": [
+   "factions",
+   "leveling",
+   "pvp",
+   "crafting spells"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "vampire/werewolf/witch faction MMORPG"
+  ],
+  "themes": [
+   "vampires",
+   "werewolves",
+   "witches"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "vampire"
+  ],
+  "monetization_signals": [
+   "original vampire 1895",
+   "sun ring",
+   "save progress",
+   "xp/money boosters"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "anime-ish vampire character art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "factions, leveling, unclear scope",
+  "novelty": 1,
+  "confidence": 55,
+  "video": "none"
+ },
+ {
+  "label": "Q29",
+  "loop": "explore 10 worlds -> find hidden morphs (530+) through puzzles, parkour and quests -> use morph abilities -> fight bosses with friends",
+  "loop_archetype": "story_adventure",
+  "objectives": "find all morphs",
+  "progression": "530+ morphs, worlds, abilities",
+  "instructions": "explore, find chests, unlock morphs",
+  "mechanics": [
+   "scavenger hunt",
+   "morphs",
+   "parkour",
+   "pvp",
+   "bosses"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "massive morph collection with abilities"
+  ],
+  "themes": [
+   "morphs",
+   "Halloween",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "find the X morphs"
+  ],
+  "monetization_signals": [
+   "keys",
+   "coins",
+   "tank/mech morph products",
+   "VIP"
+  ],
+  "update_signals": [
+   "Mimicer update, Haunted Hallows forest"
+  ],
+  "thumbnails": "cartoon morph characters, pumpkin boss, mechas",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "10 worlds with hidden morphs and bosses",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q30",
+  "loop": "pick red or blue -> drive car onto arena -> ram enemies off the edge -> last team wins -> buy cars and bumpers",
+  "loop_archetype": "combat_pvp",
+  "objectives": "be the last team standing",
+  "progression": "money, cars, bumpers",
+  "instructions": "pick team, drive, ram enemies off the edge",
+  "mechanics": [
+   "car sumo",
+   "team pvp",
+   "rounds",
+   "car customization"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "car sumo with front bumper attachments"
+  ],
+  "themes": [
+   "cars",
+   "sumo",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "X duels",
+   "red vs blue"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x money",
+   "car/bumper products",
+   "money packs",
+   "server money boost"
+  ],
+  "update_signals": [
+   "update6, Halloween codes"
+  ],
+  "thumbnails": "blocky cars with scoop/spike bumpers on an arena",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 2,
+  "complexity_notes": "arena, vehicle physics, bumper parts",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ }
+]

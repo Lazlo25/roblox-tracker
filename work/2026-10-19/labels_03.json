@@ -1,0 +1,691 @@
+[
+ {
+  "label": "Q31",
+  "loop": "run into areas -> grab rare eggs while escaping guard creatures -> hatch pets that earn $/s -> train pets and upgrade jump -> reach new areas",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "save the rarest eggs and grow income",
+  "progression": "jump upgrades, pet rarities, income per second",
+  "instructions": "save eggs, hatch pets, train them, escape guards, upgrade jump",
+  "mechanics": [
+   "egg grabbing",
+   "escape guards",
+   "pet hatching",
+   "income per second",
+   "traps"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "steal-a-x formula with egg rescue framing and bear traps"
+  ],
+  "themes": [
+   "eggs",
+   "pets",
+   "dinosaurs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "$/s numbers"
+  ],
+  "monetization_signals": [
+   "x2 growth",
+   "x2 money",
+   "cash packs",
+   "offline cash",
+   "bear traps",
+   "gifting"
+  ],
+  "update_signals": [
+   "new game, updated daily"
+  ],
+  "thumbnails": "kids grabbing glowing eggs from T-rex/cerberus, '76,892Qa/s'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 2,
+  "complexity_notes": "area-based map, guard AI, pet hatching",
+  "novelty": 1,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q32",
+  "loop": "pick an off-road vehicle -> explore huge mud/trail world -> do jobs or drives to earn -> buy and customise lifted ATVs/UTVs",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore trails and build your rig",
+  "progression": "vehicles, parts, lifts",
+  "instructions": "explore trails, drive, customise vehicles",
+  "mechanics": [
+   "off-roading",
+   "vehicle tuning",
+   "jobs",
+   "exploration"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "realistic mud/water physics off-roading"
+  ],
+  "themes": [
+   "off-road",
+   "ATV",
+   "nature"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "realistic driving"
+  ],
+  "monetization_signals": [
+   "job pay passes",
+   "vehicle packs",
+   "lift kits",
+   "money packs"
+  ],
+  "update_signals": [
+   "V4.0, sinking update"
+  ],
+  "thumbnails": "realistic ATVs in mud and water",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "large realistic terrain, vehicle chassis tuning",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q33",
+  "loop": "spawn in Ontario street -> drive and customize cars -> work jobs, drift and race -> earn money -> buy more cars and roleplay",
+  "loop_archetype": "racing_driving",
+  "objectives": "build a car collection and earn through jobs",
+  "progression": "cash, vehicles, promotions",
+  "instructions": "explore, drive, customise, work jobs, drift, race",
+  "mechanics": [
+   "driving",
+   "jobs",
+   "roleplay",
+   "police",
+   "tuning"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "real Canadian street as setting"
+  ],
+  "themes": [
+   "cars",
+   "Canada",
+   "police",
+   "roleplay"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic driving roleplay"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x job/drive earn passes",
+   "huge cash packs up to 9,999",
+   "weapon pack"
+  ],
+  "update_signals": [
+   "weather + exhaust tuning update",
+   "like-goal codes"
+  ],
+  "thumbnails": "police and street cars drifting with YSO branding",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "detailed city map, many cars, jobs, weather",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q34",
+  "loop": "pick a bike -> street race and do quests -> earn cash -> upgrade bike -> stunt with crew at meetups",
+  "loop_archetype": "racing_driving",
+  "objectives": "win street races and build the best bike",
+  "progression": "bikes, upgrades, cash",
+  "instructions": "race, upgrade bike, ride with crew",
+  "mechanics": [
+   "motorcycle racing",
+   "stunts",
+   "upgrades",
+   "meetups"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic motorcycle stunts (wheelies, stoppies) and community meets"
+  ],
+  "themes": [
+   "motorcycles",
+   "street racing",
+   "Dallas"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic driving"
+  ],
+  "monetization_signals": [
+   "advanced customization",
+   "cash packs",
+   "2x cash"
+  ],
+  "update_signals": [
+   "map extension, weekly bikes"
+  ],
+  "thumbnails": "realistic superbikes doing wheelies on a Dallas highway",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "highway map, bike physics, day/night",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q35",
+  "loop": "enter a wave -> auto-fight hundreds of enemies -> pick upgrade cards -> survive to the final swarm -> earn keys to unlock and evolve weapons",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive waves and defeat the Final Swarm",
+  "progression": "weapons, evolutions, worlds, dungeons",
+  "instructions": "survive waves, collect keys, build loadout, progress worlds",
+  "mechanics": [
+   "horde survival",
+   "upgrade choices",
+   "classes",
+   "loadouts",
+   "chests"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Vampire Survivors-style card upgrades on Roblox"
+  ],
+  "themes": [
+   "fantasy",
+   "horde",
+   "dungeons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "survivors-like"
+  ],
+  "monetization_signals": [
+   "premium chests",
+   "key packs",
+   "VIP",
+   "revives",
+   "lucky grading"
+  ],
+  "update_signals": [
+   "new dungeons, weapon evolutions"
+  ],
+  "thumbnails": "upgrade/class selection cards with click hand, skeleton fight",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "hundreds of enemies, upgrade system, worlds",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q36",
+  "loop": "roll for mounts -> ride across islands -> fight beasts -> collect 700+ mounts with luck boosts",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "complete the mount collection",
+  "progression": "700+ mounts, islands, essences",
+  "instructions": "roll mounts, explore islands, fight, collect",
+  "mechanics": [
+   "rng rolls",
+   "mounts",
+   "exploration",
+   "combat",
+   "friend luck"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "friend-in-server luck stacking; biweekly content cadence"
+  ],
+  "themes": [
+   "dragons",
+   "mounts",
+   "fantasy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng roll",
+   "1 in X odds"
+  ],
+  "monetization_signals": [
+   "double rolls",
+   "luck passes",
+   "essence packs",
+   "donations",
+   "luck stars"
+  ],
+  "update_signals": [
+   "update 54, every 2 weeks"
+  ],
+  "thumbnails": "dragon eye and '1 in 67,677,766,677' odds text",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 3,
+  "complexity_notes": "700+ mount models, islands",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q37",
+  "loop": "choose a bird species -> hatch from an egg and grow up -> build a nest -> join flocks and roleplay/survive",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live as a bird with your flock",
+  "progression": "growth stages, species, nests",
+  "instructions": "choose species, customise, hatch, grow, build nest, join flocks",
+  "mechanics": [
+   "animal roleplay",
+   "growth",
+   "nesting",
+   "flocks",
+   "flight"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "flight-based bird roleplay with quick-word chat for non-verified players"
+  ],
+  "themes": [
+   "birds",
+   "nature",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "animal roleplay"
+  ],
+  "monetization_signals": [
+   "mythical bird passes (griffin, phoenix)",
+   "VIP bird"
+  ],
+  "update_signals": [
+   "regular species updates; next Nov 6"
+  ],
+  "thumbnails": "stylised birds in seasonal Halloween scenes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "many bird models with flight animation, large forest map",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q38",
+  "loop": "create a player -> play college football games -> earn offers and rankings -> progress career to legend",
+  "loop_archetype": "sports_competitive",
+  "objectives": "become a college football legend",
+  "progression": "career, rankings, stats, cosmetics",
+  "instructions": "create player, earn offers, compete, build legacy",
+  "mechanics": [
+   "career mode",
+   "football",
+   "spins",
+   "customisation"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "single-player server career mode for American football"
+  ],
+  "themes": [
+   "football",
+   "college sports"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "sports career"
+  ],
+  "monetization_signals": [
+   "leagues",
+   "cosmetic passes",
+   "spins",
+   "coins"
+  ],
+  "update_signals": [
+   "beta, frequent updates"
+  ],
+  "thumbnails": "helmets and jersey players in stadium",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "football gameplay, animations, stadiums",
+  "novelty": 2,
+  "confidence": 70,
+  "video": "none"
+ },
+ {
+  "label": "Q39",
+  "loop": "spawn in arena -> fight with sword, gun, parry, grapple, wallrun -> win FFA/2v2/ranked -> earn yen and skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win fast fights and climb ranked",
+  "progression": "ranked, skins",
+  "instructions": "fight using melee, gun, parry bullets, movement tech",
+  "mechanics": [
+   "fps",
+   "melee",
+   "parry",
+   "movement tech",
+   "ranked"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "parry bullets and no speed limit movement shooter"
+  ],
+  "themes": [
+   "action",
+   "neon",
+   "stylish"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "movement shooter"
+  ],
+  "monetization_signals": [
+   "support donations",
+   "skin products"
+  ],
+  "update_signals": [
+   "ranked update"
+  ],
+  "thumbnails": "red-black stylised art, 'Don't stop moving'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "advanced movement system, maps, skins",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q40",
+  "loop": "pick a nation on a world map -> build economy and industry -> research -> move armies to capture territory -> dominate the world",
+  "loop_archetype": "other",
+  "objectives": "achieve world domination",
+  "progression": "research, territories, nukes",
+  "instructions": "lead nation, build economy, expand, crush rivals",
+  "mechanics": [
+   "grand strategy",
+   "economy",
+   "troop micromanagement",
+   "research",
+   "nukes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Hearts of Iron-style grand strategy on Roblox"
+  ],
+  "themes": [
+   "WW2",
+   "history",
+   "maps"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "map strategy"
+  ],
+  "monetization_signals": [
+   "many nation skin packs",
+   "research/focus speed",
+   "money packs"
+  ],
+  "update_signals": [
+   "Halloween effects; map editor upcoming"
+  ],
+  "thumbnails": "map of Europe with flags and arrows",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "global map, economy and unit systems, light 3D",
+  "novelty": 2,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q41",
+  "loop": "create airline -> design aircraft -> work as flight attendant serving passengers -> handle emergencies -> earn SkyBux",
+  "loop_archetype": "simulation_job",
+  "objectives": "run a great airline and keep passengers safe",
+  "progression": "SkyBux, airline customization, missions",
+  "instructions": "design airline, serve meals, handle emergencies",
+  "mechanics": [
+   "job sim",
+   "customisation",
+   "emergencies",
+   "missions"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "in-flight emergencies like water landing as an event"
+  ],
+  "themes": [
+   "airplanes",
+   "airline"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "job sim"
+  ],
+  "monetization_signals": [
+   "2x earnings",
+   "AI attendant",
+   "custom logo/music/lighting",
+   "SkyBux packs"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "plane water landing with slides, cabin service",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "aircraft interiors, emergencies, customization",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q42",
+  "loop": "claim a side of a factory with a friend -> build droppers and floors -> buy weapons -> raid rival factories and steal vault cash -> defend with turrets and guards",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "build the biggest factory and raid rivals",
+  "progression": "floors, weapons, guards, events",
+  "instructions": "team up, build, raid, defend",
+  "mechanics": [
+   "tycoon",
+   "raiding",
+   "duo play",
+   "weapons",
+   "turrets",
+   "gacha guards"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "2-player tycoon with raid/heist PvP"
+  ],
+  "themes": [
+   "factory",
+   "raid",
+   "military"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "2-player tycoon",
+   "steal"
+  ],
+  "monetization_signals": [
+   "weapon passes",
+   "bundles",
+   "x2 cash",
+   "gem/cash packs"
+  ],
+  "update_signals": [
+   "lab update, like-goal codes"
+  ],
+  "thumbnails": "Day 1 vs Day 999 tycoon growth; smiley faction art",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "complexity": 3,
+  "complexity_notes": "factory tycoon, combat, raid systems",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ },
+ {
+  "label": "Q43",
+  "loop": "build a car dealership -> earn money from customers -> collect and drive 600+ cars -> customize and race in events",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the ultimate dealership and collect cars",
+  "progression": "dealership size, 600+ cars, money",
+  "instructions": "build dealership, collect, drive, customise, race",
+  "mechanics": [
+   "tycoon",
+   "car collecting",
+   "racing",
+   "customization",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "car collecting meets tycoon with open-world driving"
+  ],
+  "themes": [
+   "cars",
+   "dealership",
+   "Halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "car tycoon"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "3x vehicles",
+   "money packs",
+   "premium cars"
+  ],
+  "update_signals": [
+   "Halloween update with event cars"
+  ],
+  "thumbnails": "Halloween-styled supercar",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "open world, 600+ vehicles, tycoon",
+  "novelty": 1,
+  "confidence": 85,
+  "video": "none"
+ },
+ {
+  "label": "Q44",
+  "loop": "drive realistic cars in Mojave California -> earn money by driving/jobs -> roleplay with friends -> buy and mod cars",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn money and roleplay realistic life",
+  "progression": "cash, car tiers, mods",
+  "instructions": "drive to earn, roleplay",
+  "mechanics": [
+   "driving",
+   "drive-to-earn",
+   "roleplay",
+   "jobs",
+   "car mods"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic California town roleplay"
+  ],
+  "themes": [
+   "cars",
+   "California",
+   "roleplay"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic driving roleplay"
+  ],
+  "monetization_signals": [
+   "car class passes",
+   "cash packs",
+   "public services access"
+  ],
+  "update_signals": [
+   "Fall + car mods update, like goals"
+  ],
+  "thumbnails": "realistic Honda/Nissan/VW cars in town",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "complexity": 4,
+  "complexity_notes": "realistic town map and cars",
+  "novelty": 1,
+  "confidence": 80,
+  "video": "none"
+ },
+ {
+  "label": "Q45",
+  "loop": "spin for a class -> enter random dungeon -> hack and slash to boss -> extract with loot -> forge and optimize build",
+  "loop_archetype": "combat_pvp",
+  "objectives": "clear dungeons fastest with the best builds",
+  "progression": "levels to 350, 30+ classes, loot",
+  "instructions": "spin classes, enter dungeons, extract with loot",
+  "mechanics": [
+   "dungeon ARPG",
+   "class spins",
+   "extraction",
+   "stat builds",
+   "boss rush"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "extraction-style loss on death in a dungeon ARPG"
+  ],
+  "themes": [
+   "anime",
+   "fantasy",
+   "dungeons",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime ARPG"
+  ],
+  "monetization_signals": [
+   "luck/loot passes",
+   "cash packs",
+   "prevent loss on death",
+   "server luck",
+   "auto forge"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "anime character art, slime",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "complexity": 3,
+  "complexity_notes": "procedural dungeons, 30+ classes",
+  "novelty": 2,
+  "confidence": 75,
+  "video": "none"
+ }
+]

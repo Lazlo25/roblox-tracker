@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg, Brookhaven, 99 Nights in the Forest, RIVALS and Murder Mystery 2 hold the top, which fits the idea that the top of Most Popular barely moves (still speculative at 40%).",
+        "The biggest risers mix young and old: Kick a Lucky Block (+42, 195 days), Wash the Car (+38, 64 days), Facecard: Makeup Showdown (+35, 14 days) and the two-year-old horror game he ate them. (+21), which is probably helped by Halloween.",
+        "Young steal and +1 clones made the biggest falls (Steal Animal Egg -17, Steal ASMR! -19, +1 Loot To Forge -20, +1 Karate Evolution -27), while Halloween brought back old horror and PvP titles such as Piggy and BedWars.",
+        "By age, games 0–14 days old and those past a year score best (median percentiles 64 and 60), while the 15–84-day group is the weakest (36–42)."
+      ],
+      "patterns": [
+        "Higher-priced passes and dev products go with longer stays (products median price rho +0.34, passes +0.31), and pricing tends to hold steady from day to day (H-mp-001 at 68%).",
+        "More complex, studio-scale games stay on the chart longer (rho +0.26), and more original concepts consistently hold higher positions (H-mp-013 at 70%).",
+        "Cash-tycoon money loops go with fewer days on the chart (r -0.28); the steal template is the exception, carried by its original.",
+        "Video observations of long-running hits show HUDs anywhere from bare (Brookhaven, Adopt Me!) to crowded (Blox Fruits, Hypershot), so screen density does not separate durable games; a clear core verb does."
+      ],
+      "outliers": [
+        {"name": "Wash the Car 🧽", "note": "A 64-day-old idle job sim with no passes and only 14 products climbed 38 places. This goes against the usual link between high prices and staying power, and suggests its satisfying core verb, not its monetization, carries it."},
+        {"name": "Facecard: Makeup Showdown [⭐UPD]", "note": "Climbed 35 places at 14 days with 99% likes; it is part of the round-based makeup cluster that is spreading from Up-and-Coming."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again lead monetization efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Spin a KPOP Idol and the 4-year-old Elemental Dungeons.",
+        "35 new entries arrived, including several brand-new games (Be a Pirate at 20 days, Facecard at 14 days, Cat Battles at 14 days); new games still sit lowest on efficiency (median percentile 1 at 0–14 days and 21 at 15–42 days).",
+        "Old PvP and tower-defense titles made the biggest climbs (Legends Battlegrounds +248, Primal Pursuit +223, All Star Tower Defense +179), probably helped by updates and Halloween events.",
+        "Fishing Master fell 191 places on the day it shipped a large rework, and WHO FARTED? fell 143."
+      ],
+      "patterns": [
+        "Games older than 6 weeks consistently earn more for their CCU (H-te-001 at 77%; best age split at 38 days, r +0.48), so most other Top Earning associations are partly about age.",
+        "A median dev product price above 79 R$, a premium pass above 999 R$ and a median pass price above 399 R$ all consistently go with better efficiency, and today's price associations are the strongest on the chart.",
+        "RPGs (r +0.47), roleplay hubs (+0.31) and PvP combat consistently monetize well, while pet/egg (-0.25) and steal loops monetize poorly. The genre mix overlaps with game age.",
+        "Today's new profiles fit this: Be a Pirate (passes up to 29,999 R$) and CloverFall (bundles up to 6,999 R$) are young games that already sit on Top Earning thanks to a steep price ladder."
+      ],
+      "outliers": [
+        {"name": "Cat Battles 🐾", "note": "Weakest on efficiency but best on Up-and-Coming: at 14 days its players arrived well before its revenue did, as H-x-003 predicts."},
+        {"name": "Climb For Animals Eggs🥚", "note": "Climbed 193 places yet is still among the weakest on efficiency; a pet/egg game that is popular but monetizes poorly, as H-te-002 describes."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Save the Krusty Krab (+29), Makeup Salon (+22) and Kill Your Friend! (+17) led the climbs, all 14–20 days old; the 0–14-day group scored best (median percentile 85).",
+        "Halloween returned several old games to the chart (RIVALS, Dress To Impress, Survive Overnight in a Mega Store); they are left out of the momentum score because of their age.",
+        "Get Your Driving License! (-36, 59% likes) and Apple iPad Original (-20) fell the most; curiosity hooks with low like ratios fade quickly.",
+        "Of the 18 new entries, Backseat Rally and Make Ramen To Get Rich are young job and co-op formats."
+      ],
+      "patterns": [
+        "Page media now tends to go with momentum: a page video (r +0.37, within-age +0.35) and more than two images (H-tt-020 at 60%) both go with faster climbs, so the earlier 'video slows a game down' idea was retired.",
+        "A VIP pass at launch tends to go with faster climbs (H-tt-014 at 59%), while luck products (H-tt-025 at 55%) and generic 2x passes (H-tt-015 at 56%) tend to go with lower positions.",
+        "PvP and competitive loops scored higher on momentum today (r +0.39 and +0.40), against the older 'launch co-op, not PvP' idea (H-tt-011 has fallen to 41%); the sample is small (16 PvP games), so this is still speculative.",
+        "A collection index tends to go with higher positions (H-tt-028 at 64%), and creature themes are a mixed signal (position r +0.39, momentum neutral)."
+      ],
+      "outliers": [
+        {"name": "Save the Krusty Krab 🍔", "note": "Top climber with no passes and only 25 products: a recognizable cartoon IP and a co-op survival loop beat monetization signals here."},
+        {"name": "DIVINE HATCHERS 0.0001% [NEW!]", "note": "Weakest mover and off Most Popular: a pet/egg hatcher with 167 products, matching H-tt-017."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Cat Battles, Backseat Rally, Don't Miss Your Flight!, Facecard and Kukirin Life lead the chart; 16 games 14 days old or younger score best as a group (median percentile 74).",
+        "Don't Miss Your Flight! rose 79 places despite 32% likes, showing that a curiosity hook can still carry a low-rated game for a while.",
+        "Five new entries: Make Rugs!, Makeup All Stars, What's the Time Mr. Fox?, Free Fire Zone (Max) and Evolve a Cell. Three are party or craft formats and one is a localized shooter clone.",
+        "Paint a Pancake (-41), Solve The Cube (-38) and WRONG WAY! (-25) fell the most; Piano Rhythm Tiles and Scooter Duo fell off."
+      ],
+      "patterns": [
+        "Co-op loops consistently rank higher among games of the same age (H-uc-019 at 70%, within-age +0.45), while solo loops tend to rank lower (H-uc-007 at 68%).",
+        "Frequent updates consistently go with higher positions (H-uc-012 at 70%; days since update split at 2 days, r -0.39).",
+        "Grow-a-garden mechanics go with lower positions (r -0.45, within-age -0.56), and cash-tycoon loops tend to as well (H-uc-016 at 67%); both are new tests.",
+        "Shorter descriptions may go with higher positions (best split around 700 characters, r -0.38), while on Top Earning longer descriptions go with better efficiency: a reach-versus-revenue split worth tracking."
+      ],
+      "outliers": [
+        {"name": "Don’t Miss Your Flight! ✈️", "note": "+79 with 32% likes, against the like-ratio pattern (H-uc-006); likely a short-lived curiosity peak."},
+        {"name": "Evolve a Cell", "note": "New entry that is already among the weakest: an 'other' loop with no passes and 76% likes."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Pricing and complexity stay the most consistent levers shared by Most Popular and Top Earning; visits and favorites lead three charts but are partly a result of success.",
+      "Social play keeps strengthening on the breakout charts: co-op leads Up-and-Coming within age bands, and PvP showed momentum on Top Trending today.",
+      "Round-based makeup painting is now a cluster on three charts (Facecard on Most Popular, Makeup Salon on Top Trending, Makeup All Stars new on Up-and-Coming).",
+      "Steal and egg clones keep falling on Most Popular and Top Earning together, while the original Steal An Egg holds #1.",
+      "Halloween events confound this week's movement: old horror, PvP and survival games returned to Top Trending and Most Popular."
+    ],
+    "progressions": [
+      "Up-and-Coming to Top Trending is now the most common sequence (70 entries, median 2 days later), just ahead of Top Trending to Most Popular (69, 2 days).",
+      "Next are Top Earning to Top Trending (52, 7 days), Up-and-Coming to Top Earning (47, 4 days) and Top Trending to Top Earning (46, 5 days); Top Trending to Up-and-Coming almost never happens (1)."
+    ]
+  }
+}
