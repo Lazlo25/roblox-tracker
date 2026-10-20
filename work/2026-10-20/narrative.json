@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg, Brookhaven, 99 Nights in the Forest, Murder Mystery 2 and RIVALS hold the top again; the top of Most Popular barely moved, which fits the speculative sticky-top idea (H-mp-008 at 40%).",
+        "Halloween horror led the risers: he ate them. (+17) and Piggy (+12), alongside Mukbang Game (+12), Ninja Challenge (+12) and Phonk Edit Tower (+10), mostly games older than six months.",
+        "The fallers were young or mid-life simulators: Smash the City (-12, 24 days), Paint a Pancake (-13), Ride A Pet (-13) and Kick a Lucky Block (-16).",
+        "Eight new entries include the 15-day-old co-op Backseat Rally and the 12-day-old Make Ramen To Get Rich, plus returning evergreens Dragon Adventures and Natural Disaster Survival.",
+        "By age, 85–122-day games and games past a year score best (median percentiles 72 and 58), while 15–84-day games remain the weakest (41–44)."
+      ],
+      "patterns": [
+        "Higher-priced dev products and passes go with longer stays (rho +0.32 and +0.30); priced passes above 149 R$ tends to go with higher positions (H-mp-001 at 69%).",
+        "Recent updates matter for staying power: days since update vs days on chart rho -0.25, and the 'update at least weekly' hypothesis tends to hold (H-mp-018 at 65%).",
+        "Multiplayer loops tend to hold higher positions than solo ones (H-mp-003 strengthened to 65%); steal_defend_base and combat_pvp loops have the highest median percentiles among profiled loops.",
+        "A high favorite rate per visit consistently goes with lower positions (H-mp-010 at 72%), because big evergreens convert fewer of their huge visit counts into favorites; it is a scale effect, not a lever."
+      ],
+      "outliers": [
+        {"name": "he ate them. [HORROR]", "note": "A two-year-old horror game climbing 17 places; the Halloween season, not any page change, is the likely driver."},
+        {"name": "Natural Disaster Survival", "note": "Re-entered at 6,780 days old with no update for 33 days and only 13 products, against the update and pricing patterns; nostalgia and its brand carry it."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again lead monetization efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Spin a KPOP Idol, Elemental Dungeons and Bewitched.",
+        "The weakest are young games whose players arrived before revenue: Sarab (26 days), Cat Battles (15), Sell Fries! [Anomaly] (29) and Climb For Animals Eggs (44).",
+        "103 games updated in the last day, with no difference in movement versus the rest; there were no new entries or movers recorded today.",
+        "By age, efficiency rises from a median percentile of 20 at 15–42 days to 57 past a year."
+      ],
+      "patterns": [
+        "Games older than six weeks consistently earn more for their CCU (H-te-001 at 77%, best split at 39 days), so most other Top Earning associations are partly about age.",
+        "Price ladders consistently go with efficiency: median product above 79 R$ (rho +0.29, best split 87), median pass above 399 R$ and a premium pass above 999 R$ all at 77%.",
+        "RPGs (r +0.48), roleplay hubs (+0.30) and PvP combat consistently monetize well, while Simulation-genre games (r -0.21), pet/egg and steal loops monetize poorly; a new hypothesis tests the Simulation genre directly.",
+        "Studio-scale complexity (rho +0.23) and longer descriptions (+0.24) go with efficiency; both overlap with game age and genre."
+      ],
+      "outliers": [
+        {"name": "[🎃] Spin a KPOP Idol", "note": "A 179-day-old RNG roller among the most efficient games, unusual for a simulator; a K-pop fandom audience with a steep product ladder (119 products) likely explains it."},
+        {"name": "Cat Battles 🐾", "note": "Weakest on efficiency but near the top of Up-and-Coming at 15 days, the clearest current example of reach before revenue (H-x-003)."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Physics sandboxes took the biggest climbs: Crazy Diver (+52), Realistic Phone Drop Test (+41), Bike Universe (+36) and the 196-day-old Highest Cart Ride (+35), with Secure The Hospital (+38) as the job-sim exception.",
+        "Apple iPad Original fell 39 places at 11 days, Make Ramen To Get Rich fell 25, and Smash the City fell 24; curiosity and template launches fade fast.",
+        "Young games scored best by age (median percentile 67 at 0–14 days, 58 at 15–42, 45 at 43–84), and recently updated games moved +0.5 versus -4 for the rest.",
+        "Ten new entries were mostly older games returning for Halloween (Murder Mystery 2, Fisch) plus Catch the Artist!, a drawing-based imposter game at 119 days."
+      ],
+      "patterns": [
+        "Sandbox_physics loops have the highest median momentum percentile (96, n=5), several with low like ratios (Crazy Diver 53%); a new hypothesis tests this within age bands.",
+        "Fewer passes tend to go with higher positions (passes_n rho -0.34, within-age -0.38), and speed and luck passes go with lower positions; launch light on passes (H-tt-025 at 57%, H-tt-016 at 59%).",
+        "Gameplay thumbnails tend to go with higher positions (within-age +0.42, H-tt-029 at 64%), while reward-flex thumbnails go with weaker momentum (H-tt-006 fell to 40%).",
+        "Co-op loops tend to hold higher positions (H-tt-023 strengthened to 62%) and recent updates tend to help momentum (H-tt-005 at 56%)."
+      ],
+      "outliers": [
+        {"name": "Crazy Diver", "note": "Top climber with a 53% like ratio, 3 passes and 7 products; the like-ratio idea (H-tt-004) weakened to 44% partly because of games like this."},
+        {"name": "[🌧️] Harpoon a Fish", "note": "Weakest mover at 53 days despite a 97% like ratio and 208 products; age past six weeks and a reward-flex thumbnail both predict a slower climb."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Don't Miss Your Flight! (12 days, 27% likes), Backseat Rally, Cat Battles, Crazy Diver, Save the Krusty Krab and Bike Universe hold the top.",
+        "Free Fire Zone (+58), RoChess! (+35), Escooter Life (+34), Makeup Star (+34) and +1 Pickaxe Swing for Eggs (+28) were the biggest risers; Apple iPad Original (-34) and COCARDO (-29) fell the most.",
+        "Five new entries: What If Disasters, Fix My Phone!, Motel Maniac, Jump Highest Skydive! and Trading Tycoon; 18 games fell off, including several pet and steal games.",
+        "The newest games still rank best (median percentile 74 at 0–14 days versus 46 at 15–42)."
+      ],
+      "patterns": [
+        "Build and crafting mechanics (r -0.47, within-age -0.49), grow-a-garden (within-age -0.61) and cash-tycoon money loops go with lower positions; breakouts favour immediate, readable verbs over base-building.",
+        "Auto-play passes (r -0.39) and rebirth mechanics go with lower positions, consistent with the Top Trending finding that launch-day grind monetization hurts momentum.",
+        "Frequent updates tend to go with higher positions (H-uc-015 at 64%), as do short descriptions (H-uc-028 at 67%) and co-op loops (H-uc-019 at 65%).",
+        "Everyday job sims tend to rank higher (H-uc-009 strengthened to 63%); Fix My Phone! entered today as another example."
+      ],
+      "outliers": [
+        {"name": "Don’t Miss Your Flight! ✈️", "note": "Best on Up-and-Coming with a 27% like ratio, breaking the like-ratio pattern; a strong curiosity premise can drive breakout despite poor ratings."},
+        {"name": "Free Fire Zone (Max)", "note": "Rose 58 places as a PvP shooter at 23 days, against the co-op tilt of the chart."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Games pull players first and monetize later: the newest games lead Up-and-Coming and Top Trending while efficiency on Top Earning rises steadily with age (median percentile 20 at 15–42 days to 57 past a year).",
+      "Launching light on grind monetization (auto-play passes, many passes, luck products) goes with better breakout and momentum, while steep price ladders go with better efficiency in older games; monetization depth is something to add after breakout.",
+      "Physics sandboxes and everyday job sims are this week's breakout formats; build, garden and cash-tycoon loops lag on breakout charts.",
+      "Halloween is lifting old horror and PvP titles on Most Popular and Top Trending, a seasonal confounder for this week's age effects."
+    ],
+    "progressions": [
+      "tt→mp is the most common transition (75, median 2 days), followed by uc→tt (72, 2 days) and te→tt (55, 7 days).",
+      "uc→te (47, 4 days) and uc→mp (42, 4 days) show breakouts reaching revenue and dominance within a week; tt→uc is almost absent (1), so the sequence runs Up-and-Coming first."
+    ]
+  }
+}

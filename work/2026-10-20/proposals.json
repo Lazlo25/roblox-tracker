@@ -1,0 +1,29 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young physics-sandbox games (drop tests, dives, cart and bike rides) climb Top Trending faster than other games of similar age",
+     "action": "Try a physics sandbox for momentum",
+     "test": {"feature": "loop=sandbox_physics", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games built around building or crafting rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip build loops for breakout",
+     "test": {"feature": "mech_build", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games selling auto-play passes rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip auto-play passes at launch",
+     "test": {"feature": "pass_auto", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "te", "statement": "Simulation-genre games earn a lower Top Earning position for their CCU than other genres",
+     "action": "Don't rely on simulators for revenue",
+     "test": {"feature": "genre=Simulation", "metric": "te_eff", "type": "binary", "direction": "-"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Everyday-device games (phone repair, phone drop tests, a simulated iPad) are a short wave: they break onto Up-and-Coming and Top Trending fast but the curiosity-only ones fall within two weeks",
+     "action": "",
+     "rationale": "Fix My Phone! entered Up-and-Coming at 15 days and Realistic Phone Drop Test rose 41 on Top Trending, while Apple iPad Original fell 39 on Top Trending and 34 on Up-and-Coming at 11 days. Tracking these three for another week, plus any new device-themed entries, would show whether depth (a repair shop) separates the survivors from the novelty ones."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-015", "confidence": 30, "note": "Backseat Rally entered Most Popular at 15 days and is among the best on Up-and-Coming; Rally Panic! is again among the weakest Top Trending movers. One clear winner per wave so far."},
+    {"id": "H-x-016", "confidence": 26, "note": "Fix My Phone! (hand-repair steps, 'SO SATISFYING' thumbnail) entered Up-and-Coming at 15 days with 47K favorites; Wash the Car fell 19 on Up-and-Coming. The verb still needs a shop/progression layer to last."},
+    {"id": "H-x-011", "confidence": 52, "note": "Steal Animal Egg and Steal ASMR! fell off Most Popular and Kick a Lucky Block fell 16, while Steal An Egg stays the best game on the pillar."},
+    {"id": "H-x-006", "confidence": 52, "note": "Clone Baby Care (Anomaly) is among the best Top Trending movers at 11 days; Sell Fries! [Anomaly] is among the weakest on Top Earning efficiency, consistent with reach before revenue."},
+    {"id": "H-x-001", "confidence": 45, "note": "tt→mp (75, median 2 days) and uc→tt (72, 2 days) remain the dominant transitions; tt→uc is almost absent (1)."}
+  ],
+  "actions": [],
+  "retire": []
+}
