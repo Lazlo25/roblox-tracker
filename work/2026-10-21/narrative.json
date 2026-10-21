@@ -1,0 +1,91 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "Steal An Egg, Brookhaven, Murder Mystery 2, 99 Nights in the Forest and RIVALS hold the top again, so the top of the chart stayed put for another day.",
+    "Racing and co-op games led the risers: Backseat Rally (+37, 16 days), Drag Drive Simulator (+27), Save the Krusty Krab (+27, 22 days) and Make Ramen To Get Rich (+18, 13 days).",
+    "The fallers were mostly young casual and job sims, Paint a Pancake (-26), Wash the Car (-18) and WRONG WAY! (-13), plus Piggy (-18) after its Halloween lift faded.",
+    "Nine new entries include Realistic Phone Drop Test, Bike Universe, Fake an Egg and Eat Everything In A Grocery Store, all 17–24 days old; Apple iPad Original and Dragon Adventures fell off.",
+    "By age, games past a year still score best (median percentile 61), while 15–84-day games remain the weakest (35–37)."
+   ],
+   "patterns": [
+    "Bigger servers consistently go with higher positions (H-mp-007 strengthened to 71%), and multiplayer loops tend to beat solo ones (H-mp-003 at 68%).",
+    "Pricier products and passes go with longer stays (rho +0.30 and +0.28). Passes priced above 149 R$ tend to go with higher positions (68%).",
+    "Recent updates go with staying power (days since update vs days on chart, rho -0.26). Weekly updates tend to hold (H-mp-018 at 65%).",
+    "Among profiled loops, combat PvP (median percentile 71), roleplay (70) and pet hatching (74) score highest. Idle tycoons (27) and collect-upgrade-rebirth loops (31) score lowest."
+   ],
+   "outliers": [
+    {"name": "Drag Drive Simulator", "note": "A 644-day-old game climbing 27 places after a big wheelie update, which fits the realistic-vehicle niche idea (H-x-010)."},
+    {"name": "Fake an Egg", "note": "A 17-day-old steal/egg clone entering Most Popular, against the claim that the steal wave is fading (H-x-011)."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs again lead monetization efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Elemental Dungeons, Spin a KPOP Idol and Dinosaur Simulator.",
+    "The weakest are young games whose players arrived before revenue did: Sell Fries! [Anomaly] (30 days), Cat Battles (16) and Climb For Animals Eggs (45), plus the 720-day-old Violence District.",
+    "Big risers mixed young RNG games (Roll A Stickman +153) with older PvP titles (War of the Worlds +129, Da Hood +118). Steal and egg games fell hardest (Steal A Baddie Egg -79, Shoot For Eggs -74).",
+    "21 new entries include licensed and long-running titles: SpongeBob Tower Defense, Anime Dimensions Simulator and MEDVED. Newer ones include Run an Airline and Collect Cat Cards.",
+    "Efficiency again rises with age, from a median percentile of 22 at 15–42 days to 59 past a year."
+   ],
+   "patterns": [
+    "Games older than six weeks consistently earn more for their CCU (78%), so most other Top Earning associations are partly about age.",
+    "Price ladders consistently go with efficiency: a median product above 79 R$ (rho +0.30), a median pass above 399 R$ and a premium pass above 999 R$.",
+    "RPGs (r +0.47), roleplay hubs (+0.30) and PvP combat consistently monetize well. Simulation-genre games (-0.23), solo loops (-0.22) and pet, egg and steal loops monetize poorly. A new hypothesis tests solo loops directly.",
+    "Studio-scale complexity (rho +0.25) and longer descriptions (+0.25) go with efficiency, though both overlap with game age and genre."
+   ],
+   "outliers": [
+    {"name": "[🎃] Spin a KPOP Idol", "note": "A 180-day-old RNG simulator among the most efficient games, which is unusual for a simulator. A fandom audience and a 120-product ladder likely explain it."},
+    {"name": "[UPD]Verity Evolution", "note": "A 30-day-old pet and evolution simulator that sits higher than its loop predicts. Steep 2,999 R$ fusion passes may explain it, in line with the premium-pass pattern."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "Clone Baby Care (Anomaly, 12 days) leads momentum (+40), alongside physics sandboxes Crazy Diver and Bike Universe and the cozy tycoon Make Rugs!.",
+    "DIVINE HATCHERS took the biggest climb (+59) despite the pet/egg momentum pattern; Feed A Mosquito (+37) and Makeup Salon (+33) followed.",
+    "WRONG WAY! (-24), Country Battles (-27) and Rush To The Vet! (-32) fell. Rush To The Vet! has a 59% like ratio.",
+    "20 new entries, including DONT SPLASH at 4 days old, Steel Fighters, Something is Wrong With My Dog and Solve The Cube. RIVALS and Murder Mystery 2 fell off.",
+    "15–42-day games have the best momentum (median percentile 65); games under 15 days score only 30, since many are still settling."
+   ],
+   "patterns": [
+    "Young games with a collection index tend to hold higher positions (H-tt-028 strengthened to 66%, within-age effect +0.46).",
+    "Many passes go with lower positions (passes_n vs tt_pos rho -0.36, within-age -0.35, best split at 8). A new hypothesis tests a cap at 8 passes.",
+    "'+1' titles tend to hold lower positions (r -0.43 within age); the existing '+1' momentum hypothesis stays at 57%.",
+    "More complex games climb slightly faster (rho +0.28), and physics sandboxes have the highest median percentile among loops (93), though only 4 games are profiled."
+   ],
+   "outliers": [
+    {"name": "DIVINE HATCHERS 0.0001% [NEW!]", "note": "A pet hatcher with 167 products climbing +59, against both the pet/egg and many-products patterns. Its extreme-rarity title hook may drive curiosity."},
+    {"name": "[💌] Roll a Fat Friend [2 Players Obby]", "note": "A 646-day-old game re-entering, but it is outside the 4-month momentum window. A two-player obby revival suggests co-op formats can resurface."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "Clone Baby Care, Bike Universe, Backseat Rally, Cat Battles, Steel Fighters and Fix My Phone! lead Up-and-Coming. All but Steel Fighters (44 days) are 12–24 days old.",
+    "Solve The Cube (+64), Fix My Phone! (+44) and DIVINE HATCHERS (+38) rose most, while Makeup Star (-44, 57% likes) and Secure The Hospital (-57, 71% likes) fell hardest.",
+    "14 new entries, including +1 Slinky Escape, Train Pets for Eggs, Lanterns and Smash Bro!; 17 fell off, including Feed A Mosquito and VANITY.",
+    "Games under 15 days score best (median percentile 65), against 48 for 15–84 days."
+   ],
+   "patterns": [
+    "Build and crafting loops tend to rank lower (r -0.40, within-age -0.57; H-uc-029 at 65%), and cash-tycoon loops do too (66%).",
+    "'Play with friends' co-op pitches tend to rank lower (H-uc-013 strengthened to 64%), but co-op loops in general have weakened to 48%, which suggests the pitch wording matters more than the loop.",
+    "Everyday-life roleplay mechanics go with higher positions (r +0.38) and are now a new hypothesis. Recent updates tend to help (H-uc-012 at 66%).",
+    "Low like ratios go with the steepest falls (Makeup Star, Secure The Hospital, Rush To The Vet!), in line with H-uc-006 (60%)."
+   ],
+   "outliers": [
+    {"name": "Steel Fighters", "note": "A 44-day-old robot-building collect-and-rebirth game in the top six, against both the build-loop and age patterns. The Real Steel hook and a +50% friends bonus may carry it."},
+    {"name": "Cat Battles 🐾", "note": "Near the top of Up-and-Coming with a 74% like ratio and 196 products, while it is among the weakest on Top Earning efficiency. Reach still comes before revenue."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Games pull players first and monetize later: the newest games lead Up-and-Coming and Top Trending, while Top Earning efficiency rises steadily with age (median percentile 22 at 15–42 days to 59 past a year).",
+   "Launching lean (8 or fewer passes, no auto-play passes) goes with better breakout and momentum, while steep price ladders go with efficiency in older games. Monetization depth looks like something to add after breakout.",
+   "Remakes of viral indie games (a Minecraft-style dog horror, a Cuphead-style boss rush, a Poolrooms stealth obby) and two-player co-op racers entered the breakout charts this week, while young steal/egg clones are mixed: some enter Most Popular as others drop on Top Earning.",
+   "Halloween tags are everywhere this week, so seasonal lift is a confounder for update and bracket-tag effects."
+  ],
+  "progressions": [
+   "tt→mp remains the most common transition (82, median 2 days), followed by uc→tt (80, 2 days) and te→tt (57, 7 days).",
+   "uc→te (51, 4 days) and uc→mp (47, 4 days) show breakouts reaching revenue and dominance within a week, while tt→uc stays at 1, so the sequence still runs from Up-and-Coming first."
+  ]
+ }
+}

@@ -1,0 +1,699 @@
+[
+ {
+  "label": "Q16",
+  "loop": "pick an ink-jar hero with a pea shooter -> fight cartoon bosses with run-and-gun and parries -> earn ink -> unlock cosmetics and harder difficulty",
+  "loop_archetype": "combat_pvp",
+  "objectives": "beat every cartoon boss up to the Clock King",
+  "progression": "bosses cleared, difficulty tiers, cosmetics",
+  "instructions": "beat bosses, parry anything pink, solo or co-op",
+  "mechanics": [
+   "boss fights",
+   "shooting",
+   "parry",
+   "revives",
+   "difficulty modes"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Cuphead-style rubber-hose boss rush on Roblox"
+  ],
+  "themes": [
+   "cartoon",
+   "1930s rubber hose",
+   "bosses"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cuphead-like"
+  ],
+  "monetization_signals": [
+   "revives",
+   "ink currency packs",
+   "skins",
+   "bot helper"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "rubber-hose ink-jar characters vs giant cartoon bosses",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 4,
+  "complexity_notes": "custom boss patterns and animation, cartoon art style",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q17",
+  "loop": "emerge from sewers -> sneak into a monster town that hunts by sound -> loot buildings -> extract before doors shut -> sell haul for guns and gear",
+  "loop_archetype": "horror_escape",
+  "objectives": "loot and extract without being heard",
+  "progression": "credits, gear, skill points, backpack size",
+  "instructions": "sneak, loot, get out; lose everything if caught",
+  "mechanics": [
+   "stealth",
+   "sound detection",
+   "extraction looting",
+   "vehicles",
+   "barricading",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "sound-hunting monsters in an extraction shooter (A Quiet Place meets Tarkov)"
+  ],
+  "themes": [
+   "monsters",
+   "post-apocalypse",
+   "town"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "extraction shooter",
+   "they can hear"
+  ],
+  "monetization_signals": [
+   "credits packs",
+   "skill points",
+   "play as the Mother",
+   "supply flare"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "dark poster art of a tall monster; manga-style ink drawing",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open town, many systems (vehicles, building, weapons, extraction), monster AI",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q18",
+  "loop": "one player is a fat ball, the other pushes -> roll through obstacle course together -> troll each other with tap/launch menu -> reach the end",
+  "loop_archetype": "obby_platformer",
+  "objectives": "finish the two-player obby together",
+  "progression": "stages, skins",
+  "instructions": "choose pusher or ball, work together, use troll menu",
+  "mechanics": [
+   "2-player co-op",
+   "physics rolling",
+   "troll menu",
+   "revives"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "pusher/ball role split"
+  ],
+  "themes": [
+   "friendship",
+   "fat ball",
+   "physics"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "2 player obby"
+  ],
+  "monetization_signals": [
+   "revive bundles",
+   "ball skins",
+   "infinite revives"
+  ],
+  "update_signals": [
+   "Valentine-tag event"
+  ],
+  "thumbnails": "big red ball avatar being pushed by a friend on a course",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "physics ball and obstacle course",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q19",
+  "loop": "pick a bus -> drive realistic London routes picking up passengers -> earn company points -> form and grow a bus company on leaderboards",
+  "loop_archetype": "simulation_job",
+  "objectives": "drive shifts and grow a bus company",
+  "progression": "company points, routes, buses",
+  "instructions": "drive passengers, join shifts, create a company",
+  "mechanics": [
+   "realistic driving",
+   "routes",
+   "ticket machines",
+   "companies",
+   "voice chat"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "realistic London bus sim with company leaderboards"
+  ],
+  "themes": [
+   "london",
+   "buses",
+   "trams"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "realistic sim"
+  ],
+  "monetization_signals": [
+   "company points",
+   "create group",
+   "add route"
+  ],
+  "update_signals": [
+   "recently upgraded map",
+   "changelog"
+  ],
+  "thumbnails": "photo-realistic red double-deckers in Croydon",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 5,
+  "complexity_notes": "massive realistic map, hundreds of buses, trams, company system",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q20",
+  "loop": "open routes between cities -> buy aircraft -> manage fares and service -> earn cash from flights -> reinvest and compete in rankings",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow a startup into a global carrier",
+  "progression": "fleet, routes, airline awards, rankings",
+  "instructions": "open routes, unlock aircraft, manage fares and demand",
+  "mechanics": [
+   "route management",
+   "fleet building",
+   "fare setting",
+   "rankings",
+   "idle income"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "airline management sim with demand/fare model"
+  ],
+  "themes": [
+   "aviation",
+   "business"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "run a x",
+   "management sim"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "Concorde unlock",
+   "airline investments",
+   "server boosts"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "plane over a world route map; avatar at runway",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "world map UI, route economics; light 3D",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q21",
+  "loop": "open card packs -> collect cats with rarities and mutations -> place on stands to earn cash per second -> grade cards and battle up towers -> fill the index",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect every cat and get a perfect 10 grade",
+  "progression": "pack tiers, card rarities, mutations, index",
+  "instructions": "rip packs, put cats on stands, battle towers",
+  "mechanics": [
+   "pack opening",
+   "card grading",
+   "income per second",
+   "weather mutations",
+   "tower battles",
+   "index"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "trading-card pack ripping with PSA-style grading"
+  ],
+  "themes": [
+   "cats",
+   "trading cards"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "card packs",
+   "collect a x"
+  ],
+  "monetization_signals": [
+   "cheap pack ladder",
+   "x3 open",
+   "stands",
+   "VIP",
+   "all passes"
+  ],
+  "update_signals": [
+   "codes UPDATE1",
+   "maple/autumn update"
+  ],
+  "thumbnails": "cat trading card packs with $/s numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 3,
+  "complexity_notes": "card system, grading, mutations, plot cats",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q22",
+  "loop": "explore a large snowy world -> hunt mutant bears with guns and items -> discover lore and variants -> optionally become a bear",
+  "loop_archetype": "combat_pvp",
+  "objectives": "hunt all Medved variants and uncover secrets",
+  "progression": "money, items, discovered variants",
+  "instructions": "hunt mutant bears, explore, become a bear",
+  "mechanics": [
+   "hunting",
+   "shooting",
+   "exploration",
+   "play as monster",
+   "lore"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "play as either hunter or mutant bear"
+  ],
+  "themes": [
+   "bears",
+   "mutants",
+   "snow",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creepy creature"
+  ],
+  "monetization_signals": [
+   "money packs",
+   "x2 cash from kills",
+   "unlock all items"
+  ],
+  "update_signals": [
+   "active development"
+  ],
+  "thumbnails": "gaping-mouth mutant bears; player shooting bears in snow",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 3,
+  "complexity_notes": "large snowy world, creature AI, bear playable",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "summon anime characters -> clear dimensions and raids in co-op -> earn gold, exp and drops -> upgrade cards, traits and pets",
+  "loop_archetype": "story_adventure",
+  "objectives": "clear raids and extreme dimensions with strongest characters",
+  "progression": "character levels, cards, traits, raid tokens",
+  "instructions": "play dimensions and raids, use codes",
+  "mechanics": [
+   "anime characters",
+   "co-op raids",
+   "traits",
+   "cards",
+   "dashes"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "gems",
+   "2x boosts",
+   "extra drop",
+   "VIP",
+   "giftable gems"
+  ],
+  "update_signals": [
+   "Halloween update",
+   "Witch Akari raid",
+   "extreme dimension revamp"
+  ],
+  "thumbnails": "anime character collage with 2X EXP banner",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 4,
+  "complexity_notes": "many characters with abilities, raids, long-running content",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q24",
+  "loop": "summon SpongeBob characters as units -> place them to defend waves -> evolve and level units -> story, endless and challenge modes",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend Bikini Bottom through story and endless waves",
+  "progression": "unit levels, evolutions, traits, belts",
+  "instructions": "summon, power up, evolve, defend",
+  "mechanics": [
+   "tower placement",
+   "unit summoning",
+   "evolution",
+   "traits",
+   "modes"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "licensed SpongeBob IP"
+  ],
+  "themes": [
+   "spongebob",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed ip",
+   "anime-style td"
+  ],
+  "monetization_signals": [
+   "huge pass catalog",
+   "trait rerolls",
+   "boosts",
+   "unit storage",
+   "magic conches"
+  ],
+  "update_signals": [
+   "regular updates",
+   "Halloween content"
+  ],
+  "thumbnails": "high-quality SpongeBob character art, Halloween costumes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 4,
+  "complexity_notes": "many units with abilities, modes, licensed art",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q25",
+  "loop": "start as a smiley -> fight enemies to evolve into 32 forms -> hatch pets and collect gear -> beat bosses and rebirth across 4 worlds",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "evolve into the final form across 4 worlds",
+  "progression": "forms, pets, gear, rebirths",
+  "instructions": "fight, evolve, hatch, rebirth",
+  "mechanics": [
+   "evolution",
+   "combat",
+   "pets",
+   "gear fusion",
+   "bosses",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "smiley-to-monster evolution chain"
+  ],
+  "themes": [
+   "smiley",
+   "creatures"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolution"
+  ],
+  "monetization_signals": [
+   "free fusion",
+   "gem packs",
+   "potions",
+   "slots",
+   "VIP"
+  ],
+  "update_signals": [
+   "UPD"
+  ],
+  "thumbnails": "smiley face being eaten / evolving into 32 forms; explore 4 worlds",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "32 form models, 4 worlds, bosses",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q26",
+  "loop": "create a soul and race -> explore and fight in turn-based QTE battles -> train and learn classes -> survive with limited lives",
+  "loop_archetype": "story_adventure",
+  "objectives": "grow a character through classes and lore",
+  "progression": "race, class, levels, lives",
+  "instructions": "dash, meditate, QTE combat",
+  "mechanics": [
+   "turn-based combat",
+   "QTEs",
+   "races",
+   "permadeath lives",
+   "roleplay"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "turn-based RPG with QTEs and permadeath"
+  ],
+  "themes": [
+   "fantasy",
+   "dark"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "rogue-lite rpg"
+  ],
+  "monetization_signals": [
+   "race rerolls",
+   "restore lives",
+   "cosmetics"
+  ],
+  "update_signals": [
+   "regular updates",
+   "Halloween tokens"
+  ],
+  "thumbnails": "dark anime-style fantasy art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "turn-based combat system, classes, world",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "fight enemies with the Infinity Gauntlet -> unlock the six stones each with abilities and world -> defeat bosses for Mjolnir/Stormbreaker -> rebirth",
+  "loop_archetype": "combat_pvp",
+  "objectives": "unlock all six Infinity Stones",
+  "progression": "stones, weapons, shards, rebirths",
+  "instructions": "defeat enemies, unlock stones, rebirth",
+  "mechanics": [
+   "abilities",
+   "PvE combat",
+   "bosses",
+   "rebirth",
+   "weapons"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Marvel Infinity Gauntlet power fantasy"
+  ],
+  "themes": [
+   "marvel",
+   "thanos",
+   "superheroes"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "superhero ip"
+  ],
+  "monetization_signals": [
+   "rebirth packs",
+   "shard packs",
+   "limited weapons",
+   "unlock all stones"
+  ],
+  "update_signals": [
+   "V0.6.3 Snap update",
+   "beta"
+  ],
+  "thumbnails": "golden Thanos avatar with lightning and energy blasts",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "stone ability sets, multiple worlds, solo dev",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q28",
+  "loop": "roll for barbers by rarity -> place them in your shop to earn money per second -> mutations and traits -> rebirth and upgrade",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "roll legendary barbers and build the best barbershop",
+  "progression": "barber rarity, income per second, rebirths",
+  "instructions": "roll for barbers, build your shop",
+  "mechanics": [
+   "rng rolling",
+   "income per second",
+   "mutations",
+   "traits",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "barbershop theme on RNG tycoon"
+  ],
+  "themes": [
+   "barbers",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "roll a x",
+   "rng"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "double roll",
+   "lucky spins",
+   "server luck",
+   "tip jar"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "0$/s to big $/s barber shop; dice",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "rng tycoon template",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q29",
+  "loop": "buy and customize Malaysian mopeds -> drag race and wheelie -> earn RM currency -> hang out and show off builds",
+  "loop_archetype": "racing_driving",
+  "objectives": "build the fastest, coolest moped",
+  "progression": "bikes, parts, customization",
+  "instructions": "shift gears, wheelie, drag",
+  "mechanics": [
+   "drag racing",
+   "gears",
+   "wheelies",
+   "customization",
+   "hangout"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "Southeast Asian moped drag culture"
+  ],
+  "themes": [
+   "mopeds",
+   "malaysia",
+   "street racing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "regional car culture"
+  ],
+  "monetization_signals": [
+   "RM currency packs",
+   "bike products",
+   "customization passes",
+   "VIP"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "styled Malaysian mopeds (Y15) with logo art",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "moped physics and detailed customization",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "8 survivors vs 2 beasts -> survivors hack computers and escape; beasts hunt -> earn coins and crate cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape as survivors or catch everyone as a beast",
+  "progression": "levels, coins, crates, mythical gems",
+  "instructions": "run, hack, escape",
+  "mechanics": [
+   "asymmetric pvp",
+   "hacking",
+   "beast abilities",
+   "crates",
+   "levels"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "2-beast Flee the Facility variant"
+  ],
+  "themes": [
+   "flee the facility",
+   "beasts"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "flee the facility"
+  ],
+  "monetization_signals": [
+   "coin packs",
+   "beast chance",
+   "bundles",
+   "x2 passes"
+  ],
+  "update_signals": [
+   "Fall Part 2",
+   "Halloween update coming"
+  ],
+  "thumbnails": "neon hammer logo, hack/save/flee art",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 3,
+  "complexity_notes": "several maps, asymmetric abilities, crate system",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

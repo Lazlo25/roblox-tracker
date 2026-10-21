@@ -1,0 +1,465 @@
+[
+ {
+  "label": "Q31",
+  "loop": "click to train +1 power -> forge and shape your own sword -> slay monsters for rare materials -> unlock skills and traits",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "forge the ultimate sword",
+  "progression": "power, sword tiers, materials, traits",
+  "instructions": "train, forge, slay monsters",
+  "mechanics": [
+   "clicking",
+   "forging",
+   "monster loot",
+   "skills",
+   "traits"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "hands-on sword forging step"
+  ],
+  "themes": [
+   "swords",
+   "blacksmith"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "forge"
+  ],
+  "monetization_signals": [
+   "cheap power packs",
+   "luck boosts",
+   "material packs"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "blacksmith forging glowing swords; molten metal pour",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "forging minigame on +1 template",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "fire laser to clean rust off relics -> sell shiny relics for cash -> open crates for gems with laser powers -> trade gems on market -> rebirth",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "find rarest relics and gems",
+  "progression": "relic tiers, gems, rust pass, rebirths",
+  "instructions": "blast rust, sell relics, open crates",
+  "mechanics": [
+   "laser cleaning",
+   "crates",
+   "gem powers",
+   "player market",
+   "drones",
+   "battle pass"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "satisfying cleaning ASMR loop",
+   "cross-server gem market with live RAP"
+  ],
+  "themes": [
+   "relics",
+   "rust cleaning",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying/asmr",
+   "cleaning"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "drones",
+   "crates",
+   "luck boosts",
+   "daily deal"
+  ],
+  "update_signals": [
+   "Spooky Season until Nov 1",
+   "market update"
+  ],
+  "thumbnails": "rusty coin half-cleaned to gold; rare relic tiers; crates",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "laser decal cleaning, crate/trade systems",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q33",
+  "loop": "roll for rare yarn -> tuft a rug design with a tool -> shave it smooth -> sell to shop customers and complete orders -> hire employees for offline income",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow a rug-making empire",
+  "progression": "yarn rarity, designs, employees, shop",
+  "instructions": "roll yarn, tuft, shave, sell, hire",
+  "mechanics": [
+   "rng rolling",
+   "crafting minigame",
+   "shop customers",
+   "employees",
+   "offline income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "hands-on rug tufting and shaving (satisfying craft)"
+  ],
+  "themes": [
+   "rugs",
+   "crafts",
+   "cozy"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "satisfying/asmr",
+   "make a x"
+  ],
+  "monetization_signals": [
+   "cash/gem packs",
+   "lucky yarn",
+   "VIP customers",
+   "every gamepass"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "cute frog rug being shaved with a tufting tool",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 3,
+  "complexity_notes": "tufting painting system on rug canvas, shop NPCs",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q34",
+  "loop": "pair up as driver and navigator -> navigator calls corners -> race rally stages through snow, storms and anomalies -> earn credits and rally pass rewards",
+  "loop_archetype": "racing_driving",
+  "objectives": "win championships as a driver/navigator duo",
+  "progression": "ranks, rally pass, car cosmetics",
+  "instructions": "one drives, one navigates; robot partner when solo",
+  "mechanics": [
+   "2-player co-op driving",
+   "navigation calls",
+   "championships",
+   "eliminations",
+   "weather",
+   "battle pass"
+  ],
+  "social": "coop",
+  "competitive": "core",
+  "unique": [
+   "asymmetric driver/navigator roles",
+   "anomaly hazards"
+  ],
+  "themes": [
+   "rally",
+   "cars",
+   "anomalies"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "2 player",
+   "wrong way"
+  ],
+  "monetization_signals": [
+   "credits packs",
+   "rally pass",
+   "VIP",
+   "cosmetics"
+  ],
+  "update_signals": [
+   "Anomaly Rally update"
+  ],
+  "thumbnails": "blocky rally car with two helmeted riders; 'TRUST YOUR CO-PILOT'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, co-op role UI, weather",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "sit at a vanity -> paint a full makeup look by hand -> save it to the Look Diary and photograph it -> earn pearls to buy shades and finishes",
+  "loop_archetype": "roleplay_social",
+  "objectives": "create beautiful makeup looks",
+  "progression": "pearls, palettes, finishes",
+  "instructions": "paint looks by hand, no timer",
+  "mechanics": [
+   "hand painting",
+   "dress up",
+   "look diary",
+   "photos"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "freehand makeup painting on a realistic face"
+  ],
+  "themes": [
+   "makeup",
+   "beauty"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "glow up",
+   "makeup"
+  ],
+  "monetization_signals": [
+   "pearls packs",
+   "palettes",
+   "glam bundle",
+   "giftable passes"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "realistic bald model to glam makeup transformations",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "face painting system and realistic model",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q36",
+  "loop": "hold a giant iPad -> use apps and mini-games on it -> earn coins -> unlock devices like iPhone",
+  "loop_archetype": "party_minigames",
+  "objectives": "play apps on your iPad",
+  "progression": "coins, devices",
+  "instructions": "just a normal day on your iPad",
+  "mechanics": [
+   "simulated tablet UI",
+   "mini-games",
+   "coins"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "simulated phone/tablet OS inside Roblox"
+  ],
+  "themes": [
+   "apple",
+   "tablet",
+   "halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "iPad/phone sim"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "iPhone pass",
+   "supporter"
+  ],
+  "update_signals": [
+   "Halloween theme"
+  ],
+  "thumbnails": "Roblox hands holding iPad with Halloween homescreen and block puzzle",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 3,
+  "complexity_notes": "full fake OS UI with several apps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q37",
+  "loop": "choose a bird species -> hatch from egg and grow up -> build a nest and join flocks -> roleplay and survive",
+  "loop_archetype": "roleplay_social",
+  "objectives": "roleplay as birds and raise families",
+  "progression": "growth stages, species",
+  "instructions": "choose species, customize, hatch, grow, nest, flock",
+  "mechanics": [
+   "animal roleplay",
+   "growth stages",
+   "nest building",
+   "flocks",
+   "flying"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "birds",
+   "animals",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "animal roleplay"
+  ],
+  "monetization_signals": [
+   "mythical bird passes",
+   "VIP"
+  ],
+  "update_signals": [
+   "Bearded Vulture update",
+   "Halloween"
+  ],
+  "thumbnails": "detailed bird art with Halloween pumpkins",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many bird models, flight, large map",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q38",
+  "loop": "train power +1 -> defeat bosses for loot -> forge legendary swords -> spin anime companions -> upgrade and rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the ultimate sword monarch",
+  "progression": "power, swords, companions, rebirths",
+  "instructions": "train, beat bosses, forge, spin",
+  "mechanics": [
+   "clicking",
+   "bosses",
+   "sword loot",
+   "gacha companions",
+   "rebirth",
+   "codes"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "swords",
+   "anime",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "training ground multipliers",
+   "sword products",
+   "double luck",
+   "VIP"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "Season 1"
+  ],
+  "thumbnails": "glowing swords with 1 -> 99K -> 10T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "+1 template with bosses and sword models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "steal an EXE egg from monster territory at night -> escape the chase -> hatch an EXE monster -> place for cash per second -> train speed -> unlock darker areas",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect every EXE monster",
+  "progression": "income per second, speed, areas, collection",
+  "instructions": "steal, escape, hatch, place, train",
+  "mechanics": [
+   "stealing",
+   "chase escape",
+   "hatching",
+   "income per second",
+   "speed training",
+   "collection index"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "creepypasta EXE",
+   "Sonic.exe",
+   "transformers"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal a x",
+   "exe"
+  ],
+  "monetization_signals": [
+   "egg packs",
+   "speed packs",
+   "weapons",
+   "2x growth/money"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "Sonic.exe and Optimus-style eggs with $/s numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "steal-a-egg template with chase monsters",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q40",
+  "loop": "dig into a giant cake mountain with spoons -> collect cakes -> sell -> buy stronger spoons and bigger bags -> go deeper for rarer cakes",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "find the rarest mythical cakes",
+  "progression": "spoons, bag capacity, depth, cake rarity",
+  "instructions": "dig, find cakes, sell, upgrade",
+  "mechanics": [
+   "digging",
+   "collecting",
+   "selling",
+   "bag capacity",
+   "plate decoration"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "edible terrain digging"
+  ],
+  "themes": [
+   "cake",
+   "food",
+   "cute"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "eat the x",
+   "dig"
+  ],
+  "monetization_signals": [
+   "spoon products",
+   "sell value",
+   "bag capacity",
+   "eating speed"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "soft illustrated cake mountains and kid with spoon",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "destructible cake terrain, collection index",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

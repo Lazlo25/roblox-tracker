@@ -1,0 +1,24 @@
+{
+ "new": [
+  {"chart": "tt", "statement": "Young games launching with more than 8 game passes hold lower Top Trending positions among games of similar age",
+   "action": "Launch with 8 or fewer passes",
+   "test": {"feature": "passes_n", "metric": "tt_pos", "type": "threshold", "cut": 8, "direction": "-", "strata": "age"}},
+  {"chart": "te", "statement": "Solo loops earn a lower Top Earning position for their CCU than social, co-op or PvP games",
+   "action": "Make it multiplayer, not solo",
+   "test": {"feature": "social=solo", "metric": "te_eff", "type": "binary", "direction": "-"}},
+  {"chart": "uc", "statement": "Games with everyday-life roleplay mechanics rank higher on Up-and-Coming",
+   "action": "Add everyday-life roleplay",
+   "test": {"feature": "mech_roleplay_life", "metric": "uc_pos", "type": "binary", "direction": "+"}},
+  {"chart": "x", "kind": "qualitative", "confidence": 22,
+   "statement": "Roblox remakes of viral indie and creator games (Something Is Wrong With My Dog, a Cuphead-style Inkhead, Poolrooms-style DONT SPLASH) reach Up-and-Coming and Top Trending within weeks, carried by an audience that already knows the original",
+   "action": "Adapt a viral indie concept early",
+   "rationale": "Three such games entered Up-and-Coming or Top Trending today. Confirm if more enter over the next weeks and if their positions hold beyond 3 weeks; a 'remake/inspired by' description flag would let the scan test it."}
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-017", "confidence": 25, "note": "Apple iPad Original fell off Most Popular today, while Fix My Phone! (+44) and Realistic Phone Drop Test (new on Most Popular) are rising; the curiosity-only device game faded as predicted, but the ones with a real job or physics loop are holding."},
+  {"id": "H-x-011", "confidence": 47, "note": "Mixed: Fake an Egg entered Most Popular and Bike For Egg rose +21, against the fading-wave claim; Steal A Baddie Egg (-79 Top Earning) and Shoot For Eggs (-74) fit it."},
+  {"id": "H-x-001", "confidence": 46, "note": "Transition counts kept the same order: tt→mp 82 (2d), uc→tt 80 (2d), uc→te 51, uc→mp 47; tt→uc is still 1."}
+ ],
+ "actions": [],
+ "retire": []
+}

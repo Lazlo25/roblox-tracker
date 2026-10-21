@@ -1,0 +1,699 @@
+[
+ {
+  "label": "Q01",
+  "loop": "collect scrap and robot parts -> assemble robots from mixed parts -> battle arena floors and bosses -> upgrade and rebirth",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "build the strongest robot army and clear endless floors",
+  "progression": "robot parts from 100+ robots, floors cleared, rebirths",
+  "instructions": "build robots, battle floors and bosses, collect scrap in the junkyard, play with friends for +50% cash",
+  "mechanics": [
+   "robot building",
+   "part mixing",
+   "arena battles",
+   "bosses",
+   "scrap collecting",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Real Steel-style mix-and-match robot assembly"
+  ],
+  "themes": [
+   "robots",
+   "boxing arena",
+   "junkyard"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "real-steel robots"
+  ],
+  "monetization_signals": [
+   "x2 drops/money/luck passes",
+   "potions",
+   "part packs",
+   "arena speed passes"
+  ],
+  "update_signals": [
+   "recent update",
+   "group reward for free robot"
+  ],
+  "thumbnails": "Roblox avatar with giant boxing robots in a lit arena; YOU vs OTHERS callouts",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "robot part combination system, arena combat, boss AI, several zones",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q02",
+  "loop": "hop across platforms in a flooded poolroom without touching water -> use tools (flares, rope, toys, pebbles) to distract or escape the creature -> rescue friends -> reach exit",
+  "loop_archetype": "horror_escape",
+  "objectives": "cross the pool without splashing and survive the creature",
+  "progression": "tool upgrades and coins, more tool slots",
+  "instructions": "don't splash; the creature hears you",
+  "mechanics": [
+   "stealth",
+   "platforming",
+   "distraction tools",
+   "rescue teammates",
+   "coins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "sound-based stealth over water: splashing attracts the monster"
+  ],
+  "themes": [
+   "poolrooms",
+   "backrooms",
+   "halloween",
+   "monster"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "poolrooms",
+   "dont-x"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "max tool range passes",
+   "tool slots",
+   "consumable supply packs",
+   "self-rescue"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "V2"
+  ],
+  "thumbnails": "Roblox characters hopping pool tiles while a long-limbed creature lurks; flares and rescue rope shown",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "poolrooms map, creature AI reacting to noise, several throwable tools",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "click to gain Appeal -> 'mog' animals to earn Wins -> rank up to stronger animals -> rebirth/ascend and explore new worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the ultimate mogger by unlocking the strongest animal",
+  "progression": "Appeal multipliers, Wins, animal evolution tiers, rebirths, ascends",
+  "instructions": "click for appeal, mog other animals, earn wins, climb the leaderboard",
+  "mechanics": [
+   "clicking",
+   "evolution",
+   "wins",
+   "rebirth",
+   "leaderboard"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "animals",
+   "mogging meme",
+   "looksmaxxing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "mog/looksmax meme"
+  ],
+  "monetization_signals": [
+   "appeal multiplier products",
+   "auto clicker",
+   "skip rebirth",
+   "VIP"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "meme animals (pug, doberman, shark, crow), 'CHOPPED vs MOGGER' transformation",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "standard +1 incremental template with animal models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q04",
+  "loop": "tame a wolf with bones -> build camp and survive nights -> follow the map to story locations -> uncover one of 10 endings",
+  "loop_archetype": "story_adventure",
+  "objectives": "find out what is wrong with Jerry and reach the endings",
+  "progression": "story progress, endings, badges, bones currency",
+  "instructions": "tame Jerry, build a camp, follow Bob's map, survive until morning",
+  "mechanics": [
+   "survival crafting",
+   "block breaking/placing",
+   "pet companion",
+   "multiple endings",
+   "jumpscares"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Minecraft-style voxel survival horror adapted from a viral indie game",
+   "10 endings"
+  ],
+  "themes": [
+   "wolf",
+   "dog",
+   "horror",
+   "voxel",
+   "woods"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "something is wrong with my dog",
+   "minecraft-like"
+  ],
+  "monetization_signals": [
+   "bones currency packs",
+   "troll products (jumpscare a friend)",
+   "creative mode pass",
+   "VIP"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "blocky Minecraft-like wolf in a cabin bedroom and dark tunnels",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "voxel world with break/place, large map of caves and marshes, branching story, survival mode",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "click for +1 money -> buy cash upgrades -> level up and rebirth -> spend wins on multipliers -> AFK training tables",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the richest person in the world",
+  "progression": "money multipliers, rebirths, prestige, evolutions, worlds",
+  "instructions": "click to earn money, rebirth for multipliers, earn wins",
+  "mechanics": [
+   "clicking",
+   "rebirth",
+   "prestige",
+   "pets",
+   "AFK earnings",
+   "codes"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "money",
+   "wealth"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x"
+  ],
+  "monetization_signals": [
+   "trails",
+   "mega bundle",
+   "pet luck",
+   "skip rebirth/prestige",
+   "offline earnings"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "World 6 update"
+  ],
+  "thumbnails": "stacks of money with growing numbers, noob to rich level 999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "standard +1 incremental template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q06",
+  "loop": "hide and survive the Annoying Orange monster in a summer house -> use gears -> explore and wait for the time door -> optionally play as killer",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the orange and uncover the story",
+  "progression": "badges, story progress",
+  "instructions": "survive Orange, try gears, explore, become the killer",
+  "mechanics": [
+   "hiding",
+   "survival timer",
+   "gears",
+   "play as killer",
+   "badges"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "annoying orange",
+   "meme",
+   "horror",
+   "summer house"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "survive the x",
+   "meme horror"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "door skips",
+   "nuke"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "giant muscular Annoying Orange stalking a Roblox kid, found-footage camera frame",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "house map, single chaser AI, killer role",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q07",
+  "loop": "pick a morph from 350+ egg/creature characters -> roleplay with others in a Steal an Egg themed map",
+  "loop_archetype": "roleplay_social",
+  "objectives": "morph into egg creatures and roleplay",
+  "progression": "morph collection via money, bundles",
+  "instructions": "morph into any egg character",
+  "mechanics": [
+   "morphs",
+   "roleplay",
+   "money gifting"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "eggs",
+   "creatures",
+   "dragons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal a x",
+   "morph roleplay"
+  ],
+  "monetization_signals": [
+   "morph bundles",
+   "admin panel morphs",
+   "money packs",
+   "giftable currency"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "egg creature morphs with '350+ MORPHS' text",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many reused morph models, simple roleplay map",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "walk to gain +1 stretch -> hold to stretch slinky across gaps -> land on win pads -> train and rebirth -> unlock springs and biomes",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "reach the end of the course across 7 biomes",
+  "progression": "stretch length, wins, springs, rebirth multipliers",
+  "instructions": "hold stretch, steer, release to boing across gaps",
+  "mechanics": [
+   "stretch mechanic",
+   "gap crossing",
+   "trainers",
+   "rebirth",
+   "cosmetic springs"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "slinky-dog stretch physics on a +1 course"
+  ],
+  "themes": [
+   "slinky",
+   "toys",
+   "biomes"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x",
+   "slinky"
+  ],
+  "monetization_signals": [
+   "stretch multiplier passes",
+   "stretch packs",
+   "skip stage",
+   "revive"
+  ],
+  "update_signals": [
+   "daily rewards"
+  ],
+  "thumbnails": "slinky dog avatar arching over lava",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "stretch mechanic plus 7 biome course",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "grab eggs in the wild -> rush them home before time runs out -> hatch pets -> train pets on treadmill for speed -> unlock new biomes",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "hatch rarer pets and unlock all 10 biomes",
+  "progression": "pet speed, rarity tiers, biomes",
+  "instructions": "grab eggs, hatch, ride and train pets",
+  "mechanics": [
+   "egg grabbing",
+   "timed run",
+   "hatching",
+   "pet riding",
+   "treadmill training"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "ride your pets as mounts to fetch more eggs"
+  ],
+  "themes": [
+   "pets",
+   "eggs",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "train a x",
+   "egg hatching"
+  ],
+  "monetization_signals": [
+   "huge x-multiplier pass ladder",
+   "egg packs",
+   "speed boosts",
+   "grow all"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "Roblox kid riding a fiery horse pet with big speed numbers; noob to pro",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "10 biomes, rideable pet models, treadmill",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "pick a lantern corps -> fight criminals and bosses with ring constructs -> level health/stamina/damage -> travel to stronger cities and planets",
+  "loop_archetype": "story_adventure",
+  "objectives": "become the strongest ring wielder",
+  "progression": "levels, abilities, worlds",
+  "instructions": "choose your corps, equip construct abilities, fight enemies across cities and worlds",
+  "mechanics": [
+   "flying",
+   "ability combat",
+   "bosses",
+   "leveling",
+   "open world"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Green Lantern-style energy constructs and free flight"
+  ],
+  "themes": [
+   "superheroes",
+   "green lantern",
+   "space"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "superhero ip"
+  ],
+  "monetization_signals": [
+   "2x luck/xp boosts",
+   "server boosts",
+   "supporter pass",
+   "colored lantern"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "beta"
+  ],
+  "thumbnails": "green lantern superhero art flying in space",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "flight, construct abilities, multiple cities/planets, boss fights",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "ragdoll your friends with weapons to send them flying -> earn money -> open crates for rarer weapons -> defeat bosses",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "unlock rare weapons and beat bosses",
+  "progression": "money multipliers, weapon crates, season pass",
+  "instructions": "grab weapons, send avatars flying, open crates",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons",
+   "crates",
+   "bosses",
+   "season pass"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "stress-relief ragdolling of friends"
+  ],
+  "themes": [
+   "ragdoll",
+   "weapons",
+   "slapstick"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "money multiplier pass ladder",
+   "crates",
+   "auto smash",
+   "season pass",
+   "server luck"
+  ],
+  "update_signals": [
+   "UPD1"
+  ],
+  "thumbnails": "terrified Roblox avatar tied up on targets and hit by objects",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "ragdoll physics, weapon crate system",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q12",
+  "loop": "climb a giant slope gaining +1 jump -> reach space -> slide down for wins -> rebirth and buy trampolines",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "climb as high as possible and reach the end",
+  "progression": "jump power, wins, trampolines, rebirth",
+  "instructions": "gain +1 jump as you climb, then slide down",
+  "mechanics": [
+   "climbing",
+   "jumping",
+   "sliding",
+   "wins",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "rainbow slide",
+   "sky",
+   "space"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 x"
+  ],
+  "monetization_signals": [
+   "trampoline passes",
+   "win/jump boost ladders",
+   "auto climb",
+   "jetpack"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "rainbow slope with +1 popups and a spiral slide",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single tall course template",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "drift cars to earn cash -> buy and tune cars in the garage -> race and drift across 7 maps with friends",
+  "loop_archetype": "racing_driving",
+  "objectives": "build your dream car and master drifting",
+  "progression": "cash, cars, tuning, races",
+  "instructions": "drift for cash, build your car, slide across maps",
+  "mechanics": [
+   "drifting",
+   "car customization",
+   "races",
+   "replays",
+   "manual gears"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic manual drift handling with replays"
+  ],
+  "themes": [
+   "cars",
+   "drift",
+   "touge"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "drift"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "VIP",
+   "cash packs",
+   "replay pass"
+  ],
+  "update_signals": [
+   "Oct 20 new races",
+   "weekly rotating races"
+  ],
+  "thumbnails": "realistic cars drifting with tire smoke on mountain roads",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 4,
+  "complexity_notes": "vehicle physics, 7 maps, garage customization, replay system",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "steal a zombie from the hallway -> escape the guardian -> cure it in your lab -> place in pen to earn money -> train and explore zones",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "grow income with rarer cured creatures",
+  "progression": "income, zones, treadmills",
+  "instructions": "steal, escape, cure, pen, train",
+  "mechanics": [
+   "stealing",
+   "escape guardian",
+   "curing",
+   "income per second",
+   "treadmill training"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "cure step converts stolen monsters before they earn"
+  ],
+  "themes": [
+   "zombies",
+   "monsters",
+   "mammoth",
+   "mummy",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal a x"
+  ],
+  "monetization_signals": [
+   "money packs",
+   "speed skips",
+   "lucky cure",
+   "auto cure",
+   "VIP"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "Roblox kid carrying zombie/mammoth/mummy; before/after cure",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "steal-a template with a cure step and several creature models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q15",
+  "loop": "pick up cars -> carry them onto the rail -> work with the server to stop and destroy trains -> earn coins -> train strength",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "stop bigger trains by stacking cars on the tracks",
+  "progression": "power multipliers, carry capacity",
+  "instructions": "carry cars to the rail, train strength, destroy trains for coins",
+  "mechanics": [
+   "carrying",
+   "strength training",
+   "server co-op",
+   "destruction"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "whole server cooperates to block a train"
+  ],
+  "themes": [
+   "trains",
+   "cars"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "stop the x"
+  ],
+  "monetization_signals": [
+   "power multiplier products",
+   "carry upgrades"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "Roblox kid lifting a car over his head next to a steam train",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has page video",
+  "complexity": 2,
+  "complexity_notes": "train physics/destruction, carry system",
+  "novelty": 1,
+  "confidence": 70
+ }
+]
