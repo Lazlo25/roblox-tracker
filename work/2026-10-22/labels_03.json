@@ -1,0 +1,485 @@
+[
+ {
+  "label": "Q31",
+  "loop": "fight endless zombie waves -> earn cash -> buy weapons, turrets, barricades -> beat bosses -> survive further",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive as many waves as possible",
+  "progression": "weapons, upgrades, wave records",
+  "instructions": "fight waves, build defenses, team up",
+  "mechanics": [
+   "wave defense",
+   "shooting",
+   "turrets",
+   "barricades",
+   "bosses"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "zombies",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "zombie waves"
+  ],
+  "monetization_signals": [
+   "weapons",
+   "revives",
+   "currency packs"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "players lasering green zombie hordes at night with pumpkins",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "wave AI, building defenses, weapons",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "roll for rare plants -> place on base for income -> build defenses -> break into other bases and steal plants",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "build the best base with rarest plants",
+  "progression": "income per second, plant rarities, pets, base defenses",
+  "instructions": "roll, build, break in, steal, protect",
+  "mechanics": [
+   "rng rolls",
+   "stealing",
+   "base building",
+   "defenses",
+   "offline income"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "co-op base building in steal template"
+  ],
+  "themes": [
+   "plants",
+   "garden"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "plants"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "cash",
+   "server luck",
+   "base lock"
+  ],
+  "update_signals": [
+   "daily updates"
+  ],
+  "thumbnails": "thief stealing rainbow tree $999,999/s, 'Build & Defend' turrets",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "base plots, turrets, plant models",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q33",
+  "loop": "run Chiikawa restaurant -> hire Chiikawa workers -> serve customers and catch dine-and-dashers -> earn stars -> customise",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "reach the first 10-star restaurant",
+  "progression": "stars, recipes, decor, friendships",
+  "instructions": "hire workers, smack lazy ones, unlock recipes, customise",
+  "mechanics": [
+   "restaurant management",
+   "hiring",
+   "decor",
+   "friendship"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "licensed-feel cute IP restaurant with ASMR"
+  ],
+  "themes": [
+   "Chiikawa",
+   "cute",
+   "food",
+   "halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "restaurant tycoon",
+   "cute anime IP"
+  ],
+  "monetization_signals": [
+   "themes",
+   "pet equip",
+   "money boosts"
+  ],
+  "update_signals": [
+   "Halloween theme",
+   "frequent updates"
+  ],
+  "thumbnails": "cute Chiikawa characters art, kitchen scene",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "restaurant sim with NPC customers",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "run Filipino eatery -> cook and serve customers -> buy furniture/stoves -> become 5-star",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "be the first 5-star owner",
+  "progression": "stars, furniture, upgrades",
+  "instructions": "co-op restaurant simulator",
+  "mechanics": [
+   "cooking",
+   "serving",
+   "decor",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Filipino cultural theme"
+  ],
+  "themes": [
+   "Filipino food",
+   "restaurant"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "restaurant tycoon",
+   "regional culture"
+  ],
+  "monetization_signals": [
+   "furniture",
+   "stoves",
+   "paint"
+  ],
+  "update_signals": [
+   "Halloween code"
+  ],
+  "thumbnails": "illustrated canteen crowd and silog plate",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "cooking system, many furniture items",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q35",
+  "loop": "explore snowy world -> hunt mutant bears or become a bear -> collect items -> uncover lore",
+  "loop_archetype": "combat_pvp",
+  "objectives": "hunt bears or hunt players as a bear",
+  "progression": "cash from kills, items, mutations",
+  "instructions": "hunt bears, become a bear, explore, uncover story",
+  "mechanics": [
+   "asymmetric pvp",
+   "hunting",
+   "exploration",
+   "lore"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "play as mutant bear vs hunters"
+  ],
+  "themes": [
+   "bears",
+   "horror",
+   "snow"
+  ],
+  "audience": "teens",
+  "trend_hooks": [],
+  "monetization_signals": [
+   "2x cash kills",
+   "VIP",
+   "money"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "scary mutant bear with glowing teeth",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large snowy map, bear variants",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q36",
+  "loop": "lift weights -> right arm grows -> smash walls to new zones -> grab brainrots behind walls -> bring to base -> earn -> heavier weights",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "grow the strongest arm",
+  "progression": "strength, zones, brainrots, tattoos, pets",
+  "instructions": "lift, grow, smash, collect, earn, repeat",
+  "mechanics": [
+   "clicking",
+   "wall smashing",
+   "brainrot collecting",
+   "income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "one giant arm + brainrot collection hybrid"
+  ],
+  "themes": [
+   "muscles",
+   "brainrot",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 every x",
+   "brainrot"
+  ],
+  "monetization_signals": [
+   "dumbbells",
+   "auto up",
+   "luck passes"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "giant arm smashing wall with $99999m/s numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template sim with walls/zones",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q37",
+  "loop": "loot towns -> fight infected and players -> gather gear and vehicles -> survive",
+  "loop_archetype": "combat_pvp",
+  "objectives": "survive the zombie apocalypse",
+  "progression": "gear, cosmetics, vehicles",
+  "instructions": "explore, loot, shoot, survive",
+  "mechanics": [
+   "open world",
+   "looting",
+   "shooting",
+   "vehicles",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "zombies",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [],
+  "monetization_signals": [
+   "starter kits",
+   "cosmetics",
+   "2x loot"
+  ],
+  "update_signals": [
+   "Reimagined map",
+   "mobile support"
+  ],
+  "thumbnails": "infected monsters and armed survivor with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large archipelago, 100+ guns, vehicles",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "lift weights -> gain muscle/stamina -> hatch pets and trainers -> unlock gyms -> win bodybuilding competitions",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become the biggest bodybuilder",
+  "progression": "muscle, gyms, pets, trainers, leaderboards",
+  "instructions": "work out, hatch pets, compete",
+  "mechanics": [
+   "training",
+   "pets",
+   "competitions",
+   "auras"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "gym",
+   "bodybuilding",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gym sim"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "stamina/power",
+   "special eggs",
+   "spins"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "season quests"
+  ],
+  "thumbnails": "muscular avatar with +100 numbers in gym",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple gyms, pet system, competitions",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q39",
+  "loop": "roleplay in a seaside city -> customise house and cars -> hang out with friends -> events/minigames",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live your city life",
+  "progression": "houses, cars, passes",
+  "instructions": "roleplay, customise house and car",
+  "mechanics": [
+   "roleplay",
+   "housing",
+   "vehicles",
+   "minigames"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "LEGO Friends brand collab"
+  ],
+  "themes": [
+   "city life",
+   "LEGO Friends"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "brand collab"
+  ],
+  "monetization_signals": [
+   "house passes",
+   "vehicle pass",
+   "furniture",
+   "car decor"
+  ],
+  "update_signals": [
+   "Update 141 LEGO Friends"
+  ],
+  "thumbnails": "pink cars and girls, LEGO Friends art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "big city map, 254 products",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q40",
+  "loop": "fight enemies -> collect infinity stones with own abilities -> unlock worlds -> rebirth",
+  "loop_archetype": "combat_pvp",
+  "objectives": "master the gauntlet with all six stones",
+  "progression": "stones, worlds, weapons, rebirths",
+  "instructions": "M1 attack, Q/E/R/T abilities, defeat enemies, unlock stones",
+  "mechanics": [
+   "ability combat",
+   "bosses",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Infinity Stone ability sets each with its own world"
+  ],
+  "themes": [
+   "Marvel",
+   "superheroes"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "superhero sim"
+  ],
+  "monetization_signals": [
+   "gauntlet",
+   "Mjolnir",
+   "stones",
+   "rebirths",
+   "shards"
+  ],
+  "update_signals": [
+   "v0.6.3 snap update"
+  ],
+  "thumbnails": "golden Thanos avatar blasting NPCs",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "ability VFX, several worlds",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q41",
+  "loop": "blow gum bubbles -> jump to clouds -> collect currency -> upgrade bubbles -> hatch eggs for pets",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect secret pets",
+  "progression": "bubble size, pets, islands",
+  "instructions": "blow bubbles, collect, hatch eggs",
+  "mechanics": [
+   "bubble blowing",
+   "egg hatching",
+   "pets",
+   "quests"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "bubble gum",
+   "pets",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "classic sim revival"
+  ],
+  "monetization_signals": [
+   "pet slots",
+   "luck",
+   "multi egg",
+   "boosts"
+  ],
+  "update_signals": [
+   "Halloween pass PT2",
+   "weekend boosts"
+  ],
+  "thumbnails": "glowing pet art and colorful pet collage",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "islands, many pets",
+  "novelty": 0,
+  "confidence": 80
+ }
+]

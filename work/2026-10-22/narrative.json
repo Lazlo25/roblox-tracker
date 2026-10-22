@@ -1,0 +1,89 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "The top of Most Popular is unchanged: Steal An Egg (89 days) leads ahead of evergreens Brookhaven, Murder Mystery 2, RIVALS and 99 Nights in the Forest.",
+    "Multi-year games hold a median pillar percentile of 65 against 37–43 for games under a year, so age still separates staying power.",
+    "The biggest risers are young: Bike Universe +29 (25 days), Ride a Dino +21, Eat Everything In A Grocery Store +19 (19 days) and Fake an Egg +12 (18 days).",
+    "Four games entered, including Clone Baby Care (Anomaly) at 13 days and DIVINE HATCHERS, while WRONG WAY! and Piggy fell off.",
+    "Games left more than about 9 days without an update stay on the chart for fewer days (rho -0.34), which keeps H-mp-018 at 65%."
+   ],
+   "patterns": [
+    "Multiplayer loops (PvP combat, roleplay, co-op survival) consistently rank above solo loops; idle tycoons (13th percentile) and +1 incrementals (33rd) sit lowest.",
+    "Higher median pass and product prices go with longer presence (product median above 499 R$ r=+0.41). Part of this is age: older games carry deeper price ladders.",
+    "Egg and RP title words go with better positions, while Soccer titles go with worse. The Egg effect is mostly Steal An Egg and its clones.",
+    "Video observations of long-running hits show low-HUD social worlds (Brookhaven, Adopt Me!) next to dense-HUD progression games (Blox Fruits), so HUD density alone doesn't explain staying power."
+   ],
+   "outliers": [
+    {"name": "Steal An Egg", "note": "A template steal/egg game at 89 days holding #1 against multi-year evergreens; its early lead and constant updates appear to have kept it ahead of its own clones."},
+    {"name": "+1 Speed Keyboard Escape | Candy & Chocolate", "note": "A solo +1 incremental near the top, against the solo-loop pattern; 46 passes and 205 products suggest deep monetization and frequent world updates keep it there."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation and social hubs (Summer Donations, Donation Central, Simple DONATIONS) again top monetization efficiency, followed by Elemental Dungeons and Spin a KPOP Idol.",
+    "Efficiency keeps rising with age: median percentile 23 at 15–42 days, 43 at 43–84 days, 58 for games past a year.",
+    "The weakest are young simulators with large audiences that haven't monetized yet (a 19-day Arabic hunting game, Climb For Animals Eggs, Cat Battles).",
+    "The chart was stable today: no notable risers, fallers or entries in the scored set."
+   ],
+   "patterns": [
+    "Median developer product price above 79 R$ consistently goes with higher efficiency (r=+0.40 at the split). This is the strongest page-level lever.",
+    "RPGs (r=+0.46), roleplay hubs (r=+0.30) and PvP combat consistently earn more per player, while Simulation, Survival, steal/defend and pet/egg loops earn less.",
+    "Complexity, longer descriptions, bigger servers and caps-heavy, update-tagged titles all go with efficiency. Game age is a likely shared confounder for all of them.",
+    "Reward-flex thumbnails go with lower efficiency (r=-0.21), consistent with big-number simulators earning less per player."
+   ],
+   "outliers": [
+    {"name": "[🎃] Spin a KPOP Idol", "note": "A solo simulator in the top efficiency group, against both the solo and Simulation patterns; its gacha spins on a licensed-feel K-pop theme likely carry high spending per player."},
+    {"name": "[CURE] Violence District", "note": "An old survival game with only 2 passes and 20 products sits among the weakest; few things to buy limit its revenue despite a large audience."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "DONT SPLASH (5 days) leads momentum at +25, followed by Something is Wrong With My Dog... +23, +1 Dance Battle Evolution +22, Where Is Fahd? +19 and Escooter Life +18.",
+    "The youngest games carry the most momentum: 0–14 days median percentile 81 against 44 at 43–84 days, consistent with H-tt-001.",
+    "Thirteen games entered, including It Hears The Water (8 days), Make a Pancake!, Clean the House! and Feed the Fire; 13 fell off, including Paint a Pancake and Break and Steal an Egg.",
+    "Older re-surfacing games (Murder Mystery 2, Wanted, Kayak and Surf) also entered, likely carried by Halloween updates."
+   ],
+   "patterns": [
+    "Launching with more than 8 game passes tends to go with lower positions (within-age -0.34), and generic 2x passes tend to as well.",
+    "Horror, co-op survival and story-adventure loops sit at the top of momentum (median percentiles 97, 87, 81), while simulation jobs and obbies lag.",
+    "Young games with drivable vehicles may hold higher positions (r=+0.40); bike, scooter and rally games are a visible share of entries. A new test is added today.",
+    "Games with a collection index tend to hold higher positions (within-age +0.58), though the count is small."
+   ],
+   "outliers": [
+    {"name": "Something is Wrong With My Dog...", "note": "At 57 days, beyond the 6-week fade, it still climbs +23; it adapts a viral indie horror concept, which may bring its own audience."},
+    {"name": "Crazy Diver", "note": "A 55% like ratio but strong momentum, so curiosity-driven physics clips may beat quality signals early."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH, Bike Universe, Clone Baby Care (Anomaly), Steel Fighters, Backseat Rally and Fix My Phone! hold the top of Up-and-Coming.",
+    "Thirteen games entered: three horror/anomaly games (It Hears The Water, Anomaly Party, Airport Security), Steal A DNA, Create a Robot Fighter, Bullets VS Everything and Paint and Hide!.",
+    "HUSH: They can hear rose +24 and +1 Slinky Escape +18, while Lanterns -28, Rush To The Vet! -26 and ScootX -21 fell.",
+    "Games under 15 days hold a median percentile of 70 against 48 at 15–42 days."
+   ],
+   "patterns": [
+    "Recently updated games consistently rank higher among games of the same age (H-uc-012 at 70%); games idle 5 days or more sit at the bottom.",
+    "Server-wide products go with lower positions among games of the same age (within-age -0.40), so a new test is added. Build loops (-0.44) and rebirth mechanics (-0.43) also go with lower positions.",
+    "Everyday-life roleplay mechanics tend to go with higher positions (r=+0.39), consistent with H-uc-031.",
+    "Sound-based horror (DONT SPLASH, It Hears The Water, HUSH) is a visible cluster this week. Halloween is a confounder for every horror effect."
+   ],
+   "outliers": [
+    {"name": "Steel Fighters", "note": "A build-and-rebirth collect game with 167 products and auto-play passes ranks near the top, against the build, rebirth and auto-pass patterns; fresh daily updates may outweigh them."},
+    {"name": "[🎃] Bike Universe", "note": "At 25 days it sits #2, above the age-band norm; its riding-for-cash loop and early Most Popular entry suggest a real breakout rather than novelty."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Games pull players first and monetize later: the youngest games lead Top Trending and Up-and-Coming, while Top Earning efficiency rises from the 23rd percentile at 15–42 days to the 58th past a year.",
+   "Frequent updates help everywhere: days since update goes with worse results on Most Popular, Top Trending and Up-and-Coming at once.",
+   "Launch lean, deepen later: many passes, generic 2x passes and server-wide products go with weaker breakout, while higher prices and more passes go with efficiency in older games.",
+   "Horror with a single rule (anomaly spotting, sound-hunting monsters) and riding sims (bikes, scooters, rally) are this week's breakout clusters. Halloween is a confounder for the horror lift."
+  ],
+  "progressions": [
+   "tt→mp stays the most common transition (84 entries, median 2 days), followed by uc→tt (83, 2 days) and te→tt (58, 7 days).",
+   "uc→te (51, 4 days) and uc→mp (49, 4 days) show breakouts reaching revenue and dominance within a week, while tt→uc stays at 1, so games still appear on Up-and-Coming first."
+  ]
+ }
+}

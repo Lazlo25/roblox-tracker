@@ -1,0 +1,685 @@
+[
+ {
+  "label": "Q01",
+  "loop": "get a prompt -> draw a pancake on a griddle head-to-head -> AI scores accuracy -> winner earns cash -> buy cosmetics/chairs",
+  "loop_archetype": "party_minigames",
+  "objectives": "out-draw your opponent to match the prompt",
+  "progression": "cash from matches, cosmetic chairs",
+  "instructions": "draw the prompted pancake; AI judges accuracy; highest score wins",
+  "mechanics": [
+   "drawing",
+   "1v1 matches",
+   "AI judging",
+   "cosmetics"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "AI-scored pancake drawing duels"
+  ],
+  "themes": [
+   "cooking",
+   "pancakes",
+   "art",
+   "cartoon characters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "make-a-x",
+   "ai-judge"
+  ],
+  "monetization_signals": [
+   "god pack",
+   "color picker",
+   "skip",
+   "troll products (jump scare, erase)"
+  ],
+  "update_signals": [
+   "daily updates",
+   "limited chairs"
+  ],
+  "thumbnails": "two players drawing pancakes of characters (Spider-Man, SpongeBob) with win/lose ticks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple duel arena, drawing canvas, AI judge integration",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "clean messy house before mom returns -> earn coins -> upgrade tools/robots -> open more rooms",
+  "loop_archetype": "simulation_job",
+  "objectives": "finish every chore before the timer",
+  "progression": "tool upgrades, robots, gems, chapters",
+  "instructions": "pick up trash, vacuum, wash dishes, make beds; upgrade tools",
+  "mechanics": [
+   "cleaning chores",
+   "timer",
+   "tool upgrades",
+   "helper robots"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "timed chore-story run with permanent robot helpers"
+  ],
+  "themes": [
+   "house cleaning",
+   "family",
+   "chores"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean-the-x",
+   "chapter story"
+  ],
+  "monetization_signals": [
+   "robot helper passes",
+   "one-run robots",
+   "VIP 2499",
+   "gems"
+  ],
+  "update_signals": [
+   "chapter 1",
+   "frequent updates"
+  ],
+  "thumbnails": "vacuuming a messy living room and before/after bedroom",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "detailed house interior, many interactable objects",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "sneak through flooded pools without splashing -> a blind monster hunts by sound -> escape together",
+  "loop_archetype": "horror_escape",
+  "objectives": "get past the monster without making noise",
+  "progression": "lives, coins, levels of pools",
+  "instructions": "work together, don't splash, run with shift",
+  "mechanics": [
+   "stealth",
+   "sound detection",
+   "lives",
+   "revive"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "sound-based blind monster tied to water splashes"
+  ],
+  "themes": [
+   "horror",
+   "poolrooms",
+   "monster"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dont-x horror",
+   "poolrooms"
+  ],
+  "monetization_signals": [
+   "infinite lives",
+   "revive",
+   "jumpscare everyone",
+   "coins"
+  ],
+  "update_signals": [
+   "new game, frequent updates"
+  ],
+  "thumbnails": "realistic monster leaping out of pool water chasing a player",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "atmospheric pool maps, creature AI listening to sound, lighting",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "drag fuel into your fire -> earn money -> buy upgrade tree nodes & fuels -> fire must be big enough to survive each storm",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow the fire to survive ever-bigger storms",
+  "progression": "upgrade tree, fire level to 50, new fuels, spawners",
+  "instructions": "drag logs, batteries, explosives into fire; beat the storm",
+  "mechanics": [
+   "incremental",
+   "upgrade tree",
+   "timed storm waves",
+   "auto spawners"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "storm deadline turns an idle incremental into survival rounds"
+  ],
+  "themes": [
+   "fire",
+   "weather"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "feed-the-x",
+   "upgrade tree"
+  ],
+  "monetization_signals": [
+   "2x fire/money",
+   "offline fire",
+   "auto-upgrade",
+   "crates"
+  ],
+  "update_signals": [
+   "daily updates",
+   "limited void fire"
+  ],
+  "thumbnails": "cartoon fire growing vs angry storm cloud",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple field, physics fuel, upgrade tree UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "steal DNA from animals -> merge into new animals -> earn $/s -> upgrade treadmill/pen -> steal DNA from players",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rarer DNA animals and grow income",
+  "progression": "income per second, rarities, mutations, speed",
+  "instructions": "steal 2 DNA, merge, earn, train on treadmill, steal from others",
+  "mechanics": [
+   "stealing",
+   "merging",
+   "income per second",
+   "speed training",
+   "mutations"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "DNA-merge twist on steal-a-x"
+  ],
+  "themes": [
+   "animals",
+   "DNA",
+   "science"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "merge"
+  ],
+  "monetization_signals": [
+   "DNA spins",
+   "speed multipliers"
+  ],
+  "update_signals": [
+   "recent updates"
+  ],
+  "thumbnails": "player stealing DNA from mythic tiger/dino with $/s numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "base plots, animal models, standard steal template",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q06",
+  "loop": "host a party -> keep guests happy -> spot anomalies/imposters among guests -> survive until morning",
+  "loop_archetype": "horror_escape",
+  "objectives": "keep the party alive until morning",
+  "progression": "night progress, classes, tokens",
+  "instructions": "keep guests happy, find anomalies, team up to survive",
+  "mechanics": [
+   "anomaly spotting",
+   "social deduction",
+   "items",
+   "revive"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "party-host framing for anomaly-detection horror"
+  ],
+  "themes": [
+   "halloween",
+   "party",
+   "monsters",
+   "anomaly"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anomaly",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "weapons",
+   "revive",
+   "tokens",
+   "night watch class"
+  ],
+  "update_signals": [
+   "Halloween theme"
+  ],
+  "thumbnails": "creepy smiling costumed guests at a Halloween party door",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "50+ monster/anomaly behaviours, house map",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q07",
+  "loop": "spin for robot parts -> assemble robot -> train on punching bag -> fight endless bot waves for cash -> rebirth",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "build the strongest robot",
+  "progression": "robot level to 9999, part rarities, rebirths",
+  "instructions": "pull lever for parts, build, train, fight waves",
+  "mechanics": [
+   "rng parts",
+   "building",
+   "training",
+   "wave fights",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "modular robot assembly from rolled parts"
+  ],
+  "themes": [
+   "robots",
+   "fighting"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "create-a-x",
+   "rng roll"
+  ],
+  "monetization_signals": [
+   "fight speed",
+   "crates",
+   "cash",
+   "luck levels"
+  ],
+  "update_signals": [
+   "daily updates"
+  ],
+  "thumbnails": "robots fighting in a ring with LVL 670 vs LVL 9999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "plot with ring, modular robot models",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "night shift airport security -> check IDs, X-ray bags, body scan -> deny non-human passengers -> survive what you let through",
+  "loop_archetype": "horror_escape",
+  "objectives": "spot anomalies before they hunt you",
+  "progression": "endless shifts, upgrades, events",
+  "instructions": "check ID, X-ray, body scan, interrogate, deny suspicious",
+  "mechanics": [
+   "inspection",
+   "anomaly spotting",
+   "tools",
+   "coop",
+   "fear meter"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Papers-Please style inspection with horror anomalies and many scan tools"
+  ],
+  "themes": [
+   "airport",
+   "anomaly",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly",
+   "papers-please-like"
+  ],
+  "monetization_signals": [
+   "upgrades",
+   "troll items",
+   "revive"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "airport branding, lineup of passengers, smiling uncanny face",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple inspection minigames, NPC passenger variants",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q09",
+  "loop": "bend diving board -> launch rubber fish -> flop to land on target -> next level; speedruns",
+  "loop_archetype": "obby_platformer",
+  "objectives": "land Gil on every target",
+  "progression": "40 levels in 5 zones, speedruns, cosmetics",
+  "instructions": "hold to bend board, release to launch, tap to flop",
+  "mechanics": [
+   "physics launching",
+   "precision landing",
+   "speedrun timer"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "fish-flop physics rage game"
+  ],
+  "themes": [
+   "fish",
+   "toys"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "rage game"
+  ],
+  "monetization_signals": [
+   "skip level",
+   "cosmetic passes"
+  ],
+  "update_signals": [
+   "bonus levels"
+  ],
+  "thumbnails": "orange fish launched toward targets with 'Can you land it?'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "compact levels, custom wobbly physics",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "roll objects with lever -> line them up -> fire one bullet through everything -> earn cash per broken object -> upgrade gun, rebirth",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "break bigger objects up to black holes",
+  "progression": "object rarities, mutations, gun upgrades, rebirths, world 2",
+  "instructions": "line up objects and shoot; roll for rarer objects",
+  "mechanics": [
+   "rng rolls",
+   "mutations",
+   "shooting",
+   "weather events",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "single bullet piercing scale ladder from paper to black hole"
+  ],
+  "themes": [
+   "bullets",
+   "space",
+   "scale"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "x-vs-everything",
+   "rng roll"
+  ],
+  "monetization_signals": [
+   "luck",
+   "auto shoot",
+   "cash",
+   "gems",
+   "crates"
+  ],
+  "update_signals": [
+   "World 2 update",
+   "weather events"
+  ],
+  "thumbnails": "giant bullet vs Earth / black hole, shooting range",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "range plot, object models, roll UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q11",
+  "loop": "hiders paint themselves to blend into walls -> seeker hunts with guns -> survive the timer",
+  "loop_archetype": "party_minigames",
+  "objectives": "hide until time runs out or tag every hider",
+  "progression": "cosmetic guns/faces",
+  "instructions": "paint yourself to blend in; seeker tags hiders",
+  "mechanics": [
+   "hide and seek",
+   "camouflage painting",
+   "rounds"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "paint camouflage hide-and-seek"
+  ],
+  "themes": [
+   "paint",
+   "hide and seek"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "hide-and-seek"
+  ],
+  "monetization_signals": [
+   "become seeker",
+   "reveal hiders",
+   "troll",
+   "guns"
+  ],
+  "update_signals": [
+   "daily updates"
+  ],
+  "thumbnails": "player painted like wallpaper hiding from gun-holding seeker, 'YOU' arrows",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple rooms, paint system",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "click for +1 power -> train on bags -> defeat stages and bosses -> hatch pets -> rebirth -> unlock anime heroes",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest anime fighter",
+  "progression": "power, heroes, pets, rebirths, worlds",
+  "instructions": "click to gain power, fight enemies, boss every 10 min",
+  "mechanics": [
+   "clicking",
+   "training",
+   "pets",
+   "boss fights",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "anime heroes on +1 template"
+  ],
+  "themes": [
+   "anime",
+   "fighting"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 every x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "zones",
+   "2x passes",
+   "one punch",
+   "potions"
+  ],
+  "update_signals": [
+   "World Companions update"
+  ],
+  "thumbnails": "anime heroes with +1/+67/+1T numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template simulator with anime models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "pick weapons -> hit realistic ragdoll dummies -> earn kills -> unlock weapons and traps",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with damage on dummies",
+  "progression": "kills unlock weapons",
+  "instructions": "shoot, grab, throw dummies; use playground traps",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons",
+   "gore",
+   "traps"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "localized wound/bone ragdoll simulation"
+  ],
+  "themes": [
+   "ragdoll",
+   "gore",
+   "weapons"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "all guns",
+   "gore pack",
+   "kills packs",
+   "sandbox"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "white dummy pinned by arrows",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom ragdoll damage system, 20+ weapons",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q14",
+  "loop": "eat food in supermarket -> stomach fills -> use toilet to empty -> upgrade stomach -> clear the store",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "eat all 4.3 million calories",
+  "progression": "stomach size, helpers, gems",
+  "instructions": "eat everything, upgrade stomach, hire bodybuilders",
+  "mechanics": [
+   "eating",
+   "capacity upgrades",
+   "helpers"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "toilet-emptying capacity loop"
+  ],
+  "themes": [
+   "food",
+   "supermarket",
+   "humor"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "eat-the-x"
+  ],
+  "monetization_signals": [
+   "gem packs",
+   "food vacuum",
+   "bodybuilder"
+  ],
+  "update_signals": [
+   "daily updates"
+  ],
+  "thumbnails": "fat player eating in supermarket aisles, Day 100",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "supermarket map with many food items",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "paddle kayak up famous locations -> climb summit -> ride down collecting coins -> unlock kayaks and pets",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "reach the summits and collect the rarest pets",
+  "progression": "kayaks, gear, pets, trophies, seasons",
+  "instructions": "paddle, climb, ride down, collect coins",
+  "mechanics": [
+   "climbing",
+   "sliding",
+   "pets",
+   "eggs"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "kayak water-slide climb"
+  ],
+  "themes": [
+   "kayak",
+   "water slides",
+   "travel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "climb-and-slide"
+  ],
+  "monetization_signals": [
+   "VIP path",
+   "double speed",
+   "luck",
+   "coin packs"
+  ],
+  "update_signals": [
+   "Season 3"
+  ],
+  "thumbnails": "kayaker on spiral water slides",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "long slide tracks, pet system",
+  "novelty": 1,
+  "confidence": 70
+ }
+]

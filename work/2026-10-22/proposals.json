@@ -1,0 +1,23 @@
+{
+ "new": [
+  {"chart": "tt", "statement": "Young games built around drivable vehicles hold higher Top Trending positions among games of similar age",
+   "action": "Add drivable vehicles",
+   "test": {"feature": "mech_vehicles", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+  {"chart": "uc", "statement": "Games selling server-wide products (nukes, server luck, admin effects) rank lower on Up-and-Coming among games of the same age",
+   "action": "Skip server-wide products at launch",
+   "test": {"feature": "prod_server_wide", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+  {"chart": "x", "kind": "qualitative", "confidence": 28,
+   "statement": "Sound-hunting horror, where a blind monster tracks noise (don't splash, don't speak), is a wave that puts several young games at the top of Up-and-Coming and Top Trending within their first weeks",
+   "action": "Build horror around one noise rule",
+   "rationale": "DONT SPLASH (5 days) leads both Top Trending and Up-and-Coming, It Hears The Water (8 days) entered both today with the same premise, and HUSH: They can hear rose +24 on Up-and-Coming. Confirm if more sound-rule games enter and whether the leaders still hold after 3–4 weeks; a description flag for 'hears/sound/noise' would let the scan test it."}
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-006", "confidence": 55, "note": "Clone Baby Care (Anomaly) entered Most Popular and sits near the top of Top Trending and Up-and-Coming at 13 days; Airport Security (Anomaly) and Anomaly Party entered Up-and-Coming today. WRONG WAY! (an anomaly racer) fell off Most Popular, so the durable part is the cute job/host sim with a horror twist, not the anomaly tag alone."},
+  {"id": "H-x-018", "confidence": 25, "note": "It Hears The Water, a second Poolrooms-style sound-stealth game, entered Top Trending and Up-and-Coming within 8 days, while DONT SPLASH leads both charts. Still a small set, and both share one concept."},
+  {"id": "H-x-011", "confidence": 44, "note": "Mixed again: Steal A DNA entered Up-and-Coming, Fake an Egg rose +12 on Most Popular and Steal and Cure a Zombie +14 on Up-and-Coming, against the fading-wave claim; Steal An Egg still leads Most Popular. Lowered slightly."},
+  {"id": "H-x-010", "confidence": 46, "note": "Bike Universe (25 days) rose +29 on Most Popular, is #2 on Up-and-Coming and on Top Earning at #251; Escooter Life rose +18 on Top Trending; ScootX fell -21 on Up-and-Coming. The niche is still growing, but revenue evidence remains thin."},
+  {"id": "H-x-001", "confidence": 46, "note": "Transition counts keep the same order: tt→mp 84 (2d), uc→tt 83 (2d), te→tt 58, tt→te 52, uc→te 51; tt→uc stays at 1."}
+ ],
+ "actions": [],
+ "retire": []
+}

@@ -1,0 +1,658 @@
+[
+ {
+  "label": "Q16",
+  "loop": "spawn items -> grab and fling items/people -> unlock items by discovery -> build house or PvP",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "mess around flinging things and unlock items",
+  "progression": "item unlocks, stage upgrades",
+  "instructions": "fling items or people, furnish a house, PvP",
+  "mechanics": [
+   "flinging",
+   "grab physics",
+   "item spawning",
+   "building"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "fling",
+   "playground"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fling-things clone"
+  ],
+  "monetization_signals": [
+   "item limit",
+   "private server perks",
+   "sound presets",
+   "clan logo spins"
+  ],
+  "update_signals": [
+   "seasonal autumn theme"
+  ],
+  "thumbnails": "players flung with physics beams among random items",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "open baseplate, item physics",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q17",
+  "loop": "ride bikes -> earn money from riding, wheelies and tricks -> buy and tune new bikes -> race friends",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and tune bikes",
+  "progression": "cash, bike collection, tuning",
+  "instructions": "ride, wheelie, trick, race",
+  "mechanics": [
+   "riding",
+   "wheelies",
+   "tricks",
+   "tuning",
+   "racing"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "earn-by-wheelie bike sim"
+  ],
+  "themes": [
+   "bikes",
+   "motorbikes",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "bike/scooter sim wave"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "gift cash",
+   "luxury bike",
+   "2x cash"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "riders wheelieing on empty grey baseplate",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "flat map, bike physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q18",
+  "loop": "press the button -> random disaster/obby triggers -> survive -> earn coins",
+  "loop_archetype": "party_minigames",
+  "objectives": "survive all 62 disasters",
+  "progression": "coins, gear passes",
+  "instructions": "press the button and survive what happens",
+  "mechanics": [
+   "random events",
+   "disasters",
+   "obbies"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "button",
+   "disasters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dont-press-the-button sequel"
+  ],
+  "monetization_signals": [
+   "coils",
+   "magic carpet",
+   "coins"
+  ],
+  "update_signals": [
+   "sequel series"
+  ],
+  "thumbnails": "green button on pedestal 'Don't Press!'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many small disaster scripts",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q19",
+  "loop": "click for money -> buy cash multipliers -> level up/rebirth -> spend wins for multipliers -> AFK training",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the richest person",
+  "progression": "rebirths, prestige, evolution, worlds, trails",
+  "instructions": "click to earn, rebirth, win multipliers",
+  "mechanics": [
+   "clicking",
+   "rebirth",
+   "multipliers",
+   "AFK earnings",
+   "trails"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "money",
+   "wealth"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 every x"
+  ],
+  "monetization_signals": [
+   "trails",
+   "skip rebirth",
+   "money packs",
+   "2x pet luck"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "World 6"
+  ],
+  "thumbnails": "money tiers +1 to +999T and poor-to-rich avatar evolution",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "template clicker",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q20",
+  "loop": "tap for coins -> hatch eggs for pets -> rebirth -> unlock islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect secret pets and become top tapper",
+  "progression": "pets, rebirths, islands",
+  "instructions": "tap anywhere, hatch eggs, rebirth",
+  "mechanics": [
+   "clicking",
+   "egg hatching",
+   "pets",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "pets",
+   "halloween",
+   "pumpkins"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tapping sim revival"
+  ],
+  "monetization_signals": [
+   "egg hatch passes",
+   "luck",
+   "tokens",
+   "Chronos eggs"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "frequent updates"
+  ],
+  "thumbnails": "huge pumpkin pet, 'Hollow Lord' card and +1 tap numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "classic simulator islands, pet system",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "driver and navigator pair -> race rally stages with anomalies and storms -> earn credits -> unlock cars",
+  "loop_archetype": "racing_driving",
+  "objectives": "trust your navigator and finish stages",
+  "progression": "ranks, cars, cosmetics, rally pass",
+  "instructions": "one drives, one navigates; survive anomalies",
+  "mechanics": [
+   "co-op driving",
+   "navigation",
+   "anomalies",
+   "ranked"
+  ],
+  "social": "coop",
+  "competitive": "core",
+  "unique": [
+   "asymmetric driver/navigator rally with anomalies"
+  ],
+  "themes": [
+   "rally",
+   "cars",
+   "anomaly"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly",
+   "2-player co-op"
+  ],
+  "monetization_signals": [
+   "rally pass",
+   "credits",
+   "VIP",
+   "boosts"
+  ],
+  "update_signals": [
+   "daily updates",
+   "season pass"
+  ],
+  "thumbnails": "red rally car with two helmeted crew 'WRONG WAY!'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple rally tracks, vehicle physics, two-role UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "earn in-store credit by riding -> build scooter/BMX setup -> ride community maps -> save replays",
+  "loop_archetype": "racing_driving",
+  "objectives": "build a setup and land tricks",
+  "progression": "credit, parts, cosmetics",
+  "instructions": "build your setup, ride maps",
+  "mechanics": [
+   "trick riding",
+   "custom setups",
+   "replays"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "parts-brand scooter builder with replay clips"
+  ],
+  "themes": [
+   "scooter",
+   "BMX",
+   "skatepark"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "scooter/bike sim wave"
+  ],
+  "monetization_signals": [
+   "credit packs",
+   "VIP",
+   "cosmetics"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "new map"
+  ],
+  "thumbnails": "scooter in a workshop, 'Build your own!'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "trick physics, workshop builder, 8 maps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "run dungeons solo or with friends -> beat bosses -> better gear -> trade",
+  "loop_archetype": "combat_pvp",
+  "objectives": "get the best gear set",
+  "progression": "gear tiers, dungeons",
+  "instructions": "play dungeons, beat bosses, trade",
+  "mechanics": [
+   "dungeons",
+   "bosses",
+   "loot",
+   "trading"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "fantasy",
+   "dungeons",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "remake of classic"
+  ],
+  "monetization_signals": [
+   "cosmetic armor",
+   "gold",
+   "shop refresh"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "Gilded Skies update"
+  ],
+  "thumbnails": "logo art and armored knight characters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many dungeons, combat, loot systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q24",
+  "loop": "fight monsters in rooms -> collect spirits and loot -> upgrade -> beat worlds/raids",
+  "loop_archetype": "story_adventure",
+  "objectives": "protect the Mother Tree and get rarer weapons",
+  "progression": "weapons, worlds, wishes",
+  "instructions": "attack, block/parry, dash; party of 4",
+  "mechanics": [
+   "action combat",
+   "parry",
+   "roguelite",
+   "loot",
+   "raids"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "parry-based roguelite dungeon crawler"
+  ],
+  "themes": [
+   "pixel",
+   "fantasy",
+   "weapons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [],
+  "monetization_signals": [
+   "VIP",
+   "wishes",
+   "revive",
+   "godly potions"
+  ],
+  "update_signals": [
+   "version 2.2.1 updates"
+  ],
+  "thumbnails": "pixel weapons and combat scenes, weapon stat card",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "combat system, multiple worlds, bosses",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "gather/harpoon resources -> build raft base -> explore islands -> fight foes -> survive 100 days",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive 100 days at sea",
+  "progression": "days survived, raft size, gear",
+  "instructions": "grab resources, build raft, explore, fight",
+  "mechanics": [
+   "resource gathering",
+   "base building",
+   "exploration",
+   "survival"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ocean",
+   "pirates",
+   "bermuda triangle"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "99-nights-like"
+  ],
+  "monetization_signals": [
+   "revive",
+   "pearls",
+   "gifts"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "raft expansion on open water, big raft fortress",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open ocean world, building system, enemies",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q26",
+  "loop": "drive the plains -> chase tornadoes -> deploy probes / take photos -> earn money -> better vehicles",
+  "loop_archetype": "simulation_job",
+  "objectives": "get close to violent tornadoes safely",
+  "progression": "vehicles, gear, jobs",
+  "instructions": "chase storms, deploy probes, photograph tornadoes",
+  "mechanics": [
+   "storm chasing",
+   "driving",
+   "weather simulation",
+   "jobs"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic tornado simulation"
+  ],
+  "themes": [
+   "weather",
+   "tornadoes"
+  ],
+  "audience": "older",
+  "trend_hooks": [],
+  "monetization_signals": [
+   "NWS access",
+   "jobs",
+   "drone",
+   "cash"
+  ],
+  "update_signals": [
+   "beta, regular updates"
+  ],
+  "thumbnails": "tornado and armored intercept vehicle at night",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large map, weather simulation, vehicles",
+  "novelty": 3,
+  "confidence": 80
+ },
+ {
+  "label": "Q27",
+  "loop": "pick a class -> survive swarms of enemies -> draft upgrades -> beat soulslike bosses -> loot",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive the swarm and beat bosses",
+  "progression": "classes, gold, essence, guilds",
+  "instructions": "choose class, survive waves",
+  "mechanics": [
+   "roguelike drafts",
+   "classes",
+   "bosses",
+   "guilds"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Vampire Survivors style in Roblox"
+  ],
+  "themes": [
+   "fantasy",
+   "roguelike"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "survivors-like"
+  ],
+  "monetization_signals": [
+   "revives",
+   "2x gold",
+   "rerolls",
+   "chests"
+  ],
+  "update_signals": [
+   "Guilds update"
+  ],
+  "thumbnails": "class selection screen and class lineup",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "enemy swarms, many classes, bosses",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q28",
+  "loop": "roll cards for soldiers -> build army -> fight enemies/bosses -> roll while AFK",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "get a Void card and the strongest army",
+  "progression": "card rarities, traits, raids, expeditions",
+  "instructions": "roll for rare cards, fight, beat bosses",
+  "mechanics": [
+   "rng rolls",
+   "army building",
+   "AFK",
+   "raids",
+   "potions"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "rolled cards form an army"
+  ],
+  "themes": [
+   "stickman",
+   "army",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng roll"
+  ],
+  "monetization_signals": [
+   "luck potions",
+   "crates",
+   "auto raid",
+   "VIP"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "codes"
+  ],
+  "thumbnails": "huge stickman army, '1 IN 6 BILLION' odds",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "army units, card UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "ride e-scooters -> earn cash just by riding / wheelies -> buy and tune faster scooters -> rideouts",
+  "loop_archetype": "racing_driving",
+  "objectives": "build the fastest scooter",
+  "progression": "cash, scooter collection, tuning",
+  "instructions": "ride, wheelie, tune, rideout",
+  "mechanics": [
+   "riding",
+   "wheelies",
+   "tuning",
+   "open world"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "rideout boost for riding near others"
+  ],
+  "themes": [
+   "scooters",
+   "city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "scooter/bike sim wave"
+  ],
+  "monetization_signals": [
+   "scooter passes",
+   "premium pass",
+   "cash bundles"
+  ],
+  "update_signals": [
+   "Haunted Nights pass",
+   "Helmets update"
+  ],
+  "thumbnails": "rider wheelieing e-scooter, police chase, first-person handlebar",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "open city map, scooter physics",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "loot a building against the clock -> monster hunts by sound -> hide or escape -> sell loot -> or play as the monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal the most loot and survive",
+  "progression": "skill trees, upgrades, rebirths",
+  "instructions": "steal, hide, or be the monster",
+  "mechanics": [
+   "looting",
+   "stealth",
+   "asymmetric monster",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "loot-weight slows you down; play as entity"
+  ],
+  "themes": [
+   "horror",
+   "heist"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "lethal-company-like"
+  ],
+  "monetization_signals": [
+   "2x entity chance",
+   "cases",
+   "cash"
+  ],
+  "update_signals": [
+   "Halloween update v1.5"
+  ],
+  "thumbnails": "dark found-footage style creature shots",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "4 maps, 5 entities, VR support",
+  "novelty": 2,
+  "confidence": 75
+ }
+]
