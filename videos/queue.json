@@ -1,8 +1,8 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "queue": [
   {
-   "age_days": 1748,
+   "age_days": 1749,
    "charts": [
     "mp"
    ],
@@ -12,7 +12,7 @@
    "u": "3240075297"
   },
   {
-   "age_days": 1204,
+   "age_days": 1205,
    "charts": [
     "mp"
    ],
@@ -22,17 +22,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 1953,
-   "charts": [
-    "mp"
-   ],
-   "name": "Fling Things and People",
-   "place": "6961824067",
-   "status": "youtube_needed",
-   "u": "2668101271"
-  },
-  {
-   "age_days": 2677,
+   "age_days": 2678,
    "charts": [
     "mp",
     "te"
@@ -43,9 +33,18 @@
    "u": "1202096104"
   },
   {
-   "age_days": 952,
+   "age_days": 1954,
    "charts": [
-    "mp",
+    "mp"
+   ],
+   "name": "Fling Things and People",
+   "place": "6961824067",
+   "status": "youtube_needed",
+   "u": "2668101271"
+  },
+  {
+   "age_days": 953,
+   "charts": [
     "te"
    ],
    "name": "Fisch 🎃 [FISCHFRIGHT]",
@@ -54,7 +53,7 @@
    "u": "5750914919"
   },
   {
-   "age_days": 1222,
+   "age_days": 1223,
    "charts": [
     "te"
    ],
@@ -64,7 +63,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 2309,
+   "age_days": 2310,
    "charts": [
     "te"
    ],
@@ -74,7 +73,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 2655,
+   "age_days": 2656,
    "charts": [
     "te"
    ],
@@ -84,7 +83,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 1479,
+   "age_days": 1480,
    "charts": [
     "te"
    ],
@@ -94,7 +93,7 @@
    "u": "3990106548"
   },
   {
-   "age_days": 1836,
+   "age_days": 1837,
    "charts": [
     "te"
    ],
@@ -104,7 +103,7 @@
    "u": "2992873140"
   },
   {
-   "age_days": 2463,
+   "age_days": 2464,
    "charts": [
     "te"
    ],
@@ -114,7 +113,7 @@
    "u": "1516533665"
   },
   {
-   "age_days": 656,
+   "age_days": 657,
    "charts": [
     "te"
    ],
