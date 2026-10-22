@@ -41,6 +41,10 @@ jobs:
               echo "::error::Lazlo25/$r can't be read (made private?) and VISIBILITY_TOKEN isn't set, so it can't be checked or re-published"
               status=1; continue
             fi
+            if [ -n "$ADMIN" ]; then  # proves VISIBILITY_TOKEN still works and has Administration access (catches expiry)
+              GH_TOKEN="$ADMIN" gh api "repos/Lazlo25/$r/actions/permissions" >/dev/null && echo "VISIBILITY_TOKEN: admin access to $r ok" \
+                || { echo "::error::VISIBILITY_TOKEN can't administer Lazlo25/$r (expired, or Administration permission missing)"; status=1; }
+            fi
             rm -rf "/tmp/$r" && git init -q "/tmp/$r"
             git -C "/tmp/$r" fetch -q --depth 1 "https://x-access-token:$tok@github.com/Lazlo25/$r" '+refs/heads/*:refs/remotes/origin/*'
             if python3 tools/privacy_scan.py "/tmp/$r"; then
