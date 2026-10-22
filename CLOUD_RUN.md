@@ -6,8 +6,8 @@ data: CCU, visits, votes, RoTerminal's total players) sits next to it. The routi
 
 | MODE | git branch | collections written |
 |---|---|---|
-| live | main | `days`, `analysis`, `live` |
-| dryrun | dryrun | `dryrun_days`, `dryrun_analysis`, `dryrun_live` |
+| live | main | `days`, `analysis`, `live`, `hist` |
+| dryrun | dryrun | `dryrun_days`, `dryrun_analysis`, `dryrun_live`, `dryrun_hist` |
 
 Artifact URL: https://claude.ai/artifact/3GEguDQy6AVzUpckAVomYs
 
@@ -16,7 +16,7 @@ Don't edit the scripts, guides, workflows or the artifact page. Write only the d
 files the steps name. If a step fails in a way these steps don't cover, stop and report the error text.
 
 ArtifactData writes (load the tool with ToolSearch "select:ArtifactData" if needed): call action "get" first; if the
-document exists, "set" with its version as if_version, otherwise "set" without one. DAYS/ANALYSIS/LIVE are the MODE's
+document exists, "set" with its version as if_version, otherwise "set" without one. DAYS/ANALYSIS/LIVE/HIST are the MODE's
 collections from the table.
 
 ## Steps
@@ -54,9 +54,17 @@ collections from the table.
 6. Yesterday: if `db-copy/days/PREV.json` exists and its `avg24.through_et` isn't "24:00", refresh it with its
    full-day figures: the step 4 command with PREV in place of D (both `--date` and the day file). If it updates,
    `mv /tmp/day.json db-copy/days/PREV.json` and mark PREV as changed.
+6b. Hand-offs with Grok (Grok collects Rolimons history and YouTube frames on its own computer and pushes them here):
+   a. `python3 video.py youtube-todo --out videos/youtube_todo.json` (the games Grok should find a YouTube video for).
+   b. If `db-copy/days/D.json` exists: `python3 video.py hist-todo --offline --out rolimons/todo.json` (the games Grok
+      should fetch Rolimons history for).
+   c. `python3 video.py hist-import --dir rolimons --out /tmp/hist_new.json`. For each universe id in that list, write HIST
+      doc `<id>` from file `rolimons/<id>.json` (ArtifactData "batch", at most 15 `set` entries per call; a document that
+      already exists needs its version as if_version). If any were written, get HIST doc `_index` and set it to its old
+      contents plus `"<id>": <that file's "through">` for each, with its version as if_version.
 7. Write DAYS doc D and/or PREV from `db-copy/days/<date>.json` for each date marked as changed (and D whenever step 5
    ran).
-8. `git add -A db-copy analysis profiles work trigger videos && git commit -m "Cloud run D H:00"`, then `git push` (on
+8. `git add -A db-copy analysis profiles work trigger videos rolimons && git commit -m "Cloud run D H:00"`, then `git push` (on
    rejection: `git pull --rebase` and push again, up to 3 times). Skip if there's nothing to commit.
 9. Reply in up to three short lines: "Players: <now from step 2>", "Day D: <snapshot status, and the OK/EXTRAS lines
    from step 4>", and, if step 5 ran, "Analysis: <hypotheses count> hypotheses, <N> games profiled today, <one-sentence

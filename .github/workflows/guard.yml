@@ -1,0 +1,59 @@
+name: Repo guard
+
+# Every 2 hours (and after each daily snapshot): scan both tracker repos, every branch, for personal info and
+# credentials (tools/privacy_scan.py; personal terms are stored only as hashes). If either repo has been made private,
+# make it public again, but only when its scan is clean; with findings it stays private and this job fails, which
+# emails the repo owner. Changing visibility needs a fine-grained token with Administration: Read and write on both
+# repos, saved as the Actions secret VISIBILITY_TOKEN (the built-in GITHUB_TOKEN can't do it).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */2 * * *'
+  workflow_run:
+    workflows: ["Daily snapshot"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: guard
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Scan both repos; re-publish a private one only if it is clean
+        env:
+          ADMIN: ${{ secrets.VISIBILITY_TOKEN }}
+          BUILTIN: ${{ github.token }}
+        run: |
+          status=0
+          for r in roblox-tracker roblox-ccu; do
+            tok="${ADMIN:-$BUILTIN}"
+            vis=$(GH_TOKEN="$tok" gh repo view "Lazlo25/$r" --json visibility -q .visibility 2>/dev/null || echo UNREADABLE)
+            echo "Lazlo25/$r: $vis"
+            if [ "$vis" = "UNREADABLE" ]; then
+              echo "::error::Lazlo25/$r can't be read (made private?) and VISIBILITY_TOKEN isn't set, so it can't be checked or re-published"
+              status=1; continue
+            fi
+            rm -rf "/tmp/$r" && git init -q "/tmp/$r"
+            git -C "/tmp/$r" fetch -q --depth 1 "https://x-access-token:$tok@github.com/Lazlo25/$r" '+refs/heads/*:refs/remotes/origin/*'
+            if python3 tools/privacy_scan.py "/tmp/$r"; then
+              if [ "$vis" = "PRIVATE" ]; then
+                if [ -n "$ADMIN" ]; then
+                  GH_TOKEN="$ADMIN" gh repo edit "Lazlo25/$r" --visibility public --accept-visibility-change-consequences
+                  echo "::warning::Lazlo25/$r was private; its scan is clean, so it was made public again"
+                else
+                  echo "::error::Lazlo25/$r is private; scan is clean but VISIBILITY_TOKEN isn't set, so it stays private"; status=1
+                fi
+              fi
+            else
+              echo "::error::Lazlo25/$r has findings (listed above by location only); it was not re-published"; status=1
+            fi
+          done
+          exit $status

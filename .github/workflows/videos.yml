@@ -1,10 +1,14 @@
 name: Gameplay videos
 
 # After each daily snapshot (or on demand): pick long-running hits that still need a gameplay video, download the Roblox
-# preview video of each that has one, and cut contact sheets for the cloud Claude run to label. The sheets wait on the
+# preview video of each that has one, and cut contact sheets for the cloud Claude run to label. Frames Grok pushed to
+# videos/incoming/<universe>/ (YouTube fallback) are turned into contact sheets the same way. The sheets wait on the
 # `videos` branch until labeled. Games without a Roblox video are marked for the Mac's YouTube task.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['videos/incoming/**']   # Grok's YouTube frames
   workflow_run:
     workflows: ["Daily snapshot"]
     types: [completed]
@@ -31,6 +35,7 @@ jobs:
       - name: Pick candidates and cut sheets of their Roblox preview videos
         run: |
           git pull -q --rebase
+          python3 video.py grok-frames
           python3 video.py candidates
           python3 video.py roblox
 

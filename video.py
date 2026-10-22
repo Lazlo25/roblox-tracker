@@ -13,7 +13,12 @@ A game qualifies once, when all of these hold on the latest day:
                                                   sheets into work/videos/<universe>/; games without one are marked youtube_needed
   python3 video.py youtube [--limit N]            for youtube_needed games: pick the most-watched 8+ minute YouTube video with yt-dlp,
                                                   cut contact sheets from its first 20 minutes, then delete the file
-  python3 video.py hist-todo --out F              top-100 games still without Rolimons history -> F ([[universe, place], ...])
+  python3 video.py hist-todo --out F [--offline]  top-100 games still without Rolimons history -> F ([[universe, place], ...]);
+                                                  --offline skips Rolimons' game list (Grok skips games Rolimons doesn't have)
+  python3 video.py hist-import --dir D --out F    index Rolimons history files in D (D/<universe>.json, e.g. Grok's rolimons/) that
+                                                  aren't indexed yet; F = their universe ids, for the cloud run to upload
+  python3 video.py youtube-todo --out F           youtube_needed games -> F ([{u, name, place}]) for Grok
+  python3 video.py grok-frames                    turn Grok's videos/incoming/<universe>/ frames into contact sheets (frames_ready)
   python3 video.py ingest                         read work/videos/<universe>/video_labels.json into profiles/<universe>.json
 """
 import argparse, datetime as dt, glob, gzip, json, os, re, shutil, statistics, subprocess, sys, tempfile, urllib.request, urllib.parse
@@ -28,6 +33,8 @@ INDEX = os.path.join(VID, 'hist_index.json')
 QUEUE = os.path.join(VID, 'queue.json')
 WORK = os.path.join(HERE, 'work', 'videos')
 PROFILES = os.path.join(HERE, 'profiles')
+ROLI = os.path.join(HERE, 'rolimons')
+INCOMING = os.path.join(VID, 'incoming')
 MP_TOP, TE_TOP, MIN_AGE = 50, 100, 547   # 547 days = 1.5 years
 BAND = (0.5, 2.0)                        # every month's median CCU within half to double the year's median
 YT_MIN_SECONDS = 480
@@ -132,8 +139,10 @@ def cmd_hist_todo(a):
                     first_top.setdefault(d['u'][i], d['date'])
         old_enough = lambda u: u in first_top and (today - dt.date.fromisoformat(first_top[u])).days >= HIST_MIN_AGE
     missing = [u for u in dict.fromkeys(top) if u not in idx and meta.get(u, {}).get('pl') and old_enough(u)]
-    listed = get('https://api.rolimons.com/games/v1/gamelist', ua='roblox-tracker personal research')['games']
-    todo = [[u, meta[u]['pl']] for u in missing if meta[u]['pl'] in listed]
+    not_listed = set(load(os.path.join(ROLI, 'not_listed.json'), []))  # Grok records games Rolimons has no page for
+    missing = [u for u in missing if u not in not_listed]
+    listed = None if a.offline else get('https://api.rolimons.com/games/v1/gamelist', ua='roblox-tracker personal research')['games']
+    todo = [[u, meta[u]['pl']] for u in missing if listed is None or meta[u]['pl'] in listed]
     with open(a.out, 'w') as f:
         json.dump(todo, f)
     print('OK hist-todo need=%d (not on Rolimons: %d)' % (len(todo), len(missing) - len(todo)))
@@ -220,7 +229,6 @@ def duration(ff, path):
 
 def cut_sheets(path, out, n_frames, start=0.0, span=None):
     """n_frames evenly spaced frames from [start, start+span] and the contact sheets they go on (12 frames each)."""
-    from PIL import Image, ImageDraw
     ff = find_ffmpeg()
     if not ff:
         sys.exit('NO FFMPEG: install ffmpeg (or pip install imageio-ffmpeg)')
@@ -236,6 +244,15 @@ def cut_sheets(path, out, n_frames, start=0.0, span=None):
         subprocess.run([ff, '-y', '-v', 'error', '-ss', '%.2f' % t, '-i', path, '-frames:v', '1', '-vf', 'scale=320:-2', f], check=False)
         if os.path.exists(f):
             frames.append((t, f))
+    make_sheets(frames, out)
+    for _, f in frames:
+        os.remove(f)
+    return len(frames), total
+
+
+def make_sheets(frames, out):
+    """[(seconds, image path)] -> out/sheet_N.jpg, 12 frames per sheet, time stamped."""
+    from PIL import Image, ImageDraw
     for s in range(0, len(frames), 12):
         group = frames[s:s + 12]
         sheet = Image.new('RGB', (4 * 322, 3 * 200), (31, 31, 31))
@@ -245,9 +262,6 @@ def cut_sheets(path, out, n_frames, start=0.0, span=None):
             sheet.paste(Image.open(f).convert('RGB').resize((320, 180)), (x, y + 18))
             draw.text((x + 4, y + 3), '%d:%02d' % (t // 60, t % 60), fill='white')
         sheet.save(os.path.join(out, 'sheet_%d.jpg' % (s // 12 + 1)), 'JPEG', quality=78)
-    for _, f in frames:
-        os.remove(f)
-    return len(frames), total
 
 
 # ---------------------------------------------------------------- Roblox preview videos
@@ -348,6 +362,52 @@ def cmd_youtube(a):
     print('OK youtube games=%d' % len(todo))
 
 
+# ---------------------------------------------------------------- hand-offs with Grok
+def cmd_hist_import(a):
+    idx, new = load(INDEX, {}), []
+    for f in sorted(glob.glob(os.path.join(a.dir, '*.json'))):
+        h = load(f, None)
+        if not isinstance(h, dict) or not h.get('c') or not h.get('u') or str(h['u']) in idx:
+            continue
+        ok, lo, hi = stable_baseline(h['c'])
+        idx[str(h['u'])] = {'stable': ok, 'lo': lo, 'hi': hi, 'days': len(h['c']), 'through': h.get('through')}
+        new.append(str(h['u']))
+    save(INDEX, idx)
+    with open(a.out, 'w') as f:
+        json.dump(new, f)
+    print('OK hist-import new=%d' % len(new))
+
+
+def cmd_youtube_todo(a):
+    state = load(STATE, {})
+    q = {g['u']: g for g in load(QUEUE, {}).get('queue', [])}
+    todo = [{'u': u, 'name': q[u]['name'], 'place': q[u].get('place', '')} for u, s in state.items() if s['status'] == 'youtube_needed' and u in q]
+    with open(a.out, 'w') as f:
+        json.dump(todo, f, ensure_ascii=False, indent=1)
+    print('OK youtube-todo need=%d' % len(todo))
+
+
+def cmd_grok_frames(a):
+    """videos/incoming/<u>/: meta.json + frame images (Grok) -> work/videos/<u>/ contact sheets, status frames_ready."""
+    state, done = load(STATE, {}), 0
+    for d in sorted(glob.glob(os.path.join(INCOMING, '*'))):
+        u, meta = os.path.basename(d), load(os.path.join(d, 'meta.json'), None)
+        imgs = sorted(glob.glob(os.path.join(d, '*.jpg')) + glob.glob(os.path.join(d, '*.png')))
+        if not meta or not imgs:
+            continue
+        times = meta.get('times') or [i * (meta.get('seconds') or 0) / max(1, len(imgs)) for i in range(len(imgs))]
+        out = os.path.join(WORK, u)
+        os.makedirs(out, exist_ok=True)
+        make_sheets(list(zip(times, imgs)), out)
+        meta.update({'u': u, 'source': meta.get('source', 'youtube'), 'frames': len(imgs)})
+        save(os.path.join(out, 'meta.json'), meta)
+        state[u] = {'status': 'frames_ready', 'source': meta['source'], 'video_id': meta.get('video_id'), 'at': dt.date.today().isoformat()}
+        shutil.rmtree(d)
+        done += 1
+    save(STATE, state)
+    print('OK grok-frames games=%d' % done)
+
+
 # ---------------------------------------------------------------- labels
 def cmd_ingest(a):
     state, ok, bad = load(STATE, {}), 0, 0
@@ -383,9 +443,16 @@ def main():
         sub.add_parser(name).add_argument('--date')
     sub.add_parser('youtube').add_argument('--limit', type=int, default=3)
     sub.add_parser('ingest')
-    sub.add_parser('hist-todo').add_argument('--out', required=True)
+    ht = sub.add_parser('hist-todo')
+    ht.add_argument('--out', required=True)
+    ht.add_argument('--offline', action='store_true')
+    hi = sub.add_parser('hist-import')
+    hi.add_argument('--dir', required=True)
+    hi.add_argument('--out', required=True)
+    sub.add_parser('youtube-todo').add_argument('--out', required=True)
+    sub.add_parser('grok-frames')
     a = ap.parse_args()
-    {'index': cmd_index, 'candidates': cmd_candidates, 'roblox': cmd_roblox, 'youtube': cmd_youtube, 'ingest': cmd_ingest, 'hist-todo': cmd_hist_todo}[a.cmd](a)
+    {'index': cmd_index, 'candidates': cmd_candidates, 'roblox': cmd_roblox, 'youtube': cmd_youtube, 'ingest': cmd_ingest, 'hist-todo': cmd_hist_todo, 'hist-import': cmd_hist_import, 'youtube-todo': cmd_youtube_todo, 'grok-frames': cmd_grok_frames}[a.cmd](a)
 
 
 if __name__ == '__main__':
