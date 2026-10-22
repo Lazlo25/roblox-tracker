@@ -393,6 +393,10 @@ def cmd_grok_frames(a):
     for d in sorted(glob.glob(os.path.join(INCOMING, '*'))):
         u, meta = os.path.basename(d), load(os.path.join(d, 'meta.json'), None)
         imgs = sorted(glob.glob(os.path.join(d, '*.jpg')) + glob.glob(os.path.join(d, '*.png')))
+        if meta and meta.get('no_video'):
+            state[u] = {'status': 'no_video', 'at': dt.date.today().isoformat()}
+            shutil.rmtree(d)
+            continue
         if not meta or not imgs:
             continue
         times = meta.get('times') or [i * (meta.get('seconds') or 0) / max(1, len(imgs)) for i in range(len(imgs))]
