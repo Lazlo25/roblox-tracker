@@ -1,8 +1,8 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "queue": [
   {
-   "age_days": 1749,
+   "age_days": 1750,
    "charts": [
     "mp"
    ],
@@ -12,7 +12,18 @@
    "u": "3240075297"
   },
   {
-   "age_days": 1205,
+   "age_days": 2679,
+   "charts": [
+    "mp",
+    "te"
+   ],
+   "name": "Driving Empire [✨2 NEW LIMTED✨]",
+   "place": "3351674303",
+   "status": "youtube_needed",
+   "u": "1202096104"
+  },
+  {
+   "age_days": 1206,
    "charts": [
     "mp"
    ],
@@ -22,28 +33,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 2678,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Driving Empire [RP SERVERS✨]",
-   "place": "3351674303",
-   "status": "youtube_needed",
-   "u": "1202096104"
-  },
-  {
-   "age_days": 1954,
-   "charts": [
-    "mp"
-   ],
-   "name": "Fling Things and People",
-   "place": "6961824067",
-   "status": "youtube_needed",
-   "u": "2668101271"
-  },
-  {
-   "age_days": 953,
+   "age_days": 954,
    "charts": [
     "te"
    ],
@@ -53,7 +43,7 @@
    "u": "5750914919"
   },
   {
-   "age_days": 1223,
+   "age_days": 1224,
    "charts": [
     "te"
    ],
@@ -63,7 +53,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 2310,
+   "age_days": 2311,
    "charts": [
     "te"
    ],
@@ -73,7 +63,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 2656,
+   "age_days": 2657,
    "charts": [
     "te"
    ],
@@ -83,17 +73,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 1480,
-   "charts": [
-    "te"
-   ],
-   "name": "Baddies 💅",
-   "place": "11158043705",
-   "status": "youtube_needed",
-   "u": "3990106548"
-  },
-  {
-   "age_days": 1837,
+   "age_days": 1838,
    "charts": [
     "te"
    ],
@@ -103,7 +83,17 @@
    "u": "2992873140"
   },
   {
-   "age_days": 2464,
+   "age_days": 1481,
+   "charts": [
+    "te"
+   ],
+   "name": "Baddies 💅",
+   "place": "11158043705",
+   "status": "youtube_needed",
+   "u": "3990106548"
+  },
+  {
+   "age_days": 2465,
    "charts": [
     "te"
    ],
@@ -113,7 +103,7 @@
    "u": "1516533665"
   },
   {
-   "age_days": 657,
+   "age_days": 658,
    "charts": [
     "te"
    ],
