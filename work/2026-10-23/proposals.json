@@ -1,0 +1,29 @@
+{
+ "new": [
+  {"chart": "tt", "statement": "Young games built on incremental mechanics (gain a little per action, then multiply it) climb Top Trending faster than other games of similar age",
+   "action": "Build an incremental core loop",
+   "test": {"feature": "mech_incremental", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+  {"chart": "uc", "statement": "Games with a collection index (complete-the-index goals) rank higher on Up-and-Coming among games of the same age",
+   "action": "Add a collection index",
+   "test": {"feature": "mech_collect_index", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+  {"chart": "te", "statement": "Reward-flex thumbnails (big $/s numbers, rare items) go with lower monetization efficiency",
+   "action": "Skip big-number thumbnails for revenue",
+   "test": {"feature": "thumb=reward_flex", "metric": "te_eff", "type": "binary", "direction": "-"}},
+  {"chart": "x", "kind": "qualitative", "confidence": 30,
+   "statement": "Joining a Roblox-run cross-game event (The Hollow) lifts participating games onto the breakout charts during the event window",
+   "action": "Join platform-wide Roblox events",
+   "rationale": "The Hollow (10 days, run by Roblox Presents) went straight to #1 on Up-and-Coming, #2 on Top Trending and #7 on Most Popular. DOORS carries 'Part of THE HOLLOW Event' in its description and Steal Or Die shows Hollow branding in its thumbnails; Flee the Facility, a 3,401-day game, re-entered Most Popular and Top Trending. Confirm by tracking participating games' moves through Oct 31 against non-participants of similar age and genre, and whether the lift reverses after the event; Halloween itself is a confounder."},
+  {"chart": "te", "kind": "qualitative", "confidence": 25,
+   "statement": "Games built on a fandom's existing IP or a close look-alike (Adventure Time TD, My Little Pony horror, Warrior Cats, Vampire Diaries roleplay, Sword Art Online, Thanos) reach Top Earning with modest player counts by selling canon characters, roles and early access",
+   "action": "Sell canon characters to a fandom",
+   "rationale": "Six of today's Top Earning entries or profiled games lean on a known franchise: Candy Kingdom Defense, PINKIE PROMISE (Season Pass, Chapter 2 early access), Warrior Cats: Lake Territory (paid beta, #460), The Vampire Legends 2 (character passes 1,000-2,000 R$), Sword Art: Eternity, Thanos Simulator. A title/description flag for franchise names would let the scan test efficiency against similar-age games; licensing risk is a real counterweight."}
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-019", "confidence": 30, "note": "DONT SPLASH (6 days) still leads Up-and-Coming and Top Trending and entered Most Popular; Steal Or Die adds a monster that hears players' real voices in VC-only servers. Still a small, Halloween-timed cluster."},
+  {"id": "H-x-006", "confidence": 55, "note": "Clone Baby Care (Anomaly) leads Top Trending momentum and rose +29 on Most Popular at 14 days; no new anomaly entries today. Held."},
+  {"id": "H-x-011", "confidence": 43, "note": "Mixed: two boss-guarded steal variants (Beat the Boss & Steal, Steal from Gods) entered Up-and-Coming and Don't Steal My Eggs! entered Top Trending, but Steal an Clown Egg fell -20 on Up-and-Coming and Steal an EXE Egg -46 on Top Earning; Steal An Egg still leads Most Popular. The template keeps spawning entries that fade quickly."},
+  {"id": "H-x-010", "confidence": 47, "note": "Bike Universe rose +27 on Most Popular and +87 on Top Earning at 26 days; NexRide entered Up-and-Coming. Drag Drive Simulator and Drive A Kukirin! sit low or fell on Most Popular, so the niche lifts the newest titles more than older ones."}
+ ],
+ "actions": [],
+ "retire": []
+}

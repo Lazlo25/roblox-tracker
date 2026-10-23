@@ -1,0 +1,615 @@
+[
+ {
+  "label": "Q31",
+  "loop": "spawn trucks and off-road vehicles -> drive mud trails and tow/haul -> customize vehicles -> roleplay with friends",
+  "loop_archetype": "racing_driving",
+  "objectives": "enjoy realistic off-roading and build your truck setup",
+  "progression": "vehicle packs, customization",
+  "instructions": "off-road, play with friends, roleplay, customize",
+  "mechanics": [
+   "off-roading",
+   "mud physics",
+   "towing",
+   "trailers",
+   "customization",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "deep mud off-road physics focus"
+  ],
+  "themes": [
+   "trucks",
+   "rural south",
+   "off-road"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "realistic-vehicles"
+  ],
+  "monetization_signals": [
+   "vehicle packs",
+   "spawn slots",
+   "gift versions",
+   "houses"
+  ],
+  "update_signals": [
+   "updates every Friday",
+   "Oct 23 map expansion"
+  ],
+  "thumbnails": "realistic red pickup trucks, ATV in mud",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large realistic map, vehicle physics",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q32",
+  "loop": "blow bubble gum to grow -> jump into the clouds -> hatch rare pets -> rebirth and chase event rewards",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "hatch the rarest pets and grow bubbles",
+  "progression": "bubble size, pets, rebirths, potions, events",
+  "instructions": "blow bubble gum, discover islands, hatch rare pets",
+  "mechanics": [
+   "bubble size",
+   "pet hatching",
+   "islands",
+   "fishing",
+   "rebirth",
+   "potions",
+   "weekly events"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "bubble gum",
+   "pets",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pets",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "discounted passes",
+   "spin tickets",
+   "chest respawns",
+   "bundles"
+  ],
+  "update_signals": [
+   "updates every Friday 2PM EST",
+   "Halloween Part 2.5"
+  ],
+  "thumbnails": "cute pet blowing bubble with '+1T', '+1M'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "mature sim with many islands and systems",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q33",
+  "loop": "serve customers and cook dishes -> earn cash -> build and decorate restaurant -> earn offline",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow a successful restaurant",
+  "progression": "cash, restaurant build, milestones, challenges",
+  "instructions": "click to serve, cook, build and upgrade restaurant",
+  "mechanics": [
+   "serving",
+   "cooking",
+   "building",
+   "offline income",
+   "boss battle event"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "restaurant",
+   "food",
+   "halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "tycoon"
+  ],
+  "monetization_signals": [
+   "sandbox mode",
+   "cash/diamond packs",
+   "customer luck",
+   "auto collection"
+  ],
+  "update_signals": [
+   "Halloween boss battle"
+  ],
+  "thumbnails": "logo with burger, restaurant builds, chefs",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "free building system, customer AI",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q34",
+  "loop": "capture wild horses -> care for and train them -> sell horses and resources -> customize, trade and race",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build an ultimate horse collection",
+  "progression": "horses, training, stables, races",
+  "instructions": "capture horses, train, bond, trade, compete in races",
+  "mechanics": [
+   "taming",
+   "horse care",
+   "training",
+   "trading",
+   "racing",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "horses",
+   "western",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "animal-sim",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "horse products",
+   "hair dyes",
+   "VIP",
+   "2x XP",
+   "trading"
+  ],
+  "update_signals": [
+   "Autumn + Halloween event 200+ limited items"
+  ],
+  "thumbnails": "stylized horses, rider with lasso, races",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large islands, detailed horse animation",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q35",
+  "loop": "loot a building under time pressure while a monster hunts you -> hide in closets/vents -> escape with loot or play as the monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal rare loot and escape alive, or hunt as the entity",
+  "progression": "cash, cases, cosmetics",
+  "instructions": "steal 37 items, hide, or be the monster; voice-chat servers",
+  "mechanics": [
+   "looting",
+   "weight slows you",
+   "hiding",
+   "voice-detecting monster",
+   "play as monster",
+   "VR support"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "monster hears your real voice in VC-only servers",
+   "loot weight trade-off"
+  ],
+  "themes": [
+   "horror",
+   "heist",
+   "creature"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "the-hollow",
+   "voice-chat",
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "2x entity chance",
+   "cases",
+   "cash packs",
+   "revive"
+  ],
+  "update_signals": [
+   "v1.6 VC servers"
+  ],
+  "thumbnails": "dark found-footage frames, creature 'The Locust', 'IT WON'T LET YOU GO'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "building map, monster AI, voice detection",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q36",
+  "loop": "choose vampire/witch/werewolf -> explore TV-show-like towns -> use powers in fights and roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "play your supernatural character",
+  "progression": "characters, abilities",
+  "instructions": "choose species, explore, customize or use pre-made characters",
+  "mechanics": [
+   "species abilities",
+   "roleplay",
+   "pvp combat",
+   "character customization"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "Vampire Diaries / Originals fan roleplay with paid canon characters"
+  ],
+  "themes": [
+   "vampires",
+   "witches",
+   "werewolves",
+   "tv drama"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tv-fandom-rp",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "character passes up to 2000",
+   "bundles 10000"
+  ],
+  "update_signals": [
+   "codes at like goals"
+  ],
+  "thumbnails": "cast of vampire/witch characters, moonlit town",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "multiple locations, ability system",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q37",
+  "loop": "pick red or blue -> drive car onto arena -> ram enemies off the edge -> last team standing wins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "push the other team into the water",
+  "progression": "money, cars, bumpers",
+  "instructions": "pick team, hit the gas, ram enemy cars off the edge",
+  "mechanics": [
+   "vehicle sumo",
+   "teams",
+   "rounds",
+   "bumper upgrades"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "team car sumo with bumper attachments"
+  ],
+  "themes": [
+   "cars",
+   "sumo",
+   "arena"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "car-pvp",
+   "red-vs-blue",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x money",
+   "car/bumper products",
+   "money packs"
+  ],
+  "update_signals": [
+   "codes"
+  ],
+  "thumbnails": "blocky cars with scoop and spike bumpers, 'NOW' hourglass",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single arena, simple vehicles",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "upgrade a single dropper -> earn cash -> buy machines on rows -> rebirth for tokens",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "become the richest with one dropper",
+  "progression": "machines, rows, rebirths, perks",
+  "instructions": "only one dropper; upgrade it and become richest",
+  "mechanics": [
+   "single dropper",
+   "machine upgrades",
+   "rebirth",
+   "server events",
+   "friend boost"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "tycoon reduced to one dropper"
+  ],
+  "themes": [
+   "tycoon",
+   "factory",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "x-but",
+   "tycoon",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "2x cash/rebirth",
+   "turbo dropper",
+   "cash packs",
+   "spins",
+   "skip to rebirth"
+  ],
+  "update_signals": [
+   "UPD 5: Treasure Island & Olympus"
+  ],
+  "thumbnails": "single dropper over conveyor, 'Halloween Update!'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "conveyor and machine rows",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "master grimoire spells -> fight bosses and raids -> fish, mine, craft -> grow through skill trees as a Magic Knight",
+  "loop_archetype": "story_adventure",
+  "objectives": "rise among the Magic Knights",
+  "progression": "grimoires, spells, awakenings, skill trees",
+  "instructions": "discover grimoires, unlock spells, explore by broom",
+  "mechanics": [
+   "grimoire magic",
+   "combos",
+   "awakenings",
+   "bosses",
+   "raids",
+   "gathering",
+   "AFK rewards",
+   "clan spins"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Black Clover anime-inspired grimoire system"
+  ],
+  "themes": [
+   "anime",
+   "black clover",
+   "magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "black-clover"
+  ],
+  "monetization_signals": [
+   "bundles up to 6999",
+   "arcanite",
+   "clan spins",
+   "VIP"
+  ],
+  "update_signals": [
+   "beta",
+   "codes at like goals"
+  ],
+  "thumbnails": "anime-style split face fire/green, dark knight",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open map, spell combos, raids",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q40",
+  "loop": "drive realistic cars in a Mojave, CA town -> earn money from driving and jobs -> buy cars and mods -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "earn and roleplay",
+  "progression": "cash, car classes, mods",
+  "instructions": "earn money driving or roleplay; codes at like goals",
+  "mechanics": [
+   "realistic driving",
+   "jobs",
+   "car mods",
+   "drive-to-earn",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Roblox Plus/Premium payout bonuses"
+  ],
+  "themes": [
+   "california",
+   "cars",
+   "realistic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic-rp",
+   "state-rp"
+  ],
+  "monetization_signals": [
+   "car class passes",
+   "currency packs",
+   "skip day"
+  ],
+  "update_signals": [
+   "fall update",
+   "car mods"
+  ],
+  "thumbnails": "realistic car renders in town",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic town, vehicle systems",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "defeat enemies -> collect Infinity Stones with unique abilities and worlds -> unlock weapons -> rebirth",
+  "loop_archetype": "combat_pvp",
+  "objectives": "unlock all six Infinity Stones and weapons",
+  "progression": "stones, shards, rebirths, weapons",
+  "instructions": "defeat enemies, unlock stones, rebirth",
+  "mechanics": [
+   "abilities",
+   "bosses",
+   "rebirth",
+   "weapons",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Marvel Infinity Stone power sets per world"
+  ],
+  "themes": [
+   "marvel",
+   "thanos",
+   "superpowers"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "superhero",
+   "marvel"
+  ],
+  "monetization_signals": [
+   "unlock all stones",
+   "weapon passes",
+   "rebirth/shard products"
+  ],
+  "update_signals": [
+   "frequent versioned updates"
+  ],
+  "thumbnails": "golden Thanos-like avatar firing beams",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "six worlds, ability VFX",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q42",
+  "loop": "one player farts to launch the other across gaps -> pull them across with a rope -> beat themed courses",
+  "loop_archetype": "obby_platformer",
+  "objectives": "finish all courses with a friend",
+  "progression": "stages, leaderboard",
+  "instructions": "team up or solo; fart to launch partner, rope across",
+  "mechanics": [
+   "co-op launch",
+   "rope",
+   "stages",
+   "troll products"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "fart-launch partner co-op obby"
+  ],
+  "themes": [
+   "fart humor",
+   "toilet humor"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "2-player-obby",
+   "fart"
+  ],
+  "monetization_signals": [
+   "troll products (give diarrhea, fart on server)",
+   "skip stage",
+   "cosmetics"
+  ],
+  "update_signals": [],
+  "thumbnails": "noob launched by green fart cloud",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "three courses, rope physics",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q43",
+  "loop": "place iconic retro Roblox characters as towers -> stop noob waves -> earn Tix and EXP -> unlock and trade towers",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat modes and collect towers",
+  "progression": "towers, tiers, skins, events",
+  "instructions": "stop the noob invasion, team up, use codes",
+  "mechanics": [
+   "tower defense",
+   "trading",
+   "missions",
+   "events",
+   "endless mode"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "nostalgia retro-Roblox characters as towers"
+  ],
+  "themes": [
+   "retro roblox",
+   "area 51",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "td",
+   "retro-roblox",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "tower unlock passes",
+   "tier skips",
+   "skins",
+   "sandbox"
+  ],
+  "update_signals": [
+   "Area 51 campaign",
+   "Halloween event"
+  ],
+  "thumbnails": "Area 51 creature, Halloween towers",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many towers and maps",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

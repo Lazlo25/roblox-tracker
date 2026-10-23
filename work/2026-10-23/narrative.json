@@ -1,0 +1,91 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "The top is unchanged: Steal An Egg (90 days) leads ahead of Brookhaven, Murder Mystery 2, RIVALS, 99 Nights in the Forest and +1 Speed Keyboard Escape.",
+    "Sixteen games entered, led by The Hollow, Roblox's own Halloween event, at #7 after 10 days, plus DONT SPLASH (6 days), Fix My Phone!, Feed A Mosquito, Free Fire Zone (Max) and the 9-year-old Flee the Facility.",
+    "The biggest risers are young: Ride a Dino +35 (60 days), Clone Baby Care (Anomaly) +29 (14 days), Bike Universe +27 (26 days) and DIVINE HATCHERS +25 (22 days).",
+    "Fallers include +1 Stone Skipping -36, Ride A Pet -30 and Realistic Phone Drop Test -28, so curiosity and +1 games lose ground fast once the novelty passes.",
+    "Games 0–14 days hold a median pillar percentile of 74 and multi-year games 58, against 31–47 for everything in between, consistent with the mid-life trough in H-mp-009."
+   ],
+   "patterns": [
+    "Higher pass and product prices consistently go with longer and higher presence (median product price above 475 R$ split r=+0.46 on days; H-mp-001 at 70%).",
+    "Games left more than about 8 days without an update stay fewer days (r=-0.54 at the split), which keeps 'Update at least weekly' at 65%.",
+    "A high favorite rate per visit goes with lower positions: evergreens convert a smaller share of their huge visit counts into favorites, so this is a lifecycle marker, not a lever.",
+    "Halloween tags dominate titles and The Hollow ties several games (DOORS, Flee the Facility) to one platform event, so this week's horror lift is partly seasonal."
+   ],
+   "outliers": [
+    {"name": "The Hollow", "note": "No passes, no products and an 83% like ratio, yet #7 after 10 days; Roblox's own promotion and cross-game quests explain it, so it says nothing about what an independent developer can copy."},
+    {"name": "Flee the Facility", "note": "A 3,401-day game re-entering Most Popular, likely carried by the Halloween season and horror demand rather than a structural change."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again top monetization efficiency, followed by Elemental Dungeons, Spin a KPOP Idol and Dinosaur Simulator.",
+    "Efficiency keeps rising with age: median percentile 25 at 15–42 days, 42 at 43–84 days, 57 at 85–122 days and 59 past a year.",
+    "Big risers include +1 Venom Evolution +118 (18 days), Anime Dimensions Simulator +111 and Bike Universe +87, consistent with revenue catching up with young breakouts (H-te-018).",
+    "Ten games entered, several built on an existing fandom: Candy Kingdom Defense (Adventure Time), Warrior Cats: Lake Territory (paid beta), Sword Art: Eternity, alongside +1 Gun Forge and +1 Laser Destruction.",
+    "Steal an EXE Egg -46, Shoot For Eggs -46 and Prehistoric Farm -51 fell, again putting egg and steal games among the weakest earners per player."
+   ],
+   "patterns": [
+    "A median developer product price above 79 R$ consistently goes with higher efficiency (r=+0.40 at the split), still the strongest page-level lever.",
+    "RPGs (r=+0.46), roleplay hubs (r=+0.34) and PvP combat consistently earn more per player; Simulation, Survival, steal/defend and pet/egg loops earn less.",
+    "Complexity, longer descriptions, bigger servers and more passes all go with efficiency; game age is a shared confounder for all of them.",
+    "Reward-flex thumbnails go with lower efficiency (r=-0.21), now proposed as its own hypothesis; big-number simulators pull players but earn less from each.",
+    "Fandom games sell canon characters, roles, season passes and early access at high prices (Vampire Legends 2 passes up to 2,000 R$), a speculative pattern worth tracking."
+   ],
+   "outliers": [
+    {"name": "[🚧] Warrior Cats: Lake Territory", "note": "No passes or products at all, yet on Top Earning: the private beta itself is paid access, a revenue route the page features can't see."},
+    {"name": "[🎃] Spin a KPOP Idol", "note": "A solo simulator in the top efficiency group, against both patterns; gacha spins on a fandom theme likely carry high spending per player."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "Clone Baby Care (Anomaly, 14 days) leads momentum, followed by +1 Venom Evolution, Bike Universe, Something is Wrong With My Dog..., DONT SPLASH and +1 Dance Battle Evolution.",
+    "The youngest games carry the most momentum: 0–14 days median percentile 89 against 38 at 43–84 days and 26 at 85–122 days (H-tt-001 at 62%).",
+    "Fifteen games entered, including The Hollow, Ragdoll Reality (10 days), Don't Steal My Eggs! and Create a Robot Fighter, plus re-surfacing RIVALS and Flee the Facility.",
+    "Make Ramen To Get Rich -28, Kill Your Friend! -20 and Skate Tree -17 fell; the job and party sims at the bottom (Clean the House!, Paint the Face, Make a Pancake!) sell many passes."
+   ],
+   "patterns": [
+    "Incremental mechanics (r=+0.52 on momentum) and a collection index (r=+0.51 on position, +0.67 within age) are the strongest young-game signals today; both are now tested hypotheses.",
+    "Reward-flex thumbnails tend to go with stronger momentum (H-tt-006 rose to 62%), the opposite of their Top Earning association, so they buy reach rather than revenue.",
+    "Launching with more than 8 passes tends to go with lower positions (H-tt-032 at 66%); the weakest games carry 16–49 passes.",
+    "Co-op games tend to hold higher positions (H-tt-023 at 62%) and drivable vehicles do too (H-tt-033 at 60%), with Rally Panic! and Bike Universe as examples."
+   ],
+   "outliers": [
+    {"name": "Something is Wrong With My Dog...", "note": "At 58 days it still climbs strongly, against the 6-week fade; an audience that already knew the viral original likely sustains it."},
+    {"name": "[🥞] Make a Pancake!", "note": "Among the weakest despite a fresh concept; 16 passes and 42 products at 77 days fit the over-monetized-launch pattern."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "The Hollow entered at #1, ahead of DONT SPLASH, Bike Universe, Backseat Rally, Steel Fighters and Clone Baby Care (Anomaly).",
+    "Fourteen games entered, including two boss-guarded steal variants (Beat the Boss & Steal, Steal from Gods), Adopt Your Animal!, Freeze Tag, Find Animal Bones and Prove Your Innocence!.",
+    "Ragdoll Reality rose +59 and Create a Robot Fighter +42; Catastrophic Horse Racing -30, Kill Your Friend! -26 and Harpoon a Fish -24 fell.",
+    "Games 14 days or younger hold a median percentile of 77 against 48 at 15–42 days (H-uc-005 at 63%)."
+   ],
+   "patterns": [
+    "Server-wide products consistently go with lower positions within age (H-uc-032 at 70%), the strongest launch-pricing signal on this chart.",
+    "Bracket tags and caps-heavy titles tend to go with lower positions among same-age games (H-uc-004 at 67%), even though the same tags go with better efficiency on Top Earning.",
+    "'Play with friends' co-op pitches tend to rank lower (H-uc-013 at 66%), while building loops and auto-play passes also tend to sit lower.",
+    "Physics sandboxes (Ragdoll Reality, Smash the City) and playground-game formats (Freeze Tag, Huss Valley-style tag) are recurring entry types this week."
+   ],
+   "outliers": [
+    {"name": "Ragdoll Reality 🩸", "note": "Solo, a 78% like ratio and 16 passes, yet +59 in a day; an injury-specific ragdoll system plus a Halloween zombie mode gives it a novel, clip-friendly hook."},
+    {"name": "Steel Fighters", "note": "Near the top despite a build loop, luck and auto-play passes, all of which usually go with lower positions; it is the main counterexample to three hypotheses."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Games pull players first and monetize later: the youngest games lead Top Trending and Up-and-Coming, while Top Earning efficiency rises from the 25th percentile at 15–42 days to the 59th past a year.",
+   "Roblox's own Halloween event, The Hollow, entered three charts at once and links participating games (DOORS, Steal Or Die); seasonal and platform promotion confound this week's horror lift.",
+   "Reach and revenue pull apart: reward-flex thumbnails, incremental loops and steal/egg templates help breakout charts but go with lower Top Earning efficiency.",
+   "Launch lean, deepen later: many passes and server-wide products go with weaker breakout, while higher prices and more passes go with efficiency in older games."
+  ],
+  "progressions": [
+   "tt→mp remains the most common transition (94 entries, median 2 days), followed by uc→tt (87, 2 days) and te→tt (61, 7 days).",
+   "uc→mp (59, 4 days), tt→te (55, 4 days) and uc→te (55, 4 days) show breakouts reaching dominance and revenue within a week, while tt→uc stays at 1, so games still appear on Up-and-Coming first."
+  ]
+ }
+}

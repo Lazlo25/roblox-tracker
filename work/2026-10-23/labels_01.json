@@ -1,0 +1,682 @@
+[
+ {
+  "label": "Q01",
+  "loop": "enter The Hollow each night -> explore a changing horror location -> complete event quests here and in partner games -> earn avatar items",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive The Hollow until Oct 31 and complete event quests for free avatar items",
+  "progression": "event quests, badges, avatar item rewards across nights",
+  "instructions": "don't go in; event opens Oct 22, complete quests here and in participating experiences to earn items",
+  "mechanics": [
+   "exploration",
+   "event quests",
+   "cross-game quests",
+   "nightly changing map",
+   "live creator appearances"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "official Roblox-run cross-experience Halloween event with live creators",
+   "nightly shifting location tied to other games"
+  ],
+  "themes": [
+   "horror",
+   "halloween",
+   "mascot monsters",
+   "mystery"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "roblox-event",
+   "halloween",
+   "creator-collab"
+  ],
+  "monetization_signals": [],
+  "update_signals": [
+   "Halloween event Oct 22-31",
+   "nightly changes"
+  ],
+  "thumbnails": "key art of horror mascots (Piggy-like, Doors-like characters) and a dark ruined facility",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "official Roblox event; multiple themed environments, cross-game integration, live creator events",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "get approval letter -> drive to adoption center -> pass interview -> raise pet that ages even offline -> collect rare pets",
+  "loop_archetype": "roleplay_social",
+  "objectives": "raise pets to old age and collect rare pets",
+  "progression": "pet age, rare pet collection, home rooms",
+  "instructions": "adopt a baby pet, feed/bathe it, come back daily; pets age offline",
+  "mechanics": [
+   "pet care",
+   "adoption process",
+   "offline aging",
+   "vehicles",
+   "home rooms"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "pets age while offline to drive daily returns"
+  ],
+  "themes": [
+   "pets",
+   "adoption",
+   "family"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "adopt-me-like",
+   "grow-a-x"
+  ],
+  "monetization_signals": [
+   "vehicle passes",
+   "skip-wait products",
+   "room unlocks",
+   "starter pack"
+  ],
+  "update_signals": [
+   "rare pets daily"
+  ],
+  "thumbnails": "cartoon pet puppy with text 'Ages Offline!', 'Age: 999 Years', locked penguin cage",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "house, adoption center, simple pet models and needs",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "climb a tall tower using automatic wallhops -> reach the top -> troll others with paid effects",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top of the tower",
+  "progression": "stage height",
+  "instructions": "unclear (description is just the title)",
+  "mechanics": [
+   "wallhop",
+   "tower obby",
+   "troll products"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "asmr",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "asmr",
+   "wallhop",
+   "troll-tower"
+  ],
+  "monetization_signals": [
+   "admin pass",
+   "troll dev products (fling, explode, jumpscare)",
+   "coils",
+   "unlock all"
+  ],
+  "update_signals": [],
+  "thumbnails": "title text and stacked colourful tower from afar",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single tower of parts, stock tools",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "round-based freeze tag: tagger freezes runners, runners unfreeze teammates -> win round -> coins for skills",
+  "loop_archetype": "party_minigames",
+  "objectives": "as runner survive until time ends; as tagger freeze everyone",
+  "progression": "coins, purchasable skills",
+  "instructions": "get caught you're frozen, friends tap to unfreeze; runners win if one survives",
+  "mechanics": [
+   "freeze tag",
+   "rounds",
+   "teammate rescue",
+   "skills"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "classic playground tag rules made into Roblox round game with special skills"
+  ],
+  "themes": [
+   "playground games",
+   "ice"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "korean-dev",
+   "playground-game"
+  ],
+  "monetization_signals": [
+   "skill passes up to 2499",
+   "2x coins",
+   "tagger chance up",
+   "gift versions"
+  ],
+  "update_signals": [
+   "daily group rewards"
+  ],
+  "thumbnails": "characters frozen in ice blocks, Korean text, cute cat",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "small arena, round logic, ability effects",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "buy pumpjacks to dig -> collect junk into ducats -> find bones -> complete skeletons -> revive animals as pets",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "complete every extinct animal skeleton and revive them",
+  "progression": "better drill equipment tiers, animal collection",
+  "instructions": "buy pumpjacks, dig deep, collect junk, assemble skeletons, revive animals",
+  "mechanics": [
+   "digging",
+   "equipment tiers",
+   "fossil assembly",
+   "pet collection"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fossil-assembly collection loop with revive-to-pet payoff"
+  ],
+  "themes": [
+   "dinosaurs",
+   "fossils",
+   "archaeology"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dig-a-x",
+   "find-the-x"
+  ],
+  "monetization_signals": [
+   "equipment dev products 5-399"
+  ],
+  "update_signals": [],
+  "thumbnails": "cartoon skeleton in sand dug by a character, assembled dinosaur skeleton",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "desert dig area, skeleton models, upgrade chain",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q06",
+  "loop": "fight egg-guarding boss with bat and pets -> steal its egg and run home -> hatch pets that earn cash -> buy treadmill speed and reach tougher biomes",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "hatch the biggest rarest pets and beat all biome bosses",
+  "progression": "income per second, biomes, pet size tiers, fusion, speed",
+  "instructions": "steal monster eggs, outrun boss, bonk players to make them drop eggs, fuse pets",
+  "mechanics": [
+   "stealing",
+   "boss fight",
+   "treadmill speed",
+   "pet hatching",
+   "income per second",
+   "pvp bonk",
+   "fusion",
+   "egg reset timer"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "boss-guarded eggs combine boss fighting with steal-a-x"
+  ],
+  "themes": [
+   "monsters",
+   "eggs",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "treadmill-speed",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "x2 growth/money",
+   "pen slots",
+   "power packs",
+   "cash packs",
+   "admin 7999"
+  ],
+  "update_signals": [
+   "Halloween update"
+  ],
+  "thumbnails": "huge egg with boss, '$999,999,999B' numbers, dragon skeleton",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "12 biomes, boss AI, pet system",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "ride and customize a motorbike -> earn cash through work, deliveries and memecoin trading -> upgrade bike and reputation in an open city",
+  "loop_archetype": "racing_driving",
+  "objectives": "build reputation and wealth with your bike",
+  "progression": "cash, bike upgrades, reputation",
+  "instructions": "ride, customize, make money, explore the city",
+  "mechanics": [
+   "bike physics",
+   "customization",
+   "deliveries",
+   "memecoin trading",
+   "open city"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "memecoin trading inside a bike life sim"
+  ],
+  "themes": [
+   "motorbikes",
+   "city",
+   "street life"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic-graphics",
+   "bike-life"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x cash",
+   "cash packs",
+   "2x boost timers"
+  ],
+  "update_signals": [
+   "[UPDATE] tag"
+  ],
+  "thumbnails": "realistic photo-like renders of a dirt bike in a city",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic city with traffic and bike physics",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q08",
+  "loop": "get arrested -> survive 3 days of detention -> find evidence and handle interrogations -> face trial -> reach one of multiple endings",
+  "loop_archetype": "story_adventure",
+  "objectives": "prove your innocence at trial and unlock all endings",
+  "progression": "Justice Stars, permanent case items, endings",
+  "instructions": "find evidence, watch what you say, build defense, face judge and jury",
+  "mechanics": [
+   "choices",
+   "evidence hunt",
+   "interrogation",
+   "trial",
+   "multiple endings"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "courtroom trial story with choices that come back at the trial"
+  ],
+  "themes": [
+   "prison",
+   "courtroom",
+   "police"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "story-game",
+   "prison"
+  ],
+  "monetization_signals": [
+   "VIP defendant",
+   "case luck",
+   "coin packs",
+   "coils"
+  ],
+  "update_signals": [],
+  "thumbnails": "cartoon courtroom, arrest scene, judge shouting GUILTY",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple scenes, branching dialogue and endings",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q09",
+  "loop": "steal eggs from god guardians -> outrun the chasing god -> hatch pets that earn money -> train treadmill speed to reach deeper realms",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare god eggs and outrun every god",
+  "progression": "speed, realms, income per second, mutations",
+  "instructions": "steal eggs, outrun gods, hatch, upgrade treadmill and base, bonk players, set traps",
+  "mechanics": [
+   "stealing",
+   "treadmill speed",
+   "pet hatching",
+   "income per second",
+   "pvp bonk",
+   "traps",
+   "fusion"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "mythology",
+   "gods",
+   "eggs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "treadmill-speed"
+  ],
+  "monetization_signals": [
+   "2x grow/money",
+   "treadmill speed products",
+   "grow all eggs"
+  ],
+  "update_signals": [],
+  "thumbnails": "character holding golden egg past sleeping Zeus with '$89,121$p/s', Thor chasing",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "10 god realms, chase AI, pets",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q10",
+  "loop": "drive a shopping cart down a chaotic city course -> avoid crashes and traffic -> race friends -> unlock new carts",
+  "loop_archetype": "racing_driving",
+  "objectives": "reach the bottom fast without crashing",
+  "progression": "carts, courses, fast passes",
+  "instructions": "learn the controls, build speed, take turns, avoid hard landings",
+  "mechanics": [
+   "cart physics",
+   "downhill racing",
+   "obstacles",
+   "traffic"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "shopping cart",
+   "city",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "drive-downhill",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "cart skins",
+   "fast passes",
+   "revive",
+   "trails"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "character in cart dodging a taxi, alternate carts (shark, croc)",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "long course, vehicle physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "play chapter-based My Little Pony horror story -> explore party house -> solve scrapbook puzzles -> avoid Pinkie Pie",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the party and finish the chapter",
+  "progression": "chapters, badges",
+  "instructions": "don't break the promise; chapter 1 out now",
+  "mechanics": [
+   "chapter story",
+   "puzzles",
+   "chase"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "licensed My Little Pony IP turned into horror (Hasbro ©)"
+  ],
+  "themes": [
+   "my little pony",
+   "party",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "licensed-ip",
+   "chapter-horror",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "season pass",
+   "chapter 2 early access",
+   "hints",
+   "cosmetics",
+   "scare a friend"
+  ],
+  "update_signals": [
+   "chapter 2 coming"
+  ],
+  "thumbnails": "Pinkie Pie in dim rooms, VHS-glitch title art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "detailed atmospheric interiors, story chapter",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q12",
+  "loop": "run an obby escaping a prison as a squishy dumpling",
+  "loop_archetype": "obby_platformer",
+  "objectives": "finish the obby",
+  "progression": "stages",
+  "instructions": "unclear",
+  "mechanics": [
+   "obby",
+   "stages"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "squishies",
+   "prison",
+   "cute"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "squishy",
+   "escape-obby"
+  ],
+  "monetization_signals": [
+   "ultimate bundle",
+   "god mode",
+   "jetpack",
+   "grapple",
+   "coils"
+  ],
+  "update_signals": [],
+  "thumbnails": "glittery rainbow squishy with PLAY button",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "template obby",
+  "novelty": 0,
+  "confidence": 60
+ },
+ {
+  "label": "Q13",
+  "loop": "fight in free-for-all arena -> each kill upgrades gear one tier, death resets -> roll enchants, perks, crates",
+  "loop_archetype": "combat_pvp",
+  "objectives": "climb from leather to MAXED gear and top the streak leaderboards",
+  "progression": "gear tier ladder per life, XP, classes, capes",
+  "instructions": "every kill upgrades gear, death resets; use gear saver to keep armor",
+  "mechanics": [
+   "ffa pvp",
+   "+1 per kill",
+   "classes",
+   "enchants",
+   "crates",
+   "leaderboards"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "per-kill gear ladder reset on death (gun-game style) in Minecraft look"
+  ],
+  "themes": [
+   "minecraft-style",
+   "medieval combat",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-per-x",
+   "minecraft-style"
+  ],
+  "monetization_signals": [
+   "class passes",
+   "emeralds",
+   "gear savers",
+   "XP bottles",
+   "starter pack"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "blocky diamond-armored player with +1 popups, PvP scenes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "arena map, armor tiers, classes",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q14",
+  "loop": "pick a superhero-like character -> fight others in arena -> earn credits -> unlock more characters",
+  "loop_archetype": "combat_pvp",
+  "objectives": "unlock all characters and win fights",
+  "progression": "credits, characters",
+  "instructions": "battle, earn credits, unlock movesets",
+  "mechanics": [
+   "arena combat",
+   "character movesets",
+   "credits"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "superheroes"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "battlegrounds",
+   "superhero"
+  ],
+  "monetization_signals": [
+   "gauntlet pass",
+   "2x credits",
+   "emotes"
+  ],
+  "update_signals": [
+   "more characters coming"
+  ],
+  "thumbnails": "Batman, Iron Man, Spider-Man look-alike avatars on platforms",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "15 characters with abilities",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q15",
+  "loop": "pick boys/girls team -> climb tower choosing doors that change your outfit -> earn coins -> buy troll gear",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top with your team and glow up",
+  "progression": "stages, coins",
+  "instructions": "choose a team, pick doors, help each other up, troll with coins",
+  "mechanics": [
+   "tower obby",
+   "would you rather doors",
+   "outfit changes",
+   "teams",
+   "troll items"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "would-you-rather choices that change avatar outfit while climbing"
+  ],
+  "themes": [
+   "fashion",
+   "outfits",
+   "would you rather"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "would-you-rather",
+   "outfit",
+   "troll-tower",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "admin",
+   "carpet",
+   "laser gun",
+   "coin packs",
+   "explode/fling products"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "boys vs girls team doors with hair options",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower stages, outfit swaps",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

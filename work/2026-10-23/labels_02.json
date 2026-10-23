@@ -1,0 +1,706 @@
+[
+ {
+  "label": "Q16",
+  "loop": "shoot enemies for +1 power each -> forge better guns from ores -> train and beat bosses -> rebirth stronger",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "forge all 53 guns up to Mythic and beat bosses",
+  "progression": "power, gun rarity tiers, rebirths, pets, offline earnings",
+  "instructions": "shoot = +1 power, forge guns, blast zombies, train, rebirth; codes",
+  "mechanics": [
+   "+1 per shot",
+   "forging",
+   "ores",
+   "bosses",
+   "training pad",
+   "rebirth",
+   "pets",
+   "offline earnings"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "+1 power loop tied to gun forging"
+  ],
+  "themes": [
+   "guns",
+   "forging",
+   "zombies",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-per-x",
+   "forge",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "auto rebirth",
+   "training pad",
+   "power/cash packs",
+   "ore chests"
+  ],
+  "update_signals": [
+   "codes",
+   "Halloween tag"
+  ],
+  "thumbnails": "blacksmith hammering anvil into sniper rifle with +999 popups",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple levels, ore and gun models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q17",
+  "loop": "summon Adventure Time heroes -> place them to stop waves -> earn gems -> reroll traits and evolve heroes -> clear worlds",
+  "loop_archetype": "tower_defense",
+  "objectives": "clear 5 worlds/25 stages and Infinite Mode",
+  "progression": "hero summons, traits, evolutions, battle pass",
+  "instructions": "team up, summon heroes, level up, reroll traits, evolve; code RELEASE",
+  "mechanics": [
+   "tower defense",
+   "gacha summons",
+   "traits",
+   "evolution",
+   "infinite mode",
+   "challenges",
+   "codes"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Adventure Time characters in anime-style unit TD"
+  ],
+  "themes": [
+   "adventure time",
+   "candy",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anime-td-format",
+   "licensed-ip-lookalike",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "battle pass",
+   "2x drops/gems",
+   "lucky summons",
+   "gem packs",
+   "trait crystals"
+  ],
+  "update_signals": [
+   "new worlds coming",
+   "codes"
+  ],
+  "thumbnails": "Finn character with sword, Lich-like villain, Halloween art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "units with abilities, 5 worlds",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "create a warrior cat -> roleplay clan life in the lake territory with others",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build your cat's story in the clan",
+  "progression": "unclear (beta)",
+  "instructions": "private beta, report bugs, morphs may not save",
+  "mechanics": [
+   "animal roleplay",
+   "character creation",
+   "open map"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "book-franchise fan roleplay with realistic cat models in paid beta"
+  ],
+  "themes": [
+   "cats",
+   "warrior cats books",
+   "nature"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "animal-rp",
+   "paid-access-beta"
+  ],
+  "monetization_signals": [
+   "paid beta access (no passes)"
+  ],
+  "update_signals": [
+   "under construction",
+   "public release coming"
+  ],
+  "thumbnails": "realistic cat renders in forest, title logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic cat models and animations, large natural map",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q19",
+  "loop": "fight through floor dungeons in Sword Art Online-inspired MMORPG -> level up -> reach top boss, with optional permadeath",
+  "loop_archetype": "story_adventure",
+  "objectives": "climb floors and defeat the top boss",
+  "progression": "levels, gear, classes, floors",
+  "instructions": "choose first or third person, optional permanent death mode",
+  "mechanics": [
+   "dungeons",
+   "bosses",
+   "classes",
+   "first person",
+   "permadeath mode"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "permanent death mode MMORPG"
+  ],
+  "themes": [
+   "anime",
+   "sword art online",
+   "fantasy"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "mmorpg"
+  ],
+  "monetization_signals": [
+   "private servers",
+   "cosmetic attire",
+   "2x col/luck timers",
+   "character slots"
+  ],
+  "update_signals": [
+   "death game mode update"
+  ],
+  "thumbnails": "cinematic anime-style renders, 'TODAY' hourglass countdown",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "MMORPG systems, combat animation, many floors",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q20",
+  "loop": "roleplay life in rural Kansas -> earn salary from jobs -> buy and maintain vehicles",
+  "loop_archetype": "roleplay_social",
+  "objectives": "unclear",
+  "progression": "salary, vehicles",
+  "instructions": "none (no description)",
+  "mechanics": [
+   "driving",
+   "jobs",
+   "vehicles",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "OBD2 scanner car repair detail"
+  ],
+  "themes": [
+   "rural america",
+   "kansas",
+   "vehicles"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic-rp",
+   "state-rp"
+  ],
+  "monetization_signals": [
+   "3x salary",
+   "currency packs"
+  ],
+  "update_signals": [
+   "mobile support",
+   "new vehicles"
+  ],
+  "thumbnails": "dark realistic gas station and highway signs, 'CKRP UPDATE'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "realistic map with roads and vehicles",
+  "novelty": 1,
+  "confidence": 55
+ },
+ {
+  "label": "Q21",
+  "loop": "fight boss mosquitoes for eggs -> feed your mosquitoes blood to grow -> earn money -> upgrade base and weapons",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow the rarest mosquitoes and income",
+  "progression": "income per second, mosquito rarity, weapons",
+  "instructions": "fight boss mosquitoes for eggs, feed with blood, upgrade base",
+  "mechanics": [
+   "boss fights",
+   "feeding",
+   "income per second",
+   "weapon tiers",
+   "spin wheel",
+   "limited mosquitoes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "feed-a-x with weird mosquito blood theme"
+  ],
+  "themes": [
+   "mosquitoes",
+   "blood",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "feed-a-x",
+   "noob-vs-pro",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "fast pick pass",
+   "health packs",
+   "weapon products"
+  ],
+  "update_signals": [
+   "V3 Halloween event"
+  ],
+  "thumbnails": "mosquito biting arm with '-9,999,999', noob vs pro 1/s vs 10,000/s, 0.001% rarity",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple base and creatures",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "drop into arena -> fight with rifles, SMGs and gloo walls -> rank up and earn diamonds -> spin for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "rank up and win fights",
+  "progression": "rank, arsenal, skins",
+  "instructions": "jump in, fight in real time",
+  "mechanics": [
+   "shooter",
+   "gloo walls",
+   "weapon handling",
+   "lucky roulette",
+   "skins"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Free Fire mobile shooter recreated on Roblox"
+  ],
+  "themes": [
+   "shooter",
+   "battle royale"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "free-fire",
+   "shooter",
+   "latam"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "diamond packs",
+   "weapon kit",
+   "gift diamonds"
+  ],
+  "update_signals": [
+   "rebuilt version"
+  ],
+  "thumbnails": "Free Fire-style HUD with BOOYAH, skydiving character, FPS scope",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "shooter mechanics and maps",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "attack ragdoll dummies with 20+ weapons -> watch limb-specific physics reactions -> earn kills to unlock weapons",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "unlock all weapons and cause chaos",
+  "progression": "kills, weapon unlocks",
+  "instructions": "shoot/grab/throw dummies, use playground traps, zombie horde mode",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons",
+   "dismemberment",
+   "zombie infection",
+   "traps"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "location-specific injury reactions on dummies"
+  ],
+  "themes": [
+   "gore",
+   "physics",
+   "zombies",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll",
+   "gore",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "all guns pass",
+   "weapon packs",
+   "gore pack",
+   "kill packs"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "Halloween update"
+  ],
+  "thumbnails": "white dummy pinned by arrows",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom ragdoll physics and injury system",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q24",
+  "loop": "survive rounds of 'what if' cosmic disasters across many maps -> earn XP and credits",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive each disaster",
+  "progression": "XP, credits, badges",
+  "instructions": "will you survive 26 disasters on 18 maps",
+  "mechanics": [
+   "disaster survival",
+   "rounds",
+   "maps"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "sci-fi what-if disasters (moon falls, sun disappears)"
+  ],
+  "themes": [
+   "natural disasters",
+   "what if"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "disaster-survival",
+   "what-if"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "boombox",
+   "credits",
+   "2x XP"
+  ],
+  "update_signals": [],
+  "thumbnails": "realistic tornado, mega tsunami over city",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "26 disaster effects, 18 maps",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "pick driver or navigator -> navigator reads the map and calls turns, driver steers -> reach finish through forest rally stages",
+  "loop_archetype": "racing_driving",
+  "objectives": "reach the finish without wrong turns",
+  "progression": "stages, coins, cars",
+  "instructions": "one drives, one navigates; communicate",
+  "mechanics": [
+   "2-player co-op",
+   "first-person driving",
+   "map navigation",
+   "stages"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "asymmetric driver/navigator co-op (port of 'Left Left LEFT!')"
+  ],
+  "themes": [
+   "rally",
+   "cars",
+   "friendship",
+   "halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "co-op-duo",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "unlock stages",
+   "bundles",
+   "admin panel",
+   "revive"
+  ],
+  "update_signals": [
+   "codes at like goals",
+   "Halloween bundle"
+  ],
+  "thumbnails": "first-person cockpit with two friends panicking, map in hand",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "rally stages, two-role vehicle",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "adopt and raise pets -> trade and collect legendaries -> build home -> roleplay; Halloween Where Bear? minigame",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect legendary pets and build dream home",
+  "progression": "pet ages, neon/mega, trading, home",
+  "instructions": "adopt, raise, trade, build, roleplay",
+  "mechanics": [
+   "pet care",
+   "trading",
+   "housing",
+   "minigames",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "pets",
+   "family",
+   "halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "pets",
+   "trading",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "bucks",
+   "candy",
+   "VIP",
+   "premium plots"
+  ],
+  "update_signals": [
+   "Halloween: Where Bear? returns"
+  ],
+  "thumbnails": "cute pet character art with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "massive live game",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q27",
+  "loop": "run across the field while a chaser tags you -> caught players become chasers -> last one standing wins",
+  "loop_archetype": "party_minigames",
+  "objectives": "make it across / be last one standing",
+  "progression": "coins, gems, abilities, knives",
+  "instructions": "one chaser, everyone runs across; caught become chasers",
+  "mechanics": [
+   "British bulldog tag",
+   "rounds",
+   "abilities",
+   "maps"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "British bulldog playground game format"
+  ],
+  "themes": [
+   "playground games",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "playground-game",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "premium pass",
+   "VIP",
+   "x2 EXP",
+   "ability charges",
+   "coin/gem packs"
+  ],
+  "update_signals": [
+   "Halloween Woods map"
+  ],
+  "thumbnails": "noob running on green field, 'huss valley' location tag",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "flat maps, round logic, abilities",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q28",
+  "loop": "go through numbered doors -> avoid entities -> learn from deaths -> reach the end",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive to the end of the hotel/estate",
+  "progression": "knobs, revives, badges",
+  "instructions": "enter without a guide, use each death as a lesson; part of The Hollow",
+  "mechanics": [
+   "room progression",
+   "entity avoidance",
+   "revives",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "horror",
+   "hotel",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "the-hollow",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "revives",
+   "knobs",
+   "admin panel",
+   "bundles"
+  ],
+  "update_signals": [
+   "The Hollow event",
+   "Halloween '26 pass"
+  ],
+  "thumbnails": "Hollow-branded character art, dark rooms",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "procedural rooms, many entity AIs",
+  "novelty": 2,
+  "confidence": 90
+ },
+ {
+  "label": "Q29",
+  "loop": "drive and race 300+ licensed cars in open world -> earn cash -> customize -> roleplay and car meets",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and tune cars",
+  "progression": "cash, cars, limiteds",
+  "instructions": "drive, race, customize, roleplay",
+  "mechanics": [
+   "open world",
+   "racing",
+   "customization",
+   "limiteds",
+   "gifting"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "cars",
+   "licensed brands"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "licensed-cars"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "candy",
+   "VIP",
+   "passes"
+  ],
+  "update_signals": [
+   "Oct 23 update: scooters, limiteds"
+  ],
+  "thumbnails": "realistic car and scooter renders with logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large open world, hundreds of vehicles",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q30",
+  "loop": "place towers to defend against waves of zombies -> beat bosses -> unlock new units",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat harder modes and events",
+  "progression": "units, levels, battle pass, skins",
+  "instructions": "place units, team up, beat bosses",
+  "mechanics": [
+   "tower defense",
+   "coop",
+   "bosses",
+   "crates",
+   "battle pass"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "zombies",
+   "military",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "td",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "tower passes",
+   "coins",
+   "gems",
+   "crates",
+   "emotes"
+  ],
+  "update_signals": [
+   "Solar Requiem Night III",
+   "Hollow crate"
+  ],
+  "thumbnails": "dramatic unit character art, sun/moon eclipse",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large unit roster, many maps and events",
+  "novelty": 1,
+  "confidence": 85
+ }
+]
