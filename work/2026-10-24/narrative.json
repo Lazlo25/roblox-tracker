@@ -1,0 +1,90 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "The top holds: Steal An Egg (91 days) leads ahead of The Hollow, Brookhaven, Murder Mystery 2, RIVALS and 99 Nights in the Forest.",
+    "Old horror games are the biggest risers: Flee the Facility +47 (9 years), DOORS +21 and Fisch +24, all tied to Halloween updates and, for DOORS and Flee the Facility, to The Hollow event.",
+    "Eight games entered, including Ragdoll Reality at 11 days, +1 Dance Battle Evolution at 33 days and the returning Piggy, Grow a Garden and Sell Lemons.",
+    "Young games fell: Paint to Get Rich -11, DIVINE HATCHERS -13, Fix My Phone! -14, Free Fire Zone (Max) -15, so the 2–9 week band keeps sliding (median percentile 34–46).",
+    "The age pattern is U-shaped again: 0–14 days at the 59th percentile and multi-year games at the 62nd, against 26–34 for games of 6 weeks to a year (H-mp-009)."
+   ],
+   "patterns": [
+    "Games left more than about 9 days without an update stay fewer days on the chart (r=-0.57 at the split), and recent updates go with higher peaks; 'Update at least weekly' holds at 65%.",
+    "Higher product and pass prices tend to go with longer presence (median product price above 475 R$ r=+0.41; median pass above 75 R$ r=+0.46).",
+    "Complexity goes with more days on the chart (rho=+0.24), and steal_defend_base (78), combat_pvp (66) and racing_driving (63) lead loops by median percentile while incremental_plus1 (30) and idle tycoons (33) trail.",
+    "A high favorite rate per visit goes with lower positions, a lifecycle marker of huge evergreens rather than a lever."
+   ],
+   "outliers": [
+    {"name": "Steal An Egg", "note": "Tops the chart at 91 days while its steal/egg clones fade on every chart; first-mover scale, not the template, appears to carry it."},
+    {"name": "Flee the Facility", "note": "A 3,402-day game up 47 places, likely carried by The Hollow event and Halloween horror demand rather than a lasting change."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again lead efficiency, followed by Elemental Dungeons, Spin a KPOP Idol and Westville Florida.",
+    "Efficiency rises with age: median percentile 32 at 15–42 days, 42 at 43–84 days, 56 at 85–122 days and 59 past a year (H-te-001 at 79%).",
+    "Moped Drag rose +197 after a big update and Candy Kingdom Defense +133 at 25 days; Backseat Rally +83 reached the chart but sits among the weakest per player.",
+    "Shoot For Eggs -80, Prehistoric Farm -41 and Karate Evolution -43 fell, again putting egg and +1 games among the weakest earners.",
+    "Thirteen games entered, including Undertale Adventures X, +1 Haki Evolution, Build a PC, Martial Arts World and the 6-year-old Regretevator."
+   ],
+   "patterns": [
+    "A median developer product price above 79 R$ consistently goes with higher efficiency (r=+0.41 at the split), still the strongest page-level lever (H-te-005 at 81%).",
+    "RPGs (r=+0.49) and roleplay hubs (r=+0.35) consistently earn more per player; Simulation (r=-0.23) and solo loops (r=-0.22) earn less.",
+    "Complexity, longer descriptions, more passes and bigger servers all go with efficiency, with game age as a shared confounder.",
+    "'Egg' (r=-0.51), 'RP' (r=-0.35) and 'Steal' (r=-0.34) in titles go with lower efficiency, while roleplay loops go with higher, so the RP title signal likely reflects small clone towns rather than the loop."
+   ],
+   "outliers": [
+    {"name": "[QOL🎃] Spin a KPOP Idol", "note": "A solo simulator among the most efficient, against both the solo and Simulation patterns; gacha spins on a fandom theme likely drive high spending per player."},
+    {"name": "Moped Drag [BIG UPDATE 🏍️]", "note": "Jumped 197 places in a day after a tagged big update, the largest single-day rise; an update-driven spending spike rather than a steady pattern."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "Ragdoll Reality (11 days) leads momentum at +42, followed by Adopt Your Animal! +39, RoChess!, +1 Dance Battle Evolution, Something is Wrong With My Dog... and Clone Baby Care (Anomaly).",
+    "The youngest games carry the most momentum: 0–14 days at the 81st percentile, 15–42 days at 59, 43–84 days at 43 and 85–122 days at 10.",
+    "Sixteen games entered, among them DOORS, Animal Hospital (Anomaly), AOONI Nightmare, Pave the Road, Drive a Cart Downhill! and Makeup All Stars, while RIVALS and Forsaken fell off.",
+    "The weakest are job sims heavy on passes: Make Ramen To Get Rich (22 passes), Clean the House! (33 passes) and Create a Robot Fighter."
+   ],
+   "patterns": [
+    "Incremental mechanics tend to go with stronger momentum (r=+0.45, within-age +0.44; H-tt-034 at 60%), and a collection index with higher positions (H-tt-028 at 67%).",
+    "Thumbnails with text or big numbers (r=+0.31) and revive products (r=+0.30) go with momentum, while luck products go against it (r=-0.32); the first two are now proposed as hypotheses.",
+    "Shorter titles go with higher positions within age bands (-0.32), proposed as a hypothesis; a title event tag goes with higher positions (+0.38) even though tags may weaken momentum among the newest games.",
+    "simulation_job sits at the 11th median percentile, so everyday-job sims break out on Up-and-Coming but tend to stall here; launching with more than 8 passes tends to go with lower positions (H-tt-032 at 65%)."
+   ],
+   "outliers": [
+    {"name": "Musical Chairs 🎵🪑", "note": "A 736-day party game rose +30, outside the young-game population; short party formats keep re-surfacing older games."},
+    {"name": "RoChess!", "note": "A 73% like ratio and a competitive PvP loop, against both the like-ratio and PvP patterns, yet among the best for momentum; a familiar board game is an easy hook."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH (7 days) leads, ahead of Ragdoll Reality, The Hollow, Bike Universe, Backseat Rally and +1 Dance Battle Evolution.",
+    "Fifteen games entered, including A Long Flight, Throw Food For Animals, Beat Up Verity, Realistic Ragdoll Engine, Catch a Plane!, Stick Wars and Become A Striker.",
+    "+1 Upgrade Per Kill rose +51 despite a 50% like ratio, Drive a Cart Downhill! +46 and SQUISHY DUMPLING PRISON RUN! +40; Where Is Fahd? -33 and Stop The Train -29 fell.",
+    "Games 0–14 days sit at the 76th median percentile against 51 at 15–42 days and 39 at 43–84 days."
+   ],
+   "patterns": [
+    "Games updated more recently consistently rank higher within age bands (H-uc-012 rose to 74%), and several updates a week tend to help (H-uc-015 at 65%).",
+    "Incremental mechanics (+0.40 within age), a collection index (+0.42; H-uc-033 at 68%) and everyday-life roleplay (H-uc-031 at 64%) go with higher positions.",
+    "Descriptions advertising redeem codes go with lower positions (within-age -0.30), the opposite of their Top Earning association, so codes may help revenue later rather than reach at launch; proposed as a hypothesis.",
+    "'Play with your friends' co-op pitches tend to rank lower (H-uc-013 at 68%), while racing_driving (73) and sandbox_physics (70) loops lead by median percentile."
+   ],
+   "outliers": [
+    {"name": "[🎃] +1 Upgrade Per Kill", "note": "Rose 51 places with a 50% like ratio, against the like-ratio pattern; the +1 incremental hook appears to carry it despite poor reception."},
+    {"name": "[🎃] Facecard: Makeup Showdown (Junior)", "note": "A 98% like ratio at 3 days, yet among the weakest; a narrow audience and roleplay_social's low median here (20) likely explain it."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Ragdoll Reality reached Up-and-Coming, Top Trending and Most Popular within 11 days, and Realistic Ragdoll Engine followed onto Up-and-Coming: a possible new physics-sandbox wave.",
+   "Games pull players first and monetize later: the youngest games lead Top Trending and Up-and-Coming while Top Earning efficiency climbs from the 32nd percentile at 15–42 days to the 59th past a year.",
+   "Incremental mechanics and collection indexes help on both breakout charts (Top Trending +0.45, Up-and-Coming +0.39) but '+1' titles still go with lower Top Earning efficiency, so they buy reach rather than revenue.",
+   "The Hollow and Halloween keep lifting horror games across charts (Flee the Facility, DOORS, Piggy), a seasonal confounder to watch after Oct 31."
+  ],
+  "progressions": [
+   "tt→mp remains the most common transition (97 entries, median 2 days), followed by uc→tt (93, 2 days) and te→tt (63, 7 days).",
+   "uc→mp (61, 4 days), uc→te (58, 4 days) and tt→te (57, 4 days) show breakouts reaching dominance and revenue within a week, while tt→uc stays at 1."
+  ]
+ }
+}

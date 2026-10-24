@@ -1,0 +1,31 @@
+{
+ "new": [
+  {"chart": "tt", "statement": "Young games whose thumbnails carry text or big numbers climb Top Trending faster than games of similar age without them",
+   "action": "Put text or numbers on thumbnails",
+   "test": {"feature": "thumb_text_numbers", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+  {"chart": "tt", "statement": "Young games selling revives or second chances climb Top Trending faster than games of similar age without them",
+   "action": "Sell revives",
+   "test": {"feature": "prod_revive", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+  {"chart": "tt", "statement": "Shorter titles go with higher Top Trending positions among games of similar age",
+   "action": "Keep the title short",
+   "test": {"feature": "title_len", "metric": "tt_pos", "type": "corr", "direction": "-", "strata": "age"}},
+  {"chart": "uc", "statement": "Games whose descriptions advertise redeem codes rank lower on Up-and-Coming among games of the same age",
+   "action": "Hold redeem codes until after launch",
+   "test": {"feature": "mech_codes", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+  {"chart": "x", "kind": "qualitative", "confidence": 30,
+   "statement": "Ragdoll physics sandboxes (fall, fling and break your avatar with realistic limp-body physics) are a fresh wave that reaches Up-and-Coming, Top Trending and Most Popular within two weeks of launch",
+   "action": "Try a ragdoll physics sandbox",
+   "rationale": "Ragdoll Reality (11 days) leads Top Trending momentum (+42), sits second on Up-and-Coming and entered Most Popular today; [UPD] Realistic Ragdoll Engine (12 days) entered Up-and-Coming. Both sell many passes (16 and 5) with few products, and sandbox_physics has the best median Top Trending percentile (84) of any loop, though from only 3 games. Confirm if more ragdoll titles appear and these two hold past week 4; watch for the curiosity fade seen in the device-game wave (H-x-017)."}
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-020", "confidence": 35, "note": "The Hollow (11 days) is now among the best on both Most Popular and Up-and-Coming; Flee the Facility rose +47 and DOORS +21 on Most Popular, and DOORS entered Top Trending. The lift on participating games is holding through the event; the post-Oct 31 reversal is still the real test, and Halloween remains a confounder."},
+  {"id": "H-x-011", "confidence": 47, "note": "More evidence of fade: Steal a Wild Horse is among the weakest on Up-and-Coming, Don't Steal My Eggs! fell off Most Popular and Top Trending, and 'Steal' in titles goes with lower Up-and-Coming positions (r=-0.35) and Top Earning efficiency (r=-0.34), while Steal An Egg still leads Most Popular."},
+  {"id": "H-x-010", "confidence": 50, "note": "Moped Drag rose +197 on Top Earning after a big update, Escooter Life (13 days) rose +14 and Southern Mudding +18 on Most Popular, and Bike Universe and Backseat Rally are among the best on Up-and-Coming; racing_driving holds a median Up-and-Coming percentile of 73. The niche keeps widening."},
+  {"id": "H-x-019", "confidence": 30, "note": "DONT SPLASH (7 days) is #1 on Up-and-Coming; HUSH: They can hear. fell -25, so only the leader of the cluster is holding. Held."},
+  {"id": "H-x-006", "confidence": 56, "note": "Clone Baby Care (Anomaly) is again among the best for Top Trending momentum and Animal Hospital (Anomaly), 167 days, entered Top Trending; the genre keeps producing entries."},
+  {"id": "H-x-005", "confidence": 30, "note": "Beat Up Verity (21 days) entered Up-and-Coming, another small game riding the Verity meme. Held."},
+  {"id": "H-te-030", "confidence": 28, "note": "Undertale Adventures X (830 days, a tower defense on a game fandom) entered Top Earning and Candy Kingdom Defense (Adventure Time) rose +133. Two more data points, still untested by the scan."}
+ ],
+ "actions": [],
+ "retire": []
+}
