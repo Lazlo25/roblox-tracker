@@ -1,8 +1,18 @@
 {
- "date": "2026-10-24",
+ "date": "2026-10-25",
  "queue": [
   {
-   "age_days": 2680,
+   "age_days": 1208,
+   "charts": [
+    "mp"
+   ],
+   "name": "LifeTogether 🏠 RP [FAMILIES]",
+   "place": "13967668166",
+   "status": "youtube_needed",
+   "u": "4839802560"
+  },
+  {
+   "age_days": 2681,
    "charts": [
     "mp",
     "te"
@@ -13,18 +23,7 @@
    "u": "1202096104"
   },
   {
-   "age_days": 955,
-   "charts": [
-    "mp",
-    "te"
-   ],
-   "name": "Fisch 👻 [HORSEMAN]",
-   "place": "16732694052",
-   "status": "youtube_needed",
-   "u": "5750914919"
-  },
-  {
-   "age_days": 1751,
+   "age_days": 1752,
    "charts": [
     "mp"
    ],
@@ -34,7 +33,17 @@
    "u": "3240075297"
   },
   {
-   "age_days": 1225,
+   "age_days": 956,
+   "charts": [
+    "te"
+   ],
+   "name": "Fisch 👻 [HORSEMAN]",
+   "place": "16732694052",
+   "status": "youtube_needed",
+   "u": "5750914919"
+  },
+  {
+   "age_days": 1226,
    "charts": [
     "te"
    ],
@@ -44,7 +53,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 2312,
+   "age_days": 2313,
    "charts": [
     "te"
    ],
@@ -54,17 +63,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 2658,
-   "charts": [
-    "te"
-   ],
-   "name": "[🎃] Dragon Adventures 🐉",
-   "place": "3475397644",
-   "status": "frames_ready",
-   "u": "1235188606"
-  },
-  {
-   "age_days": 1839,
+   "age_days": 1840,
    "charts": [
     "te"
    ],
@@ -74,7 +73,27 @@
    "u": "2992873140"
   },
   {
-   "age_days": 2466,
+   "age_days": 2659,
+   "charts": [
+    "te"
+   ],
+   "name": "[🎃] Dragon Adventures 🐉",
+   "place": "3475397644",
+   "status": "frames_ready",
+   "u": "1235188606"
+  },
+  {
+   "age_days": 660,
+   "charts": [
+    "te"
+   ],
+   "name": "[🥷NINJA🍥] Basketball: Zero",
+   "place": "130739873848552",
+   "status": "frames_ready",
+   "u": "7028566528"
+  },
+  {
+   "age_days": 2467,
    "charts": [
     "te"
    ],
@@ -84,24 +103,14 @@
    "u": "1516533665"
   },
   {
-   "age_days": 1482,
+   "age_days": 1483,
    "charts": [
     "te"
    ],
-   "name": "Baddies 💅",
+   "name": "[UPD] Baddies 💅",
    "place": "11158043705",
    "status": "youtube_needed",
    "u": "3990106548"
-  },
-  {
-   "age_days": 659,
-   "charts": [
-    "te"
-   ],
-   "name": "[🥷NINJA🍥] Basketball: Zero",
-   "place": "130739873848552",
-   "status": "frames_ready",
-   "u": "7028566528"
   }
  ],
  "waiting": [
@@ -116,8 +125,8 @@
    "why": "needs Rolimons history"
   },
   {
-   "name": "[ 🤖🦾] Anime Card Clash",
-   "u": "6682487255",
+   "name": "🎃👻 Wild Horse Islands",
+   "u": "2682938349",
    "why": "needs Rolimons history"
   }
  ]
