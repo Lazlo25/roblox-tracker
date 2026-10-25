@@ -1,0 +1,89 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "The top is unchanged: Steal An Egg (92 days) leads ahead of Brookhaven, 99 Nights in the Forest, +1 Speed Keyboard Escape, Murder Mystery 2 and RIVALS.",
+    "Ragdoll Reality (12 days) is the biggest riser at +43, followed by +1 Dance Battle Evolution +30, Ride A Pet +28, Solve The Cube +17 and Violence District +16.",
+    "Eleven games entered, including Dead Rails, Dubai RP, Adopt Your Animal! (16 days), Kick a Lucky Block, RoWorld (29 days) and BedWars.",
+    "Young games keep falling (Sarab -27, Fix My Phone! -13, Turbo Soccer -12) along with Flee the Facility -25 after its Hollow-driven jump.",
+    "The age pattern stays U-shaped: 0–14 days at the 92nd median percentile, 15–122 days at 26–48, and games past a year at 61."
+   ],
+   "patterns": [
+    "Games left more than about 9 days without an update consistently stay fewer days on the chart (r=-0.59 at the split), the strongest page-level lever here.",
+    "Higher product and pass prices tend to go with longer presence (median product above 472 R$ r=+0.46; median pass above 77 R$ r=+0.46), with age as a confounder.",
+    "combat_pvp (70), racing_driving (67), steal_defend_base (64) and roleplay_social (62) lead loops by median percentile; incremental_plus1 (31), obby (31) and wave survival (29) trail.",
+    "A high favorite rate per visit goes with lower positions, a lifecycle marker of huge evergreens rather than something to aim for."
+   ],
+   "outliers": [
+    {"name": "Ragdoll Reality 🩸", "note": "At 12 days it climbed 43 places, against the mid-life trough for young games; a fresh physics-sandbox novelty appears to carry it."},
+    {"name": "Flee the Facility", "note": "A 9-year-old game that rose on The Hollow event and now gave back 25 places, suggesting event lifts fade quickly once the spotlight moves."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Simple DONATIONS, Donation Central) again lead efficiency, followed by Elemental Dungeons, Spin a KPOP Idol and newcomer-to-the-top RIFLE DUELS (71 days, no passes).",
+    "Efficiency still rises with age: 33rd median percentile at 15–42 days, 40 at 43–84, 52 at 85–122 and 60 past a year (H-te-001 at 80%).",
+    "Steel Fighters rose +281, Criminality +161, Hide From The Hulk +160, Jujutsu Infinite +156 after its Halloween event and Candy Kingdom Defense +155 at 26 days.",
+    "Thirty-three games entered, including Carolina Leaners, Marvel Omega, Bey Rivals, Ragdoll Reality, Rebirth Champions: Ultimate and REDLINER; Shonen Unleashed -169 and Steal Animal Egg -166 fell."
+   ],
+   "patterns": [
+    "A median developer product price above 79 R$ consistently goes with higher efficiency (r=+0.44 at the split; H-te-005 at 81%).",
+    "RPGs (r=+0.48) and roleplay loops (r=+0.30) consistently earn more per player; Survival (r=-0.30), Simulation (r=-0.20) and solo loops (r=-0.24) earn less.",
+    "More passes (above 7, r=+0.26), pricier passes, bigger servers, longer descriptions and higher complexity all go with efficiency, with game age as a shared confounder; the pass count is proposed as a hypothesis.",
+    "'Egg' (r=-0.70) and 'Steal' (r=-0.40) in titles go with the lowest efficiency, and steal_defend_base sits at the 19th median percentile among loops."
+   ],
+   "outliers": [
+    {"name": "RIFLE DUELS", "note": "No game passes and a 77% like ratio, yet among the most efficient; premium currency and skin trading carry spending, as in other duel shooters."},
+    {"name": "[🎃] Fake an Egg", "note": "On all four charts at 21 days but among the weakest earners per player, consistent with steal/egg templates buying reach rather than revenue."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "A Long Flight (25 days) leads momentum at +26, followed by It Hears The Water +21, Rally Panic! +19, +1 Upgrade Per Kill +15 and Makeup All Stars +13.",
+    "Youngest games carry the most momentum: 0–14 days at the 83rd median percentile, 15–42 at 55, 43–84 at 45 and 85–122 at 27.",
+    "Twelve games entered, including Dead Rails, Demonology, Realistic Ragdoll Engine (13 days), PINKIE PROMISE and Throw Food For Animals; Evade, Chop A Forest and Drive World fell off.",
+    "Keyboard Bridge Wars -28, AOONI Nightmare -21 and Create a Robot Fighter -17 fell; job sims remain the weakest loop (8th median percentile)."
+   ],
+   "patterns": [
+    "Shorter titles consistently go with higher positions within age bands (within-age -0.39; H-tt-037 at 67%).",
+    "Revive products (within-age +0.31; H-tt-036 at 64%) and incremental mechanics (H-tt-034 at 60%) tend to go with momentum, while luck products (-0.38) and character-art thumbnails (-0.37) go against it.",
+    "Storage and slot passes go with lower positions (r=-0.40, 11 games), proposed as a hypothesis; a title event tag goes with higher positions (+0.30).",
+    "story_adventure (86), sandbox_physics (77), horror_escape (74) and wave survival (73) lead by median percentile, though each from only 3–5 games."
+   ],
+   "outliers": [
+    {"name": "A Long Flight [SANDBOX]", "note": "A 73% like ratio, yet the fastest climber; an A Dusty Trip-style journey with a plane is a familiar hook in a new skin."},
+    {"name": "[🎃] +1 Upgrade Per Kill", "note": "A 47% like ratio, yet among the best on momentum; the +1 incremental hook appears to outweigh poor reception."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH (8 days) leads, ahead of Ragdoll Reality, The Hollow, Bike Universe, Backseat Rally and Cat Battles.",
+    "Realistic Ragdoll Engine rose +37, Airport Security (Anomaly) +32, Catch a Plane! +30, Apple iPad Original +27 and My Bus +25; Where Is Fahd? fell 25.",
+    "Twelve games entered, including roll the world, UNDERTALE Fight!, Cook the Chicken, Fart Together, Harvest It All and ROOM 13, while RoWorld and +1 Dance Battle Evolution moved on.",
+    "The youngest band leads (0–14 days at the 60th percentile) but the 43–84 day band sits higher still (65) on only 7 games."
+   ],
+   "patterns": [
+    "Recent and frequent updates consistently go with higher positions (H-uc-012 at 74%; several updates a week, H-uc-015 at 69%).",
+    "'Play with your friends' co-op pitches consistently rank lower (within-age -0.43; H-uc-013 at 70%), and clan or team systems also go with lower positions (-0.42), proposed as a hypothesis.",
+    "Physics sandboxes (+0.43) and everyday-life roleplay (within-age +0.44) go with higher positions; the sandbox signal is proposed as a hypothesis alongside the ragdoll wave.",
+    "More than about 4 page images goes with lower positions (-0.34 at the split), the opposite of the Top Trending idea, proposed for testing."
+   ],
+   "outliers": [
+    {"name": "PERIPHERAL (BETA)", "note": "A polished procedural horror game with revives and a creature-gaze mechanic, yet among the weakest; a single page image and a co-op pitch may hold it back."},
+    {"name": "Cat Battles 🐾", "note": "Among the best despite a 73% like ratio and 256 developer products, against both the like-ratio and launch-monetization patterns."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Ragdoll physics keeps spreading: Ragdoll Reality rose on Most Popular and holds near the top of Up-and-Coming and Top Trending, and Realistic Ragdoll Engine climbed onto both breakout charts.",
+   "Games pull players first and monetize later: the youngest games lead Top Trending and Up-and-Coming while Top Earning efficiency climbs from the 33rd percentile at 15–42 days to the 60th past a year.",
+   "Steal/egg templates keep buying reach without revenue: Fake an Egg is on all four charts but among the weakest earners, and 'Egg' and 'Steal' titles carry the lowest efficiency.",
+   "Fandom fan games (UNDERTALE Fight!, Bey Rivals, Omni Heroes, Candy Kingdom Defense, My Chiikawa Restaurant) entered Up-and-Coming and Top Earning today, a pattern to watch alongside Halloween and The Hollow as seasonal confounders."
+  ],
+  "progressions": [
+   "tt→mp remains the most common transition (101 entries, median 2 days), followed by uc→tt (98, 2 days).",
+   "te→tt (66, 8 days), uc→te (66, 4 days), tt→te (65, 4 days) and uc→mp (64, 4 days) show breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+  ]
+ }
+}

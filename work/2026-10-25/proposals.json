@@ -1,0 +1,96 @@
+{
+ "new": [
+  {
+   "chart": "te",
+   "statement": "Games with more than 7 game passes earn a higher Top Earning position for their CCU",
+   "action": "Offer 8 or more game passes",
+   "test": {
+    "feature": "passes_n",
+    "metric": "te_eff",
+    "type": "threshold",
+    "cut": 7,
+    "direction": "+"
+   }
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games selling storage or slot passes hold lower Top Trending positions among games of similar age",
+   "action": "Skip storage passes at launch",
+   "test": {
+    "feature": "pass_storage",
+    "metric": "tt_pos",
+    "type": "binary",
+    "direction": "-",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "uc",
+   "statement": "Games built around clans or teams rank lower on Up-and-Coming among games of the same age",
+   "action": "Skip clan systems at launch",
+   "test": {
+    "feature": "mech_clans_teams",
+    "metric": "uc_pos",
+    "type": "binary",
+    "direction": "-",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "uc",
+   "statement": "Physics-sandbox games rank higher on Up-and-Coming among games of the same age",
+   "action": "Try a physics sandbox for breakout",
+   "test": {
+    "feature": "mech_sandbox_physics",
+    "metric": "uc_pos",
+    "type": "binary",
+    "direction": "+",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "uc",
+   "statement": "Games with more than 4 page images rank lower on Up-and-Coming among games of the same age",
+   "test": {
+    "feature": "media_images",
+    "metric": "uc_pos",
+    "type": "threshold",
+    "cut": 4,
+    "direction": "-",
+    "strata": "age"
+   }
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 25,
+   "statement": "Finite 'clear the whole place' chore games (harvest an entire field, eat a whole supermarket, cook one chicken by slapping it) enter Up-and-Coming on a curiosity hook but settle in its lower half",
+   "action": "Give chore games a lasting goal",
+   "rationale": "Harvest It All (13 days), EAT the Groceries!!! (21 days) and Cook the Chicken (19 days) all entered or sit on Up-and-Coming today, but EAT the Groceries is among the weakest there and Harvest It All is a counterexample to the video hypothesis; their descriptions sell one finite job ('how long could it take?', 'playtime 20-30 minutes'). Confirm if these three fall off within two weeks while games with an open-ended loop of the same age hold."
+  }
+ ],
+ "qualitative_updates": [
+  {
+   "id": "H-x-021",
+   "confidence": 40,
+   "note": "Ragdoll Reality (12 days) rose +43 on Most Popular and sits second on Up-and-Coming and Top Trending; Realistic Ragdoll Engine (13 days) rose +37 on Up-and-Coming and entered Top Trending. Two titles holding across three charts; the curiosity fade is still the test."
+  },
+  {
+   "id": "H-x-019",
+   "confidence": 35,
+   "note": "DONT SPLASH (8 days) still leads Up-and-Coming and It Hears The Water [DONT SPLASH] rose +21 on Top Trending; the noise-rule horror pair keeps holding at the top of both breakout charts."
+  },
+  {
+   "id": "H-x-011",
+   "confidence": 50,
+   "note": "Steal Animal Egg fell 166 on Top Earning, Beat the Boss & Steal -10 and Steal an Clown Egg fell off Up-and-Coming, Fake an Egg is among the weakest earners, while Steal An Egg still leads Most Popular."
+  },
+  {
+   "id": "H-x-020",
+   "confidence": 37,
+   "note": "Hollow-framed thumbnails now appear on Demonology (entered Top Trending) and Survive Overnight in a Mega Store (on Most Popular, though among its weakest); Violence District rose +16 on Most Popular. The lift continues, and Halloween still confounds it."
+  }
+ ],
+ "actions": [],
+ "retire": []
+}
