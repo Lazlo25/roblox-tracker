@@ -1,0 +1,51 @@
+{
+ "new": [
+  {
+   "chart": "uc",
+   "statement": "PvP loops rank lower on Up-and-Coming than other games of the same age",
+   "action": "Launch co-op or party, not PvP",
+   "test": {"feature": "social=pvp", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "More original concepts rank higher on Up-and-Coming among games of the same age",
+   "action": "Pick an original concept over a clone",
+   "test": {"feature": "novelty", "metric": "uc_pos", "type": "corr", "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "Thumbnails that show gameplay go with higher Up-and-Coming positions among games of the same age",
+   "action": "Show real gameplay in thumbnails",
+   "test": {"feature": "thumb=gameplay", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "Sports and league loops (football careers, managers, ball games) rank lower on Up-and-Coming among games of the same age",
+   "action": "Skip sports-league loops for breakout",
+   "test": {"feature": "loop=sports_competitive", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games selling a luck game pass hold lower Top Trending positions among games of similar age",
+   "action": "Skip luck passes at launch",
+   "test": {"feature": "pass_luck", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Games built within days on a viral real-world news moment (a car demo, a product launch) reach Up-and-Coming in their first two weeks but hold low like ratios and positions",
+   "action": "Ship fast on viral news hooks",
+   "rationale": "Flying Tesla Roadster entered Up-and-Coming at #65 nine days after launch with 1.5M visits but only 67% likes, with almost all spending in car passes. One case only; confirm if similar news-hook games appear and whether they reach Top Trending or fall off within two weeks."
+  }
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-021", "confidence": 42, "note": "Ragdoll Reality (13 days) is second best on Up-and-Coming and among the best on Top Trending momentum; Realistic Ragdoll Engine (14 days) holds Up-and-Coming #9 and is on Top Trending. physics-sandbox loops lead both breakout charts by median percentile (85 and 87). The curiosity fade has not started."},
+  {"id": "H-x-019", "confidence": 37, "note": "DONT SPLASH (9 days) still leads Up-and-Coming and It Hears The Water [DONT SPLASH] is fifth; horror_escape is now the largest loop on Up-and-Coming (13 games) and PINKIE PROMISE leads Top Trending (+29). Not all are noise-rule games, so the wider horror wave is a confounder."},
+  {"id": "H-x-011", "confidence": 50, "note": "Steal An Egg still leads Most Popular while Fake an Egg and Bike For Egg! are the weakest Top Earning games per player and Train Pets for Eggs fell 29 on Up-and-Coming; a new entry, Steal A Pet And Ride It!, entered Up-and-Coming only at #87."},
+  {"id": "H-x-022", "confidence": 23, "note": "EAT the Groceries!!! sits at Up-and-Coming #86 and Harvest It All is among the weakest there, consistent; but Cook the Chicken was today's biggest Up-and-Coming riser (+47), a counter case to watch."},
+  {"id": "H-x-001", "confidence": 47, "note": "uc→tt now leads the transitions (103 entries, median 2 days) ahead of tt→mp (101, 2 days); tt→uc stays at 1. The sequence keeps holding."}
+ ],
+ "actions": [],
+ "retire": []
+}

@@ -1,0 +1,88 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "The top is unchanged for another day: Steal An Egg (93 days) leads ahead of Brookhaven, 99 Nights in the Forest, +1 Speed Keyboard Escape, Murder Mystery 2 and RIVALS.",
+    "There were no entries, exits or large moves today; the chart was the stillest it has been in the tracking window.",
+    "The age pattern stays U-shaped: the three games aged 0–14 days sit at the 92nd median percentile, 15–122 days at 26–48, and games past a year at 61.",
+    "BedWars, Phonk Edit Tower, What If Disasters (21 days) and Survive Overnight in a Mega Store are the weakest holders."
+   ],
+   "patterns": [
+    "Games left more than about 10 days without an update consistently stay fewer days on the chart (r=-0.62 at the split; H-mp-018 at 65% tends to hold).",
+    "Pricier products and passes tend to go with longer presence (median product above 472 R$ r=+0.46; median pass above 77 R$ r=+0.48), with age as the main confounder.",
+    "combat_pvp (70), racing_driving (67), steal_defend_base (64) and roleplay_social (62) lead loops by median percentile, while wave survival (29), incremental_plus1 (31) and obbies (31) trail.",
+    "Long-running hits in the video set keep a light HUD in social and PvP games (Brookhaven, RIVALS, Adopt Me!) but a dense one in progression games (Blox Fruits, Hypershot), suggesting HUD density follows the loop rather than success."
+   ],
+   "outliers": [
+    {"name": "Steal An Egg", "note": "A 93-day steal/egg template still leads the chart while its clones fall elsewhere; being first to the format seems to matter more than the format."},
+    {"name": "What If Disasters", "note": "At 21 days it sits among the weakest holders, matching the mid-life trough young games face once launch momentum ends."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) lead efficiency again, followed by Elemental Dungeons, Spin a KPOP Idol and Dinosaur Simulator.",
+    "Efficiency still rises with age: 33rd median percentile at 15–42 days, 41 at 43–84, 53 at 85–122 and 59 past a year (H-te-001 at 81%).",
+    "Movement was minimal: only Skibi Defense entered, and the biggest fallers lost a single place.",
+    "Fake an Egg (22 days), Violence District, Bike For Egg! and DONT SPLASH are the weakest earners for their player counts."
+   ],
+   "patterns": [
+    "A median developer product above 79 R$ consistently goes with higher efficiency (r=+0.38 at the split; H-te-005 at 82%).",
+    "RPGs (r=+0.47) and roleplay loops (r=+0.30) consistently earn more per player, while Survival (r=-0.30), Simulation (r=-0.20) and solo loops (r=-0.24) earn less.",
+    "Longer descriptions, more and pricier passes, bigger servers and higher complexity all consistently go with efficiency, with age as a shared confounder.",
+    "'Egg' (r=-0.70) and 'Steal' (r=-0.40) titles carry the lowest efficiency, and steal_defend_base sits at the 19th median percentile among loops."
+   ],
+   "outliers": [
+    {"name": "[🎃] Fake an Egg", "note": "On several charts at 22 days but the weakest earner per player, consistent with steal/egg templates buying reach rather than revenue."},
+    {"name": "THROTTLE (Beta) Moto Racing", "note": "A Simulation-genre game that earns well per player through cash packs up to 5,900 R$, a counterexample to H-te-027 and consistent with the bike-sim niche in H-x-010."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "PINKIE PROMISE (20 days) leads momentum at +29, followed by Keyboard Bridge Wars +26, SQUISHY DUMPLING PRISON RUN +18, A Long Flight +17 and Throw Food For Animals +16.",
+    "The youngest games carry the most momentum: 0–14 days at the 88th median percentile, 15–42 at 52 and 43–84 at 44.",
+    "Eight games entered, including Airport Security (Anomaly), NexRide, Catch a Plane!, roll the world and Find or Die!; Murder Mystery 2, Dress To Impress and Wanted fell off.",
+    "Solve The Cube -21, Kayak and Surf -18 and Rally Panic! -17 fell the furthest."
+   ],
+   "patterns": [
+    "Shorter titles consistently go with higher positions within age bands (within-age -0.39; H-tt-037 at 67%).",
+    "Luck passes (within-age -0.53) and luck products (-0.33) tend to go against momentum and position, proposed today as a pass hypothesis next to H-tt-025.",
+    "Revives (H-tt-036 at 64%) and collection indexes (H-tt-028 at 67%) tend to go with stronger young games.",
+    "sandbox_physics (85), horror_escape (74) and wave survival (70) lead by median percentile, while job sims trail at 9, each from small groups."
+   ],
+   "outliers": [
+    {"name": "[DUELS] Rally Panic!", "note": "Strong page, video and a novel two-role co-op idea, yet it fell 17 places at 24 days; its new Duels mode may be pulling it toward the PvP pattern that climbs slowly."},
+    {"name": "Keyboard Bridge Wars! 🧱", "note": "At 187 days it is outside the scored age range but rose 26 places, a reminder that party formats re-surface older games."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH (9 days) leads, ahead of Ragdoll Reality, The Hollow, PINKIE PROMISE, It Hears The Water and A Long Flight.",
+    "Cook the Chicken rose +47, Fart Together +25, My Bus +25 and PINKIE PROMISE +19, while Train Pets for Eggs -29, UNDERTALE Fight! -21 and Solve The Cube -20 fell.",
+    "Twelve games entered, including My Small Business (9 days, #42), Flying Tesla Roadster, +1 Shrink Worm Escape, Build An Anime Character and Steal A Pet And Ride It!; Bike Universe and Throw Food For Animals left.",
+    "Age bands are flat today (48–51 median percentile), so position differences come from the loop and updates more than age."
+   ],
+   "patterns": [
+    "Frequent updates consistently go with higher positions (updates per week within-age +0.37; H-uc-015 at 71%, H-uc-012 at 75%).",
+    "Everyday-life roleplay (within-age +0.52) and physics sandboxes (+0.36) tend to rank high, while PvP (-0.26), core competition (-0.26) and 'play with friends' pitches (-0.35) rank lower.",
+    "Sports loops sit at the 5th median percentile across five games (Be a Soccer Manager, Bloxx League and others) despite strong like ratios, proposed today as a hypothesis.",
+    "Gameplay thumbnails tend to rank higher (+0.25 within age) while reward-flex ones rank lower (-0.26), which also weakened H-uc-010 and H-uc-011 today."
+   ],
+   "outliers": [
+    {"name": "Be a Soccer Manager ⚽", "note": "A 98% like ratio on 22K votes and a deep manager loop, yet near the bottom; the sports-league loop and an older-skewing audience seem to hold it back."},
+    {"name": "Cook the Chicken (by slapping it)", "note": "No game passes and a 78% like ratio, yet the biggest riser at +47; a pure curiosity hook can still carry a young game upward."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Physics sandboxes and horror lead both breakout charts: Ragdoll Reality and Realistic Ragdoll Engine sit high on Up-and-Coming and Top Trending, and horror_escape is now the largest loop on Up-and-Coming.",
+   "Games pull players first and monetize later: the youngest games lead Top Trending while Top Earning efficiency climbs from the 33rd percentile at 15–42 days to the 59th past a year.",
+   "Steal/egg templates keep buying reach without revenue: Steal An Egg leads Most Popular while Fake an Egg and Bike For Egg! are the weakest earners per player.",
+   "Halloween tags appear on most chart titles this week, a seasonal confounder for bracket-tag and update hypotheses."
+  ],
+  "progressions": [
+   "uc→tt is now the most common transition (103 entries, median 2 days), just ahead of tt→mp (101, 2 days).",
+   "te→tt (67, 8 days), uc→te (66, 4 days), tt→te (65, 4 days) and uc→mp (64, 4 days) show breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+  ]
+ }
+}
