@@ -1,8 +1,8 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "queue": [
   {
-   "age_days": 1209,
+   "age_days": 1210,
    "charts": [
     "mp"
    ],
@@ -12,7 +12,7 @@
    "u": "4839802560"
   },
   {
-   "age_days": 957,
+   "age_days": 958,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5750914919"
   },
   {
-   "age_days": 1227,
+   "age_days": 1228,
    "charts": [
     "te"
    ],
@@ -32,7 +32,7 @@
    "u": "4777817887"
   },
   {
-   "age_days": 2314,
+   "age_days": 2315,
    "charts": [
     "te"
    ],
@@ -42,17 +42,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 2660,
-   "charts": [
-    "te"
-   ],
-   "name": "[🎃] Dragon Adventures 🐉",
-   "place": "3475397644",
-   "status": "frames_ready",
-   "u": "1235188606"
-  },
-  {
-   "age_days": 661,
+   "age_days": 662,
    "charts": [
     "te"
    ],
@@ -60,12 +50,27 @@
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
+  },
+  {
+   "age_days": 2661,
+   "charts": [
+    "te"
+   ],
+   "name": "[🎃] Dragon Adventures 🐉",
+   "place": "3475397644",
+   "status": "frames_ready",
+   "u": "1235188606"
   }
  ],
  "waiting": [
   {
    "name": "🎃 Your Bizarre Adventure 🎃",
    "u": "1016936714",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "Greenville RP (🦇HALLOWEEN EVENT + LIMITED CARS!)",
+   "u": "371263894",
    "why": "needs Rolimons history"
   },
   {
