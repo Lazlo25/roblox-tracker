@@ -1,0 +1,54 @@
+{
+ "new": [
+  {
+   "chart": "tt",
+   "statement": "Young games shipping more than about 6 updates a week hold higher Top Trending positions among games of similar age",
+   "action": "Ship several updates a week",
+   "test": {"feature": "updates_per_week", "metric": "tt_pos", "type": "threshold", "cut": 6, "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games whose median developer product costs more than 79 Robux hold higher Top Trending positions among games of similar age",
+   "action": "Price most dev products above 79 R$",
+   "test": {"feature": "products_median_price", "metric": "tt_pos", "type": "threshold", "cut": 79, "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "Descriptions that ask players to like the game go with higher Up-and-Coming positions among games of the same age",
+   "action": "Ask players to like the game",
+   "test": {"feature": "cta_like", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "Games built around drivable vehicles rank higher on Up-and-Coming among games of the same age",
+   "action": "Add drivable vehicles",
+   "test": {"feature": "mech_vehicles", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Complete ports of proven off-platform formats (rated chess with engine review, a Ragnarok-style MMORPG, a Terraria-inspired pixel roguelike, Katamari-style rolling) reach Top Trending or Top Earning without leaning on Roblox templates",
+   "action": "Port a proven off-platform format in full",
+   "rationale": "RoChess (26 days, 18.1M visits) is on Top Trending and Up-and-Coming; Pixel Lineage (32 days, 99% likes) is Top Earning #95 with a single game pass; roll the world leads Top Trending momentum (+34); Hunting Together RPG reached Top Earning at 23 days. Confirm if more such ports appear and whether they hold for several weeks; the counter case would be ports that stall below the charts."
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Greed-versus-risk extraction loops, where loot slows you down or a quota deadline looms while a threat hunts you (Steal Or Die, Criminal Simulator), reach Top Earning and Up-and-Coming within their first weeks",
+   "action": "Make players trade loot against escape",
+   "rationale": "Steal Or Die (48 days) is Top Earning #205 and sells cash packs up to 5,999 R$; Criminal Simulator (19 days, Lethal Company-style debt quota) entered Up-and-Coming at #69 with 22 badges. Two cases only; confirm with more extraction or quota games and their positions over the next two weeks."
+  }
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-021", "confidence": 45, "note": "Ragdoll Reality and Realistic Ragdoll Engine are both in the top four of Up-and-Coming and among the best Top Trending climbers (+28 for Realistic Ragdoll Engine); Get A Grip, a ragdoll climbing sandbox, entered Up-and-Coming. sandbox_physics leads both breakout charts by median percentile (86 and 81)."},
+  {"id": "H-x-019", "confidence": 40, "note": "DONT SPLASH still leads Up-and-Coming at 10 days, It Hears The Water entered Most Popular at 13 days, and two new games (FATHOM, Steal Or Die) build their monster around hearing players' footsteps and microphones; FATHOM's monster even talks back. The broader horror wave remains a confounder."},
+  {"id": "H-x-020", "confidence": 40, "note": "The Hollow (14 days, no passes or products) sits among the best on Up-and-Coming, and Steal Or Die's thumbnails advertise 'The Hollow, 1 of 5 entities', showing participating games use the event in their marketing."},
+  {"id": "H-x-011", "confidence": 48, "note": "Steal An Egg still leads Most Popular, but Steal A Pet And Ride It! rose +66 on Up-and-Coming and Hide to Steal Eggs and Steal a Wild Horse entered it, so new clones still break in at the low end. 'Steal' titles keep the weakest efficiency (r=-0.44) and steal_defend_base sits at the 18th percentile on Top Earning."},
+  {"id": "H-x-001", "confidence": 48, "note": "uc→tt reached 111 entries (median 2 days) and tt→mp 105 (2 days); tt→uc stays at 1. The order keeps holding."},
+  {"id": "H-x-023", "confidence": 20, "note": "Flying Tesla Roadster rose +46 on Up-and-Coming while its like ratio stayed at 65%, so the low-like part holds but the low-position part is weaker than expected."}
+ ],
+ "actions": [],
+ "retire": []
+}

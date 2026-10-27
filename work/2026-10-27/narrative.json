@@ -1,0 +1,91 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "Steal An Egg (94 days) still leads, ahead of Brookhaven, 99 Nights in the Forest, Murder Mystery 2, RIVALS and +1 Speed Keyboard Escape.",
+    "After yesterday's still day, movement returned: Dead Rails rose +44 and Survive Overnight in a Mega Store +30 with Halloween events, and What If Disasters (22 days) climbed +14.",
+    "Seven games entered, including It Hears The Water (13 days), Pave the Road (44 days), Demonology and Welcome to Bloxburg; BedWars Part 2, Kick a Lucky Block and Adopt Your Animal! fell off.",
+    "The age curve is U-shaped with the trough at 85–122 days (11th median percentile), against 80 for games 14 days or younger and 61 for games past a year, which may support H-mp-009 (40%)."
+   ],
+   "patterns": [
+    "Games left more than about 11 days without an update stay fewer days on the chart (r=-0.61 at the split); H-mp-018 at 65% tends to hold.",
+    "Pricier products (median above 472 R$, r=+0.46) and passes (median above 77 R$, r=+0.46) tend to go with longer presence, with age and visits as confounders.",
+    "Three of the five biggest risers are wave-survival games (Dead Rails, Survive Overnight in a Mega Store, What If Disasters) even though that loop sits at only the 34th median percentile, which suggests seasonal events lift it for a short time.",
+    "Solo loops consistently hold lower positions than social ones (H-mp-003 at 75%), and more original concepts consistently rank higher (H-mp-013 at 75%).",
+    "In the video set, social and PvP hits keep a light HUD (Brookhaven, RIVALS, Adopt Me!) while progression hits run a dense one (Blox Fruits, Emergency Hamburg), so HUD density follows the loop rather than success."
+   ],
+   "outliers": [
+    {"name": "[👻EVENT] Dead Rails", "note": "At 664 days it made the biggest climb (+44) on the back of an event tag, a sign that a seasonal event can revive an older game."},
+    {"name": "Pave the Road", "note": "Entered Most Popular at 44 days with a 75% like ratio, against the job-sim weakness seen on Top Trending; its 'progress now saves' update may have reset retention."}
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) lead efficiency again, followed by Elemental Dungeons, Dinosaur Simulator and Project Baki.",
+    "Efficiency still rises with age: the 2nd median percentile at 0–14 days, 33 at 15–42, 41 at 43–84 and 60 past a year (H-te-001 at 81%).",
+    "Movement returned: 24 games entered, including REALISTIC HOME DEFENSE, Build and Burn, Tame An Animal, Steal A DNA and Project Baki, and 21 left.",
+    "Pet Simulator X rose +146, Create a Robot Fighter +110 and Pixel Basketball +102, while Run a Cheer Gym fell -84 and Tycoon, but one dropper -82."
+   ],
+   "patterns": [
+    "A median developer product above 79 R$ consistently goes with higher efficiency (r=+0.41 at the split; H-te-005 at 83%).",
+    "RPGs (r=+0.44), roleplay loops (+0.30) and combat PvP consistently earn more per player, while Survival (-0.36), Simulation (-0.22) and steal-base loops (18th median percentile) earn less.",
+    "Complexity (+0.25), longer descriptions (+0.22), bigger servers (best split at 40 players, r=+0.41) and pricier passes consistently go with efficiency, with age as a shared confounder.",
+    "'Steal' titles (r=-0.44) and 'RP' titles (-0.38) carry the lowest efficiency among keywords, while roleplay loops in general rank high, so the RP title tag may mark smaller roleplay clones."
+   ],
+   "outliers": [
+    {"name": "Pixel Lineage", "note": "Top Earning #95 at 32 days with a single game pass and 99% likes; it earns through currency and race spins, a counter case to the pass-count hypotheses."},
+    {"name": "Pet Simulator X! 🐾", "note": "Climbed +146 despite 48 days without an update, against the update hypotheses; Halloween spending in an old pet game is a likely reason."},
+    {"name": "🎃 [HALLOWEEN] Hunting Together RPG", "note": "The listed counter case to H-te-011: an RPG that earns poorly for its players at 23 days, with Thai-language products pointing to a regional audience that spends less per player."}
+   ]
+  },
+  "tt": {
+   "observations": [
+    "roll the world (21 days) leads momentum at +34, followed by Throw Food For Animals +31, Realistic Ragdoll Engine +28, Cameraman Tower Defense +28 and SQUISHY DUMPLING PRISON RUN +23.",
+    "The youngest games carry the most momentum: 0–14 days at the 77th median percentile, 15–42 at 59 and 43–84 at 42.",
+    "Nineteen games entered, including My Small Business (10 days), My Bus, Scooter Duo, Spot and Mark! and older returners such as The Mimic and Pet Simulator 99.",
+    "Party and duel formats fell hardest: Keyboard Bridge Wars -33, Bridge Battles -32 and Make a Face -25, with Demonology -41."
+   ],
+   "patterns": [
+    "Recently updated young games tend to climb faster (H-tt-005 rose to 65%), and more updates a week go with higher positions within age bands (+0.32), proposed today as a hypothesis.",
+    "Shorter titles tend to go with higher positions (H-tt-037 at 68%), and launching with more than 8 passes tends to go with lower ones (H-tt-032 at 68%).",
+    "A collection index tends to go with stronger young games (H-tt-028 at 69%), and a median product above about 85 R$ goes with higher positions within age bands (+0.39), proposed today.",
+    "Physics sandboxes (86), wave survival (77) and horror (66) lead by median percentile, while job sims (6) and party minigames (12) trail, each from small groups."
+   ],
+   "outliers": [
+    {"name": "[🚀 SPACE] roll the world 🌎", "note": "Leads momentum despite a bracket tag, a luck pass and server-luck products, counter to H-tt-007 and H-tt-039; its Katamari-style growth loop and a fresh space update likely outweigh them."},
+    {"name": "Make Ramen To Get Rich [RELEASE]", "note": "Weakest on momentum at 19 days despite 22 passes, consistent with H-tt-032 on pass-heavy launches."}
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH (10 days) leads, ahead of My Small Business, Ragdoll Reality, Realistic Ragdoll Engine, A Long Flight and The Hollow.",
+    "Games 14 days or younger sit at the 94th median percentile against about 50 for older ones, the steepest age gap of the week (best split at 15 days, r=-0.60).",
+    "Steal A Pet And Ride It! rose +66, Tower Of Luck +63, Harvest It All +60, Climb The Locust Tower +51 and Flying Tesla Roadster +46.",
+    "Everyday-device games fell together: Apple iPad Original -43, Fix My Phone! -42 and Realistic Phone Drop Test -38, alongside +1 Animal Mog Evolution -44 and +1 Tackle Evolution -38.",
+    "Seventeen games entered, including FATHOM, Fake Dead or DIE, Durian Garden (6 days), Night Rider, Fart Raft!, Escape The Walls and Hide to Steal Eggs."
+   ],
+   "patterns": [
+    "Gameplay thumbnails consistently go with higher positions (H-uc-040 at 73%; +0.31 within age), while reward-flex thumbnails rank lower (-0.19).",
+    "Recent updates consistently go with higher positions (H-uc-012 at 75%), and cash-tycoon loops consistently rank lower (H-uc-016 at 71%).",
+    "Asking players to like the game (+0.27 within age) and drivable vehicles (+0.23) may go with higher positions, proposed today as hypotheses.",
+    "Physics sandboxes (81) and wave survival (71) lead loops by median percentile while story adventures (11) and job sims (23) trail."
+   ],
+   "outliers": [
+    {"name": "🧸 My Small Business", "note": "A cash-tycoon build game at #2, the counter case for H-uc-016 and H-uc-029; its cute shop theme and 96% likes may carry it."},
+    {"name": "Climb The Locust Tower", "note": "Rose +51 while Steal Or Die also uses the same creator-made Locust monster, a hint that a popular indie character can carry several small games at once."}
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Physics sandboxes and horror lead both breakout charts again: two ragdoll games sit in the top four of Up-and-Coming and among the best Top Trending climbers, and horror_escape is the largest loop on Up-and-Coming.",
+   "Games pull players first and monetize later: games 14 days or younger lead Up-and-Coming (94th percentile) and Top Trending (77th) while Top Earning efficiency climbs from the 2nd percentile at 0–14 days to the 60th past a year.",
+   "Updating often is the most consistent cross-chart signal: days since update goes against Most Popular, Top Trending and Up-and-Coming at once.",
+   "Halloween events lift older games across charts (Dead Rails, Survive Overnight in a Mega Store, The Mimic, Pet Simulator X), a seasonal confounder for update and age hypotheses this week."
+  ],
+  "progressions": [
+   "uc→tt remains the most common transition (111 entries, median 2 days), ahead of tt→mp (105, 2 days).",
+   "uc→te (76, 5 days), tt→te (72, 4 days), te→tt (70, 9 days) and uc→mp (65, 4 days) show breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+  ]
+ }
+}
