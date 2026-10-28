@@ -1,0 +1,46 @@
+{
+ "new": [
+  {
+   "chart": "uc",
+   "statement": "Party-minigame loops (1v1 table duels, quiz and drawing duels) rank lower on Up-and-Coming than other games of the same age",
+   "action": "Skip 1v1 table duels for breakout",
+   "test": {"feature": "loop=party_minigames", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "uc",
+   "statement": "Games selling skips (skip stage, skip lesson, skip to end) rank lower on Up-and-Coming among games of the same age",
+   "action": "Don't sell skips at launch",
+   "test": {"feature": "prod_skip", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games whose descriptions ask players to join the group climb Top Trending more slowly than games of similar age",
+   "action": "Skip join-the-group asks at launch",
+   "test": {"feature": "cta_group", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}
+  },
+  {
+   "chart": "te",
+   "statement": "Horror-escape loops earn a lower Top Earning position for their CCU than other profiled loops",
+   "action": "Don't rely on horror escapes for revenue",
+   "test": {"feature": "loop=horror_escape", "metric": "te_eff", "type": "binary", "direction": "-"}
+  },
+  {
+   "chart": "uc",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Scripted 'get ready in time' story games from one studio template (Makeup For Prom Tonight, Don't Be Late For Exam) reach Up-and-Coming on a relatable premise despite like ratios under 35%, selling troll power (ban hammer, kill all, cut in line) rather than progression",
+   "rationale": "Both are from the group 'Stay Consistent', 13-16 days old, on Up-and-Coming (#73, #85) with 22% and 34% likes, identical pass lists (Ban Hammer 1499, Gravity Gun, Detain) and no update for two weeks. Confirm if more games from this template appear and whether they fall off within another week; the counter case would be one holding its position with a low like ratio."
+  }
+ ],
+ "qualitative_updates": [
+  {"id": "H-x-020", "confidence": 45, "note": "The Hollow is now on three charts at once (Most Popular #7, Top Trending #3, Up-and-Coming #7) at 15 days with no passes or products, and Banana Eats entered Top Trending with a [HOLLOW] title tag and a Hollow basement event. Halloween itself remains a confounder."},
+  {"id": "H-x-021", "confidence": 50, "note": "Realistic Ragdoll Engine (16 days) entered Most Popular, Ragdoll Reality rose +10 there, and sandbox_physics leads both breakout charts by median percentile (77 on Up-and-Coming and Top Trending). Realistic Car Destruction and Realistic Ragdoll Playground also entered Up-and-Coming."},
+  {"id": "H-x-019", "confidence": 45, "note": "DONT SPLASH (11 days) leads Up-and-Coming and is among the best on Most Popular; It Hears The Water rose +109 on Top Earning. Both carry the same noise rule."},
+  {"id": "H-x-011", "confidence": 44, "note": "Against the fade: Steal A Pet And Ride It! rose +130 on Top Earning and entered Top Trending, Hike For Eggs and Scare Your Neighbor entered the breakout charts, and Steal An Egg still leads Most Popular. Steal-a-X now tends to rank higher on Up-and-Coming (H-uc-002 54%)."},
+  {"id": "H-x-001", "confidence": 50, "note": "uc→tt reached 126 entries (median 2 days) and tt→mp 108 (2 days); tt→uc stays at 1. The order keeps holding."},
+  {"id": "H-x-025", "confidence": 24, "note": "Criminal Simulator rose +34 on Up-and-Coming at 20 days; still a small set."},
+  {"id": "H-x-005", "confidence": 32, "note": "A fart-raft wave appeared: Fart Together [1-4 PLAYER OBBY] is among the best Top Trending climbers, and Fart Together and Fart With Your Friends! both entered Up-and-Coming, though the first sits at the bottom. 'Fart' is now 4% of Up-and-Coming titles."}
+ ],
+ "actions": [],
+ "retire": []
+}

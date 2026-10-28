@@ -1,0 +1,111 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "Steal An Egg (95 days) leads ahead of Brookhaven, 99 Nights in the Forest, Murder Mystery 2, DONT SPLASH (11 days) and RIVALS.",
+    "Halloween moves dominate: Survive Overnight in a Mega Store rose +33 and Sniper Arena +12, while Dead Rails fell -31 and he ate them. -20 despite same-day updates.",
+    "Ten games entered, including Realistic Ragdoll Engine (16 days), A Long Flight, Survive a Million Monkeys, Home Alone: Anomalies and +1 Money Per Click.",
+    "Multi-year evergreens (60th median percentile) and the newest games (65th, n=2) lead, while 85–365-day games sit at the 21st–29th, the mid-life trough again."
+   ],
+   "patterns": [
+    "More original concepts consistently hold higher positions (H-mp-013 at 77%), and solo loops consistently sit lower (H-mp-003 at 76%).",
+    "'+1' titles go with lower positions (r=-0.43) while 'Egg' titles go with higher ones (r=+0.46), carried mostly by Steal An Egg and its clones.",
+    "Higher median product prices go with more days on the chart (split at 449 R$, r=+0.44), and games updated within 12 days stay longer (r=-0.61 for days since update).",
+    "steal_defend_base leads loops by median percentile (85) and incremental_plus1 trails (14)."
+   ],
+   "outliers": [
+    {
+     "name": "DONT SPLASH",
+     "note": "An 11-day horror obby already among the best on Most Popular, carried by a single sound rule and the Halloween horror wave."
+    },
+    {
+     "name": "[🎃] Build a Keyboard!",
+     "note": "97% likes and 32 passes yet among the weakest on the chart; a 91-day roll-and-collect game sitting in the mid-life trough (H-mp-009)."
+    }
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) again lead efficiency, followed by Elemental Dungeons, Dinosaur Simulator and Jungle Life.",
+    "Steal A Pet And Ride It! rose +130, Work at a Pizza Place +116, It Hears The Water +109 and PINKIE PROMISE +100, while tower-defense games Anime Mysterious (-74) and Anime RNG Defense (-48) fell.",
+    "Efficiency climbs with age from the 6th percentile at 0–14 days to the 60th past a year.",
+    "Eleven games entered, including My Dino Empire, German Moped Days, Ride a Dragon, Ro-BassFishing and World of Stands."
+   ],
+   "patterns": [
+    "Median product price above 79 R$, a premium pass above 999 R$, servers above 24, RPG genre, complexity and longer descriptions all consistently go with higher efficiency (84% each).",
+    "Steal-a-X loops (18th percentile), Survival genre and Simulation genre consistently earn lower positions for their CCU, and horror_escape loops sit at the 33rd percentile, proposed today as a hypothesis.",
+    "Roleplay hubs (74th) and story adventures (72nd) lead loops; sandbox physics (16th) trails, matching ragdoll games' reach without revenue so far."
+   ],
+   "outliers": [
+    {
+     "name": "Ride a Dragon [StarWeaver 💫]",
+     "note": "A steal-and-hatch game that entered Top Earning with 216 developer products, the lone counter case to H-te-024; unique float-rated dragons may add collection value."
+    },
+    {
+     "name": "Ro-BassFishing",
+     "note": "Entered with only 2 passes and 3 cash products priced 800–1600 R$, a niche realistic sim selling few but expensive items."
+    }
+   ]
+  },
+  "tt": {
+   "observations": [
+    "Cook the Chicken (by slapping it) (+38), My Bus (+31), Paint and Hide! (+26), Fart Together and Throw Food For Animals lead young-game momentum.",
+    "Fix My Phone! (-29), Something is Wrong With My Dog (-31) and +1 Pickaxe Swing for Eggs (-19) fell, and Fix My Phone! later left the chart.",
+    "Twenty-two games entered, among them Banana Eats with a Hollow tag, Steal A Pet And Ride It!, Word Game [RU] and Escape The Walls.",
+    "Games 0–14 days old score the 75th median percentile against 43 at 43–84 days."
+   ],
+   "patterns": [
+    "Shorter titles consistently go with higher positions (H-tt-037 at 71%), and more updates per week tend to go with higher positions (H-tt-040 at 67%, rho=+0.36).",
+    "Launching with more than 8 passes tends to go with lower positions (H-tt-032 at 67%), and creature themes tend to climb more slowly (H-tt-022 at 63%).",
+    "Descriptions asking players to join the group may go with slower climbs (r=-0.42, 8 games), proposed today.",
+    "Sandbox physics and wave survival lead loops (77th each) while simulation jobs (25th) trail."
+   ],
+   "outliers": [
+    {
+     "name": "Cook the Chicken (by slapping it)",
+     "note": "No passes, 5 products and a 78% like ratio yet the strongest climber, a curiosity hook that counters most monetization hypotheses."
+    },
+    {
+     "name": "My Bus 🚌",
+     "note": "A job sim with 189 products climbing +31, against the weak median for simulation jobs."
+    }
+   ]
+  },
+  "uc": {
+   "observations": [
+    "DONT SPLASH leads ahead of Realistic Ragdoll Engine, My Small Business, Ragdoll Reality, My Bus and A Long Flight.",
+    "Secure the Waterpark rose +48, MOUSE +44, Criminal Simulator +34, Night Rider +33 and Escape The Walls +32, while Catch a Plane! (-48) and Save the Krusty Krab (-45) fell.",
+    "Thirty-one games entered, including T-Rex vs 99 Players, +1 Anime Eyes, Realistic Car Destruction, Teach Your Sister How To Drive and Scare Your Neighbor; 33 left.",
+    "Games 43 days and older sit at the 19th median percentile against 52–54 for younger ones."
+   ],
+   "patterns": [
+    "Luck passes consistently go with lower positions (H-uc-018 at 71%, r=-0.61), and thumbnails with text or numbers consistently rank lower (H-uc-017 at 72%).",
+    "Gameplay thumbnails (H-uc-040, 73%) and more original concepts (H-uc-039, 73%) consistently go with higher positions.",
+    "Party-minigame loops sit at the 16th median percentile, with six table-duel games (word chain, quiz, logo, pancake, face painting, truth or lie) in today's profiles; proposed today as a hypothesis, with skip products (r=-0.25) as a second.",
+    "Physics sandboxes, racing and idle tycoons lead loops (77th each)."
+   ],
+   "outliers": [
+    {
+     "name": "🧸 My Small Business",
+     "note": "A cash-tycoon build game near the top, still the counter case to H-uc-016 and H-uc-029."
+    },
+    {
+     "name": "Fart Together",
+     "note": "The weakest on the chart even as a near-identical Fart Together obby is a top Top Trending climber, suggesting the meme wave rewards the first entrant."
+    }
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Ragdoll physics and noise-rule horror lead the breakout charts again, and both now reach Most Popular: Realistic Ragdoll Engine entered at 16 days and DONT SPLASH is among its best at 11 days.",
+   "The Hollow, Roblox's own event hub, is on Most Popular, Top Trending and Up-and-Coming at once, and participating games such as Banana Eats tag it in their titles.",
+   "Games pull players first and monetize later: the newest games lead Up-and-Coming and Top Trending while Top Earning efficiency rises steadily with age.",
+   "Halloween events lift and drop older games across charts this week, a seasonal confounder for update and age hypotheses."
+  ],
+  "progressions": [
+   "uc→tt remains the most common transition (126 entries, median 2 days), ahead of tt→mp (108, 2 days).",
+   "uc→te (78, 5 days), tt→te (75, 4 days), te→tt (72, 9 days) and uc→mp (67, 4 days) show breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+  ]
+ }
+}
