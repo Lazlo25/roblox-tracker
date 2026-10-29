@@ -8,7 +8,7 @@
    ],
    "name": "LifeTogether 🏠 RP [FAMILIES]",
    "place": "13967668166",
-   "status": "youtube_needed",
+   "status": "frames_ready",
    "u": "4839802560"
   },
   {
@@ -18,7 +18,7 @@
    ],
    "name": "Fisch 👻 [HORSEMAN]",
    "place": "16732694052",
-   "status": "youtube_needed",
+   "status": "frames_ready",
    "u": "5750914919"
   },
   {
@@ -42,6 +42,16 @@
    "u": "1831550657"
   },
   {
+   "age_days": 3409,
+   "charts": [
+    "te"
+   ],
+   "name": "Greenville RP (🦇HALLOWEEN EVENT + LIMITED CARS!)",
+   "place": "891852901",
+   "status": "queued",
+   "u": "371263894"
+  },
+  {
    "age_days": 663,
    "charts": [
     "te"
@@ -60,28 +70,27 @@
    "place": "3475397644",
    "status": "frames_ready",
    "u": "1235188606"
+  },
+  {
+   "age_days": 1060,
+   "charts": [
+    "te"
+   ],
+   "name": "Sol's RNG [ Radiant Forest🌙]",
+   "place": "15532962292",
+   "status": "queued",
+   "u": "5361032378"
+  },
+  {
+   "age_days": 1954,
+   "charts": [
+    "te"
+   ],
+   "name": "🎃👻 Wild Horse Islands",
+   "place": "6989310863",
+   "status": "queued",
+   "u": "2682938349"
   }
  ],
- "waiting": [
-  {
-   "name": "🎃 Your Bizarre Adventure 🎃",
-   "u": "1016936714",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Greenville RP (🦇HALLOWEEN EVENT + LIMITED CARS!)",
-   "u": "371263894",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "Sol's RNG [ Radiant Forest🌙]",
-   "u": "5361032378",
-   "why": "needs Rolimons history"
-  },
-  {
-   "name": "🎃👻 Wild Horse Islands",
-   "u": "2682938349",
-   "why": "needs Rolimons history"
-  }
- ]
+ "waiting": []
 }
