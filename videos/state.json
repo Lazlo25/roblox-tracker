@@ -90,11 +90,13 @@
   "status": "no_video"
  },
  "4777817887": {
-  "at": "2026-10-28",
-  "status": "youtube_needed"
+  "at": "2026-10-29",
+  "source": "youtube",
+  "status": "frames_ready",
+  "video_id": "fbikE3uTL0o"
  },
  "4839802560": {
-  "at": "2026-10-28",
+  "at": "2026-10-29",
   "status": "youtube_needed"
  },
  "5203828273": {
@@ -104,7 +106,7 @@
   "video_id": "90282066744252"
  },
  "5750914919": {
-  "at": "2026-10-28",
+  "at": "2026-10-29",
   "status": "youtube_needed"
  },
  "578392296": {
