@@ -2,36 +2,6 @@
  "date": "2026-10-29",
  "queue": [
   {
-   "age_days": 1212,
-   "charts": [
-    "mp"
-   ],
-   "name": "LifeTogether 🏠 RP [FAMILIES]",
-   "place": "13967668166",
-   "status": "frames_ready",
-   "u": "4839802560"
-  },
-  {
-   "age_days": 960,
-   "charts": [
-    "te"
-   ],
-   "name": "Fisch 👻 [HORSEMAN]",
-   "place": "16732694052",
-   "status": "frames_ready",
-   "u": "5750914919"
-  },
-  {
-   "age_days": 1230,
-   "charts": [
-    "te"
-   ],
-   "name": "Blade Ball",
-   "place": "13772394625",
-   "status": "frames_ready",
-   "u": "4777817887"
-  },
-  {
    "age_days": 2317,
    "charts": [
     "te"
@@ -60,16 +30,6 @@
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
-  },
-  {
-   "age_days": 1955,
-   "charts": [
-    "te"
-   ],
-   "name": "🎃👻 Wild Horse Islands",
-   "place": "6989310863",
-   "status": "frames_ready",
-   "u": "2682938349"
   },
   {
    "age_days": 2663,
