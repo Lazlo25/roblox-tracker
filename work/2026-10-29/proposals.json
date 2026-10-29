@@ -1,0 +1,279 @@
+{
+ "new": [
+  {
+   "chart": "mp",
+   "statement": "Games with a skill-based competitive core, where other players make each round different, stay on Most Popular for more days",
+   "test": {
+    "feature": "competitive_core",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Let rivals make the content"
+  },
+  {
+   "chart": "mp",
+   "statement": "Games running named seasonal events (Halloween, Christmas, limited items) stay on Most Popular for more days",
+   "test": {
+    "feature": "mech_event",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Run a yearly event calendar"
+  },
+  {
+   "chart": "mp",
+   "statement": "Games selling cosmetic passes (trails, emotes, skins, radios) stay on Most Popular for more days",
+   "test": {
+    "feature": "pass_cosmetic",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Sell cosmetics, not power"
+  },
+  {
+   "chart": "mp",
+   "statement": "Games with trading stay on Most Popular for more days",
+   "test": {
+    "feature": "mech_trade",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Make items tradeable"
+  },
+  {
+   "chart": "mp",
+   "statement": "Games offering private servers stay on Most Popular for more days",
+   "test": {
+    "feature": "vip_servers",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Offer private servers"
+  },
+  {
+   "chart": "mp",
+   "statement": "Games selling admin or griefing passes stay on Most Popular for fewer days",
+   "test": {
+    "feature": "pass_admin",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "-"
+   },
+   "action": "Skip griefing and admin passes"
+  },
+  {
+   "chart": "mp",
+   "statement": "Fixed-stage obby loops (finite authored content) stay on Most Popular for fewer days",
+   "test": {
+    "feature": "loop=obby_platformer",
+    "metric": "mp_days",
+    "type": "binary",
+    "direction": "-"
+   },
+   "action": "Avoid fixed-stage loops for longevity"
+  },
+  {
+   "chart": "mp",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Games that hold back a compounding system (trading, clans, a first live event) for weeks 8 to 12 avoid the month-three slide that hits games launching with everything",
+   "rationale": "From 2026-10-29-survival-and-monetization.md: decline hits in weeks 6-8 when players exhaust content. Confirm by tracking whether games that add trading/clans/live events in month 2-3 (title tags, description changes) keep Most Popular days past day 90 more often than games that go quiet.",
+   "action": "Hold a big system for month three"
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 15,
+   "statement": "Games whose ordinary rounds produce filmable moments and whose updates announce release times keep pulling new players through creators, so they re-enter the breakout charts after each update",
+   "rationale": "From 2026-10-29-survival-and-monetization.md: creators replace drifting players. Confirm with repeated uc/tt re-entries after title update tags for games with countdown or showtime wording in the description.",
+   "action": "Announce update release times"
+  },
+  {
+   "chart": "te",
+   "statement": "Games selling skips (skip stage, instant, time skips) earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "prod_skip",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Sell cheap repeatable skips"
+  },
+  {
+   "chart": "te",
+   "statement": "Games selling spins, crates or packs earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "prod_spin_crate",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Sell spins or crates"
+  },
+  {
+   "chart": "te",
+   "statement": "Games whose outcomes are decided by skill (core competitive loops) earn a lower Top Earning position for their CCU than stat- or luck-decided games",
+   "test": {
+    "feature": "competitive_core",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "-"
+   },
+   "action": "Let stats, not skill, decide outcomes"
+  },
+  {
+   "chart": "te",
+   "statement": "Games selling speed passes earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "pass_speed",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Sell speed passes"
+  },
+  {
+   "chart": "te",
+   "statement": "Games with a roll or luck layer earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "mech_rng_luck",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Add a luck/roll layer"
+  },
+  {
+   "chart": "te",
+   "statement": "Games built on idle or AFK income earn a lower Top Earning position for their CCU (hours added without new wants)",
+   "test": {
+    "feature": "mech_idle_afk",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "-"
+   },
+   "action": "Avoid AFK income loops for revenue"
+  },
+  {
+   "chart": "te",
+   "statement": "Games with daily or playtime rewards earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "mech_daily_rewards",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Ship daily login rewards"
+  },
+  {
+   "chart": "te",
+   "statement": "Games with rebirth or prestige multipliers earn a higher Top Earning position for their CCU",
+   "test": {
+    "feature": "mech_rebirth",
+    "metric": "te_eff",
+    "type": "binary",
+    "direction": "+"
+   },
+   "action": "Stack multiplier layers"
+  },
+  {
+   "chart": "te",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "A one-time starter bundle of 60 R$ or less on a 30-60 minute timer from first join wins the first purchase and lifts revenue per player",
+   "rationale": "From 2026-10-29-survival-and-monetization.md: Blade Ball's 60 R$ timed pack and Anime Ball's 39/99/399 bundles. Confirm by checking whether Top Earning games with 'starter' products priced under 60 R$ beat others on te_eff once a prod_starter flag exists.",
+   "action": "Offer a cheap first-session bundle"
+  },
+  {
+   "chart": "te",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Selling consumables that get used up or expire (single-use weapons, timed boosts, refills), plus passes that burn them faster, keeps spending uncapped and lifts revenue per player",
+   "rationale": "From 2026-10-29-survival-and-monetization.md. Confirm by tagging timed products ('15 min', '1 hour', 'refill') and testing them against te_eff.",
+   "action": "Sell consumables that get used up"
+  },
+  {
+   "chart": "te",
+   "kind": "qualitative",
+   "confidence": 15,
+   "statement": "Placing the Robux fix exactly where the frustration appears (pedestal cash packs, Robux button beside every coin price) lifts revenue per player",
+   "rationale": "From 2026-10-29-survival-and-monetization.md. Confirm with vid_monetization_shown on long-running Top Earning hits: games showing purchase prompts in the loop itself should rank better on te_eff.",
+   "action": "Put the Robux fix at the friction point"
+  },
+  {
+   "chart": "uc",
+   "statement": "Survival-framed games (survive the nights, zombies, last one standing) rank higher on Up-and-Coming among games of the same age",
+   "test": {
+    "feature": "mech_survival",
+    "metric": "uc_pos",
+    "type": "binary",
+    "direction": "+",
+    "strata": "age"
+   },
+   "action": "Frame the game as survival"
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games advertising redeem codes climb Top Trending faster among games of similar age",
+   "test": {
+    "feature": "mech_codes",
+    "metric": "tt_mom",
+    "type": "binary",
+    "direction": "+",
+    "strata": "age"
+   },
+   "action": "Post redeem codes at launch"
+  },
+  {
+   "chart": "tt",
+   "statement": "Young games with character-art thumbnails climb Top Trending more slowly among games of similar age",
+   "test": {
+    "feature": "thumb=character_art",
+    "metric": "tt_mom",
+    "type": "binary",
+    "direction": "-",
+    "strata": "age"
+   },
+   "action": "Skip character-art thumbnails for momentum"
+  }
+ ],
+ "qualitative_updates": [
+  {
+   "id": "H-x-019",
+   "confidence": 50,
+   "note": "FATHOM (a monster that hears footsteps and voice chat) entered Top Trending #69 and Up-and-Coming #32 at 19 days; DONT SPLASH stays among Most Popular's best at 12 days."
+  },
+  {
+   "id": "H-x-021",
+   "confidence": 55,
+   "note": "Realistic Ragdoll Engine rose +28 on Most Popular at 17 days; Realistic Ragdoll Playground +69 on Up-and-Coming; three more ragdoll sandboxes and a Toribash-style Ragdoll Fight entered Up-and-Coming."
+  },
+  {
+   "id": "H-x-020",
+   "confidence": 48,
+   "note": "Scary Shawarma Kiosk entered Top Trending with The Hollow banners and an in-game concert at 430 days old."
+  },
+  {
+   "id": "H-x-006",
+   "confidence": 60,
+   "note": "Home Alone: Anomalies rose +26 and Animal Hospital (Anomaly) +18 on Most Popular; Scary Shawarma Kiosk (rules-anomaly job) entered Top Trending."
+  },
+  {
+   "id": "H-x-011",
+   "confidence": 38,
+   "note": "Counter-evidence: Steal A Pet And Ride It! (25 days) is today's top riser on Top Trending (+22) and Top Earning (+67); Save The Egg fell -42 on Top Earning."
+  },
+  {
+   "id": "H-mp-009",
+   "confidence": 45,
+   "note": "Holds again: 85-122d at the 29th and 123-365d at the 35th percentile vs 45 at 15-42d and 60 past a year; the new research file describes the same month-three decline."
+  }
+ ],
+ "actions": [],
+ "retire": []
+}

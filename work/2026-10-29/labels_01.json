@@ -1,0 +1,691 @@
+[
+ {
+  "label": "Q01",
+  "loop": "play as a journalist photographing a park -> choose which moments to broadcast -> watch society react -> reach an ending",
+  "loop_archetype": "story_adventure",
+  "objectives": "manipulate (or redeem) the park's society through the news you broadcast and reach an ending",
+  "progression": "story branches and endings",
+  "instructions": "you are a journalist spreading panic; choose to destroy or save the peaceful society",
+  "mechanics": [
+   "camera/photography",
+   "branching choices",
+   "multiple endings"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "adaptation of Nicky Case's 'We Become What We Behold'",
+   "media-manipulation commentary story"
+  ],
+  "themes": [
+   "news",
+   "media",
+   "doodle art",
+   "satire"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "story game",
+   "multiple endings"
+  ],
+  "monetization_signals": [
+   "god mode sandbox product",
+   "draw your OC product"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "hand-drawn doodle characters, NEWS banner, 'GOOD ENDING?' text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "2D doodle art style, small scripted scenes; light systems",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "drive Tesla to the ramp -> jump and grab an egg -> escape the robot guard -> hatch at base for $/s -> train car and buy upgrades",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "grab rarer eggs from deeper biomes and grow income per second",
+  "progression": "car training, 10 biomes, 80 animals, 12 cars, mutations",
+  "instructions": "train your car, jump the ramp, grab an egg, escape the guard, hatch at base",
+  "mechanics": [
+   "stealing",
+   "car upgrades",
+   "egg hatching",
+   "income per second",
+   "mutations",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Tesla Roadster as the stealing vehicle"
+  ],
+  "themes": [
+   "cars",
+   "Tesla",
+   "dinosaurs",
+   "eggs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "eggs",
+   "cars"
+  ],
+  "monetization_signals": [
+   "x2 money pass",
+   "cash bundles",
+   "server luck tiers",
+   "starter pack",
+   "rainbow pack",
+   "egg products"
+  ],
+  "update_signals": [
+   "events and mutations",
+   "updated recently"
+  ],
+  "thumbnails": "Tesla with egg flying past a dinosaur; rusty-to-new car upgrade; T-Rex egg with $/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 2,
+  "complexity_notes": "biome maps, vehicle physics, pet models; template-style systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "enter arena -> punch opponents -> get KOs and build streak -> claim the crown",
+  "loop_archetype": "combat_pvp",
+  "objectives": "get KOs and keep a streak to hold the crown",
+  "progression": "streaks, crown",
+  "instructions": "master fighting, take down opponents, build streaks",
+  "mechanics": [
+   "melee fighting",
+   "kill streaks",
+   "stamina",
+   "skills"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "fist fighting",
+   "arena"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "faster skills pass",
+   "harder punches pass",
+   "stamina pass"
+  ],
+  "update_signals": [
+   "beta, frequent updates"
+  ],
+  "thumbnails": "first-person fist punch, red silhouette crater, grandma meme",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single arena, simple combat",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q04",
+  "loop": "spawn a 2D ragdoll dummy -> hurt it with weapons, powers, creatures and elements -> experiment with physics",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with ways to destroy the dummy",
+  "progression": "unlock tools and powers (mostly via passes)",
+  "instructions": "grab and fling, use items, slow motion, pause; codes RELEASE and 5KTHANKS!",
+  "mechanics": [
+   "ragdoll physics",
+   "2D falling-sand elements",
+   "weapons",
+   "powers",
+   "creature spawning"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "2D falling-sand sandbox (Granule-like) inside Roblox",
+   "multiplayer shared room"
+  ],
+  "themes": [
+   "ragdoll",
+   "weapons",
+   "anime powers"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "anime powers"
+  ],
+  "monetization_signals": [
+   "everything bundle",
+   "powers pack",
+   "tools pack",
+   "VIP",
+   "tips"
+  ],
+  "update_signals": [
+   "new codes"
+  ],
+  "thumbnails": "pixel ragdoll target, anime characters (Gojo, Dio, Sukuna) shown with the dummy",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "custom 2D particle/sand simulation, many items and powers",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "join red or blue team -> throw dodgeballs -> get hit and sent to prison -> catch a ball to escape back",
+  "loop_archetype": "sports_competitive",
+  "objectives": "knock out the enemy team",
+  "progression": "coins, crates, season pass",
+  "instructions": "pick a side, knock out enemies; escape prison by hitting someone from behind",
+  "mechanics": [
+   "dodgeball",
+   "team matches",
+   "prison respawn",
+   "crates",
+   "season pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "prison-ball rules (hit from behind enemy line)"
+  ],
+  "themes": [
+   "dodgeball",
+   "prison"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dodgeball"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x coins",
+   "lucky crates",
+   "coin packs",
+   "season pass",
+   "break out product"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "targeted noob in dodgeball crowd, red vs blue players",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 2,
+  "complexity_notes": "single court, round logic",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q06",
+  "loop": "climb the tower obby -> grab other players and carry them -> toss them into jail or lava -> reach the top for a reward",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top while trolling other players",
+  "progression": "tower stages, free carpet at the end",
+  "instructions": "climb, grab players, throw them in jail or lava",
+  "mechanics": [
+   "obby",
+   "carry/hug players",
+   "jail",
+   "trolling",
+   "admin-style products"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "paid troll products used on other players (fling, explode, jumpscare)"
+  ],
+  "themes": [
+   "tower",
+   "jail",
+   "trolling"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "troll tower",
+   "hug tower"
+  ],
+  "monetization_signals": [
+   "owner/admin passes",
+   "ban hammer",
+   "troll products 9-49 R$"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "crying girl being carried into jail over lava, 'E JAIL' prompt",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "simple tower obby, carry/jail scripts",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "train to gain +1 arm -> ride the mechanical spider rig up walls -> manage grip while hanging -> finish stages for wins -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "climb all 13 stages to the lighthouse top",
+  "progression": "arms, levels, 12 armatures, rebirths",
+  "instructions": "hold SPACE to climb, train for +1 arm, watch grip, earn wins",
+  "mechanics": [
+   "+1 training",
+   "wall climbing",
+   "grip stamina",
+   "stages",
+   "rebirth",
+   "daily rewards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Doc-Ock style spider-arm climbing rig with grip meter"
+  ],
+  "themes": [
+   "spider",
+   "mechanical arms",
+   "climbing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 every x",
+   "spider"
+  ],
+  "monetization_signals": [
+   "2x wins",
+   "speed",
+   "rig skins",
+   "free revives",
+   "keep levels",
+   "server boost",
+   "skip stage"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "noob with long mechanical spider arms climbing walls, '+1' text",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "procedural arm/climbing rig animation, 13 themed stages",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q08",
+  "loop": "pull back slingshot -> launch sled down giant slide -> collect coins and smash obstacles -> upgrade slingshot, sled, rocket -> go farther",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "get as far down the slide as possible",
+  "progression": "slingshot/sled/income/rocket upgrades, worlds, sleds and trails",
+  "instructions": "pull slingshot, fly off ramps, collect coins, upgrade",
+  "mechanics": [
+   "launch distance",
+   "upgrades",
+   "daily tasks",
+   "chests",
+   "cosmetics"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "snow",
+   "sled",
+   "slide"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "launch/how far can you go",
+   "world 2"
+  ],
+  "monetization_signals": [
+   "coin and gem packs",
+   "x3 coins",
+   "sled and trail passes"
+  ],
+  "update_signals": [
+   "World 2 update"
+  ],
+  "thumbnails": "red sled on snowy slide collecting coins; slingshot sled",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "long slide track, launch physics",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q09",
+  "loop": "test weapons on a ragdoll -> shoot, spear, grenade it -> unlock more weapons",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "test ragdoll physics with weapons",
+  "progression": "weapons via passes",
+  "instructions": "shoot it, use spears or darts",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ragdoll",
+   "weapons",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "weapon passes",
+   "sandbox mode pass"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "icon of ragdoll pinned by spears; no thumbnails",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single room, ragdoll and weapon tools",
+  "novelty": 0,
+  "confidence": 60
+ },
+ {
+  "label": "Q10",
+  "loop": "build with blocks -> drive cars over builds -> save creations",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build ramps and tracks to drive on",
+  "progression": "unlock cars, save slots",
+  "instructions": "build with friends, drive on builds, save creations",
+  "mechanics": [
+   "building",
+   "driving",
+   "saving"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "cars",
+   "building"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "build and drive"
+  ],
+  "monetization_signals": [
+   "vehicle unlock passes",
+   "fly",
+   "nuke product",
+   "break player's block"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "orange muscle car on wooden ramp builds",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "block building and vehicle chassis",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "set up limb moves turn by turn -> watch physics resolve the fight -> win 1v1 ranked matches -> earn belts for new styles",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win 1v1 fights and climb ranks",
+  "progression": "belts, fighting styles, season pass, cosmetics",
+  "instructions": "control limbs directly, set moves, watch physics; ranked or casual",
+  "mechanics": [
+   "turn-based physics fighting",
+   "limb control",
+   "ranked 1v1",
+   "spectating",
+   "replays",
+   "crates"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Toribash-style turn-based limb-control fighting on Roblox"
+  ],
+  "themes": [
+   "martial arts",
+   "ragdoll"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "coins",
+   "keys/crates",
+   "season pass"
+  ],
+  "update_signals": [
+   "new release, 20 badges"
+  ],
+  "thumbnails": "two ragdoll fighters with blood splatter on an arena disc",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "articulated ragdoll physics, turn system, replays, ranked",
+  "novelty": 3,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "place TNT in the city -> blow up buildings -> earn coins -> buy more TNT and bigger rigs",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "destroy the city",
+  "progression": "coins, TNT upgrades, rigs",
+  "instructions": "none beyond KABOOM",
+  "mechanics": [
+   "destruction physics",
+   "explosives",
+   "upgrades"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "TNT",
+   "city",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "destruction"
+  ],
+  "monetization_signals": [
+   "instant summons",
+   "VIP",
+   "2x coins",
+   "nuke strike",
+   "coin packs"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "Minecraft-style TNT blocks collapsing skyscrapers",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "destructible city buildings",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q13",
+  "loop": "cut grass with tools -> fill bag -> sell for cash -> buy better cutters -> find grandma's phone",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "clear the yard and find Grandma's phone",
+  "progression": "20 tools from clippers to futuristic mowers, gems, achievements",
+  "instructions": "cut grass, sell, buy tools; codes for gems",
+  "mechanics": [
+   "cutting",
+   "bag capacity",
+   "selling",
+   "tool upgrades",
+   "prize wheel",
+   "achievements"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "story hook (find Grandma's phone) on a mowing sim"
+  ],
+  "themes": [
+   "grass",
+   "lawn mowers",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "mowing/cutting"
+  ],
+  "monetization_signals": [
+   "golden cutter",
+   "VIP",
+   "2x bag",
+   "gem packs",
+   "wheel spins"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "like-goal codes"
+  ],
+  "thumbnails": "ride-on mowers cutting tall grass; Halloween pumpkin clippers",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 2,
+  "complexity_notes": "grass field system, tool tiers",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "spin the wheel -> pick career/college path -> earn paydays, buy houses -> reach retirement with best score",
+  "loop_archetype": "party_minigames",
+  "objectives": "finish with the highest final score",
+  "progression": "career, houses, knowledge/happiness/wealth",
+  "instructions": "spin, choose path, build your life; 2-4 players or bots",
+  "mechanics": [
+   "board game",
+   "spinner",
+   "careers",
+   "property",
+   "player sabotage products"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Game of Life board game with paid steal/freeze-player products"
+  ],
+  "themes": [
+   "board game",
+   "life",
+   "careers"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "board game remake"
+  ],
+  "monetization_signals": [
+   "piece skins",
+   "coins",
+   "steal/freeze products",
+   "back to start product"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "Game of Life board, delivery $30K vs doctor $225K salary",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "board game rules, bots, multiple systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q15",
+  "loop": "build and decorate hotel rooms -> check in guests -> hire staff -> upgrade -> earn offline income",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow the hotel and earnings",
+  "progression": "hotel upgrades, rooms, staff, rare customers",
+  "instructions": "welcome guests, build, hire staff, upgrade",
+  "mechanics": [
+   "building/decorating",
+   "customer service",
+   "staff hiring",
+   "offline earnings",
+   "time skips"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "room-by-room hotel build-mode"
+  ],
+  "themes": [
+   "hotel",
+   "management",
+   "Halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "run a x"
+  ],
+  "monetization_signals": [
+   "bigger rooms",
+   "money maker",
+   "rare customers",
+   "time skips",
+   "gem packs",
+   "offline earnings"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "updated recently"
+  ],
+  "thumbnails": "bellhop with key, hotel blueprint, room build mode",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "build mode, customer AI, staff systems",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

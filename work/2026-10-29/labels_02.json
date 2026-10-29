@@ -1,0 +1,729 @@
+[
+ {
+  "label": "Q16",
+  "loop": "buy wholesale stock -> store it in your warehouse -> fulfil customer orders -> expand warehouse, port and international logistics",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow a logistics/wholesale empire",
+  "progression": "warehouse expansion, workers, equipment, sea freight port, international imports",
+  "instructions": "build warehouse, buy stock, fulfil orders, expand",
+  "mechanics": [
+   "physical stock handling",
+   "order fulfilment",
+   "hiring workers",
+   "auctions",
+   "expansion loans"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "physical cargo logistics with cranes, ships and helicopters"
+  ],
+  "themes": [
+   "warehouse",
+   "logistics",
+   "shipping",
+   "business"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "business tycoon"
+  ],
+  "monetization_signals": [
+   "capital/loan products",
+   "auction luck",
+   "customer rush",
+   "customization passes"
+  ],
+  "update_signals": [
+   "Sea Freight update",
+   "Halloween tag"
+  ],
+  "thumbnails": "warehouse with forklift, '£1,000,000' money flex, sea freight port",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "warehouse, port and logistics systems with many physical objects",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q17",
+  "loop": "pick a morph -> fight or roleplay as monsters -> do quests and badges to unlock stronger morphs",
+  "loop_archetype": "combat_pvp",
+  "objectives": "collect morphs and fight as giant monsters",
+  "progression": "100+ morphs via badges and quests",
+  "instructions": "use free morphs, find badges, Q/E/F/Z attacks",
+  "mechanics": [
+   "morphs",
+   "pvp fighting",
+   "badge hunting",
+   "quests",
+   "roleplay"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Trevor Henderson/SCP giant-monster morph roleplay"
+  ],
+  "themes": [
+   "SCP",
+   "kaiju",
+   "Trevor Henderson creatures",
+   "cartoon horror"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "SCP",
+   "monster roleplay",
+   "brainrot"
+  ],
+  "monetization_signals": [
+   "morph skip passes 299-2000",
+   "morph packs",
+   "limited Halloween unlock all",
+   "skin products"
+  ],
+  "update_signals": [
+   "Halloween limited",
+   "God of Earthquakes update"
+  ],
+  "thumbnails": "giant creatures over city, SCP gate guardian, badge hall '150 morphs'",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 4,
+  "complexity_notes": "100+ custom morphs with moves and custom music",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "explore Roria -> catch monsters -> battle trainers and gyms -> build a team",
+  "loop_archetype": "story_adventure",
+  "objectives": "become a Master trainer",
+  "progression": "monster collection, levels, badges",
+  "instructions": "capture, battle and explore; join group and community for perks",
+  "mechanics": [
+   "monster catching",
+   "turn-based battles",
+   "exploration",
+   "shinies"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Pokemon Brick Bronze revival/copy"
+  ],
+  "themes": [
+   "Pokemon",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Pokemon Brick Bronze"
+  ],
+  "monetization_signals": [
+   "BP packs",
+   "starter packs",
+   "UMV products"
+  ],
+  "update_signals": [
+   "group notifications for new uploads"
+  ],
+  "thumbnails": "thumbnails failed to load",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "full turn-based RPG with many monsters (likely reused PBB assets)",
+  "novelty": 0,
+  "confidence": 55
+ },
+ {
+  "label": "Q19",
+  "loop": "hatch as a tiny spider -> eat food to grow -> evolve along the Bug Tree into bigger insects -> hunt with friends and become server king",
+  "loop_archetype": "combat_pvp",
+  "objectives": "evolve into the biggest bug and rule the server",
+  "progression": "30+ insect evolutions",
+  "instructions": "eat food, grow, evolve, hunt together",
+  "mechanics": [
+   "eat to grow",
+   "evolution tree",
+   "hunting",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic insect evolution survival"
+  ],
+  "themes": [
+   "spiders",
+   "insects",
+   "prehistoric bugs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolution",
+   "spider"
+  ],
+  "monetization_signals": [
+   "buy next spider tiers",
+   "spider skins"
+  ],
+  "update_signals": [
+   "new insects every update"
+  ],
+  "thumbnails": "realistic-looking spiders on grass and cliffs",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "realistic creature models and animations, open terrain",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q20",
+  "loop": "roll a ball over small things to stick them on -> grow bigger -> roll up cows, cars, cities, planets -> make a star to start over stronger",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "roll up the whole universe",
+  "progression": "size, stars (rebirth), rare finds, space",
+  "instructions": "anything smaller sticks to your ball; make stars; code 5000LIKES",
+  "mechanics": [
+   "katamari rolling",
+   "growth",
+   "rare finds",
+   "rebirth",
+   "events",
+   "leaderboards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Katamari Damacy-style rolling on Roblox, up to universe scale"
+  ],
+  "themes": [
+   "katamari",
+   "world",
+   "space",
+   "Halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "katamari",
+   "grow bigger"
+  ],
+  "monetization_signals": [
+   "2x stardust",
+   "VIP",
+   "lucky",
+   "server luck",
+   "summon mythic",
+   "star spins"
+  ],
+  "update_signals": [
+   "space update",
+   "Halloween until Nov 9",
+   "like-goal codes"
+  ],
+  "thumbnails": "giant ball of junk under rainbow, smiley ball eating the world",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "physics sticking system across scales, many prop models",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "aim and bite food item by item -> stomach fills -> run treadmills to earn cash -> buy tools like magnet, cart, vacuum -> clear the store",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "eat all the food in the store, fastest wins hall of fame",
+  "progression": "tools, levels, 4 stores, pets, food index",
+  "instructions": "aim, click, chomp; burn it off on treadmills",
+  "mechanics": [
+   "eating",
+   "stomach capacity",
+   "treadmill cash",
+   "tools",
+   "pets",
+   "collection index",
+   "weekly speed leaderboard"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "bite-by-bite food destruction",
+   "treadmill to burn calories"
+  ],
+  "themes": [
+   "grocery store",
+   "food",
+   "Halloween candy monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "eat everything",
+   "day 1 vs day 201"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "cash packs",
+   "food-power products (bacon army, food tornado)",
+   "instant level up"
+  ],
+  "update_signals": [
+   "Spooky Street Halloween store"
+  ],
+  "thumbnails": "noob stuffing his face with milk, toothpaste, donuts; 'DAY 1 vs DAY 201'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "destructible food items, multiple stores, pets",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q22",
+  "loop": "climb a tower stairwell -> avoid the Locust monster -> group up to improve odds -> use slaps and items against others",
+  "loop_archetype": "horror_escape",
+  "objectives": "reach the top without being caught",
+  "progression": "tower floors",
+  "instructions": "keep climbing; don't trust The Locust; group up",
+  "mechanics": [
+   "tower climb",
+   "monster chase",
+   "slap weapons",
+   "trolling products"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "horror monster chase inside a tower obby"
+  ],
+  "themes": [
+   "horror",
+   "locust creature"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower",
+   "horror monster"
+  ],
+  "monetization_signals": [
+   "slap passes up to 1479",
+   "kill everyone 967",
+   "finish tower",
+   "revenge",
+   "monster shield"
+  ],
+  "update_signals": [
+   "next update: eat the locust back"
+  ],
+  "thumbnails": "tall thin creature on foggy brick stairs",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single tower, monster AI",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q23",
+  "loop": "break into abandoned underground park -> stay quiet, hide and grapple away from the listening monster -> uncover story or survive chase mode",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape the monster and uncover the truth",
+  "progression": "story progress, lives, cash for gear",
+  "instructions": "story or chase mode; hide in lockers; flash camera; he hears your voice",
+  "mechanics": [
+   "stealth",
+   "voice chat detection",
+   "grapple",
+   "camera flash",
+   "hiding",
+   "lives/revives"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "monster reacts to and talks back to voice chat"
+  ],
+  "themes": [
+   "horror",
+   "amusement park",
+   "animatronic bear"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "FNAF-like animatronic horror"
+  ],
+  "monetization_signals": [
+   "survivor bundle",
+   "infinite lives",
+   "revives",
+   "gift passes",
+   "night vision",
+   "radar"
+  ],
+  "update_signals": [
+   "story mode coming"
+  ],
+  "thumbnails": "dark animatronic bear face in hallways",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "voice-reactive monster AI, custom animatronic, dark atmospheric maps",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q24",
+  "loop": "transform into aliens with the watch -> fight enemies and bosses -> do story quests and dungeons -> level up to unlock more aliens",
+  "loop_archetype": "story_adventure",
+  "objectives": "save the world and master all aliens",
+  "progression": "levels, 15 aliens, mastery, dungeons",
+  "instructions": "transform into aliens, explore, quests, dungeons; code Halloween",
+  "mechanics": [
+   "transformations",
+   "combat combos",
+   "open world",
+   "quests",
+   "dungeons",
+   "daily rewards"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Ben 10 Omnitrix-style hero game"
+  ],
+  "themes": [
+   "Ben 10",
+   "aliens",
+   "superheroes",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Ben 10"
+  ],
+  "monetization_signals": [
+   "gamepass bundle",
+   "alien passes",
+   "double XP/DNA",
+   "starter/hero packs",
+   "revive tokens"
+  ],
+  "update_signals": [
+   "dungeon difficulties update",
+   "Halloween code"
+  ],
+  "thumbnails": "Ben 10 style boy with Omnitrix, Diamondhead and Heatblast lookalikes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "15 transformations with moves, open world, bosses",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "ride a raft with friends through rapids -> fart to steer/boost -> avoid obstacles or knock friends overboard -> finish runs and races",
+  "loop_archetype": "party_minigames",
+  "objectives": "survive the river and win raft races",
+  "progression": "campaign, rafts, animals, fart cosmetics",
+  "instructions": "jump in the raft and hold on; fart through rapids",
+  "mechanics": [
+   "raft co-op",
+   "fart propulsion",
+   "races 1v1 to 4v4",
+   "endless river",
+   "revives"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "fart-propelled co-op rafting"
+  ],
+  "themes": [
+   "rafting",
+   "animals",
+   "fart humor",
+   "Halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "fart",
+   "with your friends"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "animal passes",
+   "raft and fart cosmetics"
+  ],
+  "update_signals": [
+   "Halloween event until Nov 3",
+   "new animals and rafts"
+  ],
+  "thumbnails": "cartoon animals on a raft in rapids, Halloween special",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "river physics with raft co-op, multiple modes",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "drive cars around open world -> race and do jobs to earn cash -> buy and customize cars -> join events",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and customize cars, race",
+  "progression": "300+ licensed cars, cash, events",
+  "instructions": "collect candy, smash pumpkins, Halloween race; drive, race, customize",
+  "mechanics": [
+   "open-world driving",
+   "racing",
+   "car customization",
+   "jobs",
+   "events",
+   "roleplay"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "licensed real car brands"
+  ],
+  "themes": [
+   "cars",
+   "racing",
+   "Halloween"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "driving sim"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "track/delivery passes",
+   "cash packs",
+   "candy packs"
+  ],
+  "update_signals": [
+   "Spookfest event Oct 29"
+  ],
+  "thumbnails": "branded cars and trucks with Driving Empire logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large open world, 300+ vehicles, studio build",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q27",
+  "loop": "choose slayer or evil spirit -> train style and pass Final Selection -> fight bosses and raids -> uncover secrets",
+  "loop_archetype": "story_adventure",
+  "objectives": "master your style as slayer or demon",
+  "progression": "breathing/demon arts, gear, raids",
+  "instructions": "become slayer or evil spirit; survive Final Selection",
+  "mechanics": [
+   "anime combat",
+   "class choice",
+   "bosses",
+   "raids",
+   "spins",
+   "locators"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Demon Slayer",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Demon Slayer anime"
+  ],
+  "monetization_signals": [
+   "extra slots",
+   "emotes",
+   "locator passes",
+   "spins",
+   "refinement guards",
+   "cosmetics"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "Demon Slayer style characters (Rengoku, Muzan lookalikes)",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "open world anime RPG with many abilities, studio scale",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q28",
+  "loop": "drive at insane speed -> weave through heavy highway traffic -> earn cash and quests -> buy and tune cars",
+  "loop_archetype": "racing_driving",
+  "objectives": "cut through traffic at top speed",
+  "progression": "cash, cars, tuning, quests, streaks",
+  "instructions": "WASD drive, shift handbrake; risk it all through traffic",
+  "mechanics": [
+   "traffic weaving",
+   "high speed",
+   "tuning",
+   "quests",
+   "streaks"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "'no hesi' highway traffic-cutting"
+  ],
+  "themes": [
+   "cars",
+   "street racing",
+   "highway"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "no hesi",
+   "car culture"
+  ],
+  "monetization_signals": [
+   "stage 4 tuning",
+   "underglow",
+   "VIP",
+   "cash packs",
+   "car products"
+  ],
+  "update_signals": [
+   "Roadster update",
+   "alpha"
+  ],
+  "thumbnails": "supercars weaving through highway traffic",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 4,
+  "complexity_notes": "highway traffic AI, detailed licensed-looking cars",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q29",
+  "loop": "work night shift at a shawarma kiosk -> serve orders -> follow strange rules -> spot anomalies and survive the night",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the night shift by following the rules",
+  "progression": "nights, badges, anomalies",
+  "instructions": "keep grill hot, serve orders, follow taped rules",
+  "mechanics": [
+   "cooking/serving",
+   "rules horror",
+   "anomaly spotting",
+   "trolling products"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "rules-based anomaly horror in a food kiosk",
+   "live in-game band performance"
+  ],
+  "themes": [
+   "horror",
+   "shawarma",
+   "night shift",
+   "anomalies"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly/rules horror",
+   "night shift job"
+  ],
+  "monetization_signals": [
+   "VIP server",
+   "friend pass",
+   "summon anomaly",
+   "scream face",
+   "second chance"
+  ],
+  "update_signals": [
+   "Hollow event",
+   "in-game concert",
+   "34 badges"
+  ],
+  "thumbnails": "The Hollow event banners, anomaly monsters, concert promo",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "many anomaly scenarios and characters",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "roll cards for soldiers -> build an army -> fight enemies and bosses with friends -> roll while AFK for rarer cards",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "get the rarest cards (e.g. VOID) and beat bosses",
+  "progression": "cards, gear, traits, potions, raids, expeditions",
+  "instructions": "roll cards, fight enemies, beat bosses; many codes",
+  "mechanics": [
+   "rng rolling",
+   "army building",
+   "auto battles",
+   "AFK rolling",
+   "potions",
+   "raids",
+   "crafting"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "rng roll feeding an army battler"
+  ],
+  "themes": [
+   "stickman army",
+   "medieval",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng",
+   "1 in X odds"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "lucky",
+   "instant rerolls",
+   "auto raid",
+   "crates/chests",
+   "potions"
+  ],
+  "update_signals": [
+   "Halloween",
+   "like-goal codes",
+   "ranked code"
+  ],
+  "thumbnails": "noob in front of army, '1 IN 6 BILLION' knight, '1 in 100,000,000'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "army battle simulation and many systems",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

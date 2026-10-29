@@ -1,0 +1,116 @@
+{
+ "charts": {
+  "mp": {
+   "observations": [
+    "Steal An Egg (96 days) leads ahead of Brookhaven, DONT SPLASH (12 days), 99 Nights in the Forest, Murder Mystery 2 and RIVALS.",
+    "Realistic Ragdoll Engine rose +28 at 17 days, and the anomaly-horror games Home Alone: Anomalies (+26) and Animal Hospital (Anomaly) (+18) climbed with Halloween updates.",
+    "Save the Krusty Krab (-20), Chop A Forest and +1 Dance Battle Evolution (-16 each) and Ride a Dino (-15) fell, all younger than 70 days.",
+    "Eight games entered, including My Small Business (12 days), The Mimic (2,113 days), Superhero Arena and My Bus; Eat Everything In A Grocery Store and Welcome to Bloxburg left.",
+    "Multi-year evergreens sit at the 60th median percentile while games aged 85 to 365 days sit at the 29th to 35th, the mid-life trough again."
+   ],
+   "patterns": [
+    "More original concepts consistently hold higher positions (H-mp-013, rho=+0.33 today), and solo loops consistently sit lower (H-mp-003 at 75%).",
+    "Games that mention events in their description stay longer (r=+0.39, 27 games), though Halloween inflates this week's count; proposed today as a tested hypothesis from the new research file.",
+    "Higher median product prices (split at 449 R$) and passes above 79 R$ go with more days on the chart, and games left more than 19 days without an update stay fewer days (r=-0.59).",
+    "'Egg' titles go with higher positions (r=+0.43) and '+1' titles with lower ones (r=-0.29); steal_defend_base leads loops (84th percentile), incremental_plus1 trails (27th).",
+    "Video observations of LifeTogether RP add a slow, low-HUD, high-polish roleplay to Brookhaven and Bloxburg: durable social hubs show almost no on-screen economy."
+   ],
+   "outliers": [
+    {
+     "name": "DONT SPLASH",
+     "note": "At 12 days it holds a top-three Most Popular spot, far ahead of the usual age curve; its one-rule noise horror suits short, shareable rounds."
+    },
+    {
+     "name": "The Mimic",
+     "note": "A 2,113-day horror game re-entered on a Halloween update, the seasonal confounder for age and update hypotheses."
+    }
+   ]
+  },
+  "te": {
+   "observations": [
+    "Donation hubs (Summer Donations, Donation Central, Simple DONATIONS) lead efficiency again, followed by Elemental Dungeons, Dinosaur Simulator and Build and Burn.",
+    "Steal A Pet And Ride It! rose +67, German Moped Days +65, Be a Soccer Manager +57 and Dragon Ball Rage +55, while Fish an Anime RNG and Anime Breaker fell -50.",
+    "Eleven games entered, including Run a Hotel, Wholesale Empire, Impossible Animals and Realistic Ragdoll Engine; fifteen left, among them Pack A Rare Card and Mermaid Isle.",
+    "Efficiency climbs with age from the 31st percentile at 15-42 days to the 60th past a year."
+   ],
+   "patterns": [
+    "Median product price above 79 R$, a premium pass above 999 R$, servers above 24, RPG genre, complexity and longer descriptions all consistently go with higher efficiency (84% each).",
+    "Steal-a-X loops (17th percentile), sandbox physics (16th), Survival and Simulation genres consistently earn lower positions for their CCU, while roleplay hubs (75th) and story adventures (73rd) lead.",
+    "Solo loops consistently earn less per player (r=-0.30), matching the research claim that public, shared servers keep spenders in front of an audience.",
+    "Video observations of Blade Ball show an ability shop with a Robux tab beside the round loop, the 'fix at the point of want' the research file describes."
+   ],
+   "outliers": [
+    {
+     "name": "Build and Burn",
+     "note": "A 24-day racing game among the six most efficient, against the strong age trend; likely a small CCU flattered by the single afternoon snapshot (H-te-019)."
+    },
+    {
+     "name": "Realistic Ragdoll Engine",
+     "note": "Entered Top Earning but sits among the least efficient, the ragdoll wave's reach without revenue so far."
+    }
+   ]
+  },
+  "tt": {
+   "observations": [
+    "Steal A Pet And Ride It! (+22), Scary Baboon Reimagined (+22), +1 Shrink Worm Escape (+20) and Night Rider (+19) lead young-game momentum.",
+    "Make a Face (-37), Beat Up Verity (-31) and Squishy Dumpling Prison Run (-28) fell; Fix My Phone and Save the Krusty Krab have left.",
+    "Fourteen games entered, among them Bug Evolution, T-Rex vs 99 Players, +1 Anime Eyes, Realistic Car Destruction and two old horror games riding Halloween (Survive the Killer!, Scary Shawarma Kiosk).",
+    "Games 15-42 days old score the 63rd median percentile against 13 at 85-122 days."
+   ],
+   "patterns": [
+    "Shorter titles tend to go with higher positions (H-tt-037 at 67%), and more updates per week tend to as well (rho=+0.34, within-age +0.29).",
+    "A luck game pass tends to go with lower positions (H-tt-039 at 67%, r=-0.45), and spins or crates tend to go with faster climbs (H-tt-026 at 64%).",
+    "Redeem codes (r=+0.36) and like requests (within-age +0.50) may go with faster climbs, while character-art thumbnails may go with slower ones (r=-0.32); the first and last are proposed today.",
+    "Sandbox physics (77th) and combat PvP (75th) lead loops, party minigames (20th) and story adventures (14th) trail."
+   ],
+   "outliers": [
+    {
+     "name": "Scary Baboon Reimagined",
+     "note": "Climbs fast at 73 days, past the six-week fade; a Backrooms re-theme acts like a fresh launch."
+    },
+    {
+     "name": "Omni Heroes",
+     "note": "A Ben 10-style RPG with dungeons and 14 passes sits among the weakest at 119 days, consistent with momentum fading after week 6."
+    }
+   ]
+  },
+  "uc": {
+   "observations": [
+    "My Small Business (12 days) leads ahead of DONT SPLASH, Realistic Ragdoll Engine, Ragdoll Reality, Teach Your Sister How To Drive and Realistic Car Destruction.",
+    "Realistic Ragdoll Playground rose +69, Make The Logo! +52, Bug Evolution +36 and 7 Days as a Pet +31, while Squishy Dumpling Prison Run (-33) and +1 Speed Lab Keyboard Escape (-25) fell.",
+    "Seventeen games entered, including Say Cheese! (a Nicky Case story adaptation), +1 Spider Arm, Fly Tesla Roadster To Steal Eggs, Ragdoll Fight and Prison Dodgeball; seventeen left.",
+    "Games 0-14 days old sit at the 65th median percentile against 25 at 43-84 days."
+   ],
+   "patterns": [
+    "Text or big numbers on thumbnails consistently go with lower positions (H-uc-017 at 73%), and like requests (70%) and revive products (71%) consistently go with higher ones.",
+    "Survival framing goes with higher positions (r=+0.35, within-age +0.54, 23 games) and is proposed today; it mirrors survival's weak Top Earning efficiency.",
+    "Luck passes tend to go with lower positions (H-uc-018 at 69%), and currency packs consistently go with higher ones (H-uc-014 at 72%).",
+    "Ragdoll and physics sandboxes make up 10 of 95 games at the 58th percentile, with 'Ragdoll' now the second most common title word."
+   ],
+   "outliers": [
+    {
+     "name": "Teach Your Sister How To Drive!",
+     "note": "Ranks among the best with a 57% like ratio, a curiosity hook carrying a weak reception."
+    },
+    {
+     "name": "Game Of Life",
+     "note": "A 91-day board-game remake sits near the bottom, consistent with older games and party loops ranking lower."
+    }
+   ]
+  }
+ },
+ "cross": {
+  "summary": [
+   "Ingested 2026-10-29-survival-and-monetization.md: 20 hypotheses (7 tested and 1 qualitative on Most Popular, 8 tested and 3 qualitative on Top Earning, 1 cross-chart qualitative).",
+   "The research says cheap repeatable 9-49 R$ products drive spending, while H-te-005 consistently finds a median product price above 79 R$ goes with higher efficiency; both are kept, and the new prod_skip test will help separate having a cheap product from pricing most products high.",
+   "The research says skill-light loops earn the most per player-hour, while combat PvP loops consistently earn higher Top Earning positions (H-te-022); the new competitive_core test on te_eff will show which holds in tracked games.",
+   "The research's rolls-and-eggs advice also sits against H-te-002 (pet and egg games consistently earn less per CCU); both are kept.",
+   "Survival framing lifts breakout charts (Up-and-Coming, Top Trending) yet consistently earns less per player on Top Earning, the same reach-versus-revenue split as the steal/egg template (H-x-002).",
+   "Halloween events lift old horror and anomaly games across charts this week, a seasonal confounder for update, event and age hypotheses."
+  ],
+  "progressions": [
+   "uc→tt remains the most common transition (135 entries, median 2 days), ahead of tt→mp (114, 2 days).",
+   "uc→te (83, 5 days), tt→te (80, 4 days), te→tt (74, 9 days) and uc→mp (72, 4 days) show breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+  ]
+ }
+}

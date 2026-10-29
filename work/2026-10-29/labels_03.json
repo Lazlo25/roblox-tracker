@@ -1,0 +1,381 @@
+[
+ {
+  "label": "Q31",
+  "loop": "pilot aircraft against zombie hordes -> rain rockets and air strikes -> drop defenses with allies -> earn credits for 180+ upgrades -> push the front line",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "push the front line as far as the squad can",
+  "progression": "credits, 180+ upgrades, aircraft unlocks, seasons",
+  "instructions": "codes 3MIL and 4MIL; get in the air; join group for buffs",
+  "mechanics": [
+   "flying aircraft",
+   "air strikes",
+   "horde waves",
+   "defense drops",
+   "upgrades"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "zombie horde defense from the air with real military aircraft"
+  ],
+  "themes": [
+   "zombies",
+   "military aircraft",
+   "helicopters",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "zombie waves"
+  ],
+  "monetization_signals": [
+   "aircraft passes 249-499",
+   "credit packs",
+   "medal/honor bundles",
+   "supply wheel spins"
+  ],
+  "update_signals": [
+   "alpha",
+   "weekend x2 buff",
+   "codes"
+  ],
+  "thumbnails": "Apache-style helicopters firing missiles, plane over zombie horde",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 4,
+  "complexity_notes": "flyable aircraft, large horde rendering, front-line maps",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "ride a motorbike -> run from AI police, swerve traffic, pull wheelies -> avoid arrest to build status -> customize your bike",
+  "loop_archetype": "racing_driving",
+  "objectives": "build status in the moto scene without getting arrested",
+  "progression": "cash, ranks, bikes, customization",
+  "instructions": "run from police, swerve traffic, do wheelies",
+  "mechanics": [
+   "motorbike riding",
+   "police chases",
+   "wheelies",
+   "bike customization",
+   "daily challenges"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "motorbike police-evasion culture game"
+  ],
+  "themes": [
+   "motorbikes",
+   "police",
+   "street"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bike life",
+   "police chase"
+  ],
+  "monetization_signals": [
+   "free turbos 2000",
+   "pit crew",
+   "VIP",
+   "2x cash",
+   "cash bundles up to 2999",
+   "4x cash boosts"
+  ],
+  "update_signals": [
+   "beta, 2XP weekend",
+   "new bikes and maps"
+  ],
+  "thumbnails": "sport bikes with AI cops, 'build your bike', 'fully customizable'",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 4,
+  "complexity_notes": "bike physics, police AI, customization",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q33",
+  "loop": "place towers on the map -> defend against waves of enemies and bosses -> earn cash and unlock towers",
+  "loop_archetype": "tower_defense",
+  "objectives": "survive all waves and beat bosses",
+  "progression": "tower unlocks, levels, events",
+  "instructions": "deploy towers from air, land and sea; beat enemies and bosses",
+  "mechanics": [
+   "tower defense",
+   "waves",
+   "bosses",
+   "consumable strikes",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "military",
+   "mechs",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower defense"
+  ],
+  "monetization_signals": [
+   "speed control",
+   "VIP",
+   "consumable air strikes, nukes, MOAB"
+  ],
+  "update_signals": [
+   "Halloween 2026 event (Calamity Mines)"
+  ],
+  "thumbnails": "demonic mech bosses and military towers with TDX logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many towers and enemy models, studio-maintained",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q34",
+  "loop": "explore the kingdom on foot and broom -> master grimoires and spells -> fight bosses and raids -> fish, mine, craft -> grow via skill trees",
+  "loop_archetype": "story_adventure",
+  "objectives": "rise among the Magic Knights",
+  "progression": "grimoires, spells, awakenings, skill trees, clans",
+  "instructions": "explore, master magic, conquer foes; code at 8000 likes",
+  "mechanics": [
+   "magic combat",
+   "grimoires",
+   "bosses",
+   "raids",
+   "crafting",
+   "fishing",
+   "mining",
+   "clan spins",
+   "AFK rewards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Black Clover",
+   "anime",
+   "magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Black Clover anime"
+  ],
+  "monetization_signals": [
+   "bundles up to 6999",
+   "amulet",
+   "VIP",
+   "currency packs",
+   "clan spins"
+  ],
+  "update_signals": [
+   "Anti + Bone update",
+   "Halloween bundle",
+   "beta"
+  ],
+  "thumbnails": "anime demon-face character art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "open world anime RPG with many systems",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q35",
+  "loop": "run a supermarket with friends -> stock shelves, price items, check out customers -> earn money -> buy licenses and expand",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow your supermarket",
+  "progression": "licenses, store size, decorations",
+  "instructions": "split work with friends; more players = more demanding customers; use code",
+  "mechanics": [
+   "shelf stocking",
+   "checkout/change giving",
+   "licenses",
+   "shared saves"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "port of the Steam co-op game Supermarket Together"
+  ],
+  "themes": [
+   "supermarket",
+   "store management"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "supermarket sim"
+  ],
+  "monetization_signals": [
+   "money packs",
+   "starter offer"
+  ],
+  "update_signals": [
+   "Halloween event Oct 29"
+  ],
+  "thumbnails": "cartoon co-op shoppers and cashier register with change UI",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "store management with customer AI",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q36",
+  "loop": "create an airline and design the plane -> serve passengers as cabin crew -> handle in-flight emergencies -> earn SkyBux for upgrades",
+  "loop_archetype": "simulation_job",
+  "objectives": "run a successful airline and keep passengers safe",
+  "progression": "SkyBux, airline customization, missions",
+  "instructions": "design your aircraft, serve meals, handle emergencies",
+  "mechanics": [
+   "flight attendant roleplay",
+   "airline design",
+   "emergencies",
+   "missions"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "airplanes",
+   "airlines",
+   "cabin crew"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "job sim"
+  ],
+  "monetization_signals": [
+   "2x earnings",
+   "emergency control",
+   "AI attendants",
+   "VIP",
+   "SkyBux packs"
+  ],
+  "update_signals": [
+   "Halloween update Friday"
+  ],
+  "thumbnails": "cabin interior, water evacuation, boarding stairs",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "has_video",
+  "complexity": 4,
+  "complexity_notes": "detailed aircraft, many scenarios, long-maintained",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "roll for barbers -> put them to work in your shop -> earn money -> upgrade shop and luck -> rebirth",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect rare barbers and maximise $/s",
+  "progression": "barber rarities, mutations, traits, shop upgrades, rebirths",
+  "instructions": "roll barbers, put them to work, upgrade, rebirth",
+  "mechanics": [
+   "rng rolling",
+   "income per second",
+   "shop building",
+   "mutations",
+   "traits",
+   "rebirth",
+   "minigames"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "RNG roll applied to barber shop tycoon"
+  ],
+  "themes": [
+   "barbers",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "roll a x",
+   "rng"
+  ],
+  "monetization_signals": [
+   "Halloween pass",
+   "double roll",
+   "ultra luck",
+   "2x money",
+   "lucky spins",
+   "server luck",
+   "tips"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "0$/s vs $1,982,672/s shop, dice with legendary barbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 2,
+  "complexity_notes": "template-style RNG tycoon",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "fly to find dragon eggs -> carry them home before they break or are stolen -> hatch at base -> ride and level dragons -> rebirth",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "hatch the rarest one-of-a-kind dragon",
+  "progression": "17 species, float-based rarity, levels, rebirths",
+  "instructions": "hunt eggs, carry home, hatch, ride; codes 2xluck, 2xhatchtime, galewing",
+  "mechanics": [
+   "egg hunting",
+   "stealing",
+   "hatching",
+   "riding/flying",
+   "float rarity",
+   "offline hatching",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "CS-style float values for unique dragon skins"
+  ],
+  "themes": [
+   "dragons",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ride a x",
+   "steal eggs"
+  ],
+  "monetization_signals": [
+   "2x money",
+   "egg radars",
+   "food and gear restocks",
+   "dragon eggs",
+   "offline cash"
+  ],
+  "update_signals": [
+   "Halloween event until Nov 4"
+  ],
+  "thumbnails": "skeleton dragon with '$999,472,293', '1 stud vs 2047 stud size'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "has_video",
+  "complexity": 3,
+  "complexity_notes": "flying dragon mounts, large sky world",
+  "novelty": 2,
+  "confidence": 75
+ }
+]
