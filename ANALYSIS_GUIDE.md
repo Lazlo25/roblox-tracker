@@ -23,6 +23,30 @@ on screen: pacing, HUD density, visual polish, the monetization and retention ho
 are in the feature scan as `vid_*`. There are only a few such games, so propose qualitative hypotheses from them
 (confidence stays low until several games agree) and let the scan test the numeric ones.
 
+## Outside research
+
+`analysis/research/` holds research the owner wants built into the analysis (studies of specific games, written
+without revenue data). Each file is read once: on a run where a file there isn't listed in
+`analysis/research/ingested.txt`, read it whole before writing proposals, then:
+
+- Turn each concrete, checkable claim into a hypothesis. Survival and longevity claims go to Most Popular (sustained
+  dominance); spending and earnings-per-player claims to Top Earning (Monetization Score); launch and month-three
+  claims to Top Trending or Up-and-Coming; claims spanning charts to `x`.
+- Where an existing feature can test it, make it a tested hypothesis (for example cheap repeatable products →
+  `products_median_price` or a `prod_*` flag; gacha or rolls → `mech_rng_luck`; skill-light loops →
+  `competitive_core` or `loop=...`; private servers → `vip_servers`; update calendar → `updates_per_week`;
+  public pressure and social play → `social=...`; video traits → `vid_*`). The script then sets its confidence from
+  the data, like any other.
+- Otherwise add it as `qualitative` with confidence 15–25 and a `rationale` naming the file and what tracker data
+  would confirm or refute it. Research is a source of ideas, not evidence: confidence rises only as the tracked games
+  agree.
+- Give each one an `action` when it points to a developer choice, worded per "What the page shows". Merge with an
+  existing hypothesis (via `qualitative_updates` or `actions`) instead of duplicating it.
+- Where the research disagrees with a well-supported hypothesis, keep both and say so in the narrative's
+  `cross.summary`.
+- Add one `cross.summary` line naming the file and how many hypotheses it produced, then append the file name to
+  `analysis/research/ingested.txt`.
+
 ## What the page shows
 
 The page shows only each chart's title keywords and an **Actionable steps** table: every active hypothesis that carries

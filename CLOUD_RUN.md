@@ -47,7 +47,8 @@ collections from the table.
       `video_labels.json` in that folder exactly as `VIDEO_GUIDE.md` describes (read it once).
    c. Run `python3 video.py ingest`, `python3 analyze.py ingest --date D`, then `python3 analyze.py stats --date D`.
    d. Synthesis. Read `ANALYSIS_GUIDE.md`, then `work/D/stats_report.md`, then the most recent earlier file in
-      `analysis/archive/`. Write `work/D/proposals.json` and `work/D/narrative.json` exactly as the guide describes,
+      `analysis/archive/`, then any file in `analysis/research/` not listed in `analysis/research/ingested.txt` (see the
+      guide's "Outside research"). Write `work/D/proposals.json` and `work/D/narrative.json` exactly as the guide describes,
       building on yesterday's analysis.
    e. Run `python3 analyze.py finalize --date D`. If it says the document is too large, shorten narrative.json and rerun.
    f. Write ANALYSIS doc D from file `work/D/analysis.json`.
