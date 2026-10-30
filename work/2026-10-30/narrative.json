@@ -1,0 +1,101 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "The top six held yesterday's exact order: Steal An Egg (97 days), Brookhaven, DONT SPLASH (13 days), 99 Nights in the Forest, Murder Mystery 2 and RIVALS.",
+        "Young simulators led the climbers: Throw Food For Animals +23 at 42 days, Drive a Cart Downhill! +20 at 26 days, My Small Business +18 at 13 days and My Bus +15; BloxStrike (546 days) rose 12 with a zombies update.",
+        "The Halloween lift is fading for old horror: The Mimic fell 28 a day after entering, and Home Alone: Anomalies left the chart.",
+        "Six games entered, including Banana Eats (2,534 days, Hollow event), Night Rider (19 days) and Steal A Pet And Ride It!; seven left, among them Dubai RP and Paint to Get Rich.",
+        "Games aged 123 to 365 days sit at the 31st median percentile against the 56th for multi-year evergreens and the 47th for 15-42-day games, the mid-life trough again (H-mp-009 at 48%)."
+      ],
+      "patterns": [
+        "Pricing tends to go with staying power: a median product price above 400 R$ splits days on the chart at r=+0.47, and median passes above 79 R$ at r=+0.41 (H-mp-011, H-mp-016 at 65%).",
+        "Games left more than 20 days without an update stay fewer days (r=-0.59), and recent updates now tend to go with higher positions too (H-mp-006 up from 43% to 58%).",
+        "More original concepts consistently hold higher positions (H-mp-013 at 77%) and solo loops consistently sit lower (H-mp-003 at 73%).",
+        "Simulation-job (74th percentile), party-minigame (71st) and steal-defend-base (69th) loops lead, while wave-survival co-op (32nd), collect-upgrade-rebirth (31st) and '+1' incrementals (34th) trail; 'Egg' titles go with higher positions (r=+0.42).",
+        "Big evergreens consistently convert fewer visits into favorites (H-mp-010 at 78%), so a high favorite rate here marks a young game, not a durable one."
+      ],
+      "outliers": [
+        {"name": "DONT SPLASH", "note": "Still #3 at 13 days, far ahead of the age curve; its single noise rule makes short, shareable rounds (H-x-019)."},
+        {"name": "Cook the Chicken (by slapping it)", "note": "Entered at 24 days with no passes and five products, at the bottom of the chart: a one-joke curiosity hook that reaches Most Popular but sits low."},
+        {"name": "The Mimic", "note": "A 2,114-day horror game that entered on its Halloween update and fell 28 places the next day, showing how short a seasonal lift can be for an old game."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again top efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Elemental Dungeons, Build and Burn (25 days) and Dinosaur Simulator (4,245 days).",
+        "The least efficient games are this week's breakouts: Realistic Ragdoll Engine (18 days), DONT SPLASH, My Small Business and Throw Food For Animals, all with high CCU and revenue still catching up.",
+        "Throw Food For Animals (+128), Ro-BassFishing (+83), Anime Expeditions (+77) and Realistic Ragdoll Engine (+75) climbed most; Lanterns (-82), Anime Breaker and Save The Egg (-50 each) fell most.",
+        "Fifteen games entered (Survive the Killer, Criminal Simulator, Own a Catboy Café, Ryujin, Hike For Eggs among them) and fifteen left.",
+        "Efficiency rises steadily with age, from the 1st median percentile at 0-14 days to the 30th at 15-42 days and the 60th past a year (H-te-001 at 82%)."
+      ],
+      "patterns": [
+        "Pricing high consistently pays: median products above 79 R$ (H-te-005), a pass above 999 R$ (H-te-006) and median passes above 399 R$ (H-te-025) all sit at 85%.",
+        "RPGs (r=+0.47), roleplay hubs (r=+0.32) and deeper, more complex builds (rho=+0.25) consistently earn more per player, while Survival (r=-0.38), Simulation (r=-0.25) and solo loops (r=-0.28) consistently earn less.",
+        "Title keywords split sharply: 'Egg' (r=-0.68), 'Animal' (-0.47) and 'Steal' (-0.45) go with weak efficiency, 'Defense' (+0.30) and 'Life' (+0.28) with strong; a tower-defense loop test is proposed today.",
+        "Servers above about 40 players split efficiency at r=+0.39, consistent with H-te-007 (25+ players at 85%).",
+        "No new gameplay videos were labelled today, so the video evidence on durable earners (skins, paid roles, dense HUDs) is unchanged."
+      ],
+      "outliers": [
+        {"name": "Build and Burn", "note": "At 25 days with one pass, it already ranks among the most efficient earners, against the six-week rule (H-te-001); a small, loyal racing audience is the likely reason."},
+        {"name": "Metro Life 🏡 City RP", "note": "A roleplay hub (normally strong) at #457 on Top Earning; its 254 products are mostly 19-29 R$ furniture and car decor, the opposite of the high-median pricing that works."},
+        {"name": "Throw Food For Animals", "note": "Climbed 128 places yet remains among the least efficient, a young breakout whose revenue is still catching up with its players (H-te-018)."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "+1 Anime Eyes (16 days) leads momentum at +24, with Fart Together +20 (18 days), Scary Baboon Reimagined +20 (74 days), Teach Your Sister How To Drive! +15 and Durian Garden +14 (9 days).",
+        "Banana Eats fell 59 as the Hollow event wound down, and T-Rex vs 99 Players (-29), Flying Tesla Roadster (-23) and Airport Security (Anomaly) (-20) fell back.",
+        "Twenty games entered, including Raise The Biggest Family, WARDEN Sonaria Horror Escape, +1 Spider Arm and Say Cheese!; nineteen left, among them The Hollow, DOORS and Ride a Dino.",
+        "Games updated in the last day moved a median -4 against -2 for the rest, so update days alone are not lifting momentum.",
+        "Games 15-42 days old sit at the 59th median percentile against the 40th at 43-84 days and 32nd at 85-122 days, consistent with H-tt-001 (62%)."
+      ],
+      "patterns": [
+        "Smaller servers may help here: within the same age band, servers above 24 players go with lower positions (-0.40), the opposite of Top Earning; a tested hypothesis is proposed today.",
+        "Luck passes tend to go with lower positions (H-tt-039 at 67%, r=-0.46), while a collection index consistently goes with higher ones (H-tt-028 at 72%).",
+        "New signals today: cosmetic passes (r=+0.43), survival framing (+0.35) and group publishers (+0.43) go with stronger results, and text-ad thumbnails with weaker momentum (-0.43); all four are proposed as tests.",
+        "Solo loops climbed faster today (r=+0.33 within age), against H-tt-008 (34%), which keeps weakening.",
+        "Simulation-job (88th), sandbox-physics (74th) and wave-survival co-op (72nd) loops lead, while story adventures (18th), roleplay (23rd) and collect-upgrade-rebirth (27th) trail."
+      ],
+      "outliers": [
+        {"name": "[🌍UPD] +1 Anime Eyes", "note": "Tops momentum with 46 passes and a '+1' title, against H-tt-032 (8 or fewer passes) and H-tt-027; a large, cheap pass catalogue may suit its audience."},
+        {"name": "Scary Baboon Reimagined", "note": "Climbs +20 at 74 days, against the six-week fade (H-tt-001); it is a remake of an older game with a ready audience."},
+        {"name": "[NEW CARS] Teach Your Sister How To Drive! 🎙️", "note": "Climbs +15 on a 58% like ratio, a curiosity premise carried by voice-acted content and new cars rather than approval."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Raise The Biggest Family (17 days, +45) now leads, ahead of +1 Spider Arm (11 days, +61), DONT SPLASH, +1 Anime Eyes, Say Cheese! (11 days, +34) and My Small Business.",
+        "TROLL Jail Hug Tower (+47) and Ragdoll Playground (+40) also rose fast; T-Rex vs 99 Players (-33), A Long Flight (-32), Build Whatever! (-31, 53% likes) and 7 Days as a Pet (-26) fell.",
+        "Fourteen games entered, including the Malay horror MALAM SAMA OPAH (10 days), Facecard: Makeup Showdown (Junior), Sell a Million Sushi and Make Viral Candy!; thirteen left.",
+        "The newest games lead: 0-14 days at the 66th median percentile, 15-42 days at the 49th and 43-84 days at the 33rd."
+      ],
+      "patterns": [
+        "Survival framing consistently goes with higher positions (H-uc-047 at 74%, within-age +0.45), and recent updates now do too (H-uc-012 up to 70%).",
+        "Luck consistently hurts breakout: luck passes (H-uc-018 at 70%) and, proposed today, RNG or luck framing in general (r=-0.43).",
+        "Caps-heavy titles rank lower within age bands (-0.46), mirroring H-mp-002; proposed as a test today.",
+        "Gameplay thumbnails (H-uc-040 at 72%) and original concepts (H-uc-039 at 74%) consistently rank higher, while selling skips now tends to go with lower positions (H-uc-045 up from 38% to 69%).",
+        "Racing and driving (80th), sandbox physics (76th) and steal-defend-base (73rd) lead the loops; collect-upgrade-rebirth (20th), party minigames and roleplay (30th each) trail."
+      ],
+      "outliers": [
+        {"name": "Raise The Biggest Family", "note": "Tops the chart as a roleplay game on a 72% like ratio while roleplay loops sit at the 30th percentile; a family-sim premise with 19 passes."},
+        {"name": "+1 Spider Arm🕷️", "note": "Rose 61 to #2 with a '+1' title, the second '+1' game in the top four against H-uc-003."},
+        {"name": "📸 Say Cheese! [STORY]", "note": "Reached the top five with no passes and two products, a story game breaking out before any monetization."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Server size splits the charts: servers of 25 or more consistently earn more per player on Top Earning (H-te-007), while young games with servers of 24 or fewer hold higher Top Trending positions; a test is proposed today.",
+      "Luck splits reach from revenue: a roll or luck layer goes with better Top Earning efficiency (H-te-037 at 72%) but luck passes and framing rank lower on Up-and-Coming and Top Trending, the same reach-versus-revenue split as the steal/egg template (H-x-002).",
+      "Survival framing lifts Up-and-Coming (74%) and now Top Trending momentum, yet consistently earns less per player (H-te-021 at 85%).",
+      "The Halloween and Hollow lift is fading: The Mimic fell 28 on Most Popular, Banana Eats 59 on Top Trending, and The Hollow and Home Alone: Anomalies left their charts.",
+      "The ragdoll physics wave keeps spreading (Realistic Ragdoll Engine +75 on Top Earning, Ragdoll Playground +40 on Up-and-Coming and onto Top Trending); H-x-021 rises to 60%.",
+      "No gameplay videos were labelled today: the four queued long-running hits (Dragon Adventures, Creatures of Sonaria, Sol's RNG, Basketball: Zero) arrived without frames."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (148 entries, median 2 days), ahead of tt→mp (119, 2 days).",
+      "uc→te (87, 5 days), tt→te (84, 4 days), te→tt (75, 9 days) and uc→mp (75, 4 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+    ]
+  }
+}

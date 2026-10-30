@@ -1,0 +1,39 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games selling cosmetic passes (trails, emotes, skins, tags) climb Top Trending faster than games of similar age without them",
+     "action": "Sell cosmetic passes from launch",
+     "test": {"feature": "pass_cosmetic", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with text-ad thumbnails climb Top Trending more slowly than games of similar age",
+     "action": "Skip text-ad thumbnails",
+     "test": {"feature": "thumb=text_ad", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games published by a group hold higher Top Trending positions than solo-developer games of similar age",
+     "action": "Publish under a group",
+     "test": {"feature": "creator_group", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young survival-framed games (survive the nights, zombies) climb Top Trending faster than games of similar age",
+     "action": "Frame the game as survival",
+     "test": {"feature": "mech_survival", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with servers above 24 players hold lower Top Trending positions than games of similar age with smaller servers",
+     "action": "Cap launch servers at 24 players",
+     "test": {"feature": "max_players", "metric": "tt_pos", "type": "threshold", "cut": 24, "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games framed around rolls, RNG or luck rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip RNG/luck framing for breakout",
+     "test": {"feature": "mech_rng_luck", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "All-caps titles rank lower on Up-and-Coming among games of the same age",
+     "action": "Avoid all-caps titles",
+     "test": {"feature": "title_caps_heavy", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "te", "statement": "Tower-defense loops earn a higher Top Earning position for their CCU than other profiled loops",
+     "action": "Try tower defense for revenue",
+     "test": {"feature": "loop=tower_defense", "metric": "te_eff", "type": "binary", "direction": "+"}}
+  ],
+  "qualitative_updates": [
+    {"id": "H-mp-008", "confidence": 45, "note": "The top six held the exact same order as yesterday (Steal An Egg, Brookhaven, DONT SPLASH, 99 Nights, Murder Mystery 2, RIVALS) while moves of 12-28 places happened below."},
+    {"id": "H-mp-009", "confidence": 48, "note": "123-365-day games sit at the 31st median percentile against the 56th for multi-year evergreens and the 47th for 15-42-day games, the third day running."},
+    {"id": "H-te-018", "confidence": 48, "note": "Throw Food For Animals (+128) and Realistic Ragdoll Engine (+75) climbed Top Earning fast while still among the four least efficient games, consistent with revenue catching up with players."},
+    {"id": "H-x-003", "confidence": 48, "note": "Top Earning efficiency rises steadily with age (1st percentile at 0-14 days to 60th past a year) while Up-and-Coming favours 0-14-day games (66th)."},
+    {"id": "H-x-020", "confidence": 44, "note": "The Hollow fell off Top Trending and Banana Eats [HOLLOW] dropped 59 places there, suggesting the event lift ends with the event window."},
+    {"id": "H-x-021", "confidence": 60, "note": "Realistic Ragdoll Engine rose 75 on Top Earning and Ragdoll Playground rose 40 on Up-and-Coming and entered Top Trending; 'Ragdoll' titles go with higher Up-and-Coming positions (r=+0.31)."},
+    {"id": "H-x-019", "confidence": 52, "note": "DONT SPLASH holds #3 on Most Popular and a top-three Up-and-Coming spot at 13 days."}
+  ],
+  "actions": [],
+  "retire": []
+}

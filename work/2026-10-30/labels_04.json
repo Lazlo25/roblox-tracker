@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Q46",
+    "loop": "roleplay in a seaside city -> customize and furnish your house -> modify cars -> hang out with friends, joining weekly themed events",
+    "loop_archetype": "roleplay_social",
+    "objectives": "build a dream home and lifestyle, roleplay city life with friends",
+    "progression": "unlocking houses, furniture and car decorations, mostly via passes and products",
+    "instructions": "roleplay in a contemporary city, personalize your house and mansion, mod your cars, connect with friends",
+    "mechanics": ["house customization", "furniture placement", "vehicle customization", "avatar outfits", "in-game phone"],
+    "social": "social_hub",
+    "competitive": "none",
+    "unique": ["very large catalogue of single-item furniture and car-decor products (254)", "brand collaboration (LEGO Friends) on the page"],
+    "themes": ["city life", "houses", "cars", "fashion", "Halloween"],
+    "audience": "kids",
+    "trend_hooks": ["Halloween event", "brand collaboration"],
+    "monetization_signals": ["house passes 279-699 R$", "vehicle pass", "VIP pass", "seasonal passes", "hundreds of cheap furniture and car-decor products 19-29 R$", "mansion product 499 R$"],
+    "update_signals": ["numbered updates (update 142)", "Halloween Haunted School and Gothic Party", "seasonal holiday passes"],
+    "thumbnails": "polished character shots with a pink supercar and scooter, a LEGO Friends collaboration image, a travel scene with suitcase and bus; lifestyle and fashion rather than gameplay systems",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "large city map, many enterable homes, furniture placement system, vehicle modding, long-running content pipeline",
+    "novelty": 1,
+    "confidence": 80
+  }
+]
