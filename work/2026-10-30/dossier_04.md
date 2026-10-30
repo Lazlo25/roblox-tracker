@@ -1,0 +1,7 @@
+## Q46 · Metro Life 🏡 City RP (universe 4540138978)
+Charts today: Top Earning #457 | Age: 1306 days | Genre: Roleplay & Avatar Sim / Life | Max players: 23
+Creator: Group "Century Creators" | Visits 2.4B | Favorites 67.9M | Likes 87% of 381.8K votes | Updated 2026-10-30
+Game passes (9): Apartment Pass 699; Resort Pass 499; Jolly Christmas Pass 399; Modern House Pass 399; Vehicle Pass 349; Valentine Pass 299; Christmas Pass 299; Halloween Pass 279; VIP Pass 189
+Developer products (254): Luxury Funiture - Chair PH101 25; Luxury Funiture - Chair PI001 19; Luxury Funiture - Chair PI002 19; Luxury Funiture - Chair M101 25; Luxury Funiture - Chair M102 25; Car Decor - Yellow Duck 29; Car Decor - Devil's Wings 29; Car Decor - Firing Pipes 29; Desert Palm Mansion 499; Car Decor - White Cat 29
+Badges: 14 | Page media: 9 images, 0 videos
+Description: ══ 10/30 UPDATE 142 ══ 🐰 New bunny-themed manor available! 🏫 The Haunted School is back! 🦇 Join the Halloween Gothic Party! 👗 Check out the latest avatars! Welcome to Metro Life! 🏙️ Roleplay and immerse yourself in a contemporary seaside city! 🏡 Personalize your dream house, including luxurious mansions! 🚗 Take your cars to the next level by modifying them with unique designs. 📲 Connect with friends using the latest devices and technologies. 😊 Get ready to embark on an extraordinary journey in Metro Life! Thanks for playing! Join our group⭐ and give a thumbs up👍! Genres: Roleplay, RP, Town & City, Hangout, Explore.
