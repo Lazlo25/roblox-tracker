@@ -1,0 +1,30 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Collect-upgrade-rebirth loops rank lower on Up-and-Coming than other games of the same age",
+     "action": "Skip collect-rebirth loops for breakout",
+     "test": {"feature": "loop=collect_upgrade_rebirth", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "mp", "statement": "Collect-upgrade-rebirth loops hold lower Most Popular positions than other profiled loops",
+     "action": "Skip collect-rebirth loops for staying power",
+     "test": {"feature": "loop=collect_upgrade_rebirth", "metric": "mp_pos", "type": "binary", "direction": "-"}},
+    {"chart": "tt", "statement": "Young Simulation-genre games hold higher Top Trending positions than other games of similar age",
+     "action": "Build a simulator for trending",
+     "test": {"feature": "genre=Simulation", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with emoji in the title climb Top Trending faster than games of similar age",
+     "action": "Put an emoji in the title",
+     "test": {"feature": "title_emoji", "metric": "tt_mom", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games launching with achievement badges hold lower Top Trending positions than games of similar age without any",
+     "test": {"feature": "badges_n", "metric": "tt_pos", "type": "threshold", "cut": 0, "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Halloween-tagged games lose ground on all four charts in the first week of November unless they ship a follow-up update or a new event",
+     "action": "Line up an update right after the event",
+     "rationale": "Halloween ends 2026-10-31; the Mimic (-13 on Most Popular), Ride a Dino (-22) and A Long Flight [HALLOWEEN] (-23) already fell while Halloween tags were still on. Confirm if games carrying [🎃] tags on 10-31 fall more over 11-01 to 11-07 than untagged games of similar age, and if those updated in that window hold better."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-019", "confidence": 56, "note": "It Hears The Water [DONT SPLASH] climbed 16 on Most Popular at 17 days while DONT SPLASH holds #3 at 14 days; the noise-rule wave now reaches Most Popular with a second game."},
+    {"id": "H-x-021", "confidence": 65, "note": "Realistic Ragdoll Playground (+28) and Ragdoll Playground (+15) lead Top Trending momentum; 'Ragdoll' titles go with higher Up-and-Coming positions (r=+0.32, 6% share) and sandbox-physics loops sit at the 79th-83rd percentile on Top Trending and Up-and-Coming."},
+    {"id": "H-x-006", "confidence": 63, "note": "Scary Shawarma Kiosk: the ANOMALY (432 days) was the biggest Most Popular riser (+43) and also climbed 15 on Top Trending."},
+    {"id": "H-te-018", "confidence": 52, "note": "My Small Business (14 days) climbed 146 on Top Earning and DRIVE: Highway (33 days) 96, the same lag pattern as Throw Food For Animals yesterday."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,101 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "The top holds: Steal An Egg (98 days), Brookhaven, DONT SPLASH (14 days), RIVALS, Murder Mystery 2 and 99 Nights in the Forest again lead the pillar.",
+        "Anomaly horror and young simulators led the climbers: Scary Shawarma Kiosk: the ANOMALY +43 at 432 days, Throw Food For Animals +20 at 43 days, It Hears The Water [DONT SPLASH] +16 at 17 days, Superhero Arena +14 and Deagle Arena +12.",
+        "Halloween titles slipped on the last day of the event: A Long Flight [HALLOWEEN] -23, Ride a Dino -22, The Mimic -13 (its second straight fall) and Fisch -14.",
+        "Fourteen games entered, among them Raise The Biggest Family (18 days), +1 Anime Eyes (17 days), Realistic Car Destruction (16 days), Say Cheese! (12 days) and the 2,490-day Survive the Killer!; thirteen left, including Blade Ball, Grow a Garden and two '+1' games.",
+        "Games aged 123 to 365 days sit at the 35th median percentile against the 53rd for 15-42-day games and the 56th for multi-year evergreens, the mid-life trough again (H-mp-009 at 48%)."
+      ],
+      "patterns": [
+        "Recent updates consistently go with higher positions now (H-mp-006 up from 58% to 75%), and games left more than 21 days without one stay fewer days (r=-0.55).",
+        "Pricing tends to go with staying power: median products above 400 R$ split days on the chart at r=+0.49 and median passes above 77 R$ at r=+0.46 (H-mp-011, H-mp-016 at 65%).",
+        "Solo loops no longer clearly sit lower (H-mp-003 fell from 73% to 53%), while more original concepts consistently hold higher positions (H-mp-013 at 78%).",
+        "Collect-upgrade-rebirth loops sit at the 16th median percentile and wave-survival co-op at the 30th, against 61st-66th for PvP, steal-defend-base and job sims; a loop test is proposed today, though only three collect-rebirth games are on the chart.",
+        "Big evergreens consistently convert fewer visits into favorites (H-mp-010 at 79%), so a high favorite rate here marks a young game, not a durable one."
+      ],
+      "outliers": [
+        {"name": "Scary Shawarma Kiosk: the ANOMALY", "note": "A 432-day game jumped 43 places on a same-day horror update, far outside the mid-life trough; the anomaly-job format (H-x-006) and a Halloween update are the likely reasons."},
+        {"name": "It Hears The Water [DONT SPLASH]", "note": "A 17-day spin-off branded with DONT SPLASH's name climbed 16 places, showing the noise-rule horror wave (H-x-019) carrying a second game onto Most Popular."},
+        {"name": "[🔥AURA] Phonk Edit Tower 🎶", "note": "95% likes yet weakest on the pillar at 331 days and 12 days since an update, consistent with fixed-stage obbies fading (H-mp-025) and the update gap (H-mp-018)."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again top efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Momo City (655 days, no passes), Build and Burn (26 days) and Elemental Dungeons.",
+        "The least efficient are this month's breakouts: +1 Anime Eyes (17 days, 46 passes), DONT SPLASH, Bike For Egg! and Throw Food For Animals, all with high CCU and revenue still catching up.",
+        "My Small Business climbed 146 at 14 days, Mechanic Legends 113, Evomon 108, Survive the Killer! 101 and DRIVE: Highway 96; Dream Car Collection (-63), Grow a Plant (-60) and Steal the Moon (-50) fell most.",
+        "Twenty-one games entered (Cameraman Tower Defense, Lawn Care Empire, World of Nukes with 293 products, Depth Incremental among them) and nineteen left, including Attack on Titan Revolution and Grow a Garden 2.",
+        "Efficiency rises with age, from the 1st median percentile at 0-14 days and the 31st at 15-42 days to the 61st past a year (H-te-001 at 83%)."
+      ],
+      "patterns": [
+        "Pricing high consistently pays: median products above 79 R$ (r=+0.43), a pass above about 729-999 R$ and median passes near 400 R$ all hold at 86% (H-te-005, H-te-006, H-te-025).",
+        "RPGs (r=+0.47), roleplay hubs (+0.32) and more complex builds (rho=+0.25) consistently earn more per player, while Survival (-0.37) and Simulation (-0.23) consistently earn less.",
+        "Steal-and-defend-base loops are the weakest earners per player (r=-0.57, 18th median percentile; H-te-024 at 86%) and 'Egg' titles split efficiency at r=-0.81, the sharpest keyword effect on any chart.",
+        "Tower-defense loops consistently earn more per player (H-te-044 up to 79%); a roll or luck layer tends to help too (H-te-037 at 69%).",
+        "Servers above about 40 players split efficiency at r=+0.37, consistent with H-te-007 (25+ players at 86%)."
+      ],
+      "outliers": [
+        {"name": "[🏠HOUSES]Momo City [Beta]", "note": "Entered among the most efficient earners with no game passes and 31 products, against the pass-pricing rules; a single-player life sim selling houses and furniture to a loyal audience is the likely reason."},
+        {"name": "🧸 My Small Business", "note": "Climbed 146 places at 14 days, the clearest case today of revenue catching up with a breakout's players (H-te-018)."},
+        {"name": "[🌍UPD] +1 Anime Eyes", "note": "The least efficient earner despite 46 passes and 105 products: a huge, cheap catalogue does not offset a '+1' template's weak revenue per player (H-te-004 at 84%)."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Ragdoll sandboxes lead momentum: Realistic Ragdoll Playground +28 (14 days) and Ragdoll Playground +15 (34 days), with MOUSE +17 (27 days), Bug Evolution +15 (22 days) and the older Scary Shawarma Kiosk +15.",
+        "Thai Quiz Duels (-24, 61% likes), Survive the Killer! (-23), WARDEN Sonaria Horror Escape (-20) and Fake Dead or DIE (-16) fell most.",
+        "Only seven games entered, among them the Hollow tie-in PETAPETA (1,172 days), Practical Basketball, Push the Patient and Facecard: Makeup Showdown (Junior); seven left, including Flee the Facility and Airport Security (Anomaly).",
+        "Updated games moved no differently from the rest today (median 0 against 0).",
+        "Games up to 42 days old sit at the 56th-57th median percentile against the 43rd at 43-84 days and 28th at 85-122 days, consistent with H-tt-001 (58%)."
+      ],
+      "patterns": [
+        "Like ratio now tends to go with momentum within the same age band (H-tt-004 up from 47% to 61%), and several page images tend to as well (H-tt-020 up from 42% to 65%).",
+        "Smaller servers tend to help young games (H-tt-049 at 69%, servers above 23 at r=-0.32), and solo games held higher positions within age (+0.34), against H-tt-008 (32%) and the Top Earning split.",
+        "Simulation-genre games hold higher positions within the same age band (+0.40) while Simulation earns less per player on Top Earning; a tested hypothesis is proposed today.",
+        "Emoji in titles go with stronger momentum (rho=+0.34, within-age +0.24) and badges with lower positions (-0.35 within age); both are proposed as tests.",
+        "Sandbox-physics (79th), simulation-job (76th) and wave-survival co-op (67th) loops lead, while story adventures (17th) and roleplay (25th) trail, the same order as yesterday."
+      ],
+      "outliers": [
+        {"name": "[The Hollow] PETAPETA:", "note": "A 1,172-day horror game entered Top Trending wearing the Hollow event tag, a late lift from the Roblox-run event (H-x-020) rather than early momentum."},
+        {"name": "Fly Tesla Roadster To Steal Eggs", "note": "Weakest on the pillar at 13 days despite combining two wave hooks (Tesla Roadster and steal-egg); stacking fading trends did not add momentum (H-x-011)."},
+        {"name": "Thai Quiz Duels [UPDATES]", "note": "Fell 24 at 14 days on a 61% like ratio, consistent with like ratio tending to go with momentum (H-tt-004)."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "+1 Spider Arm (12 days) now leads, ahead of DONT SPLASH, Say Cheese! (12 days), +1 Anime Eyes, Raise The Biggest Family and Ragdoll Playground.",
+        "Make Viral Candy! (+31, 13 days), Fart With Your Friends! (+20), Realistic Ragdoll Playground (+19) and Depth Incremental (+19) rose most; Thai Quiz Duels (-23), Grapple Strike (-21) and VERITY'S PIZZERIA RUN (-19) fell most.",
+        "Eleven games entered, including Create A Disaster (14 days), Tesla Roadster Chase (10 days), PORTALS, Clean the Moon! and steal a strange egg; ten left, among them Beat Up Verity, Steal an Anime Pack and Break a Brainrot Lucky Block.",
+        "The newest games lead: 0-14 days at the 64th median percentile against the 47th at 15-42 days and the 29th at 43-84 days (H-uc-005 at 64%)."
+      ],
+      "patterns": [
+        "Collect-upgrade-rebirth loops rank lowest (r=-0.52, 23rd median percentile) while sandbox-physics loops rank highest (83rd; H-uc-036 at 65%); a loop test for collect-rebirth is proposed today.",
+        "Survival framing consistently goes with higher positions (H-uc-047 at 74%), as do recent updates (H-uc-012 at 73%) and gameplay thumbnails (H-uc-040 at 70%); all-caps titles consistently go with lower ones (H-uc-049 at 70%).",
+        "A collection index now goes with lower positions (within-age -0.35), so H-uc-033 is down to 27%, the opposite of its Top Trending counterpart (H-tt-028 at 69%).",
+        "Several breakout ideas weakened sharply today: pet/egg loops (H-uc-001, 63% to 39%), co-op loops (H-uc-019, 66% to 47%) and everyday-life roleplay (H-uc-031, 66% to 48%).",
+        "Build and craft loops now tend to rank lower (H-uc-029 up from 40% to 66%), and cash-tycoon loops consistently do (H-uc-016 at 73%)."
+      ],
+      "outliers": [
+        {"name": "Make Viral Candy! 🍬", "note": "Climbed 31 at 13 days as an idle-income tycoon with 17 passes and 102 products, against H-uc-016 (cash tycoons rank lower); a trend-chasing 'viral' theme and its very young age are the likely reasons."},
+        {"name": "[MOTORBIKES] DRIVE: Highway", "note": "Among the weakest on Up-and-Coming yet up 96 on Top Earning, the reach-versus-revenue split seen for realistic bike sims (H-x-010)."},
+        {"name": "📸 Say Cheese! [STORY]", "note": "Third on the chart at 12 days with no passes and four products, a story adventure where that loop is usually rare; a curiosity story hook carries it."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Simulation splits reach from revenue: young simulators hold higher Top Trending positions within age (+0.40) yet consistently earn less per player (H-te-027 at 86%), the same pattern as the steal/egg template (H-x-002) and survival framing.",
+      "Collect-upgrade-rebirth loops trail on three charts at once (16th percentile on Most Popular, 23rd on Up-and-Coming, 35th on Top Earning); two loop tests are proposed today.",
+      "Ragdoll physics keeps spreading: two ragdoll sandboxes lead Top Trending momentum and 'Ragdoll' titles lift Up-and-Coming; H-x-021 rises to 65%.",
+      "Anomaly and noise-rule horror carried old and new games alike onto Most Popular (Scary Shawarma Kiosk +43, It Hears The Water +16), while plain Halloween horror (The Mimic, A Long Flight) slipped on the event's last day.",
+      "Halloween ends today; a qualitative test is proposed on whether [🎃]-tagged games lose ground in the first week of November unless they ship a follow-up.",
+      "No gameplay videos were labelled today: the four queued long-running hits (Dragon Adventures, Creatures of Sonaria, Sol's RNG, Basketball: Zero) are marked frames_ready but again arrived with zero frames."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (149 entries, median 2 days), ahead of tt→mp (130, 2 days).",
+      "uc→te (96, 5 days), tt→te (91, 4 days), uc→mp (83, 4 days) and te→tt (75, 9 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1."
+    ]
+  }
+}
