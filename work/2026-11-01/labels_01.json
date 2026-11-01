@@ -1,0 +1,707 @@
+[
+ {
+  "label": "Q01",
+  "loop": "attend school classes -> dress up in outfits -> meet friends and roleplay on campus -> earn currency for clothes",
+  "loop_archetype": "roleplay_social",
+  "objectives": "dress up and socialize in a high-school roleplay",
+  "progression": "currency for outfits and bundles",
+  "instructions": "attend classes, dress up, meet friends",
+  "mechanics": [
+   "dress up",
+   "school roleplay",
+   "outfit bundles",
+   "gifting"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "polished stylized avatar art for a school RP"
+  ],
+  "themes": [
+   "high school",
+   "fashion"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "school roleplay",
+   "dress-up"
+  ],
+  "monetization_signals": [
+   "VIP pass",
+   "currency tiers",
+   "outfit bundles",
+   "gift currency"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "stylized custom female avatars in uniforms on a grand campus",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 4,
+  "complexity_notes": "large campus map, custom stylized avatars and clothing; studio-level art",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "spawn weapons/explosives/toys -> blow up ragdolls and destructible scenery -> unlock more tools",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause destruction and watch ragdolls react",
+  "progression": "unlock weapons/tools via cash or passes",
+  "instructions": "everything is destructible; test weapons and toys on ragdolls",
+  "mechanics": [
+   "ragdoll physics",
+   "destruction",
+   "weapons",
+   "explosives"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fully destructible map in a 1-player server"
+  ],
+  "themes": [
+   "ragdolls",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "instant unlock passes",
+   "double cash",
+   "admin pass",
+   "realistic blood"
+  ],
+  "update_signals": [
+   "beta release",
+   "Halloween pack"
+  ],
+  "thumbnails": "white ragdoll dummies being smashed, explosions, crumbling tower",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "destruction physics and ragdoll system, simple maps",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "run/click to gain +1 stats -> buy trails and stage skips -> progress through stages",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "grow stat numbers and clear stages",
+  "progression": "stages (paid stage skips), trails",
+  "instructions": "none given",
+  "mechanics": [
+   "+1 per step",
+   "stage skip",
+   "trails"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "hacker",
+   "matrix"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "+1 every second"
+  ],
+  "monetization_signals": [
+   "admin panel pass",
+   "trail passes",
+   "paid stage skip products",
+   "no cooldown"
+  ],
+  "update_signals": [
+   "last update over a month ago"
+  ],
+  "thumbnails": "yellow-suited avatar running with +1 and +100Qi popups on a matrix background",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "template incremental with trails and stage obby",
+  "novelty": 0,
+  "confidence": 55
+ },
+ {
+  "label": "Q04",
+  "loop": "grab ice cubes from the vault -> blend into ice cream and serve customers -> upgrade shop and helpers; at night spot the anomaly customer and shut the window",
+  "loop_archetype": "simulation_job",
+  "objectives": "sell every ice cube to win the shop while surviving anomalies at night",
+  "progression": "shop upgrades, penguin helpers, classes, gems",
+  "instructions": "grab ice, blend, serve, upgrade; spot weird night customers",
+  "mechanics": [
+   "job sim",
+   "customers",
+   "upgrades",
+   "spot the anomaly",
+   "night shift",
+   "class luck spins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "mix of cozy shop-job loop with anomaly horror night shift"
+  ],
+  "themes": [
+   "ice cream",
+   "anomaly horror",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "sell X",
+   "spot the anomaly",
+   "night shift"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x gems",
+   "class slots",
+   "spins",
+   "revive",
+   "limited vacuum"
+  ],
+  "update_signals": [
+   "Halloween tag",
+   "updated today"
+  ],
+  "thumbnails": "avatar scooping ice cream, creepy shadow figure at window, emergency button",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "shop interior, customer NPC AI, day/night anomaly events",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "create a cartoon -> pose stickmen frame by frame -> play the animation -> share to gallery and earn likes",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "make and share animated cartoons, reach the top of the gallery",
+  "progression": "stars currency, crates of props, move packs",
+  "instructions": "create cartoon, add stickmen, pose joints, add frames, press play, share",
+  "mechanics": [
+   "frame animation",
+   "drawing",
+   "gallery sharing",
+   "likes ranking",
+   "crates"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "in-game stick-figure animation editor with community gallery"
+  ],
+  "themes": [
+   "stickman",
+   "animation",
+   "art"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "drawing/creation games"
+  ],
+  "monetization_signals": [
+   "move packs",
+   "star currency",
+   "cosmetic crates"
+  ],
+  "update_signals": [
+   "Halloween crates",
+   "updated today"
+  ],
+  "thumbnails": "stickman animation editor UI and ninja stickmen fighting",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom animation editor UI, save system, moderated gallery",
+  "novelty": 3,
+  "confidence": 75
+ },
+ {
+  "label": "Q06",
+  "loop": "spawn weapons and events -> shoot/blow up ragdoll dummies with realistic wound simulation -> play doctor, creative mode or factions",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "sandbox destruction and realistic injury simulation",
+  "progression": "pass unlocks for weapons, events, map builder",
+  "instructions": "play with friends or alone; hit organs and bones, triage in doctor mode",
+  "mechanics": [
+   "ragdoll physics",
+   "ballistics",
+   "triage mode",
+   "AI dummies",
+   "map builder",
+   "event triggers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "medical triage mode and organ-level damage inspired by People Playground/Arma"
+  ],
+  "themes": [
+   "ragdolls",
+   "military",
+   "medical"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "super VIP",
+   "weapon passes",
+   "nuke/black hole products",
+   "sandbox mode",
+   "big servers"
+  ],
+  "update_signals": [
+   "UPDATE banners",
+   "updated today"
+  ],
+  "thumbnails": "ragdoll physics logo, nuke launcher, triage UI, tank with soldier factions",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "detailed injury sim, AI dummies with tactics, workshop builder",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "take driving tests -> earn licenses -> do driving jobs for cash -> buy better cars up to the hypercar",
+  "loop_archetype": "racing_driving",
+  "objectives": "pass every license test and buy the dream car",
+  "progression": "licenses, cash, car purchases",
+  "instructions": "pass test, collect license, do jobs, pay for tests",
+  "mechanics": [
+   "driving test",
+   "traffic rules",
+   "delivery jobs",
+   "car shop",
+   "customization"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "driving-test framing with real road rules and traffic"
+  ],
+  "themes": [
+   "cars",
+   "driving school"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "can you pass X"
+  ],
+  "monetization_signals": [
+   "VIP lifetime",
+   "2x cash",
+   "limited cars",
+   "tip/cash products"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "angry instructor and nervous student in car, hot-rod icon with checkmark",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "town map with traffic AI, vehicle chassis, job system",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "FFA rounds where each mag holds one bullet -> kill to earn money/xp -> open weapon crates for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win free-for-all rounds with one-shot kills",
+  "progression": "levels, crates, weapon skins, season pass",
+  "instructions": "one bullet per mag, knife close-range, no teams",
+  "mechanics": [
+   "FPS",
+   "one-shot kill",
+   "FFA",
+   "weapon crates",
+   "season pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "one-bullet-mag rule"
+  ],
+  "themes": [
+   "pixel",
+   "guns"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "FPS arenas"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "crate luck",
+   "crates",
+   "level skips",
+   "season pass",
+   "2x money"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "first-person view of glowing weapon skins in pixel arena",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "small arena, FPS framework, skin crates",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "punch through walls -> collect rubble and sell at the grinder -> upgrade fists/tools -> escape all 5 floors faster",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "escape all floors and beat best time",
+  "progression": "fist upgrades, tools (sledgehammer, TNT, vacuum), gems, chapters",
+  "instructions": "punch walls, sell rubble, upgrade, escape 5 floors",
+  "mechanics": [
+   "voxel destruction",
+   "sell loop",
+   "tool upgrades",
+   "speedrun timer",
+   "chapters"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "chapter-based escape story on a punch-the-wall loop"
+  ],
+  "themes": [
+   "prison",
+   "aliens",
+   "escape"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "punch walls to escape",
+   "chapters"
+  ],
+  "monetization_signals": [
+   "permanent tool passes",
+   "one-round tool rentals",
+   "gems",
+   "VIP"
+  ],
+  "update_signals": [
+   "CH3 chapter",
+   "codes",
+   "updated today"
+  ],
+  "thumbnails": "first-person fists smashing walls, prisoner with hammer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "voxel wall destruction, multi-floor levels, tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q10",
+  "loop": "join rounds of random minigames -> run, jump, dodge -> win trophies, gold and gems for cosmetics",
+  "loop_archetype": "party_minigames",
+  "objectives": "win minigame rounds and trophies",
+  "progression": "gold/gems, season pass, skins",
+  "instructions": "run, jump, dodge, win trophies",
+  "mechanics": [
+   "minigames",
+   "obstacles",
+   "season pass",
+   "skins"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Fall Guys-style beans",
+   "Halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "party minigames"
+  ],
+  "monetization_signals": [
+   "gold/gem packs",
+   "2x currency",
+   "skins",
+   "season pass"
+  ],
+  "update_signals": [
+   "Halloween tag",
+   "updated today"
+  ],
+  "thumbnails": "cute bean characters on colorful obstacle courses, pumpkin trophy",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "many minigame maps and custom characters",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "click the big red button -> reduce the door counter from 1,000,000 -> earn gems, unlock tools that click faster -> escape",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "click a million times to open the door",
+  "progression": "tools (hammers, press), gems, class slots",
+  "instructions": "click the red button 1,000,000 times to escape",
+  "mechanics": [
+   "clicking",
+   "door counter",
+   "tool unlocks",
+   "spins",
+   "lore"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "shared door counter with paid click reductions",
+   "game-show lore"
+  ],
+  "themes": [
+   "game show",
+   "white room",
+   "escape"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "X clicks to escape",
+   "chapters"
+  ],
+  "monetization_signals": [
+   "permanent hammers",
+   "2x clicks",
+   "door-click reductions",
+   "gems",
+   "luck"
+  ],
+  "update_signals": [
+   "CH2 chapter",
+   "codes",
+   "updated today"
+  ],
+  "thumbnails": "red button in white room with 1,000,000 counter, avatar with toy hammer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "present (1 video)",
+  "complexity": 2,
+  "complexity_notes": "single room, click counter, tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "punch prison walls cube by cube -> sell rubble at crusher -> buy harder punches, bigger holes, helpers -> find the tunnel and escape",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "escape each chapter, fastest times",
+  "progression": "upgrades, gyms, gems, gloves, classes, chapters",
+  "instructions": "punch walls, sell rubble, upgrade, escape on easy/normal/hard",
+  "mechanics": [
+   "voxel destruction",
+   "sell loop",
+   "helpers",
+   "team upgrades",
+   "difficulty modes",
+   "leaderboards"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "team upgrades and friend gem bonus"
+  ],
+  "themes": [
+   "prison",
+   "escape",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "punch walls to escape",
+   "chapters"
+  ],
+  "monetization_signals": [
+   "mega fists",
+   "VIP cell",
+   "auto sell",
+   "gem/cash packs",
+   "gifting"
+  ],
+  "update_signals": [
+   "Chapter 2 update",
+   "Halloween event",
+   "ideas board"
+  ],
+  "thumbnails": "first-person orange fists smashing grey cube walls; skins grid",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "voxel destruction, chapters, helpers",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "one player becomes the Bear and hunts others across maps -> survivors complete objectives to survive -> earn Quidz for skins",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the Bear or catch everyone as the Bear",
+  "progression": "Quidz, skins, badges",
+  "instructions": "survive the bear, or become it",
+  "mechanics": [
+   "1 vs all",
+   "asymmetric horror",
+   "skins",
+   "many maps"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "long-running asymmetric horror classic"
+  ],
+  "themes": [
+   "bear",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "1 vs all"
+  ],
+  "monetization_signals": [
+   "double Quidz",
+   "bear chance",
+   "flashlight",
+   "Quidz packs"
+  ],
+  "update_signals": [
+   "updated yesterday",
+   "Hollow event branding"
+  ],
+  "thumbnails": "dark horror art with bear monster, 'The Hollow' frames",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many maps, custom monsters, long-running content",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "1v1 penalty duels taking turns as kicker and goalkeeper -> aim curve and power -> earn coins/gems for gloves, balls, stadiums",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win penalty duels and the World tournament",
+  "progression": "levels, coins, gems, cosmetics, daily streaks",
+  "instructions": "aim the shot and dive to save in 1v1 duels",
+  "mechanics": [
+   "penalty shootout",
+   "1v1",
+   "CPU mode",
+   "tournament",
+   "cosmetics",
+   "daily missions"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "soccer"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "noob vs pro"
+  ],
+  "monetization_signals": [
+   "x2 passes",
+   "coin/gem packs",
+   "starter pack",
+   "skip time",
+   "daily pack"
+  ],
+  "update_signals": [
+   "surprise event Saturday",
+   "updated today"
+  ],
+  "thumbnails": "keeper diving saves, noob vs pro, 0.1% shot",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "stadium, shot physics, matchmaking",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "choose a path (vampire, werewolf, mage, hunter) -> follow questline and fight through tiers -> loot gear and build a bloodline/faction",
+  "loop_archetype": "story_adventure",
+  "objectives": "rise through tiers on your supernatural path",
+  "progression": "tiers, variants with signature moves, loot rarities, factions",
+  "instructions": "choose a path, explore the valley, complete the questline",
+  "mechanics": [
+   "class choice",
+   "questline",
+   "combat",
+   "loot rarity",
+   "factions",
+   "night events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "grip-and-finish combat; bloodline/faction building"
+  ],
+  "themes": [
+   "vampires",
+   "werewolves",
+   "dark fantasy"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "supernatural RPG"
+  ],
+  "monetization_signals": [
+   "aristocrat bundle 6777",
+   "shards",
+   "character slots",
+   "emote packs",
+   "rerolls"
+  ],
+  "update_signals": [
+   "blood moon events",
+   "trading soon",
+   "updated today"
+  ],
+  "thumbnails": "dramatic anime-style vampire and werewolf art under a full moon",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open valley, multiple classes and quests, combat system",
+  "novelty": 2,
+  "confidence": 65
+ }
+]

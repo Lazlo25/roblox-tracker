@@ -1,0 +1,708 @@
+[
+ {
+  "label": "Q16",
+  "loop": "survive endless waves of infected -> loot items and build defenses -> complete objectives and hold out",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive as long as possible against the horde",
+  "progression": "credits, perks, xp",
+  "instructions": "survive waves, loot, build defenses, complete objectives",
+  "mechanics": [
+   "wave survival",
+   "looting",
+   "barricades",
+   "objectives",
+   "FPS"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "one of Roblox's original zombie survival games"
+  ],
+  "themes": [
+   "zombies",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "credit packs",
+   "perk pass",
+   "private servers",
+   "cosmetic passes",
+   "boosts"
+  ],
+  "update_signals": [
+   "HALLOWS 2026 event",
+   "updated today"
+  ],
+  "thumbnails": "dark horror art: masked figure, chainsaw survivor, glowing eyes in the dark",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "multiple maps, AI hordes, long-running content",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q17",
+  "loop": "chop trees for logs -> process logs into lumber with machines -> sell to trucks -> upgrade machines, hire workers, rebirth",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow the lumber business and top the leaderboard",
+  "progression": "machine upgrades, workers, rebirths, crates",
+  "instructions": "chop trees, process, sell, climb leaderboards",
+  "mechanics": [
+   "chopping",
+   "production chain",
+   "workers",
+   "automation",
+   "rebirth",
+   "crates"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "lumber",
+   "factory",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "processing tycoon"
+  ],
+  "monetization_signals": [
+   "gamepass bundle",
+   "auto passes",
+   "rainbow/golden cosmetics",
+   "crates",
+   "server luck",
+   "OP hacker"
+  ],
+  "update_signals": [
+   "updated yesterday"
+  ],
+  "thumbnails": "bright cartoon log debarker machines and cargo plane",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 2,
+  "complexity_notes": "production machines, trucks, tycoon template",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "explore regions -> capture Loomians with discs -> train and battle in turn-based fights, raids and trades",
+  "loop_archetype": "story_adventure",
+  "objectives": "complete the story and collect/train Loomians",
+  "progression": "captures, levels, training points, routes",
+  "instructions": "explore, collect, battle, trade",
+  "mechanics": [
+   "creature capture",
+   "turn-based battles",
+   "raids",
+   "trading",
+   "story"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Pokemon-like MMO on Roblox with new field capture"
+  ],
+  "themes": [
+   "creatures",
+   "adventure"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "monster collecting"
+  ],
+  "monetization_signals": [
+   "charms",
+   "boost tokens",
+   "Loomicoin",
+   "battle tokens"
+  ],
+  "update_signals": [
+   "Route 9 major update",
+   "constant development"
+  ],
+  "thumbnails": "cute creature art and logo, Route 9 badge",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 5,
+  "complexity_notes": "huge maps, hundreds of creatures, battle system, story",
+  "novelty": 2,
+  "confidence": 85
+ },
+ {
+  "label": "Q19",
+  "loop": "buy old paintings in crates -> restore them by cleaning in the workshop -> display in your gallery for money -> reroll for better paintings",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build a gallery of restored masterpieces",
+  "progression": "gallery cash, rarer paintings, rerolls",
+  "instructions": "buy, restore, display to earn money",
+  "mechanics": [
+   "cleaning",
+   "crates",
+   "gallery income",
+   "rerolls"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "satisfying cleaning on famous paintings as the tycoon input"
+  ],
+  "themes": [
+   "art",
+   "restoration"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean/satisfying",
+   "X tycoon"
+  ],
+  "monetization_signals": [
+   "reroll tokens",
+   "auto clean",
+   "gallery cash packs"
+  ],
+  "update_signals": [
+   "updated yesterday"
+  ],
+  "thumbnails": "sponge cleaning famous paintings (Mona Lisa, Starry Night, Last Supper)",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "cleaning shader/mask, gallery placement",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q20",
+  "loop": "work the press to pack rounds and fill crates -> deliver shipments -> upgrade workshop and unlock new rounds -> find documents uncovering lore",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "keep filling orders and uncover what happened at the factory",
+  "progression": "rounds unlocked, mastery XP, ranks, workshop upgrades",
+  "instructions": "clock in, pack rounds, deliver, upgrade",
+  "mechanics": [
+   "hands-on crafting",
+   "incremental",
+   "deliveries",
+   "lore documents",
+   "mastery"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "eerie-lore incremental factory job in a blizzard"
+  ],
+  "themes": [
+   "ammunition factory",
+   "dystopian",
+   "winter"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "incremental"
+  ],
+  "monetization_signals": [
+   "MVP",
+   "mastery XP multipliers",
+   "bulk multipliers",
+   "auto sell",
+   "support tips"
+  ],
+  "update_signals": [
+   "early release",
+   "update tag",
+   "updated today"
+  ],
+  "thumbnails": "pixel-styled ammo press, flying bullets, stressed worker",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 2,
+  "complexity_notes": "factory room, crafting press, incremental economy",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q21",
+  "loop": "pick Adventure Time characters -> quest and fight mobs and bosses across Ooo -> level weapons and buddies -> dungeon train",
+  "loop_archetype": "story_adventure",
+  "objectives": "complete quests and beat bosses",
+  "progression": "weapon levels, buddies, coins/gems",
+  "instructions": "play as Finn/Jake etc., team up, quest, fight bosses",
+  "mechanics": [
+   "licensed IP",
+   "action combat",
+   "quests",
+   "dungeon",
+   "pets/buddies",
+   "fishing"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "official Cartoon Network IP"
+  ],
+  "themes": [
+   "Adventure Time",
+   "cartoon",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed IP"
+  ],
+  "monetization_signals": [
+   "gem/coin packs",
+   "extra life",
+   "return ticket",
+   "hero training"
+  ],
+  "update_signals": [
+   "weekly content drops",
+   "Halloween tag"
+  ],
+  "thumbnails": "official Adventure Time character art in action poses",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "licensed characters, multiple zones, boss fights",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q22",
+  "loop": "create a monster-girl avatar -> dress up and go to class, join clubs -> defeat bosses, gacha for items, ride trains to new locations",
+  "loop_archetype": "roleplay_social",
+  "objectives": "style your avatar and progress through afterlife story",
+  "progression": "Ghoulars, XP, gacha items, decorations",
+  "instructions": "don't die, catch the train, dress up",
+  "mechanics": [
+   "dress up",
+   "gacha",
+   "story",
+   "bosses",
+   "decoration"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Monster High-style afterlife fashion RPG in single-player servers"
+  ],
+  "themes": [
+   "monsters",
+   "fashion",
+   "afterlife",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dress-up",
+   "gacha"
+  ],
+  "monetization_signals": [
+   "V.I.M pass 1200",
+   "currency packs",
+   "gacha/luck x2",
+   "gift props"
+  ],
+  "update_signals": [
+   "release tag",
+   "updated yesterday"
+  ],
+  "thumbnails": "glamorous neon monster-girl art: go to class, defeat bosses, join a club",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 4,
+  "complexity_notes": "custom avatars, outfits, story locations",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "fight in fast PvP knife/gun arenas -> earn coins on kills -> unlock powers and perks -> climb ranks",
+  "loop_archetype": "combat_pvp",
+  "objectives": "be the top fighter",
+  "progression": "coins, powers, perks, collector weapons, ranks",
+  "instructions": "battle, earn coins, unlock powers that charge",
+  "mechanics": [
+   "PvP",
+   "knives",
+   "guns",
+   "powers",
+   "perks"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "knives",
+   "combat"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "MM2-style knife combat"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "lucky",
+   "collector weapons",
+   "coin packs",
+   "packs/offers"
+  ],
+  "update_signals": [
+   "updated 4 days ago"
+  ],
+  "thumbnails": "meme-face avatars wielding glowing knives",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "arena maps, combat framework",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "team tactical rounds -> plant/defend site, clutch -> earn Kredits for skins/agents and rank up",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win competitive rounds and rank up",
+  "progression": "ranks, Kredits, skins and cases",
+  "instructions": "play competitive maps with friends; like/fav/join for rewards",
+  "mechanics": [
+   "tactical FPS",
+   "ranked",
+   "cases/crates",
+   "weapon skins",
+   "juggernaut mode"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "CS-like tactical shooter with case-opening economy"
+  ],
+  "themes": [
+   "military",
+   "tactical"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "CS-style tactical shooter",
+   "juggernaut mode"
+  ],
+  "monetization_signals": [
+   "case open passes",
+   "weapon skins",
+   "killtrack",
+   "credit packs"
+  ],
+  "update_signals": [
+   "Juggernaut event",
+   "early alpha",
+   "updated today"
+  ],
+  "thumbnails": "Dust-like map, weapon skin first-person, case-opening UI",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "FPS netcode, movement, case economy, competitive maps",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "spawn dummies and weapons -> hit, shoot, explode them and watch realistic bone/organ reactions -> trigger events like nukes and dummy rain",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with ragdoll physics",
+  "progression": "milestones unlocking items",
+  "instructions": "strike dummies; tase, revive or zombify them",
+  "mechanics": [
+   "ragdoll physics",
+   "injury simulation",
+   "events",
+   "multiple maps",
+   "VR support"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fast-rising leader of the ragdoll wave"
+  ],
+  "themes": [
+   "ragdolls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "unlimited events",
+   "packs",
+   "VIP",
+   "nuke/dummy rain products"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "white dummy with arrows, 'piercing projectiles', 'satisfying physics', explosives",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "ragdoll + injury system, events, maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q26",
+  "loop": "2D ragdoll sandbox -> shoot, burn, drop dummies in lava -> spawn creatures, powers, time stop",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "freely experiment with destruction",
+  "progression": "unlock tools and powers via passes",
+  "instructions": "left click grab/fling, right click use item, H heals, R resets",
+  "mechanics": [
+   "2D physics",
+   "powder sim (sand/water/lava)",
+   "powers",
+   "spawnables"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "2D powder-and-ragdoll sim in Roblox inspired by Granule; anime power references"
+  ],
+  "themes": [
+   "ragdolls",
+   "anime powers"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll",
+   "anime abilities"
+  ],
+  "monetization_signals": [
+   "everything bundle",
+   "powers/tools pack",
+   "VIP",
+   "premium trial",
+   "tips"
+  ],
+  "update_signals": [
+   "INJECTIONS update",
+   "codes",
+   "updated today"
+  ],
+  "thumbnails": "pixel dummy target plus anime characters (Gojo, Sukuna, Dio) using powers on dummy",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "2D sim inside Roblox, powder physics",
+  "novelty": 3,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "spend the night surviving the grandmother-ghost (nenek) -> pick classes via spins -> escape",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the night and escape",
+  "progression": "class slots and spins, duit currency",
+  "instructions": "none; codes only",
+  "mechanics": [
+   "horror",
+   "classes",
+   "lucky spins",
+   "revive",
+   "jumpscare products"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Malaysian-language folk-horror"
+  ],
+  "themes": [
+   "Malay folklore",
+   "ghost",
+   "night"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Indonesian/Malay horror",
+   "class spins"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "class slots",
+   "duit x2",
+   "spins",
+   "revive",
+   "jumpscare all",
+   "donations"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "creepy crawling old woman, angry man, moonlit window with NENEK text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "horror house, monster AI, class system",
+  "novelty": 2,
+  "confidence": 55
+ },
+ {
+  "label": "Q28",
+  "loop": "stranded in the desert -> scavenge fuel and parts, manage stamina and hunger -> repair and fly your plane to new places",
+  "loop_archetype": "story_adventure",
+  "objectives": "keep the plane flying and survive as long as possible",
+  "progression": "plane upgrades, tokens",
+  "instructions": "repair the aircraft, collect fuel, press M to start the engine",
+  "mechanics": [
+   "survival",
+   "scavenging",
+   "vehicle repair",
+   "flight",
+   "exploration"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "A Dusty Trip formula with an airplane"
+  ],
+  "themes": [
+   "desert",
+   "airplane",
+   "road trip"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "a dusty trip-like"
+  ],
+  "monetization_signals": [
+   "plane passes (F-22)",
+   "tokens",
+   "starter pack",
+   "stamina/hunger passes",
+   "donations"
+  ],
+  "update_signals": [
+   "early access",
+   "Halloween tag",
+   "codes"
+  ],
+  "thumbnails": "rusty biplane in desert, empty desert road",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large open world, flight and survival systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "choose a disaster -> unleash it on a town/plant -> earn cash per destruction, chain combos -> unlock bigger disasters",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "unlock and chain all disasters",
+  "progression": "coins, disaster unlocks, streaks",
+  "instructions": "blow everything up, earn cash, unlock more disasters",
+  "mechanics": [
+   "destruction",
+   "disasters",
+   "combos",
+   "cutscenes",
+   "daily rewards",
+   "leaderboards"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "kaiju/Kraken cutscenes; friends drive AI cars"
+  ],
+  "themes": [
+   "disasters",
+   "explosions"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "destruction sandbox"
+  ],
+  "monetization_signals": [
+   "unlock all disasters",
+   "tank",
+   "coin packs",
+   "exclusive disasters",
+   "restore streak"
+  ],
+  "update_signals": [
+   "Update 2",
+   "like-goal updates"
+  ],
+  "thumbnails": "burning truck, exploding nuclear plant, 'Blow everything up'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "destructible town, disaster effects, cutscenes",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "spin for anime characters per stat -> combine best stats into one fighter -> fight 1v1/2v2 battles -> win cash and climb",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "build the strongest character and win battles",
+  "progression": "wins, cash, streaks, characters",
+  "instructions": "spin for characters, combine stats, battle",
+  "mechanics": [
+   "stat spins",
+   "1v1 battles",
+   "team modes",
+   "votes on new characters"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "stat-draft from anime characters"
+  ],
+  "themes": [
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "build a X",
+   "anime"
+  ],
+  "monetization_signals": [
+   "infinite rerolls",
+   "luckier spins",
+   "2x passes",
+   "character chairs"
+  ],
+  "update_signals": [
+   "new update with player voting",
+   "codes"
+  ],
+  "thumbnails": "Goku and Luffy with stat cards (strength 99)",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "present (1 video)",
+  "complexity": 2,
+  "complexity_notes": "spin UI, simple battle resolution",
+  "novelty": 2,
+  "confidence": 70
+ }
+]

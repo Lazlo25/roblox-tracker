@@ -1,0 +1,33 @@
+{
+  "new": [
+    {"chart": "te", "statement": "Physics-sandbox loops (ragdolls, destruction, disasters) earn a lower Top Earning position for their CCU than other profiled loops",
+     "action": "Don't rely on physics sandboxes for revenue",
+     "test": {"feature": "loop=sandbox_physics", "metric": "te_eff", "type": "binary", "direction": "-"}},
+    {"chart": "tt", "statement": "Young games selling spins or crates hold higher Top Trending positions than games of similar age without them",
+     "action": "Sell spins or crates from launch",
+     "test": {"feature": "prod_spin_crate", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with a skill-based competitive core hold lower Top Trending positions than games of similar age",
+     "action": "Launch without a skill-based competitive core",
+     "test": {"feature": "competitive_core", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young grow-a-garden games (plant, water, harvest income) hold higher Top Trending positions than games of similar age",
+     "action": "Try a grow-a-garden loop for trending",
+     "test": {"feature": "mech_grow_garden", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Titles carrying an update or chapter tag ([UPD], [CH2]) rank higher on Up-and-Coming among games of the same age, unlike bracket tags in general",
+     "action": "Tag each new update in the title",
+     "test": {"feature": "title_update_tag", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Chapter-numbered escape incrementals (Punch Walls To Escape CH3, 1M Clicks To Escape CH2, Punch Out Of Prison Chapter 2) stay on Up-and-Coming by shipping new chapters but settle in its lower half, while chapter-based racers like Build and Burn turn chapters into strong revenue per player",
+     "rationale": "Today Punch Out Of Prison and 1M Clicks To Escape are among the weakest Up-and-Coming games and collect-upgrade-rebirth loops sit at the 13th percentile, while Build and Burn [CHAPTER 3] is among the most efficient Top Earning games at 27 days. Confirm if chapter-tagged games keep chart presence longer than untagged games of the same loop, and whether the revenue side holds beyond one racer."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-027", "confidence": 32, "note": "On the first day of November horror and Halloween titles led the falls: WARDEN -60 and Survive the Killer! -38 on Top Trending, It Hears The Water -26/-19/-28 and Scary Shawarma Kiosk -26/-31 on Most Popular and Top Trending, A Long Flight [HALLOWEEN] -14 on Most Popular. One day only; the week decides."},
+    {"id": "H-x-021", "confidence": 70, "note": "Ragdoll Playground entered Most Popular at 35 days, Ragdoll Sandbox and Ragdoll Physics 2 entered Up-and-Coming at 16 days, Realistic Ragdoll Engine holds #27 Most Popular and #7 Top Trending at 20 days; 'Ragdoll' titles split Top Trending at r=+0.71 and Up-and-Coming at +0.36."},
+    {"id": "H-x-019", "confidence": 52, "note": "It Hears The Water fell on three charts at once (-26 Most Popular, -19 Top Trending, -28 Up-and-Coming) while DONT SPLASH holds #3 Most Popular and #2 Up-and-Coming: the wave may be consolidating into the original."},
+    {"id": "H-x-006", "confidence": 60, "note": "Scary Shawarma Kiosk reversed yesterday's +43 with -26 on Most Popular and -31 on Top Trending as Halloween ended; Ice Cream Shop [Anomaly] entered Up-and-Coming at 19 days."},
+    {"id": "H-te-018", "confidence": 55, "note": "+1 Anime Eyes (+206 at 18 days), +1 Titan Evolution (+173 at 27 days) and Throw Food For Animals (+156 at 44 days) led Top Earning risers, the third straight day of young breakouts' revenue catching up."},
+    {"id": "H-x-001", "confidence": 52, "note": "uc→tt now 156 entries (median 2 days) and tt→mp 135 (2 days), with tt→uc still 1."},
+    {"id": "H-x-011", "confidence": 33, "note": "Steal mechanics rank higher on Up-and-Coming today (r=+0.50, 8 games) and Steal An Egg still leads Most Popular, which argues against a fading template; steal-defend-base remains the weakest earner per player."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,714 @@
+[
+ {
+  "label": "Q31",
+  "loop": "create a club -> open card packs for players -> set formation and watch live matches -> win money and fans, trade players, climb leagues",
+  "loop_archetype": "sports_competitive",
+  "objectives": "take your club to the top league",
+  "progression": "player cards, training, leagues, market trades",
+  "instructions": "build club, pick formation, open packs, train, play live matches",
+  "mechanics": [
+   "card packs",
+   "team management",
+   "simulated matches",
+   "player market",
+   "leagues"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "football manager sim with cross-server live matches and player market"
+  ],
+  "themes": [
+   "soccer",
+   "management"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Be a X",
+   "card packs"
+  ],
+  "monetization_signals": [
+   "card packs",
+   "icon tiers",
+   "market pro",
+   "scout",
+   "fast training"
+  ],
+  "update_signals": [
+   "updated today",
+   "codes"
+  ],
+  "thumbnails": "manager with trophy, rival managers face-off, tactics tablet in stadium",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 4,
+  "complexity_notes": "match simulation and replays, card economy, global market",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q32",
+  "loop": "drop into rounds and parkour away from Nextbots -> revive teammates -> earn tokens/xp for cosmetics and upgrades",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive rounds against nextbots",
+  "progression": "tokens, xp, battle pass, cosmetics",
+  "instructions": "press Play; movement is key to survive nextbots",
+  "mechanics": [
+   "parkour movement",
+   "nextbots",
+   "revives",
+   "battle pass",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "movement-skill-based nextbot survival"
+  ],
+  "themes": [
+   "nextbots",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbot",
+   "Hollow event"
+  ],
+  "monetization_signals": [
+   "aura add-ons",
+   "cosmetic sets",
+   "tokens",
+   "respawn",
+   "custom nextbot",
+   "donations"
+  ],
+  "update_signals": [
+   "The Hollow event",
+   "Halloween event",
+   "weekly missions"
+  ],
+  "thumbnails": "Hollow-framed event art, Glorp aliens, neon city",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "advanced movement, many maps, long-running live ops",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q33",
+  "loop": "summon anime heroes -> place them as towers to defend against waves -> upgrade units, raids, traits",
+  "loop_archetype": "tower_defense",
+  "objectives": "clear stages, raids and collect the strongest units",
+  "progression": "unit summons, traits, levels, worlds",
+  "instructions": "summon the strongest heroes to save the worlds",
+  "mechanics": [
+   "gacha summons",
+   "tower defense",
+   "raids",
+   "trait rerolls"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "one of the original anime TD hits"
+  ],
+  "themes": [
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anime tower defense"
+  ],
+  "monetization_signals": [
+   "shiny hunter",
+   "unit display/storage",
+   "lucky boosts",
+   "gems",
+   "trait reroll"
+  ],
+  "update_signals": [
+   "UPD 21"
+  ],
+  "thumbnails": "anime character collage and summon banner",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many units with animations, multiple worlds",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q34",
+  "loop": "cast and click fast to reel fish -> collect rare variants and mutations -> sell, upgrade rods/boats, explore seas",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "collect 1,000,000+ fish variations",
+  "progression": "rods, boats, mutations, luck, aquarium",
+  "instructions": "click to charge, click fast to reel",
+  "mechanics": [
+   "fishing",
+   "rarity",
+   "mutations",
+   "luck",
+   "battle pass",
+   "gacha",
+   "crews"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "fishing crews and aquarium customization"
+  ],
+  "themes": [
+   "fishing",
+   "Halloween",
+   "ocean"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "rod packs",
+   "sell anywhere",
+   "coin/luck potions",
+   "doubloons"
+  ],
+  "update_signals": [
+   "Halloween update part 2",
+   "limited battlepass"
+  ],
+  "thumbnails": "avatar on dock reeling in giant pumpkin fish and sea monsters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "many fish models, ocean map, event content",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "blow gum bubble to jump higher -> reach sky islands -> hatch rare pets and rebirth",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "hatch the rarest pets and rebirth",
+  "progression": "bubble size, pets, rebirth, enchants, season pass",
+  "instructions": "blow gum, jump into clouds, discover islands, hatch pets",
+  "mechanics": [
+   "bubble blowing",
+   "egg hatching",
+   "rebirth",
+   "season pass",
+   "fishing",
+   "enchants"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "revival of a classic simulator brand"
+  ],
+  "themes": [
+   "bubble gum",
+   "pets",
+   "Halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "pet hatching",
+   "Halloween event"
+  ],
+  "monetization_signals": [
+   "triple hatch",
+   "luck",
+   "currency passes",
+   "spin tickets",
+   "daily revives",
+   "sale banners"
+  ],
+  "update_signals": [
+   "Updates every Friday",
+   "final Halloween part",
+   "5X luck"
+  ],
+  "thumbnails": "cute pets with +1T, +1M bubble numbers, pumpkin egg",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many islands, pets, long-running live ops",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q36",
+  "loop": "fight and train in an open Dragon Ball-style world -> transform, fly and use ki moves -> collect dragon balls, souls and fusions",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest fighter, unlock forms",
+  "progression": "power level, transformations, souls, fusion",
+  "instructions": "E lock, R transform, C charge ki, double space fly",
+  "mechanics": [
+   "anime combat",
+   "transformations",
+   "flying",
+   "fusion",
+   "drops/luck",
+   "daily login passes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "fusion with a friend of similar power"
+  ],
+  "themes": [
+   "Dragon Ball",
+   "anime",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime fighting"
+  ],
+  "monetization_signals": [
+   "Great Ape Form 9999",
+   "bundles",
+   "drop luck",
+   "tradable passes"
+  ],
+  "update_signals": [
+   "Halloween part 1",
+   "codes",
+   "DEMO 82%"
+  ],
+  "thumbnails": "anime-style Goku/Gogeta/Great Ape art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, many moves and cutscenes",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "pick an ability moveset -> fight players in the arena -> earn hits to unlock more abilities",
+  "loop_archetype": "combat_pvp",
+  "objectives": "dominate the arena and unlock all abilities",
+  "progression": "hits currency, 30+ abilities",
+  "instructions": "choose ability, fight, gain hits",
+  "mechanics": [
+   "battlegrounds",
+   "abilities",
+   "PvP"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "superpowers",
+   "Halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "ability passes up to 1499",
+   "hits packs",
+   "double hits",
+   "early access",
+   "gifts"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "noob avatar using wind, water, fire abilities with comic speed lines",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "30+ movesets with VFX",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q38",
+  "loop": "train stats -> fight NPCs and players with Dragon Ball skills -> unlock transformations and modes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest with max stats",
+  "progression": "stat training, transformations, limit breaker, zenkai",
+  "instructions": "fight enemies, unlock skills and transformations",
+  "mechanics": [
+   "stat training",
+   "transformations",
+   "PvP",
+   "dragon balls"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "14+ year old classic DBZ game"
+  ],
+  "themes": [
+   "Dragon Ball",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime fighting"
+  ],
+  "monetization_signals": [
+   "exp multipliers",
+   "custom form",
+   "stat boosts",
+   "candy",
+   "zenkai boost"
+  ],
+  "update_signals": [
+   "Halloween Pt.2",
+   "codes"
+  ],
+  "thumbnails": "anime Goku/Vegeta/Beerus art and purple dark event",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "long-running anime RPG",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "loot the building for valuables while an entity hunts you -> hide in closets/vents -> extract; or play as the monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal the most loot and escape alive",
+  "progression": "cash, cases (cosmetics), entity chance",
+  "instructions": "steal loot, hide, or be the monster",
+  "mechanics": [
+   "extraction",
+   "stealth",
+   "asymmetric monster",
+   "loot weight",
+   "VR"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "loot weight slows you; play as the entity"
+  ],
+  "themes": [
+   "horror",
+   "heist",
+   "liminal"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal-a-x",
+   "extraction horror"
+  ],
+  "monetization_signals": [
+   "2x entity chance",
+   "VIP",
+   "cases",
+   "cash packs",
+   "revive"
+  ],
+  "update_signals": [
+   "1.5X weekend",
+   "Halloween event ends",
+   "v1.8.5"
+  ],
+  "thumbnails": "dark monster art with bold 'Steal or Die' text",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "monster AI, building maps, solo dev using AI tools",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q40",
+  "loop": "pick a hero/villain -> fight in battlegrounds and bosses -> unlock mastered character versions",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the #1 hero or villain",
+  "progression": "character mastery",
+  "instructions": "punch, block, dash, ultimate",
+  "mechanics": [
+   "battlegrounds",
+   "heroes",
+   "bosses",
+   "emotes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "My Hero Academia-like heroes",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "private server commands",
+   "emotes",
+   "boss spawn",
+   "gifts"
+  ],
+  "update_signals": [
+   "Halloween: Pumpkin King returns"
+  ],
+  "thumbnails": "anime-style fiery hero battle art and 'NOW' hourglass",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many characters with movesets",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q41",
+  "loop": "build your engine -> install in car -> race the quarter mile against rivals and bosses -> earn cash, upgrade turbo/nitrous/gearbox",
+  "loop_archetype": "racing_driving",
+  "objectives": "beat 50 rivals and 5 bosses each chapter",
+  "progression": "engine parts, cars, chapters",
+  "instructions": "build the engine, tune on dyno, race",
+  "mechanics": [
+   "engine building",
+   "drag racing",
+   "tuning",
+   "bosses",
+   "chapters"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "engine-building drag racing in chapters"
+  ],
+  "themes": [
+   "cars",
+   "drag racing",
+   "Tokyo"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "build a X",
+   "chapters"
+  ],
+  "monetization_signals": [
+   "racer pro",
+   "cash packs",
+   "timed cash multipliers",
+   "pro parts",
+   "hypercar"
+  ],
+  "update_signals": [
+   "Chapter 3 Tokyo Nights",
+   "countdown"
+  ],
+  "thumbnails": "neon Tokyo supercar, dyno shop, dragsters, '100+ upgrades'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "engine assembly system, multiple maps",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q42",
+  "loop": "sail across 11 seas -> blast ships, defeat bosses and Kraken -> dig treasure -> upgrade through 24 ships",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become the most feared captain",
+  "progression": "ships, gold, companions, seas",
+  "instructions": "set sail, blast ships, dig treasure, upgrade",
+  "mechanics": [
+   "naval combat",
+   "treasure digging",
+   "bosses",
+   "ship upgrades",
+   "luck potions"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "extremely high-priced passes (29999)"
+  ],
+  "themes": [
+   "pirates",
+   "ocean"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Be a X"
+  ],
+  "monetization_signals": [
+   "Sea Emperor 29999",
+   "pirate lord passes",
+   "gold packs",
+   "luck potions",
+   "server golden hour"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "pirate captain, ghost ship, ship upgrade arrow, giant sea monster",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 3,
+  "complexity_notes": "ocean, ships, bosses",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q43",
+  "loop": "drive cars into 59 crushers to destroy them -> earn money -> buy 400+ vehicles; derby, nukes, races",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "destroy cars and collect vehicles",
+  "progression": "money, vehicles, materials",
+  "instructions": "smash cars, derby, race, survive nukes",
+  "mechanics": [
+   "car destruction",
+   "physics",
+   "demolition derby",
+   "boss events",
+   "400+ vehicles"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "player-controlled Titan boss"
+  ],
+  "themes": [
+   "cars",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "destruction"
+  ],
+  "monetization_signals": [
+   "weapon passes",
+   "materials",
+   "money packs",
+   "VIP",
+   "admin panel"
+  ],
+  "update_signals": [
+   "Update 91 Part 3",
+   "Halloween invasion"
+  ],
+  "thumbnails": "giant titan stomping cars, laser crusher, explosions",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "present (1 video)",
+  "complexity": 4,
+  "complexity_notes": "400+ vehicles, many crushers, long-running",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q44",
+  "loop": "roll for rare tanks -> tanks blast the vault -> smelt gold to cash -> upgrade army, unlock stronger vaults; earns offline",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "break ever stronger vaults",
+  "progression": "tanks, vault tiers, commanders",
+  "instructions": "roll tanks, blast vault, smelt gold, upgrade",
+  "mechanics": [
+   "rng rolls",
+   "idle income",
+   "offline earnings",
+   "production skips"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "tanks",
+   "vaults",
+   "gold"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "destroy a X",
+   "$/s"
+  ],
+  "monetization_signals": [
+   "VIP 799",
+   "cash multipliers",
+   "production skips",
+   "server luck",
+   "offline earnings"
+  ],
+  "update_signals": [
+   "Halloween codes",
+   "updated today"
+  ],
+  "thumbnails": "$967,789,483/s, vault tiers $6 to infinity, golden tank",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "present (1 video)",
+  "complexity": 2,
+  "complexity_notes": "simple idle map with tanks",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q45",
+  "loop": "build and upgrade your café -> open pods to collect catboys -> equip them to serve customers for tips -> rebirth/ascend",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "become the richest café owner and collect every catboy",
+  "progression": "café upgrades, catboy rarities, rebirth tokens",
+  "instructions": "build café, collect catboys, serve, earn tips",
+  "mechanics": [
+   "café tycoon",
+   "pod gacha",
+   "rarity",
+   "rebirth",
+   "tips"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "anime catboy collecting"
+  ],
+  "themes": [
+   "catboys",
+   "café",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Own a X",
+   "gacha"
+  ],
+  "monetization_signals": [
+   "multi-open",
+   "2x cash/luck",
+   "pods",
+   "auto collect",
+   "vault slot"
+  ],
+  "update_signals": [
+   "ascensions update",
+   "codes"
+  ],
+  "thumbnails": "pastel anime café with catboy characters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "plot tycoon with collectible characters; self-taught animation",
+  "novelty": 2,
+  "confidence": 70
+ }
+]
