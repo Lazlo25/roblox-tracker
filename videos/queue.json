@@ -1,8 +1,8 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "queue": [
   {
-   "age_days": 2319,
+   "age_days": 2320,
    "charts": [
     "te"
    ],
@@ -12,27 +12,17 @@
    "u": "1831550657"
   },
   {
-   "age_days": 3412,
+   "age_days": 1064,
    "charts": [
     "te"
    ],
-   "name": "Greenville RP (🦇HALLOWEEN + 10TH ANN LIMITED!)",
-   "place": "891852901",
-   "status": "youtube_needed",
-   "u": "371263894"
-  },
-  {
-   "age_days": 666,
-   "charts": [
-    "te"
-   ],
-   "name": "[🎃30MIN] Basketball: Zero",
-   "place": "130739873848552",
+   "name": "Sol's RNG [ Halloween Event 🎃]",
+   "place": "15532962292",
    "status": "frames_ready",
-   "u": "7028566528"
+   "u": "5361032378"
   },
   {
-   "age_days": 2665,
+   "age_days": 2666,
    "charts": [
     "te"
    ],
@@ -42,21 +32,25 @@
    "u": "1235188606"
   },
   {
-   "age_days": 1063,
+   "age_days": 3413,
    "charts": [
     "te"
    ],
-   "name": "Sol's RNG [ Halloween Event 🎃]",
-   "place": "15532962292",
+   "name": "Greenville RP (🦇HALLOWEEN + 10TH ANN LIMITED!)",
+   "place": "891852901",
+   "status": "youtube_needed",
+   "u": "371263894"
+  },
+  {
+   "age_days": 667,
+   "charts": [
+    "te"
+   ],
+   "name": "[🎃HALLOWEEN] Basketball: Zero",
+   "place": "130739873848552",
    "status": "frames_ready",
-   "u": "5361032378"
+   "u": "7028566528"
   }
  ],
- "waiting": [
-  {
-   "name": "[🎃 NOW] Jujutsu Zero",
-   "u": "6760085372",
-   "why": "needs Rolimons history"
-  }
- ]
+ "waiting": []
 }
