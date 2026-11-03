@@ -1,8 +1,8 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "queue": [
   {
-   "age_days": 2321,
+   "age_days": 2322,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1065,
+   "age_days": 1066,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2667,
+   "age_days": 2668,
    "charts": [
     "te"
    ],
@@ -32,17 +32,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 3414,
-   "charts": [
-    "te"
-   ],
-   "name": "Greenville RP (🦇HALLOWEEN!)",
-   "place": "891852901",
-   "status": "youtube_needed",
-   "u": "371263894"
-  },
-  {
-   "age_days": 668,
+   "age_days": 669,
    "charts": [
     "te"
    ],
@@ -50,12 +40,27 @@
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
+  },
+  {
+   "age_days": 3415,
+   "charts": [
+    "te"
+   ],
+   "name": "Greenville RP (🦇HALLOWEEN!)",
+   "place": "891852901",
+   "status": "youtube_needed",
+   "u": "371263894"
   }
  ],
  "waiting": [
   {
    "name": "Warrior Cats: Ultimate Edition",
    "u": "1278035280",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[🎃EVENT!] Azure Latch",
+   "u": "6945584306",
    "why": "needs Rolimons history"
   }
  ]
