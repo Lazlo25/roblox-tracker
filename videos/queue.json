@@ -1,8 +1,8 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "queue": [
   {
-   "age_days": 2320,
+   "age_days": 2321,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1064,
+   "age_days": 1065,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2666,
+   "age_days": 2667,
    "charts": [
     "te"
    ],
@@ -32,25 +32,31 @@
    "u": "1235188606"
   },
   {
-   "age_days": 3413,
+   "age_days": 3414,
    "charts": [
     "te"
    ],
-   "name": "Greenville RP (🦇HALLOWEEN + 10TH ANN LIMITED!)",
+   "name": "Greenville RP (🦇HALLOWEEN!)",
    "place": "891852901",
    "status": "youtube_needed",
    "u": "371263894"
   },
   {
-   "age_days": 667,
+   "age_days": 668,
    "charts": [
     "te"
    ],
-   "name": "[🎃HALLOWEEN] Basketball: Zero",
+   "name": "[🎃] Basketball: Zero",
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
   }
  ],
- "waiting": []
+ "waiting": [
+  {
+   "name": "Warrior Cats: Ultimate Edition",
+   "u": "1278035280",
+   "why": "needs Rolimons history"
+  }
+ ]
 }
