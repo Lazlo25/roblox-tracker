@@ -1,0 +1,97 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Today's captured Most Popular order is identical to 2026-11-03 in all 99 positions, so the chart shows no risers, fallers, entries or exits; this is most likely a stale capture, not a frozen chart, and movement-based readings for today should be discounted.",
+        "On the cumulative pillar Steal An Egg (102 days), Brookhaven, DONT SPLASH (18 days), RIVALS, Murder Mystery 2 and 99 Nights in the Forest still lead.",
+        "By age, 85-122-day games sit at the 72nd median percentile and 4-12-month games at the 68th, against the 38th-42nd for 15-84-day games, so the mid-life trough (H-mp-009 at 48%) is again not visible, though only 11 games fall in the two older-young bands.",
+        "The weakest on the pillar are Cook the Chicken (by slapping it), Drag Drive Simulator, Phonk Edit Tower and My Avatar!, a mix of a one-joke chore game and older niche titles."
+      ],
+      "patterns": [
+        "Recent updates consistently go with staying power: games left more than 25 days without an update stay fewer days (r=-0.66), and recently updated games consistently hold higher positions (H-mp-006 up to 76%).",
+        "Pricing consistently goes with dominance: median passes above 149 R$ rose to 73% (H-mp-001), and median products above 400 R$ split days on the chart at r=+0.39; H-mp-011 and H-mp-016 tend to hold at 65%.",
+        "Named seasonal events tend to go with more days on the chart (mech_event r=+0.34; H-mp-020 at 65%), the same evergreens that run a yearly calendar.",
+        "Big evergreens consistently convert fewer visits into favorites (H-mp-010 at 82%), so a high favorite rate marks a young game rather than a durable one.",
+        "Among profiled loops, incremental '+1' (79th percentile, four games), pet collection (78th) and party minigames (69th) lead while sports (21st), wave-survival co-op (20th) and tower defense (8th, one game) trail; the '+1' lead reflects young games still near their peak."
+      ],
+      "outliers": [
+        {"name": "DONT SPLASH", "note": "Among the six strongest on the pillar at 18 days, against the rule that dominance comes with age; a sound-hunting horror hook (H-x-019) carried it there faster than any other young game."},
+        {"name": "Cook the Chicken (by slapping it)", "note": "The weakest on the pillar at 29 days with no passes and five products; a single-joke chore game gets on the chart but cannot hold position, in line with the retired H-x-022 idea."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Today's captured Top Earning order is identical to 2026-11-03 in all 477 positions, so movement readings are unavailable; the efficiency ranking still updates because CCU changed.",
+        "Donation hubs again top efficiency (Summer Donations, Donation Central, Simple DONATIONS), followed by Clover RPG (newly profiled as a solo action RPG), Elemental Dungeons and Build and Burn (30 days).",
+        "The least efficient remain high-CCU free audiences: Fling Things and People (371 days without an update), Flee the Facility, Deagle Arena and Throw Food For Animals.",
+        "Efficiency rises steadily with age, from the 22nd median percentile at 15-42 days to the 46th-53rd at 6 weeks to a year and the 62nd past a year (H-te-001 at 84%)."
+      ],
+      "patterns": [
+        "High prices consistently pay: median products above 89 R$ split efficiency at r=+0.51 (H-te-005 at 89%), and median passes above 399-524 R$ and a pass above 699-999 R$ hold at 89% (H-te-025, H-te-006).",
+        "Steal-and-defend-base loops are consistently the weakest earners per player (r=-0.76, 11th percentile; H-te-024 at 89%), with 'Egg' (r=-0.74) and 'Steal' (r=-0.72) titles the worst keywords on the chart.",
+        "RPGs (r=+0.42), roleplay hubs (75th percentile), tower defense (71st) and PvP combat (64th; H-te-022 at 89%) consistently earn more per player, while Simulation (-0.26), solo loops (-0.28) and physics sandboxes (14th percentile; H-te-045 at 86%) consistently earn less.",
+        "Bigger servers and more complex builds consistently go with efficiency: servers above about 40 players split at r=+0.35 (H-te-007 at 89%) and complexity at rho=+0.27 (H-te-013 at 89%); the two likely share a cause in studio-scale games.",
+        "Idle or AFK income loops consistently earn less per player (H-te-038 up from 59% to 78%), while daily rewards still do not help (H-te-039 at 30%)."
+      ],
+      "outliers": [
+        {"name": "[RELEASE] Clover RPG", "note": "Among the four most efficient games yet profiled today as a solo action RPG, against the rule that solo loops earn less (H-te-028); an RPG catalogue sold to a small, invested anime-fan audience likely outweighs the solo format."},
+        {"name": "[UPDATE] Build and Burn", "note": "Among the six most efficient at 30 days with one pass, against the rule that efficiency comes after week 6; chapter releases and cash multipliers sold to a small racing audience are the likely reason."},
+        {"name": "Fling Things and People", "note": "The least efficient at 1,967 days and 371 days since its last update; a large free sandbox audience with six products shows that age without new things to buy does not lift efficiency."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Destroy Verity (72 days), Can You Pass A Driving Test? (17 days), Draw a Flag! (25 days), Tesla Roadster Chase (14 days), Ragdoll Sandbox and +1 Boxing Battle Evolution lead momentum.",
+        "Risers were obby but you get smaller every stage (+21 at 534 days), Draw a Flag! (+17), +1 Boxing Battle Evolution (+15), Clean the Moon! (+12) and Ink Game (+11); Durian Garden (-20), Thai Quiz Duels (-15) and Fart Together (-9) fell most.",
+        "Seven games entered, among them DONT SWIM (10 days), Steal A Balut (17 days), Eat THE Ice Cream, HOOP JAM!, CRAZY 8 Ball and Pixel Arena; seven left, including The Strongest Battlegrounds [HALLOWEEN], Musical Chairs and Racket Rivals.",
+        "Games updated in the last day moved a median +4.5 against 0 for the rest (H-tt-005 up to 65%), and momentum falls after week 12, from the 51st-69th median percentile under 84 days to the 30th at 85-122 days."
+      ],
+      "patterns": [
+        "A skill-based competitive core consistently goes with lower positions (r=-0.46, within-age -0.51; H-tt-054 at 72%), and PvP loops tend to climb more slowly (H-tt-011 at 68%); solo games, by contrast, hold higher positions today (r=+0.42), which leaves the solo-loop rule H-tt-008 near a coin flip at 52%.",
+        "Selling currency packs goes with slower climbs (r=-0.44 within age; H-tt-010 at 34%), and daily rewards go with markedly slower climbs (r=-0.55 within age, 8 games), tested from today.",
+        "Building or crafting tends to go with faster climbs (r=+0.41; H-tt-021 up to 67%), and 'Ragdoll' titles go with stronger momentum (r=+0.42), in line with the ragdoll wave (H-x-021 at 70%).",
+        "Verified creators go with higher positions within age (+0.42), tested from today; text-ad thumbnails tend to climb more slowly (H-tt-046 at 61%) while gameplay thumbnails consistently hold higher positions (H-tt-029 at 73%).",
+        "Frequent updates tend to go with higher positions (H-tt-040 at 67%), and servers above 24 players tend to go with lower ones (H-tt-049 at 63%)."
+      ],
+      "outliers": [
+        {"name": "[UPD] Durian Garden 🍈", "note": "Fell 20 places and dropped off Up-and-Coming at 14 days, against the grow-a-garden rule (H-tt-055 at 60%); a fruit-garden clone with no passes may have exhausted its novelty."},
+        {"name": "Draw a Flag!", "note": "Climbed 17 at 25 days with a 51% like ratio, against the like-ratio rule (H-tt-004); the drawing-as-content hook appears to carry it despite weak approval."},
+        {"name": "obby but you get smaller every stage", "note": "The top riser at 534 days with a 34% like ratio; outside the age window, it shows an old one-gimmick obby resurfacing on Top Trending without approval."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Tesla Roadster Chase (14 days), Can You Pass A Driving Test? (17 days), Ragdoll Sandbox, DONT SPLASH, MALAM SAMA OPAH (15 days) and Bug Evolution lead the chart; driving games sit at the 75th median percentile.",
+        "DONT SWIM climbed 31 at 10 days, +1 Vampire Evolution 25, Eat THE Ice Cream 19, +1 Arm Length 18 and Steal A Balut 17; Thai Quiz Duels (-26), My Small Business (-16), Climb The Shrike Tower (-15) and Fart Together (-15) fell most.",
+        "Fourteen games entered, among them 30 Floors Up (10 days), Survive Your Ideas, Farm Evolution, Be The Biggest Verity, Folk Valley Hide and Seek and blind but dangerous; twelve left, including Durian Garden, FATHOM and Build and Drive.",
+        "The newest games still rank highest: 0-14-day games sit at the 66th median percentile against the 50th for 15-42-day games and 37th for 43-84-day games (H-uc-005 at 63%)."
+      ],
+      "patterns": [
+        "Survival framing consistently ranks higher (r=+0.37; H-uc-047 at 79%) and PvP loops consistently rank lower (r=-0.36; H-uc-038 at 79%), while co-op loops consistently rank higher (H-uc-019 up from 40% to 75%).",
+        "Gameplay thumbnails consistently rank higher within age (+0.32; H-uc-040 up to 78%), and higher like ratios consistently go with higher positions (H-uc-006 up to 76%).",
+        "Storage passes (+0.33 within age, 17 games) and 2x passes (+0.21, 56 games) go with higher positions, tested from today; luck products tend to go against them (r=-0.24), in line with H-uc-048 at 62%.",
+        "'+1' incrementals now rank at the 65th median percentile with two of the five biggest risers, which keeps the rule that they rank lower (H-uc-003) down at 29%, while collect-upgrade-rebirth loops tend to rank low (32nd; H-uc-050 at 66%).",
+        "Asking players to favorite the game consistently goes with higher positions (H-uc-020 at 75%), while asking them to like it fell to 38% (H-uc-042)."
+      ],
+      "outliers": [
+        {"name": "DONT SWIM 🚫🏊", "note": "The biggest riser (+31) at 10 days with no passes and 46 products; a liminal-pool horror obby borrowing DONT SPLASH's don't-X hook shows the sound-hunting wave (H-x-019) still spawning breakouts."},
+        {"name": "Hide to Steal Eggs", "note": "Among the weakest at 29 days with 148 products, against the steal-a-X breakout rule (H-uc-002 at 65%); a heavy product catalogue on a crowded template may be the reason."},
+        {"name": "[CH3] Punch Walls To Escape", "note": "The weakest on the chart despite a third chapter and 18 passes; the collect-upgrade-rebirth loop (H-uc-050) appears to cap its position, as in H-x-028."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Data caveat: the 2026-11-04 snapshot captured Most Popular and Top Earning in exactly the same order as 2026-11-03 (all 99 and 477 positions), while Top Trending and Up-and-Coming changed normally. Day-over-day movement on those two charts is missing today; level-based tests still ran.",
+      "Competition splits the charts again: a skill-based competitive core and PvP go against breakout (Top Trending -0.46, Up-and-Coming -0.35/-0.36) while PvP combat consistently earns more per player (H-te-022 at 89%); solo loops split the same way, higher on Top Trending (+0.42) but lower in efficiency (-0.28).",
+      "Template reach without revenue holds across loops: steal-defend (11th percentile on Top Earning), physics sandboxes (14th) and Simulation-genre games earn the least per player while still entering the breakout charts (Steal A Balut, Farm Evolution, Ragdoll Sandbox); H-x-002 holds at 50%.",
+      "The don't-X horror wave keeps spawning: DONT SWIM entered Top Trending and led Up-and-Coming risers at 10 days and blind but dangerous entered Up-and-Coming, so H-x-019 rises to 55%; the Verity meme wave also persists (H-x-005 to 35%).",
+      "No gameplay videos were labelled for the fourth run: Dragon Adventures, Creatures of Sonaria, Sol's RNG and Basketball: Zero are still marked frames_ready with 0 frames and no contact sheets. No new outside research was waiting."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (179 entries, median 2 days), ahead of tt→mp (146, 2 days).",
+      "uc→te (117, 5 days), tt→te (110, 4 days), uc→mp (93, 4 days) and te→tt (84, 11 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1.",
+      "DONT SWIM, Steal A Balut and Eat THE Ice Cream entered Top Trending on the same day they were among the biggest Up-and-Coming risers, repeating the uc→tt path."
+    ]
+  }
+}

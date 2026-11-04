@@ -1,0 +1,29 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games with daily or playtime rewards climb Top Trending more slowly than games of similar age without them",
+     "action": "Skip daily login rewards at launch",
+     "test": {"feature": "mech_daily_rewards", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games from verified creators hold higher Top Trending positions than games of similar age from unverified creators",
+     "test": {"feature": "creator_verified", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games selling storage or slot passes rank higher on Up-and-Coming among games of the same age",
+     "action": "Sell storage or slot passes",
+     "test": {"feature": "pass_storage", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games selling a 2x multiplier pass rank higher on Up-and-Coming among games of the same age",
+     "action": "Sell a 2x pass at launch",
+     "test": {"feature": "pass_double", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 22,
+     "statement": "Games where the player's own typed or drawn input becomes the content (Survive Your Ideas, Monster Maker, Draw a Flag!, Paint the Flag, Make a Cartoon!) reach Up-and-Coming and Top Trending within their first weeks",
+     "action": "Turn player input into the content",
+     "rationale": "Today Draw a Flag! (25 days) is the third-best Top Trending climber (+17) despite a 51% like ratio, Survive Your Ideas (29 days) entered Up-and-Coming, and Monster Maker and Paint the Flag were profiled as new; Make a Cartoon! entered Up-and-Coming on 2026-11-01. Unlike the retired H-x-009 this is about the input becoming the game, not curiosity. Confirm if more such games enter the breakout charts over the next two weeks and hold mid-chart positions; refute if they fall off within a week like the everyday-device wave."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-019", "confidence": 55, "note": "DONT SWIM (10 days, liminal pool horror from the same don't-X naming) entered Top Trending and climbed 31 on Up-and-Coming, the day's biggest riser; blind but dangerous (16 days, blind 1-vs-all hunter) entered Up-and-Coming; DONT SPLASH still sits #4 on Up-and-Coming and among the best on Most Popular."},
+    {"id": "H-x-027", "confidence": 32, "note": "Mixed on day 4 of November: The Strongest Battlegrounds [HALLOWEEN] fell off Top Trending and The Mimic [🎃] fell 8, but Clean the Moon! [🎃] (+12) and Ink Game [🎃] (+11) climbed. Most Popular and Top Earning could not be read today because their captured order is identical to 2026-11-03."},
+    {"id": "H-x-005", "confidence": 35, "note": "Destroy Verity (72 days) has the best Top Trending momentum and Be The Biggest Verity (28 days) entered Up-and-Coming: the Verity wave is still lifting new small games."},
+    {"id": "H-x-028", "confidence": 23, "note": "Punch Walls To Escape [CH3] is again the weakest on Up-and-Coming while Build and Burn (30 days, chapter racer) stays among the six most efficient Top Earning games."},
+    {"id": "H-x-011", "confidence": 30, "note": "Mixed: Steal A Balut (17 days) entered Top Trending and climbed 17 on Up-and-Coming, and Farm Evolution (a steal-defend loop) entered Up-and-Coming, while Hide to Steal Eggs is among the weakest on Up-and-Coming. Young clones are still entering, which argues against a fade."},
+    {"id": "H-x-001", "confidence": 53, "note": "uc→tt now 179 entries (median 2 days) and tt→mp 146 (2 days); uc→te 117 (5 days), tt→uc still 1."}
+  ],
+  "actions": [],
+  "retire": []
+}
