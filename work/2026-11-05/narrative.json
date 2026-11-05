@@ -1,0 +1,93 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Most Popular moved normally again after yesterday's stale capture: Tesla Roadster Chase (+33, 15 days), Ragdoll Sandbox (+30, 20 days), Scary Baboon Reimagined (+30) and Scare Your Neighbor (+23) rose most.",
+        "Dreamville RP fell 52 places despite a 95% like ratio, and Flee the Facility (-24), Drive a Cart Downhill (-21) and Cat Battles (-21) also fell sharply.",
+        "Ten games entered, half of them horror or escape titles (MALAM SAMA OPAH, PINKIE PROMISE, MOUSE), plus Can You Pass A Driving Test? and Criminal Simulator; eleven left, including Dead Rails [EVENT], Feed A Mosquito and Realistic Ragdoll Playground.",
+        "Steal An Egg (103 days), Brookhaven, DONT SPLASH (19 days), RIVALS, Murder Mystery 2 and 99 Nights in the Forest lead on the cumulative pillar.",
+        "By age, the median pillar percentile climbs from the 41st at 15-42 days to the 62nd at 4-12 months, so the mid-life trough (H-mp-009 at 48%) is again not visible, though only 12 games sit between 85 days and a year."
+      ],
+      "patterns": [
+        "Recent updates consistently go with staying power: recently updated games hold higher positions (H-mp-006 at 78%), games left more than 26 days without an update stay fewer days (r=-0.66), and the 19 games updated in the last day moved a median +2 against -1.",
+        "Higher prices consistently go with dominance: a median pass above 149 R$ holds at 74% (H-mp-001), and median products above 400 R$ (r=+0.42) and median passes above 79 R$ (r=+0.43) split days on the chart.",
+        "More original concepts consistently hold higher positions (H-mp-013 at 78%), and complex studio-scale games tend to stay longer (H-mp-015 at 65%); verified creators also go with more days on the chart (r=+0.27), now proposed as a test, though creator size is partly a result of success.",
+        "Big evergreens consistently have a low favorite rate per visit (H-mp-010 at 82%). This is a lifecycle effect, not a lever."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "Tops the pillar at 103 days while the steal/egg wave fades elsewhere (H-x-011 at 30%), which makes the 'Egg' title keyword the strongest positive on the chart (r=+0.40); one game drives that signal."},
+        {"name": "Dreamville 🏡 RP [Pets! 😺]", "note": "Fell 52 places with 95% likes and an update three days ago; roleplay hubs sit at the 43rd median percentile, so a crowded roleplay field is a likely reason."},
+        {"name": "Flee the Facility", "note": "A 3,414-day veteran that fell 24 places and is also the least efficient earner on Top Earning, a sign of a large free audience that no longer spends."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again lead efficiency (Summer Donations, Donation Central, Simple DONATIONS), joined by New Journey (945 days, Marvel-style PvP with character passes up to 1,450 R$), Clover RPG and Build and Burn.",
+        "The least efficient are again large free audiences: Flee the Facility, Deagle Arena, Throw Food For Animals and Ragdoll Sandbox (20 days, a single developer product).",
+        "PlaneRNG (+92), Momo City (+85), Roblox Is Unbreakable (+73) and Cut a Rock (+65) rose most; Anime Zero (-64), +1 Haki Evolution (-53) and Steal ASMR! (-45) fell most.",
+        "Efficiency still rises with age, from the 24th median percentile at 15-42 days to the 46th-52nd between 6 weeks and 4 months and the 62nd past a year (H-te-001 at 84%)."
+      ],
+      "patterns": [
+        "High prices consistently pay: median products above 80 R$ split efficiency at r=+0.52 (H-te-005 at 90%), and median passes above 514 R$ and a top pass above 699 R$ go with higher efficiency (H-te-025, H-te-006 at 90%).",
+        "Steal-and-defend-base loops (r=-0.71) and physics sandboxes (r=-0.65) are consistently the weakest earners per player (H-te-024 at 90%, H-te-045 at 87%), with 'Egg' (r=-0.74) and 'Steal' (r=-0.70) the worst title keywords.",
+        "RPGs (r=+0.41), PvP combat (r=+0.29), roleplay hubs (73rd percentile) and tower defense (72nd) consistently earn more per player, while solo loops (r=-0.32) and the Simulation genre (r=-0.29) earn less.",
+        "Bigger servers (split at 40 players, r=+0.34), longer descriptions and studio-scale complexity consistently go with efficiency; all three also track game age, which is a likely confounder."
+      ],
+      "outliers": [
+        {"name": "[HALLOWEEN] New Journey", "note": "Entered Top Earning among the most efficient games at 945 days with only 8.8M visits, carried by premium character passes of 500-1,450 R$ sold to a small, committed PvP audience."},
+        {"name": "Ragdoll Sandbox", "note": "Climbing on Most Popular, Top Trending and Up-and-Coming but among the least efficient earners: 8 passes and one dev product monetize a fast-growing free audience."},
+        {"name": "[🎃] PlaneRNG", "note": "Rose 92 places at 151 days with 300 dev products, consistent with the roll/luck layer tending to earn more per player (H-te-037 at 55%)."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Eat THE Ice Cream (28 days, +26), Pixel Arena (34 days, +24), Escape The Walls (+19) and Steal A Balut (18 days, +17) climbed most among young games; Score or Save Soccer (+23) is 1,288 days old and outside the pillar.",
+        "1M Clicks To Escape (-10), Steal A Scooter (-13), the Russian word game (-15), Flying Tesla Roadster (-16) and +1 Shrink Worm Escape (-16) fell most.",
+        "Eleven games entered, among them Farm Evolution, +1 Arm Length, +1 Clean Keyboard Adventure, 30 Floors Up (11 days), Punch Out Of Prison and Urban Reload; twelve left, including Halloween-tagged Ink Game and The Mimic, Fake an Egg and What If Disasters.",
+        "Updates give a mixed reading today: fewer days since an update goes with stronger momentum (rho=-0.37), yet the 14 games updated in the last day moved a median -0.5 against +3.0 for the rest."
+      ],
+      "patterns": [
+        "A skill-based competitive core consistently goes with lower positions (r=-0.54, within-age -0.65; H-tt-054 at 74%), and PvP loops tend to climb more slowly (r=-0.42; H-tt-011 at 65%).",
+        "Verified creators consistently hold higher positions (H-tt-057 at 76%), and games published by a group tend to (H-tt-047 at 61%); creator scale is a confounder for most young-game signals.",
+        "Clans or teams (r=+0.42 on momentum, 9 games) and mixed co-op/PvP social play (r=+0.29) may go with faster climbs, so both are proposed as tests; they sit beside the anti-PvP pattern, suggesting team play helps where solo-skill duels do not.",
+        "Spins or crates consistently go with higher positions (H-tt-053 at 72%), and servers above 24 players consistently go with lower positions (H-tt-049 at 71%)."
+      ],
+      "outliers": [
+        {"name": "[FPS] Pixel Arena", "note": "Climbed 24 places at 34 days despite a competitive PvP shooter core, against H-tt-054; its pixel style and short rounds may lower the skill barrier."},
+        {"name": "Destroy Verity 💥🫠", "note": "Still among the best on momentum at 73 days with a 70% like ratio, carried by the Verity meme wave (H-x-005 at 35%) rather than reception."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Tesla Roadster Chase (15 days), DONT SPLASH, MALAM SAMA OPAH (16 days), Ragdoll Sandbox, Eat THE Ice Cream and Can You Pass A Driving Test? lead; the top six mix driving, sound-hunting horror and ragdoll physics.",
+        "Farm Evolution (+60), Monster Maker (+42, 14 days), Survive Your Ideas (+41), 30 Floors Up (+30) and +1 Spear Throwing (+28) rose most; +1 Domino Per Step (-34), Ragdoll Physics 2 (-26), Say Cheese! (-25) and Avataria Life (-20) fell most.",
+        "Thirteen games entered, among them Become the Potato! (12 days), Onthel Purwodadi, 13 Days to Escape, MAHANAKHON RACING and Minecraft 1.21.4; fourteen left, including Make a Cartoon!, MOUSE, Prison Dodgeball and Be The Biggest Verity.",
+        "The newest games still rank highest: 0-14-day games sit at the 79th median percentile against the 48th for 15-42 days (H-uc-005 at 63%)."
+      ],
+      "patterns": [
+        "A 2x multiplier pass consistently goes with higher positions (r=+0.30, within-age +0.37; H-uc-053 at 79%), and storage or slot passes consistently do too (H-uc-052 at 74%).",
+        "Group-published games (r=+0.46), creature themes (r=+0.37) and pet/egg loops (H-uc-001 at 74%) rank higher within age, while RNG/luck framing tends to rank lower (r=-0.29; H-uc-048 at 65%); the creature and group signals are new tests.",
+        "Short descriptions (H-uc-028 at 75%) and gameplay thumbnails (H-uc-040 at 75%) consistently go with higher positions, and mixed-style thumbnails may go lower (r=-0.30), now a test.",
+        "Driving games are split: Tesla Roadster Chase and Can You Pass A Driving Test? lead, yet racing_driving games sit at the 28th median percentile overall, so drivable vehicles alone may not help (H-uc-043 at 34%)."
+      ],
+      "outliers": [
+        {"name": "[2x WEEKEND] Farm Evolution", "note": "The biggest riser (+60) six days after its last update, against the recent-update pattern (H-uc-012 at 72%); a 2x weekend event tag and a steal-defend loop are the likely drivers."},
+        {"name": "📸 Say Cheese! [STORY]", "note": "Fell 25 places while still at #17 on Top Trending and #35 on Most Popular; a finite story game (based on 'We Become What We Behold') moves from breakout to consumption quickly."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Halloween fallout: Dead Rails [EVENT], Infectious Smile, Roll a Barber RNG, Elemental Dungeons, Ink Game and The Mimic left charts today, so H-x-027 (Halloween-tagged games lose ground in the first November week unless they follow up) rises from 32% to 40%.",
+      "Breakout and revenue still pull apart: physics sandboxes and steal-defend loops lead Up-and-Coming and Top Trending (Ragdoll Sandbox, Steal A Balut, Farm Evolution) but are among the weakest earners per player (r=-0.65 and r=-0.71); H-x-002 holds at 50%.",
+      "Competition splits the charts again: a skill-based competitive core goes against breakout (Top Trending -0.54, Up-and-Coming -0.25), while PvP combat consistently earns more per player (H-te-022 at 90%). Team play (clans, mixed co-op/PvP) is proposed as the possible exception.",
+      "Creator scale shows up on every chart (verified creators on Most Popular +0.27 and Top Trending +0.35, groups on Up-and-Coming +0.46). It is a confounder for many young-game signals and is now tested directly.",
+      "Gameplay videos are still unlabelled for the fifth run: Dragon Adventures, Creatures of Sonaria, Sol's RNG and Basketball: Zero are marked frames_ready with 0 frames and no contact sheets. No new outside research was waiting. 60 games were profiled today."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (184 entries, up from 179, median 2 days), ahead of tt→mp (155, up from 146, median 2 days).",
+      "uc→te (118, 5 days), tt→te (112, 4 days) and uc→mp (101, up from 93, 4 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1.",
+      "Tesla Roadster Chase and Ragdoll Sandbox repeat the uc→tt→mp path: both lead Up-and-Coming and were among today's biggest Most Popular risers (+33 and +30)."
+    ]
+  }
+}

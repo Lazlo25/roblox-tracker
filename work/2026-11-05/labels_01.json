@@ -1,0 +1,686 @@
+[
+ {
+  "label": "Q01",
+  "loop": "run over giant keyboards cleaning keys -> earn speed/wins -> upgrade cleaning range -> rebirth -> next world",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "clean keys, grow speed and wins, reach later stages",
+  "progression": "speed, wins, cleaning range, rebirths, worlds",
+  "instructions": "run across keyboards and clean keys; train speed; complete stages; rebirth",
+  "mechanics": [
+   "auto movement",
+   "speed training",
+   "range upgrade",
+   "rebirth",
+   "pets/charms hatch"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "keyboard-cleaning theme on +1 speed template"
+  ],
+  "themes": [
+   "keyboards",
+   "cleaning"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-speed",
+   "clean-x"
+  ],
+  "monetization_signals": [
+   "speed multipliers 2x-512x",
+   "special keyboards",
+   "auto clean",
+   "skip rebirth"
+  ],
+  "update_signals": [
+   "W2 world tag"
+  ],
+  "thumbnails": "character walking a giant keyboard path with cleaning ring, infinity symbol",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "tiled key grid, simple runner; template build",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "pick kit -> duel other players in block-style arenas -> level up -> unlock upgrades",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels, level up",
+  "progression": "levels, upgrades, VIP/MVP ranks, gold",
+  "instructions": "duel your friends; level up to unlock upgrades",
+  "mechanics": [
+   "kit pvp",
+   "duels",
+   "leveling"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Minecraft 1.8 combat clone"
+  ],
+  "themes": [
+   "voxel",
+   "minecraft-style"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "minecraft-on-roblox"
+  ],
+  "monetization_signals": [
+   "VIP/MVP ranks",
+   "gold packs"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "blocky Minecraft-style art and first-person hotbar PvP screenshots",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "voxel arenas, hotbar UI, combat system",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "wait in line as a potato -> ride through farm/truck/store/sink/plate scenes -> get a random-rarity potato -> collect varieties",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect all 25 potato varieties and 14 dishes",
+  "progression": "potato rarities, collection, coins, roles",
+  "instructions": "wait in line, go on the potato trip, collect potatoes, prank the line",
+  "mechanics": [
+   "waiting line",
+   "rarity rolls",
+   "collection",
+   "trolling items",
+   "role play as farmer/chef"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "'wait in line' trip experience with prank products",
+   "become-the-object premise"
+  ],
+  "themes": [
+   "potatoes",
+   "food",
+   "comedy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "become-the-x",
+   "wait-in-line"
+  ],
+  "monetization_signals": [
+   "skip line/time",
+   "prank products (bonk, fork)",
+   "lucky charm",
+   "role purchases"
+  ],
+  "update_signals": [
+   "UPDATE badge on icon",
+   "daily rewards"
+  ],
+  "thumbnails": "cute avatar-head potatoes grabbed by giant hands, on plate, in shopping basket",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multi-scene scripted ride, avatar head on potato, 194 dev products",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q04",
+  "loop": "pick bicycle -> ride around a recreated Indonesian town -> customize/upgrade bike -> race friends",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore Purwodadi and collect/customize bikes",
+  "progression": "bike collection, customization, limited bikes",
+  "instructions": "ride around the city, customize your bike, race and ride with friends",
+  "mechanics": [
+   "bicycle riding",
+   "customization",
+   "exploration",
+   "day/night",
+   "limited items"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "real Indonesian town recreated for casual cycling"
+  ],
+  "themes": [
+   "bicycles",
+   "Indonesia",
+   "city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "indonesian-local-map",
+   "limited-items"
+  ],
+  "monetization_signals": [
+   "2x money",
+   "VIP",
+   "speed boost",
+   "donation-style passes 5-150"
+  ],
+  "update_signals": [
+   "NEW LIMITED & UPDATE tag"
+  ],
+  "thumbnails": "bicycles in town, LIMITED BICYCLES banner, update badge",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large town map, bike physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "work prison jobs -> earn cash -> buy and hide tools -> dig tunnel by night -> avoid guards and suspicion -> escape within 13 days",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape the prison before you are taken",
+  "progression": "tools, cash, days survived, tunnel depth",
+  "instructions": "play solo or with 3 friends; work jobs, hide tools, dig out, avoid guards and CCTV",
+  "mechanics": [
+   "day/night cycle",
+   "stealth",
+   "suspicion meter",
+   "digging",
+   "tool hiding",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Shawshank-style dig-out with day timer and horror twist"
+  ],
+  "themes": [
+   "prison",
+   "horror",
+   "escape"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "days-to-x",
+   "prison-escape"
+  ],
+  "monetization_signals": [
+   "revives",
+   "gems",
+   "diamonds"
+  ],
+  "update_signals": [
+   "ALPHA label"
+  ],
+  "thumbnails": "first-person view of guard and spoon digging a tunnel",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "prison map, guard AI, suspicion systems, tunnels",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q06",
+  "loop": "spawn motorbike -> ride Thai-style streets -> customize bike -> earn money",
+  "loop_archetype": "racing_driving",
+  "objectives": "ride and customize motorbikes with friends",
+  "progression": "money, bike customization",
+  "instructions": "press G to spawn, E to mount, R to start; drive with WASD",
+  "mechanics": [
+   "motorbike driving",
+   "wheelies",
+   "customization",
+   "phone",
+   "warp"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "Thai street-bike culture with detailed controls"
+  ],
+  "themes": [
+   "motorbikes",
+   "Thailand"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "thai-bike-rp"
+  ],
+  "monetization_signals": [
+   "x2 money",
+   "VIP",
+   "money packs",
+   "gifting"
+  ],
+  "update_signals": [
+   "code in title"
+  ],
+  "thumbnails": "plain logo and garage scene with bikes",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle chassis with many controls, city map",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q07",
+  "loop": "spawn in voxel world -> mine and craft -> survive -> build",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "survive and build in an endless world",
+  "progression": "tools, resources, saved worlds",
+  "instructions": "play and purchase items; data saved",
+  "mechanics": [
+   "mining",
+   "crafting",
+   "building",
+   "survival"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "near-direct Minecraft 1.21.4 recreation"
+  ],
+  "themes": [
+   "minecraft-style",
+   "voxel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "minecraft-on-roblox"
+  ],
+  "monetization_signals": [
+   "item stacks via dev products (TNT, bows, food)"
+  ],
+  "update_signals": [
+   "version number in title"
+  ],
+  "thumbnails": "Minecraft logo 'Roblox edition', diamond ore and pickaxe",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "voxel terrain generation, crafting, persistence",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q08",
+  "loop": "two players in boxes -> press buttons to find the exit -> avoid trap buttons -> win rounds and streaks",
+  "loop_archetype": "party_minigames",
+  "objectives": "find the exit button before the trap ones get you",
+  "progression": "cash, wins, streaks",
+  "instructions": "you and a friend get put in two boxes; press buttons to find the exit; some are traps",
+  "mechanics": [
+   "button guessing",
+   "traps",
+   "1v1 rooms",
+   "streaks"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "two-box button roulette with trap effects you can buy against others"
+  ],
+  "themes": [
+   "buttons",
+   "traps"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "press-the-button",
+   "2-player-rooms"
+  ],
+  "monetization_signals": [
+   "2x cash/wins/streak",
+   "exclusive attacks (zombie, spider)",
+   "boxes"
+  ],
+  "update_signals": [
+   "Halloween attack items"
+  ],
+  "thumbnails": "two side-by-side rooms with red/green buttons, slime and lava traps",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "small rooms, simple trap effects",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q09",
+  "loop": "break lucky blocks -> get random loot (weapons, gear) -> fight/raid -> build in voxel world",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "get OP gear from lucky blocks and survive/fight",
+  "progression": "gear tiers, netherite, bosses",
+  "instructions": "open lucky blocks, mine, build; VIP servers save your world",
+  "mechanics": [
+   "lucky blocks",
+   "mining",
+   "pvp",
+   "bosses",
+   "building"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "lucky blocks on a Minecraft-alpha base"
+  ],
+  "themes": [
+   "minecraft-style",
+   "lucky blocks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "minecraft-on-roblox",
+   "lucky-block"
+  ],
+  "monetization_signals": [
+   "god kits",
+   "PVP pack 999",
+   "admin console",
+   "lucky block stacks"
+  ],
+  "update_signals": [
+   "Netherite update"
+  ],
+  "thumbnails": "pyramid of lucky blocks, enchanted gear with red arrow",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "voxel engine based on open-source alpha, many items",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "scoop random items from a bowl -> collect products -> pack and ship orders -> customize shop and garden",
+  "loop_archetype": "simulation_job",
+  "objectives": "fill scoop orders and grow your shop",
+  "progression": "coins, shop decor, scoop sets",
+  "instructions": "scoop surprises, collect, pack and ship orders; customize shop",
+  "mechanics": [
+   "lucky scoop",
+   "order fulfilment",
+   "shop decoration",
+   "helpers"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "ASMR lucky-scoop order packing (TikTok trend)"
+  ],
+  "themes": [
+   "candy",
+   "shopping",
+   "cozy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "lucky-scoop",
+   "cozy"
+  ],
+  "monetization_signals": [
+   "robo helper",
+   "shopping cart",
+   "coin packs",
+   "cosmetic scoop sets",
+   "donations"
+  ],
+  "update_signals": [
+   "BETA, daily rewards"
+  ],
+  "thumbnails": "pink cozy scoop bowl and order list",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single shop scene, scoop physics",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "pick trail stage -> drive 4x4 slowly over mud/rock -> manage tires, diffs, fuel -> winch out -> finish trail",
+  "loop_archetype": "racing_driving",
+  "objectives": "complete technical offroad trails, beat best times",
+  "progression": "trails, trucks, best times",
+  "instructions": "pick your line, air down tires, lock diffs, winch out, manage fuel",
+  "mechanics": [
+   "vehicle physics",
+   "winching",
+   "fuel management",
+   "deformable mud",
+   "co-op help"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "slow technical offroad sim with persistent server-wide ruts"
+  ],
+  "themes": [
+   "offroad",
+   "trucks",
+   "nature"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "offroad-sim"
+  ],
+  "monetization_signals": [
+   "supporter edition",
+   "specific truck",
+   "tips"
+  ],
+  "update_signals": [
+   "EARLY ACCESS"
+  ],
+  "thumbnails": "detailed 4x4 trucks on forest trails",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom drivetrain physics, deformable terrain",
+  "novelty": 3,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "stranded after plane crash -> cut through endless grass -> upgrade tool and stats -> find stashes -> escape",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "cut a path to the exit and escape the jungle",
+  "progression": "tool upgrades, gems, pets",
+  "instructions": "chop grass to clear a path, upgrade tool, find secret stashes, escape",
+  "mechanics": [
+   "grass cutting",
+   "tool upgrades",
+   "pets",
+   "days"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "cut-the-grass escape with plane-crash story"
+  ],
+  "themes": [
+   "jungle",
+   "grass"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cut-grass",
+   "escape-the-x"
+  ],
+  "monetization_signals": [
+   "ride-on mower",
+   "nuke",
+   "2x gems",
+   "skip days",
+   "wheel spins",
+   "bundles"
+  ],
+  "update_signals": [
+   "mysteries teased"
+  ],
+  "thumbnails": "character slashing tall grass with scythe, bamboo cut",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "grass field mesh, upgrade UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "climb a tower while others troll you with gears and ragdoll physics -> reach top for currency",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top of the troll tower",
+  "progression": "cubits, gear, upgrades",
+  "instructions": "climb the tower; use gears to troll; reach top for free cubits",
+  "mechanics": [
+   "ragdoll",
+   "troll gears",
+   "tower obby",
+   "free admin"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "ragdoll trolling tower"
+  ],
+  "themes": [
+   "ragdoll",
+   "tower",
+   "memes"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "troll-tower",
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "laser gun",
+   "ban hammer",
+   "finish now",
+   "skip doors"
+  ],
+  "update_signals": [
+   "new updates coming"
+  ],
+  "thumbnails": "ragdoll skeleton, 6+7 math meme, rainbow tower",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower segments, gear tools, ragdoll",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q14",
+  "loop": "steal eggs from catboy guards -> bring back to café -> hatch catboys -> earn $/s -> run on wheel for speed -> unlock areas",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rarest catboys and grow income",
+  "progression": "income per second, rarer eggs, areas, speed",
+  "instructions": "steal eggs, escape, hatch, earn money per second, run on wheel",
+  "mechanics": [
+   "stealing",
+   "hatching",
+   "income per second",
+   "speed training"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "catboy anime theme on steal/hatch template"
+  ],
+  "themes": [
+   "catboys",
+   "anime",
+   "café"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "raise-a-x",
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "egg purchases up to 3499",
+   "2x cash",
+   "speed multipliers"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "anime catboy hugging pink cat plush, head pat",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template map with guard NPCs",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "build apartments -> decorate rooms -> find tenants (with pets) -> collect rent -> build amenities -> unlock neighbourhoods",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the best town",
+  "progression": "levels, neighbourhoods, buildings, rent",
+  "instructions": "decorate rooms, find tenants, collect rent, build more and level up",
+  "mechanics": [
+   "building",
+   "decorating",
+   "tenants",
+   "rent income",
+   "builder queue"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "cozy landlord building sim with timers and builder queues (mobile-game style)"
+  ],
+  "themes": [
+   "apartments",
+   "town",
+   "pets"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "cozy",
+   "landlord"
+  ],
+  "monetization_signals": [
+   "mega bundle 1999",
+   "instant builder",
+   "build queue",
+   "premium buildings",
+   "pets"
+  ],
+  "update_signals": [
+   "Snowy Cabin bundle (winter)"
+  ],
+  "thumbnails": "seaside town, DESIGN EVERY ROOM, BUILD YOUR TOWN banners",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many building and furniture assets, mobile-style timers",
+  "novelty": 2,
+  "confidence": 75
+ }
+]

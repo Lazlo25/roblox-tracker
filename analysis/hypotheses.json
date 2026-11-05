@@ -113,6 +113,10 @@
    {
     "date": "2026-11-04",
     "conf": 73
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 74
    }
   ],
   "test": {
@@ -122,19 +126,19 @@
    "cut": 149,
    "direction": "+"
   },
-  "confidence": 73,
-  "status": "Strengthened",
+  "confidence": 74,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.198,
-   "p": 0.157,
-   "n": 86,
-   "days": 30,
+   "effect": 0.199,
+   "p": 0.1476,
+   "n": 88,
+   "days": 31,
    "consistency": 0.97,
    "creator_robust": true,
    "counterexamples": [
-    "[🔥AURA] Phonk Edit Tower 🎶",
-    "[🎃V4] Feed A Mosquito",
-    "[☀️UPD 21🏖️] Anime Adventures"
+    "Destruction Engine Testing 💥",
+    "Dreamville 🏡 RP [Pets! 😺]",
+    "🎃 Catalog Avatar Runway"
    ]
   },
   "action": "Price most passes above 149 R$"
@@ -253,6 +257,10 @@
    {
     "date": "2026-11-04",
     "conf": 68
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 68
    }
   ],
   "test": {
@@ -265,7 +273,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 99,
+   "n": 98,
    "days": 0,
    "note": "not enough comparable games yet"
   },
@@ -385,6 +393,10 @@
    {
     "date": "2026-11-04",
     "conf": 40
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 22
    }
   ],
   "test": {
@@ -393,17 +405,17 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 40,
+  "confidence": 22,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.071,
-   "p": 0.6732,
-   "n": 99,
-   "days": 30,
-   "consistency": 0.83,
+   "effect": 0.337,
+   "p": 0.0593,
+   "n": 98,
+   "days": 31,
+   "consistency": 0.87,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
+    "Throw Food For Animals",
     "+1 Spider Arm🕷️",
     "Catalog Avatar Creator"
    ]
@@ -524,6 +536,10 @@
    {
     "date": "2026-11-04",
     "conf": 61
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 59
    }
   ],
   "test": {
@@ -532,12 +548,12 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 61,
-  "status": "Unchanged",
+  "confidence": 59,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.068,
-   "p": 0.2714,
-   "n": 262,
+   "effect": 0.05,
+   "p": 0.4082,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -659,6 +675,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 64
    }
   ],
   "test": {
@@ -667,12 +687,12 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 65,
+  "confidence": 64,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.135,
-   "p": 0.0295,
-   "n": 262,
+   "effect": 0.101,
+   "p": 0.0975,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -794,6 +814,10 @@
    {
     "date": "2026-11-04",
     "conf": 76
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 78
    }
   ],
   "test": {
@@ -802,13 +826,13 @@
    "type": "corr",
    "direction": "-"
   },
-  "confidence": 76,
+  "confidence": 78,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.133,
-   "p": 0.1868,
-   "n": 99,
-   "days": 30,
+   "effect": -0.158,
+   "p": 0.1198,
+   "n": 98,
+   "days": 31,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -929,6 +953,10 @@
    {
     "date": "2026-11-04",
     "conf": 41
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "test": {
@@ -937,14 +965,14 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 41,
+  "confidence": 33,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.036,
-   "p": 0.7207,
-   "n": 99,
-   "days": 30,
-   "consistency": 0.93,
+   "effect": -0.077,
+   "p": 0.4503,
+   "n": 98,
+   "days": 31,
+   "consistency": 0.9,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -1063,6 +1091,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 45
+   },
+   {
+    "date": "2026-11-05",
     "conf": 45
    }
   ],
@@ -1185,6 +1217,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 48
+   },
+   {
+    "date": "2026-11-05",
     "conf": 48
    }
   ],
@@ -1309,6 +1345,10 @@
    {
     "date": "2026-11-04",
     "conf": 84
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 84
    }
   ],
   "test": {
@@ -1321,14 +1361,14 @@
   "confidence": 84,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.383,
+   "effect": 0.392,
    "p": 0.0,
-   "n": 477,
+   "n": 478,
    "days": 24,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
+    "Throw Food For Animals",
     "[🔥NEW CASE] Deagle Arena",
     "Flee the Facility"
    ]
@@ -1449,6 +1489,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -1457,13 +1501,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.221,
-   "p": 0.006,
-   "n": 477,
-   "days": 31,
+   "effect": -0.239,
+   "p": 0.0024,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -1588,6 +1632,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 66
    }
   ],
   "test": {
@@ -1596,18 +1644,18 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 63,
+  "confidence": 66,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.048,
-   "p": 0.6566,
-   "n": 477,
-   "days": 31,
+   "effect": -0.055,
+   "p": 0.5998,
+   "n": 478,
+   "days": 32,
    "consistency": 0.97,
    "creator_robust": true,
    "counterexamples": [
     "World // Zero 🎃 Anime RPG",
-    "[🎃] Anime Ball Duels",
+    "[💥] Anime Ball Duels",
     "[☀️UPD 21🏖️] Anime Adventures"
    ]
   },
@@ -1727,6 +1775,10 @@
    {
     "date": "2026-11-04",
     "conf": 78
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 82
    }
   ],
   "test": {
@@ -1735,13 +1787,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 78,
-  "status": "Weakened",
+  "confidence": 82,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.146,
-   "p": 0.269,
-   "n": 477,
-   "days": 31,
+   "effect": -0.166,
+   "p": 0.1981,
+   "n": 478,
+   "days": 32,
    "consistency": 0.97,
    "creator_robust": true,
    "counterexamples": [
@@ -1864,6 +1916,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -1873,19 +1929,19 @@
    "cut": 79,
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.531,
+   "effect": 0.538,
    "p": 0.0,
-   "n": 471,
-   "days": 31,
+   "n": 472,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
-    "[🔥NEW CASE] Deagle Arena",
-    "Flee the Facility"
+    "Ragdoll Sandbox",
+    "Throw Food For Animals",
+    "[🔥NEW CASE] Deagle Arena"
    ]
   },
   "action": "Price most dev products above 79 R$"
@@ -2004,6 +2060,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -2013,19 +2073,19 @@
    "cut": 999,
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.247,
+   "effect": 0.239,
    "p": 0.0001,
-   "n": 429,
-   "days": 31,
+   "n": 432,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "Dreamville 🏡 RP [Pets! 😺]",
     "Conquer The World WW2 [🎃]",
-    "[🌍UPD] +1 Anime Eyes"
+    "[🦑] Squid Game X"
    ]
   },
   "action": "Offer a premium pass above 999 R$"
@@ -2144,6 +2204,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -2153,19 +2217,19 @@
    "cut": 24,
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
    "effect": 0.259,
    "p": 0.0,
-   "n": 477,
-   "days": 31,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "Fling Things and People",
     "RoWorld [World PvP]",
-    "Evermore High 🦢"
+    "Berry Avenue 🏠 RP"
    ]
   },
   "action": "Use servers of 25+ players"
@@ -2284,6 +2348,10 @@
    {
     "date": "2026-11-04",
     "conf": 88
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -2292,18 +2360,18 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 88,
+  "confidence": 90,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.127,
-   "p": 0.0199,
-   "n": 477,
-   "days": 31,
+   "effect": 0.144,
+   "p": 0.0078,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
     "[🔥NEW CASE] Deagle Arena",
+    "[🎃] Lethal Ape Experience",
     "[WEEK 2 🎃 x BUTCHER] Violence District"
    ]
   },
@@ -2423,6 +2491,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 89
    }
   ],
   "test": {
@@ -2432,18 +2504,18 @@
    "direction": "+"
   },
   "confidence": 89,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.161,
-   "p": 0.0152,
-   "n": 477,
-   "days": 31,
+   "effect": 0.149,
+   "p": 0.0261,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
+    "Ragdoll Sandbox",
     "[💉INJECTIONS] Ragdoll Playground",
-    "Night Rider 🏍️ [TESTING]",
-    "A Long Flight [SANDBOX]"
+    "Night Rider 🏍️ [TESTING]"
    ]
   },
   "action": "Post redeem codes"
@@ -2562,6 +2634,10 @@
    {
     "date": "2026-11-04",
     "conf": 69
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 69
    }
   ],
   "test": {
@@ -2574,7 +2650,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 475,
+   "n": 476,
    "days": 0,
    "note": "not enough comparable games yet"
   },
@@ -2694,6 +2770,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -2702,13 +2782,13 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.415,
+   "effect": 0.408,
    "p": 0.0,
-   "n": 475,
-   "days": 31,
+   "n": 476,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -2958,6 +3038,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -2966,13 +3050,13 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.265,
+   "effect": 0.278,
    "p": 0.0,
-   "n": 476,
-   "days": 31,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -3093,6 +3177,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -3101,13 +3189,13 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.193,
+   "effect": 0.199,
    "p": 0.0,
-   "n": 477,
-   "days": 31,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -3228,6 +3316,10 @@
    {
     "date": "2026-11-04",
     "conf": 30
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "test": {
@@ -3236,17 +3328,17 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 30,
-  "status": "Unchanged",
+  "confidence": 28,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.089,
-   "p": 0.1357,
-   "n": 477,
-   "days": 31,
+   "effect": -0.105,
+   "p": 0.0808,
+   "n": 478,
+   "days": 32,
    "consistency": 0.0,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
+    "Throw Food For Animals",
     "[🔥NEW CASE] Deagle Arena",
     "[UPD] Realistic Ragdoll Engine 🩸"
    ]
@@ -3367,6 +3459,10 @@
    {
     "date": "2026-11-04",
     "conf": 47
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 46
    }
   ],
   "test": {
@@ -3375,14 +3471,14 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 47,
-  "status": "Strengthened",
+  "confidence": 46,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.007,
-   "p": 0.896,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.1,
+   "effect": -0.009,
+   "p": 0.8596,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.12,
    "creator_robust": true,
    "counterexamples": [
     "[🔥NEW CASE] Deagle Arena",
@@ -3506,6 +3602,10 @@
    {
     "date": "2026-11-04",
     "conf": 33
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 36
    }
   ],
   "test": {
@@ -3514,14 +3614,14 @@
    "type": "corr",
    "direction": "-"
   },
-  "confidence": 33,
-  "status": "Weakened",
+  "confidence": 36,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.048,
-   "p": 0.2916,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.0,
+   "effect": 0.032,
+   "p": 0.4787,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.12,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -3640,6 +3740,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 55
+   },
+   {
+    "date": "2026-11-05",
     "conf": 55
    }
   ],
@@ -3763,6 +3867,10 @@
    {
     "date": "2026-11-04",
     "conf": 45
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 45
    }
   ],
   "confidence": 45,
@@ -3885,6 +3993,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 53
    }
   ],
   "test": {
@@ -3894,19 +4006,19 @@
    "cut": 42,
    "direction": "-"
   },
-  "confidence": 50,
-  "status": "Weakened",
+  "confidence": 53,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.003,
-   "p": 0.9841,
+   "effect": -0.034,
+   "p": 0.8437,
    "n": 75,
-   "days": 24,
-   "consistency": 0.46,
-   "creator_robust": false,
+   "days": 25,
+   "consistency": 0.48,
+   "creator_robust": true,
    "counterexamples": [
     "Destroy Verity 💥🫠",
-    "Push the Patient [1-2 PLAYER OBBY]",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "Push the Patient [1-2 PLAYER OBBY]"
    ]
   },
   "action": "Push hardest in the first 6 weeks"
@@ -4025,6 +4137,10 @@
    {
     "date": "2026-11-04",
     "conf": 48
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 47
    }
   ],
   "test": {
@@ -4033,14 +4149,14 @@
    "type": "corr",
    "direction": "-"
   },
-  "confidence": 48,
-  "status": "Strengthened",
+  "confidence": 47,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.021,
-   "p": 0.8573,
+   "effect": 0.028,
+   "p": 0.8087,
    "n": 75,
-   "days": 29,
-   "consistency": 0.45,
+   "days": 30,
+   "consistency": 0.47,
    "creator_robust": false,
    "counterexamples": []
   },
@@ -4160,6 +4276,10 @@
    {
     "date": "2026-11-04",
     "conf": 57
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 62
    }
   ],
   "test": {
@@ -4169,14 +4289,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 57,
+  "confidence": 62,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.053,
-   "p": 0.7045,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.67,
+   "effect": -0.074,
+   "p": 0.4832,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.68,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -4296,6 +4416,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 53
    }
   ],
   "test": {
@@ -4305,14 +4429,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 50,
-  "status": "Weakened",
+  "confidence": 53,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.02,
-   "p": 0.9775,
+   "effect": 0.046,
+   "p": 0.8415,
    "n": 75,
-   "days": 29,
-   "consistency": 0.48,
+   "days": 30,
+   "consistency": 0.5,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -4432,6 +4556,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 72
    }
   ],
   "test": {
@@ -4441,14 +4569,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 65,
+  "confidence": 72,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.062,
-   "p": 0.2854,
+   "effect": -0.355,
+   "p": 0.0015,
    "n": 75,
-   "days": 29,
-   "consistency": 0.79,
+   "days": 30,
+   "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -4568,6 +4696,10 @@
    {
     "date": "2026-11-04",
     "conf": 59
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 59
    }
   ],
   "test": {
@@ -4577,16 +4709,17 @@
    "direction": "+"
   },
   "confidence": 59,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.15,
-   "p": 0.4681,
+   "effect": 0.111,
+   "p": 0.5183,
    "n": 75,
-   "days": 26,
-   "consistency": 0.5,
+   "days": 28,
+   "consistency": 0.46,
    "creator_robust": true,
    "counterexamples": [
-    "[🌊] Steal Eggs From Tsunami!"
+    "🐛 +1 Shrink Worm Escape",
+    "[🛴] Steal A Scooter"
    ]
   },
   "action": "Use big-number reward thumbnails"
@@ -4705,6 +4838,10 @@
    {
     "date": "2026-11-04",
     "conf": 59
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "test": {
@@ -4714,19 +4851,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 59,
+  "confidence": 65,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.032,
-   "p": 0.5583,
+   "effect": -0.129,
+   "p": 0.2363,
    "n": 75,
-   "days": 29,
-   "consistency": 0.62,
+   "days": 30,
+   "consistency": 0.57,
    "creator_robust": true,
    "counterexamples": [
-    "[🛠️🗺️] Ragdoll Physics 2 🩸",
-    "Push the Patient [1-2 PLAYER OBBY]",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "[FPS] Pixel Arena",
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "Push the Patient [1-2 PLAYER OBBY]"
    ]
   },
   "action": "Skip bracket tags on a new game"
@@ -4845,6 +4982,10 @@
    {
     "date": "2026-11-04",
     "conf": 52
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 45
    }
   ],
   "test": {
@@ -4853,19 +4994,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 52,
-  "status": "Strengthened",
+  "confidence": 45,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.024,
-   "p": 0.8768,
+   "effect": 0.047,
+   "p": 0.7607,
    "n": 75,
-   "days": 29,
-   "consistency": 0.62,
+   "days": 30,
+   "consistency": 0.6,
    "creator_robust": true,
    "counterexamples": [
     "Ragdoll Sandbox",
-    "[UPD4 💀] Depth Incremental",
-    "Sell a Million Sushi"
+    "Sell a Million Sushi",
+    "[UPD4 💀] Depth Incremental"
    ]
   },
   "action": "Make it multiplayer, not solo"
@@ -4984,6 +5125,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 74
    }
   ],
   "test": {
@@ -4993,20 +5138,16 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 42,
-  "status": "Weakened",
+  "confidence": 74,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.105,
-   "p": 0.7039,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.6,
+   "effect": 0.312,
+   "p": 0.1108,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.61,
    "creator_robust": true,
-   "counterexamples": [
-    "Hide to Steal Eggs",
-    "Ride Level 1-100 Pets",
-    "+1 Hamster Smash"
-   ]
+   "counterexamples": []
   },
   "action": "Use a pet/egg loop to break out"
  },
@@ -5124,6 +5265,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 67
    }
   ],
   "test": {
@@ -5133,18 +5278,17 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 65,
-  "status": "Weakened",
+  "confidence": 67,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.114,
-   "p": 0.2853,
-   "n": 100,
-   "days": 19,
-   "consistency": 0.63,
+   "effect": 0.304,
+   "p": 0.1974,
+   "n": 99,
+   "days": 20,
+   "consistency": 0.65,
    "creator_robust": true,
    "counterexamples": [
-    "Hide to Steal Eggs",
-    "Steal A Dumpling"
+    "[UPD] Durian Garden 🍈"
    ]
   },
   "action": "Use a steal-a-X loop to break out"
@@ -5263,6 +5407,10 @@
    {
     "date": "2026-11-04",
     "conf": 29
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 30
    }
   ],
   "test": {
@@ -5271,19 +5419,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 29,
-  "status": "Weakened",
+  "confidence": 30,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.276,
-   "p": 0.0991,
-   "n": 100,
-   "days": 27,
-   "consistency": 0.48,
+   "effect": 0.222,
+   "p": 0.1719,
+   "n": 99,
+   "days": 28,
+   "consistency": 0.46,
    "creator_robust": true,
    "counterexamples": [
     "+1 Spider Arm🕷️",
-    "[🧪CH2] 1M Clicks To Escape",
-    "[💉INJECTIONS] Ragdoll Playground"
+    "[🎃] +1 Arm Length 💪",
+    "[🎃] +1 Venom Evolution"
    ]
   },
   "action": "Avoid '+1' incrementals"
@@ -5402,6 +5550,10 @@
    {
     "date": "2026-11-04",
     "conf": 45
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 49
    }
   ],
   "test": {
@@ -5411,19 +5563,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 45,
-  "status": "Weakened",
+  "confidence": 49,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.057,
-   "p": 0.8013,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.4,
-   "creator_robust": true,
+   "effect": 0.058,
+   "p": 0.9442,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.35,
+   "creator_robust": false,
    "counterexamples": [
     "[CLASS] MALAM SAMA OPAH",
-    "Bug Evolution [🕷️]",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "[2x WEEKEND] Farm Evolution"
    ]
   },
   "action": "Use a plain, descriptive title"
@@ -5542,6 +5694,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "test": {
@@ -5555,7 +5711,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 100,
+   "n": 99,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -5674,6 +5830,10 @@
    {
     "date": "2026-11-04",
     "conf": 76
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 73
    }
   ],
   "test": {
@@ -5683,14 +5843,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 76,
-  "status": "Strengthened",
+  "confidence": 73,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.243,
-   "p": 0.041,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.63,
+   "effect": 0.166,
+   "p": 0.1849,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.65,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -5810,6 +5970,10 @@
    {
     "date": "2026-11-04",
     "conf": 39
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "test": {
@@ -5819,19 +5983,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 39,
-  "status": "Strengthened",
+  "confidence": 33,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.085,
-   "p": 0.5612,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.53,
+   "effect": 0.147,
+   "p": 0.3365,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
     "Ragdoll Sandbox",
     "+1 Spider Arm🕷️",
-    "📸 Say Cheese! [STORY]"
+    "[🎃] +1 Arm Length 💪"
    ]
   },
   "action": "Make it multiplayer, not solo"
@@ -5950,6 +6114,10 @@
    {
     "date": "2026-11-04",
     "conf": 33
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 54
    }
   ],
   "test": {
@@ -5959,14 +6127,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 33,
-  "status": "Weakened",
+  "confidence": 54,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.079,
-   "p": 0.2992,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.43,
+   "effect": 0.018,
+   "p": 0.8308,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": []
   },
@@ -6086,6 +6254,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "test": {
@@ -6098,7 +6270,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 100,
+   "n": 99,
    "days": 0,
    "note": "not enough comparable games yet"
   },
@@ -6218,6 +6390,10 @@
    {
     "date": "2026-11-04",
     "conf": 51
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 66
    }
   ],
   "test": {
@@ -6227,19 +6403,17 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 51,
+  "confidence": 66,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.069,
-   "p": 0.9408,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.33,
-   "creator_robust": false,
+   "effect": 0.219,
+   "p": 0.3621,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.39,
+   "creator_robust": true,
    "counterexamples": [
-    "Game Of Life",
-    "Ride Level 1-100 Pets",
-    "+1 Hamster Smash"
+    "Lucky Block World"
    ]
   },
   "action": "Use big-number reward thumbnails"
@@ -6357,6 +6531,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 53
+   },
+   {
+    "date": "2026-11-05",
     "conf": 53
    }
   ],
@@ -6479,6 +6657,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 50
+   },
+   {
+    "date": "2026-11-05",
     "conf": 50
    }
   ],
@@ -6603,6 +6785,10 @@
    {
     "date": "2026-11-04",
     "conf": 48
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 48
    }
   ],
   "confidence": 48,
@@ -6725,6 +6911,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 35
+   },
+   {
+    "date": "2026-11-05",
     "conf": 35
    }
   ],
@@ -6849,10 +7039,14 @@
    {
     "date": "2026-11-04",
     "conf": 35
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 35
    }
   ],
   "confidence": 35,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
    "rationale": "Destroy Verity (72 days) has the best Top Trending momentum and Be The Biggest Verity (28 days) entered Up-and-Coming: the Verity wave is still lifting new small games."
   },
@@ -6971,6 +7165,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 60
+   },
+   {
+    "date": "2026-11-05",
     "conf": 60
    }
   ],
@@ -7091,6 +7289,10 @@
    {
     "date": "2026-11-04",
     "conf": 34
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 51
    }
   ],
   "test": {
@@ -7100,19 +7302,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 34,
-  "status": "Weakened",
+  "confidence": 51,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.16,
-   "p": 0.3217,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.3,
-   "creator_robust": true,
+   "effect": 0.004,
+   "p": 0.9706,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.29,
+   "creator_robust": false,
    "counterexamples": [
-    "Rush To The Airport 🎫✈️",
-    "[🔰] Steel Fighters",
-    "Save the Krusty Krab 🍔"
+    "Save the Krusty Krab 🍔",
+    "Fake Dead or DIE",
+    "[🎃] Avataria Life"
    ]
   },
   "action": "Use character art over screenshots"
@@ -7227,6 +7429,10 @@
    {
     "date": "2026-11-04",
     "conf": 41
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 72
    }
   ],
   "test": {
@@ -7236,15 +7442,15 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 41,
-  "status": "Weakened",
+  "confidence": 72,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.036,
-   "p": 0.6353,
-   "n": 100,
-   "days": 30,
+   "effect": -0.035,
+   "p": 0.3102,
+   "n": 99,
+   "days": 31,
    "consistency": 1.0,
-   "creator_robust": false,
+   "creator_robust": true,
    "counterexamples": []
   },
   "action": "Update often in the first weeks"
@@ -7439,6 +7645,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 57
    }
   ],
   "test": {
@@ -7447,13 +7657,13 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 66,
+  "confidence": 57,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.025,
-   "p": 0.5899,
-   "n": 477,
-   "days": 31,
+   "effect": 0.011,
+   "p": 0.8143,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -7570,6 +7780,10 @@
    {
     "date": "2026-11-04",
     "conf": 82
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 82
    }
   ],
   "test": {
@@ -7579,12 +7793,12 @@
    "direction": "-"
   },
   "confidence": 82,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.459,
+   "effect": -0.422,
    "p": 0.0,
-   "n": 99,
-   "days": 30,
+   "n": 98,
+   "days": 31,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -7699,6 +7913,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 25
+   },
+   {
+    "date": "2026-11-05",
     "conf": 25
    }
   ],
@@ -7815,6 +8033,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -7823,19 +8045,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.303,
-   "p": 0.0007,
-   "n": 475,
-   "days": 31,
+   "effect": -0.285,
+   "p": 0.0019,
+   "n": 476,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "🎃 Primal Pursuit 🦖 Humans vs Dinosaurs",
     "🎃 10 Player Flee",
-    "Vampire life"
+    "Final Swarm [🎃]"
    ]
   },
   "action": "Don't rely on survival games for revenue"
@@ -7946,6 +8168,10 @@
    {
     "date": "2026-11-04",
     "conf": 34
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 35
    }
   ],
   "action": "Sell currency packs from launch",
@@ -7955,19 +8181,19 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 34,
-  "status": "Weakened",
+  "confidence": 35,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.406,
-   "p": 0.0053,
+   "effect": -0.261,
+   "p": 0.0692,
    "n": 75,
-   "days": 24,
-   "consistency": 0.38,
+   "days": 25,
+   "consistency": 0.4,
    "creator_robust": true,
    "counterexamples": [
-    "Thai Quiz Duels [UPDATES]",
     "Flying Tesla Roadster [Open World Update]",
-    "[🚨] Escape The Walls"
+    "Thai Quiz Duels [UPDATES]",
+    "🎃 Игра в Слова [🇷🇺]"
    ]
   }
  },
@@ -8077,6 +8303,10 @@
    {
     "date": "2026-11-04",
     "conf": 68
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Launch co-op or party, not PvP",
@@ -8086,18 +8316,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 68,
-  "status": "Strengthened",
+  "confidence": 65,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.339,
-   "p": 0.0279,
+   "effect": -0.186,
+   "p": 0.2131,
    "n": 75,
-   "days": 29,
-   "consistency": 0.48,
+   "days": 30,
+   "consistency": 0.47,
    "creator_robust": true,
    "counterexamples": [
-    "Draw a Flag!",
-    "[🛴] Steal A Scooter"
+    "[FPS] Pixel Arena",
+    "Steal A Balut",
+    "Draw a Flag!"
    ]
   }
  },
@@ -8207,6 +8438,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Price most dev products above 79 R$",
@@ -8220,9 +8455,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.328,
+   "effect": 0.323,
    "p": 0.0,
-   "n": 261,
+   "n": 270,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -8339,6 +8574,10 @@
    {
     "date": "2026-11-04",
     "conf": 27
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 27
    }
   ],
   "confidence": 27,
@@ -8449,6 +8688,10 @@
    {
     "date": "2026-11-04",
     "conf": 40
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 38
    }
   ],
   "action": "Avoid plain screenshots as thumbnails",
@@ -8458,19 +8701,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 40,
-  "status": "Strengthened",
+  "confidence": 38,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.111,
-   "p": 0.4399,
+   "effect": 0.122,
+   "p": 0.3852,
    "n": 75,
-   "days": 29,
-   "consistency": 0.48,
+   "days": 30,
+   "consistency": 0.5,
    "creator_robust": true,
    "counterexamples": [
-    "Draw a Flag!",
-    "Ragdoll Sandbox",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "Eat THE Ice Cream 🍨",
+    "[FPS] Pixel Arena",
+    "Ragdoll Sandbox"
    ]
   }
  },
@@ -8576,6 +8819,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Build around PvP combat for revenue",
@@ -8585,19 +8832,19 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.26,
-   "p": 0.0002,
-   "n": 476,
-   "days": 31,
+   "effect": 0.292,
+   "p": 0.0,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "[🔥NEW CASE] Deagle Arena",
     "Cat Battles 🐾",
-    "[🌴] SHARP"
+    "[💀DUELS] Murderers VS Sheriffs"
    ]
   }
  },
@@ -8703,6 +8950,10 @@
    {
     "date": "2026-11-04",
     "conf": 39
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 38
    }
   ],
   "test": {
@@ -8711,18 +8962,18 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 39,
-  "status": "Weakened",
+  "confidence": 38,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.08,
-   "p": 0.5966,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.57,
+   "effect": 0.089,
+   "p": 0.5418,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.55,
    "creator_robust": true,
    "counterexamples": [
-    "Bug Evolution [🕷️]",
     "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "Bug Evolution [🦟]",
     "TROLL Jail Hug Tower"
    ]
   }
@@ -8829,6 +9080,10 @@
    {
     "date": "2026-11-04",
     "conf": 35
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "test": {
@@ -8837,14 +9092,14 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 35,
+  "confidence": 28,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.092,
-   "p": 0.429,
-   "n": 99,
-   "days": 30,
-   "consistency": 0.63,
+   "effect": 0.162,
+   "p": 0.168,
+   "n": 98,
+   "days": 31,
+   "consistency": 0.61,
    "creator_robust": true,
    "counterexamples": [
     "Steal An Egg",
@@ -8955,6 +9210,10 @@
    {
     "date": "2026-11-04",
     "conf": 53
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 44
    }
   ],
   "test": {
@@ -8963,18 +9222,17 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 53,
-  "status": "Unchanged",
+  "confidence": 44,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.049,
-   "p": 0.8223,
-   "n": 80,
-   "days": 27,
-   "consistency": 0.52,
+   "effect": -0.078,
+   "p": 0.7052,
+   "n": 82,
+   "days": 28,
+   "consistency": 0.5,
    "creator_robust": true,
    "counterexamples": [
-    "Steal A Balut",
-    "Ride An Egg"
+    "Impossible Animals"
    ]
   }
  },
@@ -9076,6 +9334,10 @@
    {
     "date": "2026-11-04",
     "conf": 76
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 78
    }
   ],
   "action": "Pick an original concept over a clone",
@@ -9085,13 +9347,13 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 76,
-  "status": "Unchanged",
+  "confidence": 78,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.137,
-   "p": 0.1735,
-   "n": 99,
-   "days": 30,
+   "effect": 0.161,
+   "p": 0.1125,
+   "n": 98,
+   "days": 31,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -9195,6 +9457,10 @@
    {
     "date": "2026-11-04",
     "conf": 59
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 58
    }
   ],
   "action": "Avoid plain screenshots as thumbnails",
@@ -9204,12 +9470,12 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 59,
+  "confidence": 58,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.064,
-   "p": 0.3856,
-   "n": 262,
+   "effect": -0.051,
+   "p": 0.4819,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -9318,6 +9584,10 @@
    {
     "date": "2026-11-04",
     "conf": 28
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "action": "Sell currency packs from launch",
@@ -9329,18 +9599,18 @@
    "strata": "age"
   },
   "confidence": 28,
-  "status": "Weakened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.182,
-   "p": 0.2563,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.8,
+   "effect": -0.185,
+   "p": 0.2515,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": [
+    "ARRANCADA [2x💵]",
     "PORTALS",
-    "Hide to Steal Eggs",
-    "Thai Quiz Duels [UPDATES]"
+    "+1 Domino Per Step"
    ]
   }
  },
@@ -9442,6 +9712,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 68
    }
   ],
   "action": "Ship several updates a week",
@@ -9452,19 +9726,19 @@
    "cut": 3.5,
    "direction": "+"
   },
-  "confidence": 63,
-  "status": "Unchanged",
+  "confidence": 68,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.112,
-   "p": 0.4254,
-   "n": 72,
-   "days": 30,
-   "consistency": 0.97,
+   "effect": 0.152,
+   "p": 0.2821,
+   "n": 81,
+   "days": 31,
+   "consistency": 0.94,
    "creator_robust": true,
    "counterexamples": [
-    "PORTALS",
-    "Thai Quiz Duels [UPDATES]",
-    "ARRANCADA [2x💵]"
+    "ARRANCADA [2x💵]",
+    "Save the Krusty Krab 🍔",
+    "PORTALS"
    ]
   }
  },
@@ -9566,6 +9840,10 @@
    {
     "date": "2026-11-04",
     "conf": 72
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 43
    }
   ],
   "action": "Skip cash-tycoon loops for breakout",
@@ -9576,15 +9854,15 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 72,
+  "confidence": 43,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.109,
-   "p": 0.2657,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.87,
-   "creator_robust": true,
+   "effect": 0.115,
+   "p": 0.7105,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.84,
+   "creator_robust": false,
    "counterexamples": [
     "Tesla Roadster Chase",
     "Can You Pass A Driving Test?",
@@ -9690,6 +9968,10 @@
    {
     "date": "2026-11-04",
     "conf": 37
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 48
    }
   ],
   "action": "Add a VIP pass at launch",
@@ -9699,19 +9981,19 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 37,
-  "status": "Weakened",
+  "confidence": 48,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.156,
-   "p": 0.247,
+   "effect": -0.017,
+   "p": 0.8986,
    "n": 75,
-   "days": 29,
-   "consistency": 0.38,
+   "days": 30,
+   "consistency": 0.37,
    "creator_robust": true,
    "counterexamples": [
     "Thai Quiz Duels [UPDATES]",
-    "Freeze Tag 🧊",
-    "FATHOM [HORROR]"
+    "🎃 Игра в Слова [🇷🇺]",
+    "Raise The Biggest Family"
    ]
   }
  },
@@ -9813,6 +10095,10 @@
    {
     "date": "2026-11-04",
     "conf": 32
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 31
    }
   ],
   "action": "Skip generic 2x passes",
@@ -9822,18 +10108,18 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 32,
-  "status": "Weakened",
+  "confidence": 31,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.264,
-   "p": 0.0491,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.4,
+   "effect": 0.24,
+   "p": 0.0718,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.39,
    "creator_robust": true,
    "counterexamples": [
     "DONT SPLASH",
-    "[🎃] Throw Food For Animals",
+    "Throw Food For Animals",
     "+1 Spider Arm🕷️"
    ]
   }
@@ -9936,6 +10222,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -9944,19 +10234,18 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.221,
-   "p": 0.0145,
-   "n": 477,
-   "days": 31,
+   "effect": 0.245,
+   "p": 0.0073,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "DONT SPLASH",
-    "PINKIE PROMISE [HORROR]",
-    "[UPD 1.29] UNDERTALE Fight!"
+    "PINKIE PROMISE [HORROR]"
    ]
   }
  },
@@ -10057,6 +10346,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 20
+   },
+   {
+    "date": "2026-11-05",
     "conf": 20
    }
   ],
@@ -10160,6 +10453,10 @@
    {
     "date": "2026-11-04",
     "conf": 56
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 54
    }
   ],
   "action": "Skip auto-play passes at launch",
@@ -10169,13 +10466,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 56,
-  "status": "Unchanged",
+  "confidence": 54,
+  "status": "Weakened",
   "evidence": {
-   "effect": null,
+   "effect": -0.054,
+   "p": 0.7942,
    "n": 75,
-   "days": 0,
-   "note": "not enough comparable games yet"
+   "days": 25,
+   "consistency": 0.68,
+   "creator_robust": true,
+   "counterexamples": [
+    "[FPS] Pixel Arena",
+    "+1 Boxing Battle Evolution"
+   ]
   }
  },
  {
@@ -10272,6 +10575,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Invest in depth and polish",
@@ -10284,9 +10591,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.184,
-   "p": 0.003,
-   "n": 262,
+   "effect": 0.152,
+   "p": 0.0125,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -10387,6 +10694,10 @@
    {
     "date": "2026-11-04",
     "conf": 37
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 25
    }
   ],
   "action": "Keep text and numbers off thumbnails",
@@ -10397,19 +10708,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 37,
+  "confidence": 25,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.137,
-   "p": 0.5373,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": 0.239,
+   "p": 0.1062,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.71,
    "creator_robust": true,
    "counterexamples": [
-    "+1 Spider Arm🕷️",
-    "[🧪CH2] 1M Clicks To Escape",
-    "TROLL Jail Hug Tower"
+    "Eat THE Ice Cream 🍨",
+    "TROLL Jail Hug Tower",
+    "+1 Spider Arm🕷️"
    ]
   }
  },
@@ -10507,6 +10818,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "test": {
@@ -10515,13 +10830,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.763,
+   "effect": -0.705,
    "p": 0.0,
-   "n": 476,
-   "days": 31,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -10622,6 +10937,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "confidence": 50,
@@ -10720,6 +11039,10 @@
    {
     "date": "2026-11-04",
     "conf": 54
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 56
    }
   ],
   "action": "Skip pet/egg loops for trending momentum",
@@ -10729,13 +11052,18 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 54,
-  "status": "Unchanged",
+  "confidence": 56,
+  "status": "Strengthened",
   "evidence": {
-   "effect": null,
+   "effect": -0.095,
+   "p": 0.6616,
    "n": 75,
-   "days": 0,
-   "note": "not enough comparable games yet"
+   "days": 24,
+   "consistency": 0.46,
+   "creator_robust": true,
+   "counterexamples": [
+    "Steal A Balut"
+   ]
   }
  },
  {
@@ -10828,6 +11156,10 @@
    {
     "date": "2026-11-04",
     "conf": 36
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 27
    }
   ],
   "action": "Skip luck passes at launch",
@@ -10838,19 +11170,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 36,
+  "confidence": 27,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.264,
-   "p": 0.4706,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.53,
+   "effect": 0.392,
+   "p": 0.1334,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
-    "[🧪CH2] 1M Clicks To Escape",
-    "[🎃] Ice Cream Shop [Anomaly] 🍦",
-    "Eat THE Ice Cream 🍨"
+    "Eat THE Ice Cream 🍨",
+    "[2x WEEKEND] Farm Evolution",
+    "[🎃] Ice Cream Shop [Anomaly] 🍦"
    ]
   }
  },
@@ -10944,6 +11276,10 @@
    {
     "date": "2026-11-04",
     "conf": 31
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 30
    }
   ],
   "action": "Use servers of 7+ players",
@@ -10955,19 +11291,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 31,
-  "status": "Weakened",
+  "confidence": 30,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.136,
-   "p": 0.1044,
-   "n": 80,
-   "days": 29,
-   "consistency": 0.66,
+   "effect": -0.167,
+   "p": 0.0906,
+   "n": 82,
+   "days": 30,
+   "consistency": 0.63,
    "creator_robust": true,
    "counterexamples": [
-    "FATHOM [HORROR]",
     "[👑] CRAZY 8 Ball",
-    "[FPS] Pixel Arena"
+    "[ ⚔️ ] 1.8 KIT PVP",
+    "🐛 +1 Shrink Worm Escape"
    ]
   }
  },
@@ -11061,6 +11397,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Price most passes above 90 R$",
@@ -11074,9 +11414,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.413,
+   "effect": 0.407,
    "p": 0.0001,
-   "n": 234,
+   "n": 243,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -11177,6 +11517,10 @@
    {
     "date": "2026-11-04",
     "conf": 75
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 40
    }
   ],
   "action": "Build a co-op loop for breakout",
@@ -11187,18 +11531,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 75,
-  "status": "Strengthened",
+  "confidence": 40,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.161,
-   "p": 0.189,
-   "n": 100,
-   "days": 30,
+   "effect": -0.113,
+   "p": 0.6578,
+   "n": 99,
+   "days": 31,
    "consistency": 0.87,
    "creator_robust": true,
    "counterexamples": [
-    "[CH3] Punch Walls To Escape",
-    "Save the Krusty Krab 🍔"
+    "Save the Krusty Krab 🍔",
+    "[🎃+ NEW MAP!] Yard Rescue Crew",
+    "Low Range: Offroad 4x4 [EARLY ACCESS]"
    ]
   }
  },
@@ -11292,10 +11637,14 @@
    {
     "date": "2026-11-04",
     "conf": 30
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 30
    }
   ],
   "confidence": 30,
-  "status": "Weakened",
+  "status": "Unchanged",
   "evidence": {
    "rationale": "Mixed: Steal A Balut (17 days) entered Top Trending and climbed 17 on Up-and-Coming, and Farm Evolution (a steal-defend loop) entered Up-and-Coming, while Hide to Steal Eggs is among the weakest on Up-and-Coming. Young clones are still entering, which argues against a fade."
   }
@@ -11386,6 +11735,10 @@
    {
     "date": "2026-11-04",
     "conf": 64
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 66
    }
   ],
   "action": "Launch with several game passes",
@@ -11397,19 +11750,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 64,
+  "confidence": 66,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.082,
-   "p": 0.1753,
+   "effect": 0.18,
+   "p": 0.081,
    "n": 75,
-   "days": 26,
-   "consistency": 0.46,
+   "days": 27,
+   "consistency": 0.48,
    "creator_robust": true,
    "counterexamples": [
-    "Thai Quiz Duels [UPDATES]",
     "Flying Tesla Roadster [Open World Update]",
-    "[🚨] Escape The Walls"
+    "Thai Quiz Duels [UPDATES]",
+    "🎃 Игра в Слова [🇷🇺]"
    ]
   }
  },
@@ -11499,6 +11852,10 @@
    {
     "date": "2026-11-04",
     "conf": 52
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 51
    }
   ],
   "action": "Upload several page images",
@@ -11510,19 +11867,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 52,
-  "status": "Strengthened",
+  "confidence": 51,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.005,
-   "p": 0.8281,
+   "effect": 0.037,
+   "p": 0.9505,
    "n": 75,
-   "days": 29,
-   "consistency": 0.45,
-   "creator_robust": false,
+   "days": 30,
+   "consistency": 0.43,
+   "creator_robust": true,
    "counterexamples": [
     "Flying Tesla Roadster [Open World Update]",
-    "[🚨] Escape The Walls",
-    "Freeze Tag 🧊"
+    "🎃 Игра в Слова [🇷🇺]",
+    "Hide to Steal Eggs"
    ]
   }
  },
@@ -11612,6 +11969,10 @@
    {
     "date": "2026-11-04",
     "conf": 75
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 74
    }
   ],
   "action": "Ask players to favorite the game",
@@ -11622,19 +11983,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 75,
-  "status": "Strengthened",
+  "confidence": 74,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.292,
-   "p": 0.1249,
-   "n": 100,
-   "days": 30,
+   "effect": 0.244,
+   "p": 0.1905,
+   "n": 99,
+   "days": 31,
    "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": [
-    "[🔰] Steel Fighters",
-    "+1 Hamster Smash",
-    "🥟SQUISHY DUMPLING PRISON RUN! (Obby)"
+    "Escape The Jungle",
+    "Lucky Block World",
+    "[UPD] Durian Garden 🍈"
    ]
   }
  },
@@ -11724,6 +12085,10 @@
    {
     "date": "2026-11-04",
     "conf": 69
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 73
    }
   ],
   "action": "Sell revives",
@@ -11734,19 +12099,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 69,
-  "status": "Weakened",
+  "confidence": 73,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.137,
-   "p": 0.3521,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.83,
+   "effect": 0.129,
+   "p": 0.2513,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.84,
    "creator_robust": true,
    "counterexamples": [
-    "Hide to Steal Eggs",
     "Save the Krusty Krab 🍔",
-    "Fake Dead or DIE"
+    "Fake Dead or DIE",
+    "Secure the Waterpark"
    ]
   }
  },
@@ -11832,6 +12197,10 @@
    {
     "date": "2026-11-04",
     "conf": 67
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 60
    }
   ],
   "action": "Let players build something",
@@ -11842,16 +12211,18 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 67,
-  "status": "Strengthened",
+  "confidence": 60,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.361,
-   "p": 0.036,
+   "effect": 0.066,
+   "p": 0.4317,
    "n": 75,
-   "days": 25,
-   "consistency": 0.56,
+   "days": 26,
+   "consistency": 0.54,
    "creator_robust": true,
-   "counterexamples": []
+   "counterexamples": [
+    "[🛴] Steal A Scooter"
+   ]
   }
  },
  {
@@ -11936,6 +12307,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 52
    }
   ],
   "action": "Skip creature-collection themes for momentum",
@@ -11946,19 +12321,17 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 50,
-  "status": "Unchanged",
+  "confidence": 52,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.15,
-   "p": 0.988,
+   "effect": -0.168,
+   "p": 0.8398,
    "n": 75,
-   "days": 29,
-   "consistency": 0.52,
+   "days": 30,
+   "consistency": 0.5,
    "creator_robust": false,
    "counterexamples": [
-    "🎬 Make a Cartoon!",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
-    "[🎃] Throw Food For Animals"
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
    ]
   }
  },
@@ -12044,6 +12417,10 @@
    {
     "date": "2026-11-04",
     "conf": 47
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 69
    }
   ],
   "action": "Build a co-op loop for trending",
@@ -12054,19 +12431,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 47,
+  "confidence": 69,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.051,
-   "p": 0.8553,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.77,
-   "creator_robust": false,
+   "effect": 0.171,
+   "p": 0.2374,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.87,
+   "creator_robust": true,
    "counterexamples": [
-    "FATHOM [HORROR]",
     "الشايب [رعب]",
-    "[🚨] Escape The Walls"
+    "Punch Out Of Prison",
+    "Scooter Duo 🛴 [2 Player Obby]"
    ]
   }
  },
@@ -12152,6 +12529,10 @@
    {
     "date": "2026-11-04",
     "conf": 31
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Cap launch passes at 349 R$",
@@ -12163,18 +12544,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 31,
-  "status": "Weakened",
+  "confidence": 32,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.056,
-   "p": 0.1591,
-   "n": 87,
-   "days": 30,
-   "consistency": 0.53,
+   "effect": 0.129,
+   "p": 0.215,
+   "n": 85,
+   "days": 31,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
     "Tesla Roadster Chase",
-    "Can You Pass A Driving Test?",
+    "[CLASS] MALAM SAMA OPAH",
     "Ragdoll Sandbox"
    ]
   }
@@ -12260,6 +12641,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 27
+   },
+   {
+    "date": "2026-11-05",
     "conf": 27
    }
   ],
@@ -12348,6 +12733,10 @@
    {
     "date": "2026-11-04",
     "conf": 64
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "action": "Skip cash-tycoon loops for staying power",
@@ -12357,12 +12746,12 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 64,
+  "confidence": 63,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.134,
-   "p": 0.0753,
-   "n": 264,
+   "effect": -0.116,
+   "p": 0.1176,
+   "n": 273,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -12451,6 +12840,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Price most passes above 399 R$",
@@ -12461,19 +12854,19 @@
    "cut": 400,
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.25,
-   "p": 0.0003,
-   "n": 429,
-   "days": 31,
+   "effect": 0.263,
+   "p": 0.0001,
+   "n": 432,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "Flee the Facility",
     "[💉INJECTIONS] Ragdoll Playground",
-    "[🎃] Squid Game X"
+    "[🦑] Squid Game X"
    ]
   }
  },
@@ -12555,6 +12948,10 @@
    {
     "date": "2026-11-04",
     "conf": 52
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "action": "Skip escape/flee loops for momentum",
@@ -12565,19 +12962,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 52,
-  "status": "Unchanged",
+  "confidence": 50,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.28,
-   "p": 0.697,
+   "effect": -0.062,
+   "p": 0.9331,
    "n": 75,
-   "days": 5,
-   "consistency": 0.4,
+   "days": 6,
+   "consistency": 0.33,
    "creator_robust": false,
    "counterexamples": [
-    "Tesla Roadster Chase",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
-    "[🛴] Steal A Scooter"
+    "Eat THE Ice Cream 🍨",
+    "Steal A Balut",
+    "Tesla Roadster Chase"
    ]
   }
  },
@@ -12659,6 +13056,10 @@
    {
     "date": "2026-11-04",
     "conf": 56
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 61
    }
   ],
   "action": "Skip luck products at launch",
@@ -12669,19 +13070,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 56,
+  "confidence": 61,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.099,
-   "p": 0.6366,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.57,
+   "effect": -0.228,
+   "p": 0.3153,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.58,
    "creator_robust": false,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
-    "Fake an Egg",
-    "[CLASS] MALAM SAMA OPAH"
+    "Throw Food For Animals",
+    "[CLASS] MALAM SAMA OPAH",
+    "[🌍UPD] +1 Anime Eyes"
    ]
   }
  },
@@ -12763,6 +13164,10 @@
    {
     "date": "2026-11-04",
     "conf": 29
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "test": {
@@ -12772,18 +13177,17 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 29,
-  "status": "Weakened",
+  "confidence": 33,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.405,
-   "p": 0.0317,
-   "n": 100,
-   "days": 29,
-   "consistency": 0.21,
+   "effect": -0.218,
+   "p": 0.1974,
+   "n": 99,
+   "days": 30,
+   "consistency": 0.2,
    "creator_robust": true,
    "counterexamples": [
     "PORTALS",
-    "Thai Quiz Duels [UPDATES]",
     "Fake Dead or DIE"
    ]
   }
@@ -12865,6 +13269,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 25
+   },
+   {
+    "date": "2026-11-05",
     "conf": 25
    }
   ],
@@ -12949,6 +13357,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Update at least weekly",
@@ -12962,9 +13374,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.452,
+   "effect": -0.435,
    "p": 0.0,
-   "n": 264,
+   "n": 273,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -13049,6 +13461,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Build a roleplay hub for revenue",
@@ -13058,18 +13474,18 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
    "effect": 0.277,
-   "p": 0.0008,
-   "n": 476,
-   "days": 31,
+   "p": 0.0006,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
-    "Evermore High 🦢",
     "Berry Avenue 🏠 RP",
+    "Evermore High 🦢",
     "Raise The Biggest Family"
    ]
   }
@@ -13148,6 +13564,10 @@
    {
     "date": "2026-11-04",
     "conf": 32
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 34
    }
   ],
   "action": "Sell spins or crates from launch",
@@ -13158,19 +13578,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 32,
-  "status": "Weakened",
+  "confidence": 34,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.369,
-   "p": 0.0438,
+   "effect": -0.373,
+   "p": 0.1554,
    "n": 75,
-   "days": 28,
-   "consistency": 0.5,
+   "days": 29,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
-    "Thai Quiz Duels [UPDATES]",
     "Flying Tesla Roadster [Open World Update]",
-    "[🚨] Escape The Walls"
+    "Thai Quiz Duels [UPDATES]",
+    "Hide to Steal Eggs"
    ]
   }
  },
@@ -13247,6 +13667,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 45
+   },
+   {
+    "date": "2026-11-05",
     "conf": 45
    }
   ],
@@ -13341,6 +13765,10 @@
    {
     "date": "2026-11-04",
     "conf": 54
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 57
    }
   ],
   "action": "Keep the title under 24 characters",
@@ -13352,19 +13780,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 54,
+  "confidence": 57,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.071,
-   "p": 0.8046,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.47,
-   "creator_robust": false,
+   "effect": -0.046,
+   "p": 0.7291,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.58,
+   "creator_robust": true,
    "counterexamples": [
     "Can You Pass A Driving Test?",
     "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
-    "[🧪CH2] 1M Clicks To Escape"
+    "[2x WEEKEND] Farm Evolution"
    ]
   }
  },
@@ -13441,6 +13869,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 25
+   },
+   {
+    "date": "2026-11-05",
     "conf": 25
    }
   ],
@@ -13521,6 +13953,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 47
    }
   ],
   "action": "Add a collection index",
@@ -13531,19 +13967,18 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 42,
-  "status": "Weakened",
+  "confidence": 47,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.214,
-   "p": 0.5476,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.87,
+   "effect": -0.142,
+   "p": 0.8227,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.84,
    "creator_robust": false,
    "counterexamples": [
     "[👑] CRAZY 8 Ball",
-    "Steal A Balut",
-    "Ride An Egg"
+    "[🛴] Steal A Scooter"
    ]
   }
  },
@@ -13617,6 +14052,10 @@
    {
     "date": "2026-11-04",
     "conf": 52
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 57
    }
   ],
   "action": "Add a gameplay video to the page",
@@ -13627,19 +14066,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 52,
+  "confidence": 57,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.006,
-   "p": 0.9085,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.53,
-   "creator_robust": true,
+   "effect": 0.12,
+   "p": 0.6531,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.48,
+   "creator_robust": false,
    "counterexamples": [
+    "Save the Krusty Krab 🍔",
     "PORTALS",
-    "Hide to Steal Eggs",
-    "[CH3] Punch Walls To Escape"
+    "[🎃+ NEW MAP!] Yard Rescue Crew"
    ]
   }
  },
@@ -13713,6 +14152,10 @@
    {
     "date": "2026-11-04",
     "conf": 73
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 69
    }
   ],
   "test": {
@@ -13722,18 +14165,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 73,
-  "status": "Strengthened",
+  "confidence": 69,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.22,
-   "p": 0.0601,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.87,
+   "effect": 0.088,
+   "p": 0.2348,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": [
-    "[FPS] Pixel Arena",
-    "[🚨] Escape The Walls"
+    "[ ⚔️ ] 1.8 KIT PVP",
+    "Punch Out Of Prison",
+    "Flying Tesla Roadster [Open World Update]"
    ]
   }
  },
@@ -13806,6 +14250,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 30
+   },
+   {
+    "date": "2026-11-05",
     "conf": 30
    }
   ],
@@ -13886,6 +14334,10 @@
    {
     "date": "2026-11-04",
     "conf": 32
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Add rating rounds to creative tools",
@@ -13961,6 +14413,10 @@
    {
     "date": "2026-11-04",
     "conf": 49
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 52
    }
   ],
   "action": "Skip grow-a-garden clones for breakout",
@@ -13971,18 +14427,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 49,
+  "confidence": 52,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.037,
-   "p": 0.904,
-   "n": 100,
-   "days": 18,
-   "consistency": 0.61,
+   "effect": -0.023,
+   "p": 0.8716,
+   "n": 99,
+   "days": 19,
+   "consistency": 0.58,
    "creator_robust": false,
    "counterexamples": [
-    "Bug Evolution [🕷️]",
-    "Make Viral Candy! 🍬"
+    "[2x WEEKEND] Farm Evolution",
+    "Bug Evolution [🦟]",
+    "[🎃] +1 Arm Length 💪"
    ]
   }
  },
@@ -14052,6 +14509,10 @@
    {
     "date": "2026-11-04",
     "conf": 55
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 36
    }
   ],
   "action": "Add a gameplay video to the page",
@@ -14062,18 +14523,18 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 55,
-  "status": "Strengthened",
+  "confidence": 36,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.035,
-   "p": 0.6146,
+   "effect": -0.061,
+   "p": 0.2391,
    "n": 75,
-   "days": 29,
-   "consistency": 0.52,
-   "creator_robust": false,
+   "days": 30,
+   "consistency": 0.47,
+   "creator_robust": true,
    "counterexamples": [
     "Flying Tesla Roadster [Open World Update]",
-    "[🚨] Escape The Walls",
+    "🎃 Игра в Слова [🇷🇺]",
     "Hide to Steal Eggs"
    ]
   }
@@ -14144,6 +14605,10 @@
    {
     "date": "2026-11-04",
     "conf": 38
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 75
    }
   ],
   "action": "Keep the description short",
@@ -14155,18 +14620,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 38,
-  "status": "Weakened",
+  "confidence": 75,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.108,
-   "p": 0.3794,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.6,
-   "creator_robust": false,
+   "effect": -0.033,
+   "p": 0.1147,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.68,
+   "creator_robust": true,
    "counterexamples": [
-    "🎬 Make a Cartoon!",
-    "📸 Say Cheese! [STORY]"
+    "[🎃] +1 Arm Length 💪",
+    "[🎃] Clean the Moon!"
    ]
   }
  },
@@ -14235,6 +14700,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 26
+   },
+   {
+    "date": "2026-11-05",
     "conf": 26
    }
   ],
@@ -14307,6 +14776,10 @@
    {
     "date": "2026-11-04",
     "conf": 56
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 56
    }
   ],
   "action": "Try a physics sandbox for momentum",
@@ -14318,17 +14791,12 @@
    "strata": "age"
   },
   "confidence": 56,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.264,
-   "p": 0.247,
+   "effect": null,
    "n": 75,
-   "days": 3,
-   "consistency": 0.33,
-   "creator_robust": true,
-   "counterexamples": [
-    "[🚗] Create A Disaster💥"
-   ]
+   "days": 0,
+   "note": "not enough comparable games yet"
   }
  },
  {
@@ -14393,6 +14861,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Skip build loops for breakout",
@@ -14403,19 +14875,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 42,
+  "confidence": 32,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.227,
-   "p": 0.5976,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.6,
-   "creator_robust": false,
+   "effect": 0.156,
+   "p": 0.3454,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.58,
+   "creator_robust": true,
    "counterexamples": [
     "Destroy Verity 💥🫠",
-    "Make Viral Candy! 🍬",
-    "[🛴] Steal A Scooter"
+    "[UPDATE 1.0] 30 Floors Up",
+    "[🎃] Clean the Moon!"
    ]
   }
  },
@@ -14481,6 +14953,10 @@
    {
     "date": "2026-11-04",
     "conf": 44
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 45
    }
   ],
   "action": "Skip auto-play passes at launch",
@@ -14491,14 +14967,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 44,
-  "status": "Weakened",
+  "confidence": 45,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.016,
-   "p": 0.6869,
-   "n": 100,
-   "days": 29,
-   "consistency": 0.59,
+   "effect": 0.138,
+   "p": 0.7559,
+   "n": 99,
+   "days": 30,
+   "consistency": 0.57,
    "creator_robust": false,
    "counterexamples": [
     "+1 Spider Arm🕷️"
@@ -14567,6 +15043,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Don't rely on simulators for revenue",
@@ -14576,13 +15056,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.265,
+   "effect": -0.288,
    "p": 0.0,
-   "n": 475,
-   "days": 31,
+   "n": 476,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -14654,6 +15134,10 @@
    {
     "date": "2026-11-04",
     "conf": 25
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 25
    }
   ],
   "confidence": 25,
@@ -14720,6 +15204,10 @@
    {
     "date": "2026-11-04",
     "conf": 37
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "action": "Launch with 8 or fewer passes",
@@ -14731,19 +15219,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 37,
+  "confidence": 33,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.149,
-   "p": 0.4332,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.7,
+   "effect": 0.205,
+   "p": 0.258,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.68,
    "creator_robust": true,
    "counterexamples": [
     "DONT SPLASH",
     "+1 Spider Arm🕷️",
-    "Ragdoll Reality 🩸"
+    "TROLL Jail Hug Tower"
    ]
   }
  },
@@ -14805,6 +15293,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Make it multiplayer, not solo",
@@ -14814,13 +15306,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.275,
-   "p": 0.0001,
-   "n": 476,
-   "days": 31,
+   "effect": -0.324,
+   "p": 0.0,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -14888,6 +15380,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 66
    }
   ],
   "action": "Add everyday-life roleplay",
@@ -14897,17 +15393,18 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 65,
-  "status": "Strengthened",
+  "confidence": 66,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.143,
-   "p": 0.3667,
-   "n": 100,
-   "days": 23,
-   "consistency": 0.61,
+   "effect": 0.163,
+   "p": 0.33,
+   "n": 99,
+   "days": 24,
+   "consistency": 0.62,
    "creator_robust": true,
    "counterexamples": [
-    "Game Of Life"
+    "[🎃+ NEW MAP!] Yard Rescue Crew",
+    "[🎃] Avataria Life"
    ]
   }
  },
@@ -14968,6 +15465,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 25
+   },
+   {
+    "date": "2026-11-05",
     "conf": 25
    }
   ],
@@ -15032,6 +15533,10 @@
    {
     "date": "2026-11-04",
     "conf": 40
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 41
    }
   ],
   "action": "Add drivable vehicles",
@@ -15042,19 +15547,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 40,
-  "status": "Strengthened",
+  "confidence": 41,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.112,
-   "p": 0.4068,
-   "n": 80,
-   "days": 22,
-   "consistency": 0.45,
+   "effect": -0.016,
+   "p": 0.5015,
+   "n": 82,
+   "days": 23,
+   "consistency": 0.43,
    "creator_robust": true,
    "counterexamples": [
+    "Meet Spiderman",
     "الشايب [رعب]",
-    "Thai Quiz Duels [UPDATES]",
-    "Meet Spiderman"
+    "[🛴] Steal A Scooter"
    ]
   }
  },
@@ -15112,6 +15617,10 @@
    {
     "date": "2026-11-04",
     "conf": 46
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 70
    }
   ],
   "action": "Skip server-wide products at launch",
@@ -15122,19 +15631,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 46,
-  "status": "Weakened",
+  "confidence": 70,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.042,
-   "p": 0.8291,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.7,
-   "creator_robust": false,
+   "effect": -0.085,
+   "p": 0.2851,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.71,
+   "creator_robust": true,
    "counterexamples": [
-    "+1 Spider Arm🕷️",
-    "[💉INJECTIONS] Ragdoll Playground",
-    "Draw a Flag!"
+    "[2x WEEKEND] Farm Evolution",
+    "+1 Spider Arm🕷️"
    ]
   }
  },
@@ -15192,13 +15700,17 @@
    {
     "date": "2026-11-04",
     "conf": 55
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 56
    }
   ],
   "action": "Build horror around one noise rule",
-  "confidence": 55,
-  "status": "Strengthened",
+  "confidence": 56,
+  "status": "Unchanged",
   "evidence": {
-   "rationale": "DONT SWIM (10 days, liminal pool horror from the same don't-X naming) entered Top Trending and climbed 31 on Up-and-Coming, the day's biggest riser; blind but dangerous (16 days, blind 1-vs-all hunter) entered Up-and-Coming; DONT SPLASH still sits #4 on Up-and-Coming and among the best on Most Popular."
+   "rationale": "DONT SPLASH (19 days) is again among the best on both Most Popular and Up-and-Coming; MOUSE entered Most Popular but left Up-and-Coming on the same day."
   }
  },
  {
@@ -15251,6 +15763,10 @@
    {
     "date": "2026-11-04",
     "conf": 57
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 48
    }
   ],
   "action": "Build an incremental core loop",
@@ -15261,16 +15777,17 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 57,
-  "status": "Strengthened",
+  "confidence": 48,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.154,
-   "p": 0.5099,
+   "effect": -0.037,
+   "p": 0.8515,
    "n": 75,
-   "days": 19,
-   "consistency": 0.42,
+   "days": 20,
+   "consistency": 0.4,
    "creator_robust": true,
    "counterexamples": [
+    "🐛 +1 Shrink Worm Escape",
     "[🚨] Escape The Walls"
    ]
   }
@@ -15325,6 +15842,10 @@
    {
     "date": "2026-11-04",
     "conf": 36
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 69
    }
   ],
   "action": "Add a collection index",
@@ -15335,19 +15856,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 36,
+  "confidence": 69,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.071,
-   "p": 0.4567,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.47,
+   "effect": 0.127,
+   "p": 0.2733,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.48,
    "creator_robust": true,
    "counterexamples": [
-    "Hide to Steal Eggs",
-    "[🔰] Steel Fighters",
-    "Game Of Life"
+    "[🎃+ NEW MAP!] Yard Rescue Crew",
+    "🍦Cozy Lucky Scoop Order",
+    "My Lucky Charm Scoop 🤍  [BUGS FIXED]"
    ]
   }
  },
@@ -15401,6 +15922,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Skip big-number thumbnails for revenue",
@@ -15410,13 +15935,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.236,
-   "p": 0.0014,
-   "n": 476,
-   "days": 31,
+   "effect": -0.25,
+   "p": 0.0008,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -15475,6 +16000,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 44
+   },
+   {
+    "date": "2026-11-05",
     "conf": 44
    }
   ],
@@ -15535,6 +16064,10 @@
    {
     "date": "2026-11-04",
     "conf": 28
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "action": "Sell canon characters to a fandom",
@@ -15590,6 +16123,10 @@
    {
     "date": "2026-11-04",
     "conf": 64
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 58
    }
   ],
   "action": "Put text or numbers on thumbnails",
@@ -15600,18 +16137,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 64,
-  "status": "Strengthened",
+  "confidence": 58,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.198,
-   "p": 0.3032,
+   "effect": 0.063,
+   "p": 0.6127,
    "n": 75,
-   "days": 29,
-   "consistency": 0.59,
+   "days": 30,
+   "consistency": 0.6,
    "creator_robust": true,
    "counterexamples": [
     "Raise The Biggest Family",
-    "[🌊] Steal Eggs From Tsunami!"
+    "🐛 +1 Shrink Worm Escape",
+    "[🛴] Steal A Scooter"
    ]
   }
  },
@@ -15661,6 +16199,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 41
    }
   ],
   "action": "Sell revives",
@@ -15671,19 +16213,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 42,
-  "status": "Strengthened",
+  "confidence": 41,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.132,
-   "p": 0.5513,
+   "effect": -0.194,
+   "p": 0.5247,
    "n": 75,
-   "days": 29,
-   "consistency": 0.52,
+   "days": 30,
+   "consistency": 0.5,
    "creator_robust": true,
    "counterexamples": [
     "Flying Tesla Roadster [Open World Update]",
-    "FATHOM [HORROR]",
-    "Hide to Steal Eggs"
+    "Hide to Steal Eggs",
+    "Raise The Biggest Family"
    ]
   }
  },
@@ -15733,6 +16275,10 @@
    {
     "date": "2026-11-04",
     "conf": 30
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "action": "Keep the title short",
@@ -15743,14 +16289,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 30,
-  "status": "Weakened",
+  "confidence": 33,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.159,
-   "p": 0.1296,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": 0.117,
+   "p": 0.2699,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.71,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -15801,6 +16347,10 @@
    {
     "date": "2026-11-04",
     "conf": 41
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 41
    }
   ],
   "action": "Hold redeem codes until after launch",
@@ -15812,18 +16362,18 @@
    "strata": "age"
   },
   "confidence": 41,
-  "status": "Weakened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.176,
-   "p": 0.332,
-   "n": 100,
-   "days": 12,
-   "consistency": 0.25,
+   "effect": 0.198,
+   "p": 0.3487,
+   "n": 99,
+   "days": 13,
+   "consistency": 0.23,
    "creator_robust": true,
    "counterexamples": [
-    "Ragdoll Sandbox",
     "[CLASS] MALAM SAMA OPAH",
-    "[🧪CH2] 1M Clicks To Escape"
+    "Ragdoll Sandbox",
+    "[🎃] Ice Cream Shop [Anomaly] 🍦"
    ]
   }
  },
@@ -15872,6 +16422,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 70
+   },
+   {
+    "date": "2026-11-05",
     "conf": 70
    }
   ],
@@ -15924,6 +16478,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Offer 8 or more game passes",
@@ -15934,19 +16492,19 @@
    "cut": 7,
    "direction": "+"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.22,
-   "p": 0.0,
-   "n": 477,
-   "days": 31,
+   "effect": 0.213,
+   "p": 0.0001,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
+    "Ragdoll Sandbox",
     "DONT SPLASH",
-    "Fake an Egg",
-    "[👻UPD] Fish It! 🐟"
+    "[🎃] Clean the Moon!"
    ]
   }
  },
@@ -15992,6 +16550,10 @@
    {
     "date": "2026-11-04",
     "conf": 44
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 37
    }
   ],
   "action": "Skip storage passes at launch",
@@ -16002,19 +16564,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 44,
-  "status": "Strengthened",
+  "confidence": 37,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.067,
-   "p": 0.7092,
-   "n": 80,
-   "days": 28,
-   "consistency": 0.64,
+   "effect": 0.154,
+   "p": 0.4113,
+   "n": 82,
+   "days": 29,
+   "consistency": 0.62,
    "creator_robust": true,
    "counterexamples": [
     "DONT SPLASH",
     "[🎃] +1 Venom Evolution",
-    "Fake an Egg"
+    "[CLASS] MALAM SAMA OPAH"
    ]
   }
  },
@@ -16060,6 +16622,10 @@
    {
     "date": "2026-11-04",
     "conf": 35
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Skip clan systems at launch",
@@ -16070,18 +16636,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 35,
+  "confidence": 32,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.103,
-   "p": 0.3296,
-   "n": 100,
-   "days": 24,
-   "consistency": 0.54,
+   "effect": 0.24,
+   "p": 0.2377,
+   "n": 99,
+   "days": 25,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
-    "Bug Evolution [🕷️]",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "Bug Evolution [🦟]",
+    "[UPDATE 1.0] 30 Floors Up"
    ]
   }
  },
@@ -16127,6 +16694,10 @@
    {
     "date": "2026-11-04",
     "conf": 47
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 57
    }
   ],
   "action": "Try a physics sandbox for breakout",
@@ -16137,19 +16708,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 47,
-  "status": "Weakened",
+  "confidence": 57,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.005,
-   "p": 0.7898,
-   "n": 100,
-   "days": 15,
-   "consistency": 0.93,
-   "creator_robust": false,
+   "effect": 0.062,
+   "p": 0.7049,
+   "n": 99,
+   "days": 16,
+   "consistency": 0.94,
+   "creator_robust": true,
    "counterexamples": [
-    "[CH3] Punch Walls To Escape",
-    "+1 Hamster Smash",
-    "Ragdoll Boxing 3D [SEASON 1]"
+    "Low Range: Offroad 4x4 [EARLY ACCESS]",
+    "Lucky Block World",
+    "[CH3] Punch Walls To Escape"
    ]
   }
  },
@@ -16195,6 +16766,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "test": {
@@ -16205,19 +16780,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 42,
-  "status": "Weakened",
+  "confidence": 63,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.01,
-   "p": 0.6259,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.73,
-   "creator_robust": false,
+   "effect": -0.0,
+   "p": 0.5555,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.74,
+   "creator_robust": true,
    "counterexamples": [
     "Ragdoll Sandbox",
-    "Destroy Verity 💥🫠",
-    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined"
+    "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+    "Destroy Verity 💥🫠"
    ]
   }
  },
@@ -16262,6 +16837,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 23
+   },
+   {
+    "date": "2026-11-05",
     "conf": 23
    }
   ],
@@ -16310,6 +16889,10 @@
    {
     "date": "2026-11-04",
     "conf": 79
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 71
    }
   ],
   "action": "Launch co-op or party, not PvP",
@@ -16320,19 +16903,17 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 79,
-  "status": "Strengthened",
+  "confidence": 71,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.361,
-   "p": 0.0072,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.77,
+   "effect": -0.122,
+   "p": 0.2586,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.74,
    "creator_robust": true,
    "counterexamples": [
-    "TROLL Jail Hug Tower",
-    "[🛴] Steal A Scooter",
-    "Draw a Flag!"
+    "TROLL Jail Hug Tower"
    ]
   }
  },
@@ -16374,6 +16955,10 @@
    {
     "date": "2026-11-04",
     "conf": 70
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 26
    }
   ],
   "action": "Pick an original concept over a clone",
@@ -16384,14 +16969,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 70,
+  "confidence": 26,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.119,
-   "p": 0.3575,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.9,
+   "effect": -0.114,
+   "p": 0.2319,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.87,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -16434,6 +17019,10 @@
    {
     "date": "2026-11-04",
     "conf": 78
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 75
    }
   ],
   "action": "Show real gameplay in thumbnails",
@@ -16444,18 +17033,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 78,
-  "status": "Strengthened",
+  "confidence": 75,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.318,
-   "p": 0.0238,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": 0.171,
+   "p": 0.1279,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.68,
    "creator_robust": true,
    "counterexamples": [
-    "[CH3] Punch Walls To Escape",
-    "📍Folk Valley Hide and Seek"
+    "+1 Domino Per Step",
+    "Escape The Jungle",
+    "Low Range: Offroad 4x4 [EARLY ACCESS]"
    ]
   }
  },
@@ -16497,6 +17087,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "action": "Skip sports-league loops for breakout",
@@ -16511,7 +17105,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 100,
+   "n": 99,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -16554,6 +17148,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Skip luck passes at launch",
@@ -16564,14 +17162,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 66,
+  "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.354,
-   "p": 0.1535,
-   "n": 80,
-   "days": 20,
-   "consistency": 0.85,
+   "effect": -0.273,
+   "p": 0.2392,
+   "n": 82,
+   "days": 21,
+   "consistency": 0.86,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -16613,6 +17211,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 20
+   },
+   {
+    "date": "2026-11-05",
     "conf": 20
    }
   ],
@@ -16657,6 +17259,10 @@
    {
     "date": "2026-11-04",
     "conf": 67
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 53
    }
   ],
   "action": "Ship several updates a week",
@@ -16668,19 +17274,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 67,
+  "confidence": 53,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.252,
-   "p": 0.1756,
-   "n": 72,
-   "days": 30,
-   "consistency": 0.8,
+   "effect": 0.008,
+   "p": 0.8637,
+   "n": 79,
+   "days": 31,
+   "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": [
-    "+1 Boxing Battle Evolution",
-    "Fake Dead or DIE",
-    "🐛 +1 Shrink Worm Escape"
+    "🐛 +1 Shrink Worm Escape",
+    "Meet Spiderman",
+    "🎃 Игра в Слова [🇷🇺]"
    ]
   }
  },
@@ -16718,6 +17324,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 39
    }
   ],
   "action": "Price most dev products above 79 R$",
@@ -16729,19 +17339,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 50,
+  "confidence": 39,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.061,
-   "p": 0.9923,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": -0.24,
+   "p": 0.3371,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.65,
    "creator_robust": false,
    "counterexamples": [
-    "[FPS] Pixel Arena",
-    "Freeze Tag 🧊",
-    "Steal A Balut"
+    "[ ⚔️ ] 1.8 KIT PVP",
+    "🐛 +1 Shrink Worm Escape",
+    "Impossible Animals"
    ]
   }
  },
@@ -16779,6 +17389,10 @@
    {
     "date": "2026-11-04",
     "conf": 38
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Ask players to like the game",
@@ -16789,19 +17403,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 38,
+  "confidence": 32,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.046,
-   "p": 0.5747,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": -0.074,
+   "p": 0.3775,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.71,
    "creator_robust": true,
    "counterexamples": [
-    "Hide to Steal Eggs",
     "Save the Krusty Krab 🍔",
-    "Fake Dead or DIE"
+    "Escape The Jungle",
+    "Lucky Block World"
    ]
   }
  },
@@ -16839,6 +17453,10 @@
    {
     "date": "2026-11-04",
     "conf": 60
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 34
    }
   ],
   "action": "Add drivable vehicles",
@@ -16849,19 +17467,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 60,
+  "confidence": 34,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.03,
-   "p": 0.5988,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.5,
+   "effect": -0.136,
+   "p": 0.3743,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.48,
    "creator_robust": true,
    "counterexamples": [
-    "Thai Quiz Duels [UPDATES]",
-    "Rush To The Airport 🎫✈️",
-    "ARRANCADA [2x💵]"
+    "ARRANCADA [2x💵]",
+    "Escape The Jungle",
+    "Low Range: Offroad 4x4 [EARLY ACCESS]"
    ]
   }
  },
@@ -16898,6 +17516,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 20
+   },
+   {
+    "date": "2026-11-05",
     "conf": 20
    }
   ],
@@ -16942,6 +17564,10 @@
    {
     "date": "2026-11-04",
     "conf": 24
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 24
    }
   ],
   "action": "Make players trade loot against escape",
@@ -16981,6 +17607,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "action": "Skip 1v1 table duels for breakout",
@@ -16995,7 +17625,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 100,
+   "n": 99,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -17030,6 +17660,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 32
    }
   ],
   "action": "Don't sell skips at launch",
@@ -17040,19 +17674,19 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 66,
-  "status": "Strengthened",
+  "confidence": 32,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.062,
-   "p": 0.3586,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.5,
+   "effect": 0.159,
+   "p": 0.3072,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.48,
    "creator_robust": true,
    "counterexamples": [
     "[CLASS] MALAM SAMA OPAH",
-    "+1 Spider Arm🕷️",
-    "TROLL Jail Hug Tower"
+    "Eat THE Ice Cream 🍨",
+    "[2x WEEKEND] Farm Evolution"
    ]
   }
  },
@@ -17086,6 +17720,10 @@
    {
     "date": "2026-11-04",
     "conf": 47
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 49
    }
   ],
   "action": "Skip join-the-group asks at launch",
@@ -17096,17 +17734,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 47,
+  "confidence": 49,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.106,
-   "p": 0.7418,
+   "effect": 0.107,
+   "p": 0.9106,
    "n": 75,
-   "days": 19,
-   "consistency": 0.47,
+   "days": 20,
+   "consistency": 0.5,
    "creator_robust": false,
    "counterexamples": [
-    "🎬 Make a Cartoon!"
+    "Steal A Balut",
+    "[🎃] Clean the Moon!"
    ]
   }
  },
@@ -17140,6 +17779,10 @@
    {
     "date": "2026-11-04",
     "conf": 89
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 90
    }
   ],
   "action": "Don't rely on horror escapes for revenue",
@@ -17149,13 +17792,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 89,
-  "status": "Strengthened",
+  "confidence": 90,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.346,
-   "p": 0.0021,
-   "n": 476,
-   "days": 31,
+   "effect": -0.328,
+   "p": 0.0049,
+   "n": 478,
+   "days": 32,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
@@ -17193,6 +17836,10 @@
    {
     "date": "2026-11-04",
     "conf": 20
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 20
    }
   ],
   "confidence": 20,
@@ -17227,6 +17874,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 64
    }
   ],
   "action": "Let rivals make the content",
@@ -17236,12 +17887,12 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 63,
+  "confidence": 64,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.133,
-   "p": 0.137,
-   "n": 262,
+   "effect": 0.158,
+   "p": 0.077,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -17278,6 +17929,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Run a yearly event calendar",
@@ -17290,9 +17945,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.342,
-   "p": 0.0014,
-   "n": 264,
+   "effect": 0.365,
+   "p": 0.0006,
+   "n": 273,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -17328,6 +17983,10 @@
    {
     "date": "2026-11-04",
     "conf": 65
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Sell cosmetics, not power",
@@ -17340,9 +17999,9 @@
   "confidence": 65,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.2,
-   "p": 0.0257,
-   "n": 263,
+   "effect": 0.213,
+   "p": 0.0164,
+   "n": 272,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -17379,6 +18038,10 @@
    {
     "date": "2026-11-04",
     "conf": 61
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "action": "Make items tradeable",
@@ -17388,18 +18051,16 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 61,
-  "status": "Unchanged",
+  "confidence": 63,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.212,
-   "p": 0.2533,
-   "n": 264,
+   "effect": 0.318,
+   "p": 0.1023,
+   "n": 273,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
-   "counterexamples": [
-    "MVSD | Murderers VS Sheriffs Duels"
-   ]
+   "counterexamples": []
   }
  },
  {
@@ -17428,6 +18089,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "action": "Offer private servers",
@@ -17441,7 +18106,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 264,
+   "n": 273,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -17472,6 +18137,10 @@
    {
     "date": "2026-11-04",
     "conf": 42
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 40
    }
   ],
   "action": "Skip griefing and admin passes",
@@ -17481,12 +18150,12 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 42,
-  "status": "Strengthened",
+  "confidence": 40,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.12,
-   "p": 0.4341,
-   "n": 263,
+   "effect": 0.147,
+   "p": 0.337,
+   "n": 272,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
@@ -17523,6 +18192,10 @@
    {
     "date": "2026-11-04",
     "conf": 61
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 60
    }
   ],
   "action": "Avoid fixed-stage loops for longevity",
@@ -17532,19 +18205,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 61,
-  "status": "Strengthened",
+  "confidence": 60,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.163,
-   "p": 0.2591,
-   "n": 262,
+   "effect": -0.128,
+   "p": 0.3595,
+   "n": 271,
    "days": 0,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
     "Tower of Hell",
     "TROLL Hug Tower",
-    "[🔥AURA] Phonk Edit Tower 🎶"
+    "TROLL Fly & Carry Tower"
    ]
   }
  },
@@ -17573,6 +18246,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 20
+   },
+   {
+    "date": "2026-11-05",
     "conf": 20
    }
   ],
@@ -17609,6 +18286,10 @@
    {
     "date": "2026-11-04",
     "conf": 15
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 15
    }
   ],
   "action": "Announce update release times",
@@ -17644,6 +18325,10 @@
    {
     "date": "2026-11-04",
     "conf": 31
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "action": "Sell cheap repeatable skips",
@@ -17653,13 +18338,13 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 31,
+  "confidence": 28,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.064,
-   "p": 0.2265,
-   "n": 477,
-   "days": 31,
+   "effect": -0.087,
+   "p": 0.1014,
+   "n": 478,
+   "days": 32,
    "consistency": 0.03,
    "creator_robust": true,
    "counterexamples": [
@@ -17695,6 +18380,10 @@
    {
     "date": "2026-11-04",
     "conf": 43
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 37
    }
   ],
   "action": "Sell spins or crates",
@@ -17704,19 +18393,19 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 43,
+  "confidence": 37,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.021,
-   "p": 0.7608,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.42,
+   "effect": -0.038,
+   "p": 0.5677,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.41,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Throw Food For Animals",
-    "[🔥NEW CASE] Deagle Arena",
-    "DONT SPLASH"
+    "Ragdoll Sandbox",
+    "Throw Food For Animals",
+    "[🔥NEW CASE] Deagle Arena"
    ]
   }
  },
@@ -17793,6 +18482,10 @@
    {
     "date": "2026-11-04",
     "conf": 35
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "action": "Sell speed passes",
@@ -17802,13 +18495,13 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 35,
-  "status": "Unchanged",
+  "confidence": 33,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.058,
-   "p": 0.3615,
-   "n": 477,
-   "days": 31,
+   "effect": -0.069,
+   "p": 0.2777,
+   "n": 478,
+   "days": 32,
    "consistency": 0.0,
    "creator_robust": true,
    "counterexamples": [
@@ -17844,6 +18537,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 55
    }
   ],
   "action": "Add a luck/roll layer",
@@ -17853,14 +18550,14 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 66,
+  "confidence": 55,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.055,
-   "p": 0.5445,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.71,
+   "effect": 0.017,
+   "p": 0.855,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.69,
    "creator_robust": true,
    "counterexamples": [
     "[UPD4 💀] Depth Incremental",
@@ -17895,6 +18592,10 @@
    {
     "date": "2026-11-04",
     "conf": 78
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 82
    }
   ],
   "action": "Avoid AFK income loops for revenue",
@@ -17904,19 +18605,19 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 78,
+  "confidence": 82,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.123,
-   "p": 0.1888,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.71,
+   "effect": -0.167,
+   "p": 0.0833,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.72,
    "creator_robust": true,
    "counterexamples": [
-    "[🎃] Elemental Dungeons",
     "[🤑WORKS] Forest Donations",
-    "Combat Warriors"
+    "Combat Warriors",
+    "[RANKED] Merge a Mini  Army"
    ]
   }
  },
@@ -17946,6 +18647,10 @@
    {
     "date": "2026-11-04",
     "conf": 30
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 28
    }
   ],
   "action": "Ship daily login rewards",
@@ -17955,19 +18660,19 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 30,
-  "status": "Strengthened",
+  "confidence": 28,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.103,
-   "p": 0.2772,
-   "n": 477,
-   "days": 31,
-   "consistency": 0.23,
+   "effect": -0.12,
+   "p": 0.2071,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.22,
    "creator_robust": true,
    "counterexamples": [
     "Break and Steal an Egg",
-    "Raise The Biggest Family",
-    "Night Rider 🏍️ [TESTING]"
+    "+1 Power Fruit Evolution",
+    "Raise The Biggest Family"
    ]
   }
  },
@@ -18040,6 +18745,10 @@
    {
     "date": "2026-11-04",
     "conf": 20
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 20
    }
   ],
   "action": "Offer a cheap first-session bundle",
@@ -18074,6 +18783,10 @@
    },
    {
     "date": "2026-11-04",
+    "conf": 20
+   },
+   {
+    "date": "2026-11-05",
     "conf": 20
    }
   ],
@@ -18110,6 +18823,10 @@
    {
     "date": "2026-11-04",
     "conf": 15
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 15
    }
   ],
   "action": "Put the Robux fix at the friction point",
@@ -18145,6 +18862,10 @@
    {
     "date": "2026-11-04",
     "conf": 79
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 78
    }
   ],
   "action": "Frame the game as survival",
@@ -18155,17 +18876,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 79,
-  "status": "Strengthened",
+  "confidence": 78,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.335,
-   "p": 0.0067,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.8,
+   "effect": 0.166,
+   "p": 0.0748,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.81,
    "creator_robust": true,
    "counterexamples": [
-    "Fake Dead or DIE"
+    "Fake Dead or DIE",
+    "Secure the Waterpark",
+    "[UPD] Durian Garden 🍈"
    ]
   }
  },
@@ -18195,6 +18918,10 @@
    {
     "date": "2026-11-04",
     "conf": 53
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 43
    }
   ],
   "action": "Post redeem codes at launch",
@@ -18205,19 +18932,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 53,
-  "status": "Unchanged",
+  "confidence": 43,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.081,
-   "p": 0.6334,
+   "effect": -0.148,
+   "p": 0.2681,
    "n": 75,
-   "days": 7,
-   "consistency": 0.29,
-   "creator_robust": false,
+   "days": 8,
+   "consistency": 0.25,
+   "creator_robust": true,
    "counterexamples": [
-    "[👑] CRAZY 8 Ball",
+    "🐛 +1 Shrink Worm Escape",
     "Fake Dead or DIE",
-    "[UPD] Durian Garden 🍈"
+    "Punch Out Of Prison"
    ]
   }
  },
@@ -18247,6 +18974,10 @@
    {
     "date": "2026-11-04",
     "conf": 54
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 44
    }
   ],
   "action": "Skip character-art thumbnails for momentum",
@@ -18257,15 +18988,15 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 54,
+  "confidence": 44,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.203,
-   "p": 0.7461,
+   "effect": 0.007,
+   "p": 0.697,
    "n": 75,
-   "days": 29,
-   "consistency": 0.52,
-   "creator_robust": false,
+   "days": 30,
+   "consistency": 0.53,
+   "creator_robust": true,
    "counterexamples": [
     "Destroy Verity 💥🫠",
     "Can You Pass A Driving Test?",
@@ -18295,6 +19026,10 @@
    {
     "date": "2026-11-04",
     "conf": 55
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 51
    }
   ],
   "action": "Sell cosmetic passes from launch",
@@ -18305,14 +19040,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 55,
+  "confidence": 51,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.153,
-   "p": 0.6264,
+   "effect": 0.021,
+   "p": 0.9248,
    "n": 75,
-   "days": 14,
-   "consistency": 0.5,
+   "days": 15,
+   "consistency": 0.47,
    "creator_robust": true,
    "counterexamples": [
     "Raise The Biggest Family"
@@ -18341,6 +19076,10 @@
    {
     "date": "2026-11-04",
     "conf": 61
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 61
    }
   ],
   "action": "Skip text-ad thumbnails",
@@ -18352,15 +19091,12 @@
    "strata": "age"
   },
   "confidence": 61,
-  "status": "Strengthened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.437,
-   "p": 0.0446,
+   "effect": null,
    "n": 75,
-   "days": 6,
-   "consistency": 0.83,
-   "creator_robust": true,
-   "counterexamples": []
+   "days": 0,
+   "note": "not enough comparable games yet"
   }
  },
  {
@@ -18385,6 +19121,10 @@
    {
     "date": "2026-11-04",
     "conf": 54
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 61
    }
   ],
   "action": "Publish under a group",
@@ -18395,19 +19135,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 54,
-  "status": "Weakened",
+  "confidence": 61,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.076,
-   "p": 0.7242,
-   "n": 80,
-   "days": 7,
+   "effect": 0.217,
+   "p": 0.269,
+   "n": 82,
+   "days": 8,
    "consistency": 1.0,
-   "creator_robust": null,
+   "creator_robust": true,
    "counterexamples": [
-    "FATHOM [HORROR]",
     "[👑] CRAZY 8 Ball",
-    "[FPS] Pixel Arena"
+    "[ ⚔️ ] 1.8 KIT PVP",
+    "Meet Spiderman"
    ]
   }
  },
@@ -18433,6 +19173,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 67
    }
   ],
   "action": "Frame the game as survival",
@@ -18443,19 +19187,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 66,
-  "status": "Strengthened",
+  "confidence": 67,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.262,
-   "p": 0.1425,
+   "effect": 0.126,
+   "p": 0.1317,
    "n": 75,
-   "days": 26,
-   "consistency": 0.65,
+   "days": 27,
+   "consistency": 0.63,
    "creator_robust": true,
    "counterexamples": [
-    "Freeze Tag 🧊",
     "Fake Dead or DIE",
-    "[UPD] Durian Garden 🍈"
+    "Scooter Duo 🛴 [2 Player Obby]",
+    "Teach Your Granny How To Drive! 🎙️"
    ]
   }
  },
@@ -18481,6 +19225,10 @@
    {
     "date": "2026-11-04",
     "conf": 63
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 71
    }
   ],
   "action": "Cap launch servers at 24 players",
@@ -18492,14 +19240,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 63,
-  "status": "Weakened",
+  "confidence": 71,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.136,
-   "p": 0.4225,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.7,
+   "effect": -0.167,
+   "p": 0.1235,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.71,
    "creator_robust": true,
    "counterexamples": [
     "[CLASS] MALAM SAMA OPAH"
@@ -18528,6 +19276,10 @@
    {
     "date": "2026-11-04",
     "conf": 62
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 65
    }
   ],
   "action": "Skip RNG/luck framing for breakout",
@@ -18538,18 +19290,16 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 62,
+  "confidence": 65,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.151,
-   "p": 0.2451,
-   "n": 100,
-   "days": 6,
+   "effect": -0.317,
+   "p": 0.1403,
+   "n": 99,
+   "days": 7,
    "consistency": 1.0,
    "creator_robust": true,
-   "counterexamples": [
-    "Make Viral Candy! 🍬"
-   ]
+   "counterexamples": []
   }
  },
  {
@@ -18574,6 +19324,10 @@
    {
     "date": "2026-11-04",
     "conf": 60
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 62
    }
   ],
   "action": "Avoid all-caps titles",
@@ -18584,14 +19338,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 60,
-  "status": "Weakened",
+  "confidence": 62,
+  "status": "Strengthened",
   "evidence": {
-   "effect": -0.115,
-   "p": 0.6191,
-   "n": 100,
-   "days": 23,
-   "consistency": 0.87,
+   "effect": -0.126,
+   "p": 0.5342,
+   "n": 99,
+   "days": 24,
+   "consistency": 0.88,
    "creator_robust": true,
    "counterexamples": [
     "DONT SPLASH",
@@ -18622,6 +19376,10 @@
    {
     "date": "2026-11-04",
     "conf": 87
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 88
    }
   ],
   "action": "Try tower defense for revenue",
@@ -18631,14 +19389,14 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 87,
-  "status": "Strengthened",
+  "confidence": 88,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.305,
-   "p": 0.0243,
-   "n": 476,
-   "days": 31,
-   "consistency": 0.9,
+   "effect": 0.329,
+   "p": 0.0128,
+   "n": 478,
+   "days": 32,
+   "consistency": 0.91,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -18661,6 +19419,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 66
    }
   ],
   "action": "Skip collect-rebirth loops for breakout",
@@ -18675,7 +19437,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 100,
+   "n": 99,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -18698,6 +19460,10 @@
    {
     "date": "2026-11-04",
     "conf": 50
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 50
    }
   ],
   "action": "Skip collect-rebirth loops for staying power",
@@ -18711,7 +19477,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": null,
-   "n": 99,
+   "n": 98,
    "days": 0,
    "note": "not enough comparable games yet"
   }
@@ -18734,6 +19500,10 @@
    {
     "date": "2026-11-04",
     "conf": 66
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 63
    }
   ],
   "action": "Build a simulator for trending",
@@ -18744,19 +19514,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 66,
-  "status": "Unchanged",
+  "confidence": 63,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.096,
-   "p": 0.2253,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.57,
+   "effect": 0.089,
+   "p": 0.406,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.58,
    "creator_robust": true,
    "counterexamples": [
-    "Steal A Balut",
-    "[UPD] Durian Garden 🍈",
-    "+1 Boxing Battle Evolution"
+    "🐛 +1 Shrink Worm Escape",
+    "Impossible Animals",
+    "Punch Out Of Prison"
    ]
   }
  },
@@ -18778,6 +19548,10 @@
    {
     "date": "2026-11-04",
     "conf": 53
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 38
    }
   ],
   "action": "Put an emoji in the title",
@@ -18788,14 +19562,14 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 53,
+  "confidence": 38,
   "status": "Weakened",
   "evidence": {
-   "effect": 0.011,
-   "p": 0.8271,
+   "effect": -0.134,
+   "p": 0.4047,
    "n": 75,
-   "days": 29,
-   "consistency": 0.52,
+   "days": 30,
+   "consistency": 0.57,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -18818,6 +19592,10 @@
    {
     "date": "2026-11-04",
     "conf": 58
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 40
    }
   ],
   "test": {
@@ -18828,18 +19606,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 58,
+  "confidence": 40,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.106,
-   "p": 0.6041,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.53,
+   "effect": 0.004,
+   "p": 0.5565,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.52,
    "creator_robust": true,
    "counterexamples": [
+    "DONT SPLASH",
     "[UPD] Realistic Ragdoll Engine 🩸",
-    "Ragdoll Sandbox",
     "[CLASS] MALAM SAMA OPAH"
    ]
   }
@@ -18862,13 +19640,17 @@
    {
     "date": "2026-11-04",
     "conf": 32
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 40
    }
   ],
   "action": "Line up an update right after the event",
-  "confidence": 32,
-  "status": "Unchanged",
+  "confidence": 40,
+  "status": "Strengthened",
   "evidence": {
-   "rationale": "Mixed on day 4 of November: The Strongest Battlegrounds [HALLOWEEN] fell off Top Trending and The Mimic [🎃] fell 8, but Clean the Moon! [🎃] (+12) and Ink Game [🎃] (+11) climbed. Most Popular and Top Earning could not be read today because their captured order is identical to 2026-11-03."
+   "rationale": "In the first full November week several Halloween-tagged games left charts on the same day: Dead Rails [EVENT] left Most Popular; Infectious Smile [HALLOWEEN], Roll a Barber RNG and Elemental Dungeons left Top Earning; Ink Game and The Mimic left Top Trending. Games that shipped a follow-up (Anime Dimensions' Nov 2 update) held their place."
   }
  },
  {
@@ -18885,6 +19667,10 @@
    {
     "date": "2026-11-04",
     "conf": 86
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 87
    }
   ],
   "action": "Don't rely on physics sandboxes for revenue",
@@ -18894,13 +19680,13 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 86,
-  "status": "Strengthened",
+  "confidence": 87,
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.621,
-   "p": 0.0004,
-   "n": 476,
-   "days": 27,
+   "effect": -0.645,
+   "p": 0.0001,
+   "n": 478,
+   "days": 28,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": []
@@ -18920,6 +19706,10 @@
    {
     "date": "2026-11-04",
     "conf": 62
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 72
    }
   ],
   "action": "Sell spins or crates from launch",
@@ -18930,19 +19720,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 62,
-  "status": "Weakened",
+  "confidence": 72,
+  "status": "Strengthened",
   "evidence": {
-   "effect": 0.269,
-   "p": 0.4692,
-   "n": 80,
-   "days": 30,
+   "effect": 0.287,
+   "p": 0.092,
+   "n": 82,
+   "days": 31,
    "consistency": 0.77,
    "creator_robust": true,
    "counterexamples": [
-    "FATHOM [HORROR]",
     "[👑] CRAZY 8 Ball",
-    "[FPS] Pixel Arena"
+    "🐛 +1 Shrink Worm Escape",
+    "Meet Spiderman"
    ]
   }
  },
@@ -18960,6 +19750,10 @@
    {
     "date": "2026-11-04",
     "conf": 72
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 74
    }
   ],
   "action": "Launch without a skill-based competitive core",
@@ -18970,14 +19764,14 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 72,
+  "confidence": 74,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.514,
-   "p": 0.0075,
-   "n": 80,
-   "days": 30,
-   "consistency": 0.7,
+   "effect": -0.65,
+   "p": 0.0011,
+   "n": 82,
+   "days": 31,
+   "consistency": 0.71,
    "creator_robust": true,
    "counterexamples": []
   }
@@ -18996,6 +19790,10 @@
    {
     "date": "2026-11-04",
     "conf": 60
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 58
    }
   ],
   "action": "Try a grow-a-garden loop for trending",
@@ -19006,18 +19804,16 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 60,
-  "status": "Strengthened",
+  "confidence": 58,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.387,
-   "p": 0.193,
-   "n": 80,
-   "days": 4,
+   "effect": 0.195,
+   "p": 0.3723,
+   "n": 82,
+   "days": 5,
    "consistency": 1.0,
    "creator_robust": true,
-   "counterexamples": [
-    "[UPD] Durian Garden 🍈"
-   ]
+   "counterexamples": []
   }
  },
  {
@@ -19034,6 +19830,10 @@
    {
     "date": "2026-11-04",
     "conf": 33
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 33
    }
   ],
   "action": "Tag each new update in the title",
@@ -19045,18 +19845,17 @@
    "strata": "age"
   },
   "confidence": 33,
-  "status": "Weakened",
+  "status": "Unchanged",
   "evidence": {
-   "effect": -0.261,
-   "p": 0.2506,
-   "n": 100,
+   "effect": -0.281,
+   "p": 0.2424,
+   "n": 99,
    "days": 21,
-   "consistency": 0.67,
+   "consistency": 0.62,
    "creator_robust": true,
    "counterexamples": [
-    "Thai Quiz Duels [UPDATES]",
-    "Ragdoll Boxing 3D [SEASON 1]",
-    "[🥽 VR + NEW ITEMS] blind but dangerous"
+    "[🎃+ NEW MAP!] Yard Rescue Crew",
+    "[UPD] Durian Garden 🍈"
    ]
   }
  },
@@ -19074,10 +19873,14 @@
    {
     "date": "2026-11-04",
     "conf": 23
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 23
    }
   ],
   "confidence": 23,
-  "status": "Strengthened",
+  "status": "Retired",
   "evidence": {
    "rationale": "Punch Walls To Escape [CH3] is again the weakest on Up-and-Coming while Build and Burn (30 days, chapter racer) stays among the six most efficient Top Earning games."
   }
@@ -19092,6 +19895,10 @@
    {
     "date": "2026-11-04",
     "conf": 61
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 58
    }
   ],
   "action": "Skip daily login rewards at launch",
@@ -19102,16 +19909,18 @@
    "direction": "-",
    "strata": "age"
   },
-  "confidence": 61,
-  "status": "New",
+  "confidence": 58,
+  "status": "Weakened",
   "evidence": {
-   "effect": -0.551,
-   "p": 0.0183,
+   "effect": -0.266,
+   "p": 0.2096,
    "n": 75,
-   "days": 5,
-   "consistency": 0.8,
+   "days": 6,
+   "consistency": 0.67,
    "creator_robust": true,
-   "counterexamples": []
+   "counterexamples": [
+    "Steal A Balut"
+   ]
   }
  },
  {
@@ -19124,6 +19933,10 @@
    {
     "date": "2026-11-04",
     "conf": 75
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 76
    }
   ],
   "test": {
@@ -19133,19 +19946,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 75,
-  "status": "New",
+  "confidence": 76,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.416,
-   "p": 0.0184,
-   "n": 80,
-   "days": 30,
+   "effect": 0.458,
+   "p": 0.0093,
+   "n": 82,
+   "days": 31,
    "consistency": 1.0,
    "creator_robust": true,
    "counterexamples": [
-    "Freeze Tag 🧊",
+    "Impossible Animals",
     "Meet Spiderman",
-    "[🚨] Escape The Walls"
+    "Urban Reload 💀"
    ]
   }
  },
@@ -19159,6 +19972,10 @@
    {
     "date": "2026-11-04",
     "conf": 77
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 74
    }
   ],
   "action": "Sell storage or slot passes",
@@ -19169,17 +19986,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 77,
-  "status": "New",
+  "confidence": 74,
+  "status": "Weakened",
   "evidence": {
-   "effect": 0.329,
-   "p": 0.0237,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.7,
+   "effect": 0.205,
+   "p": 0.1577,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.74,
    "creator_robust": true,
    "counterexamples": [
-    "[CH3] Punch Walls To Escape"
+    "+1 Domino Per Step",
+    "Escape The Jungle",
+    "🍦Cozy Lucky Scoop Order"
    ]
   }
  },
@@ -19193,6 +20012,10 @@
    {
     "date": "2026-11-04",
     "conf": 78
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 79
    }
   ],
   "action": "Sell a 2x pass at launch",
@@ -19203,19 +20026,19 @@
    "direction": "+",
    "strata": "age"
   },
-  "confidence": 78,
-  "status": "New",
+  "confidence": 79,
+  "status": "Unchanged",
   "evidence": {
-   "effect": 0.207,
-   "p": 0.036,
-   "n": 100,
-   "days": 30,
-   "consistency": 0.73,
+   "effect": 0.373,
+   "p": 0.01,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.74,
    "creator_robust": true,
    "counterexamples": [
-    "Hide to Steal Eggs",
-    "Thai Quiz Duels [UPDATES]",
-    "[ДИГГЕРСТВО] РейлСайд [БЕТА]"
+    "+1 Domino Per Step",
+    "Escape The Jungle",
+    "Button Battles"
    ]
   }
  },
@@ -19229,13 +20052,240 @@
    {
     "date": "2026-11-04",
     "conf": 22
+   },
+   {
+    "date": "2026-11-05",
+    "conf": 25
    }
   ],
   "action": "Turn player input into the content",
-  "confidence": 22,
+  "confidence": 25,
+  "status": "Strengthened",
+  "evidence": {
+   "rationale": "Monster Maker (+42, 14 days) and Survive Your Ideas (+41, 30 days) were the second- and third-biggest Up-and-Coming risers today, but Make a Cartoon! left both Up-and-Coming and Top Trending. Evidence is mixed, so confidence goes up only a little."
+  }
+ },
+ {
+  "id": "H-mp-028",
+  "chart": "mp",
+  "statement": "Games from verified creators stay on Most Popular for more days than games from unverified creators",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 65
+   }
+  ],
+  "test": {
+   "feature": "creator_verified",
+   "metric": "mp_days",
+   "type": "binary",
+   "direction": "+"
+  },
+  "confidence": 65,
   "status": "New",
   "evidence": {
-   "rationale": "Today Draw a Flag! (25 days) is the third-best Top Trending climber (+17) despite a 51% like ratio, Survive Your Ideas (29 days) entered Up-and-Coming, and Monster Maker and Paint the Flag were profiled as new; Make a Cartoon! entered Up-and-Coming on 2026-11-01. Unlike the retired H-x-009 this is about the input becoming the game, not curiosity. Confirm if more such games enter the breakout charts over the next two weeks and hold mid-chart positions; refute if they fall off within a week like the everyday-device wave."
+   "effect": 0.266,
+   "p": 0.0003,
+   "n": 273,
+   "days": 0,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "DON'T LET HIM IN [NEW MAP]",
+    "Obby But You're on a Scooter",
+    "Jump Clicker 🚀"
+   ]
+  }
+ },
+ {
+  "id": "H-uc-054",
+  "chart": "uc",
+  "statement": "Games published by a group rank higher on Up-and-Coming than solo-developer games of the same age",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 67
+   }
+  ],
+  "action": "Publish under a group",
+  "test": {
+   "feature": "creator_group",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 67,
+  "status": "New",
+  "evidence": {
+   "effect": 0.441,
+   "p": 0.0168,
+   "n": 99,
+   "days": 11,
+   "consistency": 0.73,
+   "creator_robust": true,
+   "counterexamples": [
+    "Save the Krusty Krab 🍔",
+    "PORTALS",
+    "+1 Domino Per Step"
+   ]
+  }
+ },
+ {
+  "id": "H-uc-055",
+  "chart": "uc",
+  "statement": "Creature and monster-themed games rank higher on Up-and-Coming among games of the same age",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 79
+   }
+  ],
+  "action": "Build around creatures or monsters",
+  "test": {
+   "feature": "mech_creatures",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 79,
+  "status": "New",
+  "evidence": {
+   "effect": 0.354,
+   "p": 0.0395,
+   "n": 99,
+   "days": 31,
+   "consistency": 0.84,
+   "creator_robust": true,
+   "counterexamples": []
+  }
+ },
+ {
+  "id": "H-uc-056",
+  "chart": "uc",
+  "statement": "Games with mixed-style thumbnails (no single clear story) rank lower on Up-and-Coming among games of the same age",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 67
+   }
+  ],
+  "action": "Give every thumbnail one clear style",
+  "test": {
+   "feature": "thumb=mixed",
+   "metric": "uc_pos",
+   "type": "binary",
+   "direction": "-",
+   "strata": "age"
+  },
+  "confidence": 67,
+  "status": "New",
+  "evidence": {
+   "effect": -0.332,
+   "p": 0.0536,
+   "n": 99,
+   "days": 14,
+   "consistency": 0.57,
+   "creator_robust": true,
+   "counterexamples": [
+    "[UPDATE 1.0] 30 Floors Up"
+   ]
+  }
+ },
+ {
+  "id": "H-tt-058",
+  "chart": "tt",
+  "statement": "Young games built around clans or teams climb Top Trending faster than games of similar age without them",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 59
+   }
+  ],
+  "action": "Add teams or clans at launch",
+  "test": {
+   "feature": "mech_clans_teams",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 59,
+  "status": "New",
+  "evidence": {
+   "effect": 0.38,
+   "p": 0.0415,
+   "n": 75,
+   "days": 0,
+   "consistency": 1.0,
+   "creator_robust": true,
+   "counterexamples": [
+    "Punch Out Of Prison"
+   ]
+  }
+ },
+ {
+  "id": "H-tt-059",
+  "chart": "tt",
+  "statement": "Young games that mix co-op and PvP play climb Top Trending faster than games of similar age with a single social mode",
+  "kind": "tested",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 62
+   }
+  ],
+  "action": "Mix co-op with light PvP",
+  "test": {
+   "feature": "social=mixed",
+   "metric": "tt_mom",
+   "type": "binary",
+   "direction": "+",
+   "strata": "age"
+  },
+  "confidence": 62,
+  "status": "New",
+  "evidence": {
+   "effect": 0.247,
+   "p": 0.0792,
+   "n": 75,
+   "days": 14,
+   "consistency": 0.57,
+   "creator_robust": true,
+   "counterexamples": [
+    "Flying Tesla Roadster [Open World Update]",
+    "Realistic Car Destruction"
+   ]
+  }
+ },
+ {
+  "id": "H-x-030",
+  "chart": "x",
+  "statement": "Close recreations of a familiar block-building game (Minecraft 1.21.4, Lucky Block World, 1.8 KIT PVP) reach Up-and-Coming and Top Trending within their first month but hold mid-to-low positions",
+  "kind": "qualitative",
+  "created": "2026-11-05",
+  "history": [
+   {
+    "date": "2026-11-05",
+    "conf": 20
+   }
+  ],
+  "confidence": 20,
+  "status": "New",
+  "evidence": {
+   "rationale": "Today three such games were profiled at once: Minecraft 1.21.4 (21 days, Up-and-Coming #88, 5.6M visits), Lucky Block World (26 days, Up-and-Coming #91) and 1.8 KIT PVP (32 days, Top Trending #97). All sit near the bottom of their chart. Confirm if more enter and stay below #60 for two weeks; refute if one climbs into the top 30 or they all fall off within a week. Name recognition and IP risk are likely confounders."
   }
  }
 ]

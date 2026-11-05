@@ -1,0 +1,702 @@
+[
+ {
+  "label": "Q16",
+  "loop": "summon anime fighters -> fight 1v1/2v2 ranked (manual or auto) -> earn coins/gems -> summon more of 140+ fighters",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect fighters and climb ranked",
+  "progression": "fighter roster, ranked rating, coins, gems",
+  "instructions": "control your fighter or auto fight; collect 140+ fighters; fight 1v1 or 2v2",
+  "mechanics": [
+   "gacha summons",
+   "2D fighting",
+   "auto fight",
+   "ranked",
+   "rerolls"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "2D sprite anime fighter with gacha roster inside Roblox"
+  ],
+  "themes": [
+   "anime",
+   "fighting"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime-crossover",
+   "ranked"
+  ],
+  "monetization_signals": [
+   "direct fighter purchases 99-399",
+   "lucky/fast summons",
+   "2x coins/gems",
+   "extra reroll"
+  ],
+  "update_signals": [
+   "major updates every few days",
+   "Beta"
+  ],
+  "thumbnails": "anime crossover art, CLASH beam struggle, NOOB vs PRO",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "2D sprite fighter engine with 140 characters",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q17",
+  "loop": "join 8-player kart arena -> grab lucky blocks for weapons -> wreck rivals in 5-minute rounds -> earn coins -> unlock skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "get the most kills and top the leaderboard",
+  "progression": "coins, kart skins, leaderboard",
+  "instructions": "grab lucky blocks, use weapons, wreck rivals, earn coins per kill",
+  "mechanics": [
+   "kart combat",
+   "lucky blocks",
+   "short rounds",
+   "leaderboard"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "kart battle-royale arenas"
+  ],
+  "themes": [
+   "karts",
+   "weapons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "kart-battle"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "OP starter pack",
+   "ghost bundle",
+   "coins",
+   "gifting"
+  ],
+  "update_signals": [
+   "UPD tag"
+  ],
+  "thumbnails": "karts with minigun, hourglass 'NOW' icon",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "kart physics, weapons, arenas",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "pick race/clan via rerolls -> fight curses and players in open city -> climb sorcerer grades -> earn cursed techniques -> risk losses on death",
+  "loop_archetype": "combat_pvp",
+  "objectives": "climb sorcerer grades and gain cursed techniques",
+  "progression": "grades, techniques, race/clan rolls",
+  "instructions": "many keybinds: M1 attack, Q dash, F block/parry, J devour curse, P vehicle",
+  "mechanics": [
+   "melee combat",
+   "parry",
+   "race/clan rerolls",
+   "permadeath-ish penalties",
+   "open world"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "hardcore Jujutsu Kaisen open-world with containment of curses"
+  ],
+  "themes": [
+   "jujutsu kaisen",
+   "anime",
+   "Tokyo"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jjk",
+   "anime-battlegrounds"
+  ],
+  "monetization_signals": [
+   "race and clan rerolls up to 4500",
+   "private server"
+  ],
+  "update_signals": [
+   "Beta, code at likes goal"
+  ],
+  "thumbnails": "dark monochrome logo art only",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open-world city, deep combat kit",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q19",
+  "loop": "pick hero/villain power set -> fight other players with combos -> earn coins -> buy character skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "master powers and win PvP",
+  "progression": "coins, characters, skins",
+  "instructions": "master abilities, create combos, PvP battles; join group for bonus currency",
+  "mechanics": [
+   "superpowers",
+   "combos",
+   "pvp battlegrounds",
+   "character skins"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Marvel-inspired female-hero roster (Scarlet Witch etc.)"
+  ],
+  "themes": [
+   "superheroes",
+   "marvel",
+   "witches"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "marvel-battlegrounds",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "character passes 400-1450",
+   "bundles",
+   "VIP",
+   "gifting"
+  ],
+  "update_signals": [
+   "HALLOWEEN event"
+  ],
+  "thumbnails": "stylized female characters with powers, Halloween witch art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "ability VFX and character kits",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q20",
+  "loop": "gain +1 power per second -> fight waves for wins -> unlock devil fruits -> beat island bosses -> hatch pets, rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "beat the Pirate King and unlock all 30 fruits",
+  "progression": "power, wins, fruits, stages/islands, rebirth",
+  "instructions": "gain +1 power every second, fight waves, spend wins on fruits, press F special",
+  "mechanics": [
+   "+1 per second",
+   "wave fights",
+   "bosses",
+   "pets",
+   "auras",
+   "rebirth",
+   "auto fight"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "One Piece devil-fruit theme on +1 template"
+  ],
+  "themes": [
+   "one piece",
+   "pirates",
+   "fruits"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-per-second",
+   "one-piece"
+  ],
+  "monetization_signals": [
+   "exclusive fruits",
+   "x2 luck",
+   "trainer +1600%",
+   "stage teleports",
+   "auto rebirth"
+  ],
+  "update_signals": [
+   "daily rewards"
+  ],
+  "thumbnails": "+1 numbers, Lv1->Lv100 progression, devil fruits",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "stage maps with enemies, template UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q21",
+  "loop": "enroll -> attend timed classes for GPA/credits -> work campus jobs -> decorate dorm -> join Greek org -> graduate",
+  "loop_archetype": "roleplay_social",
+  "objectives": "go from freshman to graduation",
+  "progression": "credits, GPA, year, housing, cash",
+  "instructions": "choose major, attend classes, work shifts, join Greek org, graduate",
+  "mechanics": [
+   "roleplay",
+   "classes",
+   "jobs",
+   "housing decor",
+   "phone social feed"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Southern HBCU-flavoured college life RP with Greek life and graduation"
+  ],
+  "themes": [
+   "college",
+   "university",
+   "Greek life"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "life-rp",
+   "college"
+  ],
+  "monetization_signals": [
+   "honors student",
+   "2x pay/study",
+   "room designer",
+   "cash packs"
+  ],
+  "update_signals": [
+   "Saturday Commencement event"
+  ],
+  "thumbnails": "stylized students in dorms and campus",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "campus map, schedule and phone systems",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "pick map -> deploy troops (riflemen, mortars, tanks, boats) -> stop zombie waves -> earn coins/tokens -> unlock units",
+  "loop_archetype": "tower_defense",
+  "objectives": "hold the line against infected waves",
+  "progression": "troops, coins, naval tokens, difficulties",
+  "instructions": "build defenses, upgrade troops, stop infected; co-op",
+  "mechanics": [
+   "tower defense",
+   "waves",
+   "co-op",
+   "vehicles",
+   "endless mode"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "military trench zombie TD with naval flood maps"
+  ],
+  "themes": [
+   "military",
+   "zombies",
+   "WW1 trenches"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower-defense",
+   "zombies"
+  ],
+  "monetization_signals": [
+   "gunship",
+   "strike jet",
+   "VIP",
+   "2x coins",
+   "crates"
+  ],
+  "update_signals": [
+   "THE FLOOD UPDATE v0.24, frequent versioned patches"
+  ],
+  "thumbnails": "TRENCH LINE banners, SURVIVE 30 WAVES",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "unit AI, maps, waves",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q23",
+  "loop": "cast fishing line -> reel in K-pop idol cards -> place on base floors -> earn cash -> upgrade luck/strength -> trade",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect rarest idol cards",
+  "progression": "card rarity, luck tiers, base floors, pets",
+  "instructions": "cast your line, reel in idol cards, collect, trade",
+  "mechanics": [
+   "fishing",
+   "card collection",
+   "trading",
+   "base floors",
+   "luck tiers"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "fishing for K-pop idol photo cards"
+  ],
+  "themes": [
+   "k-pop",
+   "idols",
+   "fishing",
+   "cards"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "kpop",
+   "reel-a-x"
+  ],
+  "monetization_signals": [
+   "luck tiers",
+   "2x pull strength",
+   "money packs",
+   "collect all"
+  ],
+  "update_signals": [
+   "Halloween pets"
+  ],
+  "thumbnails": "idol photo card being reeled in, 3000+ cards, pets",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "base template with card images",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q24",
+  "loop": "hatch as tiny spider -> eat food to grow -> evolve on bug tree -> hunt with friends -> fight hourly boss -> become server king",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "evolve into the biggest insect and rule the server",
+  "progression": "evolution tiers (30+ insects), size",
+  "instructions": "hatch, eat, grow, evolve, team up, become king",
+  "mechanics": [
+   "evolution",
+   "eating/growth",
+   "hunting",
+   "boss events",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic bug evolution survival"
+  ],
+  "themes": [
+   "insects",
+   "spiders",
+   "nature"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolution",
+   "creature-sim"
+  ],
+  "monetization_signals": [
+   "buy next spider tier",
+   "special spider skins"
+  ],
+  "update_signals": [
+   "hourly Void Mosquito boss, new insects each update"
+  ],
+  "thumbnails": "realistic spiders in grass",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "creature rigs, open nature map",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "solo sandbox -> use 50+ weapons and gadgets on ragdolls -> destroy environment -> earn cash -> unlock weapons; event: kill zombies for brains",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "test every weapon and gadget on ragdolls",
+  "progression": "cash, weapons, upgrades, event items",
+  "instructions": "use weapons on ragdolls; everything destructible; code SANDBOX",
+  "mechanics": [
+   "ragdoll physics",
+   "destruction",
+   "weapons",
+   "events"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "single-player destructible ragdoll sandbox"
+  ],
+  "themes": [
+   "ragdoll",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "people-playground-like"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "weapons",
+   "admin",
+   "double cash",
+   "realistic blood"
+  ],
+  "update_signals": [
+   "Zombie Rush event",
+   "codes at like goals"
+  ],
+  "thumbnails": "white ragdoll dummies being exploded and hit by boulder",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "destructible environment and ragdoll tuning",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "2D ragdoll room -> grab, shoot, burn, explode the dummy with tools and powers -> spawn creatures",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with destruction tools on dummies",
+  "progression": "tools and powers unlocked",
+  "instructions": "left click grab/fling, right click use item, G slow motion; code RELEASE",
+  "mechanics": [
+   "2D ragdoll",
+   "powder physics (sand/water/lava)",
+   "powers",
+   "spawning"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "2D falling-sand ragdoll playground inside Roblox, anime power injections"
+  ],
+  "themes": [
+   "ragdoll",
+   "anime",
+   "sandbox"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "anime-powers"
+  ],
+  "monetization_signals": [
+   "everything bundle",
+   "powers pack",
+   "random power",
+   "tips up to 5000"
+  ],
+  "update_signals": [
+   "INJECTIONS update"
+  ],
+  "thumbnails": "pixel dummy dartboard, anime characters (Gojo, Dio) vs dummy",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom 2D physics/particle simulation",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q27",
+  "loop": "act as journalist -> photograph park events -> broadcast to provoke panic or hope -> reach different endings",
+  "loop_archetype": "story_adventure",
+  "objectives": "choose to spread chaos or bring hope; find endings",
+  "progression": "story endings, hints",
+  "instructions": "take photos as a Big Media journalist; the choice is yours",
+  "mechanics": [
+   "photography",
+   "narrative choice",
+   "multiple endings",
+   "hints"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "adaptation of 'We Become What We Behold' as Roblox story game"
+  ],
+  "themes": [
+   "media",
+   "news",
+   "satire"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "story-game"
+  ],
+  "monetization_signals": [
+   "hints",
+   "god mode sandbox",
+   "draw your OC",
+   "camera skins",
+   "early access"
+  ],
+  "update_signals": [
+   "STORY tag"
+  ],
+  "thumbnails": "stick-figure scream, NEWS banner, GOOD ENDING? text",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple 2D-style art, scripted story",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q28",
+  "loop": "click for +1 chakra -> unlock 128+ anime eyes -> fight 15 stages of bosses -> hatch pets, auras -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "unlock the strongest eyes (Sharingan, Rinnegan, Six Eyes)",
+  "progression": "chakra, eyes, stages, trophies, rebirth",
+  "instructions": "gain +1 chakra per click, unlock eyes, fight bosses; offline growth; codes",
+  "mechanics": [
+   "+1 per click",
+   "eye unlocks",
+   "bosses",
+   "pets",
+   "auras",
+   "rebirth",
+   "offline progress"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "anime eyes (Naruto/JJK) as the collectible"
+  ],
+  "themes": [
+   "naruto",
+   "anime eyes"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-per-click",
+   "anime"
+  ],
+  "monetization_signals": [
+   "46 passes up to 4999 bundles",
+   "x512 chakra",
+   "pets",
+   "skip boss",
+   "revive"
+  ],
+  "update_signals": [
+   "UPD world update",
+   "codes"
+  ],
+  "thumbnails": "close-up anime eyes (Sharingan, Rinnegan)",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template stage maps; big pass catalogue",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "two players get a logo -> drag pieces from memory before time runs out -> closest match wins -> unlock chairs",
+  "loop_archetype": "party_minigames",
+  "objectives": "build the logo closest to the real one",
+  "progression": "wins, streaks, chairs, leaderboard",
+  "instructions": "build the logo from memory; drag pieces in time",
+  "mechanics": [
+   "memory",
+   "drag-and-drop",
+   "1v1 rounds",
+   "accuracy score"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "logo-from-memory 1v1 drawing contest"
+  ],
+  "themes": [
+   "logos",
+   "brands"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "1v1-table-game",
+   "guess-the-x"
+  ],
+  "monetization_signals": [
+   "spins",
+   "show logo (OP)",
+   "2x wins/streak",
+   "coin packs"
+  ],
+  "update_signals": [
+   "daily rewards"
+  ],
+  "thumbnails": "two avatars at table with % accuracy on McDonald's/Audi/Nintendo logos",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "tables, 2D piece UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "spawn cars -> crash them into machines (wrecking ball, press, hammer) -> watch soft-body bending -> earn cash/XP -> unlock cars",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "destroy cars in satisfying ways",
+  "progression": "cash, XP, cars, machines",
+  "instructions": "crash cars, use demolition machines, explosives, guns; free private servers",
+  "mechanics": [
+   "car crash physics",
+   "demolition machines",
+   "explosives"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "mesh-deformation car crash sandbox (BeamNG-like)"
+  ],
+  "themes": [
+   "cars",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "car-crash",
+   "destruction"
+  ],
+  "monetization_signals": [
+   "explosives",
+   "guns",
+   "VIP",
+   "try a car",
+   "lab items"
+  ],
+  "update_signals": [
+   "more cars as likes rise"
+  ],
+  "thumbnails": "cars hit by wrecking ball, crushed, burning; screaming avatar",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "soft-body deformation",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

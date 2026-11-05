@@ -1,0 +1,670 @@
+[
+ {
+  "label": "Q46",
+  "loop": "enter hotel run -> open doors room by room -> survive entities with hiding and items -> earn knobs -> buy items/revives",
+  "loop_archetype": "horror_escape",
+  "objectives": "reach the end of the run alive",
+  "progression": "floors, knobs, achievements",
+  "instructions": "enter without a guide; learn from deaths",
+  "mechanics": [
+   "room-by-room run",
+   "entity avoidance",
+   "hiding",
+   "revives",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "entity-based horror run with learn-by-dying design"
+  ],
+  "themes": [
+   "horror",
+   "hotel",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "horror-doors",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "revives",
+   "knobs",
+   "admin panel",
+   "event pass"
+  ],
+  "update_signals": [
+   "Halloween estate event ends Nov 8"
+  ],
+  "thumbnails": "dark doors with monsters, DOORS logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "procedural rooms, many entities",
+  "novelty": 2,
+  "confidence": 90
+ },
+ {
+  "label": "Q47",
+  "loop": "pick anime character -> clear dimension stages and raids -> collect cards, accessories, pets -> reroll substats -> gacha",
+  "loop_archetype": "story_adventure",
+  "objectives": "clear raids and build the strongest character",
+  "progression": "levels, cards, accessories, gacha characters",
+  "instructions": "full update log in game",
+  "mechanics": [
+   "co-op dungeons",
+   "raids",
+   "gacha",
+   "substat rerolls",
+   "auto combat"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "long-lived anime dungeon gacha with constant QoL updates"
+  ],
+  "themes": [
+   "anime",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime-gacha",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "gems up to 799",
+   "2x gold/exp hourly",
+   "extra drop",
+   "VIP"
+  ],
+  "update_signals": [
+   "Big Improvements Part 2 (Nov 2), Halloween dimension"
+  ],
+  "thumbnails": "anime character art, 2X EXP, pumpkin",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "many characters with abilities",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "climb obby stages while shrinking each stage -> pick up players half your size -> reach 142 stages",
+  "loop_archetype": "obby_platformer",
+  "objectives": "finish all stages until you are an atom",
+  "progression": "stage number (142)",
+  "instructions": "get smaller each stage; can pick up players half your size",
+  "mechanics": [
+   "shrinking",
+   "difficulty chart obby",
+   "carry players"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "shrinking scale as difficulty driver"
+  ],
+  "themes": [
+   "shrinking",
+   "obby"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "obby-but"
+  ],
+  "monetization_signals": [
+   "money trail",
+   "donation products"
+  ],
+  "update_signals": [
+   "near-daily patches"
+  ],
+  "thumbnails": "plain white obby with stage labels",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "basic parts obby",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q49",
+  "loop": "enter Squid Game-style rounds -> survive deadly minigames -> be last standing or rebel -> earn won -> buy boosts and guard role",
+  "loop_archetype": "party_minigames",
+  "objectives": "be the last one standing or escape with friends",
+  "progression": "won currency, boosts, endings",
+  "instructions": "survive deadly challenges; 3 endings",
+  "mechanics": [
+   "elimination minigames",
+   "voting",
+   "rebellion",
+   "guard role"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Squid Game minigames with alternate endings"
+  ],
+  "themes": [
+   "squid game",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "squid-game",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "won packs up to 1499",
+   "permanent guard",
+   "glass vision",
+   "VIP"
+  ],
+  "update_signals": [
+   "Halloween event"
+  ],
+  "thumbnails": "hooded figures and anime girl art, SKY SQUID GAMES",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many minigames, 100-player servers",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q50",
+  "loop": "start as prisoner -> break out -> rob bank and stores -> buy cars and guns; or play cop -> arrest criminals",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build a criminal empire or enforce the law",
+  "progression": "cash, vehicles, guns",
+  "instructions": "escape prison, rob banks, collect cars/guns, or be cop",
+  "mechanics": [
+   "cops vs robbers",
+   "robberies",
+   "vehicles",
+   "guns"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "Jailbreak-like open world with motorcycles update"
+  ],
+  "themes": [
+   "prison",
+   "police",
+   "city"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cops-and-robbers"
+  ],
+  "monetization_signals": [
+   "Mafia Boss",
+   "SWAT",
+   "cash tiers up to 4700"
+  ],
+  "update_signals": [
+   "Oct 30 motorcycles update"
+  ],
+  "thumbnails": "orange-jumpsuit prisoners on motorbikes, supercar, bank lasers",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open-world city, vehicles, heists",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q51",
+  "loop": "one player is killer, others survivors -> hide and escape or kill all -> earn coins -> buy knives, killers, cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape as survivor or kill everyone as killer",
+  "progression": "levels, coins, gems, killer roster",
+  "instructions": "survivors hide and save teammates; killer kills before time runs out",
+  "mechanics": [
+   "1 vs all",
+   "hiding",
+   "rescue",
+   "trading"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "veteran asymmetric killer game"
+  ],
+  "themes": [
+   "slasher",
+   "horror"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "1v-all"
+  ],
+  "monetization_signals": [
+   "killer bundles 799-899",
+   "3x killer chance",
+   "coins up to 3999",
+   "trading VIP"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "skull-masked killer, chef killer with knife",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many maps and killers",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q52",
+  "loop": "pick a licensed car -> customize parts -> drive and roleplay in small American town -> work jobs -> earn cash",
+  "loop_archetype": "roleplay_social",
+  "objectives": "drive your favourite cars and roleplay",
+  "progression": "car collection, cash, houses",
+  "instructions": "choose and drive hundreds of cars; roleplay jobs",
+  "mechanics": [
+   "driving",
+   "car customization",
+   "jobs",
+   "houses"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "licensed real-world cars with deep customization"
+  ],
+  "themes": [
+   "cars",
+   "small town",
+   "america"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "car-rp"
+  ],
+  "monetization_signals": [
+   "vehicle category access passes",
+   "cash up to 3000",
+   "private servers"
+  ],
+  "update_signals": [
+   "autumn update, avatar editor"
+  ],
+  "thumbnails": "realistic sports cars and station wagon",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "hundreds of detailed cars, big map",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q53",
+  "loop": "step on pad -> 1v1 to 4v4 first-person duel with knife and revolver -> first to 5 -> unlock and trade skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels and collect skins",
+  "progression": "skins, coins",
+  "instructions": "step on a pad; first to 5 wins; knife and revolver with abilities",
+  "mechanics": [
+   "first-person duels",
+   "abilities",
+   "skin trading",
+   "team sizes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "MM2 weapons in arena duel format"
+  ],
+  "themes": [
+   "murder mystery",
+   "duels"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "duels"
+  ],
+  "monetization_signals": [
+   "coins up to 10000",
+   "release pack 1199",
+   "skins"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "red vs blue fedora avatars with knife and revolver",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "FPS duel netcode",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q54",
+  "loop": "fight boss mosquitoes for eggs -> hatch mosquitoes -> feed them blood -> earn income per second -> upgrade base and weapons",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "collect the rarest mosquitoes and highest income",
+  "progression": "income per second, rarity, weapons, health",
+  "instructions": "fight bosses for eggs, feed mosquitoes, upgrade base and weapons",
+  "mechanics": [
+   "boss fights",
+   "hatching",
+   "feeding",
+   "income per second",
+   "buff wheel"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "feeding mosquitoes with your own arm"
+  ],
+  "themes": [
+   "mosquitoes",
+   "bugs",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "feed-a-x"
+  ],
+  "monetization_signals": [
+   "fast pick/hatch",
+   "double income",
+   "health packs",
+   "weapons"
+  ],
+  "update_signals": [
+   "V5 update, Halloween limited mosquitoes"
+  ],
+  "thumbnails": "giant mosquito biting arm -9,999,999, NOOB vs PRO 1/s vs 10,000/s, 0.001%",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template base",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q55",
+  "loop": "party of 4 -> run dungeon worlds -> fight with attack/block/parry/dash -> loot weapons -> upgrade -> protect Mother Tree",
+  "loop_archetype": "story_adventure",
+  "objectives": "beat worlds and raids, obtain rarest weapons",
+  "progression": "weapons, levels, worlds, wishes",
+  "instructions": "right click block/parry, left click attack, Q dash; use code SPOOKY",
+  "mechanics": [
+   "melee combat",
+   "parry",
+   "dungeon roguelite",
+   "loot",
+   "raids"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "pixel-weapon roguelite dungeon crawler"
+  ],
+  "themes": [
+   "fantasy",
+   "pixel"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dungeon-crawler"
+  ],
+  "monetization_signals": [
+   "wishes up to 799",
+   "VIP",
+   "godly potions",
+   "gold packs"
+  ],
+  "update_signals": [
+   "v2.2.4, Spooky Boss Showdown"
+  ],
+  "thumbnails": "pixel weapon art, combat screenshots, boss",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "combat system, many worlds",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q56",
+  "loop": "surf to sea animals -> avoid sharks -> rescue and clean dirty pets -> bring to base -> earn -> explore islands",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "rescue and collect sea pets",
+  "progression": "animals, boards, islands, base",
+  "instructions": "rescue sea pets, avoid sharks, clean pets, explore islands, build base",
+  "mechanics": [
+   "surfing",
+   "rescue",
+   "cleaning",
+   "collection",
+   "hazards"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "rescue-and-clean framing of steal template"
+  ],
+  "themes": [
+   "sea animals",
+   "beach"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean-the-x",
+   "rescue-x"
+  ],
+  "monetization_signals": [
+   "recover animals",
+   "boards",
+   "auto-clean",
+   "x2 unlock speed"
+  ],
+  "update_signals": [
+   "mushroom island update"
+  ],
+  "thumbnails": "pressure-washing a sand-covered axolotl/whale shark, angler fish chase",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template with surf and wash effect",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q57",
+  "loop": "fly aircraft over zombie horde -> rockets and air strikes -> drop defenses for allies -> earn credits -> unlock 180 upgrades and new aircraft",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "push the front line through every season",
+  "progression": "aircraft, upgrades, credits",
+  "instructions": "take the controls, rain down fire, hold the line with allies",
+  "mechanics": [
+   "flying vehicles",
+   "horde shooting",
+   "co-op",
+   "upgrades"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "air-support vs massive zombie horde"
+  ],
+  "themes": [
+   "military aircraft",
+   "zombies"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "zombie-horde",
+   "military"
+  ],
+  "monetization_signals": [
+   "aircraft passes 249-799",
+   "credit packs",
+   "crates",
+   "spins"
+  ],
+  "update_signals": [
+   "Alpha, Halloween, codes"
+  ],
+  "thumbnails": "B-2 bomber over zombie crowd, gunship VFX",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many aircraft and horde rendering",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q58",
+  "loop": "cast lure -> follow it underwater -> watch bass strike -> fight fish in -> sell -> buy better rods, reels, lures, boat",
+  "loop_archetype": "simulation_job",
+  "objectives": "land the big bass",
+  "progression": "gear, cash",
+  "instructions": "aim cast, follow lure, set hook, switch lures",
+  "mechanics": [
+   "fishing",
+   "lure control",
+   "boat driving",
+   "day/night"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic bass fishing on recreated real lake"
+  ],
+  "themes": [
+   "fishing",
+   "nature"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "fishing"
+  ],
+  "monetization_signals": [
+   "Halloween wrap",
+   "2x sell",
+   "cash packs"
+  ],
+  "update_signals": [
+   "Halloween wrap"
+  ],
+  "thumbnails": "underwater bass chasing lure",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic lake recreation, fish AI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q59",
+  "loop": "enter building -> steal loot in limited time while entity hunts (heavier loot slows you) -> hide -> escape; or play as monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape with the most valuable loot",
+  "progression": "cash, cases, cosmetics",
+  "instructions": "loot the building, hide, or be the monster",
+  "mechanics": [
+   "looting",
+   "weight tradeoff",
+   "hiding",
+   "asymmetric monster",
+   "voice detection"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "greed-vs-speed loot horror with player monster"
+  ],
+  "themes": [
+   "horror",
+   "heist"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal-a-x",
+   "horror-monster"
+  ],
+  "monetization_signals": [
+   "cash up to 5999",
+   "2x entity chance",
+   "cases",
+   "kill FX"
+  ],
+  "update_signals": [
+   "v1.9 door holding, slides"
+  ],
+  "thumbnails": "dark monster art, IT WON'T LET YOU GO",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "monster AI, VR support",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q60",
+  "loop": "choose criminal or police -> rob locations or arrest -> buy cars and weapons -> rule server",
+  "loop_archetype": "roleplay_social",
+  "objectives": "rob or catch criminals",
+  "progression": "cash, vehicles, garage",
+  "instructions": "organize a robbery or catch criminals",
+  "mechanics": [
+   "cops vs robbers",
+   "robberies",
+   "vehicles"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "the original cops vs robbers"
+  ],
+  "themes": [
+   "prison",
+   "police"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cops-and-robbers"
+  ],
+  "monetization_signals": [
+   "VIP lifetime",
+   "garage",
+   "crime boss",
+   "SWAT"
+  ],
+  "update_signals": [
+   "Fall 2026 update, December teaser"
+  ],
+  "thumbnails": "prisoner on motorbike, police heli, gameplay UI",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "long-running studio game",
+  "novelty": 1,
+  "confidence": 90
+ }
+]

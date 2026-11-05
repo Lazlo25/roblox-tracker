@@ -1,0 +1,31 @@
+{
+  "new": [
+    {"chart": "mp", "statement": "Games from verified creators stay on Most Popular for more days than games from unverified creators",
+     "test": {"feature": "creator_verified", "metric": "mp_days", "type": "binary", "direction": "+"}},
+    {"chart": "uc", "statement": "Games published by a group rank higher on Up-and-Coming than solo-developer games of the same age",
+     "action": "Publish under a group",
+     "test": {"feature": "creator_group", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Creature and monster-themed games rank higher on Up-and-Coming among games of the same age",
+     "action": "Build around creatures or monsters",
+     "test": {"feature": "mech_creatures", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with mixed-style thumbnails (no single clear story) rank lower on Up-and-Coming among games of the same age",
+     "action": "Give every thumbnail one clear style",
+     "test": {"feature": "thumb=mixed", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games built around clans or teams climb Top Trending faster than games of similar age without them",
+     "action": "Add teams or clans at launch",
+     "test": {"feature": "mech_clans_teams", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games that mix co-op and PvP play climb Top Trending faster than games of similar age with a single social mode",
+     "action": "Mix co-op with light PvP",
+     "test": {"feature": "social=mixed", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Close recreations of a familiar block-building game (Minecraft 1.21.4, Lucky Block World, 1.8 KIT PVP) reach Up-and-Coming and Top Trending within their first month but hold mid-to-low positions",
+     "rationale": "Today three such games were profiled at once: Minecraft 1.21.4 (21 days, Up-and-Coming #88, 5.6M visits), Lucky Block World (26 days, Up-and-Coming #91) and 1.8 KIT PVP (32 days, Top Trending #97). All sit near the bottom of their chart. Confirm if more enter and stay below #60 for two weeks; refute if one climbs into the top 30 or they all fall off within a week. Name recognition and IP risk are likely confounders."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-027", "confidence": 40, "note": "In the first full November week several Halloween-tagged games left charts on the same day: Dead Rails [EVENT] left Most Popular; Infectious Smile [HALLOWEEN], Roll a Barber RNG and Elemental Dungeons left Top Earning; Ink Game and The Mimic left Top Trending. Games that shipped a follow-up (Anime Dimensions' Nov 2 update) held their place."},
+    {"id": "H-x-029", "confidence": 25, "note": "Monster Maker (+42, 14 days) and Survive Your Ideas (+41, 30 days) were the second- and third-biggest Up-and-Coming risers today, but Make a Cartoon! left both Up-and-Coming and Top Trending. Evidence is mixed, so confidence goes up only a little."},
+    {"id": "H-x-019", "confidence": 56, "note": "DONT SPLASH (19 days) is again among the best on both Most Popular and Up-and-Coming; MOUSE entered Most Popular but left Up-and-Coming on the same day."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,690 @@
+[
+ {
+  "label": "Q31",
+  "loop": "climb a tower while the Rake monster hunts players -> group up -> use slaps/items to troll others -> reach the top",
+  "loop_archetype": "obby_platformer",
+  "objectives": "survive the Rake and reach the top",
+  "progression": "slap weapons, tower completion",
+  "instructions": "don't trust the Rake, keep climbing, group up",
+  "mechanics": [
+   "tower climb",
+   "monster chase",
+   "slap weapons",
+   "trolling"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "horror monster chase combined with troll slap tower"
+  ],
+  "themes": [
+   "rake",
+   "horror",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "climb-the-x-tower",
+   "horror-monster"
+  ],
+  "monetization_signals": [
+   "slap weapons up to 1479",
+   "kill everyone 967",
+   "finish tower",
+   "revenge"
+  ],
+  "update_signals": [
+   "next update: eat the rakes back"
+  ],
+  "thumbnails": "creepy Rake creature on stairs",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower stairs, one monster AI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "solo playground -> shoot, shove, blow up, run over active-ragdoll dummies that live and fight back -> earn gems -> unlock packs",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause chaos with realistic ragdoll reactions",
+  "progression": "gems, weapon crates, packs",
+  "instructions": "shoot, shove, blow up, drive cars into dummies; grab and throw",
+  "mechanics": [
+   "active ragdoll",
+   "weapons",
+   "vehicles",
+   "explosive barrels",
+   "NPC routines"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "active-ragdoll dummies with daily routines that fight back (Euphoria-like)"
+  ],
+  "themes": [
+   "ragdoll",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "realistic-x"
+  ],
+  "monetization_signals": [
+   "2x gems",
+   "superpowers",
+   "nuclear pack",
+   "weapon crates",
+   "build/sandbox mode"
+  ],
+  "update_signals": [
+   "UPD tag"
+  ],
+  "thumbnails": "REALISTIC RAGDOLL PLAYGROUND, MULTIPLAYER PVP, DRIVE CARS text",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "active ragdoll physics and NPC behaviours",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q33",
+  "loop": "sit as passenger -> shout or pick commands (turn, brake, honk) to granny driver -> survive themed lessons -> earn coins -> unlock cars/drivers",
+  "loop_archetype": "party_minigames",
+  "objectives": "pass every driving lesson without crashing",
+  "progression": "lessons, coins, cars, drivers",
+  "instructions": "use voice chat (hold space) or Q to give granny commands",
+  "mechanics": [
+   "voice-command input",
+   "driving lessons",
+   "comedy NPC",
+   "obstacles"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "voice-chat speech recognition to command an NPC driver"
+  ],
+  "themes": [
+   "granny",
+   "driving",
+   "comedy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "granny",
+   "voice-chat"
+  ],
+  "monetization_signals": [
+   "skip lesson",
+   "unlock all vehicles 1299",
+   "ultimate pass 1999",
+   "infinite revives"
+  ],
+  "update_signals": [
+   "new lessons coming soon"
+  ],
+  "thumbnails": "granny at wheel, BRAKE!!, SHE CAN'T DRIVE!",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "voice command integration, scripted lessons",
+  "novelty": 3,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "sweep moon dust -> sell -> upgrade broom, backpack, boots -> unlock robots and rovers to automate -> expand base -> new craters",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "clean the entire Moon",
+  "progression": "gear, base, zones/craters, automation",
+  "instructions": "sweep dust, sell, upgrade, unlock robots, build lunar base",
+  "mechanics": [
+   "sweeping",
+   "selling",
+   "automation robots",
+   "base building",
+   "zones"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "huge-object cleaning (clean the Moon) with visible progress"
+  ],
+  "themes": [
+   "moon",
+   "space",
+   "cleaning"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean-the-x",
+   "giant-object"
+  ],
+  "monetization_signals": [
+   "permanent vacuums 279-799",
+   "infinite capacity",
+   "timed/one-run boosts",
+   "gems"
+  ],
+  "update_signals": [
+   "Halloween tag"
+  ],
+  "thumbnails": "broom scrubbing a face off the moon, astronaut sweeping",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "terrain cleaning mask on one map",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q35",
+  "loop": "run out to roll an egg -> ride it back while animals chase you -> collect animals in pen -> earn cash offline -> train speed",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare animals and travel further for luck",
+  "progression": "speed, pen slots, animal rarity, mutations",
+  "instructions": "roll an egg and run back alive; escape animals; train speed",
+  "mechanics": [
+   "run-and-return",
+   "chasers",
+   "pets earn cash",
+   "fusing",
+   "mutations",
+   "offline income"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "riding the hatched creature back as the escape"
+  ],
+  "themes": [
+   "eggs",
+   "dragons",
+   "animals"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "run-back-alive",
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "auto grow/hatch/fuse",
+   "x2 money/luck",
+   "trails",
+   "pen slots"
+  ],
+  "update_signals": [
+   "Hacker Event, codes"
+  ],
+  "thumbnails": "avatar riding dragons, HACKER skull",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template track with chasing NPCs",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q36",
+  "loop": "spawn in city -> fight players with realistic guns -> lose weapons on death, loot others -> farm cash -> buy cars, camo -> form crews",
+  "loop_archetype": "combat_pvp",
+  "objectives": "dominate the city with your crew",
+  "progression": "cash, weapons, cars, crew, leaderboard",
+  "instructions": "PvP in city streets; you lose weapons on death; loot enemies; farm money",
+  "mechanics": [
+   "gun pvp",
+   "full-loot",
+   "crews",
+   "cases",
+   "cars"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "French-language urban drill-style full-loot shooter"
+  ],
+  "themes": [
+   "urban",
+   "guns",
+   "streetwear"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "hood-rp",
+   "gun-pvp"
+  ],
+  "monetization_signals": [
+   "cash packs up to 29999",
+   "kill effects up to 1599",
+   "crew/clan",
+   "skip case animation"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "streetwear avatars, red camo AK, rocket launcher",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city map, gun system",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q37",
+  "loop": "steal dumplings from others -> bring to base -> grow them for cash -> buy speed multipliers -> steal rarer ones",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect the rarest dumplings",
+  "progression": "income, dumpling rarity, speed",
+  "instructions": "use codes like500 and dumpling2026",
+  "mechanics": [
+   "stealing",
+   "base",
+   "growth",
+   "speed multipliers"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "dumpling theme on steal template"
+  ],
+  "themes": [
+   "dumplings",
+   "food"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "x2 growth/money",
+   "VIP",
+   "speed multipliers 3-649"
+  ],
+  "update_signals": [
+   "codes at like goals"
+  ],
+  "thumbnails": "cute dumplings carried by avatar, GEM DUMPLING",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "steal template",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q38",
+  "loop": "punch walls -> grab rubble and sell at grinder -> upgrade fists, unlock tools -> smash vaults for gems -> escape 5 floors fast",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "escape all floors with best time",
+  "progression": "fists, tools, gems, chapters",
+  "instructions": "punch walls, sell rubble, upgrade, escape 5 floors",
+  "mechanics": [
+   "punching",
+   "selling",
+   "tool unlocks",
+   "speedrun",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "chapter-based story (prison then alien abduction) on punch-walls template"
+  ],
+  "themes": [
+   "prison",
+   "aliens",
+   "walls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "punch-to-escape",
+   "escape-the-x"
+  ],
+  "monetization_signals": [
+   "tools forever",
+   "one-round tools",
+   "gems",
+   "VIP"
+  ],
+  "update_signals": [
+   "Chapter 3",
+   "codes"
+  ],
+  "thumbnails": "first-person fist through tiles, sledgehammer, explosion",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "destructible wall grids",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "adopt pets -> care for them to grow -> trade and collect legendaries -> build home -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect and trade legendary pets",
+  "progression": "pet age/neon, trading value, house",
+  "instructions": "adopt and raise pets, trade, build home, roleplay",
+  "mechanics": [
+   "pet care",
+   "trading",
+   "house building",
+   "events",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "veteran pet trading economy"
+  ],
+  "themes": [
+   "pets",
+   "family",
+   "halloween"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "pet-trading",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "bucks packs up to 3910",
+   "VIP",
+   "premium plots",
+   "candy event currency"
+  ],
+  "update_signals": [
+   "Halloween Wagon",
+   "admin abomination"
+  ],
+  "thumbnails": "cute ghostly pet and adoption scenes with ADOPT ME branding",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "studio-scale live game",
+  "novelty": 2,
+  "confidence": 90
+ },
+ {
+  "label": "Q40",
+  "loop": "pick a toon -> team up to complete machines on floors -> avoid mascot Twisteds -> descend deeper -> collect toons and trinkets",
+  "loop_archetype": "horror_escape",
+  "objectives": "descend deeper into Gardenview Center",
+  "progression": "toons, trinkets, research, floors",
+  "instructions": "team up, complete machines, collect toons and trinkets",
+  "mechanics": [
+   "co-op survival",
+   "machines",
+   "monster chase",
+   "character abilities"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "mascot-horror roguelite with collectible toon roster"
+  ],
+  "themes": [
+   "mascot horror",
+   "cartoon"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "mascot-horror",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "cosmetic bundles",
+   "ichor",
+   "event currencies"
+  ],
+  "update_signals": [
+   "v0.29.11, last week of Halloween"
+  ],
+  "thumbnails": "colourful toon characters and dark monster",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom toon art, floor generation",
+  "novelty": 2,
+  "confidence": 90
+ },
+ {
+  "label": "Q41",
+  "loop": "spawn in map -> parkour and evade nextbots -> revive teammates -> earn tokens/xp -> buy cosmetics and battlepass",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the nextbots each round",
+  "progression": "levels, tokens, cosmetics, battlepass",
+  "instructions": "press play; survive nextbots with movement",
+  "mechanics": [
+   "parkour movement",
+   "nextbots",
+   "revives",
+   "battlepass",
+   "weekly missions"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "movement-tech nextbot evasion"
+  ],
+  "themes": [
+   "nextbots",
+   "halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbot",
+   "halloween"
+  ],
+  "monetization_signals": [
+   "auras up to 1200",
+   "cosmetic sets",
+   "tokens",
+   "custom nextbot"
+  ],
+  "update_signals": [
+   "Halloween event, weekly missions, codebase rewrite"
+  ],
+  "thumbnails": "stylized characters in neon/Halloween scenes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "advanced movement, many maps",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q42",
+  "loop": "be an egg bought by players then steal their pets, or buy eggs (some fake) -> hatch pets -> earn cash -> fuse",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect pets while avoiding fake eggs",
+  "progression": "pets, pet slots, cash, mutations",
+  "instructions": "be an egg: people buy you, then you steal their pets",
+  "mechanics": [
+   "role asymmetry",
+   "deception",
+   "hatching",
+   "stealing",
+   "offline mutation"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "play as a fake egg to trick buyers (social deception on hatch template)"
+  ],
+  "themes": [
+   "eggs",
+   "pets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fake-a-x",
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "skip egg timers 1-99",
+   "scan jam",
+   "x2 hatch/cash",
+   "pet slots"
+  ],
+  "update_signals": [
+   "lab theme"
+  ],
+  "thumbnails": "avatar hidden inside eggshell with YOU arrow; plain eggs",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "hatch template plus player-as-egg",
+  "novelty": 3,
+  "confidence": 70
+ },
+ {
+  "label": "Q43",
+  "loop": "make avatar and family -> pick a house -> roleplay daily life with phone apps -> buy vehicles and houses",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live a life with friends",
+  "progression": "houses, vehicles, items",
+  "instructions": "roleplay life; try promoted toys",
+  "mechanics": [
+   "roleplay",
+   "phone apps",
+   "houses",
+   "vehicles"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "brand-integrated life RP (XSHOT)"
+  ],
+  "themes": [
+   "family",
+   "life"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "life-rp"
+  ],
+  "monetization_signals": [
+   "houses 749",
+   "vehicles 295",
+   "wallpapers",
+   "sticker packs"
+  ],
+  "update_signals": [
+   "new app at 1M likes"
+  ],
+  "thumbnails": "selfie-style girls and families with phone UI",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large town map, phone UI",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q44",
+  "loop": "choose family/perks -> use ODM gear to kill titans with team -> raid shifters -> earn gold/drops -> spin families",
+  "loop_archetype": "combat_pvp",
+  "objectives": "defeat titans and gain shifter abilities",
+  "progression": "families, perks, upgrades, artifacts",
+  "instructions": "customize ODM play style; raid shifters; join group",
+  "mechanics": [
+   "ODM grappling",
+   "co-op raids",
+   "family spins",
+   "perks"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "polished Attack on Titan ODM movement"
+  ],
+  "themes": [
+   "attack on titan",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "aot"
+  ],
+  "monetization_signals": [
+   "Ymir's Blessing 4149",
+   "spins up to 1250",
+   "bags",
+   "VIP"
+  ],
+  "update_signals": [
+   "UPDATE 5, code at 1.5M likes"
+  ],
+  "thumbnails": "anime-quality AoT character art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "ODM physics, titan AI, raids",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q45",
+  "loop": "place towers -> defend against zombie waves -> beat bosses -> earn coins -> unlock towers",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat harder modes and bosses",
+  "progression": "towers, levels, coins, gems",
+  "instructions": "place units, team up, beat bosses to unlock units",
+  "mechanics": [
+   "tower defense",
+   "co-op",
+   "bosses",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "genre-defining TD with limited-time towers"
+  ],
+  "themes": [
+   "zombies",
+   "military"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower-defense"
+  ],
+  "monetization_signals": [
+   "premium towers up to 7999",
+   "limited towers",
+   "coins/gems"
+  ],
+  "update_signals": [
+   "v2.17.0 Solar Requiem Night IV"
+  ],
+  "thumbnails": "epic tower/boss illustrations",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "long-running studio game",
+  "novelty": 1,
+  "confidence": 90
+ }
+]
