@@ -1,8 +1,8 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "queue": [
   {
-   "age_days": 2323,
+   "age_days": 2324,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1067,
+   "age_days": 1068,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2669,
+   "age_days": 2670,
    "charts": [
     "te"
    ],
@@ -32,7 +32,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 670,
+   "age_days": 671,
    "charts": [
     "te"
    ],
@@ -40,16 +40,6 @@
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
-  },
-  {
-   "age_days": 3416,
-   "charts": [
-    "te"
-   ],
-   "name": "Greenville RP (🦇HALLOWEEN!)",
-   "place": "891852901",
-   "status": "youtube_needed",
-   "u": "371263894"
   }
  ],
  "waiting": [
