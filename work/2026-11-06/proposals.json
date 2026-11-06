@@ -1,0 +1,33 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Horror-escape loops rank higher on Up-and-Coming than other games of the same age",
+     "action": "Try a horror escape for breakout",
+     "test": {"feature": "loop=horror_escape", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games whose median developer product costs more than 136 Robux rank lower on Up-and-Coming among games of the same age",
+     "action": "Keep launch dev products under 136 R$",
+     "test": {"feature": "products_median_price", "metric": "uc_pos", "type": "threshold", "cut": 136, "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young cash-tycoon games hold lower Top Trending positions than games of similar age",
+     "action": "Skip cash-tycoon loops for trending",
+     "test": {"feature": "mech_tycoon_base", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games whose descriptions ask players to like the game climb Top Trending more slowly than games of similar age",
+     "action": "Don't beg for likes at launch",
+     "test": {"feature": "cta_like", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 35,
+     "statement": "Developer-product prices split the charts: higher median prices go with dominance and revenue efficiency but with lower breakout positions, so successful games likely raise prices as they age rather than launch expensive",
+     "action": "Launch cheap, raise prices later",
+     "rationale": "Today products_median_price is +0.28 on Most Popular and +0.38 on Top Earning but -0.26 on Top Trending and -0.22 on Up-and-Coming. Game age is the main confounder. Confirm by tracking price changes within the same games over weeks once page history allows; refute if young games that launch above 136 R$ reach Top Earning no faster."},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Folk-horror games built on a regional ghost story (Indonesian MALAM SAMA OPAH, Arabic الشايب) climb the breakout charts and reach Most Popular with audiences that global horror games don't target",
+     "rationale": "MALAM SAMA OPAH (17 days) is #4 on Up-and-Coming and the top Most Popular riser (+18); الشايب (21 days) is the second-best Top Trending climber (+33). Confirm if more regional-ghost games enter and hold the top half of Up-and-Coming; refute if they fall off within three weeks like the retired H-x-014 cases."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-027", "confidence": 45, "note": "More Halloween-tagged games lost ground without a follow-up: Pokemon Brick Bronze (Halloween), [🎃] Saber Simulator and HUNTRESS left Top Earning, +1 Upgrade Per Kill [🎃] left Top Trending, and Candy Kingdom Defense [🎃] (updated 11 days ago) fell 34 places on Top Earning; [🎃] Ragdoll Sandbox, updated today, rose 79 there instead."},
+    {"id": "H-x-021", "confidence": 72, "note": "The ragdoll wave keeps renewing: Ragdoll Wars!, WRECKED and Ragdoll Research (9 days) entered Up-and-Coming, Ragdoll Physics rose 73 there and entered Top Trending, and Realistic Ragdoll Playground entered Most Popular at 20 days; older entrants (Ragdoll Physics 2, Destruction Engine Testing) left Most Popular, so individual games churn quickly."},
+    {"id": "H-x-019", "confidence": 55, "note": "DONT SPLASH holds #3 on Up-and-Coming and the top of Most Popular, and a '+1 DONT SPLASH' spin-off entered Up-and-Coming, but DONT SWIM (12 days) is among the weakest on Top Trending, so derivatives may not carry the wave."},
+    {"id": "H-x-020", "confidence": 38, "note": "The Hollow, the Roblox-run event game, fell 54 places on Most Popular at 24 days with no passes or products, suggesting the lift ends with the event window."}
+  ],
+  "actions": [
+    {"id": "H-tt-029", "action": "Show real gameplay in thumbnails"}
+  ],
+  "retire": []
+}
