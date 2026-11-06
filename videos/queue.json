@@ -1,8 +1,8 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "queue": [
   {
-   "age_days": 2324,
+   "age_days": 2325,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1068,
+   "age_days": 1069,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2670,
+   "age_days": 2671,
    "charts": [
     "te"
    ],
@@ -32,7 +32,17 @@
    "u": "1235188606"
   },
   {
-   "age_days": 671,
+   "age_days": 833,
+   "charts": [
+    "te"
+   ],
+   "name": "[ZENTETSU⚡] Blue Lock: Rivals",
+   "place": "18668065416",
+   "status": "youtube_needed",
+   "u": "6325068386"
+  },
+  {
+   "age_days": 672,
    "charts": [
     "te"
    ],
