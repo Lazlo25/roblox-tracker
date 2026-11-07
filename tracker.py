@@ -13,6 +13,10 @@
       Re-applies the latest day figures to that date's stored document: the updates through the day, and the next
       day's final full-day figures.
 
+  python3 tracker.py db-diff --dump DIR --db-dir DIR2 --since YYYY-MM-DD
+      Prints "SYNC <date> ..." for days since that date whose repo copy (DIR) is missing from, or differs from, the
+      artifact database's copy (DIR2, an ArtifactData out_dir), so a run can catch up after runs were skipped.
+
   python3 tracker.py live --ccu DIR --out live.json
       The total-players document the page's Players on Roblox card reads (latest reading, today so far, every day
       RoTerminal has, the last 72 hours), from a local roblox-ccu checkout.
@@ -330,6 +334,15 @@ def cmd_refresh(a):
     print(extras)
 
 
+def cmd_db_diff(a):
+    """Days the database lacks or holds an older version of. Day documents carry names only when new, so a missing day loses names."""
+    def figures(d):  # the 1 PM job re-saves yesterday with a new generated_utc and the same numbers
+        return {k: ({**v, 'generated_utc': ''} if k == 'avg24' else v) for k, v in d.items()} if d else None
+    db = {d['date']: d for d in load_days(a.db_dir)}
+    stale = [d['date'] for d in load_days(a.dump) if d['date'] >= a.since and figures(d) != figures(db.get(d['date']))]
+    print('SYNC ' + ' '.join(stale) if stale else 'IN SYNC')
+
+
 def cmd_live(a):
     """Total players on Roblox for the page's card, from a local roblox-ccu checkout."""
     now = dt.datetime.now(dt.timezone.utc)
@@ -364,11 +377,15 @@ def main():
     r.add_argument('--out', required=True)
     r.add_argument('--day-file', help="local copy of roblox-ccu's data/daily/<date>.json")
     r.add_argument('--rt-file', help="local copy of roblox-ccu's data/roterminal_daily.json")
+    b = sub.add_parser('db-diff')
+    b.add_argument('--dump', required=True)
+    b.add_argument('--db-dir', required=True)
+    b.add_argument('--since', required=True)
     q = sub.add_parser('live')
     q.add_argument('--ccu', required=True, help='a roblox-ccu checkout')
     q.add_argument('--out', required=True)
     a = ap.parse_args()
-    {'prepare': cmd_prepare, 'refresh': cmd_refresh, 'live': cmd_live}[a.cmd](a)
+    {'prepare': cmd_prepare, 'refresh': cmd_refresh, 'live': cmd_live, 'db-diff': cmd_db_diff}[a.cmd](a)
 
 
 if __name__ == '__main__':

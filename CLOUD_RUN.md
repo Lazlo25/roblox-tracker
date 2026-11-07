@@ -65,6 +65,10 @@ collections from the table.
       contents plus `"<id>": <that file's "through">` for each, with its version as if_version.
 7. Write DAYS doc D and/or PREV from `db-copy/days/<date>.json` for each date marked as changed (and D whenever step 5
    ran).
+7b. Catch-up (day documents hold a game's name only when it's new, so a day the database never got loses names on the page):
+   with E = 14 days before D, ArtifactData "query" on DAYS with `query` `{"where":[["date",">=","E"]],"limit":100}` and
+   `out_dir` `/tmp/dbdays`, then `python3 tracker.py db-diff --dump db-copy --db-dir /tmp/dbdays --since E`. For each date on
+   a line starting "SYNC", write DAYS doc `<date>` from `db-copy/days/<date>.json`. "IN SYNC" means nothing to do.
 8. `git add -A db-copy analysis profiles work trigger videos rolimons && git commit -m "Cloud run D H:00"`, then `git push` (on
    rejection: `git pull --rebase` and push again, up to 3 times). Skip if there's nothing to commit.
 9. Reply in up to three short lines: "Players: <now from step 2>", "Day D: <snapshot status, and the OK/EXTRAS lines
