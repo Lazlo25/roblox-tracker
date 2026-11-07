@@ -1,0 +1,28 @@
+{
+  "new": [
+    {"chart": "te", "statement": "Story-adventure loops (quests, islands, story chapters) earn a higher Top Earning position for their CCU than other profiled loops",
+     "action": "Build a story adventure for revenue",
+     "test": {"feature": "loop=story_adventure", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "uc", "statement": "Games whose descriptions advertise a live or limited-time event rank higher on Up-and-Coming among games of the same age",
+     "action": "Launch with a live event",
+     "test": {"feature": "mech_event", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "mp", "statement": "Co-op wave-survival loops hold lower Most Popular positions than other profiled loops",
+     "action": "Skip wave-survival loops for staying power",
+     "test": {"feature": "loop=wave_survival_coop", "metric": "mp_pos", "type": "binary", "direction": "-"}},
+    {"chart": "tt", "statement": "Young games whose descriptions pitch playing with friends (co-op, duo, team up) climb Top Trending faster than games of similar age",
+     "action": "Pitch it as a play-with-friends game",
+     "test": {"feature": "mech_coop_friends", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "An hourglass 'NOW' update-countdown icon has become a shared convention among young incremental, escape and destruction games, swapped in on update days to pull returning players",
+     "action": "Swap in a countdown icon on update day",
+     "rationale": "Of 53 games profiled on 2026-11-07, eight used an hourglass NOW/2 HOURS icon (+1 Anime Eyes, Create A Disaster, Punch Out Of Prison, +1 Money Per Click, MORPH WORLD, Hike For Eggs, Destroy The Sun, Garden Tower Defense), all of them update-heavy games. Confirm if games showing the icon gain Top Trending or Up-and-Coming places on the following day more often than their peers; refute if their next-day moves match the rest (today +1 Anime Eyes fell 22 on Up-and-Coming while showing it)."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 75, "note": "The ragdoll wave widened: Ragdoll Physics (26 days) and Ragdoll Research (10 days, +42) sit #2 and #3 on Up-and-Coming, Ragdoll Physics entered Most Popular, and Ragdoll Playground rose 9 on Most Popular; 'Ragdoll' is now 10% of Up-and-Coming titles (r=+0.31)."},
+    {"id": "H-x-019", "confidence": 58, "note": "DONT SPLASH (21 days) fell off Top Trending but stays among the leaders on Most Popular and #4 on Up-and-Coming, and the newer DONT SWIM (13 days) climbed 33 on Top Trending."},
+    {"id": "H-x-027", "confidence": 45, "note": "Mixed day: +1 Venom Evolution [🎃] fell off Top Trending and Up-and-Coming, Grow a Chicken Fighter [🎃] and Steal A Pet And Ride It [🎃] fell off, and Candy Kingdom Defense fell 69 on Top Earning; but a dusty trip [🎃HALLOWEEN] rose 7 on Most Popular and King Legacy [UPD 11 🎃] entered Top Trending with a fresh update. Held at 45%."},
+    {"id": "H-x-011", "confidence": 32, "note": "Clones kept falling (Fake an Egg -10 Most Popular, Farm Evolution -25 Top Trending, Raise A Catboy -22 Up-and-Coming) while Steal An Egg still tops Most Popular; Steal Eggs From Tsunami (+30 Top Trending) is the exception."}
+  ],
+  "actions": [],
+  "retire": []
+}
