@@ -1,18 +1,8 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "queue": [
   {
-   "age_days": 2325,
-   "charts": [
-    "te"
-   ],
-   "name": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals",
-   "place": "5233782396",
-   "status": "frames_ready",
-   "u": "1831550657"
-  },
-  {
-   "age_days": 1069,
+   "age_days": 1070,
    "charts": [
     "te"
    ],
@@ -22,7 +12,17 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2671,
+   "age_days": 2326,
+   "charts": [
+    "te"
+   ],
+   "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals",
+   "place": "5233782396",
+   "status": "frames_ready",
+   "u": "1831550657"
+  },
+  {
+   "age_days": 2672,
    "charts": [
     "te"
    ],
@@ -32,7 +32,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 833,
+   "age_days": 834,
    "charts": [
     "te"
    ],
@@ -42,7 +42,7 @@
    "u": "6325068386"
   },
   {
-   "age_days": 672,
+   "age_days": 673,
    "charts": [
     "te"
    ],
@@ -54,13 +54,13 @@
  ],
  "waiting": [
   {
-   "name": "Warrior Cats: Ultimate Edition",
-   "u": "1278035280",
+   "name": "[🎃EVENT!] Azure Latch",
+   "u": "6945584306",
    "why": "needs Rolimons history"
   },
   {
-   "name": "[🎃EVENT!] Azure Latch",
-   "u": "6945584306",
+   "name": "Warrior Cats: Ultimate Edition",
+   "u": "1278035280",
    "why": "needs Rolimons history"
   }
  ]
