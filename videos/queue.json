@@ -1,8 +1,8 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "queue": [
   {
-   "age_days": 1070,
+   "age_days": 1071,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2326,
+   "age_days": 2327,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 2672,
+   "age_days": 2673,
    "charts": [
     "te"
    ],
@@ -32,21 +32,21 @@
    "u": "1235188606"
   },
   {
-   "age_days": 834,
+   "age_days": 835,
    "charts": [
     "te"
    ],
-   "name": "[ZENTETSU⚡] Blue Lock: Rivals",
+   "name": "[Karasu🐦‍⬛] Blue Lock: Rivals",
    "place": "18668065416",
    "status": "youtube_needed",
    "u": "6325068386"
   },
   {
-   "age_days": 673,
+   "age_days": 674,
    "charts": [
     "te"
    ],
-   "name": "[🎃] Basketball: Zero",
+   "name": "Basketball: Zero",
    "place": "130739873848552",
    "status": "frames_ready",
    "u": "7028566528"
@@ -61,6 +61,11 @@
   {
    "name": "Warrior Cats: Ultimate Edition",
    "u": "1278035280",
+   "why": "needs Rolimons history"
+  },
+  {
+   "name": "[ 👻 🎃] Anime Card Clash",
+   "u": "6682487255",
    "why": "needs Rolimons history"
   }
  ]
