@@ -1,0 +1,13 @@
+[
+  {"label": "Q46", "loop": "train strength, chakra, sword and durability -> unlock anime powers, fruits, stands -> beat bosses for drops -> summon champions -> dominate leaderboards and PvP",
+   "loop_archetype": "collect_upgrade_rebirth", "objectives": "become the strongest fighter",
+   "progression": "stats, powers, transformations, champions, adventures", "instructions": "train your stats, unlock powers, battle bosses, summon champions",
+   "mechanics": ["stat training", "rng powers", "bosses", "champions", "clans", "pvp", "codes"],
+   "social": "mixed", "competitive": "light", "unique": [],
+   "themes": ["anime", "Naruto/One Piece/JJBA mashup"], "audience": "kids", "trend_hooks": ["anime simulator"],
+   "monetization_signals": ["21 passes at -50%", "adventure slots up to 1499", "fruit options", "premium clan 999"],
+   "update_signals": ["UPDATE 13", "code SSJGOD", "updated today"],
+   "thumbnails": "anime splash art with logo and hourglass NOW countdown",
+   "thumbnail_style": "character_art", "thumb_text_numbers": false, "video": "trailer", "complexity": 3,
+   "complexity_notes": "revived well-known simulator with many anime powers", "novelty": 0, "confidence": 70}
+]

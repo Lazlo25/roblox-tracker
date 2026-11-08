@@ -1,0 +1,37 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games launching with more than about 55 developer products hold lower Top Trending positions among games of similar age",
+     "action": "Launch with a lean product list",
+     "test": {"feature": "products_n", "metric": "tt_pos", "type": "threshold", "cut": 56, "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games that put weapons or combat tools in players' hands hold higher Top Trending positions among games of similar age",
+     "action": "Give players weapons to use",
+     "test": {"feature": "mech_weapons", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games from verified creators rank higher on Up-and-Coming among games of the same age",
+     "test": {"feature": "creator_verified", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "Regional folk-horror franchises (the Malay/Indonesian MALAM SAMA series, Arabic ghost stories) keep landing new entries on Up-and-Coming within two weeks of launch, even with weak like ratios",
+     "action": "Localize horror for an underserved region",
+     "rationale": "Renews the auto-retired H-x-032 on fresh evidence: MALAM SAMA OPAH still ranks #5 on Up-and-Coming at 19 days and a sequel-style MALAM SAMA ATOK (10 days, 53% likes, Malay-language jumpscare products) entered Up-and-Coming at #56 today. Confirm if a third regional entry lands within two weeks or ATOK climbs into the top half; refute if both drop off within three weeks."},
+    {"chart": "te", "kind": "qualitative", "confidence": 30,
+     "statement": "Anime fighting RPGs that sell rerolls of race, clan, grimoire or appearance (Shibuya, Ishin, Clover Adventure, Cloverlines) reach Top Earning within one to five months on modest player counts",
+     "action": "Sell race and clan rerolls",
+     "rationale": "Four young anime RPGs profiled today sit on Top Earning (#115 to #472) with reroll products as the core store (Shibuya race/clan rerolls up to 4,500 R$, Ishin 125 rerolls at 3-5 R$, Clover Adventure and Cloverlines grimoire/clan spins). RPG genre already earns more per player (H-te-011, 92%). Confirm if more reroll-led RPGs enter Top Earning in the top half of efficiency; refute if they sit below the RPG median."},
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "Asymmetric two-role co-op, where one player sees and the other acts (Backseat Rally's blind driver and navigator), can carry a game onto Most Popular and Top Earning within five weeks",
+     "action": "Design a two-role co-op mechanic",
+     "rationale": "Successor to the retired H-x-015: Backseat Rally (34 days, 72.5M visits, 91% likes) sits on Most Popular #34 and Top Earning #183 while selling cars and crates. One game so far; confirm if another two-role co-op game reaches Most Popular, refute if Backseat Rally falls off both charts within three weeks."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 77, "note": "Three more ragdoll sandboxes entered Up-and-Coming today (Ragdoll Verity Sandbox, Realistic Ragdoll Physics, Untitled Ragdoll Game), Ragdoll titles are 14% of Up-and-Coming, Ragdoll Physics rose 37 on Most Popular and leads Up-and-Coming, Ragdoll Research is #2; Ragdoll Wars (-41) and Realistic Ragdoll Playground (fell off) show individual entries fade."},
+    {"id": "H-x-019", "confidence": 60, "note": "DONT SPLASH holds #3 on Most Popular and #4 on Up-and-Coming at 22 days, and DONT SWIM rose 21 on Top Trending at 14 days."},
+    {"id": "H-x-027", "confidence": 50, "note": "Four Halloween-tagged titles left Top Earning today (Run a Hotel, REDLINER, Peroxide, Dig For Eggs), while King Legacy rose 154 on a fresh update and Fish It! is running a 'final week' Halloween finale."},
+    {"id": "H-x-011", "confidence": 38, "note": "Fake an Egg -13 on Most Popular, Steal Eggs From Tsunami -13 on Top Trending and Detect and Steal an Egg -30 on Up-and-Coming, while Steal An Egg stays #1 on Most Popular; Climb and Steal an Egg is a new Top Trending entry, so new clones still appear."},
+    {"id": "H-x-002", "confidence": 55, "note": "Steal-and-defend loops (r=-0.62) and physics sandboxes (r=-0.70) remain the weakest Top Earning loops while both lead Up-and-Coming and Most Popular risers; Ragdoll Physics is #1 on Up-and-Coming and among the four least efficient earners."},
+    {"id": "H-x-003", "confidence": 52, "note": "Top Earning efficiency runs from the 28th median percentile at 15-42 days to the 62nd past a year, while Up-and-Coming's 0-14 day games hold the 73rd percentile."},
+    {"id": "H-x-001", "confidence": 55, "note": "uc->tt rose to 206 entries (median 2 days) and tt->mp to 167 (2 days); tt->uc stays at 1."},
+    {"id": "H-x-006", "confidence": 55, "note": "Ice Cream Shop [Anomaly] fell 15 on Top Trending and 31 on Up-and-Coming, and Clone Baby Care (Anomaly) left Up-and-Coming; the Anomaly format is losing breakout ground this week."},
+    {"id": "H-x-033", "confidence": 25, "note": "Two more games show the hourglass NOW icon today, Anime Fighting Simulator (Update 13) and Dream Car Collection (UPD 4), both on Top Earning; still a convention, not yet a measurable effect."}
+  ],
+  "actions": [],
+  "retire": []
+}

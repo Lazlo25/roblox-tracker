@@ -1,0 +1,102 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg (106 days), Brookhaven, DONT SPLASH (22 days), RIVALS, 99 Nights in the Forest and Murder Mystery 2 lead the cumulative pillar, the same top group as yesterday apart from 99 Nights replacing Blox Fruits.",
+        "Survive Your Ideas (+68, 33 days) and Ragdoll Physics (+37, 27 days) rose most, followed by Evermore High (+17), Can You Pass A Driving Test? (+16) and Southern Mudding (+13, 419 days).",
+        "The fallers are all 25-36 days old: +1 Anime Eyes (-14), Climb The Rake Tower, Drive a Cart Downhill and Fake an Egg (-13 each) and Cat Battles (-11).",
+        "Nine games entered, including Become the Potato!, Cut a Rock, Clean the Moon, Catalog Avatar Runway and the 1,281-day-old Attack on Titan Revolution; nine left, including Destroy Verity, Flee the Facility, Realistic Car Destruction and Realistic Ragdoll Playground.",
+        "By age the median pillar percentile runs from the 46th at 15-42 days to the 64th past a year, and the 85-122 day band sits lowest (27th, only 4 games), a thin hint for the mid-life trough (H-mp-009, 48%)."
+      ],
+      "patterns": [
+        "Updates consistently go with staying power: games more than 28 days past their last update stay far fewer days (r=-0.60), and weekly updaters stay longer (H-mp-018, 65%).",
+        "Higher prices tend to go with dominance: a median pass above 149 R$ holds at 70% (H-mp-001) and median products above 400 R$ split days on the chart at r=+0.44, with game age the likely confounder.",
+        "Verified creators (r=+0.28) and studio-scale complexity (H-mp-015, 65%) tend to stay longer, though creator size is partly a result of success.",
+        "Ragdoll (r=+0.37) and Egg (r=+0.30) are the strongest title keywords on the pillar, carried mostly by Ragdoll Physics and Steal An Egg, two template waves holding the chart at once.",
+        "Among profiled loops, '+1' incrementals (78th median percentile), combat PvP (66th) and physics sandboxes (64th) sit high, while idle tycoons (23rd) and collect-upgrade-rebirth loops (27th) sit low, in line with the cash-tycoon penalty (H-mp-017, 64%)."
+      ],
+      "outliers": [
+        {"name": "[⭐UPD] Survive Your Ideas", "note": "Rose 68 places at 33 days with only 9 products and 6 passes, a player-input survival game whose reach outruns its store; it is also among the least efficient earners."},
+        {"name": "Attack on Titan Revolution", "note": "Entered at 1,281 days, updated today, but sits weakest on the pillar; an update-driven re-entry rather than sustained dominance."},
+        {"name": "Spot and Mark!", "note": "Entered while 25 days past its last update, against the update-gap pattern; it sits near the bottom, so the pattern may still catch up."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Donation hubs again lead efficiency (Summer Donations, Donation Central, Simple DONATIONS), with New Journey, Clover RPG and Build and Burn close behind.",
+        "Flee the Facility, Deagle Arena, Survive Your Ideas and Ragdoll Physics (no products) are the least efficient: large audiences with little to buy.",
+        "King Legacy (+154) rose most on a fresh update, followed by FERAL Animal Survival (+129), Ragdoll Physics (+111), Net a Fish! (+105) and Steal a Superpower! (+105); Rebirth Champions: Ultimate (-89), Candy Kingdom Defense (-71) and It Hears The Water (-69) fell most.",
+        "Fifteen games entered, among them four young anime RPGs or fighters with reroll stores (Ishin, A Bizarre Run, Cloverlines and the already-listed Shibuya), Raycity RB and 7 Days as a Pet; thirteen left, including Arsenal and several Halloween titles.",
+        "Efficiency consistently rises with age, from the 28th median percentile at 15-42 days to the 62nd past a year (H-te-001, 85%)."
+      ],
+      "patterns": [
+        "High prices consistently pay: median products above 79 R$ split efficiency at r=+0.49 (H-te-005, 92%), and median passes above 399 R$ (H-te-025) and a top pass above 999 R$ (H-te-006) also hold at 92%.",
+        "Physics sandboxes (r=-0.70) and steal-and-defend loops (r=-0.62) are consistently the weakest earners per player, and Egg (r=-0.75) and Steal (r=-0.61) are the worst title keywords.",
+        "RPGs (r=+0.47), roleplay hubs (75th percentile), tower defense (73rd), story adventures (71st) and PvP combat (66th) consistently earn more per player; a reroll-store hypothesis for young anime RPGs is proposed today at 30%.",
+        "Complexity (rho=+0.25), larger servers (r=+0.29) and longer descriptions (r=+0.27) consistently go with efficiency, all three also tracking game age.",
+        "Solo loops consistently earn less per player (r=-0.29, H-te-028 at 92%), the single sharpest social split on this chart."
+      ],
+      "outliers": [
+        {"name": "[🐉UPD 11 PART 1🎃] King Legacy", "note": "Rose 154 places at 2,518 days with no passes and 181 products; a big update re-awakening spending in a lapsed audience rather than new players."},
+        {"name": "Ishin", "note": "Entered at #115 with 125 rerolls at 3-5 R$ each, far below the 79 R$ median-price line (H-te-005), so cheap repeatable rerolls can still earn when the game is an RPG."},
+        {"name": "[🐟] Net a Fish!", "note": "Rose 105 places at 24 days with 22 passes, an idle fishing tycoon in a loop family that usually earns poorly; a heavy pass store and luck products likely carry it."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "13 Days to Escape [ALPHA] (30 days), Be a Soccer Legend (27 days), Cozy Lucky Scoop Order, KRN: Crosshair, Monster Maker and +1 Boxing Battle Evolution lead early momentum.",
+        "30 Floors Up (+35, 14 days), Monster Maker (+30), Be a Soccer Legend (+25), DONT SWIM (+21) and Cozy Lucky Scoop Order (+21) rose most.",
+        "Become the Potato! fell 40 places at 15 days, the biggest drop, after Prison Dodgeball (-26), Ice Cream Shop [Anomaly] (-15), Climb The Rake Tower (-15) and Steal Eggs From Tsunami (-13).",
+        "Fourteen games entered, including Sweep The Moon, FERAL, Climb and Steal an Egg, +1 Power Fruit Evolution and two old games re-surfacing on updates (Wax ASMR Tower at 507 days, Lethal Ape at 1,094 days).",
+        "Games updated in the last day moved a median +0.5 against -1.5 for the rest, the first small edge for same-day updates in several days."
+      ],
+      "patterns": [
+        "A skill-based competitive core consistently goes with lower positions among young games (H-tt-054, 75%; within-age effect -0.50), and PvP social play also sits lower (within-age -0.42, H-tt-011 at 64%).",
+        "Survival framing tends to go with faster climbs (H-tt-048, 69%; r=+0.45) and co-op consistently holds higher (H-tt-023, 74%).",
+        "Luck products (H-tt-025, 72%) and luck passes (H-tt-039, 71%) consistently go with lower positions at launch, and a big product list does too (products_n within-age -0.36), proposed as a test today.",
+        "Weapons tend to sit higher among young games (within-age +0.38), proposed as a test today, while reward-flex thumbnails sat lower (within-age -0.36), against H-tt-006's direction (58%).",
+        "Simulation-job loops hold the 90th median percentile (3 games) and sports loops the 75th, while idle tycoons (8th) and RNG roll loops (3rd) sit at the bottom."
+      ],
+      "outliers": [
+        {"name": "Become the Potato!", "note": "Fell 40 places at 15 days with 288 products, 10 passes and a 74% like ratio, the clearest case of a heavy launch store and an RNG loop going together with lost momentum."},
+        {"name": "Monster Maker", "note": "Rose 30 places at 17 days against the creature-theme penalty (H-tt-022, 53%); its player-built monsters likely read as a creation tool rather than a creature collection."},
+        {"name": "[🌈🚂UPDATE] Wax ASMR Tower", "note": "Entered at 507 days, outside the 4-month window, re-surfacing on a new themed tower; an update bump rather than early momentum."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Ragdoll Physics (27 days), Ragdoll Research (11 days), Survive Your Ideas, DONT SPLASH, MALAM SAMA OPAH and Be a Soccer Legend top the chart: two ragdoll sandboxes and three survival or horror titles.",
+        "Sweep The Moon (+81, 16 days), Button Battles (+66), Ragdoll Realism (+48), FERAL (+44) and Project Web (+43) rose most.",
+        "Become the Potato! (-44), Hug Tower & TROLL Traps (-42), Ragdoll Wars! (-41), Ice Cream Shop [Anomaly] (-31) and Detect and Steal an Egg (-30) fell most.",
+        "Eighteen games entered, among them three ragdoll sandboxes (two with identical pass and product lists), MALAM SAMA ATOK, Net a Fish! and +1 Baddie Evolution; sixteen left, including Clone Baby Care (Anomaly) and Criminal Simulator.",
+        "The newest games (0-14 days) hold the 73rd median percentile against the 47th at 15-42 days (H-uc-005, 62%)."
+      ],
+      "patterns": [
+        "Co-op loops consistently rank higher (H-uc-019, 81%) and PvP loops consistently lower (H-uc-038, 81%); party minigames sit at the 21st median percentile (H-uc-044, 69%).",
+        "Selling revives consistently goes with higher positions (H-uc-021, 82%; within-age +0.37), in line with survival and horror loops ranking high (horror 92nd percentile, H-uc-057 at 72%).",
+        "Higher like ratios consistently go with higher positions (H-uc-006, 79%), and luck products and luck passes tend to go against them (H-uc-018, 66%).",
+        "Physics sandboxes are now 20 of 99 profiled games and tend to rank above average (60th percentile, H-uc-036 at 71%), but the templated entries sit low: Untitled Ragdoll Game entered at #68 against Ragdoll Research at #2.",
+        "Verified creators sit higher within age (+0.33), proposed as a test today; group publishing already tends to help (H-uc-054, 65%)."
+      ],
+      "outliers": [
+        {"name": "Sweep The Moon 🌕", "note": "Rose 81 places at 16 days as a '+1' incremental, against H-uc-003 (60%); a calm sweeping chore with 97% likes may read differently from the usual '+1' grinders."},
+        {"name": "[VOICE] MALAM SAMA ATOK", "note": "Entered at 10 days with a 53% like ratio, against the like-ratio pattern; it rides the regional folk-horror audience that MALAM SAMA OPAH opened."},
+        {"name": "Terraform", "note": "Sits near the bottom at 178 days and 12 days without an update, an old voxel sandbox outside the young-game band this chart rewards."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The ragdoll wave widened again: three more ragdoll sandboxes entered Up-and-Coming, Ragdoll titles are 14% of that chart, and Ragdoll Physics rose 37 on Most Popular while sitting among the least efficient Top Earning games; H-x-021 rises to 77%. Two of the new entries (Ragdoll Verity Sandbox, Realistic Ragdoll Physics) share an identical pass and product list under different groups, a sign of reskinned templates.",
+      "Templates still buy reach, not revenue: steal-and-defend (r=-0.62) and physics sandboxes (r=-0.70) are the weakest earners per player while leading the breakout charts, so H-x-002 rises to 55%. Steal/egg clones fell on three charts at once while Steal An Egg stays #1 (H-x-011 to 38%).",
+      "Competition splits the charts again: social=pvp and a competitive core go against Top Trending (-0.46, -0.49) and Up-and-Coming (-0.44, -0.50), while PvP combat consistently earns more per player on Top Earning (H-te-022, 92%).",
+      "Halloween fallout continued: four Halloween-tagged games left Top Earning while King Legacy rose 154 on a fresh update (H-x-027 to 50%). Regional folk horror is renewed as a new hypothesis after MALAM SAMA ATOK entered Up-and-Coming.",
+      "Gameplay videos are still unlabelled for the eighth run: Dragon Adventures, Creatures of Sonaria, Sol's RNG and Basketball: Zero are frames_ready with 0 frames and no contact sheets. No new outside research was waiting. 46 games were profiled today; many of the auto-retired qualitative ideas were left at 25% or below and dropped out under the three-day rule."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (206 entries, up from 200, median 2 days), ahead of tt→mp (167, up from 161, median 2 days).",
+      "uc→te (129, 5 days), tt→te (120, 4 days) and uc→mp (110, 4 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1.",
+      "Ragdoll Physics now holds #1 on Up-and-Coming and rose 37 on Most Popular at 27 days, while FERAL (20 days) climbed Up-and-Coming (+44) and Top Earning (+129) and entered Top Trending on the same day."
+    ]
+  }
+}
