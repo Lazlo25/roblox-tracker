@@ -6,3 +6,4 @@ work_collect_log.txt
 work/*/sheet_*.jpg
 work/videos/
 .venv/
+_site/

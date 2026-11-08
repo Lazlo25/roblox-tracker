@@ -1,0 +1,62 @@
+name: Publish site
+
+# Builds the hosted tracker (site/build.py) from this repo plus the roblox-ccu data and deploys it to GitHub Pages,
+# once an hour. Like Hourly CCU, each run starts the next one itself, because GitHub drops many scheduled runs on small
+# repos. Three things restart the chain if it ever breaks: every push to main (the 4-hourly Claude run), the daily
+# snapshot finishing, and the schedule below. The concurrency group keeps at most one run waiting, so the restarts never
+# pile up into parallel chains. The page itself warns when its data is more than 3 hours old.
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["Daily snapshot"]
+    types: [completed]
+  schedule:
+    - cron: '41 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write           # lets the job start its successor
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/checkout@v7
+        with:
+          repository: Lazlo25/roblox-ccu
+          path: ccu
+
+      - name: Build
+        run: python3 site/build.py --ccu ccu --out _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Wait for the next hour's CCU readings, then start the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          next=$(( ($(date +%s) / 3600 + 1) * 3600 + 20*60 ))   # 20 past the next hour, after roblox-ccu commits
+          sleep $(( next - $(date +%s) ))
+          gh workflow run publish.yml --ref main -R "$GITHUB_REPOSITORY"
