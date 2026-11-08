@@ -2,9 +2,10 @@ name: Publish site
 
 # Builds the hosted tracker (site/build.py) from this repo plus the roblox-ccu data and deploys it to GitHub Pages,
 # once an hour. Like Hourly CCU, each run starts the next one itself, because GitHub drops many scheduled runs on small
-# repos. Three things restart the chain if it ever breaks: every push to main (the 4-hourly Claude run), the daily
+# repos. Three things restart the chain if it ever breaks: every push to main (such as the Claude analysis run), the daily
 # snapshot finishing, and the schedule below. The concurrency group keeps at most one run waiting, so the restarts never
-# pile up into parallel chains. The page itself warns when its data is more than 3 hours old.
+# pile up into parallel chains. The page itself warns when its data is more than 3 hours old. From 8 AM Eastern it also
+# starts the Daily snapshot when today's hasn't been recorded (that job waits for 1 PM by itself).
 on:
   push:
     branches: [main]
@@ -34,6 +35,16 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
+
+      - name: Start today's daily snapshot if it hasn't run yet
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=$(TZ=America/New_York date +%F); H=$((10#$(TZ=America/New_York date +%H)))
+          busy=$(gh run list -w daily.yml -L 5 -R "$GITHUB_REPOSITORY" --json status -q '[.[]|select(.status!="completed")]|length')
+          if [ ! -f "db-copy/days/$D.json" ] && [ "$H" -ge 8 ] && [ "$busy" = 0 ]; then
+            gh workflow run daily.yml --ref main -R "$GITHUB_REPOSITORY" && echo "Started Daily snapshot for $D (it waits for 1 PM Eastern)"
+          fi
 
       - uses: actions/checkout@v7
         with:

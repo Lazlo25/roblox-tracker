@@ -1,7 +1,7 @@
 name: Daily snapshot
 
-# Started by the 4-hourly Claude cloud routine, which pushes trigger/daily.txt in the morning (push events start
-# reliably); the job then waits until 1 PM Eastern. GitHub's own schedule below is only a backstop, because it can lag
+# Started by the hourly Publish site job from 8 AM Eastern (or by a push to trigger/daily.txt); the job then waits
+# until 1 PM Eastern. GitHub's own schedule below is only a backstop, because it can lag
 # by hours on small repos.
 on:
   workflow_dispatch:
