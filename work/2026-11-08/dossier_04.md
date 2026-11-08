@@ -1,0 +1,7 @@
+## Q46 · [🔥UPDATE 13] Anime Fighting Simulator (universe 10321202755)
+Charts today: Top Earning #459 | Age: 148 days | Genre: Simulation / Incremental Simulator | Max players: 24
+Creator: Group "Anime Fighting Simulator | BZ" | Visits 58.7M | Favorites 530.2K | Likes 98% of 187.1K votes | Updated 2026-11-08
+Game passes (21): [-50%] No Limit 750; [-50%] Fruit Tracker 750; [-50%] Shiny Hunter 500; [-50%] Super Luck 300; [-50%] VIP 250; [-50%] x2 Yen 250; [-50%] x2 Durability 225; [-50%] x2 Chakra 225; [-50%] x2 Sword 225; [-50%] x2 Strength 225; [-50%] x2 Mastery 200; [-50%] x2 Tensei Shards 200
+Developer products (134): Rush Adventure 399; Adventure Slot 6 1499; Adventure Slot 5 799; Adventure Slot 4 399; Surge Bundle 299; Beginner Bundle 199; + Clan Member 79; Premium Clan 999; Fruit Option 3 1499; Fruit Option 2 499
+Badges: 12 | Page media: 10 images, 1 videos
+Description: ⭐ Use Code "SSJGOD" for FREE rewards! ⚔️ Welcome to Anime Fighting Simulator! Train your stats, unlock powerful anime abilities, and become the strongest fighter! 💪 Train your power! 🔥 Unlock powerful anime powers, transformations, fruits, stands, and specials! 👑 Show off your strength 😈 Battle bosses for rare drops and rewards! 🛡️ Summon and level up champions to train and fight alongside you! 🎁 Collect mounts, auras, weapons, titles, and exclusive cosmetics 🌍 Become the strongest and dominate the leaderboards ⚔️ Fight other players and prove you're the ultimate fighter! 🎉 Join our community for exclusive rewards, codes, sneak peeks, and update announcements!
