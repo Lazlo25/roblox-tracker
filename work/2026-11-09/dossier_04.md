@@ -1,0 +1,15 @@
+## Q46 · [🐫New Heist!] Riot City 🚨 Prison Escape (universe 9296042754)
+Charts today: Top Earning #465 | Age: 340 days | Genre: Action / Open World Action | Max players: 24
+Creator: Group "Riot City Studio" | Visits 107.3M | Favorites 512.2K | Likes 98% of 230.4K votes | Updated 2026-11-06
+Game passes (6): Mafia Boss 400; SWAT 400; VIP 350; Premium Weapons Pack 300; Larger Duffle Bag 300; Portable Garage 80
+Developer products (11): Tier 1 - $50k 80; Tier 2 - $150k 200; Tier 3 - $325k 400; Tier 4 - $700k 800; Tier 5 - $1.6M 1700; Tier 6 - $5M 4700; Starter Pack 80; A1 1111; A2 2222; A3 3333
+Badges: 5 | Page media: 9 images, 0 videos
+Description: Welcome to Riot City! Escape prison, become a criminal, rob the bank, collect cars and guns, or enforce the law as a cop and arrest criminals! 🚨 November 6th Update: 📢 New Pyramid Robbery! 🔫 M134 Minigun! 🚗 Bevor B64 6x6! 🐛 Bug fixes 👮‍♂️ Riot City is the ultimate cops vs prisoners experience on Roblox. Jump into a massive open-world city where every session is a battle between chaos and justice. Start as a prisoner, break out, build your criminal empire, pull off robberies, escape high-speed police chases, and dominate the streets. Or join the police force, gear up, hunt down dangerous criminals, shut down heists, and restore order across the city. With 20+ vehicles and 15+ guns to collect, Riot City is packed with action, progression, and deep customization. Build your perfect ride with vehicle upgrades and customization options, expand your arsenal, and battle on either side of the law 🌟 Premium: +10% money! 🌟 🌟 Riot City Studio group members: +10% money! 🌟
+
+## Q47 · Emergency Emden (universe 4457060041)
+Charts today: Top Earning #468 | Age: 1343 days | Genre: Roleplay & Avatar Sim / Life | Max players: 40
+Creator: Group "Emergency Emden" | Visits 149.2M | Favorites 239.3K | Likes 87% of 111.4K votes | Updated 2026-11-09
+Game passes (8): Train Crew 1119; Special Police Forces 649; Aircraft License  349; Underground Tuning Pass 349; Bypass Team Cap 279; House Plus 249; PARKOUR - Pass 179; Drone license 89
+Developer products (182): 10k 59; 50k 239; 250k 1059; 500k 1899; 1,5M 4599; 5M+ 8999; Jailtime1 10; Jailtime 2 25; Jailtime 3 35; LADDERTRUCK 389
+Badges: 5 | Page media: 10 images, 0 videos
+Description: 🚨 Emergency roleplay in a real German city! Emden is a port town on the North Sea – and it needs you. Join the police, fire department or ambulance… or go rogue and become the most wanted criminal in town. 🚓 POLICE – chase suspects and put criminals behind bars 🚒 FIRE DEPARTMENT – fight fires and rescue people 🚑 PARAMEDIC – treat the injured and rush them to hospital 🦺 More jobs: special forces (GSG9), bus & train driver, trucker, mortician 💰 CRIME – rob stores, the bank and money trucks, steal cars and escape the cops 🚗 Buy and tune cars, motorbikes and ATVs 🏠 Own a house and furnish it 👥 Start a crew with your friends 🎁 Missions, daily rewards, battle pass and seasonal events 📱💻🎮 Play on phone, PC, tablet and console. 🌟 Private servers: create your own roleplay, races or PvP events. Rules: devforum.roblox.com/t/3189323 Made by Emden
