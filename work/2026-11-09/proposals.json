@@ -1,0 +1,34 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young grow-a-garden games lose Top Trending momentum faster than games of similar age",
+     "action": "Skip grow-a-garden clones for momentum",
+     "test": {"feature": "mech_grow_garden", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games built around buying upgrades climb Top Trending more slowly than games of similar age",
+     "action": "Skip upgrade-shop loops for momentum",
+     "test": {"feature": "mech_upgrade", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games selling currency packs hold lower Top Trending positions among games of similar age, even though they climb no slower (H-tt-010)",
+     "test": {"feature": "prod_currency", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with leaderboards rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip leaderboards at launch",
+     "test": {"feature": "mech_leaderboard", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with daily or playtime rewards rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip daily login rewards at launch",
+     "test": {"feature": "mech_daily_rewards", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "mp", "statement": "Competitive sports loops (football, basketball, boxing leagues) hold lower Most Popular positions than other profiled loops",
+     "action": "Skip sports loops for staying power",
+     "test": {"feature": "loop=sports_competitive", "metric": "mp_pos", "type": "binary", "direction": "-"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Sports games are a breakout format, not a staying format: football and basketball games reach Up-and-Coming and Top Trending fast but sit low on Most Popular and fall off it within weeks",
+     "action": "Pair a sports game with a long-term hook",
+     "rationale": "Today sports loops sit at the 80th median percentile on Up-and-Coming and 75th on Top Trending but the 21st on Most Popular (n=7), and Soccer is the worst Most Popular title keyword (r=-0.50). Four new sports games were profiled (PF27, Club Legacy Soccer Manager, Doodle Basketball, HOOP JAM!) while Be a Soccer Legend entered Most Popular at 28 days. Confirm if Be a Soccer Legend and other sports entries leave Most Popular within three weeks while new ones keep entering the breakout charts; refute if two or more hold Most Popular past 60 days of age."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 80, "note": "Ragdoll titles rose to 16% of Up-and-Coming (from 14%); Bloody Ragdoll Physics and Hyper Realistic Ragdoll entered Up-and-Coming, Ragdoll Realism and Realistic Ragdoll Physics entered Top Trending, and Ragdoll Research (12 days) and WRECKED (14 days) entered Most Popular."},
+    {"id": "H-x-019", "confidence": 63, "note": "That Is NOT My Mom (a mimic that hunts by sound) entered Up-and-Coming at 15 days, Don't splash Prilili was profiled, and DONT SPLASH holds the Most Popular top group and #4 on Up-and-Coming."},
+    {"id": "H-x-034", "confidence": 26, "note": "MALAM SAMA ATOK fell 26 places on Up-and-Coming the day after entering; no new regional entry."},
+    {"id": "H-mp-009", "confidence": 45, "note": "The 85-122 day band sits at the 64th median percentile today (n=2), above the 15-42 day band; the trough is not visible today."},
+    {"id": "H-x-027", "confidence": 52, "note": "Four more Halloween-tagged or seasonal games left Top Earning (Lifting Simulator, New Journey, Candy Kingdom Defense, It Hears The Water) while update-driven risers (Blockade Battlefront +181, A Bizarre Run +172) climbed."}
+  ],
+  "actions": [],
+  "retire": []
+}

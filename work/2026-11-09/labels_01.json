@@ -1,0 +1,765 @@
+[
+ {
+  "label": "Q01",
+  "loop": "each round one player becomes the monster -> others hide/escape with gadgets -> survivors earn coins -> unlock monsters, items, abilities",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the monster's hunt, or kill everyone as the monster",
+  "progression": "coins, unlockable monsters/items/abilities",
+  "instructions": "one player is the monster, everyone else hides, escapes and survives; use flashlights, tasers, traps; vote for maps",
+  "mechanics": [
+   "1 vs all rounds",
+   "hide and escape",
+   "gadgets",
+   "map voting",
+   "extra lives"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "Murder-Mystery-style 1v-all round format reskinned with creepypasta monsters (Siren Head etc.)",
+   "paid extra lives/revives mid-round"
+  ],
+  "themes": [
+   "monsters",
+   "creepypasta",
+   "siren head",
+   "horror"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "mm2-of-x",
+   "1-vs-all",
+   "creepypasta monsters"
+  ],
+  "monetization_signals": [
+   "buy lives",
+   "2x coins",
+   "2x monster chance pass",
+   "reveal survivors",
+   "spins",
+   "VIP"
+  ],
+  "update_signals": [
+   "[UPDATE] tag",
+   "updated today"
+  ],
+  "thumbnails": "crowd of scared Roblox avatars in a lobby with giant monsters (Siren Head) looming; flashlight in dark corridor",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "round-based lobby + several maps, monster models, simple gadget tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "sit at table -> type a word starting with the given letter -> loser gets launched out of chair -> earn cash/wins/streak",
+  "loop_archetype": "party_minigames",
+  "objectives": "outlast opponents in a word chain and climb leaderboards",
+  "progression": "cash, wins, streaks, cosmetic chairs",
+  "instructions": "type a word that starts with the given letter, no repeats; use boosts for more time; solo when no opponent",
+  "mechanics": [
+   "word chain",
+   "typing",
+   "timer",
+   "streaks",
+   "chair launch",
+   "leaderboards"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "5M+ word multilingual dictionary",
+   "launch-out-of-chair loser punishment"
+  ],
+  "themes": [
+   "words",
+   "table game"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "word games",
+   "last letter"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "2x wins/streak",
+   "cash tiers",
+   "time boosts",
+   "daily skips"
+  ],
+  "update_signals": [
+   "beta, frequent changes",
+   "languages being added"
+  ],
+  "thumbnails": "avatars at a table chaining words (FISH->HAT, CAT->TEA->ART) with arrows",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple table scene, dictionary validation, light UI",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q03",
+  "loop": "join match -> play football with dribbling, skill moves, shots, goalkeeping -> earn XP/money -> upgrade stamina/skills and buy kits",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win football matches and show off skill moves",
+  "progression": "XP, skill points, money, season pass, kits/boots",
+  "instructions": "play football (soccer) with dribbles, skill moves, finesse/trivela shots, tackles; full goalkeeper gameplay; regional/private servers",
+  "mechanics": [
+   "football",
+   "skill moves",
+   "ball physics",
+   "goalkeeping",
+   "customization",
+   "season pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "detailed football technique set (trivela, knuckleball, bicycle kicks) with realistic ball physics"
+  ],
+  "themes": [
+   "football",
+   "soccer",
+   "FIFA-style"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "football",
+   "ea-fc style naming"
+  ],
+  "monetization_signals": [
+   "infinite stamina",
+   "VIP",
+   "2x money/xp/luck",
+   "season pass",
+   "donations",
+   "friend spidey pass"
+  ],
+  "update_signals": [
+   "early development, frequent updates",
+   "Winter Cup pass",
+   "ownership transfer notice"
+  ],
+  "thumbnails": "PF27 logo in EA-FC style, footballer in Barcelona-like kit, action shots on pitch",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "football physics, many animated skill moves, goalkeeper system, matchmaking",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q04",
+  "loop": "enter giant store at night as a kid -> collect items on mom's shopping list quietly -> hide from sound-hunting mimic -> find real mom and escape -> coins buy classes/perks",
+  "loop_archetype": "horror_escape",
+  "objectives": "complete the shopping list and survive the mimic to find the real mom",
+  "progression": "coins, classes (scout, medic, guard...), perks",
+  "instructions": "find everything on mom's list; stay quiet because the mimic hears you; hide under tables; play with up to 4 friends and revive",
+  "mechanics": [
+   "stealth",
+   "sound detection",
+   "item collection",
+   "hiding",
+   "revives",
+   "classes"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "mimic that hunts by sound and imitates mom's voice"
+  ],
+  "themes": [
+   "mimic",
+   "store at night",
+   "mom"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "that's not my x",
+   "mimic horror",
+   "don't make a sound"
+  ],
+  "monetization_signals": [
+   "classes",
+   "coins",
+   "revive yourself",
+   "starter bundle",
+   "RPG/pistol passes",
+   "VIP"
+  ],
+  "update_signals": [
+   "[UPD] tag",
+   "NEW banner (pool/airport scenes suggest new maps)"
+  ],
+  "thumbnails": "red fleshy spider-like mimic monster in a supermarket aisle, pool and airport; scared kid",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large store map, monster AI with hearing, coop revive, classes",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "spawn dummies -> hit, shoot, blow up and drive into them -> watch physics ragdolls -> unlock weapons, syringes, world events",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause creative mayhem with ragdoll dummies",
+  "progression": "weapon/syringe unlocks, badges",
+  "instructions": "hit, throw and blow up dummies; use 23 weapons, 14 syringes, cars, NPC wars, world events, slow motion/rewind",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons",
+   "explosions",
+   "vehicles",
+   "NPC wars",
+   "world events",
+   "time control"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "dismemberment ragdolls that react to hit location",
+   "rewind/slow-time sandbox",
+   "single-player server"
+  ],
+  "themes": [
+   "ragdoll",
+   "violence",
+   "sandbox"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll physics",
+   "people playground style"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "arsenal",
+   "injections",
+   "per-weapon purchases",
+   "VIP"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "white dummies flying in explosions, dummy with gun, pickup truck hitting dummy",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "active ragdoll with limb loss, many weapons/syringes, events, rewind",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q06",
+  "loop": "knock on doors -> run as the occupant chases you -> hide in closets -> reach knock goal and escape -> earn cash -> upgrade stamina/money/hide",
+  "loop_archetype": "horror_escape",
+  "objectives": "hit the knock goal and escape without being caught",
+  "progression": "cash, upgrades to level 10, new knocks, leaderboards",
+  "instructions": "knock on doors then run; whoever answers chases you; lose them or hide, then reach the exit",
+  "mechanics": [
+   "ding dong ditch",
+   "chase",
+   "hiding",
+   "stamina",
+   "upgrades",
+   "jumpscares",
+   "noise meter"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "ding-dong-ditch prank as core loop",
+   "multiple chaser NPCs (grandpa on scooter, gym bro, principal)",
+   "noise escalation to security/police"
+  ],
+  "themes": [
+   "prank",
+   "hotel",
+   "school",
+   "neighborhood"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ding dong ditch",
+   "knock and run"
+  ],
+  "monetization_signals": [
+   "2x knocks",
+   "no knock cooldown",
+   "special knocks",
+   "room tiers (suite/penthouse)",
+   "revives",
+   "timed boosts"
+  ],
+  "update_signals": [
+   "HUGE UPDATE tag",
+   "new school map",
+   "5 new chasers",
+   "codes in socials"
+  ],
+  "thumbnails": "avatar running down hotel corridor, knocking on door, 'KICK THE DOOR DOWN!' text, closet 'HIDE!' view",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "1 page video",
+  "complexity": 3,
+  "complexity_notes": "3 maps, several chaser AIs, 25+ knock variants, noise system",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q07",
+  "loop": "click to earn hacks -> buy laptops for more -> level up and rebirth for multipliers -> spend wins on bigger multipliers -> AFK training tables",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "grow hacks/numbers to become the best hacker",
+  "progression": "hacks, laptops, rebirths, evolutions, wins multipliers, trails",
+  "instructions": "click to earn hacks, purchase laptops, level up and rebirth, earn wins, AFK on training tables",
+  "mechanics": [
+   "clicking",
+   "rebirth",
+   "multipliers",
+   "AFK earning",
+   "trails",
+   "codes"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "hacker",
+   "laptops",
+   "evolution"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 every second",
+   "evolve"
+  ],
+  "monetization_signals": [
+   "admin bundle",
+   "trails",
+   "skip rebirth/evolution",
+   "x2-x32 hacks",
+   "offline earnings",
+   "packs",
+   "VIP"
+  ],
+  "update_signals": [
+   "updates weekly",
+   "like-goal codes"
+  ],
+  "thumbnails": "split face boy->hacker transformation; laptops escalating $1 -> $92.5M -> INF+",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 page video",
+  "complexity": 1,
+  "complexity_notes": "template clicker incremental",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q08",
+  "loop": "draw road across gap -> add wood/steel/titanium supports -> traffic crosses and pays cash -> unlock heavier vehicles -> rebirth for wider gap",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build a bridge strong enough to carry ever-heavier traffic",
+  "progression": "cash, vehicle tiers, materials, rebirths, offline cash",
+  "instructions": "draw road across the gap, add supports, watch traffic cross for cash, unlock bigger vehicles, rebirth for a wider gap; trace blueprints if stuck",
+  "mechanics": [
+   "bridge building",
+   "structural physics",
+   "idle income",
+   "rebirth",
+   "vehicle tiers",
+   "offline earnings"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "real load physics bridge construction (Poly Bridge-like) wrapped in an idle tycoon"
+  ],
+  "themes": [
+   "bridges",
+   "engineering",
+   "vehicles"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "build a x",
+   "physics builder"
+  ],
+  "monetization_signals": [
+   "OP bridge",
+   "2x durability/luck/cash",
+   "material packs",
+   "next vehicle skips",
+   "starter pack"
+  ],
+  "update_signals": [
+   "rare vehicle variants"
+  ],
+  "thumbnails": "blueprint-style bridge with builder avatar; plank over a gap",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 page video",
+  "complexity": 3,
+  "complexity_notes": "beam stress physics, drawing tool, vehicle spawning",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q09",
+  "loop": "punch, shoot, blast dummies -> watch body parts react realistically -> earn KOs -> unlock weapons, vehicles, events",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with realistic ragdoll damage",
+  "progression": "KOs, weapon unlocks",
+  "instructions": "hit dummies with weapons and tools, break bones, destroy walls, trigger disasters, drive vehicles",
+  "mechanics": [
+   "ragdoll physics",
+   "localized injuries",
+   "weapons",
+   "destruction",
+   "disasters",
+   "creatures",
+   "vehicles"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "per-limb injury simulation (limp, crawl, faint) with x-ray body scan",
+   "dummies that talk and help each other"
+  ],
+  "themes": [
+   "ragdoll",
+   "dummies",
+   "destruction"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll physics",
+   "people playground style"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "vehicle pack",
+   "tank",
+   "weapon purchases",
+   "KO boosts",
+   "VIP"
+  ],
+  "update_signals": [
+   "updated recently"
+  ],
+  "thumbnails": "white dummy hit with bat showing x-ray skull, dummy kicked through wall",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "active ragdoll with limb injury states, destruction, creature AI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q10",
+  "loop": "run across pond on lily pads/mushrooms without falling in -> avoid Prilili fairies' scream jumpscares -> reach fairy tree -> earn wins, upgrade sword",
+  "loop_archetype": "obby_platformer",
+  "objectives": "cross each pond without splashing and beat the Swamp Queen",
+  "progression": "worlds, wins, sword upgrades, leaderboards",
+  "instructions": "don't fall in water; fly with umbrella leaf, bounce on mushrooms, beat challenges, defeat Swamp Queen",
+  "mechanics": [
+   "obby",
+   "jumpscare",
+   "platforming",
+   "boss",
+   "revives"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "TikTok-viral Prilili fairy meme as horror obby"
+  ],
+  "themes": [
+   "fairies",
+   "pond",
+   "swamp",
+   "tiktok meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "don't splash",
+   "tiktok meme",
+   "prilili"
+  ],
+  "monetization_signals": [
+   "paid revives",
+   "hearts",
+   "wins packs",
+   "VIP double wins",
+   "starter pack"
+  ],
+  "update_signals": [
+   "World 2 update"
+  ],
+  "thumbnails": "creepy pink fairy creatures in a tiled pool chasing avatar",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 page video",
+  "complexity": 2,
+  "complexity_notes": "linear obby levels with jumpscare NPCs",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "ride motorcycles/scooters/BMX around San Francisco -> earn cash -> buy and customize bikes",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore SF and build a bike collection",
+  "progression": "cash, bikes, paints/customization",
+  "instructions": "ride bikes around SF, earn cash, customize rides, cruise with friends; codes and free group bike",
+  "mechanics": [
+   "open world riding",
+   "customization",
+   "cash",
+   "traffic",
+   "skateparks"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "detailed San Francisco recreation with Golden Gate traffic"
+  ],
+  "themes": [
+   "motorcycles",
+   "san francisco",
+   "bikes"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic city driving"
+  ],
+  "monetization_signals": [
+   "premium bikes",
+   "cash x2",
+   "cash packs",
+   "paints",
+   "underglow",
+   "starter pack",
+   "VIP"
+  ],
+  "update_signals": [
+   "new bikes tag",
+   "codes"
+  ],
+  "thumbnails": "realistic sport bikes on Golden Gate Bridge, wheelie",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large detailed city map, bike physics, live traffic",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q12",
+  "loop": "drive down the road without stopping -> monster chases if you stop -> survive route -> earn credits for garage",
+  "loop_archetype": "horror_escape",
+  "objectives": "keep driving and survive the analog-horror creature",
+  "progression": "credits, cars/garage",
+  "instructions": "do not stop driving or it will catch you; codes in garage",
+  "mechanics": [
+   "driving",
+   "chase",
+   "survival"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "analog-horror driving survival"
+  ],
+  "themes": [
+   "analog horror",
+   "driving",
+   "creatures"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "analog horror",
+   "don't stop"
+  ],
+  "monetization_signals": [
+   "donations",
+   "credits",
+   "VIP"
+  ],
+  "update_signals": [
+   "codes at release"
+  ],
+  "thumbnails": "rally car chased by long-legged creature in snowy forest, manga-style 'do not stop' logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 page video",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, chasing creature, stylized road map",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q13",
+  "loop": "pick superhero -> fight street crime, missions and bosses in voxel city -> earn XP/cores -> upgrade hero move trees",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become a stronger superhero and beat bosses and Lockdown Tower",
+  "progression": "hero upgrade trees, XP, boss cores, titles, trophies",
+  "instructions": "swing, fly, speed around city; chain combos and finishers; stop crimes, missions, bosses, tower",
+  "mechanics": [
+   "superhero powers",
+   "combos",
+   "traversal",
+   "bosses",
+   "story missions",
+   "upgrade trees"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "voxel-art superhero open world with slowmo finishers"
+  ],
+  "themes": [
+   "superheroes",
+   "marvel",
+   "dc",
+   "voxel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "superhero",
+   "marvel heroes"
+  ],
+  "monetization_signals": [
+   "custom hero",
+   "hero unlocks",
+   "2x XP/cores",
+   "server boosts",
+   "boss tickets",
+   "VIP"
+  ],
+  "update_signals": [
+   "new heroes every week"
+  ],
+  "thumbnails": "voxel Batman and Vision/Iron Man and Flash in a night city",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "multiple heroes with traversal and move trees, bosses, voxel city",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q14",
+  "loop": "explore Whale Island -> discover Nen affinity and abilities -> fight bosses and arena rivals -> pass Hunter Exam -> unlock missions",
+  "loop_archetype": "story_adventure",
+  "objectives": "become a licensed Hunter and master your Nen",
+  "progression": "Nen ability/affinity rolls, lineage, races, levels, gear",
+  "instructions": "explore, find treasure, fight bosses, take on Gladiator arena and Hunter Exam",
+  "mechanics": [
+   "anime RPG",
+   "ability rolls",
+   "bosses",
+   "arena PvP",
+   "exploration",
+   "spins"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Hunter x Hunter Nen system adaptation"
+  ],
+  "themes": [
+   "anime",
+   "hunter x hunter"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime rpg"
+  ],
+  "monetization_signals": [
+   "spins",
+   "stat stores",
+   "2x exp/drop",
+   "cosmetic weapons",
+   "private servers",
+   "VIP"
+  ],
+  "update_signals": [
+   "release tag",
+   "codes for likes"
+  ],
+  "thumbnails": "anime HxH-style character art (Killua, Gon, Chrollo look-alikes)",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "anime combat, abilities, open areas, bosses",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "drop from battle bus -> loot, build, fight -> be last standing -> earn XP/coins -> ranks, battle pass, crates",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win battle royale matches and rank up",
+  "progression": "18 ranks, battle pass, skins, wraps, crates",
+  "instructions": "drop, loot, build, be last one standing; bounties, kill races, squads",
+  "mechanics": [
+   "battle royale",
+   "building",
+   "shooting",
+   "ranks",
+   "battle pass",
+   "crates",
+   "bounties"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Fortnite-style building battle royale in Roblox"
+  ],
+  "themes": [
+   "battle royale",
+   "fortnite"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "fortnite-like",
+   "one shot"
+  ],
+  "monetization_signals": [
+   "gliders",
+   "angel/demon skins",
+   "jetpack",
+   "revive",
+   "bounties",
+   "XP boosts",
+   "starter pack"
+  ],
+  "update_signals": [
+   "skins + crates update",
+   "season 1"
+  ],
+  "thumbnails": "sniper scope on Roblox avatar, FORTLINE logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "BR map, building system, guns, matchmaking, ranks",
+  "novelty": 0,
+  "confidence": 80
+ }
+]
