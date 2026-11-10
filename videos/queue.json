@@ -1,18 +1,8 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "queue": [
   {
-   "age_days": 1071,
-   "charts": [
-    "te"
-   ],
-   "name": "Sol's RNG [ Halloween Event 🎃]",
-   "place": "15532962292",
-   "status": "frames_ready",
-   "u": "5361032378"
-  },
-  {
-   "age_days": 2327,
+   "age_days": 2328,
    "charts": [
     "te"
    ],
@@ -22,17 +12,37 @@
    "u": "1831550657"
   },
   {
-   "age_days": 688,
+   "age_days": 1072,
    "charts": [
     "te"
    ],
-   "name": "[🎃EVENT!] Azure Latch",
+   "name": "Sol's RNG [ Halloween Event 🎃]",
+   "place": "15532962292",
+   "status": "frames_ready",
+   "u": "5361032378"
+  },
+  {
+   "age_days": 689,
+   "charts": [
+    "te"
+   ],
+   "name": "[🧿 RIN + 🎃] Azure Latch",
    "place": "94647229517154",
-   "status": "queued",
+   "status": "youtube_needed",
    "u": "6945584306"
   },
   {
-   "age_days": 2673,
+   "age_days": 2643,
+   "charts": [
+    "te"
+   ],
+   "name": "Warrior Cats: Ultimate Edition",
+   "place": "3663340706",
+   "status": "youtube_needed",
+   "u": "1278035280"
+  },
+  {
+   "age_days": 2674,
    "charts": [
     "te"
    ],
@@ -42,17 +52,7 @@
    "u": "1235188606"
   },
   {
-   "age_days": 2642,
-   "charts": [
-    "te"
-   ],
-   "name": "Warrior Cats: Ultimate Edition",
-   "place": "3663340706",
-   "status": "queued",
-   "u": "1278035280"
-  },
-  {
-   "age_days": 835,
+   "age_days": 836,
    "charts": [
     "te"
    ],
@@ -60,16 +60,6 @@
    "place": "18668065416",
    "status": "youtube_needed",
    "u": "6325068386"
-  },
-  {
-   "age_days": 674,
-   "charts": [
-    "te"
-   ],
-   "name": "Basketball: Zero",
-   "place": "130739873848552",
-   "status": "frames_ready",
-   "u": "7028566528"
   }
  ],
  "waiting": []
