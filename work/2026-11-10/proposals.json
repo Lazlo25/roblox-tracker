@@ -1,0 +1,30 @@
+{
+  "new": [
+    {"chart": "te", "statement": "Games with character-art thumbnails earn a higher Top Earning position for their CCU than games with other thumbnail styles",
+     "action": "Use character art thumbnails for revenue",
+     "test": {"feature": "thumb=character_art", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "tt", "statement": "Young games with reward-flex thumbnails (big $/s numbers, rare items) hold lower Top Trending positions among games of similar age",
+     "action": "Skip big-number thumbnails for trending",
+     "test": {"feature": "thumb=reward_flex", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "More original concepts hold higher Top Trending positions among young games of similar age",
+     "action": "Pick an original concept over a clone",
+     "test": {"feature": "novelty", "metric": "tt_pos", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with quest systems rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip quest systems at launch",
+     "test": {"feature": "mech_quests", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Christmas-themed games launched in early November take the seasonal slot Halloween games vacate and reach Top Earning within their first week",
+     "action": "Launch winter content in early November",
+     "rationale": "Run a Christmas Tree Lot entered Top Earning at 6 days (95% likes, 82 products incl. cash bundles to 1,499 R$ and rolls to 1,899 R$) the same day Halloween-tagged 10 Player Flee (-85) and Find Animal Bones (-68) fell and Stand Upright: Rebooted [HALLOWEEN] left. Confirm if two or more Christmas or winter-tagged games enter Top Earning or Up-and-Coming by 2026-11-24; refute if Run a Christmas Tree Lot leaves Top Earning within a week and no other Christmas game follows."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 82, "note": "Three ragdoll sandboxes entered Top Earning on scale (Ragdoll Physics 2, Ragdoll Research, WRECKED), Bloody Ragdoll Physics (10 days) leads Up-and-Coming and Hyper Realistic Ragdoll rose 62; Physics is the best Up-and-Coming title keyword (r=+0.40)."},
+    {"id": "H-x-011", "confidence": 45, "note": "Steal Eggs From Tsunami! and Kick a Lucky Block left Most Popular a day after entering, Bike For Egg (-12) and Scare Your Neighbor (-15) fell there, steal loops lose Top Trending momentum (r=-0.49) and steal mechanics sit lower on Up-and-Coming (-0.43); Steal An Egg still leads Most Popular."},
+    {"id": "H-x-019", "confidence": 65, "note": "HUSH: They can hear (sound-hunting extraction, 46 days, 11.9M visits) and Steal Or Die (voice-aware monster) were profiled on Top Earning; DONT SPLASH holds the Most Popular top group."},
+    {"id": "H-x-027", "confidence": 55, "note": "10 Player Flee (-85) and Find Animal Bones (-68) fell on Top Earning and Stand Upright: Rebooted [HALLOWEEN] left it, while Forsaken [UPD] rose 37 on Most Popular after an update, as the hypothesis expects."},
+    {"id": "H-x-034", "confidence": 29, "note": "Malam Bersama Kaka, a new Indonesian house-horror entry, reached Up-and-Coming at 13 days with a 65% like ratio, the pattern this hypothesis describes; Angkot Simulator Indonesia and Sepeda Ontel Simulator show the same regional pull outside horror."},
+    {"id": "H-x-036", "confidence": 30, "note": "Skate Tree entered Most Popular at 38 days but sits among its weakest, HOOP JAM! fell on both Top Trending (-21) and Up-and-Coming (-39), sports loops hold the 19th median Most Popular percentile and Soccer stays the worst Most Popular keyword (r=-0.50)."}
+  ],
+  "actions": [],
+  "retire": []
+}
