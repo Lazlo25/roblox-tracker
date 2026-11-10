@@ -1,8 +1,8 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "queue": [
   {
-   "age_days": 2328,
+   "age_days": 2329,
    "charts": [
     "te"
    ],
@@ -12,17 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1072,
-   "charts": [
-    "te"
-   ],
-   "name": "Sol's RNG [ Halloween Event 🎃]",
-   "place": "15532962292",
-   "status": "frames_ready",
-   "u": "5361032378"
-  },
-  {
-   "age_days": 689,
+   "age_days": 690,
    "charts": [
     "te"
    ],
@@ -32,17 +22,17 @@
    "u": "6945584306"
   },
   {
-   "age_days": 2643,
+   "age_days": 1073,
    "charts": [
     "te"
    ],
-   "name": "Warrior Cats: Ultimate Edition",
-   "place": "3663340706",
-   "status": "youtube_needed",
-   "u": "1278035280"
+   "name": "Sol's RNG [ Halloween Event 🎃]",
+   "place": "15532962292",
+   "status": "frames_ready",
+   "u": "5361032378"
   },
   {
-   "age_days": 2674,
+   "age_days": 2675,
    "charts": [
     "te"
    ],
@@ -52,14 +42,14 @@
    "u": "1235188606"
   },
   {
-   "age_days": 836,
+   "age_days": 2644,
    "charts": [
     "te"
    ],
-   "name": "[Karasu🐦‍⬛] Blue Lock: Rivals",
-   "place": "18668065416",
+   "name": "Warrior Cats: Ultimate Edition",
+   "place": "3663340706",
    "status": "youtube_needed",
-   "u": "6325068386"
+   "u": "1278035280"
   }
  ],
  "waiting": []
