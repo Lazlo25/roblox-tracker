@@ -1,8 +1,8 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "queue": [
   {
-   "age_days": 2329,
+   "age_days": 2330,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 690,
+   "age_days": 691,
    "charts": [
     "te"
    ],
@@ -22,17 +22,7 @@
    "u": "6945584306"
   },
   {
-   "age_days": 1073,
-   "charts": [
-    "te"
-   ],
-   "name": "Sol's RNG [ Halloween Event 🎃]",
-   "place": "15532962292",
-   "status": "frames_ready",
-   "u": "5361032378"
-  },
-  {
-   "age_days": 2675,
+   "age_days": 2676,
    "charts": [
     "te"
    ],
@@ -42,7 +32,17 @@
    "u": "1235188606"
   },
   {
-   "age_days": 2644,
+   "age_days": 1074,
+   "charts": [
+    "te"
+   ],
+   "name": "Sol's RNG [ Halloween Event 🎃]",
+   "place": "15532962292",
+   "status": "frames_ready",
+   "u": "5361032378"
+  },
+  {
+   "age_days": 2645,
    "charts": [
     "te"
    ],
