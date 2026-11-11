@@ -1,0 +1,31 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Titles carrying emoji rank lower on Up-and-Coming among games of the same age",
+     "action": "Leave emoji out of the title",
+     "test": {"feature": "title_emoji", "metric": "uc_pos", "type": "corr", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games selling speed passes climb Top Trending more slowly than games of similar age without them",
+     "action": "Skip speed passes at launch",
+     "test": {"feature": "pass_speed", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with leaderboards hold lower Top Trending positions among games of similar age",
+     "action": "Skip leaderboards at launch",
+     "test": {"feature": "mech_leaderboard", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Descriptions that ask players to join the group go with lower Up-and-Coming positions among games of the same age",
+     "action": "Skip join-the-group asks at launch",
+     "test": {"feature": "cta_group", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Remove-one-big-object job games (dig out a lawn rock, cut a rock, melt everything) with a rotating list of jobs reach Top Earning and Most Popular, unlike finite clear-the-whole-place chores that settle low on Up-and-Coming",
+     "action": "Rotate fresh jobs every few minutes",
+     "rationale": "Today Rock In My Lawn (21 days, 97% likes, 'new job every few minutes') entered Top Earning and Cut a Rock rose 15 on Most Popular at 58 days, while one-map chores profiled today (Break And Hide The Plane, Melt Everything With Acid, Clean The Bugs) entered Up-and-Coming in its lower half. Confirm if Rock In My Lawn or Cut a Rock still hold Top Earning or Most Popular on 2026-11-25 while at least two finite chore games leave Up-and-Coming; refute if the rotating-job games fall off as fast as the finite ones."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 82, "note": "The wave keeps feeding all four charts but now rotates to its newest members: Ragdoll Realism (15 days) entered Most Popular and rose 79 on Top Earning, Hyper Realistic Ragdoll (13 days) leads Top Trending momentum and Bloody Ragdoll Physics leads Up-and-Coming, while Ragdoll Physics left Up-and-Coming and Ragdoll Physics 2 fell 31 there and 16 on Top Trending; H-uc-036 (physics sandboxes rank higher) fell from 71% to 42%."},
+    {"id": "H-x-011", "confidence": 50, "note": "Steal mechanics sit lowest on Up-and-Coming within age (r=-0.53) and Build A Steal An Egg is its weakest game; Fake an Egg fell 17 on Most Popular and Hide to Steal Eggs 38 on Top Earning, while Steal An Egg still leads Most Popular and Steal A Plane entered Top Earning."},
+    {"id": "H-x-019", "confidence": 67, "note": "DONT SWIM (17 days) rose 23 on Most Popular and 65 on Top Earning, and Bobby's Daycare, a noise-sensing co-op horror game, entered Up-and-Coming; Do Not Stop. holds the top group on both breakout charts."},
+    {"id": "H-x-027", "confidence": 57, "note": "The four games still carrying a pumpkin tag on Top Earning all slipped (Tower Defense X -6, Anime Dimensions -8, Flag Wars -15, Flee the Facility -10) and Blox Fruits left Top Trending; Violence District rose 17 on Most Popular on a WEEK 3 event and Jurassic Blocky rose 80 on a second Halloween part, the follow-up exception the hypothesis allows."},
+    {"id": "H-x-036", "confidence": 28, "note": "Against the claim, Be a Soccer Legend (+20) and Skate Tree (+16) rose on Most Popular today; in favour, sports loops still sit at the 30th median Most Popular percentile and Soccer is the weakest keyword there (r=-0.28), while Ragdoll Soccer rose 41 on Up-and-Coming."},
+    {"id": "H-x-037", "confidence": 20, "note": "Run a Christmas Tree Lot rose 51 places on Top Earning (386 to 335) at 7 days, but no second Christmas or winter-tagged game is on any chart yet."},
+    {"id": "H-x-006", "confidence": 55, "note": "Cook Pizzas [Anomaly] rose 42 on Up-and-Coming at 19 days while Animal Hospital (Anomaly) fell 16 on Most Popular at 185 days; the format keeps producing entries but older members drift."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,731 @@
+[
+ {
+  "label": "Q01",
+  "loop": "scoop bills from a giant vault -> feed the shredder for earnings -> upgrade collecting power, tools and backpack -> find rare rainbow cash",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "shred as much cash as possible and grow earnings",
+  "progression": "tool unlocks (bucket, shovel, vacuum), backpack capacity, collect speed, rare cash tiers",
+  "instructions": "scoop bills, feed the shredder, upgrade power/speed/backpack, unlock tools, bring up to 4 friends",
+  "mechanics": [
+   "collecting",
+   "carry capacity",
+   "tool upgrades",
+   "rare drops",
+   "luck"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "cash-shredding fantasy as the sell action"
+  ],
+  "themes": [
+   "money",
+   "bank vault"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying clean/destroy",
+   "first-person hands"
+  ],
+  "monetization_signals": [
+   "x2 luck",
+   "fast rolls",
+   "infinite backpack",
+   "x2 cash",
+   "gem packs",
+   "timed boosts"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "first-person hand feeding cash into a shredder, a vault full of green bills, a rare 1% rainbow bill",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "one vault map, pile/pickup system, shredder sink, upgrade shop",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "collect scrap and parts -> build and upgrade a tank -> survive escalating zombie waves -> earn resources for bigger builds",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive as many zombie waves as possible with your built vehicle",
+  "progression": "wave number, tank parts and size",
+  "instructions": "build a tank, fight to stay alive, don't let the next wave be your last",
+  "mechanics": [
+   "vehicle building",
+   "wave survival",
+   "part collection",
+   "resource packs"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "build-your-own tank combined with zombie wave survival"
+  ],
+  "themes": [
+   "zombies",
+   "tanks",
+   "vehicles"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "build a x",
+   "wave 1 vs wave 100"
+  ],
+  "monetization_signals": [
+   "resource packs from 19 to 799",
+   "3x collect/claim",
+   "starter pack"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "a blocky multi-gun tank versus zombies; wave 1 go-kart vs wave 100 mega tank",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle building system with attachments, zombie AI waves",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q03",
+  "loop": "enter an infested house -> squish/spray thousands of bugs -> earn cash and gems -> buy better tools -> new maps and secrets",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "clear the infestation quickly and uncover the story behind it",
+  "progression": "tools (swatter, sprayer, flamethrower), difficulty tiers, maps, leaderboard times",
+  "instructions": "gear up as an exterminator, clean up bugs alone or with friends, race for fastest times, discover secrets",
+  "mechanics": [
+   "cleaning",
+   "tool upgrades",
+   "speedrun leaderboard",
+   "difficulty modes",
+   "helper assistant"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "mass-bug cleaning with timed difficulty runs and light story"
+  ],
+  "themes": [
+   "bugs",
+   "exterminator",
+   "house"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean the x",
+   "satisfying clean/destroy",
+   "like goal = new map"
+  ],
+  "monetization_signals": [
+   "unlimited tools 999",
+   "assistant forever",
+   "flamethrower",
+   "x2 gems/cash/luck",
+   "timed assistant"
+  ],
+  "update_signals": [
+   "1,000 likes = new map",
+   "updated today"
+  ],
+  "thumbnails": "first-person spraying and swatting carpets of cockroaches and spiders in a house; pressure-washer through bug piles",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many swarm instances, a few house maps, tool shop",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "operate a coaster: check heights, pull restraints, close gates, dispatch -> get paid per clean dispatch -> level up and buy upgrades -> new rides",
+  "loop_archetype": "simulation_job",
+  "objectives": "run rides cleanly and handle chaos events",
+  "progression": "level/XP, cash upgrades, new rides, coaster season pass",
+  "instructions": "check heights, pull restraints, close gates, hit dispatch; handle breakdowns and fires",
+  "mechanics": [
+   "job tasks",
+   "random chaos events",
+   "level up",
+   "season pass"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "first-person ride operator console with chaos events (phones on fire, hats flying)"
+  ],
+  "themes": [
+   "theme park",
+   "roller coasters"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "job simulator"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "coaster season pass",
+   "2x money/exp",
+   "donations",
+   "small cash packs"
+  ],
+  "update_signals": [
+   "new rides coming",
+   "hard mode coming soon"
+  ],
+  "thumbnails": "riders in restraints, the operator control panel ('CONTROL RIDES'), 'MULTIPLAYER' banner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "working coaster rides, control panel interactions, rider NPCs and random events",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "bake, decorate and box cookies -> sell to customers -> hire staff, expand bakery and recipes -> seasonal reward tiers",
+  "loop_archetype": "simulation_job",
+  "objectives": "build your dream bakery and design signature treats",
+  "progression": "level unlocks (drink station at L6), recipes, decor, staff, event tiers",
+  "instructions": "design, bake, box and sell cookies; mix drinks; hire staff; create your menu",
+  "mechanics": [
+   "cooking",
+   "customization",
+   "shop management",
+   "staff hiring",
+   "event pass",
+   "offline earnings"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "detailed cookie design and boxing with customization"
+  ],
+  "themes": [
+   "cookies",
+   "bakery",
+   "food",
+   "autumn"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "my x store",
+   "cozy shop sim"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "large plot",
+   "2x cash",
+   "advanced customization",
+   "offline plus",
+   "diamond packs up to 1499",
+   "unlock event rewards"
+  ],
+  "update_signals": [
+   "Harvest Fest event to Nov 30",
+   "beta, frequent fixes"
+  ],
+  "thumbnails": "a chocolate-chip cookie icon and a box of decorated cookies",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "cooking stations, customer AI, decoration editor, plots",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q06",
+  "loop": "throw a dagger -> teleport to it -> strike or parry -> win duels and rounds -> unlock weapons, skills and kill effects",
+  "loop_archetype": "combat_pvp",
+  "objectives": "outplay opponents in fast dagger duels",
+  "progression": "weapon bundles, skills, kill effects",
+  "instructions": "throw your dagger and teleport to your target; parry at the right moment; 1v1, TDM or FFA",
+  "mechanics": [
+   "teleport throw",
+   "parry timing",
+   "duels",
+   "team deathmatch",
+   "free for all",
+   "cosmetic bundles"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "teleport-to-thrown-dagger movement as the core combat verb"
+  ],
+  "themes": [
+   "ninja",
+   "anime",
+   "daggers"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "duels",
+   "anime abilities"
+  ],
+  "monetization_signals": [
+   "weapon bundles 49-399",
+   "gift versions of bundles",
+   "no game passes"
+  ],
+  "update_signals": [
+   "[UPD] tag",
+   "still in development"
+  ],
+  "thumbnails": "stylized anime-pose avatar landing with a kunai; teleport strike on a noob",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "responsive combat netcode, projectile teleport, parry windows, several modes",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q07",
+  "loop": "queue on a ring pad -> physics-ragdoll boxing bout -> time blocks and counters -> earn ranked points and coins -> gacha tickets for hand FX",
+  "loop_archetype": "combat_pvp",
+  "objectives": "climb ranked tiers from Wrap to Diamond by knocking out opponents",
+  "progression": "ranked tiers with a glove road, coins, outfits, titles, hand FX",
+  "instructions": "step on a ring pad for a quick bout, perfect-block then strike back, climb ranked",
+  "mechanics": [
+   "physics ragdoll",
+   "boxing",
+   "perfect block",
+   "ranked ladder",
+   "draw tickets",
+   "spectating"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "true ragdoll physics knockouts with spectated ring bouts in a gym lobby"
+  ],
+  "themes": [
+   "boxing",
+   "ragdoll physics"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll",
+   "1v1 ranked"
+  ],
+  "monetization_signals": [
+   "draw tickets (gacha)",
+   "hand FX",
+   "coin packs",
+   "2x coins"
+  ],
+  "update_signals": [
+   "new lobby and shop",
+   "codes every week",
+   "every 100 likes = free box",
+   "patched often"
+  ],
+  "thumbnails": "cartoon punch-in-the-face icon, boxer abducted by a UFO, ragdoll on a stage screen - comedic knockouts",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "physics ragdoll combat and matchmaking; small gym map",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "spray or pour acid on objects -> melt them for crystals -> upgrade sprayer and tank -> unlock next zone and escape",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "melt everything in each zone and escape",
+  "progression": "acid levels per zone (science lab, cafeteria, hall of champions), sprayer upgrades, chapters",
+  "instructions": "melt stuff with acid, upgrade your sprayer, melt everything and escape",
+  "mechanics": [
+   "destruction",
+   "tool upgrades",
+   "zones",
+   "luck",
+   "class slots"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "chapter-based destroy-everything with weak-to-max acid tiers"
+  ],
+  "themes": [
+   "acid",
+   "school",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying clean/destroy",
+   "melt/peel the x",
+   "chapters"
+  ],
+  "monetization_signals": [
+   "OP sprayer per zone or forever",
+   "infinite tank",
+   "skip to next acid level",
+   "crystal packs",
+   "2x luck"
+  ],
+  "update_signals": [
+   "CH2"
+  ],
+  "thumbnails": "green acid melting a table, a car, vending machines; weak acid vs max acid comparison",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "meltable props with simple dissolve effect, zone gates",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "pick a class -> clean an abandoned daycare overnight as a team -> stay quiet to avoid the animatronic -> survive till morning -> tokens for perks/classes",
+  "loop_archetype": "horror_escape",
+  "objectives": "finish the cleaning job before morning without being caught",
+  "progression": "tokens, classes, perks, night shift mode",
+  "instructions": "clean the daycare overnight, keep it quiet, something is listening; co-op",
+  "mechanics": [
+   "sound-based stealth",
+   "co-op tasks",
+   "classes",
+   "perks",
+   "revive"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "noise-sensing monster with cleaning-job objectives"
+  ],
+  "themes": [
+   "horror",
+   "daycare",
+   "animatronic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "mascot horror",
+   "be quiet"
+  ],
+  "monetization_signals": [
+   "revive",
+   "classes",
+   "perk reroll",
+   "packs up to 659",
+   "night shift pass"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "dark red animatronic bear behind bars; 'He heard you' text; cartoon chase art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "atmospheric map, monster AI with sound detection, classes",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q10",
+  "loop": "sit at a table -> answer a category prompt with one word -> rarer answers score more -> win after 7 rounds -> coins for chairs and effects",
+  "loop_archetype": "party_minigames",
+  "objectives": "name answers nobody else thinks of to score highest",
+  "progression": "coins, chairs/thrones, answer effects, leaderboards",
+  "instructions": "sit at a table, type one answer, rare answers score more, highest after 7 rounds wins",
+  "mechanics": [
+   "word answers",
+   "rarity scoring",
+   "table matches",
+   "daily reward",
+   "trolling products"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "answers scored by rarity across the player base (common to legendary)"
+  ],
+  "themes": [
+   "trivia",
+   "words"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "table games",
+   "name a x",
+   "rarity percent"
+  ],
+  "monetization_signals": [
+   "change category",
+   "VIP",
+   "2x coins",
+   "coin packs",
+   "fart everyone"
+  ],
+  "update_signals": [
+   "135+ questions"
+  ],
+  "thumbnails": "'Name a pet: Axolotl +100 vs Dog +10', 'Quokka accepted 0.01%' rainbow rarity cards",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "answer database and fuzzy matching, table seating UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q11",
+  "loop": "build your own obby/egg course with a hammer -> hatch and grow eggs for cash -> buy parts and creatures -> (likely) steal eggs from others",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "build a steal-an-egg map and earn from eggs",
+  "progression": "cash multipliers, egg growth, creatures",
+  "instructions": "build your own Steal an Egg; code RELEASE",
+  "mechanics": [
+   "building",
+   "egg hatching",
+   "income",
+   "server luck",
+   "offline cash"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "meta: build-your-own version of a steal-a-x game"
+  ],
+  "themes": [
+   "eggs",
+   "dinosaurs",
+   "building"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "build a x"
+  ],
+  "monetization_signals": [
+   "8x/4x/2x cash",
+   "auto hatch",
+   "instant hatch",
+   "server luck",
+   "skip playtime rewards"
+  ],
+  "update_signals": [
+   "release code"
+  ],
+  "thumbnails": "noob with hammer building ramps/walls with move gizmos; T-rex in a build box",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "placement/build tool, egg/creature systems",
+  "novelty": 1,
+  "confidence": 45
+ },
+ {
+  "label": "Q12",
+  "loop": "pry, saw, smash a landed plane into scrap -> carry scrap in a sack -> each load builds the village -> upgrade tools, mods and crates",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "hide the plane by turning it into village buildings before the inspector arrives",
+  "progression": "tools from gear shop, tool upgrades/mods, blueprints, village buildings",
+  "instructions": "break the plane apart in first person, fill your sack, carry scrap to the building site; solo or 4-squad",
+  "mechanics": [
+   "destruction",
+   "carry capacity",
+   "building progression",
+   "tool mods",
+   "crates",
+   "save runs"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "dismantle-to-build: the plane becomes a diner, windmill, market"
+  ],
+  "themes": [
+   "airplane",
+   "village",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "break the x",
+   "hide the x"
+  ],
+  "monetization_signals": [
+   "forever tools",
+   "per-run tools",
+   "bottomless sack",
+   "spirit crew"
+  ],
+  "update_signals": [
+   "pumpkin (Halloween) tag"
+  ],
+  "thumbnails": "angle grinder sparks on a plane, arrow from plane to diner, smug shush face, before/after village",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "destructible plane parts, multiple tools, village build stages",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q13",
+  "loop": "sit at a table -> get half a picture -> draw the other half -> similarity score decides the round -> cash, wins, chairs and effects",
+  "loop_archetype": "party_minigames",
+  "objectives": "draw the closest match to the original to beat your opponent",
+  "progression": "cash, wins, 35+ chairs, win effects, leaderboards",
+  "instructions": "draw the other half, vote themes, spin the picture roulette, hard mode for double cash",
+  "mechanics": [
+   "drawing",
+   "similarity scoring",
+   "theme voting",
+   "trolling products",
+   "art parkour"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "auto-graded mirror drawing against a reference image"
+  ],
+  "themes": [
+   "drawing",
+   "art"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "table games",
+   "drawing games",
+   "percent score"
+  ],
+  "monetization_signals": [
+   "admin passes",
+   "x2 wins",
+   "server/global nuke, blur, jumpscare",
+   "pick a picture",
+   "mirror the half"
+  ],
+  "update_signals": [
+   "updated yesterday"
+  ],
+  "thumbnails": "half-drawn smiley and lion with red 6.7% vs green 95% scores",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "canvas drawing and image similarity scoring, table matchmaking",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q14",
+  "loop": "shrink down and sneak through grandpa's house -> grab $1,000 quietly -> escape without waking him -> cash for VIP/boosts",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal the money and escape without waking grandpa",
+  "progression": "cash, revives, rounds",
+  "instructions": "be quiet, sneak in, grab $1,000, escape; if he hears you it's over",
+  "mechanics": [
+   "stealth",
+   "noise detection",
+   "heist",
+   "revive",
+   "tiny-scale map"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "tiny-player heist in an oversized house"
+  ],
+  "themes": [
+   "grandpa",
+   "heist",
+   "tiny"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "be tiny",
+   "rob x",
+   "escape the x"
+  ],
+  "monetization_signals": [
+   "revives",
+   "break free",
+   "x-ray",
+   "sleep grandpa",
+   "speed boost"
+  ],
+  "update_signals": [
+   "24 badges",
+   "updated yesterday"
+  ],
+  "thumbnails": "angry grandpa chasing a tiny player, toilet/plunger gag, banana peel and bomb, Tix coin",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large scaled house map, NPC hearing AI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "pick a speedy character -> brawl in a battleground with dash, block and ultimate -> earn rings -> cosmetics and awakenings",
+  "loop_archetype": "combat_pvp",
+  "objectives": "defeat other players in free-for-all battlegrounds",
+  "progression": "rings, ultimate/awakening forms, emotes, kill sounds",
+  "instructions": "punch, block, dash, ragdoll cancel, ultimate mode; earn rings by defeating players",
+  "mechanics": [
+   "melee combos",
+   "dash",
+   "block",
+   "ultimate mode",
+   "ragdoll cancel",
+   "emotes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "hedgehog-themed speed moveset in the battlegrounds format"
+  ],
+  "themes": [
+   "video game fan",
+   "hedgehog",
+   "speed"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "private servers+",
+   "early access",
+   "VIP",
+   "kill sounds",
+   "awakening outfits",
+   "ring currency"
+  ],
+  "update_signals": [
+   "NEW banner",
+   "community server sneaks"
+  ],
+  "thumbnails": "blue hedgehog-style avatar with rings, high-speed attack VFX",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many moves with VFX and animations, combat netcode",
+  "novelty": 1,
+  "confidence": 70
+ }
+]
