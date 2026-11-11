@@ -1,0 +1,23 @@
+## Q31 · +1 Destruction Battlegrounds [Superhero] (universe 10767956398)
+Charts today: Top Earning #283 | Age: 47 days | Genre: Action / Battlegrounds & Fighting | Max players: 10
+Creator: User "Kyzumii610" | Visits 5.1M | Favorites 447.3K | Likes 98% of 37.7K votes | Updated 2026-11-11
+Game passes (6): 10x Training 249; 5x Training 149; Auto Sell 49; x2 Gold 49; 3x Training 49; 2x Training 29
+Developer products (43): Starter Pack 9; Starter Pack (25% Off) 22; Starter Pack (50% Off) 15; Earthly x10 29; Pro Pack 49; Pro Pack (25% Off) 74; Pro Pack (50% Off) 50; Celestial x10 149; Admin Pack 149; Admin Pack (25% Off) 187
+Badges: 5 | Page media: 6 images, 0 videos
+Description: UPD: Now! - AOT/Giant (Epic) - ODM/GiantSlayer (Epic) - Players still doing tutorial are protected with shield and cannot damage other players until tutorial is complete. - Protected by shield for 30s until attacking a player. Prevents spawn camping. Doomsday Event: - Dr Noob (???) - God of Stories (Mythic) - Chaos Queen (Legendary) - Dragon Rings (Epic) - Wild Card (Rare) - Shield Hero (Common) 💥 Open packs, get superpowers and smash the whole city! 💥 Fight other players, destroy every building and become the strongest hero. New powers every few days! 🎁 CODES (redeem in Gifts): RELEASE 👍 Like and ⭐ Favorite for updates! ⚠ Early alpha: max 10 players for now, expect some bugs. < All costumes in this game are outfits from Catalogue Avatar Creator > Send me DM if u want your costume removed Tags (ignore): superhero, superpowers, battlegrounds, destruction, destroy, city, powers, packs, simulator, fighting, PvP, anime, ability, voxel, arena
+
+## Q32 · ✈️ Cabin Crew Simulator (universe 1802741133)
+Charts today: Top Earning #359 | Age: 2343 days | Genre: Simulation / ? | Max players: 10
+Creator: Group "Cruising Studios" | Visits 445.2M | Favorites 1.1M | Likes 93% of 438.8K votes | Updated 2026-11-10
+Game passes (12): 2x Earnings 650; Multiplayer Connect 400; Emergency Control 350; Premium AI Flight Attendant  300; VIP 300; Skilled Pilots 300; Custom Logo 250; Extra Design Colors & Materials 250; Elite Influencer 200; Custom Cabin Lighting 150; Custom Cabin Music 150; Premium Room 100
+Developer products (26): 400 SkyBux 50; 800 SkyBux 95; 1500 SkyBux 160; 3000 SkyBux 300; 6000 SkyBux 550; 10000 SkyBux 950; 20000 SkyBux 1800; 40000 SkyBux 3200; Boost Flight Attendants [1st Airline] 80; Boost Flight Attendants [2nd Airline] 80
+Badges: 88 | Page media: 10 images, 1 videos
+Description: Welcome to Cabin Crew Simulator! 🎨 Create your own airline and design your aircraft's look inside and out! 🍽️ Pick your meals and drinks! 🛫 Ensure your passengers have a safe and enjoyable flight as a flight attendant! 🔥 Experience a range of emergencies in-flight, from fires to water and crash landings! 💸 Complete exciting and dangerous missions to earn more in-game Skybux! 👍 Support for the game is appreciated through favorites and thumbs-ups! 🌟 Premium players also earn immediate access to Sky Lounge!
+
+## Q33 · [JUJUTSU] CRAZY 8 Ball (universe 10767330648)
+Charts today: Top Earning #443 | Age: 52 days | Genre: Sports & Racing / Sports | Max players: 24
+Creator: Group "Lucky 8" | Visits 19.5M | Favorites 335.3K | Likes 98% of 75.2K votes | Updated 2026-11-11
+Game passes (3): VIP 399; Ability Slot 3 79; Ability Slot 2 49
+Developer products (48): VIP Welcome Offer 199; Starter Pack 29; Handful of Cash 25; Stack of Cash 49; Bundle of Cash 99; Briefcase of Cash 199; Vault of Cash 399; Bank of Cash 799; Fortune 1699; Mystery Lucky Block 9
+Badges: 50 | Page media: 9 images, 0 videos
+Description: 🎱 Not your average game of billiards... use CRAZY abilities to beat your opponents! 🎱 THANK YOU FOR 70K LIKES! 🎟️ USE CODE “70KLIKES” FOR 5 FREE SPINS + $5,000! 🔓 NEXT CODE AT 80K LIKES! Still working codes: 60KLIKES 🔥 SEASON 1: CURSED ENERGY IS HERE! 12 NEW LIMITED CUES! Open Cursed Lucky Blocks before the season ends DECEMBER 12! 🆕 NEW GAME MODE: 9 BALL! Find the 9 BALL portal in the lobby! Roll for wild abilities, unlock rare cues, and climb the ranks to become the 8 Ball champion! 🏆 🎲 UNLOCK 15+ CRAZY ABILITIES 🎱 COLLECT 70+ UNIQUE CUES (Common → Secret!) 🎯 TWO GAME MODES: 8 BALL + 9 BALL 🏅 RANKED 1v1 MATCHES: climb from Bronze to the top! 👍 Enjoy the game? Leave a LIKE and ⭐ FAVORITE to get notified about new cues, abilities, and codes! COMPATIBLE ON ALL PLATFORMS!: PC, Mobile, Phone, Tablet, Console, PS5, and Xbox! tags: pool, 8 ball, 9 ball, billiards, crazy, ball, carom, snooker
