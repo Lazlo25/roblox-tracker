@@ -1,0 +1,102 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg (110 days), Brookhaven, Throw Food For Animals, DONT SPLASH (26 days), RIVALS and 99 Nights in the Forest lead the pillar for a fourth day, so the top group still barely moves (H-mp-008, 45%).",
+        "Ragdoll Realism (+47, 16 days) rose most, ahead of Raise The Biggest Family (+21), Clone Baby Care (Anomaly) (+17), 13 Days to Escape (+15) and Can You Pass A Driving Test? (+14).",
+        "Push the Patient (-37), Climb For Animals Eggs (-29) and three older ragdoll sandboxes, Ragdoll Reality (-29), Realistic Ragdoll Engine (-25) and Ragdoll Sandbox (-24), fell most.",
+        "Nineteen games entered and nineteen left: entries include two more ragdoll sandboxes (Bloody Ragdoll Physics, Hyper Realistic Ragdoll), Do Not Stop., Build a Bridge, A Bizarre Run and Flee the Facility at 3,421 days; Bug Evolution, Cut a Rock, Say Cheese! and +1 Baddie Evolution left.",
+        "Past a year the median pillar percentile is the 71st against the 45th at 15-42 days and the 31st at 43-84 days; the 4-12 month band sits at the 54th (n=9), so the mid-life trough (H-mp-009, 45%) still does not show."
+      ],
+      "patterns": [
+        "Higher prices consistently go with dominance: a median pass above 149 R$ holds at 75% (H-mp-001), and median products above 399 R$ split days on the chart at r=+0.39, with game age a likely confounder.",
+        "Recent updates tend to go with staying power: games updated within a week stay longer (H-mp-018, 65%; more than 30 days since an update splits days on the chart at r=-0.62) and H-mp-006 recovered from 41% to 61%.",
+        "Multiplayer tends to beat solo (H-mp-003, 42% to 64%), and among profiled loops steal-and-defend (79th median percentile), roleplay (68th) and PvP combat (67th) sit high while party minigames (18th), idle tycoons (25th) and obbies (28th) sit low.",
+        "Originality no longer goes with higher positions: H-mp-013 fell from 61% to 18%, because the leaders include template games (Steal An Egg, Throw Food For Animals) and the ragdoll clones that entered today; originality is speculative here, unlike on the breakout charts.",
+        "A high favorite rate per visit consistently marks smaller games (H-mp-010, 87%), since big evergreens convert fewer visits into favorites."
+      ],
+      "outliers": [
+        {"name": "🎃Flee the Facility🍁", "note": "Re-entered Most Popular at more than nine years old after a late Halloween event shipped on 10 November, and rose 415 on Top Earning the same day."},
+        {"name": "[ATTACHMENTS] Ragdoll Realism", "note": "Rose 47 places at 16 days while ragdoll sandboxes aged 27-31 days fell 24-29, so the wave's share is moving to its newest members."},
+        {"name": "Push the Patient [1-2 PLAYER OBBY]", "note": "Fell 37, the largest drop, despite a same-day update; a fixed-stage two-player obby at 53 days fits the short life of finite obbies (H-mp-025, 57%)."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Summer Donations, Clover RPG and Bloodlines (both five or more years old), Enter Brainrot, Those Who Remain and Momo City lead efficiency: donation hubs, old RPGs and roleplay again.",
+        "Ragdoll Physics, Bloody Ragdoll Physics, MALAM SAMA OPAH and Unstable SMP FFA are the least efficient: large young audiences with thin or new stores.",
+        "Flee the Facility (+415) rose most after its late Halloween event, ahead of Cultivation Unbound (+166), Unstable SMP FFA (+143), Chaos Battlegrounds (+131) and Survive a Psycho (+130); Momo City (-168), 10 Player Flee (-86), Impossible Animals (-73) and Survive The Swarm (-72) fell most.",
+        "Nineteen games entered, among them +1 Drain Water for Treasure, Drill City: Chicago, Jujutsu Farm, Raise a Champion, Tavern Town and Tiny Skies; fourteen left, including House TD 2, Spin To Upgrade! and Hide to Steal Eggs.",
+        "Efficiency consistently rises with age, from the 25th median percentile at 15-42 days to the 63rd past a year (H-te-001, 84%)."
+      ],
+      "patterns": [
+        "High prices consistently pay: median products above 79 R$ split efficiency at r=+0.42 (H-te-005, 95%), and a median pass above 399 R$ (H-te-025) and a top pass above 999 R$ (H-te-006) hold at 95%.",
+        "RPGs (r=+0.55), roleplay hubs (74th median percentile), story adventures (73rd), PvP combat (r=+0.26) and tower defense consistently earn more per player; physics sandboxes (r=-0.58), steal-and-defend loops (23rd), Survival-genre games (r=-0.32) and solo loops (r=-0.29) consistently earn less.",
+        "'+1' titles consistently earn less per player (H-te-004, 72% to 84%), and the Ragdoll (r=-0.67) and Steal (r=-0.49) title keywords are the weakest, while Defense (+0.38) and Life (+0.33) are the strongest.",
+        "Character-art thumbnails consistently go with revenue (H-te-048, 95%) and reward-flex thumbnails against it (H-te-029, 95%), the opposite of what wins on Up-and-Coming.",
+        "Same-day updates add nothing here: recent updates fell from 44% to 32% (H-te-017), and games updated in the last day moved -4 against -3 for the rest."
+      ],
+      "outliers": [
+        {"name": "Drill City: Chicago", "note": "Entered Top Earning at 25 days with only 326K visits: a whitelisted hood roleplay selling cash packs up to 2,499 R$ and capacity passes to a small, high-spending audience (98% likes), in line with H-te-026 and H-te-005."},
+        {"name": "[🎃]Momo City [Beta]", "note": "Among the most efficient games yet fell 168 places, the largest drop; it is still pumpkin-tagged without a new event, as H-x-027 expects."},
+        {"name": "[W3] +1 Drain Water for Treasure", "note": "Entered at 23 days despite the '+1' penalty (H-te-004) by stacking 50 passes and 293 products; it is one of the few '+1' games with a deep catalogue."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "The Ditch Hotel (12 days), Hyper Realistic Ragdoll (14 days), Barber Simulator, Build a REAL House, Troll Grab Tower and Unstable SMP FFA lead early momentum.",
+        "The Ditch Hotel (+38), Barber Simulator (+24), Net a Fish! (+23), Malam Bersama Kaka (+19) and Build a REAL House (+19) rose most; +1 Baddie Evolution (-38), Ragdoll Physics 2 (-23), Project Web (-22) and Untitled Symbiote Suit Game (-19) fell most.",
+        "Fourteen games entered, among them Ragdoll Soccer, Voxel Wars, Harpoon a Fish, Sleepover (Story), Draw an aquarium and Cook Pizzas [Anomaly], plus Toilet Tower Defense at 1,244 days after its OG-lobby update; fourteen left, including Make The Logo!, Urban Reload and Monster Maker.",
+        "Games updated in the last day moved -5 against 0 for the rest, so a same-day update again shows no immediate edge, though recently updated young games still tend to climb faster over time (H-tt-005, 71%).",
+        "The 0-14 day band holds the 99th median percentile (n=3) against the 55th at 15-42 days and the 38th at 43-84 days."
+      ],
+      "patterns": [
+        "Survival framing consistently helps: survival mechanics go with faster climbs (r=+0.49, within-age +0.40) and higher positions (+0.45), and H-tt-048 holds at 73%.",
+        "Originality consistently helps: more novel concepts hold higher positions (H-tt-069, 77%) and climb faster (r=+0.33, within-age +0.31), so the old template-climbs-faster idea stays low (H-tt-002, 28%).",
+        "Pet and egg mechanics go with much lower positions (r=-0.40, 12 games) and physics-sandbox mechanics with higher ones (r=+0.33); both are proposed as tests today.",
+        "Lean stores consistently do better: more than 55 developer products (H-tt-063, 72%) and currency packs (H-tt-067, 72%) go with lower positions, and like-begging descriptions with slower climbs (H-tt-061, 71%).",
+        "Gameplay thumbnails now consistently go with higher positions (H-tt-029, 46% to 71%), while speed passes no longer look harmful (H-tt-070, 70% to 32%)."
+      ],
+      "outliers": [
+        {"name": "Troll Grab Tower [FREE ESCAPE]", "note": "Holds a top momentum spot at 60 days, past the six-week fade (H-tt-001); its new water-park map and a free-escape pitch against paid trolling keep it rising."},
+        {"name": "The Ditch Hotel [HUGE UPDATE!]", "note": "Rose 38 at 12 days with a bracket tag, one of three update-tagged leaders that pulled H-tt-007 (bracket tags hurt) down to 48%."},
+        {"name": "+1 Baddie Evolution 💅", "note": "Fell 38 here and 49 on Up-and-Coming and left Most Popular: a '+1' template with 300 products fits both the lean-store and '+1' penalties."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Ragdoll Soccer (30 days, 73% likes), Hyper Realistic Ragdoll, Bloody Ragdoll Physics, Do Not Stop., Build a REAL House and Survive Your Ideas top the chart.",
+        "Draw the Other Half! (+68), Teleport Duels (+47), Bobby's Daycare [HORROR] (+34), BONK! Ragdoll Boxing (+29) and Build to Fight Zombies (+28) rose most; +1 Baddie Evolution (-49), Untitled Symbiote Suit Game (-42), Project Web (-33) and Realistic Ragdoll Physics (-24) fell most.",
+        "Nineteen games entered and nineteen left. The entries profiled today span ragdoll sandboxes (Ragdoll Frenzy at 9 days, the 2D Pumpkin Playground), a bomb-volleyball party game (Volley Bomb, 94% likes), a robot-vacuum cleaner, a tsunami sand-wall builder, two '+1' evolutions and two steal-egg reskins.",
+        "Games updated in the last day moved -6 against -1 for the rest, though over time recent updates consistently go with higher positions (H-uc-012, 81%).",
+        "The 0-14 day band holds the 66th median percentile against the 50th at 15-42 days (H-uc-005, 60%)."
+      ],
+      "patterns": [
+        "Original concepts consistently rank higher (H-uc-039, 84%; within-age +0.40), while steal mechanics sit lowest (within-age -0.62) and collection indexes low (-0.33); the steal test is proposed today.",
+        "Co-op (H-uc-019, 60% to 80%), survival framing (H-uc-047, 78%), horror escapes (H-uc-057, 75%) and physics sandboxes (H-uc-036, 42% to 76%) consistently go with higher positions.",
+        "Plain presentation consistently does better: no emoji in the title (H-uc-064, 78%), no text or numbers on thumbnails (H-uc-017, 79%), no bracket tags (H-uc-004, 74%) and no join-the-group ask (H-uc-065, 74%).",
+        "Launch stores tend to matter less than loops, but revives (H-uc-021, 73%) and storage passes (H-uc-052, 74%) consistently go with higher positions, while daily rewards (H-uc-062, 70%) and leaderboards (H-uc-061, 71%) go with lower ones.",
+        "Like ratio no longer tracks position (H-uc-006, 64% to 40%): Ragdoll Soccer leads at 73% likes while RoChess and Volley Bomb sit lower with 78-94%."
+      ],
+      "outliers": [
+        {"name": "Ragdoll Soccer", "note": "Leads the chart at 30 days with a 73% like ratio and a competitive sports loop, against both the sports (H-uc-041) and like-ratio patterns; the ragdoll wave likely carries it."},
+        {"name": "[62] Find The Clown", "note": "Among the weakest at 37 days: a one-map find-the-X hunt with four products and a reward-flex counter thumbnail, the template style the chart now ranks lowest."},
+        {"name": "🎨 Draw the Other Half!", "note": "Rose 68 at 16 days with a 65% like ratio: a drawing party duel, against the party-minigame penalty (H-uc-044, 56%)."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The ragdoll wave rotates to its newest members (H-x-021, 82%): Ragdoll Realism (16 days) rose 47 on Most Popular and two 12-14 day ragdoll games entered it while three aged 27-31 days fell 24-29; a new qualitative hypothesis tracks this replacement inside waves. Physics sandboxes rank high again on Up-and-Coming (H-uc-036, 76%) but stay at the bottom of Top Earning.",
+      "What wins breakout and what earns still split: originality, plain titles, gameplay thumbnails and lean stores consistently go with Up-and-Coming and Top Trending, while character-art thumbnails, high prices, RPGs and roleplay go with Top Earning efficiency. Originality no longer helps on Most Popular (H-mp-013, 18%).",
+      "Survival is a breakout genre, not a revenue genre: it consistently lifts Top Trending (H-tt-048, 73%) and Up-and-Coming (H-uc-047, 78%) but earns less per player (H-te-021, 95%).",
+      "Late events still pay: Flee the Facility's 10 November Halloween update lifted it 415 places on Top Earning and back onto Most Popular, while pumpkin-tagged games without a new event, led by Momo City (-168), fell (H-x-027 to 60%).",
+      "Gameplay videos are still unlabelled for the twelfth run: Dragon Adventures, Creatures of Sonaria, Sol's RNG and Basketball: Zero are frames_ready with 0 frames and no contact sheets on the videos branch. No new outside research was waiting. 47 games were profiled today."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (243 entries, up from 236, median 2 days), ahead of tt→mp (194, up from 180, median 2 days).",
+      "uc→te (151, 5 days), tt→te (139, 4 days) and uc→mp (135, up from 122, 4 days) keep showing breakouts reaching revenue and dominance within about a week, while tt→uc stays at 1.",
+      "Bloody Ragdoll Physics and Hyper Realistic Ragdoll went from Up-and-Coming and Top Trending to Most Popular within 12-14 days of launch; Bloody Ragdoll Physics also entered Top Earning, as one of its least efficient games."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Games built on steal mechanics rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip steal mechanics for breakout",
+     "test": {"feature": "mech_steal", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "More complex, studio-scale games rank higher on Up-and-Coming among games of the same age",
+     "action": "Invest in depth and polish",
+     "test": {"feature": "complexity", "metric": "uc_pos", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with pet and egg mechanics hold lower Top Trending positions among games of similar age",
+     "action": "Skip pet/egg loops for trending",
+     "test": {"feature": "mech_pets_eggs", "metric": "tt_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with physics-sandbox mechanics hold higher Top Trending positions among games of similar age",
+     "action": "Try a physics sandbox for trending",
+     "test": {"feature": "mech_sandbox_physics", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "Inside a template wave the newest entrants take the older clones' places: ragdoll sandboxes about four weeks old fall on Most Popular while two-week-old ones enter and rise",
+     "action": "Enter a wave in its first month",
+     "rationale": "Today Ragdoll Sandbox (27 days, -24), Realistic Ragdoll Engine (31 days, -25) and Ragdoll Reality (30 days, -29) fell most on Most Popular while Ragdoll Realism (16 days) rose 47 and Bloody Ragdoll Physics (12 days) and Hyper Realistic Ragdoll (14 days) entered; on Up-and-Coming Realistic Ragdoll Physics (16 days) fell 24 while Ragdoll Frenzy (9 days) and Pumpkin Playground (12 days) entered. Confirm if by 2026-11-26 the ragdoll games now aged 12-16 days fall while newer ones replace them; refute if the older ragdoll games recover or the wave's chart count shrinks without new entrants."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 82, "note": "The wave still reaches all four charts but rotates: Ragdoll Realism (16 days) rose 47 on Most Popular and Bloody Ragdoll Physics (12 days) and Hyper Realistic Ragdoll (14 days) entered it, while three ragdoll sandboxes aged 27-31 days fell 24-29; physics sandboxes rank higher on Up-and-Coming again (H-uc-036, 42% to 76%) but sit at the bottom of Top Earning (r=-0.58)."},
+    {"id": "H-x-011", "confidence": 52, "note": "Steal mechanics are the strongest negative on Up-and-Coming within age (r=-0.62, 8 games) and Climb For Animals Eggs fell 29 on Most Popular, while Steal An Egg still leads Most Popular; two new steal-egg reskins profiled today (Steal an Nightmare Egg, Be Flash For Eggs) entered Up-and-Coming only in its lower half (#47, #84)."},
+    {"id": "H-x-027", "confidence": 60, "note": "Flee the Facility shipped its late Halloween event on 10 November and rose 415 on Top Earning and re-entered Most Popular at 3,421 days, while Momo City (-168) and other pumpkin-tagged games without a new update fell; a follow-up event, even a late one, goes with gains."},
+    {"id": "H-x-006", "confidence": 57, "note": "Clone Baby Care (Anomaly) rose 17 on Most Popular at 34 days and Cook Pizzas [Anomaly] entered Top Trending at 20 days, so the format keeps producing climbers."},
+    {"id": "H-te-047", "confidence": 33, "note": "Two more anime fighting RPGs profiled today sell rerolls and sit on Top Earning with modest audiences: Shibuya (34 days, race and clan rerolls up to 4,500 R$, #136) and Clover Adventure (42 days, grimoire rolls and timed boosters, #236)."},
+    {"id": "H-x-038", "confidence": 17, "note": "Cut a Rock fell off Most Popular today, so the rotating-job games are not yet holding better than finite chores; keep watching Rock In My Lawn on Top Earning."}
+  ],
+  "actions": [],
+  "retire": []
+}
