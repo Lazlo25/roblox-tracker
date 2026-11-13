@@ -1,0 +1,96 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "The top is still split between the 111-day-old Steal An Egg and multi-year evergreens (Brookhaven, RIVALS, Blox Fruits), with 56-day Throw Food For Animals and 27-day DONT SPLASH the young games holding near the top.",
+        "Movement today was led by young breakouts: Ragdoll Soccer (+48, 31 days), MM2 of The Monsters (+37), Barber Simulator (+25) and Hyper Realistic Ragdoll (+21, 15 days). Ragdoll Realism (17 days) gave back 46 places one day after rising 47.",
+        "Six games entered, including Farm Evolution under a [2x WEEKEND] tag and the 271-day-old BE TINY AND ROB GRANDPA, and six fell off, among them Fake an Egg and Criminal Simulator.",
+        "Games aged 85-122 days have the weakest median percentile (23), below both 15-42-day games (44) and games over a year old (68), which again fits the mid-life trough idea (H-mp-009).",
+        "Games updated in the last day moved a median of -1 against 0 for the rest, and the recency hypothesis on position fell to 30% (H-mp-006), while staying power still tends to go with an update in the last week (H-mp-018, 65%)."
+      ],
+      "patterns": [
+        "Pricing stays the most durable page signal: games whose median pass costs over 149 R$ consistently hold higher positions (H-mp-001, 81%), and higher-priced product catalogs go with more days on the chart (rho=+0.29).",
+        "Social play consistently beats solo here (H-mp-003, 70%); wave-survival co-op (median percentile 92, n=3) and steal-and-defend (83, n=5) loops sit highest among profiled young games, and fixed obbies the lowest (29).",
+        "A high favorite rate per visit consistently marks lower positions (H-mp-010, 88%; today rho=-0.41): big evergreens turn few visits into favorites, so the signal reflects audience breadth rather than quality.",
+        "Videos of long-running hits show two working templates: zero-HUD social towns (Brookhaven, Adopt Me!) and dense progression HUDs (Blox Fruits). The common ground is many places to go, not a particular amount of UI."
+      ],
+      "outliers": [
+        {"name": "Steal An Egg", "note": "Leads Most Popular at 111 days while its steal reskins fade on the breakout charts; being the original of a wave looks like an advantage the clones don't share."},
+        {"name": "BE TINY AND ROB GRANDPA", "note": "Entered Most Popular and rose 12 on Top Trending at 271 days, an age when most games are in the trough; likely an update-driven revival (updated a day ago)."},
+        {"name": "Ragdoll Realism", "note": "Swung +47 then -46 in two days at 16-17 days old, the clearest sign yet that ragdoll clones turn over within a week or two."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Efficiency leaders remain social and RPG games with modest audiences (Summer Donations, Clover RPG, Bloodlines, Those Who Remain), plus Trash Landfill Tycoon (66 days), a detailed heavy-machinery sim with no game passes and eight cash products.",
+        "The least efficient are again young ragdoll sandboxes (Ragdoll Physics, Bloody Ragdoll Physics) and young PvP and folk-horror games with big audiences and little to buy.",
+        "Sixteen games entered, mostly 23-77-day-old games with deep stores or fandom pull (Reborn an Adventurer, Project Soul's, Dragon Tower Defense, Huss Tackle, Run a Figure Skating Club, Gym Legacy), and seventeen fell off, many still Halloween-tagged.",
+        "Jujutsu Farm rose 122 places at 31 days and Raise a Champion rose 80, both roll-and-collect loops; Karinderya fell 72 after six days without an update."
+      ],
+      "patterns": [
+        "Price level is consistently the strongest lever: median product price (rho=+0.37), premium passes above 999 R$ (H-te-006, 95%) and a median pass above 399 R$ (H-te-025, 95%).",
+        "RPGs (r=+0.54, H-te-011), complex studio-scale builds (H-te-013) and social or multiplayer play (solo loops lower, H-te-028) consistently earn more per player.",
+        "Physics sandboxes consistently earn least for their audience (H-te-045, 93%; Ragdoll in the title r=-0.63), so the wave that dominates the breakout charts pays poorly.",
+        "Roll and luck layers now tend to help (H-te-037 up to 68%): today's risers Jujutsu Farm and Raise a Champion are roll loops, and new entrant Run a Figure Skating Club sells skater spins next to many content-unlock passes.",
+        "Several new entrants sell no game passes at all, only products (Dragon Tower Defense, Defend Your Egg, 7 Days as a Pet, Trash Landfill Tycoon), so a store built only on developer products can still place on this chart."
+      ],
+      "outliers": [
+        {"name": "*FOREMAN* Trash Landfill Tycoon", "note": "Third most efficient at 66 days, with no passes and only eight products priced 100-3,500 R$; an unusual, deep job sim with few, expensive items breaks the 'more passes' pattern."},
+        {"name": "Driving Empire", "note": "Its Nov 13 update (returning limited Aston Martin, new drift physics) fits the limited-vehicle-drop model its video shows; a test of vehicle games' efficiency starts today."},
+        {"name": "[🍲] Karinderya!", "note": "Fell 72 at 98 days with 236 products and no passes, after six days without an update; a large cheap catalog didn't hold its place."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Climbers are young and varied: Impossible Hill Climb (+23, 19 days), Escooter World (+21), Voxel Wars (+13), Barber Simulator (+10) and BE TINY AND ROB GRANDPA (+12), an older game revived by an update.",
+        "Fallers include Project Web (-45, off the chart), The Ditch Hotel (-33, 13 days), +1 Baddie Evolution (-31) and South Hell (-24), and Toilet Tower Defense slid 25.",
+        "Fifteen games entered, many from the +1 and sandbox templates (+1 Sukuna Evolution, +1 Monkey Swing Escape, +1 Glow Up Evolution, Build Your World!, Pumpkin Playground, Stop The Tsunami!), and Berry Avenue re-entered at 1,771 days.",
+        "Most scored games are 15-42 days old (62 of 74), and games updated in the last day moved a median of -3.5 against -1 for the rest."
+      ],
+      "patterns": [
+        "Spins and crates consistently go with both stronger momentum (H-tt-026, 71%) and higher positions (H-tt-053, 74%) among young games, and the same signal appears on Up-and-Coming, where a new test starts today.",
+        "Survival framing consistently lifts momentum (H-tt-048, 73%; today r=+0.42), and drivable vehicles (H-tt-033, 71%) and physics sandboxes (H-tt-073, 70%) consistently go with higher positions.",
+        "Creature and monster themes go with higher positions today (r=+0.39) even though they don't climb faster (H-tt-022 at 33%); a new test separates position from momentum.",
+        "Original concepts consistently hold higher positions (H-tt-069, 75%), while templates still tend to supply most of the new entrants: five of today's fifteen are +1 or sandbox clones."
+      ],
+      "outliers": [
+        {"name": "BE TINY AND ROB GRANDPA", "note": "Climbed 12 at 271 days, outside the 0-4 month frame, so it isn't scored; an update brought it back, as with other aged horror-escape revivals."},
+        {"name": "Voxel Wars", "note": "A 16-day shooter with no passes and 110 products rose 13 and entered Most Popular, even though PvP loops usually climb more slowly (H-tt-011)."},
+        {"name": "[NOW] +1 Baddie Evolution", "note": "Fell 31 at 26 days despite a 96% like ratio and 300 products; the +1 template's heavy store did not hold momentum."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Hyper Realistic Ragdoll (15 days) leads, followed by Ragdoll Soccer, +1 Sukuna Evolution, Do Not Stop., Build a REAL House and Bloody Ragdoll Physics, so ragdoll physics, +1 and survival make up the top six.",
+        "The biggest risers were +1 Sukuna Evolution (+71), Tattoo to Get Rich (+68), +1 Glow Up Evolution (+67) and Stop The Tsunami! (+65), while older ragdoll sandboxes fell (Bad Physics -50, Ragdoll Realism -33, Realistic Ragdoll Physics -32).",
+        "Fourteen games entered, including four physics showcases (Ragdoll Destruction Playground, Tornado Ragdoll Sandbox, Blood Lab, BloxNG crash physics), two school role-reversal games (Be a Teacher!, Class Clowns) and a tethered two-player gecko obby.",
+        "80 of 98 games are 15-42 days old; games updated in the last day moved a median of -10 against -5 for the rest."
+      ],
+      "patterns": [
+        "Originality is the strongest signal today (novelty rho=+0.28, within-age +0.34) and consistently holds (H-uc-039, 83%), as do complex builds (H-uc-067, 80%).",
+        "Thumbnails without text or big numbers (H-uc-017, 79%) and titles without emoji (H-uc-064, 76%) consistently rank higher, and descriptions asking players to join the group consistently rank lower (H-uc-065, 73%).",
+        "Social play tends to beat solo (H-uc-007, 70%), and survival framing (H-uc-047, 72%), drivable vehicles (H-uc-043, 72%) and a page video (H-uc-025, 69%) go with higher positions. The vehicle and video signals jumped today, so they may still swing.",
+        "Physics sandboxes tend to rank higher (H-uc-036, 64%, down from 76%), as the wave turns over to its newest members within one to two weeks."
+      ],
+      "outliers": [
+        {"name": "Risky Heist", "note": "Among the four weakest despite a 96% like ratio and 38K favorites at 15 days; steal-and-defend loops sit low on this chart (median percentile 29)."},
+        {"name": "Stop The Tsunami!", "note": "Rose 65 with a 67% like ratio, part of a pattern where low-rated hook games climb (like ratio rho=-0.23)."},
+        {"name": "Gecko Duo", "note": "Entered at #17 at 14 days with no game passes, a tethered two-player obby with custom gecko characters; a novel co-op twist on the fixed obby."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Breakout and earning still split: physics sandboxes, survival framing and originality consistently go with Up-and-Coming and Top Trending, while price level, RPGs, complexity and social play drive Top Earning, where physics sandboxes rank last (H-te-045, 93%).",
+      "The ragdoll wave (H-x-021, 82%) keeps turning over faster: 15-17-day members now fall while 10-14-day ones enter (H-x-039 to 33%), and it is branching into single-effect physics showcases (crash deformation, fluid blood, tornadoes), now tracked as a new qualitative hypothesis.",
+      "Spins and crates are the one store item that helps on every chart tested: Top Trending momentum (71%) and position (74%), Top Earning (63%), and a new Up-and-Coming test starting today.",
+      "The hourglass countdown icon is spreading across genres (H-x-033 to 32%), with five games profiled today (racing, PvP, football, gym, steal), most of them counting hours to the next update.",
+      "Gameplay videos are still unlabelled for the thirteenth run: Dragon Adventures, Creatures of Sonaria, Sol's RNG and Basketball: Zero are frames_ready with 0 frames and no contact sheets. No new outside research was waiting. 44 games were profiled today."
+    ],
+    "progressions": [
+      "uc→tt remains the most common transition (251 entries, up from 243, median 2 days), followed by tt→mp (198, up from 194, median 2 days).",
+      "uc→te (155, 5 days), tt→te (142, 4 days) and uc→mp (138, 4 days) keep showing breakouts reaching revenue and dominance within about a week; tt→uc stays at 1.",
+      "Hyper Realistic Ragdoll went from Up-and-Coming to Top Trending (#2 on the pillar) and Most Popular (+21) by 15 days, and Voxel Wars went from Top Trending to Most Popular at 16 days."
+    ]
+  }
+}

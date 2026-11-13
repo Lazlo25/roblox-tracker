@@ -1,0 +1,30 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Games selling spins or crates rank higher on Up-and-Coming among games of the same age",
+     "action": "Sell spins or crates",
+     "test": {"feature": "prod_spin_crate", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young creature and monster-themed games hold higher Top Trending positions among games of similar age, even though they climb no faster (H-tt-022)",
+     "test": {"feature": "mech_creatures", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "te", "statement": "Games built around drivable vehicles earn a higher Top Earning position for their CCU",
+     "action": "Build around drivable vehicles",
+     "test": {"feature": "mech_vehicles", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "The ragdoll wave is branching into single-effect physics showcases (soft-body car crashes, fluid blood, tornado simulation) that reach Up-and-Coming within their first month",
+     "action": "Build around one standout physics effect",
+     "rationale": "Profiled today: BloxNG [CRASH PHYSICS] (31 days, soft-body deformation, Up-and-Coming #35), Blood Lab (14 days, voxel fluid blood, #73) and Tornado Ragdoll Sandbox (12 days, tornado simulation, #44) all entered Up-and-Coming on the same day, next to Ragdoll Destruction Playground (10 days, #22). Confirm if by 2026-11-27 at least two of them reach Top Trending or Most Popular, or more single-effect physics showcases enter Up-and-Coming; refute if all four leave Up-and-Coming within two weeks without reaching another chart."},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "School role-reversal games, where players act as the teacher or sneak past one (grade homework, catch cheaters, sneak snacks), are a new breakout theme on Up-and-Coming",
+     "action": "Try a school role-reversal theme",
+     "rationale": "Two school-themed games entered Up-and-Coming on the same day at 15-17 days old from different groups: Be a Teacher! (#19, a job sim with a Papers-Please-style inspection gate) and Class Clowns (#34, a 1-vs-all classroom stealth game where one player is the teacher). Confirm if a third school role-reversal game enters a breakout chart, or either reaches Top Trending, by 2026-11-27; refute if both leave Up-and-Coming within ten days."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 82, "note": "The wave still feeds every breakout chart: Hyper Realistic Ragdoll (15 days) leads Up-and-Coming and rose 21 on Most Popular, and four physics sandboxes aged 10-31 days entered Up-and-Coming today, while physics-sandbox loops stay the least efficient on Top Earning (r=-0.55, median percentile 14)."},
+    {"id": "H-x-039", "confidence": 33, "note": "Replacement runs even faster than four weeks: Ragdoll Realism (17 days) rose 47 on Most Popular yesterday, then fell 46 today and 33 on Up-and-Coming, and Bad Physics (15 days) fell 50 on Up-and-Coming, while three newer ones (10-14 days) entered Up-and-Coming."},
+    {"id": "H-x-033", "confidence": 32, "note": "Five games profiled today carry an hourglass countdown icon, now in more genres: a bike racer (Ride a Bike Downhill, NOW), a lucky-block PvP game (Lucky Islands, 24 HOURS), a football game (Huss Tackle, 6 HOURS), a gym simulator (Gym Legacy, 17 HOURS) and a steal game (Steal a Cheese, 24 HOURS). Most show a time left in hours, not just NOW."},
+    {"id": "H-x-034", "confidence": 33, "note": "Another MALAM SAMA series entry, Malam Sama Kembar (14 days, Malay-language twins horror), entered Up-and-Coming at #79, while MALAM SAMA OPAH (24 days) is among the least efficient games on Top Earning."},
+    {"id": "H-x-011", "confidence": 54, "note": "Steal An Egg still leads Most Popular, but new steal reskins stay weak where they launch: Risky Heist (15 days) is among the four weakest on Up-and-Coming, and Steal a Cheese (51 days) entered Top Earning only at #480. Steal-and-defend loops have a median percentile of 29 on Up-and-Coming and 24 on Top Earning."},
+    {"id": "H-x-027", "confidence": 62, "note": "Flee the Facility fell 25 on Most Popular three days after its late Halloween bump, and Momo City, Legacy Piece and something evil will happen (all pumpkin-tagged) fell off Top Earning today."}
+  ],
+  "actions": [],
+  "retire": []
+}
