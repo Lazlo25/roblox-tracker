@@ -1,0 +1,729 @@
+[
+  {
+    "label": "Q01",
+    "loop": "play as a sandworm -> destroy objects on the desert map for XP -> level up -> unlock bigger/new sandworm species",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "cause as much destruction as possible and unlock every sandworm",
+    "progression": "XP levels, unlockable sandworm species (many sold as passes)",
+    "instructions": "become a sandworm, destroy objects to earn XP, unlock new sandworms",
+    "mechanics": [
+      "play as creature",
+      "destruction",
+      "xp leveling",
+      "character unlocks",
+      "stamina"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "burrowing giant-worm avatar that swallows players and props"
+    ],
+    "themes": [
+      "sandworm",
+      "desert",
+      "monsters",
+      "destruction"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "become-a-creature",
+      "destroy-everything"
+    ],
+    "monetization_signals": [
+      "paid worm unlocks up to 1299",
+      "level skips",
+      "2x xp boosts",
+      "server xp boost",
+      "gifting"
+    ],
+    "update_signals": [
+      "'update in 1 hour' icon",
+      "updated today"
+    ],
+    "thumbnails": "giant sandworm bursting from sand, eating a Roblox avatar; small-to-big worm growth comparison; icon is an update countdown",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "desert map with destructible props, worm movement/burrow animation, several worm models",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q02",
+    "loop": "memorize a target color -> mix it drop by drop from primary paints -> closest match wins the 1v1 round -> lose hearts until one is left",
+    "loop_archetype": "party_minigames",
+    "objectives": "match the target color more closely than your opponent and be last standing",
+    "progression": "wins, win streaks, cash for cosmetic packs",
+    "instructions": "memorize the color, mix it from red/yellow/blue/white/black, closest match wins",
+    "mechanics": [
+      "memory",
+      "color mixing",
+      "1v1 rounds",
+      "elimination",
+      "hearts/lives",
+      "win streaks"
+    ],
+    "social": "pvp",
+    "competitive": "core",
+    "unique": [
+      "color-mixing skill test as a party elimination game"
+    ],
+    "themes": [
+      "paint",
+      "colors"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "only-1%-can",
+      "skill-test"
+    ],
+    "monetization_signals": [
+      "x2 cash/wins passes",
+      "cosmetic effect packs",
+      "cash bundles up to 799",
+      "revives",
+      "server jumpscare product"
+    ],
+    "update_signals": [
+      "not updated since 2026-10-05"
+    ],
+    "thumbnails": "avatar pouring paint buckets, 'MIX IT!', 'I FORGOT!', 'ONLY 1% CAN MIX THIS' challenge text",
+    "thumbnail_style": "text_ad",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "single arena, color-blend UI and scoring logic, simple round system",
+    "novelty": 2,
+    "confidence": 80
+  },
+  {
+    "label": "Q03",
+    "loop": "join a crew -> check in passengers, load cargo, fuel and fly -> handle in-flight chaos events -> land, earn Wing Bucks -> rank up and unlock skins",
+    "loop_archetype": "wave_survival_coop",
+    "objectives": "get the plane and passengers to the destination in one piece",
+    "progression": "Wing Bucks currency, crew ranks Cadet to Sky Legend, emotes and skins",
+    "instructions": "team up as airline crew, prep and fly the plane, fix problems mid-flight, serve passengers",
+    "mechanics": [
+      "co-op tasks",
+      "flying",
+      "ragdoll",
+      "slapping",
+      "random events",
+      "npc passengers",
+      "side quests"
+    ],
+    "social": "coop",
+    "competitive": "none",
+    "unique": [
+      "chaotic co-op airline crew sim with ragdoll physics (friendslop style)"
+    ],
+    "themes": [
+      "airplane",
+      "airline",
+      "comedy chaos"
+    ],
+    "audience": "broad",
+    "trend_hooks": [
+      "friendslop",
+      "co-op chaos job"
+    ],
+    "monetization_signals": [
+      "cosmetic bundles",
+      "escalating revive prices",
+      "double tips",
+      "grab/throw/slap troll passes",
+      "gifting"
+    ],
+    "update_signals": [
+      "[NEW SKINS] title tag",
+      "beta label",
+      "updated today"
+    ],
+    "thumbnails": "cartoon pilots grilling on the wing, gunning down planes, cockpit view; icon is a 1-hour countdown",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": true,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 4,
+    "complexity_notes": "flyable plane interior/exterior, many crew task systems, NPC passengers, events, islands, ragdoll",
+    "novelty": 2,
+    "confidence": 70
+  },
+  {
+    "label": "Q04",
+    "loop": "spawn into a ragdoll sandbox -> use anime-inspired powers and weapons on dummies/ragdolls -> buy more abilities",
+    "loop_archetype": "sandbox_physics",
+    "objectives": "unclear; free-form experimenting with anime abilities on ragdolls",
+    "progression": "unclear; mostly purchasable ability packs",
+    "instructions": "early phase, expect bugs; chat code for reward",
+    "mechanics": [
+      "ragdoll physics",
+      "anime abilities",
+      "dummies",
+      "sandbox mode",
+      "codes"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "single-player anime-power ragdoll toybox"
+    ],
+    "themes": [
+      "anime",
+      "ragdoll",
+      "jujutsu/naruto references"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "ragdoll engine",
+      "anime abilities"
+    ],
+    "monetization_signals": [
+      "VIP/Super VIP",
+      "ability packs",
+      "individual anime-character powers at 99",
+      "no cooldowns"
+    ],
+    "update_signals": [
+      "[UPD] tag",
+      "updated today",
+      "early phase"
+    ],
+    "thumbnails": "logo art, crucified ragdoll with cloaked figures, 'CONCUSSED' ragdoll gag, 'SIX EYES' ability shot",
+    "thumbnail_style": "mixed",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 2,
+    "complexity_notes": "ragdoll engine plus many ability VFX on a simple map",
+    "novelty": 1,
+    "confidence": 60
+  },
+  {
+    "label": "Q05",
+    "loop": "start as an ant egg -> eat food to grow and earn DNA -> evolve through stages, roll mutations -> fight bugs, players and a mantis boss -> rebirth",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "evolve into the ultimate ant and beat the giant mantis",
+    "progression": "evolution stages (15+), DNA, mutations, rebirth",
+    "instructions": "eat food to grow, bite bugs, battle players, roll mutations, beat the mantis boss, rebirth",
+    "mechanics": [
+      "eat to grow",
+      "evolution stages",
+      "mutation rolls",
+      "pvp",
+      "boss fight",
+      "rebirth"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "evolve-a-creature progression with mutation RNG"
+    ],
+    "themes": [
+      "ants",
+      "insects",
+      "nature"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "evolution simulator",
+      "grow-bigger"
+    ],
+    "monetization_signals": [
+      "instant evolve products",
+      "2x DNA",
+      "lucky DNA",
+      "extra mutation slot",
+      "flying wings pass"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "stylized ants vs spider and mantis, winged purple ant, ant fight in flower garden",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 3,
+    "complexity_notes": "multiple creature models and stages, NPC bugs and boss AI, mutation system",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q06",
+    "loop": "build rides and coasters -> guests pay to ride -> hire staff, buy upgrades -> sacrifice park for Blessings -> rebuild stronger",
+    "loop_archetype": "idle_income_tycoon",
+    "objectives": "build the most profitable theme park and climb leaderboards",
+    "progression": "34 rides, upgrades, staff, prestige via Blessings",
+    "instructions": "build rides, keep guests happy, hire janitors and engineers, sacrifice park for Blessings",
+    "mechanics": [
+      "building",
+      "income per second",
+      "npc guests",
+      "staff hiring",
+      "prestige",
+      "leaderboards"
+    ],
+    "social": "solo",
+    "competitive": "light",
+    "unique": [
+      "rideable roller coasters inside a tycoon with prestige loop"
+    ],
+    "themes": [
+      "theme park",
+      "roller coasters"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "tycoon"
+    ],
+    "monetization_signals": [
+      "double coins/gems",
+      "auto collect",
+      "Super VIP",
+      "coin packs",
+      "gifting"
+    ],
+    "update_signals": [
+      "[UPD] tag",
+      "Stalls update",
+      "updated today"
+    ],
+    "thumbnails": "red roller coaster with riders cresting a hill",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 3,
+    "complexity_notes": "many ride models and coaster tracks, guest AI, staff and upgrade systems",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q07",
+    "loop": "punch a talking butter character -> launch it around -> use weapons/gloves -> repeat for satisfaction",
+    "loop_archetype": "sandbox_physics",
+    "objectives": "blow off steam by punching the butter",
+    "progression": "unclear; badges and purchasable weapons",
+    "instructions": "punch the annoying butter",
+    "mechanics": [
+      "punching",
+      "ragdoll",
+      "weapons",
+      "boss"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "stress-relief punching toy built around a single annoying character"
+    ],
+    "themes": [
+      "butter",
+      "comedy"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "punch-the-x",
+      "stress relief"
+    ],
+    "monetization_signals": [
+      "weapon/glove passes",
+      "cosmetic disguises",
+      "instant KO",
+      "boss continue"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "boxing glove hitting cartoon butter, 'DON'T PUNCH ME' sign",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 1,
+    "complexity_notes": "one character, simple ragdoll and a few tools",
+    "novelty": 1,
+    "confidence": 70
+  },
+  {
+    "label": "Q08",
+    "loop": "students hide among NPCs and sneak snacks when the teacher looks away to fill the class bar; teacher hunts the real players before the bell",
+    "loop_archetype": "party_minigames",
+    "objectives": "students: fill mischief bar unseen; teacher: catch all real players",
+    "progression": "gems, gold, battle pass, ability rolls",
+    "instructions": "one teacher, rest are students hiding among NPCs; snack and pass notes when teacher turns",
+    "mechanics": [
+      "1 vs all",
+      "hide among npcs",
+      "red light green light",
+      "abilities",
+      "battle pass"
+    ],
+    "social": "pvp",
+    "competitive": "light",
+    "unique": [
+      "social-deduction hide-in-the-crowd in a classroom with snack sneaking"
+    ],
+    "themes": [
+      "school",
+      "classroom",
+      "snacks",
+      "teacher"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "1v-all",
+      "don't-get-caught"
+    ],
+    "monetization_signals": [
+      "be the teacher product",
+      "teacher priority pass",
+      "gem bundles up to 699",
+      "battle pass",
+      "ability rolls"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "first-person hands sneaking burger from desk drawer; Baldi-like teacher behind students",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 2,
+    "complexity_notes": "single classroom map, NPC students, role logic",
+    "novelty": 2,
+    "confidence": 75
+  },
+  {
+    "label": "Q09",
+    "loop": "time a throw to fling a seed down a canyon -> farther zones boost luck -> a random-rarity plant grows -> place plants in garden for $/s -> train strength to throw farther",
+    "loop_archetype": "rng_roll_collect",
+    "objectives": "throw farther to grow rarer plants and complete the index",
+    "progression": "15 zones, 75+ plants in 10 rarities, strength bar upgrades, garden size",
+    "instructions": "tap at the right moment to throw; do pull-ups to throw farther; put plants in the garden",
+    "mechanics": [
+      "timing throw",
+      "distance luck",
+      "rng rarity",
+      "garden income",
+      "offline income",
+      "strength training",
+      "index",
+      "mutations"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "throw distance acts as luck multiplier for RNG plant rolls"
+    ],
+    "themes": [
+      "seeds",
+      "plants",
+      "garden"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "throw-a-x",
+      "grow-a-garden",
+      "rng"
+    ],
+    "monetization_signals": [
+      "secret seed packs up to 1499",
+      "luck potions",
+      "server luck",
+      "double money/luck",
+      "rainbow seed pass"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "avatar throwing seed, mystery silhouette tree, '$12,850B/S' celestial oak, zone strip",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 2,
+    "complexity_notes": "linear canyon with zones, plant models, garden plots",
+    "novelty": 2,
+    "confidence": 80
+  },
+  {
+    "label": "Q10",
+    "loop": "adopt/have a baby -> raise it as it grows (also offline) -> add more kids, age them up",
+    "loop_archetype": "roleplay_social",
+    "objectives": "unclear; raise a family",
+    "progression": "kids' ages, number of kids",
+    "instructions": "none beyond welcome",
+    "mechanics": [
+      "raise child",
+      "offline growth",
+      "aging",
+      "adoption"
+    ],
+    "social": "social_hub",
+    "competitive": "none",
+    "unique": [
+      "time-skip and 'kill' products on raised kids"
+    ],
+    "themes": [
+      "family",
+      "babies",
+      "hospital"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "raise-a-x",
+      "grows offline"
+    ],
+    "monetization_signals": [
+      "twins",
+      "+years skips",
+      "+1 kid",
+      "skip to adopt"
+    ],
+    "update_signals": [
+      "unclear"
+    ],
+    "thumbnails": "newborn in hospital bed with parents, 'GROWS OFFLINE'",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 1,
+    "complexity_notes": "unclear; likely simple growth timers and a small map",
+    "novelty": 1,
+    "confidence": 45
+  },
+  {
+    "label": "Q11",
+    "loop": "as a creepy anomaly, destroy terrain to grow bigger -> buy upgrades with tokens/cores -> collect rare anomalies",
+    "loop_archetype": "collect_upgrade_rebirth",
+    "objectives": "grow as big as possible and collect rare anomalies",
+    "progression": "size, upgrades, anomaly collection",
+    "instructions": "destroy everything, grow bigger, buy upgrades; codes and daily spin",
+    "mechanics": [
+      "destroy to grow",
+      "upgrades",
+      "collection",
+      "daily spin",
+      "codes",
+      "friend boost"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [],
+    "themes": [
+      "anomaly",
+      "creepy creature"
+    ],
+    "audience": "kids",
+    "trend_hooks": [
+      "eat-the-world clone",
+      "grow-bigger"
+    ],
+    "monetization_signals": [
+      "instant max size",
+      "cores bundles up to 3249",
+      "server boosts",
+      "VIP"
+    ],
+    "update_signals": [
+      "updated 2026-11-13"
+    ],
+    "thumbnails": "long-clawed black creature digging; small-to-big growth arrow",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 2,
+    "complexity_notes": "voxel destructible terrain, scaling avatar",
+    "novelty": 0,
+    "confidence": 70
+  },
+  {
+    "label": "Q12",
+    "loop": "drive cars -> crash them with soft-body damage -> earn credits -> buy cars and skins",
+    "loop_archetype": "sandbox_physics",
+    "objectives": "enjoy realistic crashes and unlock more cars",
+    "progression": "credits, car unlocks, daily skins",
+    "instructions": "none beyond tech pitch",
+    "mechanics": [
+      "driving",
+      "soft-body damage",
+      "crashes",
+      "currency",
+      "skins"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "soft-body deformation physics on Roblox"
+    ],
+    "themes": [
+      "cars",
+      "crashes"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "car crash physics"
+    ],
+    "monetization_signals": [
+      "credit bundles up to 2499",
+      "2x credits timers",
+      "daily skins",
+      "VIP"
+    ],
+    "update_signals": [
+      "early access",
+      "updated 2026-11-13"
+    ],
+    "thumbnails": "mangled cars with 'REALISTIC DAMAGE', 'CRASH PHYSICS', 'ENVIRONMENTAL INTERACTION' labels",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 4,
+    "complexity_notes": "custom soft-body deformation system, road map, many vehicle models",
+    "novelty": 2,
+    "confidence": 75
+  },
+  {
+    "label": "Q13",
+    "loop": "enter a dinosaur enclosure solo or in a party -> complete objectives (fuses?) while evading T-Rex/Carnotaurus -> escape -> earn credits/research samples -> buy gear, take on modifiers",
+    "loop_archetype": "horror_escape",
+    "objectives": "survive and escape the enclosure",
+    "progression": "credits, research samples, gear, challenge modifiers, global ranks",
+    "instructions": "survive terrifying dinosaurs, escape, enable modifiers for more rewards",
+    "mechanics": [
+      "stealth",
+      "chase ai",
+      "objectives",
+      "stamina",
+      "flashlight",
+      "challenge modifiers",
+      "leaderboards",
+      "lives/revives"
+    ],
+    "social": "coop",
+    "competitive": "light",
+    "unique": [
+      "realistic-looking dinosaur horror with high production value"
+    ],
+    "themes": [
+      "dinosaurs",
+      "horror",
+      "captivity"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "realistic horror"
+    ],
+    "monetization_signals": [
+      "night vision/tracker passes",
+      "speed/stamina passes",
+      "lives and revives",
+      "credit bundles"
+    ],
+    "update_signals": [
+      "active development",
+      "more dinosaurs coming",
+      "updated today"
+    ],
+    "thumbnails": "dark realistic T-Rex and Carnotaurus shots, 'He ate them.'",
+    "thumbnail_style": "character_art",
+    "thumb_text_numbers": false,
+    "video": "page has 1 video (not viewed)",
+    "complexity": 4,
+    "complexity_notes": "realistic dino models and animation, chase AI, atmospheric environment",
+    "novelty": 1,
+    "confidence": 75
+  },
+  {
+    "label": "Q14",
+    "loop": "explore guarded areas -> collect valuables -> hatch eggs for Omega pets -> grow money and luck",
+    "loop_archetype": "hatch_collect_pets",
+    "objectives": "discover every Omega pet",
+    "progression": "pets, money, growth multipliers",
+    "instructions": "explore guarded areas, collect objects, discover Omega pets",
+    "mechanics": [
+      "egg hatching",
+      "pets",
+      "collection",
+      "admin panel purchase"
+    ],
+    "social": "solo",
+    "competitive": "none",
+    "unique": [
+      "sells an admin panel and 'infinite cash/luck' outright"
+    ],
+    "themes": [
+      "pets",
+      "eggs"
+    ],
+    "audience": "young_kids",
+    "trend_hooks": [
+      "admin panel",
+      "x999 huge numbers"
+    ],
+    "monetization_signals": [
+      "6000-robux gamepass",
+      "admin panel",
+      "infinite cash/luck/speed products",
+      "individual pets"
+    ],
+    "update_signals": [
+      "updated today"
+    ],
+    "thumbnails": "'1000X' egg piles and treadmill, 'Admin' button with '99Qa' and infinite money",
+    "thumbnail_style": "reward_flex",
+    "thumb_text_numbers": true,
+    "video": "none",
+    "complexity": 1,
+    "complexity_notes": "template-like hatcher with simple map",
+    "novelty": 0,
+    "confidence": 55
+  },
+  {
+    "label": "Q15",
+    "loop": "spawn weapons, vehicles and toys -> wreak ragdoll destruction on NPCs and breakable maps -> earn kills to unlock new items",
+    "loop_archetype": "sandbox_physics",
+    "objectives": "free-form destruction; unlock items with kills",
+    "progression": "kill count unlocks, ranks",
+    "instructions": "spawn anything, drive anything, destroy everything; keybinds listed",
+    "mechanics": [
+      "ragdoll physics",
+      "spawn menu",
+      "weapons",
+      "vehicles",
+      "breakable maps",
+      "sandbox tools",
+      "gore"
+    ],
+    "social": "mixed",
+    "competitive": "none",
+    "unique": [
+      "Garry's-Mod-style toolbox with gore and black holes"
+    ],
+    "themes": [
+      "ragdoll",
+      "military",
+      "gore",
+      "destruction"
+    ],
+    "audience": "teens",
+    "trend_hooks": [
+      "ragdoll sandbox",
+      "gore"
+    ],
+    "monetization_signals": [
+      "Everything pass 799",
+      "weapon/vehicle passes",
+      "kill bundles up to 1499",
+      "cheap weapons at 15"
+    ],
+    "update_signals": [
+      "new toys and maps every update",
+      "updated today"
+    ],
+    "thumbnails": "explosions, RPG blasting ragdolls, tank and helicopter, black hole; 'RAGDOLL CHAOS', 'DRIVE ANYTHING'",
+    "thumbnail_style": "gameplay",
+    "thumb_text_numbers": false,
+    "video": "none",
+    "complexity": 4,
+    "complexity_notes": "100+ items, vehicles, NPC ragdolls, breakable maps, sandbox tooling",
+    "novelty": 1,
+    "confidence": 80
+  }
+]

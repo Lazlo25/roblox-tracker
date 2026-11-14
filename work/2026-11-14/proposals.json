@@ -1,0 +1,30 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young co-op games climb Top Trending faster than games of similar age without co-op play",
+     "action": "Launch with co-op play",
+     "test": {"feature": "social=coop", "metric": "tt_mom", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games selling luck products climb Top Trending more slowly than games of similar age without them",
+     "test": {"feature": "prod_luck", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young Survival-genre games hold higher Top Trending positions than games of similar age in other genres",
+     "action": "Pick the Survival genre for trending",
+     "test": {"feature": "genre=Survival", "metric": "tt_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Lower like ratios go with higher Top Trending positions among young games of similar age (divisive hook games climb while polished niche games stay lower)",
+     "test": {"feature": "like_ratio", "metric": "tt_pos", "type": "corr", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "kind": "qualitative", "confidence": 20,
+     "statement": "Raise-a-family games where adopted children keep ageing while the player is offline (Raise Your Family!, Raise The Biggest Family) climb Up-and-Coming by giving players a reason to return daily",
+     "action": "Let raised characters grow while offline",
+     "rationale": "Profiled 2026-11-14: Raise The Biggest Family rose 34 on Up-and-Coming at 32 days and Raise Your Family! was queued as a new game; both advertise offline growth and sell time skips. Confirm if more offline-growth raise games reach the top half of Up-and-Coming within their first month; refute if they fade within a week like other single-hook waves."},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Driving roleplays set in a recreated real city with a local identity (Riyadh in Kingdom World, Roanoke VA, Young Street Ontario, Indonesian Drag Drive) earn well for their audience and last, because the real setting and car culture give a ready-made reason to roleplay",
+     "action": "Recreate a real city for driving roleplay",
+     "rationale": "Profiled 2026-11-14: Kingdom World (535 days) entered Top Earning today, and four of the 60 profiled games are real-city driving roleplays with long lives. Confirm if these games keep a top-half Top Earning efficiency and stay on charts for months; refute if they sit in the bottom half of efficiency like other open-world sims."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-041", "confidence": 28, "note": "Mukbang Students entered Up-and-Coming and Be a Teacher! entered Top Trending today, joining Class Clowns: three classroom 1-vs-all games (sneak snacks or prank while the teacher watches) charted within two days."},
+    {"id": "H-x-040", "confidence": 25, "note": "Showcases keep arriving (Car Destruction Engine, Anime Ragdoll Engine, Create A Disaster profiled today; Ragdoll Destruction Playground entered Top Trending), but they don't hold: Tornado Ragdoll Sandbox fell 24 on Up-and-Coming and WRECKED fell 21 on Top Trending. Single-effect showcases get on the charts but don't stay."},
+    {"id": "H-x-039", "confidence": 30, "note": "Mixed today: 13-day-old Tornado Ragdoll Sandbox fell while 13-day-old Anime Ragdoll Engine entered, so turnover isn't simply by age; the wave's physics-sandbox Up-and-Coming signal dropped from 64% to 49%."},
+    {"id": "H-x-006", "confidence": 58, "note": "Cook Pizzas [Anomaly] rose 19 on Top Trending at 22 days despite a 70% like ratio, another cute-job-plus-anomaly game holding up."}
+  ],
+  "actions": [],
+  "retire": []
+}
