@@ -1,0 +1,707 @@
+[
+ {
+  "label": "Q01",
+  "loop": "hit, grab and fling robot ragdolls with melee and guns -> earn money/XP -> unlock weapons and powers like slow-mo and rewind",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "smash robots in creative ways and unlock every weapon",
+  "progression": "XP levels, cash, weapon and gear unlocks",
+  "instructions": "LMB attack, RMB grab, G slow-mo, H rewind; robots are fictional",
+  "mechanics": [
+   "ragdoll physics",
+   "melee",
+   "guns",
+   "grab and throw",
+   "slow motion",
+   "rewind",
+   "weapon unlocks"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "slow-mo and rewind controls on a ragdoll punching toy"
+  ],
+  "themes": [
+   "ragdolls",
+   "robots",
+   "violence comedy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "unlock all premium pass",
+   "unlock all guns",
+   "weapon packs",
+   "XP packs",
+   "2x money"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "close-up first-person punches on a blank-faced ragdoll with button prompts (E CRUSH, E END)",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "flat baseplate map, ragdoll NPCs, weapon tools; physics does most of the work",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "pick gear in the locker -> step on a mission pad -> raid buildings, clear rooms, rescue hostages -> earn cash/XP for better kit",
+  "loop_archetype": "combat_pvp",
+  "objectives": "complete SWAT missions and become an elite operator",
+  "progression": "cash, XP levels, unlockable gear packs",
+  "instructions": "choose gear and weapons, go to a mission pad, follow objectives and neutralise suspects",
+  "mechanics": [
+   "first-person shooting",
+   "missions",
+   "hostage rescue",
+   "loadouts",
+   "squad play",
+   "revives"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "tactical police room-clearing PvE in a realistic style"
+  ],
+  "themes": [
+   "swat",
+   "police",
+   "military tactical"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic shooter"
+  ],
+  "monetization_signals": [
+   "special forces pass",
+   "FBI pack",
+   "cash packs",
+   "revives",
+   "double cash/XP"
+  ],
+  "update_signals": [
+   "weekly updates promised",
+   "launch"
+  ],
+  "thumbnails": "realistic first-person scopes, armoured truck and SWAT officers in a town",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic town map, gun systems, AI suspects, mission scripting",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q03",
+  "loop": "enter the cage -> punch, kick, throw and knee an opponent with ragdoll reactions -> win fights -> spin for cosmetics",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win cage fights",
+  "progression": "unclear; spins and extra slots suggest cosmetic/move unlocks",
+  "instructions": "punches, kicks, throws, flying knees; time your attacks",
+  "mechanics": [
+   "physics combat",
+   "ragdoll",
+   "melee",
+   "spins"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "physics-ragdoll MMA rather than ability-based battlegrounds"
+  ],
+  "themes": [
+   "mma",
+   "fighting",
+   "cage"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll",
+   "celebrity likeness"
+  ],
+  "monetization_signals": [
+   "lucky spins",
+   "extra slots",
+   "skip spins"
+  ],
+  "update_signals": [
+   "new release"
+  ],
+  "thumbnails": "cartoon art of a famous-looking MMA fighter in a cage with first-person gloves",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single cage arena, ragdoll combat system, spin UI",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q04",
+  "loop": "train throw power on pull-up bars -> throw your car key -> win the car where it lands -> park cars on your plot for $/s -> buy better keys to reach rarer zones",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "collect rarer, faster cars and grow income",
+  "progression": "throw power, key tiers, zones, income per second",
+  "instructions": "throw your key, win the car where it lands, park it to earn, buy better keys, train throw power",
+  "mechanics": [
+   "throwing distance",
+   "zones",
+   "income per second",
+   "training",
+   "lucky throws",
+   "server luck"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "distance-throw determines which reward tier you win"
+  ],
+  "themes": [
+   "cars",
+   "keys"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x",
+   "income per second"
+  ],
+  "monetization_signals": [
+   "server luck boosts",
+   "lucky throw packs",
+   "x2 cash",
+   "x2 training power",
+   "money packs"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "key flying over coloured zone stripes toward supercars with a $/s number",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "striped zone map, car models, plot system; standard simulator template",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q05",
+  "loop": "choose a boss -> dodge patterns and shoot back with friends -> beat bosses",
+  "loop_archetype": "story_adventure",
+  "objectives": "beat every boss",
+  "progression": "unclear; boss roster",
+  "instructions": "learn boss patterns, dodge and attack",
+  "mechanics": [
+   "boss fights",
+   "dodging",
+   "shooting",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "fan recreation of a well-known console boss-rush game"
+  ],
+  "themes": [
+   "cartoon",
+   "1930s animation",
+   "bosses"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ip recreation"
+  ],
+  "monetization_signals": [],
+  "update_signals": [
+   "more bosses coming soon"
+  ],
+  "thumbnails": "recognisable cartoon cup character and vegetable boss art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "hand-recreated boss patterns and 2D-style art in 3D; no monetisation",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q06",
+  "loop": "one player draws on a tablet -> the drawing comes to life as a hazard (shark, tornado, meteor) -> everyone runs and dodges -> last one standing wins coins",
+  "loop_archetype": "party_minigames",
+  "objectives": "survive each drawn disaster and be the last one standing",
+  "progression": "coins, levels, brush skins",
+  "instructions": "draw fast, your drawing comes to life, run and dodge, last one standing wins",
+  "mechanics": [
+   "drawing",
+   "hazard survival",
+   "elimination rounds",
+   "player-chosen hazards",
+   "revives"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "player drawings turn into the round's hazard"
+  ],
+  "themes": [
+   "drawing",
+   "disasters",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "survive-the-x",
+   "drawing"
+  ],
+  "monetization_signals": [
+   "chance-to-draw passes",
+   "extra life",
+   "drawing time",
+   "revives",
+   "coins",
+   "meteor/save-everyone products"
+  ],
+  "update_signals": [
+   "[UPD] tag"
+  ],
+  "thumbnails": "tablet drawings becoming a tsunami, shark, spider monster and tornado",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "drawing recognition/mapping to prefab hazards, many hazard types",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q07",
+  "loop": "pick an anime-style fighter -> use moves to send ragdoll dummies flying -> earn knockouts to unlock fighters, moves and finishers",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "unlock every fighter and move",
+  "progression": "fighters unlocked by knockouts, moves, cosmetics, daily streak",
+  "instructions": "choose your fighter, use moves, send ragdolls flying",
+  "mechanics": [
+   "ragdoll physics",
+   "abilities",
+   "fighter unlocks",
+   "sandbox",
+   "daily streak"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "anime ability kits used on ragdoll dummies"
+  ],
+  "themes": [
+   "anime",
+   "ragdolls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "anime"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x cash",
+   "cash packs",
+   "character packs",
+   "finishers"
+  ],
+  "update_signals": [
+   "early testing",
+   "daily streak rewards"
+  ],
+  "thumbnails": "anime characters blasting white ragdoll dummies with glowing effects",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "VFX-heavy moves, ragdolls, small map; early test build",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q08",
+  "loop": "pick up coloured balls from a room with a tool -> sell them for cash -> buy better tools, pets and bigger bags -> unlock new maps to clean",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "clean every map and speedrun the leaderboard",
+  "progression": "tools, bag size, pets, map unlocks",
+  "instructions": "pick up balls, unlock tools, pets and zones, clean with friends",
+  "mechanics": [
+   "collecting",
+   "selling",
+   "tool upgrades",
+   "pets",
+   "maps",
+   "speedrun leaderboard"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "cleaning a ballpit-flooded house as the collect loop"
+  ],
+  "themes": [
+   "ballpit",
+   "cleaning",
+   "houses"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "cleaning sim"
+  ],
+  "monetization_signals": [
+   "auto-sell",
+   "2x cash",
+   "rare ball luck",
+   "unlock map now",
+   "next tool"
+  ],
+  "update_signals": [
+   "new map every day or two (dated list)"
+  ],
+  "thumbnails": "houses flooded with colourful balls, vacuum tools, before/after split",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "many physics balls, several themed maps, standard simulator UI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q09",
+  "loop": "transform into monsters or heroes -> destroy a city full of ragdoll NPCs and cars -> trigger police response -> unlock new forms with kills",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause chaos and unlock every form",
+  "progression": "forms unlocked with kills, daily rewards, lucky wheel",
+  "instructions": "transform, destroy the city, drive, grab and throw NPCs, sandbox mode",
+  "mechanics": [
+   "ragdoll physics",
+   "transformations",
+   "driving",
+   "wanted system",
+   "sandbox spawning",
+   "limb loss"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "single-player GTA-style rampage with gory ragdoll NPCs"
+  ],
+  "themes": [
+   "monsters",
+   "city",
+   "gore",
+   "superheroes"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "kaiju forms",
+   "SWAT/firefighter passes",
+   "sandbox pass",
+   "gore pack"
+  ],
+  "update_signals": [
+   "daily rewards"
+  ],
+  "thumbnails": "hero/brute art with NOW! timer; chainsaw on a ragdoll",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city map, NPC ragdolls, vehicles, wanted system",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q10",
+  "loop": "pick a hero -> swing, fly and smash around a city -> stop crimes and disasters -> earn cash for new heroes, suits and upgrades",
+  "loop_archetype": "roleplay_social",
+  "objectives": "unlock heroes and gold suits",
+  "progression": "cash, hero unlocks, power/speed/armour upgrades",
+  "instructions": "pick a hero, explore, stop crimes, earn cash, upgrade",
+  "mechanics": [
+   "traversal (swing/fly)",
+   "crime events",
+   "hero unlocks",
+   "upgrades",
+   "police chaos"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "knock-off superhero roster with skin products per hero"
+  ],
+  "themes": [
+   "superheroes",
+   "city"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "superhero ip lookalike"
+  ],
+  "monetization_signals": [
+   "OP hero pack 2299",
+   "unlock all heroes",
+   "skin products per hero",
+   "x2 cash"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "lookalike spider and bat heroes on rooftops in a city",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city map with traversal systems for several heroes",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q11",
+  "loop": "knock on a streamer's door -> scare them -> steal their package -> fans break packages into items -> sell items for money -> upgrade treadmill, scare trainer, fans and base",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "find rarer packages and items and grow income",
+  "progression": "money, rarer package/item tiers, base upgrades, offline earnings",
+  "instructions": "knock, scare, steal package, fans open it, earn money, upgrade",
+  "mechanics": [
+   "stealing",
+   "scaring",
+   "package opening",
+   "income",
+   "offline earnings",
+   "auras"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "streamer-scare skin on a steal-and-open loop"
+  ],
+  "themes": [
+   "streamers",
+   "pranks",
+   "packages"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "streamer",
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "x2 break",
+   "x2 money",
+   "auras",
+   "monsters"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "streamer screaming at a doorbell cam while player runs off with package",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "house fronts, NPC streamers, package rarity tables",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q12",
+  "loop": "catch and kill creatures -> grind them into gummies -> sell for cash -> upgrade the factory -> hunt golden/diamond creatures -> earn your escape",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "make enough gummies to escape the boss",
+  "progression": "factory upgrades, cash, gems, rare creature tiers",
+  "instructions": "catch creatures, grind into gummies, sell, upgrade factory",
+  "mechanics": [
+   "catching",
+   "processing chain",
+   "selling",
+   "factory upgrades",
+   "rare variants",
+   "story hook"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "dark-cute grinder factory with an escape-the-boss story hook"
+  ],
+  "themes": [
+   "creatures",
+   "candy",
+   "factory",
+   "dark humour"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dark cute"
+  ],
+  "monetization_signals": [
+   "nuke all creatures",
+   "raygun",
+   "starter pack",
+   "2x cash/gems/luck",
+   "save slots"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "cute creature with X eyes in a grinder; gummy packets",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "factory tycoon with conveyor/processing chain",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q13",
+  "loop": "choose loadout -> quickplay team firefights in realistic maps -> earn IC -> unlock weapons and attachments",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win tactical gunfights",
+  "progression": "weapons, loadout slots, cosmetics",
+  "instructions": "fire M1, aim M2, crouch C, lean Q/E, helmetcam P",
+  "mechanics": [
+   "tactical fps",
+   "leaning",
+   "loadouts",
+   "helmet cam",
+   "weekly updates"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "award-winning realistic tactical FPS tech on Roblox"
+  ],
+  "themes": [
+   "military",
+   "tactical"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "realistic shooter"
+  ],
+  "monetization_signals": [
+   "IC currency packs",
+   "tips",
+   "loadout slots"
+  ],
+  "update_signals": [
+   "weekly/daily updates",
+   "new weapons"
+  ],
+  "thumbnails": "photoreal first-person weapons in snowy/urban maps with TTK logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "studio-quality visuals, custom gun systems and animation",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q14",
+  "loop": "explore a bizarre-adventure world -> fight with light/heavy attacks and summon a stand -> use arrows and items to roll new stands -> level and grind drops",
+  "loop_archetype": "combat_pvp",
+  "objectives": "get strong stands and win fights",
+  "progression": "EXP levels, stand rolls (arrows), drops, coins",
+  "instructions": "controls listed: run, attack, block, dash, summon, pose",
+  "mechanics": [
+   "stand summoning",
+   "melee combat",
+   "rolling for powers",
+   "boosters",
+   "farming"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "fan-favourite anime fight with stand mechanics and farming"
+  ],
+  "themes": [
+   "anime",
+   "bizarre adventure"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "arrows",
+   "boosters",
+   "seeds",
+   "private servers",
+   "builder pass"
+  ],
+  "update_signals": [
+   "codes at like milestones"
+  ],
+  "thumbnails": "stylised anime poses with pop-art backgrounds",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many stands with custom moves and animation, open world",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q15",
+  "loop": "lift weights to gain strength -> hatch trainers -> box rivals and bosses -> unlock new worlds -> ascend",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "get HUGE and reach Olympus",
+  "progression": "strength, trainer pets, worlds, ascensions",
+  "instructions": "lift weights, hatch trainers, box rivals, open worlds, ascend",
+  "mechanics": [
+   "clicking training",
+   "pet hatching",
+   "boss fights",
+   "worlds",
+   "ascend",
+   "mog-off pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "mog-off challenge between players"
+  ],
+  "themes": [
+   "gym",
+   "muscles"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gym",
+   "mog"
+  ],
+  "monetization_signals": [
+   "star hatches",
+   "mythic luck",
+   "VIP",
+   "storage",
+   "trainer slots"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "muscled noob characters, day-1 vs day-100 transformation",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard pet-sim structure with several worlds",
+  "novelty": 0,
+  "confidence": 80
+ }
+]

@@ -1,0 +1,651 @@
+[
+ {
+  "label": "Q46",
+  "loop": "summon cute snack units -> place them to defend against waves -> collect and evolve snacks -> events",
+  "loop_archetype": "tower_defense",
+  "objectives": "collect every snack and survive the maps",
+  "progression": "snack collection, traits, maps, events",
+  "instructions": "make your own cute snack army",
+  "mechanics": [
+   "tower defense",
+   "summons",
+   "traits",
+   "events",
+   "collection"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "cute food-character TD"
+  ],
+  "themes": [
+   "snacks",
+   "food",
+   "cute",
+   "thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower defense",
+   "cute"
+  ],
+  "monetization_signals": [
+   "luck-boost summons",
+   "legendary/mythical packs up to 7999",
+   "trait luck",
+   "3x game speed"
+  ],
+  "update_signals": [
+   "Big Feast event until Dec 4"
+  ],
+  "thumbnails": "cute angry pie vs burger mascot, gummy bears",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "TD with many units and events",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q47",
+  "loop": "mix ingredients -> craft soaps with scents, colours and patterns -> cut and package -> sell in your shop -> upgrade workshop and hire workers",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "become the ultimate soap tycoon",
+  "progression": "shop upgrades, rare soaps, workers",
+  "instructions": "mix, craft, cut, package, sell, expand",
+  "mechanics": [
+   "crafting",
+   "combinations",
+   "shop management",
+   "workers",
+   "rarity"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "cozy soap-making crafting sim"
+  ],
+  "themes": [
+   "soap",
+   "cozy",
+   "crafting"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cozy crafting",
+   "shop sim"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "auto wrapper",
+   "capsules",
+   "coins",
+   "designer collection"
+  ],
+  "update_signals": [
+   "autumn theme"
+  ],
+  "thumbnails": "cozy illustrated workshop and colourful soaps",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "crafting combos, shop sim",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q48",
+  "loop": "one player is blindfolded and armed -> others hide quietly -> blind player hunts by sound -> survive the round",
+  "loop_archetype": "horror_escape",
+  "objectives": "hide from the blind guy or catch everyone as him",
+  "progression": "coins, cosmetics",
+  "instructions": "one is blindfolded and armed; the rest stay quiet and hide",
+  "mechanics": [
+   "asymmetric 1v all",
+   "sound-based hunting",
+   "hiding",
+   "rounds"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "blind hunter relies on sound"
+  ],
+  "themes": [
+   "horror",
+   "stealth"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "1 vs all"
+  ],
+  "monetization_signals": [
+   "coins",
+   "supporter",
+   "colored username",
+   "donations"
+  ],
+  "update_signals": [
+   "huge update 1/2",
+   "codes per likes"
+  ],
+  "thumbnails": "dark illustrated art of a blindfolded figure with gun",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "rounds, sound detection, few maps",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q49",
+  "loop": "click a big red button towards 1,000,000 -> earn gems -> buy hammers and tools that click faster -> uncover lore -> escape with friends",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "click 1M times to escape the white room",
+  "progression": "clicks, gems, tools (hammers, press), lore",
+  "instructions": "click the button 1,000,000 times",
+  "mechanics": [
+   "clicking",
+   "tool upgrades",
+   "gems",
+   "lore",
+   "co-op",
+   "endless mode"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "single-room escape framed as a clicking game show"
+  ],
+  "themes": [
+   "game show",
+   "escape room"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "click-to-escape"
+  ],
+  "monetization_signals": [
+   "permanent hammers",
+   "2x clicks",
+   "door clicks packs",
+   "hydraulic press"
+  ],
+  "update_signals": [
+   "Endless mode",
+   "codes"
+  ],
+  "thumbnails": "big red button, toy hammer, 1,000,000 counter",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "one room, click counter, upgrades",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q50",
+  "loop": "sail across seas -> blast enemy ships -> dig treasure -> defeat bosses and the kraken -> upgrade ships",
+  "loop_archetype": "story_adventure",
+  "objectives": "become the most feared captain",
+  "progression": "24 ships, 13 seas, treasure",
+  "instructions": "sail, blast ships, survive kraken, dig treasure, upgrade",
+  "mechanics": [
+   "sailing",
+   "ship combat",
+   "treasure digging",
+   "bosses",
+   "companions"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "extreme high-priced passes (29,999)"
+  ],
+  "themes": [
+   "pirates",
+   "sea"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pirates"
+  ],
+  "monetization_signals": [
+   "passes up to 29999",
+   "gold packs",
+   "treasure maps",
+   "luck potions"
+  ],
+  "update_signals": [
+   "new sea"
+  ],
+  "thumbnails": "pirate ships blasting, a sea monster, upgrade arrow",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "13 seas, 24 ships, bosses",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q51",
+  "loop": "pull the lever to roll pets -> place them in pens to fight bosses for loot -> sell loot to buy the pets you rolled -> unlock biomes -> rebirth",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "roll the rarest pets and clear 16 biomes",
+  "progression": "pet rarity tiers, biomes, upgrades, enchants, rebirths",
+  "instructions": "roll pets, fight bosses, sell loot, buy pets, unlock biomes",
+  "mechanics": [
+   "rolling",
+   "auto battle",
+   "loot selling",
+   "pet levels",
+   "enchants",
+   "mutations",
+   "rebirth"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "you must buy the pets you roll"
+  ],
+  "themes": [
+   "pets",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng",
+   "day-1 vs day-30"
+  ],
+  "monetization_signals": [
+   "wheel spins",
+   "crystals",
+   "food",
+   "auto-buy"
+  ],
+  "update_signals": [
+   "codes"
+  ],
+  "thumbnails": "'1 in 650B' world serpent, ROLL FIGHT WIN, day 1 vs day 30",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template roll sim with boss battles",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q52",
+  "loop": "each round survive hordes of dogs on a map under conditions -> earn coins -> buy tools to fight back",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive rounds against dog hordes",
+  "progression": "coins, tools",
+  "instructions": "survive, earn coins, buy tools",
+  "mechanics": [
+   "round survival",
+   "horde AI",
+   "shop",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "absurd dog-horde survival"
+  ],
+  "themes": [
+   "dogs",
+   "horror",
+   "chase"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "survival rounds"
+  ],
+  "monetization_signals": [
+   "donations",
+   "coins",
+   "supporter",
+   "death sound"
+  ],
+  "update_signals": [
+   "v0.6.9"
+  ],
+  "thumbnails": "dark grimy art of dogs and armed figures",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "horde AI, round maps",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q53",
+  "loop": "buy cars -> build and grow a dealership -> drive and race in an open world -> customise cars -> events",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the ultimate dealership and collect 600+ cars",
+  "progression": "money, dealership upgrades, cars",
+  "instructions": "build your dealership, collect cars, drive, race",
+  "mechanics": [
+   "dealership building",
+   "car collection",
+   "driving",
+   "racing",
+   "customisation",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "licensed brand collab event"
+  ],
+  "themes": [
+   "cars",
+   "dealership"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "brand collab",
+   "holiday event"
+  ],
+  "monetization_signals": [
+   "money packs up to 3000",
+   "car products",
+   "VIP"
+  ],
+  "update_signals": [
+   "Monster Jam update",
+   "holiday cross-game event"
+  ],
+  "thumbnails": "supercars drifting, monster trucks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, 600+ cars",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q54",
+  "loop": "train specific muscles with lifts -> roll genes -> sign sponsors -> beat receptionist at arm wrestling to unlock next gym -> join live shows",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "climb all 10 gyms and win shows",
+  "progression": "strength per muscle, genes, gyms, gear",
+  "instructions": "train, roll genes, sign sponsors, arm wrestle to unlock gyms",
+  "mechanics": [
+   "training",
+   "gene rolling",
+   "sponsors",
+   "arm wrestling",
+   "live competitions",
+   "gear"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "per-muscle training and cinematic PR lifts"
+  ],
+  "themes": [
+   "gym",
+   "bodybuilding"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gym",
+   "genes rng"
+  ],
+  "monetization_signals": [
+   "wheel spins",
+   "cash",
+   "infinite energy",
+   "daily skip 1500",
+   "ultimate bundle"
+  ],
+  "update_signals": [
+   "huge update"
+  ],
+  "thumbnails": "muscled noob with gold gym tank top, sponsor phone, PR lifts",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple gyms, lift animations, live shows",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q55",
+  "loop": "defeat enemies in anime worlds -> earn coins -> open stars to recruit champions -> climb rankings",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "get the best anime champions",
+  "progression": "star opening, champions, worlds, ranks",
+  "instructions": "explore worlds, defeat enemies, unlock stars, recruit champions",
+  "mechanics": [
+   "auto combat",
+   "star opening",
+   "champion collection",
+   "worlds",
+   "shiny hunting"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "anime-fighters style champion collection"
+  ],
+  "themes": [
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "all gamepasses 4799",
+   "super lucky",
+   "crystals",
+   "merchant restock"
+  ],
+  "update_signals": [
+   "Update 3"
+  ],
+  "thumbnails": "anime character art with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple worlds, many champion models",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q56",
+  "loop": "explore an island -> catch hand-drawn creatures -> turn-based battles -> story, trading and PvP",
+  "loop_archetype": "story_adventure",
+  "objectives": "collect doodles and finish the story",
+  "progression": "doodle collection, skins, story chapters",
+  "instructions": "collect, trade, fight, explore",
+  "mechanics": [
+   "creature capture",
+   "turn-based combat",
+   "trading",
+   "pvp",
+   "story"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "hand-drawn creature collector"
+  ],
+  "themes": [
+   "creatures",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "creature collector"
+  ],
+  "monetization_signals": [
+   "farming passes",
+   "trinkets",
+   "gems",
+   "cash"
+  ],
+  "update_signals": [
+   "updates every Saturday",
+   "Halloween event"
+  ],
+  "thumbnails": "hand-drawn creature art, vs battles",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many hand-drawn creatures, story, battle system",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q57",
+  "loop": "pick a class -> auto hunt monsters on sky islands -> collect cards and refine gear -> party up for world bosses",
+  "loop_archetype": "story_adventure",
+  "objectives": "level your class and beat world bosses",
+  "progression": "levels, classes, gear refine, cards, battle pass",
+  "instructions": "hunt, collect cards, refine gear, party up, auto hunt",
+  "mechanics": [
+   "auto hunt",
+   "classes",
+   "gear refining",
+   "cards",
+   "world bosses",
+   "battle pass",
+   "anti-AFK sleep mode"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "classic MMORPG with anti-AFK sleep mode for overnight farming"
+  ],
+  "themes": [
+   "fantasy",
+   "mmorpg",
+   "muay thai"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "auto hunt mmorpg"
+  ],
+  "monetization_signals": [
+   "battle pass",
+   "premium",
+   "silver packs",
+   "auto sell"
+  ],
+  "update_signals": [
+   "Muay Thai class"
+  ],
+  "thumbnails": "voxel MMORPG classes, 9999 damage numbers",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "10 classes, MMO systems",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q58",
+  "loop": "build a base -> collect turrets -> defend eggs against waves -> hatch pets -> survive",
+  "loop_archetype": "tower_defense",
+  "objectives": "survive to wave 1000",
+  "progression": "turrets, cash, waves, pets",
+  "instructions": "collect turrets, build base, defend eggs, hatch pets",
+  "mechanics": [
+   "tower defense",
+   "base building",
+   "turret rolls",
+   "pets",
+   "waves"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "turret roll plus base-building TD"
+  ],
+  "themes": [
+   "eggs",
+   "turrets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower defense",
+   "wave-x"
+  ],
+  "monetization_signals": [
+   "turret products",
+   "crates",
+   "packs",
+   "cash multiplier"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "$100 to $100M turrets, RANDOM TURRET ROLL, wave 1 to 1000",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "turret TD with base plots",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q59",
+  "loop": "run a Filipino eatery -> cook and serve customers -> earn stars and cash -> buy furniture and stoves",
+  "loop_archetype": "simulation_job",
+  "objectives": "be the first 5-star karinderya owner",
+  "progression": "stars, cash, furniture",
+  "instructions": "own a Filipino restaurant",
+  "mechanics": [
+   "cooking",
+   "serving",
+   "co-op",
+   "decorating"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Filipino street-restaurant culture"
+  ],
+  "themes": [
+   "filipino food",
+   "restaurant"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "restaurant sim",
+   "cultural"
+  ],
+  "monetization_signals": [
+   "furniture",
+   "stoves",
+   "paints"
+  ],
+  "update_signals": [
+   "codes"
+  ],
+  "thumbnails": "hand-illustrated people eating at a karinderya, silog plate",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "co-op cooking system, restaurant",
+  "novelty": 2,
+  "confidence": 70
+ }
+]

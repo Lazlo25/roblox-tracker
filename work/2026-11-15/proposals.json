@@ -1,0 +1,34 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Games selling currency packs rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip currency packs at launch",
+     "test": {"feature": "prod_currency", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Games that put weapons or combat tools in players' hands rank higher on Up-and-Coming among games of the same age",
+     "action": "Give players weapons to use",
+     "test": {"feature": "mech_weapons", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Survival-genre games rank higher on Up-and-Coming than games of the same age in other genres",
+     "action": "Pick the Survival genre for breakout",
+     "test": {"feature": "genre=Survival", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Emoji-heavy descriptions go with lower Up-and-Coming positions among games of the same age",
+     "action": "Go light on emoji in the description",
+     "test": {"feature": "desc_emoji", "metric": "uc_pos", "type": "corr", "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games with servers above 6 players climb Top Trending faster than games of similar age with smaller servers",
+     "action": "Use servers of 7+ players",
+     "test": {"feature": "max_players", "metric": "tt_mom", "type": "threshold", "cut": 6, "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "Young Simulation-genre games climb Top Trending more slowly than games of similar age in other genres",
+     "action": "Skip the Simulation genre for momentum",
+     "test": {"feature": "genre=Simulation", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "kind": "qualitative", "confidence": 20,
+     "statement": "Drawing-as-input party games (your drawing comes to life as the round's hazard, or is scored against the original) reach Up-and-Coming within three weeks but settle in its lower half with weak like ratios",
+     "rationale": "Profiled 2026-11-15: Survive Your Drawing (8 days, #59, 34% likes) and Draw the Other Half! (19 days, #68, 66% likes) entered Up-and-Coming, while Draw an aquarium is among the weakest on Top Trending and Paint and Hide! among the weakest on Most Popular. Confirm if more drawing games enter but stay below #50 and leave within two weeks; refute if one reaches the top 20 or Most Popular."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-039", "confidence": 38, "note": "With a fresh Most Popular list, Hyper Realistic Ragdoll (about 17 days), Ragdoll Sandbox and Realistic Ragdoll Engine fell off and Ragdoll Playground (49 days) dropped 29, while 12-day Ragdoll Destruction Playground and 13-day Sandworm Playground entered. Hyper Realistic Ragdoll left all four charts on the same day."},
+    {"id": "H-x-040", "confidence": 30, "note": "The ragdoll wave is also branching into combat: Realistic Ragdoll MMA (10 days), Anime Ragdoll (20 days), Ragdoll Awakening (10 days) and untitled ragdoll game (22 days, Top Trending #35 and Up-and-Coming #9) all entered as fighting or rampage variants, and BoneBox Engine rose 79 on Up-and-Coming."},
+    {"id": "H-x-041", "confidence": 32, "note": "Class Clowns (19 days) entered Most Popular and Mukbang Students rose 47 on Up-and-Coming, but the teacher-side Be a Teacher! (63% likes) fell 36 on Top Trending and 47 on Up-and-Coming. The student-prank side carries the theme; the teacher-side version does not."},
+    {"id": "H-x-006", "confidence": 62, "note": "Two Anomaly job sims were among today's five biggest Most Popular risers: Sell Fries! [Anomaly] +27 at 55 days and Animal Hospital (Anomaly) +21 at 189 days."},
+    {"id": "H-uc-069", "confidence": 25, "note": "Raise The Biggest Family rose 24 on Most Popular at 33 days, after +34 on Up-and-Coming yesterday."}
+  ],
+  "actions": [],
+  "retire": []
+}

@@ -1,0 +1,733 @@
+[
+ {
+  "label": "Q16",
+  "loop": "click for +1 cursed energy -> eat cursed fingers to transform step by step into an anime villain -> unlock moves -> fight 15 stages of bosses -> hatch shikigami pets -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "finish all 13 finger stages and beat the strongest boss",
+  "progression": "cursed energy, finger stages, wins, pets, flames, rebirths, worlds",
+  "instructions": "click for energy, eat fingers, unlock moves, fight stages, hatch pets, rebirth",
+  "mechanics": [
+   "clicking",
+   "avatar evolution",
+   "boss stages",
+   "pet hatching",
+   "multiplier flames",
+   "rebirth",
+   "offline gains",
+   "worlds"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "avatar gradually morphs into the anime character per stage"
+  ],
+  "themes": [
+   "anime",
+   "curses"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution",
+   "anime",
+   "new world drop"
+  ],
+  "monetization_signals": [
+   "50 character passes up to 4999",
+   "cursed eggs",
+   "tokens",
+   "flames",
+   "boss revive"
+  ],
+  "update_signals": [
+   "World 3 drops today",
+   "codes"
+  ],
+  "thumbnails": "+1 popups on anime-styled noob transforming; 3 HOURS countdown icon",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 sim with anime avatar stages and VFX",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q17",
+  "loop": "ride motorcycles, scooters and BMX around a recreated San Francisco -> earn cash -> buy and customise faster bikes",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and customise bikes and explore the city",
+  "progression": "cash, bike collection, tuning stages",
+  "instructions": "ride, earn cash, customise rides, explore with friends",
+  "mechanics": [
+   "riding",
+   "open world",
+   "vehicle customisation",
+   "traffic",
+   "skateparks"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic real-world city recreation focused on motorcycles"
+  ],
+  "themes": [
+   "motorcycles",
+   "san francisco",
+   "real city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "real-world city",
+   "vehicle sim"
+  ],
+  "monetization_signals": [
+   "turbo bike passes up to 999",
+   "cash packs up to 4999",
+   "2x boost",
+   "paints/underglow"
+  ],
+  "update_signals": [
+   "Dragster update",
+   "codes at visit milestones"
+  ],
+  "thumbnails": "realistic sport bikes on the Golden Gate bridge, first-person handlebar view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large detailed real-city map, vehicle physics, traffic",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "punch a butter-stick character with different weapons -> knock it flying -> unlock tools and fight bosses",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "punch the butter to blow off steam",
+  "progression": "unclear; weapon passes, boss continues",
+  "instructions": "punch the butter",
+  "mechanics": [
+   "punching",
+   "ragdoll physics",
+   "weapons",
+   "boss"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "stress-relief punching toy with a meme character"
+  ],
+  "themes": [
+   "butter",
+   "stress relief",
+   "meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll",
+   "punch-the-x"
+  ],
+  "monetization_signals": [
+   "weapon passes",
+   "golden butter",
+   "instant KO"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "cute butter character hit by a boxing-glove on a stick, DON'T PUNCH ME sign",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single character, punch tool, small arena",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q19",
+  "loop": "sit at a table -> get half a picture -> draw the other half -> scored by similarity -> beat opponent for cash and wins -> buy chairs and win effects",
+  "loop_archetype": "party_minigames",
+  "objectives": "score the closest drawing and beat your opponent",
+  "progression": "wins, cash, chairs, win effects, leaderboards",
+  "instructions": "draw the other half; vote a theme; closer to original = higher score",
+  "mechanics": [
+   "drawing",
+   "similarity scoring",
+   "1v1",
+   "themes",
+   "trolling products",
+   "cosmetic collection",
+   "art parkour"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "automatic image-similarity scoring of player drawings"
+  ],
+  "themes": [
+   "drawing",
+   "emoji"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "drawing"
+  ],
+  "monetization_signals": [
+   "troll products (nuke, blur, fart, jumpscare)",
+   "admin passes",
+   "x2 wins",
+   "pick a picture"
+  ],
+  "update_signals": [
+   "daily rewards"
+  ],
+  "thumbnails": "two players finishing half-smileys with % match scores",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "drawing canvas + image comparison, table rooms",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q20",
+  "loop": "click for +1 power -> train on punching bags -> fight enemies to clear stages -> collect wins to unlock ghoul tendrils -> hatch pets and auras -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "unlock the strongest kagune",
+  "progression": "power, wins, kagune tiers, pets, auras, rebirths",
+  "instructions": "click for power, train, fight, collect wins, hatch, rebirth",
+  "mechanics": [
+   "clicking",
+   "training bags",
+   "stages",
+   "wins",
+   "pet hatching",
+   "auras",
+   "rebirth",
+   "offline gains"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "anime ghoul skin on +1 template"
+  ],
+  "themes": [
+   "anime",
+   "ghouls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution",
+   "anime"
+  ],
+  "monetization_signals": [
+   "power multiplier passes",
+   "tier skips",
+   "bags",
+   "luck",
+   "auto rebirth"
+  ],
+  "update_signals": [
+   "World 3 / [UPD]",
+   "codes"
+  ],
+  "thumbnails": "noob with red ghoul tendrils and +1/+7M popups",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 sim with tendril VFX",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q21",
+  "loop": "steal eggs from catboy guards -> run back to your café -> hatch rare catboys -> earn $/s -> run on a wheel for speed -> unlock areas with faster guards",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rarer catboys and grow income",
+  "progression": "speed, egg rarity, catboy collection, areas, income per second",
+  "instructions": "steal eggs, escape, hatch, earn, gain speed, unlock areas",
+  "mechanics": [
+   "stealing",
+   "running",
+   "hatching",
+   "income per second",
+   "speed training",
+   "trading"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "anime catboy collection with a café theme"
+  ],
+  "themes": [
+   "catboys",
+   "anime",
+   "café"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "raise-a-x",
+   "steal-a-x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "egg packs up to 3499",
+   "speed multipliers",
+   "2x cash/hatch"
+  ],
+  "update_signals": [
+   "codes",
+   "trading"
+  ],
+  "thumbnails": "anime catboys with halos and wings, 2 HOURS countdown",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template steal-and-run with anime character models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "explore an abandoned lab -> collect scrap while avoiding monsters with different hunting rules -> sell scrap for gear -> survive with friends",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the monsters and collect scrap",
+  "progression": "coins, gear, skins",
+  "instructions": "collect scrap, sell for gear, team up, stay quiet",
+  "mechanics": [
+   "stealth",
+   "monster AI variety",
+   "scavenging",
+   "shop",
+   "co-op",
+   "lockdown event"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "monsters each with distinct rules (sound, look-away, light drain)"
+  ],
+  "themes": [
+   "horror",
+   "baboons",
+   "lab"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "horror",
+   "co-op scavenging"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "radar",
+   "VIP skin",
+   "start lockdown now"
+  ],
+  "update_signals": [
+   "Lockdown update"
+  ],
+  "thumbnails": "dark lab corridors with creepy baboon monsters, logo text",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "lab map, several monster AIs, lighting",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q23",
+  "loop": "step on a platform -> place cameramen units against waves of toilets -> beat waves or endure endless -> earn coins and crates -> collect better units",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat waves and collect the best units",
+  "progression": "units, traits, shinies, coins, crates",
+  "instructions": "step on a platform, place units, beat waves",
+  "mechanics": [
+   "tower defense",
+   "unit collection",
+   "crates",
+   "traits",
+   "endless mode",
+   "trading"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "long-lived meme TD"
+  ],
+  "themes": [
+   "toilets",
+   "cameramen",
+   "meme"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "toilet meme",
+   "thanksgiving event"
+  ],
+  "monetization_signals": [
+   "exclusive crates",
+   "luck boosts",
+   "coins",
+   "trait/shiny hunter"
+  ],
+  "update_signals": [
+   "Thanksgiving event",
+   "legacy mode"
+  ],
+  "thumbnails": "Thanksgiving-themed units, level 1 to level 5 upgrade",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many unit models and abilities, wave balancing",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q24",
+  "loop": "cast and click to reel fish -> sell or keep fish -> buy rods and boats -> explore islands for rarer fish and mutations",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "catch rare fish and complete the index",
+  "progression": "rods, luck, islands, fish variants, quests",
+  "instructions": "click to charge, click fast to reel",
+  "mechanics": [
+   "fishing",
+   "rarity/mutations",
+   "islands",
+   "quests",
+   "potions",
+   "boats"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "over a million fish variations"
+  ],
+  "themes": [
+   "fishing",
+   "ocean",
+   "islands"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "fishing"
+  ],
+  "monetization_signals": [
+   "luck passes",
+   "rod packs",
+   "coin/luck potions",
+   "doubloons"
+  ],
+  "update_signals": [
+   "Sky Island update",
+   "Halloween secrets"
+  ],
+  "thumbnails": "fisher pulling up a giant mythical creature",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many fish, islands and rod effects",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "fly and fight in an anime open world -> charge ki, transform -> collect souls and dragon balls -> level up and fuse with friends",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest fighter",
+  "progression": "power level, transformations, souls, auras",
+  "instructions": "E lock-on, R transform, click punch, C charge ki, double space fly",
+  "mechanics": [
+   "melee and ki combat",
+   "flight",
+   "transformations",
+   "soul collection",
+   "fusion",
+   "daily login rewards"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "fusion with a similar-level friend"
+  ],
+  "themes": [
+   "anime",
+   "dragon"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "form passes up to 9999",
+   "bundles",
+   "tradable products",
+   "luck"
+  ],
+  "update_signals": [
+   "Halloween part 3",
+   "codes"
+  ],
+  "thumbnails": "anime character art with game logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, many moves, cutscenes, transforms",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q26",
+  "loop": "roll for a grimoire and clan -> fight beasts, dungeons and other mages -> forge gear -> trade -> follow story",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "become the strongest mage",
+  "progression": "grimoire/clan/bloodline rolls, gear, levels",
+  "instructions": "roll grimoire, awaken clan power, hunt beasts, raid dungeons, duel",
+  "mechanics": [
+   "rolling",
+   "abilities",
+   "dungeons",
+   "world bosses",
+   "pvp bounty",
+   "trading",
+   "broom flight"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "anime-magic RPG with three roll layers"
+  ],
+  "themes": [
+   "anime",
+   "magic",
+   "grimoires"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime",
+   "spins codes"
+  ],
+  "monetization_signals": [
+   "EXP/money boosters",
+   "gear passes",
+   "fast roll",
+   "clan vault"
+  ],
+  "update_signals": [
+   "Spirit Drive update",
+   "codes"
+  ],
+  "thumbnails": "anime mage characters with logo, NEW tags",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "RPG with many abilities, kingdoms, dungeons",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "cultivate qi and body through realms -> gather herbs and brew pills -> fight bandits, bosses and players -> found a sect",
+  "loop_archetype": "story_adventure",
+  "objectives": "rise from mortal to immortal",
+  "progression": "30 qi realms, 30 body realms, traits, killer moves",
+  "instructions": "cultivate, gather herbs, fight, fly sword, found a sect",
+  "mechanics": [
+   "cultivation realms",
+   "offline progress",
+   "gathering",
+   "crafting pills",
+   "pvp",
+   "world bosses",
+   "sects"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "xianxia cultivation progression on Roblox"
+  ],
+  "themes": [
+   "cultivation",
+   "xianxia",
+   "martial arts"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cultivation"
+  ],
+  "monetization_signals": [
+   "all-passes 999",
+   "luck",
+   "auto passes",
+   "primordial stones",
+   "spawn world boss"
+  ],
+  "update_signals": [
+   "Spirit Beasts update",
+   "codes"
+  ],
+  "thumbnails": "wuxia characters with auras and mountain scenery; NOW! icon",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, two progression tracks, real-time combat",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q28",
+  "loop": "drive and customise vehicles in a Toronto-street recreation -> work jobs for pay -> buy cars and trailers -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "earn money and build a car collection",
+  "progression": "cash, jobs, promotions, vehicles",
+  "instructions": "press F to start vehicle; E/Q to change gear",
+  "mechanics": [
+   "driving",
+   "jobs",
+   "vehicle customisation",
+   "roleplay",
+   "trailers"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "real-street recreation with job progression"
+  ],
+  "themes": [
+   "cars",
+   "canada",
+   "city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "real-world city",
+   "vehicle sim"
+  ],
+  "monetization_signals": [
+   "VIP 999",
+   "cash packs up to 9999",
+   "earn multipliers",
+   "spawn vehicles"
+  ],
+  "update_signals": [
+   "air suspension and trailers update",
+   "codes at like milestones"
+  ],
+  "thumbnails": "realistic cars and police car in a city with fall trees",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "detailed map, vehicle systems, jobs",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q29",
+  "loop": "open card packs -> stock shelves and set prices -> serve customers at the till -> grade and trade rare cards -> expand shop",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the best card shop and complete the album",
+  "progression": "cash, shop size, staff, card album",
+  "instructions": "open packs, stock shelves, set prices, ring up customers, grade and trade",
+  "mechanics": [
+   "shop management",
+   "pack opening",
+   "grading",
+   "trading",
+   "staff hiring",
+   "decorating",
+   "offline earnings"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "store-sim of a trading card shop with 8,000 cards"
+  ],
+  "themes": [
+   "trading cards",
+   "shop",
+   "sports",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "shop sim",
+   "trading cards"
+  ],
+  "monetization_signals": [
+   "quick opening",
+   "auto collect",
+   "cash packs",
+   "hire staff now"
+  ],
+  "update_signals": [
+   "beta",
+   "codes"
+  ],
+  "thumbnails": "noob with a card pack and a tiny pull percentage, shop front",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "store sim with customers, 8,000 cards",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q30",
+  "loop": "tap for +1 water -> stand on a lake to drain it -> grab treasures -> sell -> upgrade pumps, backpack, speed and luck -> next world",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "complete the treasure index and drain bigger lakes",
+  "progression": "water power, pumps, worlds, luck, index",
+  "instructions": "tap for water, drain lake, grab treasure, sell, upgrade",
+  "mechanics": [
+   "clicking",
+   "draining",
+   "treasure collection",
+   "selling",
+   "pump upgrades",
+   "index",
+   "eggs"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "draining a lake to reveal treasure"
+  ],
+  "themes": [
+   "water",
+   "treasure"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 sim",
+   "drain-the-x"
+  ],
+  "monetization_signals": [
+   "50 pump passes up to 1999",
+   "eggs",
+   "relics"
+  ],
+  "update_signals": [
+   "World 4",
+   "codes"
+  ],
+  "thumbnails": "draining lake with gold, 1 vs 999M water and +1B popups",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template sim with water-level effect",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

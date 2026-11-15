@@ -1,0 +1,720 @@
+[
+ {
+  "label": "Q31",
+  "loop": "roll an egg -> ride it out and run back alive while animals chase you -> hatch animals into your pen for $/s -> train speed on treadmills -> go further for better luck",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rarer animals and grow income",
+  "progression": "speed, distance-based luck, animal pen slots, mutations",
+  "instructions": "roll an egg, run back alive, escape animals, collect animals for cash, train speed",
+  "mechanics": [
+   "running",
+   "chase escape",
+   "hatching",
+   "income per second",
+   "speed training",
+   "fusing",
+   "mutations",
+   "offline earnings"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "riding the creature you hatch"
+  ],
+  "themes": [
+   "eggs",
+   "dragons",
+   "animals",
+   "carnival"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ride-a-x",
+   "escape run"
+  ],
+  "monetization_signals": [
+   "auto grow/fuse/hatch",
+   "x2 money/luck/growth",
+   "pen slots",
+   "trails"
+  ],
+  "update_signals": [
+   "Carnival event",
+   "codes"
+  ],
+  "thumbnails": "player riding glittering dragons on a baseplate",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template run-back sim with creature models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "roam an anime curse world -> fight spirits and sorcerers -> roll clans and find cursed objects -> raid infinite dungeons -> level techniques",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "hone cursed techniques and get rare items",
+  "progression": "levels, clans, mastery, items, luck stat",
+  "instructions": "roam, discover cursed objects, defeat spirits and sorcerers",
+  "mechanics": [
+   "combat",
+   "clan rolls",
+   "raids",
+   "item collection",
+   "global shop"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "global rotating shop shared across servers"
+  ],
+  "themes": [
+   "anime",
+   "curses"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "pity booster",
+   "special grade notifier",
+   "yen/lumens",
+   "clan rolls"
+  ],
+  "update_signals": [
+   "Infinite beta update",
+   "returning player rewards"
+  ],
+  "thumbnails": "anime character art cards",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world action RPG with many techniques",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q33",
+  "loop": "roll fighter planes -> fight enemies with your squadron -> earn money on kills -> upgrade squadron -> progress worlds and boss planes -> mutations",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "roll the rarest planes and clear 100 worlds",
+  "progression": "plane rarity, squadron upgrades, worlds, mutations",
+  "instructions": "roll planes, fight enemies, earn money, upgrade, progress worlds",
+  "mechanics": [
+   "rolling",
+   "auto battle",
+   "squadron upgrades",
+   "worlds",
+   "bosses",
+   "mutations",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "RNG roll applied to historic military aircraft"
+  ],
+  "themes": [
+   "planes",
+   "military",
+   "aviation"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "rng",
+   "noob-to-pro"
+  ],
+  "monetization_signals": [
+   "2x passes",
+   "diamond dice",
+   "ace club",
+   "black market"
+  ],
+  "update_signals": [
+   "Prototypes update"
+  ],
+  "thumbnails": "B2 '1 in 1,000,000' roll, jet formations, noob vs pro",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "3,200 plane variants, worlds, bosses",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "queue a 1v1 pool match -> roll and use crazy abilities on shots -> win ranked games -> earn cash and lucky blocks for rare cues",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win ranked 8-ball/9-ball and collect cues",
+  "progression": "rank tiers, cues, abilities, season",
+  "instructions": "roll abilities, unlock cues, climb ranks",
+  "mechanics": [
+   "billiards",
+   "abilities",
+   "ranked 1v1",
+   "cue collection",
+   "lucky blocks",
+   "seasons"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "chaotic abilities layered on real billiards"
+  ],
+  "themes": [
+   "pool",
+   "billiards"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "sport + abilities"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "ability slots",
+   "cash packs",
+   "lucky blocks"
+  ],
+  "update_signals": [
+   "Season 1 ends Dec 12",
+   "9 ball mode",
+   "codes at like milestones"
+  ],
+  "thumbnails": "pool tables with flaming cue shots, S1 badge, lucky block",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "pool physics, ability system, ranked",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "spawn and buy a lucky crate -> let it grow -> open for a car -> add to collection for $/s -> rebirth, race and drive",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect your dream cars",
+  "progression": "collection income, crate luck, rebirths",
+  "instructions": "spawn lucky crates, buy, place and open, collect, keep going",
+  "mechanics": [
+   "crate opening",
+   "car collection",
+   "income per second",
+   "offline growth",
+   "racing",
+   "car cleaning"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic car collection with ASMR cleaning and edits"
+  ],
+  "themes": [
+   "cars",
+   "supercars"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "1-in-x odds",
+   "car collection"
+  ],
+  "monetization_signals": [
+   "instant lucky crate growth",
+   "super lucky spawner",
+   "specific cars",
+   "offline multipliers"
+  ],
+  "update_signals": [
+   "x5 luck weekend",
+   "Update 5",
+   "codes"
+  ],
+  "thumbnails": "'1 IN 98,637,423' covered car reveal, $978 BILLION",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "120+ realistic cars, open world alpha",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q36",
+  "loop": "drive ATVs and UTVs on an off-road map -> work jobs for pay -> buy and tune vehicles -> explore trails",
+  "loop_archetype": "racing_driving",
+  "objectives": "build your ride and explore trails",
+  "progression": "cash, vehicles, parts, tuning",
+  "instructions": "explore trails, drive, customise",
+  "mechanics": [
+   "off-road driving",
+   "vehicle tuning",
+   "jobs",
+   "freecam",
+   "exploration"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic mud/water off-road handling"
+  ],
+  "themes": [
+   "off-road",
+   "atv",
+   "nature"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "vehicle sim"
+  ],
+  "monetization_signals": [
+   "vehicle passes",
+   "job payout multipliers",
+   "money packs up to 5200"
+  ],
+  "update_signals": [
+   "v8.0 tuning update"
+  ],
+  "thumbnails": "realistic ATVs in mud, waterfalls, forest",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large realistic terrain, vehicle chassis tuning",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q37",
+  "loop": "clock in -> hand-craft ammunition rounds at machines -> pack crates for orders -> earn upgrades and new calibres -> uncover factory lore",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "fulfil orders, unlock every round and uncover the factory's secret",
+  "progression": "calibres, equipment, ranks, mastery, titles",
+  "instructions": "manufacture rounds, pack crates, earn upgrades",
+  "mechanics": [
+   "hands-on crafting",
+   "order fulfilment",
+   "upgrades",
+   "mastery",
+   "hidden lore",
+   "leaderboards"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "moody factory incremental with hidden lore"
+  ],
+  "themes": [
+   "ammunition",
+   "factory",
+   "blizzard",
+   "mystery"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "incremental",
+   "factory"
+  ],
+  "monetization_signals": [
+   "gamepass bundle",
+   "mastery XP",
+   "bulk",
+   "auto sell",
+   "support donations"
+  ],
+  "update_signals": [
+   "Update 4"
+  ],
+  "thumbnails": "stylised press machines and brass piles, ONE MORE BOX",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "crafting stations, multiple machines, lore",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q38",
+  "loop": "rip card packs -> pull cute cat cards -> put cats on stands for $/s -> grade cards -> battle cats up towers -> fill index",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect every cat and get a perfect grade",
+  "progression": "pack tiers, rarities, mutations, index, towers",
+  "instructions": "rip packs, put cats on stands, grade, battle, fill index",
+  "mechanics": [
+   "pack opening",
+   "income per second",
+   "weather mutations",
+   "grading",
+   "tower battles",
+   "index"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "card grading on a pet-collection loop"
+  ],
+  "themes": [
+   "cats",
+   "trading cards"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "trading cards",
+   "cute"
+  ],
+  "monetization_signals": [
+   "pack products 3-169+",
+   "all passes",
+   "x3 open",
+   "stands"
+  ],
+  "update_signals": [
+   "Update 7",
+   "codes"
+  ],
+  "thumbnails": "glossy cat cards, $945,875,984/s, E OPEN prompt",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "card/pet template with grading",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q39",
+  "loop": "start a football career -> play matches and make decisions -> raise Overall -> roll abilities/weapons -> climb to number one or restart",
+  "loop_archetype": "sports_competitive",
+  "objectives": "become the world's best striker",
+  "progression": "Overall rating, rank, egocoins, slots",
+  "instructions": "start career, compete, make decisions, raise Overall",
+  "mechanics": [
+   "career mode",
+   "football matches",
+   "choices",
+   "spins",
+   "restart"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "narrative career mode with choices"
+  ],
+  "themes": [
+   "football",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime sports"
+  ],
+  "monetization_signals": [
+   "egocoins",
+   "match skip speed",
+   "slots",
+   "skip spinning"
+  ],
+  "update_signals": [
+   "major update",
+   "codes at like milestones"
+  ],
+  "thumbnails": "anime footballers in jerseys, stadium",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "career story system plus matches",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q40",
+  "loop": "fight monsters in a voxel dungeon -> collect spirits and loot -> upgrade weapons -> party up for raids -> roguelite runs",
+  "loop_archetype": "story_adventure",
+  "objectives": "protect the Mother Tree and get mythical weapons",
+  "progression": "weapons, levels, wishes, worlds",
+  "instructions": "LMB attack, RMB/F parry, Q dash; defeat monsters, collect loot",
+  "mechanics": [
+   "melee combat",
+   "parry",
+   "loot",
+   "roguelite runs",
+   "party up to 4",
+   "raids",
+   "fishing",
+   "wishes"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "pixel-voxel roguelite dungeon crawler"
+  ],
+  "themes": [
+   "fantasy",
+   "pixel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "roguelite"
+  ],
+  "monetization_signals": [
+   "wishes",
+   "godly potions",
+   "VIP",
+   "revive",
+   "currency packs"
+  ],
+  "update_signals": [
+   "v2.3.0 mythicals",
+   "codes"
+  ],
+  "thumbnails": "pixel weapon art with damage stats, voxel fighter",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "combat, loot, worlds, raids",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q41",
+  "loop": "explore an anime open world -> fight curses and sorcerers -> collect cursed objects -> spin innate techniques -> level and duel",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "become the strongest sorcerer",
+  "progression": "levels, innate spins, mastery, items",
+  "instructions": "explore, fight curses and sorcerers, find objects",
+  "mechanics": [
+   "combat",
+   "innate spins",
+   "open world",
+   "pvp",
+   "items"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "long-running anime-technique RPG"
+  ],
+  "themes": [
+   "anime",
+   "curses"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime"
+  ],
+  "monetization_signals": [
+   "item notifier 2699",
+   "heavenly restriction",
+   "innate bag/slots",
+   "boosts"
+  ],
+  "update_signals": [
+   "2x EXP weekends"
+  ],
+  "thumbnails": "anime character art with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world, many techniques",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q42",
+  "loop": "summon dragons -> place them on the map -> defend against waves -> evolve dragons -> trade and complete index",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat every map and difficulty and collect all dragons",
+  "progression": "dragon evolutions, talents, index, quests",
+  "instructions": "summon, evolve, defend waves",
+  "mechanics": [
+   "tower defense",
+   "summons",
+   "evolution",
+   "trading",
+   "quests",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "dragon units in a blocky voxel style"
+  ],
+  "themes": [
+   "dragons",
+   "fantasy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower defense"
+  ],
+  "monetization_signals": [
+   "coins",
+   "gems",
+   "coin/luck potions"
+  ],
+  "update_signals": [
+   "weekly Saturday updates",
+   "2x weekend"
+  ],
+  "thumbnails": "blocky dragons, level 1 to level 100 evolution",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "TD with 37 units, 6 maps",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q43",
+  "loop": "hatch chicks -> feed and raise roosters -> breed for colour varieties and bloodlines -> battle in arena and clan derbies -> trade",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "breed a champion bloodline",
+  "progression": "breeds, colours, ranks, clans, islands",
+  "instructions": "raise, breed, battle, trade",
+  "mechanics": [
+   "breeding",
+   "raising",
+   "battling",
+   "ranked arena",
+   "clans",
+   "trading",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "rooster breeding and battling with clan derbies"
+  ],
+  "themes": [
+   "roosters",
+   "farm"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "breeding"
+  ],
+  "monetization_signals": [
+   "2x XP 1200",
+   "VIP",
+   "coins",
+   "auto-collect",
+   "server luck"
+  ],
+  "update_signals": [
+   "Update 2.5",
+   "weekly clan derby",
+   "codes"
+  ],
+  "thumbnails": "fiery fighting roosters and anime trainers",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "breeding genetics, battle, multiple islands",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q44",
+  "loop": "dig real terrain with excavators -> load trucks -> haul to railyard for cash -> process ore -> buy bigger machines and new leases -> hire drivers",
+  "loop_archetype": "simulation_job",
+  "objectives": "run the biggest mine in the valley",
+  "progression": "machines (8t to 200t), leases, processing chain, drivers",
+  "instructions": "dig, haul, process, hire drivers, upgrade equipment",
+  "mechanics": [
+   "terrain digging",
+   "hauling",
+   "processing",
+   "machine upgrades",
+   "AI drivers",
+   "contracts"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "deformable terrain mining sim"
+  ],
+  "themes": [
+   "mining",
+   "construction",
+   "machines"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "vehicle sim"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "cash packs up to 1499",
+   "instant buy",
+   "fuel card"
+  ],
+  "update_signals": [
+   "Swamp update",
+   "weekly leaderboards"
+  ],
+  "thumbnails": "excavators carving earth with captions CARVE THE EARTH, LOAD IT UP",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "deformable terrain, 53 machines, processing chain",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q45",
+  "loop": "pick a car -> smash it in crushers, demolition derby or races -> earn money -> unlock more cars and crushers",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "destroy cars and collect 400+ vehicles",
+  "progression": "money, vehicles, crushers",
+  "instructions": "smash cars, derby, race",
+  "mechanics": [
+   "car destruction",
+   "physics",
+   "demolition derby",
+   "racing",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "many crushers and destruction modes"
+  ],
+  "themes": [
+   "cars",
+   "destruction"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "destruction"
+  ],
+  "monetization_signals": [
+   "money packs",
+   "weapons passes",
+   "materials",
+   "admin panel"
+  ],
+  "update_signals": [
+   "mowing race event",
+   "codes"
+  ],
+  "thumbnails": "crushers smashing cars, lawnmower, volcano ramp",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "soft-body car damage, 400+ cars",
+  "novelty": 0,
+  "confidence": 80
+ }
+]
