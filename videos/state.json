@@ -13,7 +13,9 @@
  },
  "1278035280": {
   "at": "2026-11-15",
-  "status": "youtube_needed"
+  "source": "youtube",
+  "status": "labeled",
+  "video_id": "h0iSX-0_zU4"
  },
  "1516533665": {
   "at": "2026-10-25",
