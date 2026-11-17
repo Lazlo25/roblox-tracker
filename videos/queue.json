@@ -1,8 +1,8 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "queue": [
   {
-   "age_days": 2335,
+   "age_days": 2336,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1079,
+   "age_days": 1080,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 696,
+   "age_days": 697,
    "charts": [
     "te"
    ],
@@ -32,7 +32,7 @@
    "u": "6945584306"
   },
   {
-   "age_days": 2681,
+   "age_days": 2682,
    "charts": [
     "te"
    ],
@@ -42,5 +42,11 @@
    "u": "1235188606"
   }
  ],
- "waiting": []
+ "waiting": [
+  {
+   "name": "🎃 Murderers vs Sheriffs 2",
+   "u": "4673599750",
+   "why": "needs Rolimons history"
+  }
+ ]
 }
