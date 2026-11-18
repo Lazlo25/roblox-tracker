@@ -1,0 +1,71 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Top six unchanged, led by Steal An Egg. 13-day Realistic Ragdoll MMA rose 42; The Ditch Hotel fell 23.",
+        "Six entered, six left (Sell Fries! [Anomaly] among them). The 85-122-day band is lowest (18), so H-mp-009 may hold."
+      ],
+      "patterns": [
+        "Solo loops consistently sit lower (H-mp-003, 83%); big servers and recent updates consistently sit higher.",
+        "Pass price weakened to 65% (H-mp-001), so it only tends to hold."
+      ],
+      "outliers": [
+        {"name": "Realistic Ragdoll MMA", "note": "No passes, yet +42: the ragdoll wave carries it."},
+        {"name": "Natural Disaster Survival", "note": "18 years old, re-entered with no fresh update."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Clover RPG leads. 7-day Simply DONATIONS rose 96 to fourth; Forest Donations entered.",
+        "Ant Evolution (+131) and Ragdoll Soccer (+60) rose but stay among the least efficient."
+      ],
+      "patterns": [
+        "Price level, RPGs, story adventures and tower defense consistently earn most per player (95%).",
+        "Physics sandboxes, steal-a-X loops and 'Ragdoll' titles earn least; spins and crates rose to 72% (H-te-034)."
+      ],
+      "outliers": [
+        {"name": "Simply DONATIONS", "note": "Top-four at 7 days; donations passing through likely explain it."},
+        {"name": "Fallen Lineage", "note": "Entered with no passes; fits the RPG pattern."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Clean The Ballpit! leads; Can You Land A Plane? (12 days) rose 22. Guess The Emoji fell 24.",
+        "Sixteen entered, including two Minecraft-style games and 100 Miles Down the River."
+      ],
+      "patterns": [
+        "Physics sandboxes (H-tt-073, 73%) and Survival games (H-tt-077, 79%) consistently hold higher; bracket tags lower.",
+        "Solo loops no longer climb slower (H-tt-008, 73% to 29%). A test of more than two passes starts today."
+      ],
+      "outliers": [
+        {"name": "Can You Land A Plane?", "note": "A sequel to Can You Pass A Driving Test?; its known premise may explain the fast start."},
+        {"name": "Be The Biggest Streamer", "note": "A solo idle tycoon climbing fast on a streamer theme."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "BloxNG leads, ahead of Realistic Ragdoll MMA. POTATOES (+57) and Dummy Lab (+56) rose; Survive Your Drawing fell 48.",
+        "Twelve entered, including Cars Overboard with 50 passes and 297 products."
+      ],
+      "patterns": [
+        "Recent, frequent updates consistently rank higher (H-uc-012, 90%); bracket tags and clans lower.",
+        "Collection indexes, servers above 20 and the Action genre start as tests today."
+      ],
+      "outliers": [
+        {"name": "Highway Racing", "note": "274 days old, yet +38."},
+        {"name": "Cars Overboard", "note": "A huge store, against the lean-store patterns."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "Ragdoll fighters reach Most Popular but earn little per player (new H-x-043, 35%; H-x-039 up to 42%).",
+      "Survival leads Top Trending (79%) but ranks lower on Up-and-Coming (H-uc-047, 14%).",
+      "Videos unlabelled for the sixteenth run (0 frames). No new research. 60 games profiled."
+    ],
+    "progressions": [
+      "Over three days uc→tt rose 266 to 293 (2 days), tt→mp 205 to 214, uc→te 157 to 180.",
+      "Realistic Ragdoll MMA reached Most Popular and Top Earning from Up-and-Coming at 13 days."
+    ]
+  }
+}

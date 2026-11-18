@@ -1,0 +1,40 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Games with a collection index (complete-the-index goals) rank lower on Up-and-Coming among games of the same age",
+     "action": "Skip collection indexes at launch",
+     "test": {"feature": "mech_collect_index", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "statement": "Action-genre games rank higher on Up-and-Coming than games of the same age in other genres",
+     "action": "Pick the Action genre for breakout",
+     "test": {"feature": "genre=Action", "metric": "uc_pos", "type": "binary", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with servers above 20 players rank lower on Up-and-Coming among games of the same age",
+     "action": "Cap launch servers at 20 players",
+     "test": {"feature": "max_players", "metric": "uc_pos", "type": "threshold", "cut": 20, "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games launching with more than two game passes hold lower Top Trending positions among games of similar age",
+     "action": "Launch with two passes or fewer",
+     "test": {"feature": "passes_n", "metric": "tt_pos", "type": "threshold", "cut": 2, "direction": "-", "strata": "age"}},
+    {"chart": "tt", "statement": "Young games from verified creators climb Top Trending more slowly than games of similar age from unverified creators",
+     "test": {"feature": "creator_verified", "metric": "tt_mom", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 35,
+     "statement": "Ragdoll fighting games (ragdoll MMA, boxing) carry the ragdoll wave onto Most Popular and the top of Up-and-Coming, but like other physics sandboxes they earn little per player",
+     "action": "Try ragdoll combat for reach, not revenue",
+     "rationale": "2026-11-18: Realistic Ragdoll MMA (13 days) rose 42 on Most Popular, is #2 on Up-and-Coming and is the least efficient Top Earning game; Technical Ragdoll MMA (25 days) rose 13 on Top Trending. Confirm if more ragdoll fighters reach Most Popular while staying in the bottom fifth of Top Earning efficiency; refute if one becomes efficient or they fall off within two weeks."},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Streamer-themed games (be a streamer, scare a streamer) are a breakout theme on Top Trending and Up-and-Coming",
+     "action": "Try a streamer theme",
+     "rationale": "2026-11-18: Be The Biggest Streamer (28 days) rose 15 on Top Trending and is #4 on Up-and-Coming; Scare Your Favorite Streamer (17 days) rose 11 on Top Trending. Both are solo loops, against H-tt-008 and H-uc-007. Confirm if more streamer titles enter the breakout charts; refute if these two fall out within two weeks."},
+    {"chart": "te", "kind": "qualitative", "confidence": 30,
+     "statement": "New donation-booth games reach the top of Top Earning efficiency within their first week, because players' Robux gifts pass through the game",
+     "rationale": "2026-11-18: Simply DONATIONS (7 days) rose 96 to the fourth-best efficiency and Forest Donations (6 days) entered Top Earning, beside the long-standing Summer Donations. This is likely structural (donations count as spending), so it says little about other designs. Confirm if more donation games reach the top 20 efficiency within days of launch."},
+    {"chart": "tt", "kind": "qualitative", "confidence": 25,
+     "statement": "Christmas-themed games launched in November sit in the lower half of the breakout charts until December",
+     "rationale": "2026-11-18: Run a Christmas Tree Lot (14 days) is among the weakest on Top Trending, Light Up Christmas! (9 days) among the weakest on Up-and-Coming, and Create a Gingerbread House entered Top Trending at 45 days with 60% likes. Confirm if Christmas games climb only after December 1; refute if one leads a breakout chart in November."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-039", "confidence": 42, "note": "Ragdoll Reality left Most Popular and Anime Ragdoll (23 days) fell 26 on Up-and-Coming, while 13-day Realistic Ragdoll MMA rose 42 on Most Popular, 11-day Dummy Lab rose 56 on Up-and-Coming and 13-day Ragdoll Animal Playground entered it."},
+    {"id": "H-x-006", "confidence": 56, "note": "Sell Fries! [Anomaly], last run's biggest Anomaly riser, fell off Most Popular today."},
+    {"id": "H-mp-009", "confidence": 48, "note": "The 85-122-day band (n=5) has the lowest median percentile (18) today, below 43-84 days (39) and over a year (69), so the mid-life trough shows again."},
+    {"id": "H-uc-074", "confidence": 23, "note": "Survive Your Drawing fell 48 on Up-and-Coming, and two AI-judged art battles (Create a Gingerbread House, Make A Chocolate) were profiled with weak like ratios."}
+  ],
+  "actions": [],
+  "retire": []
+}
