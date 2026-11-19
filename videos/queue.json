@@ -1,8 +1,8 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "queue": [
   {
-   "age_days": 2337,
+   "age_days": 2338,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1081,
+   "age_days": 1082,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 698,
+   "age_days": 699,
    "charts": [
     "te"
    ],
@@ -32,11 +32,11 @@
    "u": "6945584306"
   },
   {
-   "age_days": 2683,
+   "age_days": 2684,
    "charts": [
     "te"
    ],
-   "name": "[GUILDS] Dragon Adventures 🐉",
+   "name": "[GUILD WARS] Dragon Adventures 🐉",
    "place": "3475397644",
    "status": "frames_ready",
    "u": "1235188606"
