@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "mp": {
+      "observations": ["Steal An Egg leads; BloxNG rose 48. Both streamer games entered."],
+      "patterns": ["Solo loops consistently sit lower (85%)."],
+      "outliers": []
+    },
+    "te": {
+      "observations": ["6-day Immortal Palm rose 124; Simply DONATIONS is third."],
+      "patterns": ["RPGs and dev product price consistently earn most (95%)."],
+      "outliers": []
+    },
+    "tt": {
+      "observations": ["Hyper Realistic Ragdoll rose 71 to lead; Christmas games fell."],
+      "patterns": ["Physics sandboxes consistently hold higher (74%)."],
+      "outliers": []
+    },
+    "uc": {
+      "observations": ["100 Miles Down the River leads; 30 entered, 30 left."],
+      "patterns": ["Sandboxes, spins and depth consistently rank higher."],
+      "outliers": []
+    }
+  },
+  "cross": {
+    "summary": ["Narrative cut short: the hypothesis log nearly fills the size cap.", "No video frames, no new research. 60 games profiled."],
+    "progressions": ["uc→tt rose 293 to 300, tt→mp 214 to 222."]
+  }
+}
