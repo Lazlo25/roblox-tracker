@@ -1,0 +1,669 @@
+[
+ {
+  "label": "Q46",
+  "loop": "steal and open anime packs -> units earn cash -> explore zones -> mutations, grades, dungeons",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "build collection and cash",
+  "progression": "zones, units, luck",
+  "instructions": "steal packs, open, train",
+  "mechanics": [
+   "steal packs",
+   "mutations",
+   "dungeons",
+   "server luck",
+   "offline earn"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "steal-a-x with anime packs and extreme odds"
+  ],
+  "themes": [
+   "anime",
+   "packs",
+   "units"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "server luck boosts to 1399 R$",
+   "skip pack",
+   "173 products",
+   "no gamepasses"
+  ],
+  "update_signals": [
+   "codes at 40K likes"
+  ],
+  "thumbnails": "1 in 999,573,315 odds with creepy and anime characters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "template steal/tycoon",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q47",
+  "loop": "open packs for superpowers -> fight, destroy city -> train +1",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest hero",
+  "progression": "powers, gold, training",
+  "instructions": "fight, destroy buildings, open packs",
+  "mechanics": [
+   "superpowers",
+   "destruction",
+   "packs",
+   "+1 training",
+   "ragdoll"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "destruction battlegrounds with +1 and gacha"
+  ],
+  "themes": [
+   "superhero",
+   "destruction",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one",
+   "destruction-battlegrounds"
+  ],
+  "monetization_signals": [
+   "packs 9-149 R$",
+   "training multipliers",
+   "discount packs"
+  ],
+  "update_signals": [
+   "Christmas event coming"
+  ],
+  "thumbnails": "laser beams, city destruction, +1",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city destruction, powers",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q48",
+  "loop": "click +1 cursed energy -> eat fingers to become Sukuna -> fight stages -> hatch shikigami -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become King of Curses, beat Gojo",
+  "progression": "energy, fingers, worlds, rebirth",
+  "instructions": "click, eat fingers, fight",
+  "mechanics": [
+   "+1 clicker",
+   "JJK",
+   "Naruto worlds",
+   "cursed flames",
+   "offline"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "+1 template with anime IP worlds"
+  ],
+  "themes": [
+   "JJK",
+   "Sukuna",
+   "Naruto"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one",
+   "anime-evolution"
+  ],
+  "monetization_signals": [
+   "50 gamepasses up to 4999 R$",
+   "226 products",
+   "tokens"
+  ],
+  "update_signals": [
+   "W3 Naruto"
+  ],
+  "thumbnails": "3 HOURS timer, +1 Sukuna transformations",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "incremental template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "roleplay city -> homes, vehicles, pets -> hangout",
+  "loop_archetype": "roleplay_social",
+  "objectives": "roleplay and decorate",
+  "progression": "homes, vehicles",
+  "instructions": "hang out",
+  "mechanics": [
+   "family RP",
+   "pets",
+   "vehicles",
+   "mansions"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Brookhaven-like with pets"
+  ],
+  "themes": [
+   "city",
+   "family",
+   "pets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "family-rp"
+  ],
+  "monetization_signals": [
+   "mansion packs 749-1249 R$",
+   "vehicle packs",
+   "VIP"
+  ],
+  "update_signals": [
+   "pets update, like-milestone house"
+  ],
+  "thumbnails": "family with pets, ad overlay",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large map",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q50",
+  "loop": "serve customers -> cook -> build/upgrade restaurant -> earn offline",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow restaurant",
+  "progression": "staff, build, milestones",
+  "instructions": "click to serve, cook",
+  "mechanics": [
+   "restaurant tycoon",
+   "build",
+   "staff",
+   "offline",
+   "challenges"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "successor to Restaurant Tycoon 2"
+  ],
+  "themes": [
+   "restaurant",
+   "food"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "restaurant-tycoon"
+  ],
+  "monetization_signals": [
+   "sandbox mode 1499",
+   "cash",
+   "diamonds"
+  ],
+  "update_signals": [
+   "new staff, mythical customer"
+  ],
+  "thumbnails": "cute restaurants and chefs",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "building system, staff AI",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q51",
+  "loop": "fight bosses and rivals -> ki techniques -> transform -> clans and tournaments",
+  "loop_archetype": "combat_pvp",
+  "objectives": "master ki and beat villains",
+  "progression": "stats, transformations, zeni",
+  "instructions": "fight, tournaments",
+  "mechanics": [
+   "DBZ",
+   "ki",
+   "transformations",
+   "clans"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "Dragon Ball RPG, long-running"
+  ],
+  "themes": [
+   "Dragon Ball",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dbz-rpg"
+  ],
+  "monetization_signals": [
+   "zeni packs",
+   "2x EXP",
+   "character packs",
+   "41 products"
+  ],
+  "update_signals": [
+   "Paths update 2, Halloween"
+  ],
+  "thumbnails": "Dragon Ball characters, update banners",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "RPG with transformations",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q52",
+  "loop": "open packs -> stock shelves, ring up customers -> grade cards -> trade",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build best card shop",
+  "progression": "cash, staff, album",
+  "instructions": "stock, price, open packs",
+  "mechanics": [
+   "card shop",
+   "packs",
+   "grading",
+   "trading",
+   "8000 cards"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "TCG shop sim with 8000 cards"
+  ],
+  "themes": [
+   "trading cards",
+   "brainrot",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "card-shop",
+   "tcg"
+  ],
+  "monetization_signals": [
+   "staff spots",
+   "quick opening",
+   "cash packs",
+   "38 products"
+  ],
+  "update_signals": [
+   "3 million visits code"
+  ],
+  "thumbnails": "avatar with cards, 0.013% pull",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "shop sim, many cards",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q53",
+  "loop": "survive night, hide -> some become steak -> explore",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the horror",
+  "progression": "coins, badges",
+  "instructions": "Fri-Sun 2x coins",
+  "mechanics": [
+   "horror",
+   "streamer IP",
+   "steak",
+   "skinwalker"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "YouTuber Steak-based horror"
+  ],
+  "themes": [
+   "Steak",
+   "skinwalker",
+   "streamer"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creator-horror"
+  ],
+  "monetization_signals": [
+   "donations to 10000 R$",
+   "revive",
+   "extra heart"
+  ],
+  "update_signals": [
+   "weekend 2x"
+  ],
+  "thumbnails": "steak creature, he ate them text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "horror map, AI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q54",
+  "loop": "spawn as fighter/mage -> dungeons -> bosses -> craft limited weapons",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "progress through endless dungeons",
+  "progression": "coins, gems, weapons",
+  "instructions": "fight, quests with Sage Orlin",
+  "mechanics": [
+   "dungeons",
+   "warrior and mage",
+   "bosses",
+   "crafting"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "dungeon crawler with broom flight"
+  ],
+  "themes": [
+   "dungeon",
+   "fantasy",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dungeon-rpg"
+  ],
+  "monetization_signals": [
+   "coin packs",
+   "gems",
+   "magma destroyer 790"
+  ],
+  "update_signals": [
+   "updates"
+  ],
+  "thumbnails": "dark fantasy anime, logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "combat classes",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q55",
+  "loop": "hatch chicks -> breed roosters -> battle -> clan derby",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "champion bloodline",
+  "progression": "coins, breeds, rank",
+  "instructions": "raise, breed, battle",
+  "mechanics": [
+   "breeding",
+   "rooster fights",
+   "clans",
+   "trading",
+   "ranked"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "Thai rooster breeding and battling"
+  ],
+  "themes": [
+   "roosters",
+   "gamefowl"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "breed-battle"
+  ],
+  "monetization_signals": [
+   "17 passes",
+   "gift items",
+   "43 products"
+  ],
+  "update_signals": [
+   "Update 2.5"
+  ],
+  "thumbnails": "fierce roosters, arena crowds",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "breeding system, fights",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q56",
+  "loop": "pick aircraft -> fly -> explore",
+  "loop_archetype": "simulation_job",
+  "objectives": "fly 97 aircraft",
+  "progression": "aircraft",
+  "instructions": "fly",
+  "mechanics": [
+   "flight sim",
+   "aircraft",
+   "volcano"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "oldest flight sim"
+  ],
+  "themes": [
+   "aircraft",
+   "aviation"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "flight-sim"
+  ],
+  "monetization_signals": [
+   "aircraft passes 95-295 R$"
+  ],
+  "update_signals": [
+   "aircraft updates"
+  ],
+  "thumbnails": "aircraft with UPDATE tag",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "many detailed aircraft",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "spawn cars -> crush with hammers, explosives -> soft body damage",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck cars",
+  "progression": "cash, XP",
+  "instructions": "destroy cars",
+  "mechanics": [
+   "soft-body",
+   "demolition",
+   "explosives",
+   "private servers"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "BeamNG-like destruction"
+  ],
+  "themes": [
+   "cars",
+   "demolition"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "car-crash-sandbox"
+  ],
+  "monetization_signals": [
+   "guns 189",
+   "military 1599",
+   "66 products"
+  ],
+  "update_signals": [
+   "updates"
+  ],
+  "thumbnails": "wrecked red cars",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "soft body",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q58",
+  "loop": "roll Russian license plates -> sell -> upgrade luck/speed -> wall slots",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "hunt rarest plates",
+  "progression": "luck, speed, slots",
+  "instructions": "auto-roll, sell",
+  "mechanics": [
+   "rng",
+   "license plates",
+   "regional series",
+   "leaderboard"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Russian plates collection RNG"
+  ],
+  "themes": [
+   "Russia",
+   "plates",
+   "cars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "rng-collect",
+   "localized"
+  ],
+  "monetization_signals": [
+   "9 gamepasses",
+   "Russian-language passes"
+  ],
+  "update_signals": [
+   "UPDATE3"
+  ],
+  "thumbnails": "A777AA 77 plate, 1 in 1,000,000",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple RNG",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q59",
+  "loop": "find 530 morphs -> use abilities -> bosses, parkour, quests",
+  "loop_archetype": "obby_platformer",
+  "objectives": "collect morphs",
+  "progression": "keys, coins",
+  "instructions": "find morphs",
+  "mechanics": [
+   "morphs",
+   "bosses",
+   "parkour",
+   "PvP",
+   "worlds"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "scavenger hunt with Backrooms Dexter"
+  ],
+  "themes": [
+   "morph",
+   "backrooms",
+   "dinosaurs",
+   "mechas"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "morph-hunt"
+  ],
+  "monetization_signals": [
+   "keys 100-500 R$",
+   "189 products",
+   "tanks"
+  ],
+  "update_signals": [
+   "Dexter Nightmare Dog"
+  ],
+  "thumbnails": "Dexter skeleton dog, colourful morphs",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "many morph models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q60",
+  "loop": "spawn lucky crates -> open for car -> collect earns cash -> rebirth",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect dream cars",
+  "progression": "cash, crates, rebirths",
+  "instructions": "spawn crates, collect",
+  "mechanics": [
+   "lucky crates",
+   "offline",
+   "car collection",
+   "open world alpha"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "crate RNG with open-world driving alpha, GTA 6 hook"
+  ],
+  "themes": [
+   "GTA6",
+   "supercars"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gta6",
+   "crate-rng"
+  ],
+  "monetization_signals": [
+   "1999 instant growth",
+   "car products",
+   "88 products"
+  ],
+  "update_signals": [
+   "GTA 6 update, x10 luck"
+  ],
+  "thumbnails": "1 in 98,637,423 cars, $978 billion",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "crate system and driving alpha",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

@@ -1,0 +1,723 @@
+[
+ {
+  "label": "Q01",
+  "loop": "hide in blanket fort from Bacon Mom -> play handheld for cash/tickets -> hide and fake sleep when she approaches -> survive until 3 PM -> upgrade fort and unlock house",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the school day undetected, reach Friday perfect attendance",
+  "progression": "tickets/cash, handheld upgrades, fort size, house areas, sicknesses with perks",
+  "instructions": "fake illness, hide the GamePal, last until 3 PM, save caught friends",
+  "mechanics": [
+   "hiding",
+   "stealth",
+   "fake sleep",
+   "upgrades",
+   "sickness perks",
+   "revive"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "flips the horror-escape/granny chase into a comedic sneak-around-mom premise",
+   "fake-sick perks as abilities"
+  ],
+  "themes": [
+   "skipping school",
+   "sick day",
+   "fort",
+   "mom"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "hide-from-mom",
+   "family-chase"
+  ],
+  "monetization_signals": [
+   "revive everyone product",
+   "ticket packs",
+   "starter kit",
+   "2x tickets"
+  ],
+  "update_signals": [
+   "new levels/rooms",
+   "15 ways to get caught"
+  ],
+  "thumbnails": "cartoon characters in a blanket fort with Bacon Mom looming, thermometer, handheld; character art showing scenario",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "single house with multiple rooms, AI mom, hide mechanics, perks; moderate polish",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "play as animal -> smash map and ragdoll dummies -> raise wanted stars -> fight Animal Control -> earn cash to unlock bigger animals",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck everything and unlock all 36 animals",
+  "progression": "cash, animal unlocks, growing size, events",
+  "instructions": "punch bite grab throw dummies, smash the map, fight guards",
+  "mechanics": [
+   "ragdoll physics",
+   "destruction",
+   "animal roster",
+   "wanted stars",
+   "baby pet",
+   "events"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "animal power fantasy plus ragdoll dummy destruction",
+   "wanted-star Animal Control"
+  ],
+  "themes": [
+   "animals",
+   "ragdoll",
+   "destruction",
+   "dinosaurs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sim",
+   "be-the-animal"
+  ],
+  "monetization_signals": [
+   "ultimate bundle",
+   "unlimited events pass",
+   "animal passes",
+   "skins",
+   "cash packs",
+   "event triggers 49-59 R$"
+  ],
+  "update_signals": [
+   "events",
+   "new animals",
+   "community"
+  ],
+  "thumbnails": "large animals punching ragdoll dummies, 3 HOURS timer icon implying long play, event hype",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "physics ragdolls, 36 animals with animations and super moves, destructible rebuilding map; sizable",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "cast line in biome -> catch fish/secret animals with mutations -> sell and upgrade rod/luck -> place pets in nest/pen for power",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "catch secret animals at extreme rarities, grow power",
+  "progression": "luck, rod upgrades, pen/nest slots, power multipliers, biomes",
+  "instructions": "cast, catch rare fish, sell, upgrade, like and favorite",
+  "mechanics": [
+   "fishing",
+   "rng",
+   "mutations",
+   "pets",
+   "luck boosts",
+   "biomes"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "fishing meets animal-collection pens and power multipliers (x256)"
+  ],
+  "themes": [
+   "fishing",
+   "sea creatures",
+   "secret animals"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing-sim",
+   "rare-rng"
+  ],
+  "monetization_signals": [
+   "many power multiplier products to x256",
+   "luck passes",
+   "server luck",
+   "bundles",
+   "thanksgiving bundle"
+  ],
+  "update_signals": [
+   "update 2",
+   "thanksgiving bundle",
+   "renamed from Catch Rare Fish"
+  ],
+  "thumbnails": "fish at absurd odds (1 in 6.79 quadrillion), 24HR timer icon, Day 1 vs Day 7 progression, rare beasts",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "fishing loop, creature models, pens/nests UI, rng tables; typical of genre",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "dig and mine ores in 7 biomes -> craft tools/armor -> build home on own plot -> survive nights -> portal to Underworld fortress",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "survive nights, build home, raid Underworld",
+  "progression": "tools/armor tier, biomes, portal, upgrade table",
+  "instructions": "dig, craft, build, survive night, tame dog, daily reward",
+  "mechanics": [
+   "mining",
+   "crafting",
+   "building",
+   "survival",
+   "taming",
+   "bees",
+   "rails"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "Minecraft clone with plots saved forever on Roblox"
+  ],
+  "themes": [
+   "minecraft-like",
+   "pixel",
+   "survival"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "minecraft-clone"
+  ],
+  "monetization_signals": [
+   "coin multipliers 2-5x",
+   "coin packs",
+   "starter pack",
+   "double jump"
+  ],
+  "update_signals": [
+   "updates promised for likes"
+  ],
+  "thumbnails": "minecraft-like scenes: survive the night, play with friends, open the portal",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "voxel world with biomes, crafting, mobs, plots saving; sizable build though a known template",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q05",
+  "loop": "scoop beads to pick goodies -> line mystery box with tissue -> place items -> tape and sticker -> ship orders for coins -> expand studio",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow cozy small business, fulfil orders incl rare",
+  "progression": "coins, order slots, staff, shelves, rarer goodies",
+  "instructions": "scoop beads, pack boxes, ship orders",
+  "mechanics": [
+   "packing",
+   "order fulfilment",
+   "staff",
+   "idle away time",
+   "cute collectibles"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "lucky-scoop/mystery-box packing fantasy, ASMR-like"
+  ],
+  "themes": [
+   "stationery",
+   "cute gifts",
+   "mystery box",
+   "pastel"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "cozy-shop",
+   "packing-sim"
+  ],
+  "monetization_signals": [
+   "auto packing",
+   "2x passes",
+   "coin packs",
+   "cosmetic items"
+  ],
+  "update_signals": [
+   "beta",
+   "new stock"
+  ],
+  "thumbnails": "pastel cute girl avatars scooping beads, mystery box contents, shop",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "packing minigame, shop UI, staff; mid-simple",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q06",
+  "loop": "get category -> name as many answers as possible in 60s -> rarer answers score more -> win cash, unlock chairs",
+  "loop_archetype": "party_minigames",
+  "objectives": "score high and win duels, climb leaderboards",
+  "progression": "wins, cash, streak, chairs",
+  "instructions": "name answers in 60 seconds, duel 1v1",
+  "mechanics": [
+   "word game",
+   "duels",
+   "leaderboards",
+   "rerolls"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "scoring by answer rarity"
+  ],
+  "themes": [
+   "trivia",
+   "word game",
+   "categories"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "name-them-all",
+   "trivia"
+  ],
+  "monetization_signals": [
+   "2x wins/cash/streak forever",
+   "reroll/reveal/time boost packs",
+   "VIP"
+  ],
+  "update_signals": [
+   "new categories"
+  ],
+  "thumbnails": "two avatars writing lists with Animals category and +1/+3 score bubbles",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "UI-driven word game, category database",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "climb tower -> grab/hug/carry players -> throw into lava -> reach top for rewards",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top without being thrown into lava",
+  "progression": "tower height, rewards, carry animations, tools",
+  "instructions": "climb, grab players, carry, avoid lava, join group for rewards",
+  "mechanics": [
+   "tower obby",
+   "grab and carry",
+   "lava",
+   "trolling"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "social carry/hug-and-throw mechanic over tower obby"
+  ],
+  "themes": [
+   "lava",
+   "hug",
+   "troll",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "troll-tower",
+   "carry-throw"
+  ],
+  "monetization_signals": [
+   "admin pass",
+   "skip rewards",
+   "swaps",
+   "carry animations",
+   "coils"
+  ],
+  "update_signals": [
+   "updated 2026-11-16"
+  ],
+  "thumbnails": "avatars hugging/carrying, E HUG / F PUSH prompts, lava below",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "obby tower with grab/carry animations",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q08",
+  "loop": "tag-based chase as baboon -> tagged players chase others -> earn coins -> buy cosmetics",
+  "loop_archetype": "party_minigames",
+  "objectives": "avoid being tagged, tag others",
+  "progression": "coins, cosmetics",
+  "instructions": "run, tag, survive timer",
+  "mechanics": [
+   "tag",
+   "10 maps",
+   "cosmetics",
+   "gorilla tag-style"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "Gorilla Tag-esque baboon meme tag"
+  ],
+  "themes": [
+   "baboon",
+   "tag",
+   "halloween"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gorilla-tag-like",
+   "tag"
+  ],
+  "monetization_signals": [
+   "VIP tag chat",
+   "banana peel"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "new maps",
+   "testing"
+  ],
+  "thumbnails": "baboon avatars, meme art, Tom and Jerry waiting-for-update meme",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tag game with 10 maps and simple UI",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "pick spot -> paddle and balance on wave -> surf different boards -> unlock spots/boards",
+  "loop_archetype": "sports_competitive",
+  "objectives": "surf famous breaks",
+  "progression": "boards, spots",
+  "instructions": "surf real famous spots with balance",
+  "mechanics": [
+   "surfing",
+   "balance",
+   "boards",
+   "real locations",
+   "hazards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic wave physics and real surf spots"
+  ],
+  "themes": [
+   "surfing",
+   "ocean",
+   "africa",
+   "tropical"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "sports-sim"
+  ],
+  "monetization_signals": [
+   "board packs",
+   "shark attack",
+   "giant wave",
+   "paddle speed"
+  ],
+  "update_signals": [
+   "Friday updates adding spots"
+  ],
+  "thumbnails": "photoreal wave and surfer scenes, Surfing logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "wave simulation, multiple maps, balance mechanics",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "buy trees -> truck home -> plant/water/chop -> sell to shoppers -> hire staff and decorate market",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build coziest Christmas market",
+  "progression": "cash, rare trees, staff, decor",
+  "instructions": "buy and sell trees, build, hire cashiers",
+  "mechanics": [
+   "tycoon",
+   "building",
+   "tree rarities",
+   "co-op",
+   "rating"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "seasonal Christmas tree market with visit-and-like stores"
+  ],
+  "themes": [
+   "christmas",
+   "trees",
+   "market",
+   "cozy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "seasonal",
+   "christmas"
+  ],
+  "monetization_signals": [
+   "cash packs 3-899",
+   "2x cash",
+   "VIP",
+   "cosmetic trees"
+  ],
+  "update_signals": [
+   "Christmas season",
+   "new trees"
+  ],
+  "thumbnails": "cozy snowy market storefront, chef avatar, holiday scenes",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tycoon with building, vehicles, rarity trees",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q11",
+  "loop": "buy cars -> tune and customise -> drive Tokyo highways and touge -> earn yen -> rank up",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect cars and compete for status",
+  "progression": "yen, XP, rank, cars",
+  "instructions": "drive, customise, race",
+  "mechanics": [
+   "racing",
+   "car customisation",
+   "tuning",
+   "touge",
+   "open map"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "long-running car culture sim with huge catalog"
+  ],
+  "themes": [
+   "Tokyo",
+   "JDM",
+   "touge",
+   "cars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "car-culture"
+  ],
+  "monetization_signals": [
+   "yen packs up to 2825 R$",
+   "XP boosts",
+   "plates",
+   "showrooms"
+  ],
+  "update_signals": [
+   "HUGE UPDATE",
+   "new cars/remodels"
+  ],
+  "thumbnails": "Tokyo night, touge, customisation shots, 180+ cars",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 5,
+  "complexity_notes": "large map, 180+ cars, tuning, networking",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q12",
+  "loop": "drive truck/supercar -> do jobs for cash -> customise vehicles -> cruise and roleplay",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn money, customise dream vehicle",
+  "progression": "cash, job rank, vehicle collection",
+  "instructions": "drive, jobs, cruise, codes at likes",
+  "mechanics": [
+   "open world",
+   "jobs",
+   "vehicle customisation",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "lifted truck culture plus supercars"
+  ],
+  "themes": [
+   "trucks",
+   "cars",
+   "county",
+   "roleplay"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cruising-sim",
+   "greenville-like"
+  ],
+  "monetization_signals": [
+   "cash packs up to 13799 R$",
+   "drive to earn multipliers",
+   "limited vehicles"
+  ],
+  "update_signals": [
+   "next code at 1000 likes"
+  ],
+  "thumbnails": "realistic cars on highways, trucks lifted",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open-world map, vehicles, jobs, customisation",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q13",
+  "loop": "drive cars -> crash with soft-body deformation -> earn cash -> buy cars/test drives",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experience realistic crash physics and collect cars",
+  "progression": "cash, car tiers, tuning",
+  "instructions": "drive and crash, use code GARAGE",
+  "mechanics": [
+   "soft body deformation",
+   "crash",
+   "car tiers",
+   "tuning",
+   "test drive"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "BeamNG-style soft-body crash physics in Roblox"
+  ],
+  "themes": [
+   "crash",
+   "cars",
+   "physics"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "beamng-like",
+   "crash-physics"
+  ],
+  "monetization_signals": [
+   "supercar packs",
+   "test drive tiers",
+   "cash packs to 1599 R$"
+  ],
+  "update_signals": [
+   "beta",
+   "codes at likes"
+  ],
+  "thumbnails": "burning car wrecks, deformed vehicles, NOW timer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "custom soft-body physics, many cars, high technical difficulty",
+  "novelty": 3,
+  "confidence": 85
+ },
+ {
+  "label": "Q14",
+  "loop": "grow dumplings -> steal others' -> earn money -> speed multipliers -> reach gem/ocean dumplings",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "grow and protect dumplings, steal rare ones",
+  "progression": "money, growth speed, dumpling rarity",
+  "instructions": "use codes, steal dumplings, like for codes",
+  "mechanics": [
+   "steal",
+   "growth",
+   "speed multiplier",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "steal-a-brainrot reskin with dumplings"
+  ],
+  "themes": [
+   "dumplings",
+   "food"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "speed multiplier levels 3-649 R$",
+   "x2 growth",
+   "x2 money",
+   "VIP"
+  ],
+  "update_signals": [
+   "codes at like milestones"
+  ],
+  "thumbnails": "cute dumpling characters, avatar stealing, gem dumpling",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "base tycoon with steal mechanic, template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q15",
+  "loop": "squish bugs with tools -> earn cash/gems -> upgrade tools and assistants -> race for times -> unlock new maps",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "clear infestations, top leaderboard, find secrets",
+  "progression": "tools, gems, assistants, maps",
+  "instructions": "squish bugs, race times, unlock tools",
+  "mechanics": [
+   "bug squashing",
+   "assistants",
+   "difficulty tiers",
+   "leaderboards",
+   "badges"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "satisfying mass bug squashing"
+  ],
+  "themes": [
+   "bugs",
+   "exterminator",
+   "cleaning"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "clean-x",
+   "satisfying-clean"
+  ],
+  "monetization_signals": [
+   "unlimited tools pass",
+   "assistant minutes",
+   "gem packs",
+   "reward multipliers"
+  ],
+  "update_signals": [
+   "7500 likes new map",
+   "badges"
+  ],
+  "thumbnails": "hordes of cartoon bugs with fly swatter and spray",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "swarm bugs, tools, maps",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

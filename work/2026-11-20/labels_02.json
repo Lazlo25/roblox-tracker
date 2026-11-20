@@ -1,0 +1,706 @@
+[
+ {
+  "label": "Q16",
+  "loop": "ride bike down mountain -> hit jumps, tricks, rails -> race riders for time -> gold medal per sector unlocks next -> wipe out for pay per broken bone",
+  "loop_archetype": "sports_competitive",
+  "objectives": "finish fastest, unlock sectors and bikes",
+  "progression": "sector medals, bikes, wraps, cash/EXP",
+  "instructions": "send jumps, tailwhips, chase best time, use codes",
+  "mechanics": [
+   "downhill biking",
+   "tricks",
+   "bone-break payout",
+   "crates",
+   "sector unlock"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "wipe-out paid per broken bone",
+   "Rides-style bike sim"
+  ],
+  "themes": [
+   "mountain biking",
+   "snow",
+   "bikes"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "downhill-bike",
+   "ragdoll-crash"
+  ],
+  "monetization_signals": [
+   "cash stacks to 599 R$",
+   "2x cash/EXP boosts",
+   "medkits",
+   "no gamepasses"
+  ],
+  "update_signals": [
+   "codes RELEASE/2KLIKES"
+  ],
+  "thumbnails": "first-person handlebar POV on snowy mountain trail, rider close-up",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "bike physics, terrain, trick system, crates",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q17",
+  "loop": "explore guarded areas -> collect objects -> hatch/discover Omega pets -> scale cash/speed/luck",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "discover every Omega and build ultimate collection",
+  "progression": "pets, speed, cash, luck, growth",
+  "instructions": "collect, discover Omega pets",
+  "mechanics": [
+   "pets",
+   "collection",
+   "treadmill speed",
+   "luck",
+   "admin panel"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "admin panel/verified badge gamepass jokes"
+  ],
+  "themes": [
+   "omega pets",
+   "brainrot-like"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "omega-evolution",
+   "steal-collect"
+  ],
+  "monetization_signals": [
+   "6000 R$ gamepass",
+   "infinite cash/luck/speed",
+   "pet products"
+  ],
+  "update_signals": [
+   "2x weekend event"
+  ],
+  "thumbnails": "thumbs show $999999999, INF speed, owner crown, 1000x pets - exploit-bait style",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template collect/tycoon with pet models",
+  "novelty": 0,
+  "confidence": 60
+ },
+ {
+  "label": "Q18",
+  "loop": "punch wild pets -> summon beaten pets into army -> drum to power up -> beat bosses to unlock zones -> earn at home",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "build huge pet army, beat giant bosses",
+  "progression": "army size, drum power, zones, rarer pets, Divine pets",
+  "instructions": "punch pets, summon, drum, defeat bosses",
+  "mechanics": [
+   "pet army",
+   "boss fights",
+   "drumming",
+   "zones",
+   "rarities"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Pet-army combat with voxel giants"
+  ],
+  "themes": [
+   "pets",
+   "bosses",
+   "golems",
+   "voxel"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "summon-army",
+   "army-simulator"
+  ],
+  "monetization_signals": [
+   "command boosts 3-299 R$",
+   "coin pouches",
+   "army slots",
+   "giant souls"
+  ],
+  "update_signals": [
+   "new zones"
+  ],
+  "thumbnails": "giant voxel boss monsters (golem, rhino, titan) towering over small player and pets",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "boss models, pet systems, zones",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q19",
+  "loop": "adopt and raise pets -> do tasks/age up -> trade legendary pets -> decorate home -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect and trade pets, build dream home",
+  "progression": "bucks, pets, homes, trading",
+  "instructions": "adopt, raise, trade, roleplay with friends",
+  "mechanics": [
+   "pet care",
+   "trading",
+   "housing",
+   "events",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "largest long-running pet trade economy"
+  ],
+  "themes": [
+   "pets",
+   "baby",
+   "home"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "adopt-me",
+   "trading-economy"
+  ],
+  "monetization_signals": [
+   "bucks packs 85-3910 R$",
+   "discounts",
+   "VIP",
+   "premium plots",
+   "lure"
+  ],
+  "update_signals": [
+   "frequent updates (notify bell)"
+  ],
+  "thumbnails": "Adopt Me logo and cute pets repeated, painting/penguin unicorn",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 5,
+  "complexity_notes": "huge economy, many systems, ten years of content",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q20",
+  "loop": "run horse race or battle in battlegrounds with Stand -> win -> reroll stats/spin -> awaken",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win the race / battlegrounds",
+  "progression": "stands, horse stats, awakenings, spins",
+  "instructions": "race for first, use stand in battlegrounds, controls listed",
+  "mechanics": [
+   "JoJo Steel Ball Run",
+   "horse racing",
+   "stands",
+   "battlegrounds",
+   "rerolls"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "JoJo fan-game combining horse race and stand fights"
+  ],
+  "themes": [
+   "JoJo",
+   "anime",
+   "western"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jojo-stands",
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "spin tickets",
+   "stat rerolls",
+   "kill SFX",
+   "skull saddle"
+  ],
+  "update_signals": [
+   "weekly beta content, 350K likes code"
+  ],
+  "thumbnails": "anime-style key art of characters with stand, race scene",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "stands with animations, horse mounts, race and battlegrounds modes",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "pick NFL team -> play football matches in park/ranked -> earn coins -> buy uniforms and celebrations",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win games, raise OVR",
+  "progression": "OVR, coins, seasons, uniforms",
+  "instructions": "play for NFL teams, celebrate, skill matchmaking",
+  "mechanics": [
+   "football",
+   "NFL licence",
+   "seasons",
+   "battle pass",
+   "uniforms"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "official NFL licence",
+   "Nike collab"
+  ],
+  "themes": [
+   "NFL",
+   "football",
+   "Thanksgiving"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "licensed-sports",
+   "battle-pass"
+  ],
+  "monetization_signals": [
+   "season passes 799-999 R$",
+   "coin packs up to 10000 R$",
+   "animation bundles"
+  ],
+  "update_signals": [
+   "Thanksgiving event",
+   "Chapter 3 Season 2"
+  ],
+  "thumbnails": "NFL branded players, Thanksgiving, Nike Rivalries",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 5,
+  "complexity_notes": "licensed stadiums, physics, many modes, seasons",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q22",
+  "loop": "rob locations or catch criminals -> earn cash -> buy fast cars -> events",
+  "loop_archetype": "combat_pvp",
+  "objectives": "rob as much as possible or arrest criminals",
+  "progression": "cash, vehicles, ranks",
+  "instructions": "organise robbery, catch criminals, event The Block",
+  "mechanics": [
+   "cops and robbers",
+   "open world",
+   "vehicles",
+   "heists",
+   "events"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "original cops-and-robbers open world"
+  ],
+  "themes": [
+   "cops",
+   "robbers",
+   "prison",
+   "takeback event"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "jailbreak",
+   "cops-robbers"
+  ],
+  "monetization_signals": [
+   "VIP 750 R$",
+   "garage",
+   "crime boss",
+   "SWAT"
+  ],
+  "update_signals": [
+   "Takeback event",
+   "Winter 2026 update soon"
+  ],
+  "thumbnails": "jailbreak logo with escaping prisoner, motorbike, helicopter over prison",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 5,
+  "complexity_notes": "large map, vehicles, heists, long history",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q23",
+  "loop": "explore party in horror chapters -> solve puzzles and hide from Pinkie -> unlock scrapbook -> cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive Pinkie's party through chapters",
+  "progression": "chapters, badges, cosmetics",
+  "instructions": "chapter-based horror story",
+  "mechanics": [
+   "horror",
+   "story chapters",
+   "MLP fan",
+   "scrapbook hints",
+   "scare a friend"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "MLP-inspired horror story"
+  ],
+  "themes": [
+   "My Little Pony",
+   "Pinkie Pie",
+   "creepypasta"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "pony-horror",
+   "chapter-release"
+  ],
+  "monetization_signals": [
+   "season pass 699 R$",
+   "early access 229",
+   "death effects",
+   "cosmetic items"
+  ],
+  "update_signals": [
+   "Chapter 2 early access, public Nov 23"
+  ],
+  "thumbnails": "creepy Pinkie Pie art, game logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom models, story chapters, puzzles, high polish",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q24",
+  "loop": "sail seas, fight with fruits/swords -> level via XP -> sail to new islands -> bosses and trade",
+  "loop_archetype": "combat_pvp",
+  "objectives": "level and explore, collect fruits",
+  "progression": "level, mastery, race, fruits",
+  "instructions": "sail, combat, trade, code at 175K likes",
+  "mechanics": [
+   "One Piece-like",
+   "sailing",
+   "fruits",
+   "bosses",
+   "RPG"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Blox Fruits-like pirate RPG"
+  ],
+  "themes": [
+   "pirates",
+   "anime",
+   "fruits"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "blox-fruits-like"
+  ],
+  "monetization_signals": [
+   "double XP up to 1500 R$",
+   "private server 800",
+   "boats",
+   "fruit storage"
+  ],
+  "update_signals": [
+   "Dawn of Legends update"
+  ],
+  "thumbnails": "anime characters with elemental powers, sea monster and ship",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "large map, combat system, sailing",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q25",
+  "loop": "hunt as Psycho or survive as class -> last 3 minutes or take Psycho down -> spin for survivors/skins",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive rounds or play the Psycho",
+  "progression": "spins, survivor classes, guns, cash",
+  "instructions": "survive, spin for survivor",
+  "mechanics": [
+   "1vsAll",
+   "spins",
+   "classes",
+   "cyberpunk",
+   "asymmetric"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Cyberpunk characters in 1vAll, Adam Smasher, Capri"
+  ],
+  "themes": [
+   "cyberpunk",
+   "psycho",
+   "Night City"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "1-vs-all",
+   "cyberpunk-edgerunners"
+  ],
+  "monetization_signals": [
+   "spin packs",
+   "lucky spins",
+   "guns",
+   "2x skin luck",
+   "144 products"
+  ],
+  "update_signals": [
+   "new scenarios"
+  ],
+  "thumbnails": "anime Edgerunners-style key art, Psycho faces",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "asymmetric rounds, 11 classes",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "buy steps to descend -> dig fossils/shinies -> upgrade trees -> bosses -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "dive deeper",
+  "progression": "depth, fossils, upgrade trees, rebirths",
+  "instructions": "buy steps, dig, defeat bosses",
+  "mechanics": [
+   "incremental",
+   "fossils",
+   "upgrade trees",
+   "rebirth",
+   "VIP"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Tower Incremental-inspired"
+  ],
+  "themes": [
+   "depth",
+   "pit",
+   "fossils"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "incremental-plus1",
+   "tower-incremental"
+  ],
+  "monetization_signals": [
+   "gamepass bundle 1699",
+   "VIP forever 1299",
+   "potions",
+   "luck"
+  ],
+  "update_signals": [
+   "UPD6"
+  ],
+  "thumbnails": "+1 in a stepped pit, avatar with circus-like stage",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "incremental systems, UI heavy",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q27",
+  "loop": "hatch as tiny spider -> eat to grow -> evolve through bug tree -> hunt together -> be King",
+  "loop_archetype": "simulation_job",
+  "objectives": "become king of the server",
+  "progression": "bug tree tier, size, caves loot",
+  "instructions": "eat, grow, evolve, team up",
+  "mechanics": [
+   "evolution",
+   "survival",
+   "bug tree",
+   "caves",
+   "multiplayer"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "realistic insects evolving"
+  ],
+  "themes": [
+   "spiders",
+   "insects",
+   "prehistoric"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolution-sim"
+  ],
+  "monetization_signals": [
+   "buy next bug T2-T6 19-129 R$",
+   "cosmetic spiders",
+   "no passes"
+  ],
+  "update_signals": [
+   "caves update, new insects each update"
+  ],
+  "thumbnails": "realistic macro images of isopod and spider",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "creature models, evolution tree, caves",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q28",
+  "loop": "spawn items on 2D ragdoll dummy -> blow up, burn, shoot -> unlock packs",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "play with sandbox physics",
+  "progression": "unlock packs, tools",
+  "instructions": "shoot, grab, fling, slow motion",
+  "mechanics": [
+   "2D ragdoll",
+   "sandbox",
+   "sand water fire lava",
+   "anime packs"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Granule-like 2D ragdoll sandbox"
+  ],
+  "themes": [
+   "ragdoll",
+   "anime",
+   "JJK",
+   "Naruto"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll-playground",
+   "anime-packs"
+  ],
+  "monetization_signals": [
+   "bundles 599-999",
+   "anime packs 299",
+   "tips up to 5000 R$",
+   "premium trial"
+  ],
+  "update_signals": [
+   "codes RELEASE/30MVisits"
+  ],
+  "thumbnails": "pixel ragdoll with anime power packs, weapons",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "2D physics sandbox with many items",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q29",
+  "loop": "steal eggs from Catboys -> escape to cafe -> hatch rare Catboys -> earn money -> run cat wheel for speed",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare Catboys, unlock areas",
+  "progression": "speed, areas, rarer eggs",
+  "instructions": "steal eggs, hatch, earn",
+  "mechanics": [
+   "steal-eggs",
+   "hatching",
+   "speed",
+   "guards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "anime catboy skin on steal-a-brainrot"
+  ],
+  "themes": [
+   "catboys",
+   "anime",
+   "cafe"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal-a-x",
+   "anime-pets"
+  ],
+  "monetization_signals": [
+   "egg packs up to 3499 R$",
+   "speed 3-129 R$",
+   "2x cash"
+  ],
+  "update_signals": [
+   "new areas"
+  ],
+  "thumbnails": "anime catboys in suits, cafe pink",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "base tycoon template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q30",
+  "loop": "spawn truck/ATV -> mud, tow, haul, customise -> buy vehicle packs",
+  "loop_archetype": "simulation_job",
+  "objectives": "off-road, roleplay, customise vehicles",
+  "progression": "vehicles, packs",
+  "instructions": "explore, off-road, customise, roleplay",
+  "mechanics": [
+   "mudding",
+   "towing",
+   "trailers",
+   "vehicle packs",
+   "houses"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "off-road mud physics"
+  ],
+  "themes": [
+   "trucks",
+   "ATVs",
+   "mud",
+   "rural"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "offroad-sim"
+  ],
+  "monetization_signals": [
+   "vehicle packs 200-490 R$",
+   "gifts",
+   "6x6 pickup"
+  ],
+  "update_signals": [
+   "updates every Friday"
+  ],
+  "thumbnails": "photoreal ATVs in mud",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large map, many vehicles, physics",
+  "novelty": 1,
+  "confidence": 85
+ }
+]

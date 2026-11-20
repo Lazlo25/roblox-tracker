@@ -1,0 +1,687 @@
+[
+ {
+  "label": "Q31",
+  "loop": "lift weights -> hatch trainers -> box rivals and bosses -> unlock worlds -> ascend",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "get huge, unlock worlds up to Olympus",
+  "progression": "strength, trainers, worlds, ascension",
+  "instructions": "lift, hatch trainers, fight bosses, Mog Off",
+  "mechanics": [
+   "gym",
+   "hatching",
+   "boxing",
+   "worlds",
+   "ascend"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "gym-bro muscle meme with hatch trainers"
+  ],
+  "themes": [
+   "gym",
+   "muscles",
+   "mog"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "gym-sim",
+   "day1-vs-day100"
+  ],
+  "monetization_signals": [
+   "star hatch products 15-155 R$",
+   "mythic luck",
+   "storage",
+   "224 products"
+  ],
+  "update_signals": [
+   "updates"
+  ],
+  "thumbnails": "before/after fat-to-muscle Day 1 vs Day 100, barbell",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "standard gym incremental with eggs",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "attend school, jobs, fight 14 styles, craft potions, build home, roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live school life and fight",
+  "progression": "reputation, styles, home",
+  "instructions": "go to class, work shifts, fight, grow plants",
+  "mechanics": [
+   "school RP",
+   "fighting styles",
+   "character creator rerolls",
+   "jobs",
+   "basketball",
+   "concert"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "anime-styled school life RP with reroll-everything character creator"
+  ],
+  "themes": [
+   "school",
+   "anime",
+   "Japan",
+   "fighting"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "school-rp-anime"
+  ],
+  "monetization_signals": [
+   "reroll products 3-5 R$",
+   "custom hair 1299",
+   "129 products"
+  ],
+  "update_signals": [
+   "Halloween content"
+  ],
+  "thumbnails": "anime art of students, fights, cozy scenes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "many systems, 14 styles, minigames",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q33",
+  "loop": "place towers -> defend waves/bosses -> earn cash -> unlock towers",
+  "loop_archetype": "tower_defense",
+  "objectives": "defeat enemies and bosses",
+  "progression": "towers, cash, unlocks",
+  "instructions": "deploy air/land/sea towers",
+  "mechanics": [
+   "tower defense",
+   "co-op",
+   "strike supports",
+   "bosses"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Large TD with military airstrike support"
+  ],
+  "themes": [
+   "military",
+   "tower"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower-defense"
+  ],
+  "monetization_signals": [
+   "speed control 600",
+   "nuke 1000 R$",
+   "supports",
+   "298+ products"
+  ],
+  "update_signals": [
+   "TDX beta updates"
+  ],
+  "thumbnails": "military/mech towers and bosses",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "deep TD systems, many towers",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q34",
+  "loop": "train combat -> earn cursed techniques via trials -> contain curses -> climb grades; hardcore death",
+  "loop_archetype": "combat_pvp",
+  "objectives": "climb sorcerer grades",
+  "progression": "grades, techniques, clan, race",
+  "instructions": "fight, parry, M1/M2, trials",
+  "mechanics": [
+   "JJK",
+   "clan rerolls",
+   "parry",
+   "hardcore death",
+   "tube simulation"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "JJK-inspired fight game set 1000 years later with hardcore penalty"
+  ],
+  "themes": [
+   "JJK",
+   "Shibuya",
+   "jujutsu"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jjk-game"
+  ],
+  "monetization_signals": [
+   "race/clan rerolls up to 4500 R$",
+   "custom clothing"
+  ],
+  "update_signals": [
+   "next code at 20K likes"
+  ],
+  "thumbnails": "anime Sukuna-esque art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "complex combat system, techniques, vfx",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q35",
+  "loop": "roll grimoire and clan -> level via quests/dungeons -> broom flight -> PvP bounties -> trade",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest mage",
+  "progression": "grimoire, clan, bloodline, gear",
+  "instructions": "roll, hunt beasts, raid dungeons, duel",
+  "mechanics": [
+   "Black Clover",
+   "rng rolls",
+   "clans",
+   "dungeons",
+   "trading"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Black Clover anime RPG"
+  ],
+  "themes": [
+   "Black Clover",
+   "magic",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime-rpg-rolls"
+  ],
+  "monetization_signals": [
+   "EXP/money boosters",
+   "clan vault",
+   "89 products",
+   "codes giving spins"
+  ],
+  "update_signals": [
+   "Spirit Drive update, codes"
+  ],
+  "thumbnails": "anime magic characters with logo, NEW tags",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "RPG systems, gear forging",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q36",
+  "loop": "drive vehicles on Yonge St map -> do jobs -> earn money -> customise/tow trailers -> race, drift",
+  "loop_archetype": "racing_driving",
+  "objectives": "drive, work, customise",
+  "progression": "cash, rank, vehicles",
+  "instructions": "drive, F start, shift gears, codes",
+  "mechanics": [
+   "driving RP",
+   "jobs",
+   "trailers",
+   "air suspension",
+   "codes"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "real-street Toronto replica"
+  ],
+  "themes": [
+   "Ontario",
+   "Toronto",
+   "cars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cruising-sim",
+   "city-replica"
+  ],
+  "monetization_signals": [
+   "VIP 999",
+   "cash packs to 9999 R$",
+   "2x gamepasses",
+   "181 products"
+  ],
+  "update_signals": [
+   "next code at 160K likes"
+  ],
+  "thumbnails": "cars on streets, 4 HOURS timer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "large map, many vehicles",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "cultivate qi and body -> break through realms -> fly sword -> sect -> world boss",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "rise Mortal to Immortal",
+  "progression": "realms, silver, stones, sect",
+  "instructions": "cultivate, offline cultivate, fight",
+  "mechanics": [
+   "cultivation",
+   "xianxia",
+   "offline growth",
+   "world boss",
+   "sect"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "wuxia cultivation RPG with offline progress"
+  ],
+  "themes": [
+   "cultivation",
+   "wuxia",
+   "murim",
+   "sects"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cultivation-game"
+  ],
+  "monetization_signals": [
+   "all gamepasses 999",
+   "stones packs",
+   "auto passes",
+   "73 products"
+  ],
+  "update_signals": [
+   "Spirit Beasts update, codes"
+  ],
+  "thumbnails": "glowing cultivation characters, 24H timer",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "RPG with systems, big map",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q38",
+  "loop": "tap +1 water -> drain lake -> grab treasures -> sell -> upgrade pumps",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "collect every treasure",
+  "progression": "pumps, backpack, speed, luck, worlds",
+  "instructions": "tap, stand on lake to drain, sell",
+  "mechanics": [
+   "+1 incremental",
+   "pump passes",
+   "worlds",
+   "treasure index"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "+1 template with water draining and 50 pump gamepasses"
+  ],
+  "themes": [
+   "water",
+   "lakes",
+   "treasure"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one",
+   "incremental"
+  ],
+  "monetization_signals": [
+   "50 gamepasses up to 1999 R$",
+   "300+ products",
+   "eggs"
+  ],
+  "update_signals": [
+   "W5 world update, codes"
+  ],
+  "thumbnails": "vacuum draining lakes, +1B numbers, 999M water",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 2,
+  "complexity_notes": "incremental template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q39",
+  "loop": "create character -> build home -> job, cook, garden -> raise babies -> shop",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live life, raise babies",
+  "progression": "cash, home, babies",
+  "instructions": "shop, cook, build, adopt baby",
+  "mechanics": [
+   "life sim",
+   "baby raising",
+   "building",
+   "cooking",
+   "fishing"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "baby-raising life RP in cozy town"
+  ],
+  "themes": [
+   "babies",
+   "grocery",
+   "life",
+   "suburb"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "life-sim",
+   "baby-rp"
+  ],
+  "monetization_signals": [
+   "gamepasses 99-299",
+   "cash",
+   "donation products"
+  ],
+  "update_signals": [
+   "grocery update, beta"
+  ],
+  "thumbnails": "cute babies, kitchen, character creator UI",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "building tool, babies, many systems",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q40",
+  "loop": "gain +1 power -> fight waves -> grow seeds for fruits -> rebirth -> 5 worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "conquer worlds with fruits",
+  "progression": "power, fruits, worlds, rebirths",
+  "instructions": "train, fight, roll fruits",
+  "mechanics": [
+   "One Piece fruits",
+   "+1 power",
+   "greenhouse",
+   "raid bosses",
+   "haki"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "+1 template merged with One Piece fruits"
+  ],
+  "themes": [
+   "One Piece",
+   "fruits",
+   "pirates"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one",
+   "blox-fruits-like"
+  ],
+  "monetization_signals": [
+   "34 gamepasses up to 2499 R$",
+   "239 products",
+   "trainers"
+  ],
+  "update_signals": [
+   "new worlds"
+  ],
+  "thumbnails": "LV.1 to LV.100, +1s, fruits, 24HR timer",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "combat + incremental systems",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "play billiards with abilities -> win ranked -> roll cues and abilities",
+  "loop_archetype": "sports_competitive",
+  "objectives": "climb ranks, collect cues",
+  "progression": "rank, cues, abilities",
+  "instructions": "pool with crazy abilities, 8/9 ball",
+  "mechanics": [
+   "pool",
+   "abilities",
+   "lucky blocks",
+   "ranked 1v1",
+   "cues"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "billiards plus lucky-block abilities"
+  ],
+  "themes": [
+   "pool",
+   "8 ball",
+   "cursed energy season"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ability-pool"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "VIP",
+   "lucky blocks",
+   "58 products"
+  ],
+  "update_signals": [
+   "Season 1 until Dec 12"
+  ],
+  "thumbnails": "glowing 8 ball, tables with abilities",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "physics pool, abilities",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q42",
+  "loop": "loot building while monster hunts -> hide -> escape -> or play monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal loot and survive",
+  "progression": "cash, entities, cases",
+  "instructions": "loot, hide, VR support",
+  "mechanics": [
+   "steal-the-loot",
+   "asymmetric entity",
+   "VR",
+   "cases"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "steal-a-x meets monster horror, solo dev"
+  ],
+  "themes": [
+   "monster",
+   "loot",
+   "entities"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal-or-die"
+  ],
+  "monetization_signals": [
+   "cash packs to 5999 R$",
+   "cases",
+   "2x entity chance",
+   "88 products"
+  ],
+  "update_signals": [
+   "v2.2 new entity"
+  ],
+  "thumbnails": "dark creepy entity close-ups",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "solo-dev horror with AI monsters",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q43",
+  "loop": "fight as hero/villain in battlegrounds -> ultimates -> ranked",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become #1 hero or villain",
+  "progression": "rank, characters",
+  "instructions": "M1, block, dash, ultimate",
+  "mechanics": [
+   "anime battlegrounds",
+   "ranked",
+   "bosses",
+   "ultimates"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "long-running anime hero battlegrounds"
+  ],
+  "themes": [
+   "MHA",
+   "heroes",
+   "villains"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime-battlegrounds"
+  ],
+  "monetization_signals": [
+   "VIP 799",
+   "emotes",
+   "102 products"
+  ],
+  "update_signals": [
+   "ranked rework update"
+  ],
+  "thumbnails": "fiery anime character art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "combat system, many characters",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q44",
+  "loop": "hunt mutant bears or become one -> explore snowy world -> collect items",
+  "loop_archetype": "horror_escape",
+  "objectives": "hunt Medveds or hunt players",
+  "progression": "money, items",
+  "instructions": "explore, hunt, become bear",
+  "mechanics": [
+   "bear mutations",
+   "PvP hunt",
+   "exploration",
+   "story"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "become the monster inverted hunt"
+  ],
+  "themes": [
+   "bears",
+   "snow",
+   "mutants"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "become-monster"
+  ],
+  "monetization_signals": [
+   "money packs",
+   "x2 cash"
+  ],
+  "update_signals": [
+   "updates"
+  ],
+  "thumbnails": "creepy bear faces red",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 3,
+  "complexity_notes": "large map, monsters",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q45",
+  "loop": "roleplay in Dubai -> homes, family, pets, cars -> explore",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build life, adopt pets, drive",
+  "progression": "homes, cars, pets",
+  "instructions": "build, decorate, roleplay",
+  "mechanics": [
+   "family RP",
+   "pets",
+   "cars",
+   "travel",
+   "home building"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Brookhaven-like Dubai setting with new pets"
+  ],
+  "themes": [
+   "Dubai",
+   "family",
+   "pets",
+   "London"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "family-rp"
+  ],
+  "monetization_signals": [
+   "VIP 549",
+   "car bundles",
+   "200 products",
+   "pet products"
+  ],
+  "update_signals": [
+   "Pets update"
+  ],
+  "thumbnails": "family with pets in shop, baby in car",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video",
+  "complexity": 4,
+  "complexity_notes": "large map, many items",
+  "novelty": 0,
+  "confidence": 80
+ }
+]
