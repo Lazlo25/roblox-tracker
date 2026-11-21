@@ -1,0 +1,750 @@
+[
+ {
+  "label": "Q16",
+  "loop": "pick up colourful plastic balls in themed maps with tools -> sell for cash -> unlock better tools and next maps -> rare objects and stories",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "clean every map and find rare objects",
+  "progression": "cash, tool tiers, new maps, rare balls, 38 badges",
+  "instructions": "clean with friends, collect rares, speedrun",
+  "mechanics": [
+   "cleaning/collecting",
+   "tool upgrades",
+   "themed maps released daily",
+   "rare ball luck",
+   "stories"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "satisfying ball-pit vacuuming, a new map every 1-3 days"
+  ],
+  "themes": [
+   "ball pit",
+   "cleaning",
+   "satisfying",
+   "maps"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying-cleaning sim",
+   "daily map drops"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "auto-sell",
+   "rare ball luck boosts",
+   "map unlocks"
+  ],
+  "update_signals": [
+   "new map every few days",
+   "updated today"
+  ],
+  "thumbnails": "mountains of coloured balls, vacuum tools, NOW update tag",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "first-person tool, many balls physics, several maps",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q17",
+  "loop": "play mini-games live to gain viewers -> earn donations even offline -> hatch egg pets -> upgrade mic/camera/PC, unlock houses and cars -> world events every 20 min",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "become the biggest streamer on Roblox",
+  "progression": "viewers, money, pets, gear, houses, cars, leaderboards",
+  "instructions": "go live, play 15 games, hatch eggs, spin wheel",
+  "mechanics": [
+   "streaming sim",
+   "15 minigames",
+   "egg hatching",
+   "offline income",
+   "multipliers",
+   "leaderboards",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "streamer fantasy combined with hatch pets and minigames"
+  ],
+  "themes": [
+   "streamer",
+   "viewers",
+   "youtube",
+   "cars",
+   "eggs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "streamer sim",
+   "egg hatching"
+  ],
+  "monetization_signals": [
+   "32x money/luck/viewers passes",
+   "continues",
+   "instant unlocks",
+   "VIP"
+  ],
+  "update_signals": [
+   "UPDATE 3",
+   "car race event",
+   "limited MechaCars"
+  ],
+  "thumbnails": "streamer shouting with 99,999,999 viewers, 0 vs 99M viewers contrast",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "15 minigames, houses, cars, pets, events, 100+ pets",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "spawn weapons, vehicles and toys in a ragdoll sandbox -> destroy NPCs and buildings -> earn kills to unlock items and ranks",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "destroy everything and unlock more toys",
+  "progression": "kills, item unlocks, ranks",
+  "instructions": "spawn anything, drive, destroy",
+  "mechanics": [
+   "ragdoll physics",
+   "spawn menu 100+ items",
+   "vehicles",
+   "breakable maps",
+   "sandbox tools (welds, ropes, C4)",
+   "kill unlocks"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "huge spawnable toy list with freeze ray and black hole"
+  ],
+  "themes": [
+   "ragdoll",
+   "sandbox",
+   "tanks",
+   "explosions"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll sandbox",
+   "Kraken update"
+  ],
+  "monetization_signals": [
+   "Everything 799 pass",
+   "vehicle packs",
+   "kill packs",
+   "weapon products",
+   "starter pack"
+  ],
+  "update_signals": [
+   "KRAKEN update",
+   "updated today"
+  ],
+  "thumbnails": "white ragdoll mannequin with RPG, tank, black hole, RAGDOLL CHAOS text",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "physics engine, 100+ items, breakable maps, vehicles",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q19",
+  "loop": "knock on hotel doors and run -> get paid -> avoid/hide from guests -> buy knock styles and multipliers",
+  "loop_archetype": "combat_pvp",
+  "objectives": "ding-dong-ditch for money and escape the guests",
+  "progression": "money, knocks, knock styles, playtime titles",
+  "instructions": "knock, run, hide, escape",
+  "mechanics": [
+   "ding-dong-ditch",
+   "hide in closets",
+   "stamina",
+   "knock styles",
+   "playtime leaderboard",
+   "event"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "doorbell-ditch prank loop as a game"
+  ],
+  "themes": [
+   "hotel",
+   "pranks",
+   "thanksgiving",
+   "turkey"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "prank-escape",
+   "seasonal event"
+  ],
+  "monetization_signals": [
+   "knock styles passes 199-499",
+   "2x knocks/money",
+   "revive",
+   "room tiers 399-1499"
+  ],
+  "update_signals": [
+   "Thanksgiving update",
+   "turkey event",
+   "daily gifts"
+  ],
+  "thumbnails": "dark hotel corridor chase, KICK THE DOOR DOWN, HIDE with breath bar",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "hotel map, chase AI, many knock animations",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q20",
+  "loop": "train strength -> throw harpoon farther into mud -> pull out rarer dinos -> bring home to earn cash -> luck, biomes, clans",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "pull the rarest and biggest dinos",
+  "progression": "strength, throw distance, dino rarity, biomes, clan rank",
+  "instructions": "throw harpoon, train, join clan, hatch eggs, daily tasks",
+  "mechanics": [
+   "distance throw",
+   "strength training",
+   "dino rarity odds",
+   "eggs",
+   "clans",
+   "limited exotics",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "tug-of-war pulling creatures from mud, big 1 in X odds"
+  ],
+  "themes": [
+   "dinosaurs",
+   "mud",
+   "dragons",
+   "mythology"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pull-a-x",
+   "distance-luck",
+   "brainrot-style hatch"
+  ],
+  "monetization_signals": [
+   "training multipliers up to 32x",
+   "luck throws",
+   "auto train",
+   "trails",
+   "HACKER pass 999",
+   "gift passes"
+  ],
+  "update_signals": [
+   "World Tree update",
+   "28.11 teaser",
+   "code MEGAEVENT"
+  ],
+  "thumbnails": "1 IN 100B rainbow dino, 1000m distance with odds and $/s labels",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "10 biomes, 100+ dino models, clans, events",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q21",
+  "loop": "buy engines -> accelerate to max RPM and dyno test -> earn money -> upgrade and unlock better engines (overheat/blowup)",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "build the strongest engine",
+  "progression": "money, engine tiers, horsepower",
+  "instructions": "buy, upgrade, rev, dyno",
+  "mechanics": [
+   "engine sim",
+   "RPM throttle",
+   "dyno",
+   "overheating",
+   "upgrades"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "engine tuning/dyno as an incremental"
+  ],
+  "themes": [
+   "engines",
+   "cars",
+   "horsepower"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "engine sim"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "2x profit",
+   "auto throttle",
+   "engine products"
+  ],
+  "update_signals": [
+   "new update with 2 engines"
+  ],
+  "thumbnails": "detailed engine renders, BUILD A 3,000+ HP ENGINE",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "engine models, sounds, simple UI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q22",
+  "loop": "squeeze/charge potatoes to power a dead phone -> earn cash and electricity -> upgrade -> classes and boss fights",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "charge your phone to 100%",
+  "progression": "cash, electricity, classes, upgrades, leaderboards",
+  "instructions": "charge phone with potatoes",
+  "mechanics": [
+   "clicker charging",
+   "classes",
+   "boss fight",
+   "daily/weekly leaderboards",
+   "upgrades"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "absurd potato-battery premise, first-person hands"
+  ],
+  "themes": [
+   "potatoes",
+   "phone",
+   "battery",
+   "humour"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "absurd-premise incremental"
+  ],
+  "monetization_signals": [
+   "2x cash/electricity",
+   "auto squeeze",
+   "donations"
+  ],
+  "update_signals": [
+   "update 3.0 classes"
+  ],
+  "thumbnails": "first-person hands holding potato wired to 0% phone, E CHARGE prompt",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "first-person hands, simple lobby, classes",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q23",
+  "loop": "click for +1 strength -> defeat enemies to open worlds -> hatch pets, roll titles -> rebirth and unlock heroes",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the greatest Avenger",
+  "progression": "strength, wins, heroes, pets, titles, rebirth",
+  "instructions": "click +1, defeat enemies, hatch, rebirth, code 1000LIKES",
+  "mechanics": [
+   "+1 clicking",
+   "hero unlocks",
+   "pet hatching",
+   "title rolls",
+   "rebirth",
+   "worlds"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Marvel-themed +1 evolution template"
+  ],
+  "themes": [
+   "avengers",
+   "superheroes",
+   "marvel",
+   "doctor doom"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution clone",
+   "IP-themed"
+  ],
+  "monetization_signals": [
+   "many egg products (cosmic/infinity)",
+   "limited heroes",
+   "speed"
+  ],
+  "update_signals": [
+   "UPD tag"
+  ],
+  "thumbnails": "Doctor Doom with green power effects, +1 pop-ups",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "1 video, not seen",
+  "complexity": 2,
+  "complexity_notes": "template +1 game, hero models",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "drift real-licensed-style cars on 11 maps -> earn cash and XP from linked drifts -> buy and tune cars, body kits -> judged runs, teams",
+  "loop_archetype": "racing_driving",
+  "objectives": "link long drifts and build the best car",
+  "progression": "cash, XP, 80+ cars, tuning, leaderboards",
+  "instructions": "hold 2-step, kick clutch, link drifts; use codes",
+  "mechanics": [
+   "drifting",
+   "car tuning",
+   "body kits and wraps",
+   "judged runs",
+   "track lap mode",
+   "drift teams",
+   "real circuits"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "real tracks (Nurburgring, Wangan) and detailed tuning"
+  ],
+  "themes": [
+   "drift",
+   "cars",
+   "JDM",
+   "tuning"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "drift game"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "2x cash/XP",
+   "air suspension",
+   "cosmetics",
+   "body kits (169 products)"
+  ],
+  "update_signals": [
+   "updated today",
+   "Thanksgiving code"
+  ],
+  "thumbnails": "cars drifting with smoke, pink Lamborghini, cockpit view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "80+ cars, 11 maps, tuning system, physics",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "roleplay a life in an open city -> own houses, drive cars, play with friends -> seasonal events",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live out your roleplay story",
+  "progression": "owned houses, vehicles, props",
+  "instructions": "roleplay, own houses, drive, explore",
+  "mechanics": [
+   "roleplay",
+   "houses",
+   "vehicles",
+   "pets",
+   "private servers",
+   "seasonal events",
+   "LEGO collaboration"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "decade-long dominant roleplay hub"
+  ],
+  "themes": [
+   "roleplay",
+   "city",
+   "houses",
+   "LEGO"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "roleplay",
+   "brand collab"
+  ],
+  "monetization_signals": [
+   "many gift products",
+   "VIP",
+   "vehicles",
+   "land",
+   "premium"
+  ],
+  "update_signals": [
+   "LEGO construction event week 2",
+   "updated 20 Nov"
+  ],
+  "thumbnails": "open window onto house, LEGO bulldozer, police bike",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "massive map, many systems and collabs, years of content",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q26",
+  "loop": "step on duel pad -> 1v1 to 5v5 first-person duels first to 5 -> earn keys for weapons/skins -> contracts and leaderboards",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels and climb leaderboards",
+  "progression": "win streaks, keys, skins, ranking, contracts",
+  "instructions": "challenge, earn keys, contracts",
+  "mechanics": [
+   "FPS duels",
+   "weapons and skins",
+   "contracts",
+   "seasons",
+   "anticheat",
+   "cross-platform"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "dueling-focused FPS with Roblox awards"
+  ],
+  "themes": [
+   "FPS",
+   "duels",
+   "competitive"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "competitive FPS"
+  ],
+  "monetization_signals": [
+   "bundles up to 1425",
+   "daily skins",
+   "gifts",
+   "keys"
+  ],
+  "update_signals": [
+   "Season 4",
+   "updated today"
+  ],
+  "thumbnails": "red characters, energy shield dome, minigun",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "professional FPS, netcode, anticheat, huge item pool",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q27",
+  "loop": "adopt and raise pets and babies -> trade and collect -> build and decorate homes -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect legendary pets and build a dream home",
+  "progression": "pets, bucks, homes, trading",
+  "instructions": "adopt, raise, trade, build, roleplay",
+  "mechanics": [
+   "pet care",
+   "trading",
+   "home building",
+   "events",
+   "pet paint"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "flagship pet-trading roleplay economy"
+  ],
+  "themes": [
+   "pets",
+   "family",
+   "home",
+   "trading"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "pet roleplay"
+  ],
+  "monetization_signals": [
+   "bucks packs",
+   "millionaire pack",
+   "gifts",
+   "premium plots"
+  ],
+  "update_signals": [
+   "2X event",
+   "QoL update 21 Nov"
+  ],
+  "thumbnails": "cartoon pets with ADOPT ME! logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "huge world, trading economy, years of content",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q28",
+  "loop": "team up in rounds to complete machines -> avoid mascot monsters -> collect toons, trinkets, research -> descend floors, Labs mode",
+  "loop_archetype": "horror_escape",
+  "objectives": "complete machines and survive descending floors",
+  "progression": "toon collection, research, trinkets, floors, lore",
+  "instructions": "complete machines, survive",
+  "mechanics": [
+   "machine tasks",
+   "toon abilities",
+   "trinkets",
+   "mascot horror",
+   "sticker wheels",
+   "new game mode 11 floors"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "cute-toon mascot horror with collectible characters"
+  ],
+  "themes": [
+   "mascot horror",
+   "toons",
+   "labs"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dandy-like horror",
+   "collectible toons"
+  ],
+  "monetization_signals": [
+   "ichor currency packs",
+   "cosmetic bundles",
+   "profile bundles"
+  ],
+  "update_signals": [
+   "version 1.0 Labs",
+   "updated today"
+  ],
+  "thumbnails": "colourful flower toon with horror monsters, logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many characters, abilities, floors, lore, 89 badges",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q29",
+  "loop": "run and parkour to evade nextbots -> survive rounds -> earn tokens/XP -> unlock cosmetics, items, and aura add-ons",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the nextbots as long as possible",
+  "progression": "tokens, XP, cosmetics, battlepass, missions",
+  "instructions": "survive, use movement, collect events items",
+  "mechanics": [
+   "movement parkour",
+   "nextbot chase",
+   "revive",
+   "battlepass",
+   "weekly missions",
+   "deployables",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "movement-based nextbot survival"
+  ],
+  "themes": [
+   "nextbots",
+   "halloween",
+   "parkour"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbot",
+   "parkour survival"
+  ],
+  "monetization_signals": [
+   "token packs",
+   "aura add-ons 600-1200",
+   "cosmetic sets",
+   "respawns",
+   "donations"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "codebase rewrite",
+   "updated today"
+  ],
+  "thumbnails": "dark red nextbot scenes, green slime theme art, logo",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "advanced movement, many maps, nextbot AI, cosmetics pipeline",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q30",
+  "loop": "drive licensed-style cars in open world -> earn cash via jobs and races -> buy and customise cars -> community meets",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect and customise the best cars",
+  "progression": "cash, cars, customisation, limited cars",
+  "instructions": "drive, race, deliver, attend meets",
+  "mechanics": [
+   "open-world driving",
+   "300+ vehicles",
+   "deliveries",
+   "customisation",
+   "community events",
+   "limited releases",
+   "trucks/boats"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "licensed Lamborghini/McLaren/Porsche cars"
+  ],
+  "themes": [
+   "cars",
+   "trucks",
+   "racing",
+   "roleplay"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "driving sim"
+  ],
+  "monetization_signals": [
+   "cash products 20-2450",
+   "luxury pass",
+   "limited cars",
+   "track pass"
+  ],
+  "update_signals": [
+   "new limited 20 Nov",
+   "settings redesign"
+  ],
+  "thumbnails": "showcase of cars with logo, truck and trailer",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "300+ cars, big world, licensed content, years of updates",
+  "novelty": 0,
+  "confidence": 90
+ }
+]

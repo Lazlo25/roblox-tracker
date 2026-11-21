@@ -1,0 +1,725 @@
+[
+ {
+  "label": "Q46",
+  "loop": "slap players with unique gloves -> earn slaps -> unlock new gloves and abilities -> chaotic arena fights",
+  "loop_archetype": "combat_pvp",
+  "objectives": "slap everyone and unlock all gloves",
+  "progression": "slaps, glove unlocks, 174 badges",
+  "instructions": "slap people, use E ability, shift lock",
+  "mechanics": [
+   "glove abilities",
+   "battlegrounds",
+   "bosses",
+   "killstreaks",
+   "seasonal updates"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "huge variety of glove abilities"
+  ],
+  "themes": [
+   "slap",
+   "gloves",
+   "chaos"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "slap battlegrounds"
+  ],
+  "monetization_signals": [
+   "slap packs",
+   "custom glove",
+   "boss revive",
+   "ultra instinct pass"
+  ],
+  "update_signals": [
+   "UPDATE tag"
+  ],
+  "thumbnails": "cartoon slap scenes, bosses",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many gloves with unique abilities and maps over 5 years",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q47",
+  "loop": "shoot for +1 damage -> rebirth for +1 arrow per shot -> forge loot into bows -> fight hordes, climb Spire, roll Kin",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "grow damage and forge the best bow",
+  "progression": "damage, arrows per shot, bows, kins, worlds",
+  "instructions": "shoot, rebirth, forge, climb spire, code MUTATIONS",
+  "mechanics": [
+   "+1 clicking",
+   "bow forging",
+   "rebirth",
+   "spire climbing",
+   "kin rolls",
+   "offline earnings"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "+1 template mixed with forge/bow loop"
+  ],
+  "themes": [
+   "bows",
+   "archery",
+   "forge",
+   "monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution",
+   "forge"
+  ],
+  "monetization_signals": [
+   "damage multipliers",
+   "range products",
+   "kin slots",
+   "skip forge animation"
+  ],
+  "update_signals": [
+   "W2 update NOW",
+   "codes"
+  ],
+  "thumbnails": "big +1T numbers, forging hammer, golden bow",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video, not seen",
+  "complexity": 2,
+  "complexity_notes": "template +1 with forge UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q48",
+  "loop": "steal and open anime packs -> unlock units that earn cash -> explore zones, train speed -> mutations, grades, dungeons",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "build a collection of rare units and earn cash",
+  "progression": "units, mutations, grades, zones, luck",
+  "instructions": "steal packs, open, explore zones, train",
+  "mechanics": [
+   "stealing",
+   "pack opening",
+   "offline earnings",
+   "mutations",
+   "grades",
+   "dungeons",
+   "speed training"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "steal-a-brainrot loop with anime pack rolls"
+  ],
+  "themes": [
+   "anime",
+   "packs",
+   "units",
+   "steal"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "server luck boosts up to x64",
+   "skip pack products",
+   "grow all"
+  ],
+  "update_signals": [
+   "NOW update tag",
+   "codes at 50K likes"
+  ],
+  "thumbnails": "1 in 998,949,999,435 odds, ???/s, anime characters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "1 video, not seen",
+  "complexity": 2,
+  "complexity_notes": "steal base template with packs, anime art",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q49",
+  "loop": "click +1 cursed energy -> eat 13 fingers to become Sukuna -> fight 15 stages of bosses -> hatch shikigami, equip flames, rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become King of Curses",
+  "progression": "cursed energy, fingers, wins, flames, rebirth, worlds",
+  "instructions": "click, eat fingers, fight stages, codes",
+  "mechanics": [
+   "+1 clicking",
+   "transformation stages",
+   "boss stages",
+   "pet hatching",
+   "flames",
+   "rebirth",
+   "worlds (One Piece W4)"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "multi-IP worlds in one +1 game (Jujutsu, Ninja, One Piece)"
+  ],
+  "themes": [
+   "sukuna",
+   "jujutsu kaisen",
+   "anime",
+   "one piece"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution",
+   "anime IP"
+  ],
+  "monetization_signals": [
+   "50 passes up to 4999",
+   "cursed eggs",
+   "tokens",
+   "flame products"
+  ],
+  "update_signals": [
+   "World 4 One Piece",
+   "NOW update tag"
+  ],
+  "thumbnails": "Sukuna avatar with +1 text, Gojo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 game with many assets, worlds",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q50",
+  "loop": "tame and breed horses -> build stable and home -> explore 3 maps, compete in races -> discover mutations",
+  "loop_archetype": "simulation_job",
+  "objectives": "build the ultimate stable and breed rare horses",
+  "progression": "horses, mutations, home, bundles",
+  "instructions": "ride, tame, breed, compete",
+  "mechanics": [
+   "horse care",
+   "breeding",
+   "mutations",
+   "home system",
+   "races",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "horse breeding with genetics and mutations"
+  ],
+  "themes": [
+   "horses",
+   "unicorn",
+   "breeding",
+   "alien event"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pet roleplay",
+   "breeding sim"
+  ],
+  "monetization_signals": [
+   "bundles up to 1299",
+   "slots",
+   "potions",
+   "daily streak restore"
+  ],
+  "update_signals": [
+   "Terraling release",
+   "alien event returns"
+  ],
+  "thumbnails": "horse images, Day 1 vs Day 100 growth, Make your dream horse",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "detailed animal models, breeding, 3 maps",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q51",
+  "loop": "stock shelves and ring up customers -> sell cards, open packs -> collect 8000 cards, grade and trade -> expand and decorate shop",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the best card shop and collection",
+  "progression": "cash, cards, shop size, staff",
+  "instructions": "run shop, code 4million, code BETA",
+  "mechanics": [
+   "shop management",
+   "pack opening",
+   "card grading",
+   "trading",
+   "staff",
+   "building"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "card shop management simulator"
+  ],
+  "themes": [
+   "trading cards",
+   "shop",
+   "anime",
+   "sports"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "card collecting",
+   "shop sim"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "staff slots",
+   "quick opening",
+   "double offline"
+  ],
+  "update_signals": [
+   "BETA",
+   "4 million visits code"
+  ],
+  "thumbnails": "cards and packs, characters with shop scenes",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "shop building, 8000 cards, trading",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q52",
+  "loop": "blow gum to grow and fly to islands -> hatch pets, build teams -> events, fishing, enchants",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect secret pets and reach new islands",
+  "progression": "currency, pets, secrets, areas",
+  "instructions": "blow gum, hatch, explore",
+  "mechanics": [
+   "gum blowing",
+   "egg hatching",
+   "pet teams",
+   "enchants",
+   "fishing",
+   "seasonal events",
+   "season pass"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "weekly Friday updates and seasonal eggs"
+  ],
+  "themes": [
+   "bubble gum",
+   "pets",
+   "thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "bubble gum simulator",
+   "hatch pets"
+  ],
+  "monetization_signals": [
+   "50% off sales",
+   "luck/currency passes",
+   "spin tickets",
+   "season pass"
+  ],
+  "update_signals": [
+   "Thanksgiving event",
+   "updates every Friday 2PM EST"
+  ],
+  "thumbnails": "pets in bubbles +1M +1T, witch hat theme",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "huge content, events, many systems",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q53",
+  "loop": "roll grimoires and magic -> fight enemies and bosses in open world -> party up, level mastery",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become a legendary mage",
+  "progression": "exp, yen, mastery, grimoire slots",
+  "instructions": "explore, fight, group (Portuguese description)",
+  "mechanics": [
+   "grimoire magic",
+   "open world",
+   "party system",
+   "battle pass",
+   "spins"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Portuguese-language Black Clover-style RPG"
+  ],
+  "themes": [
+   "grimoire",
+   "magic",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Black Clover-like"
+  ],
+  "monetization_signals": [
+   "boosters",
+   "slots 699-899",
+   "battlepass",
+   "instant spin"
+  ],
+  "update_signals": [
+   "1 HOUR update tag"
+  ],
+  "thumbnails": "anime mage with fire, 1H update",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "open world RPG with magic systems",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q54",
+  "loop": "find hidden morphs across 10 worlds -> use their abilities in puzzles, parkour, PvP -> fight 5 bosses -> collect all 530+",
+  "loop_archetype": "story_adventure",
+  "objectives": "collect all morphs",
+  "progression": "morphs found, keys, coins",
+  "instructions": "find morphs, puzzles, quests",
+  "mechanics": [
+   "scavenger hunt",
+   "morphs with abilities",
+   "bosses",
+   "parkour",
+   "puzzles",
+   "10 worlds"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "530+ hidden morph collectibles"
+  ],
+  "themes": [
+   "morphs",
+   "monsters",
+   "scavenger hunt"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "morph hunt"
+  ],
+  "monetization_signals": [
+   "keys",
+   "coins",
+   "tanks",
+   "update timers"
+  ],
+  "update_signals": [
+   "new update in 1-2 hours"
+  ],
+  "thumbnails": "cartoon morph monsters, skeleton dog",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "530 morph models, 10 worlds",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q55",
+  "loop": "roll clans and cursed techniques -> fight cursed spirits and sorcerers -> collect items and gear -> level up",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become a top sorcerer",
+  "progression": "clans, techniques, yen, gear score",
+  "instructions": "explore, defeat spirits, QoL beta updates",
+  "mechanics": [
+   "clan rolls",
+   "cursed techniques",
+   "item collection nodes",
+   "gear score",
+   "ranked",
+   "beta"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Jujutsu Kaisen RPG with pity system"
+  ],
+  "themes": [
+   "jujutsu kaisen",
+   "curses",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jujutsu rpg"
+  ],
+  "monetization_signals": [
+   "pity booster 1499",
+   "special grade notifier",
+   "luck",
+   "yen packs"
+  ],
+  "update_signals": [
+   "BETA QoL update"
+  ],
+  "thumbnails": "anime sorcerers with purple/red energy",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large RPG with combat, gear, rolls",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q56",
+  "loop": "spawn anime-themed ragdolls and use powers (time stop, six eyes) -> blast them in sandbox -> unlock via codes/products",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with anime powers on ragdolls",
+  "progression": "powers, codes, passes",
+  "instructions": "redeem codes",
+  "mechanics": [
+   "ragdoll physics",
+   "anime powers",
+   "sandbox",
+   "dummy brawl"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "anime-power ragdoll sandbox"
+  ],
+  "themes": [
+   "anime",
+   "ragdoll",
+   "naruto",
+   "jjk"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll engine",
+   "anime"
+  ],
+  "monetization_signals": [
+   "power products 99",
+   "VIP",
+   "sandbox",
+   "no cooldowns"
+  ],
+  "update_signals": [
+   "early phase",
+   "codes at likes milestones"
+  ],
+  "thumbnails": "anime ragdoll logo, concussed, SIX EYES",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "physics sandbox with powers",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q57",
+  "loop": "summon a Stand -> travel Egypt/Wild West surviving -> loot, boss fights -> reach DIO",
+  "loop_archetype": "story_adventure",
+  "objectives": "reach DIO",
+  "progression": "stands, loot, mastery, clans",
+  "instructions": "summon stand, fight bosses",
+  "mechanics": [
+   "stand summoning",
+   "survival adventure",
+   "bosses",
+   "loot",
+   "merchant",
+   "clan rolls",
+   "seasonal pass"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "JoJo Stardust Crusaders-style journey"
+  ],
+  "themes": [
+   "jojo",
+   "dio",
+   "desert",
+   "stands"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jojo-like",
+   "stand game"
+  ],
+  "monetization_signals": [
+   "permanent 2x boosts",
+   "stand storage",
+   "winter pass",
+   "spins"
+  ],
+  "update_signals": [
+   "winter season pass",
+   "10k like code"
+  ],
+  "thumbnails": "stand characters vs DIO in colorful anime art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "stands, bosses, large areas",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q58",
+  "loop": "fight dungeons as warrior or mage -> complete quests -> craft limited weapons -> endless dungeons",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "clear endless dungeons and craft weapons",
+  "progression": "coins, gems, weapons, aura",
+  "instructions": "fight bosses, quests with Sage Orlin",
+  "mechanics": [
+   "dungeons",
+   "classes (warrior, mage)",
+   "crafting",
+   "aura",
+   "console support"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "warrior/mage combat with auras"
+  ],
+  "themes": [
+   "dungeons",
+   "fantasy",
+   "magic",
+   "bosses"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dungeon crawler"
+  ],
+  "monetization_signals": [
+   "damage/coin passes",
+   "coin packs",
+   "limited weapon products"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "dark fantasy art with light effects, mage with staff",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "combat system, dungeons",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q59",
+  "loop": "drive off-road ATVs/UTVs through trails -> customise and tune vehicles -> explore, freecam screenshots",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore trails and build your ride",
+  "progression": "vehicles, parts, money from jobs",
+  "instructions": "explore trails, customise",
+  "mechanics": [
+   "off-road driving",
+   "vehicle tuning",
+   "freecam",
+   "jobs",
+   "trails"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic forest trails with chassis tuning"
+  ],
+  "themes": [
+   "atv",
+   "off-road",
+   "trails",
+   "mud"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "off-road driving"
+  ],
+  "monetization_signals": [
+   "money packs 80-5200",
+   "vehicle passes",
+   "job payout multipliers"
+  ],
+  "update_signals": [
+   "V9.0 Turbo S update"
+  ],
+  "thumbnails": "realistic ATVs on forest trails and waterfalls",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "realistic map, vehicles, tuning",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q60",
+  "loop": "drive on Riyadh-inspired map -> earn riyals -> buy cars and customise",
+  "loop_archetype": "racing_driving",
+  "objectives": "drive around and collect cars",
+  "progression": "riyals, cars, customisation",
+  "instructions": "like and follow (Arabic game)",
+  "mechanics": [
+   "open driving",
+   "Riyadh map",
+   "car purchases",
+   "customisation"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Saudi/Riyadh neighbourhood map with Arabic UI"
+  ],
+  "themes": [
+   "riyadh",
+   "saudi",
+   "cars",
+   "driving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "regional driving sim"
+  ],
+  "monetization_signals": [
+   "riyals packs up to 5000",
+   "luxury and sport packs",
+   "double money"
+  ],
+  "update_signals": [
+   "version 1.2"
+  ],
+  "thumbnails": "Land Cruiser and pickup in Riyadh-like city, parking garage",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city map, vehicles",
+  "novelty": 1,
+  "confidence": 70
+ }
+]

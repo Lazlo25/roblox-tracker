@@ -1,0 +1,738 @@
+[
+ {
+  "label": "Q31",
+  "loop": "fight with a Stand in a JoJo-inspired world -> earn exp/coins/drops -> roll arrows and apple seeds for stands -> grind quests and PvP",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest stand user",
+  "progression": "exp, stands via arrows, grades, items",
+  "instructions": "light/heavy attacks, block, dash, summon stand",
+  "mechanics": [
+   "stand summoning",
+   "action RPG combat",
+   "arrow rolls",
+   "boosters",
+   "pilot mode",
+   "private servers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "JoJo's Bizarre Adventure parody with 1 in 5B luck meme"
+  ],
+  "themes": [
+   "jojo",
+   "stands",
+   "anime",
+   "bizarre adventure"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jojo-like",
+   "stand game"
+  ],
+  "monetization_signals": [
+   "boosters",
+   "arrows",
+   "176 products",
+   "private servers 800"
+  ],
+  "update_signals": [
+   "updated today",
+   "next code at 200K likes"
+  ],
+  "thumbnails": "stylised stand characters with colourful JoJo backgrounds",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "combat system, many stands/moves, large content",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "place tower units to defend against zombies -> win to earn coins and exp -> unlock new towers and bosses",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend against hordes and bosses",
+  "progression": "coins, gems, tower unlocks, levels",
+  "instructions": "place units, team up, join group for $100",
+  "mechanics": [
+   "tower placement",
+   "co-op",
+   "bosses",
+   "tower refreshes",
+   "sandbox mode"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "long-running TD with many towers"
+  ],
+  "themes": [
+   "zombies",
+   "tower defense",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower defense"
+  ],
+  "monetization_signals": [
+   "hundreds of products",
+   "tower passes 450-7999",
+   "coins",
+   "emotes"
+  ],
+  "update_signals": [
+   "version 2.20 Militant refresh"
+  ],
+  "thumbnails": "armoured tower characters, energy dome",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "large tower roster, game engine, 8 years of content",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q33",
+  "loop": "place cameramen/speaker units to fight toilets -> beat waves/endless -> earn coins -> roll units, traits, trade",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat waves and farm rare units",
+  "progression": "coins, unit rarity, traits, difficulty modes",
+  "instructions": "step on platform, place units, beat waves",
+  "mechanics": [
+   "tower defense",
+   "unit rolls",
+   "traits",
+   "trading plaza auctions",
+   "AFK farm",
+   "clans",
+   "Astro mode"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Skibidi Toilet IP tower defense with trading"
+  ],
+  "themes": [
+   "skibidi toilet",
+   "cameraman",
+   "speakerman"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "skibidi",
+   "UTS-like TD"
+  ],
+  "monetization_signals": [
+   "luck boosts",
+   "coin boosts",
+   "exclusive crates",
+   "trait/shiny hunter"
+  ],
+  "update_signals": [
+   "UTS 3.0 / Titan Speakerman update",
+   "Astro mode"
+  ],
+  "thumbnails": "giant speaker/TV characters, Thanksgiving toilet",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large unit roster, trading, many modes",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q34",
+  "loop": "start as a young creature -> eat and drink to survive -> grow to adult and elder -> trade and store creatures, events",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow your creature to elder",
+  "progression": "creature unlocks, growth, abilities, events",
+  "instructions": "survive, hunt, socialise, trade",
+  "mechanics": [
+   "creature survival",
+   "growth stages",
+   "trading",
+   "abilities",
+   "events",
+   "remodels"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "huge roster of collectible creatures with event bundles"
+  ],
+  "themes": [
+   "creatures",
+   "kaiju",
+   "dinosaurs",
+   "fantasy animals"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creature survival"
+  ],
+  "monetization_signals": [
+   "bundle products 199-1199",
+   "event boosts",
+   "creature bundles"
+  ],
+  "update_signals": [
+   "Harvest Event week 2",
+   "new dev supporter creature"
+  ],
+  "thumbnails": "dark creature art with logo, orca, Day 1 vs Day 100 growth",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "many creature models, large world, systems, 46 badges",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q35",
+  "loop": "pick a stand -> race horses in Steel Ball Run-style race for 1st or fight in battlegrounds -> spins and rerolls for stand/horse stats",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win the race or battlegrounds",
+  "progression": "stands, horse stats, spins, cosmetics",
+  "instructions": "race, call horse, use stand",
+  "mechanics": [
+   "horse racing",
+   "stand battlegrounds",
+   "stat rerolls",
+   "spin tickets",
+   "stand cards",
+   "beta weekly content"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "JoJo Steel Ball Run racing + battlegrounds"
+  ],
+  "themes": [
+   "jojo",
+   "steel ball run",
+   "horses",
+   "stands"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "jojo-like",
+   "racing-battlegrounds"
+  ],
+  "monetization_signals": [
+   "spin tickets",
+   "rerolls",
+   "cosmetic passes",
+   "skull saddle"
+  ],
+  "update_signals": [
+   "beta weekly content",
+   "400K like code"
+  ],
+  "thumbnails": "stylised anime stand fighters and horse race in desert",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "racing plus combat, stands, horse system",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q36",
+  "loop": "sail the seas in pirate action RPG -> fight bosses, trade, find fruits -> grind mastery and levels",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "explore, level up and become a legend",
+  "progression": "levels, mastery, races, fruits, boats",
+  "instructions": "explore seas, combat, trade",
+  "mechanics": [
+   "sailing",
+   "anime-pirate combat",
+   "fruits",
+   "bosses",
+   "races",
+   "private servers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "One Piece / Blox Fruits-like"
+  ],
+  "themes": [
+   "pirates",
+   "seas",
+   "fruits",
+   "sea monsters"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "blox-fruits-like"
+  ],
+  "monetization_signals": [
+   "double XP products",
+   "fruit notifier 1000",
+   "boats",
+   "stat refund"
+  ],
+  "update_signals": [
+   "Dawn of Legends update",
+   "200K likes code"
+  ],
+  "thumbnails": "anime hero with fiery character, sea monster attacking ship",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "large open sea map, combat, bosses",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q37",
+  "loop": "choose patient or orderly -> cause or stop chaos in asylum -> earn credits by missions -> buy items and gamepass roles",
+  "loop_archetype": "roleplay_social",
+  "objectives": "cause mischief as patient or protect as orderly",
+  "progression": "credits, roles, items",
+  "instructions": "pick role, mop spills, talk to Mitch, avoid arrest",
+  "mechanics": [
+   "role-based roleplay",
+   "arrests",
+   "missions",
+   "voice chat",
+   "tactical pack"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "asylum prison roleplay with orderly vs patient"
+  ],
+  "themes": [
+   "asylum",
+   "prison",
+   "orderlies",
+   "patients"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "asylum roleplay"
+  ],
+  "monetization_signals": [
+   "credits",
+   "money boosts",
+   "role passes up to 1080",
+   "skip mission"
+  ],
+  "update_signals": [
+   "update 20 Nov tactical pack",
+   "2x EXP"
+  ],
+  "thumbnails": "asylum scenes with straitjackets, guards, voice chat bubble",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 3,
+  "complexity_notes": "map, roles, many items",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q38",
+  "loop": "drive to adoption centre -> pass interview -> adopt babies -> feed and care as they age offline -> build home and expand",
+  "loop_archetype": "roleplay_social",
+  "objectives": "raise the biggest family",
+  "progression": "children count, home, vehicles, coins",
+  "instructions": "adopt, feed, bathe, return daily",
+  "mechanics": [
+   "adoption",
+   "offline aging",
+   "home building",
+   "vehicles",
+   "supermarket"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "children age offline; 100 kids"
+  ],
+  "themes": [
+   "family",
+   "adoption",
+   "kids",
+   "home"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "family roleplay",
+   "raise a x"
+  ],
+  "monetization_signals": [
+   "car passes up to 599",
+   "skip products",
+   "twins",
+   "grow all"
+  ],
+  "update_signals": [
+   "supermarket update",
+   "50 furniture items"
+  ],
+  "thumbnails": "AGES OFFLINE! UPDATE, Adopt Kids, 100 KIDS crowd",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "home building, NPC aging, vehicles",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q39",
+  "loop": "roll grimoire and clan -> fight beasts and dungeons -> duel mages -> forge gear and trade",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become the strongest mage",
+  "progression": "grimoire rarity, clans, exp, gear",
+  "instructions": "redeem codes, roll, fight",
+  "mechanics": [
+   "grimoire rolls",
+   "66 clans",
+   "broom flight",
+   "dungeons",
+   "PvP bounty",
+   "trading hub",
+   "forge"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Black Clover anime RPG"
+  ],
+  "themes": [
+   "black clover",
+   "magic",
+   "grimoire",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG",
+   "Black Clover"
+  ],
+  "monetization_signals": [
+   "exp/money boosters",
+   "mantle 999",
+   "fast travel",
+   "clan vault"
+  ],
+  "update_signals": [
+   "new grimoire paint update",
+   "codes"
+  ],
+  "thumbnails": "anime mages with NEW badges and logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "many grimoires and clans, world map, dungeons",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q40",
+  "loop": "drive and customise vehicles in Ontario-inspired map -> work jobs, earn pay and promotions -> drift, race",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn money, build collection and roleplay",
+  "progression": "money, jobs promotions, vehicles",
+  "instructions": "drive, work jobs, use codes",
+  "mechanics": [
+   "driving RP",
+   "jobs",
+   "dirt bikes ATVs",
+   "customisation",
+   "trailers",
+   "codes"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "real Yonge Street Ontario map"
+  ],
+  "themes": [
+   "ontario",
+   "driving",
+   "roleplay",
+   "canadian"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "regional city driving RP"
+  ],
+  "monetization_signals": [
+   "cash packs up to 9999",
+   "earn multipliers",
+   "spawn passes",
+   "VIP 999"
+  ],
+  "update_signals": [
+   "dirt bike and ATV update",
+   "code at 160k likes"
+  ],
+  "thumbnails": "dirt bikes, ATV, lineup of supercars on lot, SUV with BBQ",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "large detailed map, vehicle physics and tuning",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "cultivate Qi and body in sect world -> offline cultivation -> fight bosses and players -> found sect, climb realms",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "rise from mortal to immortal",
+  "progression": "30 Qi realms, 30 body realms, silver, stones",
+  "instructions": "redeem codes, cultivate, fly sword, world boss",
+  "mechanics": [
+   "cultivation",
+   "offline growth",
+   "sword flying",
+   "world boss",
+   "herbs and pills",
+   "sects",
+   "trait rolls"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "xianxia cultivation with sky rings"
+  ],
+  "themes": [
+   "cultivation",
+   "murim",
+   "xianxia",
+   "immortal"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cultivation game"
+  ],
+  "monetization_signals": [
+   "stones",
+   "luck/drop boosts",
+   "auto breakthrough",
+   "all-passes 999"
+  ],
+  "update_signals": [
+   "IMMORTAL REALM update",
+   "codes"
+  ],
+  "thumbnails": "hero in purple aura, mountain landscape meditation, four characters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "big map, realms, combat, sects",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q42",
+  "loop": "run fast to level up -> unlock worlds -> hatch Sonic characters -> collect skins, events, fastpass",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "unlock characters and run fastest",
+  "progression": "levels, rings, characters, skins",
+  "instructions": "run, level, hatch, enter events",
+  "mechanics": [
+   "speed running",
+   "character collection",
+   "eggs",
+   "fastpass",
+   "gifting",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "licensed Sonic IP with collectible characters"
+  ],
+  "themes": [
+   "sonic",
+   "shadow",
+   "speed",
+   "IP"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed IP",
+   "collector eggs"
+  ],
+  "monetization_signals": [
+   "ALL SONIC BUNDLE tiers",
+   "rings packs",
+   "egg boosts",
+   "fastpass"
+  ],
+  "update_signals": [
+   "Masquerade VS event",
+   "FASTPASS 26"
+  ],
+  "thumbnails": "Sonic and Shadow in-game renders",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 5,
+  "complexity_notes": "licensed assets, worlds, many characters, 123 badges",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q43",
+  "loop": "place plant units to defend base against swarms -> earn seeds -> unlock 350 plants and morph into units -> events and trading",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend base and collect all plants",
+  "progression": "seeds, plants, traits, game speeds",
+  "instructions": "assemble plant army, weekly updates, 1.5M likes update",
+  "mechanics": [
+   "tower defense",
+   "unit morphing",
+   "trading",
+   "traits",
+   "weekly updates",
+   "VR support"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "plant units TD merged with Grow a Garden theme"
+  ],
+  "themes": [
+   "garden",
+   "plants",
+   "turkey"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "garden TD",
+   "weekly saturday updates"
+  ],
+  "monetization_signals": [
+   "seed packs",
+   "x2 seeds/fertilizer",
+   "sandbox mode",
+   "auto trait roll"
+  ],
+  "update_signals": [
+   "Saturday weekly updates",
+   "Turkey mode"
+  ],
+  "thumbnails": "Turkey barn NOW, lab capsules, purple tentacle plants",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "350 plants, modes, trading UI",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q44",
+  "loop": "spawn vehicles and trailers -> mud, tow, farm -> customise builds -> roleplay",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build and show off vehicles, tow and mud",
+  "progression": "vehicles, trailers, customisation",
+  "instructions": "grab friends, mud pits, towing, farming",
+  "mechanics": [
+   "vehicle physics",
+   "trailers",
+   "towing winch",
+   "customisation",
+   "farming",
+   "private servers"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "fully animated wrecker bed and winch"
+  ],
+  "themes": [
+   "mudding",
+   "trucks",
+   "towing",
+   "american"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "driving sandbox"
+  ],
+  "monetization_signals": [
+   "vehicle spawners",
+   "premium customisation",
+   "gift passes",
+   "limited vehicles"
+  ],
+  "update_signals": [
+   "11/21 wrecker update",
+   "Thanksgiving vehicle"
+  ],
+  "thumbnails": "wrecker truck, dirt track car, dirt bike",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "1 video, not seen",
+  "complexity": 4,
+  "complexity_notes": "vehicle physics, trailers, detailed assets",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q45",
+  "loop": "hold a presentation or interrupt others -> spend points/gems/Robux on actions (cough, earthquake) -> earn passive points",
+  "loop_archetype": "roleplay_social",
+  "objectives": "hold the funniest presentation",
+  "progression": "points, actions, desks",
+  "instructions": "present, interrupt, quests",
+  "mechanics": [
+   "classroom roleplay",
+   "paid actions",
+   "passive points",
+   "quests",
+   "private server"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "classroom trolling with monetised actions"
+  ],
+  "themes": [
+   "school",
+   "presentation",
+   "teacher",
+   "trolling"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "school roleplay"
+  ],
+  "monetization_signals": [
+   "points packs 8-2299",
+   "do all actions",
+   "earthquake product",
+   "custom desks"
+  ],
+  "update_signals": [
+   "Update 139 flashlight",
+   "2X POINTS"
+  ],
+  "thumbnails": "classroom cartoon scenes with :CRASHOUT :RICKROLL chat",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple classroom map, many actions",
+  "novelty": 1,
+  "confidence": 70
+ }
+]
