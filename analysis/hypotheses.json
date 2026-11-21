@@ -1888,7 +1888,7 @@
   "confidence": 84,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.345,
+   "effect": 0.35,
    "p": 0.0,
    "n": 481,
    "days": 24,
@@ -2083,8 +2083,8 @@
   "confidence": 95,
   "status": "Strengthened",
   "evidence": {
-   "effect": -0.185,
-   "p": 0.0222,
+   "effect": -0.183,
+   "p": 0.0235,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -2441,7 +2441,7 @@
    },
    {
     "date": "2026-11-20",
-    "conf": 67
+    "conf": 68
    }
   ],
   "test": {
@@ -2450,11 +2450,11 @@
    "type": "binary",
    "direction": "-"
   },
-  "confidence": 67,
+  "confidence": 68,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.064,
-   "p": 0.6348,
+   "effect": -0.065,
+   "p": 0.6301,
    "n": 481,
    "days": 47,
    "consistency": 0.89,
@@ -2645,7 +2645,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.423,
+   "effect": 0.429,
    "p": 0.0,
    "n": 476,
    "days": 47,
@@ -2841,8 +2841,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.139,
-   "p": 0.0275,
+   "effect": 0.14,
+   "p": 0.0263,
    "n": 432,
    "days": 47,
    "consistency": 1.0,
@@ -3233,7 +3233,7 @@
   "status": "Unchanged",
   "evidence": {
    "effect": 0.154,
-   "p": 0.0037,
+   "p": 0.0036,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -3415,7 +3415,7 @@
    },
    {
     "date": "2026-11-20",
-    "conf": 85
+    "conf": 86
    }
   ],
   "test": {
@@ -3424,11 +3424,11 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 85,
+  "confidence": 86,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.066,
-   "p": 0.2973,
+   "effect": 0.067,
+   "p": 0.2869,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -4130,7 +4130,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.248,
+   "effect": 0.249,
    "p": 0.0,
    "n": 481,
    "days": 47,
@@ -4321,8 +4321,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.15,
-   "p": 0.001,
+   "effect": 0.151,
+   "p": 0.0009,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -10356,7 +10356,7 @@
    },
    {
     "date": "2026-11-20",
-    "conf": 85
+    "conf": 84
    }
   ],
   "test": {
@@ -10365,11 +10365,11 @@
    "type": "corr",
    "direction": "+"
   },
-  "confidence": 85,
+  "confidence": 84,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.048,
-   "p": 0.2967,
+   "effect": 0.046,
+   "p": 0.3182,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -12011,8 +12011,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.209,
-   "p": 0.0027,
+   "effect": 0.211,
+   "p": 0.0025,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -13850,8 +13850,8 @@
   "confidence": 92,
   "status": "Strengthened",
   "evidence": {
-   "effect": 0.137,
-   "p": 0.1616,
+   "effect": 0.136,
+   "p": 0.1627,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -14701,7 +14701,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.524,
+   "effect": -0.523,
    "p": 0.0002,
    "n": 481,
    "days": 47,
@@ -17644,8 +17644,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.209,
-   "p": 0.0039,
+   "effect": 0.208,
+   "p": 0.004,
    "n": 432,
    "days": 47,
    "consistency": 1.0,
@@ -18538,8 +18538,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.213,
-   "p": 0.0138,
+   "effect": 0.212,
+   "p": 0.0141,
    "n": 481,
    "days": 47,
    "consistency": 0.98,
@@ -21004,7 +21004,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.249,
+   "effect": -0.25,
    "p": 0.0,
    "n": 478,
    "days": 47,
@@ -22441,8 +22441,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.244,
-   "p": 0.0008,
+   "effect": -0.242,
+   "p": 0.0009,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -23411,8 +23411,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.145,
-   "p": 0.0061,
+   "effect": 0.144,
+   "p": 0.0063,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -25799,8 +25799,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.317,
-   "p": 0.0036,
+   "effect": -0.318,
+   "p": 0.0035,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
@@ -26919,7 +26919,7 @@
   "status": "Strengthened",
   "evidence": {
    "effect": -0.016,
-   "p": 0.7578,
+   "p": 0.7608,
    "n": 481,
    "days": 47,
    "consistency": 0.04,
@@ -27025,8 +27025,8 @@
   "confidence": 50,
   "status": "Weakened",
   "evidence": {
-   "effect": -0.0,
-   "p": 0.9974,
+   "effect": -0.001,
+   "p": 0.9927,
    "n": 481,
    "days": 47,
    "consistency": 0.28,
@@ -27179,8 +27179,8 @@
   "confidence": 48,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.005,
-   "p": 0.9348,
+   "effect": -0.004,
+   "p": 0.9506,
    "n": 481,
    "days": 47,
    "consistency": 0.13,
@@ -27393,8 +27393,8 @@
   "confidence": 93,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.163,
-   "p": 0.084,
+   "effect": -0.162,
+   "p": 0.0859,
    "n": 481,
    "days": 47,
    "consistency": 0.85,
@@ -28949,8 +28949,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.252,
-   "p": 0.069,
+   "effect": 0.258,
+   "p": 0.0629,
    "n": 481,
    "days": 47,
    "consistency": 0.94,
@@ -29614,7 +29614,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": -0.563,
+   "effect": -0.564,
    "p": 0.0,
    "n": 481,
    "days": 43,
@@ -31634,7 +31634,7 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.532,
+   "effect": 0.531,
    "p": 0.0,
    "n": 481,
    "days": 47,
@@ -32868,8 +32868,8 @@
   "confidence": 95,
   "status": "Unchanged",
   "evidence": {
-   "effect": 0.111,
-   "p": 0.0405,
+   "effect": 0.11,
+   "p": 0.041,
    "n": 481,
    "days": 47,
    "consistency": 0.96,
@@ -33826,7 +33826,7 @@
    },
    {
     "date": "2026-11-20",
-    "conf": 94
+    "conf": 93
    }
   ],
   "action": "Build around drivable vehicles",
@@ -33836,11 +33836,11 @@
    "type": "binary",
    "direction": "+"
   },
-  "confidence": 94,
-  "status": "Strengthened",
+  "confidence": 93,
+  "status": "Unchanged",
   "evidence": {
    "effect": 0.095,
-   "p": 0.1297,
+   "p": 0.1301,
    "n": 481,
    "days": 47,
    "consistency": 1.0,
