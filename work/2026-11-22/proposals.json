@@ -1,0 +1,28 @@
+{
+  "new": [
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "Throw-for-luck collection loops (throw or cast farther to meet rarer collectibles that then earn income per second) are a repeatable template: Throw Food For Animals holds Most Popular #3, while Throw Food For Baddies, Pull a Dino, Fish For Sea Animals and Net a Fish all reach Top Earning or Top Trending within their first six weeks",
+     "action": "Tie luck to throw distance",
+     "rationale": "2026-11-22 profiles of Q01, Q24, Q34, Q51 share the loop: distance gives rarity, rarity gives $/s, odds like 1 in 742B appear on thumbnails. Confirm if more such games enter and the older ones keep their Most Popular positions beyond week 8; refute if they fade like other +1 templates (H-te-004)."},
+    {"chart": "x", "kind": "qualitative", "confidence": 28,
+     "statement": "A rolling release calendar of small content drops (Clean The Ballpit shipped eight themed maps in 17 days and appears on all four charts: Most Popular riser +15, Top Earning #287, Top Trending #11, Up-and-Coming #9) keeps a young game on several charts at once",
+     "action": "Ship a new map every few days",
+     "rationale": "The description lists release dates for each map. Compare with updates_per_week (H-tt-040) as more fast-cadence games appear; confidence rises if other games with dated drops also chart on three or more lists."},
+    {"chart": "x", "kind": "qualitative", "confidence": 22,
+     "statement": "Ragdoll sandboxes are hybridising with collection loops (Defeat Ragdolls for Powers sells 120 powers through pack opening) and with other destruction fantasies (Plane Crash Physics, a PS2-style city), which keeps new entrants arriving on Up-and-Coming after the plain dummy sandboxes saturate",
+     "action": "Add a collection layer to a physics sandbox",
+     "rationale": "Today's 60 profiled newcomers include five physics or destruction sandboxes (Q05, Q08, Q09, Q11, Q18, Q30 counting the older ones). Defeat Ragdolls for Powers is the only one with a gacha layer; check whether its Up-and-Coming position outlasts the plain ones and whether its Top Earning position is higher than H-te-045 predicts."},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Thanksgiving-tagged content (Pull a Dino and Simple Drift codes, the Defeat Ragdolls turkey event) is replacing Halloween as the seasonal hook, and games that attach a dated reward code to it hold their positions through the week",
+     "action": "Tie a Thanksgiving event to an update",
+     "rationale": "Follows H-x-027 (Halloween games fade without a follow-up). Confirm from title tags and descriptions through 2026-11-29; refute if Thanksgiving-tagged games fall like the Halloween ones."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-021", "confidence": 83, "note": "Five more ragdoll or destruction sandboxes among the 60 games profiled today, three of them new on Up-and-Coming (Ragdoll Destruction 10d, Defeat Ragdolls for Powers 13d, Plane Crash Physics 18d)."},
+    {"id": "H-x-044", "confidence": 43, "note": "Be The Biggest Streamer is on Most Popular #64, Top Trending #20 and Up-and-Coming #15 with 413K favorites at 32 days old; Record on Bike, a record-and-flex variant, entered Up-and-Coming."},
+    {"id": "H-te-030", "confidence": 32, "note": "My Little Pony Card Opening, a licensed IP pack-opening game, entered Top Earning #358 at 15 days with a 99% like ratio from 16.6K votes."},
+    {"id": "H-x-019", "confidence": 67, "note": "She Is Listening (noise-based parent horror, 94% likes) and Fatal Baboons (sound-triggered monsters) keep the one-noise-rule pattern alive; no change."}
+  ],
+  "actions": [],
+  "retire": []
+}

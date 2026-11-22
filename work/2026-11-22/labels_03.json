@@ -1,0 +1,735 @@
+[
+ {
+  "label": "Q31",
+  "loop": "repair the prison bus -> drive it to pick up prisoners -> survive anomalies on the road -> reach the prison alive",
+  "loop_archetype": "horror_escape",
+  "objectives": "get the bus to the prison alive",
+  "progression": "chapters, weapons, bus skins",
+  "instructions": "fix bus, drive, survive anomalies",
+  "mechanics": [
+   "driving",
+   "vehicle repair",
+   "anomaly spotting",
+   "weapons",
+   "chapters"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "anomaly-spotting horror on a night bus drive, chapter structure"
+  ],
+  "themes": [
+   "prison bus",
+   "anomalies",
+   "night drive"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly horror",
+   "bus driver"
+  ],
+  "monetization_signals": [
+   "weapon products",
+   "bus skins up to 699",
+   "kingpin class 899",
+   "58 dev products"
+  ],
+  "update_signals": [
+   "Chapter 2 released",
+   "updated today"
+  ],
+  "thumbnails": "dark creature behind bus cockpit, CHAPTER 2 banner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 3,
+  "complexity_notes": "driving, creature AI, weapons, chapter content",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "drive and link drifts for cash and XP -> buy and tune 80+ cars and body kits -> compete on maps and leaderboards",
+  "loop_archetype": "racing_driving",
+  "objectives": "top drift scores, collect cars",
+  "progression": "cash, XP, car roster, tuning, drift teams",
+  "instructions": "2-step, clutch kick, link drifts, redeem codes",
+  "mechanics": [
+   "drifting",
+   "car tuning",
+   "wraps and body kits",
+   "judged runs",
+   "track mode lap times",
+   "drift teams",
+   "11 maps"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "real tracks (Nurburgring, Bikernieki, Wangan) and deep tuning"
+  ],
+  "themes": [
+   "drift",
+   "JDM cars",
+   "touge"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "drift games",
+   "car culture"
+  ],
+  "monetization_signals": [
+   "170 dev products",
+   "cash packs",
+   "2x cash/XP",
+   "body kits",
+   "cosmetic passes"
+  ],
+  "update_signals": [
+   "update with Thanksgiving code",
+   "updated today",
+   "like-goal codes"
+  ],
+  "thumbnails": "red car smoke drifting, BMWs with avatar, neon Lamborghinis, cockpit view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "car physics, 80+ cars, 11 maps, tuning",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q33",
+  "loop": "buy engines -> upgrade for horsepower -> rev to max RPM and test on dyno -> earn cash to unlock better engines",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "build the ultimate engine",
+  "progression": "engines, upgrades, horsepower, cash",
+  "instructions": "buy, upgrade, accelerate, dyno test",
+  "mechanics": [
+   "engine upgrades",
+   "RPM",
+   "overheating and blowups",
+   "dyno",
+   "auto throttle"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "engine ASMR sounds and overheating explosions as incremental core"
+  ],
+  "themes": [
+   "engines",
+   "horsepower",
+   "cars"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "simulator incremental"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "2x profit",
+   "auto throttle",
+   "pro pack",
+   "phantom engines"
+  ],
+  "update_signals": [
+   "updated Nov 20",
+   "2 new engines"
+  ],
+  "thumbnails": "V8 engines with Build a 3000+ HP engine text",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "engine models, audio, simple upgrade UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "throw harpoon into mud farther for luck -> pull out dinosaurs -> bring them home to earn cash -> train strength, hatch eggs",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "find the rarest dinos and top clan",
+  "progression": "strength, throw distance, biomes, rarity (Gold/Diamond/Rainbow/Colossal), exotics",
+  "instructions": "throw, train, clan up, daily tasks",
+  "mechanics": [
+   "distance throwing luck",
+   "strength training",
+   "dino collection income",
+   "clans",
+   "egg hatching",
+   "limited exotics",
+   "gift passes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "only 100 Zeus Almighty Dragons will ever exist; throw-for-luck"
+  ],
+  "themes": [
+   "dinosaurs",
+   "harpoon",
+   "mythology"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pull a x",
+   "throw for luck",
+   "rarity flex"
+  ],
+  "monetization_signals": [
+   "68 dev products",
+   "training multipliers up to 4864",
+   "hacker pass 999",
+   "trails",
+   "gift passes",
+   "luck codes"
+  ],
+  "update_signals": [
+   "World Tree update",
+   "something coming 28.11",
+   "updated today"
+  ],
+  "thumbnails": "surprised avatar with golden T-rex, silhouette dino with ?, $200M/S rare dino",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "linear lanes, dino models, biomes",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "free-form roleplay in city: own houses, drive cars, play roles with friends",
+  "loop_archetype": "roleplay_social",
+  "objectives": "roleplay your own story",
+  "progression": "owning houses, vehicles, passes; seasonal events",
+  "instructions": "explore, roleplay, LEGO construction event",
+  "mechanics": [
+   "house ownership",
+   "vehicles",
+   "roleplay roles",
+   "private server tools",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "LEGO collab construction event week 2"
+  ],
+  "themes": [
+   "roleplay",
+   "city",
+   "LEGO"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "brand collab event"
+  ],
+  "monetization_signals": [
+   "18 passes",
+   "gift products",
+   "vehicle packs",
+   "VIP 749"
+  ],
+  "update_signals": [
+   "LEGO event week 2",
+   "updated Nov 20"
+  ],
+  "thumbnails": "window frame showing Brookhaven scenes: LEGO digger, mansion, police bike",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "huge open map, many houses, vehicles, 2400 days of content",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q36",
+  "loop": "duel others 1v1 to 5v5 FPS first to 5 wins -> earn keys to unlock weapons and skins -> contracts and leaderboards",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win duels and climb leaderboards",
+  "progression": "keys, weapons, skins, contracts, win streak",
+  "instructions": "step on a duel pad and fight",
+  "mechanics": [
+   "FPS duels",
+   "duel pads",
+   "keys and crates",
+   "contracts",
+   "seasons",
+   "cross-platform"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "short duels with daily skin store"
+  ],
+  "themes": [
+   "FPS",
+   "esports",
+   "skins"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "seasonal FPS"
+  ],
+  "monetization_signals": [
+   "weapon bundles up to 1425",
+   "175 dev products",
+   "daily skins",
+   "gift bundles"
+  ],
+  "update_signals": [
+   "Season 4 Standard Season",
+   "updated today"
+  ],
+  "thumbnails": "energy dome, red avatar with minigun, bright combat",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "competitive FPS netcode, anticheat, many weapons and seasons",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q37",
+  "loop": "team up as Toons to finish machines in Gardenview Center while evading monsters -> collect research, trinkets and Toons",
+  "loop_archetype": "horror_escape",
+  "objectives": "complete machines and escape to descend floors",
+  "progression": "toons, trinkets, ichor and ornaments currencies, labs floors",
+  "instructions": "complete machines, collect research",
+  "mechanics": [
+   "machine tasks",
+   "monster evasion",
+   "toon characters with abilities",
+   "trinkets",
+   "labs 11 floors",
+   "sticker wheels"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "mascot horror with collectible character roster and heavy lore"
+  ],
+  "themes": [
+   "mascot horror",
+   "toons",
+   "lore"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "mascot horror",
+   "character collecting"
+  ],
+  "monetization_signals": [
+   "ichor/ornament/basket currency packs",
+   "cosmetic bundles",
+   "profile bundles"
+  ],
+  "update_signals": [
+   "version 1.0 Labs update",
+   "89 badges"
+  ],
+  "thumbnails": "Dandy characters with logo, dark lab monsters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many toon characters, animations, lore, multiple modes",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q38",
+  "loop": "adopt and raise pets and babies -> trade legendary pets -> build and decorate homes -> roleplay",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collect pets and customize home",
+  "progression": "pets, bucks, house, trading",
+  "instructions": "adopt, trade, build home, pose pets",
+  "mechanics": [
+   "pet care",
+   "trading",
+   "house building",
+   "pet paint salon",
+   "profiles"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "long-running trading economy"
+  ],
+  "themes": [
+   "pets",
+   "family",
+   "trading"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "pet trading"
+  ],
+  "monetization_signals": [
+   "bucks packs with discounts",
+   "gift products",
+   "VIP",
+   "premium plots"
+  ],
+  "update_signals": [
+   "Quality of Life update",
+   "updated yesterday"
+  ],
+  "thumbnails": "cute dogs, penguin, unicorn, dragons with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "huge content library, trading system, house building",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q39",
+  "loop": "one Chaser tags others as everyone tries to cross the map -> caught players become Chasers -> ranked play and ability levels",
+  "loop_archetype": "party_minigames",
+  "objectives": "make it across or tag all",
+  "progression": "abilities, coins, gems, ranked",
+  "instructions": "cross the map, play ranked on the ICE SKATE map",
+  "mechanics": [
+   "tag chase",
+   "abilities",
+   "ranked mode",
+   "maps",
+   "banana peel and adrenaline consumables"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "infection-style crossing with ranked ice skate map"
+  ],
+  "themes": [
+   "chase",
+   "tag",
+   "stylized"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tag games",
+   "ranked"
+  ],
+  "monetization_signals": [
+   "154 dev products",
+   "premium/VIP 799",
+   "coins and gems",
+   "consumables"
+  ],
+  "update_signals": [
+   "ice skate ranked map",
+   "updated today",
+   "Halloween pass"
+  ],
+  "thumbnails": "yellow/blue blocky avatars sprinting on grass, huss valley location tag",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 3,
+  "complexity_notes": "multiplayer tag rules, abilities, ranked",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q40",
+  "loop": "parkour around maps to evade Nextbots -> earn tokens/xp -> upgrade items and cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive nextbots and complete missions",
+  "progression": "tokens, battlepass, cosmetics, weekly missions",
+  "instructions": "play, evade, collect wisps and spellbooks in Halloween event",
+  "mechanics": [
+   "movement parkour",
+   "nextbot chase",
+   "deployables",
+   "weekly missions",
+   "battlepass",
+   "custom nextbot"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "custom nextbot purchases and large cosmetic catalog"
+  ],
+  "themes": [
+   "nextbots",
+   "parkour",
+   "Halloween"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbots"
+  ],
+  "monetization_signals": [
+   "24 passes",
+   "aura add-ons up to 1200",
+   "tokens",
+   "music emotes",
+   "donations"
+  ],
+  "update_signals": [
+   "Halloween event",
+   "UI revamp",
+   "updated yesterday"
+  ],
+  "thumbnails": "cosmetic closeups, dark chase scenes, neon city and green dust",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "movement system, many maps, AI bots, cosmetics",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "drive and customise licensed-brand cars in open world -> race, meet, deliver -> buy 300+ cars",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect cars and race",
+  "progression": "cash, cars, customization, track pass",
+  "instructions": "drive, race, attend meets",
+  "mechanics": [
+   "open-world driving",
+   "car customisation",
+   "racing",
+   "delivery jobs",
+   "community meets",
+   "limited cars"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "licensed car brands, limited-car drops"
+  ],
+  "themes": [
+   "cars",
+   "Lamborghini",
+   "trucks"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "limited cars"
+  ],
+  "monetization_signals": [
+   "300+ dev products",
+   "cash packs up to 2450",
+   "VIP",
+   "track pass",
+   "limited drop"
+  ],
+  "update_signals": [
+   "Nov 20 new limited",
+   "settings redesign"
+  ],
+  "thumbnails": "cars with Driving Empire logo, truck with trailer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "open world, 300+ cars, long-running content",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q42",
+  "loop": "climb a tower of ASMR/squishy-themed obby floors -> earn ASMR points -> rebirth; seasonal Christmas tower",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top and rebirth",
+  "progression": "ASMR points, rebirths, towers",
+  "instructions": "climb, earn points, skip",
+  "mechanics": [
+   "tower obby",
+   "ASMR points",
+   "rebirth",
+   "coils",
+   "skips"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "ASMR/Needoh squishy visual theme"
+  ],
+  "themes": [
+   "ASMR",
+   "obby",
+   "Christmas"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ASMR tower",
+   "seasonal tower"
+  ],
+  "monetization_signals": [
+   "Robux donations up to 10000",
+   "skip all",
+   "2x points",
+   "coils",
+   "VIP"
+  ],
+  "update_signals": [
+   "Christmas tower",
+   "updated today"
+  ],
+  "thumbnails": "colourful ASMR tower layouts, rainbow floors, soda theme",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower obby stages, simple systems",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q43",
+  "loop": "trapped in abandoned lab: collect scrap, sell for gear, avoid monsters that hunt differently; be the monster mode",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive and escape the lab, or hunt as the monster",
+  "progression": "coins, gear, skins, radar",
+  "instructions": "scrap, stay quiet, team up",
+  "mechanics": [
+   "scrap collection",
+   "multiple monster behaviours",
+   "lockdown",
+   "be the monster",
+   "shop"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "baboon monster roster with distinct hunting rules (sound, line of sight, lights); be the monster update"
+  ],
+  "themes": [
+   "baboons",
+   "lab",
+   "monster horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "be the monster",
+   "gorilla tag-like baboons"
+  ],
+  "monetization_signals": [
+   "coins packs",
+   "radar pass",
+   "start lockdown product",
+   "increase monster chance"
+  ],
+  "update_signals": [
+   "Be the Monster update",
+   "updated today"
+  ],
+  "thumbnails": "baboon monsters in lab corridors with Fatal Baboons label, be the monster banner",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "several monster AIs, lab map, scrap economy",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q44",
+  "loop": "fight and explore as Stand-user in JoJo-style adventure -> level up, collect arrows and items, summon stands",
+  "loop_archetype": "combat_pvp",
+  "objectives": "grow your stand and level",
+  "progression": "exp, coins, drops, arrows, grades",
+  "instructions": "attack, block, dash, summon, pilot mode",
+  "mechanics": [
+   "stand summon",
+   "melee combos",
+   "arrows gacha",
+   "boosters",
+   "drops",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "JoJo-inspired RPG with apple seed grades and arrow gacha"
+  ],
+  "themes": [
+   "JoJo",
+   "anime",
+   "stands"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "JoJo-like stand games"
+  ],
+  "monetization_signals": [
+   "177 dev products",
+   "boosters",
+   "mysterious arrows",
+   "private servers 800"
+  ],
+  "update_signals": [
+   "code at 200K likes",
+   "updated yesterday"
+  ],
+  "thumbnails": "text-heavy stylised art, pop colours, avatars in JoJo poses",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "combat system, many stands, animations",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q45",
+  "loop": "place towers to defend against zombie hordes -> earn cash -> unlock new units through boss modes",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat hordes and bosses, unlock towers",
+  "progression": "coins, gems, tower unlocks, levels",
+  "instructions": "place units, team up",
+  "mechanics": [
+   "tower placement",
+   "waves",
+   "boss modes",
+   "tower skins",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "FPS mode gatling and sandbox plus"
+  ],
+  "themes": [
+   "zombies",
+   "towers",
+   "military"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower refresh updates"
+  ],
+  "monetization_signals": [
+   "19 passes up to 7999",
+   "277+ dev products",
+   "coins",
+   "gems",
+   "emotes"
+  ],
+  "update_signals": [
+   "version 2.20 Militant",
+   "updated Nov 20"
+  ],
+  "thumbnails": "armoured soldier, paintballer, energy dome",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "large tower roster, modes, years of content",
+  "novelty": 0,
+  "confidence": 90
+ }
+]

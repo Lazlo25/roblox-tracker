@@ -1,0 +1,9 @@
+{
+  "charts": {
+    "mp": {"observations": ["Steal An Egg leads; Clean The Ballpit rose 15."], "patterns": ["Solo loops tend to sit lower (84%)."], "outliers": []},
+    "te": {"observations": ["Clover RPG leads; Half Punch rose 164."], "patterns": ["Dev product price consistently earns most (95%)."], "outliers": []},
+    "tt": {"observations": ["Suzy Says! rose 31 to lead."], "patterns": ["Reward-flex thumbnails tend to help (70%)."], "outliers": []},
+    "uc": {"observations": ["Hyper Realistic Ragdoll leads; 13 entered."], "patterns": ["Emoji titles consistently rank lower (80%)."], "outliers": []}
+  },
+  "cross": {"summary": ["Narrative cut short: the hypothesis log fills the size cap. 4 new hypotheses; 60 games profiled; no video frames."], "progressions": ["uc→tt 322 entries."]}
+}

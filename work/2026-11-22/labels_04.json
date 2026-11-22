@@ -1,0 +1,743 @@
+[
+ {
+  "label": "Q46",
+  "loop": "place cameramen and units on platforms to defend against toilet waves -> earn coins/gems -> roll luck units and traits -> harder modes",
+  "loop_archetype": "tower_defense",
+  "objectives": "beat waves and endless mode, collect rare units",
+  "progression": "coins, gems, units, traits, shiny, modes up to Astro",
+  "instructions": "step on platform to start match, place units",
+  "mechanics": [
+   "tower placement",
+   "unit gacha with traits and shinies",
+   "trading plaza auctions",
+   "endless mode",
+   "AFK farm",
+   "clans"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Skibidi Toilet IP, auctions in trading plaza"
+  ],
+  "themes": [
+   "Skibidi Toilet",
+   "cameramen",
+   "titans"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Skibidi Toilet",
+   "UTS"
+  ],
+  "monetization_signals": [
+   "299+ dev products",
+   "luck/coin boosts",
+   "exclusive crates",
+   "trait hunter 699",
+   "gems up to 3749"
+  ],
+  "update_signals": [
+   "UTS 3.0 Titan Speakerman",
+   "Thanksgiving art",
+   "updated yesterday"
+  ],
+  "thumbnails": "speakerman titans and cameramen, thanksgiving toilet",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "huge unit roster, trading, auctions, modes, 3.5 years of content",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q47",
+  "loop": "play a creature from hatchling to elder -> eat, drink, hunt, fight -> save, trade and store grown creatures",
+  "loop_archetype": "roleplay_social",
+  "objectives": "grow to elder and collect creatures",
+  "progression": "growth, creature species unlocks, events",
+  "instructions": "survive, use abilities, socialize, hunt",
+  "mechanics": [
+   "creature survival",
+   "combat abilities",
+   "growth stages",
+   "trading creatures",
+   "seasonal events",
+   "dev supporter creatures"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "huge catalogue of fantasy creatures with trading and seasonal boosts"
+  ],
+  "themes": [
+   "creatures",
+   "kaiju",
+   "survival"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creature survival"
+  ],
+  "monetization_signals": [
+   "298+ dev products",
+   "event boosts",
+   "bundles up to 1199",
+   "no passes"
+  ],
+  "update_signals": [
+   "Harvest Event week 2",
+   "updated today"
+  ],
+  "thumbnails": "creature art with logo, Day 1 vs Day 100 growth comparison",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "many custom creatures, ecosystem, trading, 6 years of content",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "summon anime heroes -> place and level units in tower defense waves -> earn gems/gold to summon stronger units",
+  "loop_archetype": "tower_defense",
+  "objectives": "collect strong anime units and clear worlds",
+  "progression": "gems, summons, unit levels, shiny units",
+  "instructions": "build squads, redeem codes, join group",
+  "mechanics": [
+   "unit summoning gacha",
+   "tower defense",
+   "codes at like milestones",
+   "shiny hunter",
+   "gifting"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "all-anime crossover roster"
+  ],
+  "themes": [
+   "anime",
+   "tower defense",
+   "gacha"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime TD",
+   "like-milestone codes"
+  ],
+  "monetization_signals": [
+   "gems up to 1999",
+   "93 dev products",
+   "shiny hunter 1299",
+   "gift variants"
+  ],
+  "update_signals": [
+   "3 hour update timer",
+   "new codes at 375K likes",
+   "updated today"
+  ],
+  "thumbnails": "anime villains and heroes in dark red art with NEW tag",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large unit roster with abilities, summon systems",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q49",
+  "loop": "sail the seas, fight bosses, collect fruits and level in One Piece-style action RPG -> upgrade stats",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "progress through sailing and combat",
+  "progression": "mastery, XP, races, boats, fruits",
+  "instructions": "explore, sail, combat, codes at 200K likes",
+  "mechanics": [
+   "sailing",
+   "fruit powers",
+   "boss fights",
+   "stat points",
+   "race change",
+   "private servers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Blox Fruits-like pirate RPG with community voice focus"
+  ],
+  "themes": [
+   "pirates",
+   "fruits",
+   "sea"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "blox fruits like"
+  ],
+  "monetization_signals": [
+   "double XP tiers up to 1500",
+   "respawn bosses",
+   "refund stats",
+   "change race",
+   "boats"
+  ],
+  "update_signals": [
+   "update 0.5 Dawn of Legends",
+   "updated today"
+  ],
+  "thumbnails": "red-cloaked anime character with update tag, sea monster attacking boat",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "open sea world, combat, bosses, many systems",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q50",
+  "loop": "race on horses for first place or battle with Stands in battlegrounds -> grow via spins, rerolls and items",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win the Bizarre Run or battlegrounds",
+  "progression": "stand cards, horse stats, spins, outfits",
+  "instructions": "ride, use stand, emote for aura",
+  "mechanics": [
+   "horse racing",
+   "stand battles",
+   "stat rerolls",
+   "spin wheel",
+   "aura emotes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Steel Ball Run horse race mode alongside stand battlegrounds"
+  ],
+  "themes": [
+   "JoJo",
+   "Steel Ball Run",
+   "horses"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "JoJo fan-made",
+   "Steel Ball Run"
+  ],
+  "monetization_signals": [
+   "spin tickets",
+   "horse stat rerolls",
+   "stand card rerolls",
+   "outfits",
+   "kill SFX"
+  ],
+  "update_signals": [
+   "beta weekly content",
+   "code at 400K likes",
+   "updated today"
+  ],
+  "thumbnails": "stylised JoJo-like characters with game logo, desert riders",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "racing, many stands, battlegrounds, rerolls",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q51",
+  "loop": "throw nets to catch rare fish -> showcase fish in pool to earn $/s -> upgrade dock, nets, boats, helpers -> rebirth to new worlds; hatch pets and crew wars",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "catch the rarest fish and get rich",
+  "progression": "nets, docks, helpers, rebirths, worlds, pets",
+  "instructions": "throw net, fuse, crew wars, codes",
+  "mechanics": [
+   "net throwing",
+   "fish pool income",
+   "helpers",
+   "pet crates",
+   "crews",
+   "megalodon and kraken events",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "crew wars and wave events within net fishing loop"
+  ],
+  "themes": [
+   "fishing",
+   "ocean",
+   "kraken"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing sims",
+   "1 in 10,000,000 odds"
+  ],
+  "monetization_signals": [
+   "32 passes up to 999",
+   "4x luck/money",
+   "crates",
+   "server luck",
+   "helpers"
+  ],
+  "update_signals": [
+   "updated today",
+   "visit-milestone codes"
+  ],
+  "thumbnails": "giant octopus, 1 in 10,000,000 odds, nets of $6/$67/$inf, noob vs pro $/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer present",
+  "complexity": 3,
+  "complexity_notes": "multiple worlds, pets, crews, events",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q52",
+  "loop": "choose Orderly or Patient in an asylum roleplay -> mop spills, cause mischief, get arrested -> earn credits for gear",
+  "loop_archetype": "roleplay_social",
+  "objectives": "roleplay and earn credits",
+  "progression": "credits, passes, roles",
+  "instructions": "orderly protects staff, patient causes mischief, use VC",
+  "mechanics": [
+   "role split",
+   "jobs",
+   "arrests",
+   "credits",
+   "tools",
+   "voice chat"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "facility-prison roleplay with patient vs orderly roles"
+  ],
+  "themes": [
+   "asylum",
+   "roleplay",
+   "facility"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "roleplay"
+  ],
+  "monetization_signals": [
+   "16 passes",
+   "282+ dev products",
+   "credit packs",
+   "boosts",
+   "starter pack 399"
+  ],
+  "update_signals": [
+   "update Nov 20 tactical pack",
+   "2x EXP"
+  ],
+  "thumbnails": "straitjacket characters and guards, update 2x EXP",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "large facility map, roles, many items",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q53",
+  "loop": "deploy towers from air, land and sea against enemies and bosses -> earn cash -> unlock more towers",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend and earn medals",
+  "progression": "towers, cash, medals, crates",
+  "instructions": "place towers, party mode",
+  "mechanics": [
+   "tower defense",
+   "air strikes",
+   "boss waves",
+   "party mode",
+   "medals"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "military strikes like A-10, nukes as consumables"
+  ],
+  "themes": [
+   "military",
+   "towers",
+   "anniversary"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower defense"
+  ],
+  "monetization_signals": [
+   "298+ dev products",
+   "strike packs",
+   "dev crate",
+   "speed control 600"
+  ],
+  "update_signals": [
+   "3 year anniversary",
+   "updated yesterday"
+  ],
+  "thumbnails": "angelic and demonic towers in colourful anniversary art",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "many towers, modes, years of content",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q54",
+  "loop": "click to charge and reel fish -> sell for coins -> upgrade rods and boats -> unlock islands, mutations and pets",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "collect 1,000,000+ variations",
+  "progression": "coins, XP, rods, islands, mutations, battlepass",
+  "instructions": "charge cast, click fast, sail to explore",
+  "mechanics": [
+   "fishing minigame",
+   "mutations",
+   "luck potions",
+   "sky island",
+   "pets",
+   "battlepass"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "1M+ fish variations via mutations"
+  ],
+  "themes": [
+   "fishing",
+   "islands"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "fishing sims",
+   "Fisch-like"
+  ],
+  "monetization_signals": [
+   "261+ dev products",
+   "luck potions",
+   "packs",
+   "doubloons",
+   "hoverboat"
+  ],
+  "update_signals": [
+   "Sky Island expansion",
+   "updated today"
+  ],
+  "thumbnails": "avatar fishing on dock pulling mechanical, angelic, and fire creatures",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "large fish catalog, islands, battlepass",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q55",
+  "loop": "adopt a baby via interview -> feed, bathe and care as they age offline -> expand family, build home, supermarket",
+  "loop_archetype": "roleplay_social",
+  "objectives": "raise the biggest family",
+  "progression": "kids, house furniture, cars, coins",
+  "instructions": "come back daily, adopt, drive, care",
+  "mechanics": [
+   "offline aging",
+   "adoption",
+   "house building",
+   "driving",
+   "furniture"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "kids age while offline, come back daily to care"
+  ],
+  "themes": [
+   "family",
+   "adoption",
+   "babies"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "raise a family"
+  ],
+  "monetization_signals": [
+   "19 passes",
+   "skip products",
+   "twins product",
+   "grow all products",
+   "cars"
+  ],
+  "update_signals": [
+   "supermarket update",
+   "updated yesterday"
+  ],
+  "thumbnails": "Ages Offline update tag, Adopt Kids, 100 KIDS group",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "house building, NPC kids, offline aging",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q56",
+  "loop": "drive, job and promotions around replica Yonge Street -> earn money -> buy and customise vehicles; dirt bikes, ATVs",
+  "loop_archetype": "roleplay_social",
+  "objectives": "roleplay and drive a realistic city",
+  "progression": "money, job promotions, vehicle garage",
+  "instructions": "start vehicle with F, switch gears, use codes",
+  "mechanics": [
+   "driving",
+   "jobs",
+   "promotions",
+   "customization",
+   "dirt bikes ATVs",
+   "trailers"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "real Ontario location replica"
+  ],
+  "themes": [
+   "Ontario",
+   "Yonge Street",
+   "cars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "real-place driving RP"
+  ],
+  "monetization_signals": [
+   "VIP 999",
+   "181 dev products",
+   "cash up to 9999",
+   "2x multipliers",
+   "spawn 4 vehicles"
+  ],
+  "update_signals": [
+   "dirt bike and ATV update",
+   "updated today",
+   "like-milestone codes"
+  ],
+  "thumbnails": "YSO logo, dirt bikes, parking lot supercars, SUV with trailer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "detailed city map, many vehicles, jobs",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "tap for +1 water -> stand on lake to drain it -> grab treasures -> sell and upgrade pumps, backpack, speed, luck",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "drain lakes and fill treasure index",
+  "progression": "pumps, backpack, worlds (W5), index",
+  "instructions": "tap, drain, sell, codes",
+  "mechanics": [
+   "+1 tap",
+   "lake draining",
+   "treasure index",
+   "pump purchases",
+   "boss event"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "draining lakes to reveal treasure; 50 pump passes"
+  ],
+  "themes": [
+   "water",
+   "treasure",
+   "pumps"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 simulator",
+   "drain-a-x"
+  ],
+  "monetization_signals": [
+   "50 passes up to 1999",
+   "300+ dev products",
+   "pump purchases",
+   "egg products"
+  ],
+  "update_signals": [
+   "world 5",
+   "visit codes",
+   "updated yesterday"
+  ],
+  "thumbnails": "avatar draining water with gold, 1 vs 999M water, $978Qa",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer present",
+  "complexity": 2,
+  "complexity_notes": "lake maps, simple tap loop",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q58",
+  "loop": "cultivate Qi and temper body through 30 realms -> fly sword, hunt herbs, fight bosses -> found a sect",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "rise from Mortal to Immortal",
+  "progression": "qi and body realms, silver, primordial stones, titles",
+  "instructions": "cultivate, offline cultivation, world boss, codes",
+  "mechanics": [
+   "cultivation",
+   "offline growth",
+   "sword flight",
+   "pill brewing",
+   "world boss hourly",
+   "sects",
+   "trait rolls"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "xianxia cultivation idle RPG with sword-flying sky rings"
+  ],
+  "themes": [
+   "cultivation",
+   "xianxia",
+   "murim"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cultivation"
+  ],
+  "monetization_signals": [
+   "all gamepasses 999",
+   "2x luck/silver",
+   "stones up to 1999",
+   "skip timer",
+   "world boss spawn"
+  ],
+  "update_signals": [
+   "Immortal Realm update",
+   "updated yesterday"
+  ],
+  "thumbnails": "NOW tag, purple aura cultivators, meditating on mountain, winged transformations",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "open world, 30+30 realms, combat, sects",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q59",
+  "loop": "run fast to level up -> unlock worlds and Sonic characters -> hatch eggs, races, events",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "become fastest and collect characters",
+  "progression": "speed, levels, worlds, skins, fastpass",
+  "instructions": "run, vote in event, fastpass",
+  "mechanics": [
+   "speed running",
+   "egg hatching",
+   "races",
+   "fastpass",
+   "events",
+   "gifting"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Sega Sonic license with huge character catalogue"
+  ],
+  "themes": [
+   "Sonic",
+   "speed",
+   "characters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "licensed IP",
+   "speed simulator"
+  ],
+  "monetization_signals": [
+   "300+ dev products",
+   "sonic bundles up to 2999",
+   "rings 750K 6659",
+   "fastpass",
+   "sales"
+  ],
+  "update_signals": [
+   "Masquerade VS event",
+   "Fastpass 26",
+   "updated yesterday"
+  ],
+  "thumbnails": "Sonic and Shadow, Sonic on field with logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 5,
+  "complexity_notes": "licensed characters, many worlds, events",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q60",
+  "loop": "roll for grimoires and clans -> hunt beasts, dungeons and duels -> forge gear -> trade",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "become the strongest mage",
+  "progression": "grimoire rarity, clans, bloodlines, gear, spins",
+  "instructions": "redeem codes, roll, quest",
+  "mechanics": [
+   "grimoire gacha",
+   "clan rolls",
+   "bloodlines",
+   "broom flight",
+   "dungeons",
+   "PvP bounty",
+   "trading hub"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Black Clover-style grimoires with clan and bloodline triple roll"
+  ],
+  "themes": [
+   "Black Clover",
+   "magic",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Black Clover",
+   "spin codes"
+  ],
+  "monetization_signals": [
+   "90 dev products",
+   "EXP/money boosters",
+   "clan vault slots",
+   "mantle 999"
+  ],
+  "update_signals": [
+   "Paint Grimoire update",
+   "updated yesterday"
+  ],
+  "thumbnails": "anime mages with NEW tags, clock and clover art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer present",
+  "complexity": 4,
+  "complexity_notes": "38 grimoires, 66 clans, combat, dungeons",
+  "novelty": 0,
+  "confidence": 85
+ }
+]
