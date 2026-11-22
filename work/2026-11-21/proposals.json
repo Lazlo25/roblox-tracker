@@ -1,0 +1,34 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games advertising redeem codes show weaker Top Trending momentum among games of similar age",
+     "action": "Skip code lists in the description",
+     "test": {"feature": "mech_codes", "metric": "tt_mom", "type": "binary", "direction": "-"}},
+    {"chart": "uc", "statement": "Physics-sandbox games rank higher on Up-and-Coming among games of the same age",
+     "action": "Build a ragdoll physics sandbox",
+     "test": {"feature": "mech_sandbox_physics", "metric": "uc_pos", "type": "binary", "direction": "+"}},
+    {"chart": "te", "statement": "Story and adventure loops earn a higher Top Earning position for their CCU than other profiled loops",
+     "action": "Add story-driven progression",
+     "test": {"feature": "loop=story_adventure", "metric": "te_eff", "type": "binary", "direction": "+"}},
+    {"chart": "te", "statement": "Physics-sandbox loops earn a lower Top Earning position for their CCU than other profiled loops",
+     "test": {"feature": "loop=sandbox_physics", "metric": "te_eff", "type": "binary", "direction": "-"}},
+    {"chart": "mp", "statement": "Verified creators hold their games on Most Popular for more days",
+     "action": "Build a verified studio brand",
+     "test": {"feature": "creator_verified", "metric": "mp_days", "type": "binary", "direction": "+"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 25,
+     "statement": "Games that ship a new themed map every one to three days (Clean The Ballpit: house, mall, fair, beach, museum, cruise, space, medieval in 17 days) reach all four charts within three weeks but sit among the least efficient earners",
+     "action": "Ship a new themed map every few days",
+     "rationale": "Clean The Ballpit is on Most Popular, Top Trending, Up-and-Coming and Top Earning at 21 days old, yet is among the weakest on monetization efficiency. Confirm by tracking updates_per_week against te_eff for other young games with dated map lists in their description; refute if its efficiency catches up over the next weeks."},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Cast-and-place creature loops (Fish For Sea Animals, Pull a Dino, Fish for Secret Animals, Throw Food For Animals) are the successor to the steal/egg template: a throw or cast sets rarity, the creature then pays income per second from a base",
+     "rationale": "Four such games sit in today's top charts or Up-and-Coming and its biggest Top Earning risers (Pull a Dino +71). Confirm if they hold position longer than the steal-a-X clones tracked in H-x-011; refute if they fade within about five weeks like the steal wave."},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Fan games on a single anime franchise using the +1 template (Avengers, Sukuna, Bow Forge) churn on Up-and-Coming but keep earning through very large pass catalogues (50 passes, 270 products in +1 Sukuna Evolution)",
+     "rationale": "+1 Sukuna Evolution is 24 days old with 50 passes and is in Top Earning's top 260, while +1 Avengers Evolution fell 34 on Up-and-Coming the same day. Confirm with passes_n against te_eff among +1 titles."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-011", "confidence": 38, "note": "Steal-a-X clones keep falling (Scare Your Favorite Streamer is the exception, +21 on Most Popular), while Steal An Egg still leads Most Popular."},
+    {"id": "H-x-021", "confidence": 55, "note": "Ragdoll sandboxes: BAD Ragdoll City, Animal Ragdoll, Ragdoll Experiment and Hyper Realistic Ragdoll hold Up-and-Coming and Top Trending leads, but BoneBox Engine and Ragdoll Research fell 12 on Most Popular."}
+  ],
+  "actions": [],
+  "retire": []
+}

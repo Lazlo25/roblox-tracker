@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "mp": {
+      "observations": ["Steal An Egg leads; The Block rose 44. Six entered, six left."],
+      "patterns": ["Pricier passes (84%) and multiplayer loops (80%) consistently rank higher."],
+      "outliers": []
+    },
+    "te": {
+      "observations": ["Scare Your Favorite Streamer rose 88; ten entered."],
+      "patterns": ["RPG and story loops consistently earn most; ragdoll sandboxes least (r=-0.54)."],
+      "outliers": []
+    },
+    "tt": {
+      "observations": ["Hyper Realistic Ragdoll, Grapple Sniper Arena and Dragon Arena led."],
+      "patterns": ["Physics sandboxes tend to climb faster (62%)."],
+      "outliers": []
+    },
+    "uc": {
+      "observations": ["100 Miles Down the River leads; 14 entered."],
+      "patterns": ["Bracket titles rank lower; revives and frequent updates rank higher."],
+      "outliers": []
+    }
+  },
+  "cross": {
+    "summary": ["Narrative cut short: the hypothesis log nearly fills the size cap. No video frames, no new research. 60 games profiled."],
+    "progressions": ["uc→tt 311, tt→mp 234."]
+  }
+}

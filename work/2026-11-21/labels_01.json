@@ -1,0 +1,722 @@
+[
+ {
+  "label": "Q01",
+  "loop": "rob the vault for items -> display them in your base to earn money -> break into other bases through the roof to steal -> buy bigger loot bags and defend",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "steal the most valuable items and grow base income",
+  "progression": "item value grows over time, bigger loot bags, base expansion",
+  "instructions": "build base, rob vault, avoid guard, raid others' bases, display items",
+  "mechanics": [
+   "stealing",
+   "base defense",
+   "vault robbery",
+   "income per second",
+   "loot bag capacity"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "heist/cops-and-robbers framing on the steal-a-brainrot template",
+   "items appreciate in value the longer kept"
+  ],
+  "themes": [
+   "heist",
+   "crime",
+   "diamonds"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "2x money/luck/opening speed products",
+   "cash bundles by hours",
+   "admin panel 4999",
+   "limited crates"
+  ],
+  "update_signals": [
+   "updated today",
+   "limited crates"
+  ],
+  "thumbnails": "cartoon robber with diamond, '$3K/s LEGENDARY' reward tags, cop and sleeping victim, '1 HOUR' timer",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "promo video present",
+  "complexity": 2,
+  "complexity_notes": "single base map, guard AI, item models, simple UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q02",
+  "loop": "cast line farther for rarer sea animals -> place them in base for money per second -> upgrade rods/bait -> unlock new biomes",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "catch the rarest sea animal",
+  "progression": "rod/bait upgrades, farther cast distance, biomes, income per second",
+  "instructions": "cast, collect animals, place in base, upgrade, explore biomes",
+  "mechanics": [
+   "fishing",
+   "cast distance",
+   "collection",
+   "base income",
+   "luck boosts",
+   "auto clicker"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fishing skin on the steal/collect-brainrot-style placed-creature income loop"
+  ],
+  "themes": [
+   "fishing",
+   "sea creatures",
+   "kraken"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing",
+   "brainrot-style collect"
+  ],
+  "monetization_signals": [
+   "2x luck/cash/training passes",
+   "server luck 2x-4x",
+   "starter packs",
+   "premium creature products",
+   "auto-clicker"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "giant Kraken/Angler Fish with '$98,456B/S', '1 in 999B' mystery silhouette, '12 HOURS' timer",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "promo video present",
+  "complexity": 2,
+  "complexity_notes": "single ocean map, creature models, cast mechanic",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "smash, launch and blow up ragdoll NPCs across a PS2-style city with weapons and vehicles -> score chaos -> earn cash -> buy more weapons",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreak chaos and top the chaos leaderboard",
+  "progression": "cash for weapons and tools, chaos score",
+  "instructions": "fling people, use bats/rockets/black holes, drive cars, climb leaderboards",
+  "mechanics": [
+   "ragdoll physics",
+   "weapons",
+   "vehicles",
+   "chaos score",
+   "leaderboard"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "PS2/GTA-style low-poly city look"
+  ],
+  "themes": [
+   "ragdoll",
+   "city destruction",
+   "PS2"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll sandbox"
+  ],
+  "monetization_signals": [
+   "many weapon passes",
+   "nuke/airstrike products",
+   "forever cash multipliers",
+   "all tools bundle 799"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "in-engine screenshots of NPCs fleeing, car explosions, crowds; PS2 aesthetic",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large city map, many NPC reactions, ragdoll and weapon systems, vehicles",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q04",
+  "loop": "sprint, wall-run and grapple through city -> throw parcels into a moving van -> earn tips and streaks -> unlock grapple hooks, trails and skins",
+  "loop_archetype": "obby_platformer",
+  "objectives": "deliver parcels with the best throws and streaks",
+  "progression": "tips cash, contracts, titles, cosmetics",
+  "instructions": "grapple across the city, throw parcels at the van, do daily jobs",
+  "mechanics": [
+   "grapple movement",
+   "wall-run",
+   "parcel throwing",
+   "delivery streaks",
+   "daily jobs",
+   "cosmetics"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "parkour plus aim-and-throw delivery",
+   "moving van target"
+  ],
+  "themes": [
+   "delivery",
+   "parkour",
+   "web-slinging",
+   "city"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "spider-man-style swing"
+  ],
+  "monetization_signals": [
+   "cosmetic bundles 199-699",
+   "VIP +25% tips",
+   "2x cash forever",
+   "cash products",
+   "limited Halloween set"
+  ],
+  "update_signals": [
+   "Halloween set",
+   "UPDATE banner",
+   "updated today"
+  ],
+  "thumbnails": "stylised character grappling above container port with parcels and a moving van; UPDATE hourglass",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "promo video present",
+  "complexity": 3,
+  "complexity_notes": "movement system with grapple physics, a moving-van target, contracts, cosmetics",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "a phone rings and players face twisted moral/survival challenges each call -> survive to the end",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive each call's challenge",
+  "progression": "event content (Hellfire event), survival",
+  "instructions": "answer the phone and survive each call; play with up to 18 friends",
+  "mechanics": [
+   "challenge rounds",
+   "choices (warn/stay quiet, save/kill)",
+   "ghost revive",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "call-based moral-choice challenges with a horror twist"
+  ],
+  "themes": [
+   "horror",
+   "phone call",
+   "moral choice",
+   "hell"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "horror story rounds"
+  ],
+  "monetization_signals": [
+   "revive 20",
+   "ghost skins 50",
+   "coin stacks",
+   "VIP 499"
+  ],
+  "update_signals": [
+   "NEW Hellfire event",
+   "updated today"
+  ],
+  "thumbnails": "dark horror scenes: security-cam choice 'WARN THEM / STAY QUIET', SAVE/KILL buttons, shark moonlit table",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple distinct challenge scenes, narrative events, ghost skins",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q06",
+  "loop": "get Mom's shopping list -> drive through traffic jam past Grandma and guard -> fill cart without toppling -> checkout, pack trunk, race home -> mystery chest every three trips",
+  "loop_archetype": "story_adventure",
+  "objectives": "complete each shopping trip and unlock the mystery chest",
+  "progression": "trips completed, chests, vehicles and boosts",
+  "instructions": "follow Mom's list, survive the traffic and store, race home",
+  "mechanics": [
+   "shopping list",
+   "traffic obstacles",
+   "cart balancing",
+   "trip chests",
+   "pranks on NPCs"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "chaotic errand-run comedy with a balance-the-cart tower"
+  ],
+  "themes": [
+   "groceries",
+   "mom",
+   "traffic",
+   "comedy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "chaotic errand game"
+  ],
+  "monetization_signals": [
+   "skip-ahead products",
+   "vehicle products",
+   "cart rider",
+   "VIP 29",
+   "emoji pack"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "cartoon characters carrying overflowing groceries, before/after Mom shot, house and cart tower",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "several scenes (road, store, home), cart physics tower, NPC obstacles",
+  "novelty": 2,
+  "confidence": 65
+ },
+ {
+  "label": "Q07",
+  "loop": "pick weapons and powers in a physics sandbox -> shoot, punch and slow-mo kill ragdolls -> complete trials -> buy passes, bosses and powers",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck ragdolls and clear trials with S+ ratings",
+  "progression": "gems, weapons, powers, trial rank",
+  "instructions": "use guns, melee, powers and vehicles on dummies; trials and maps",
+  "mechanics": [
+   "ragdoll physics",
+   "guns and melee",
+   "kill cam",
+   "powers",
+   "trials",
+   "vehicles and drones"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "slow-mo X-ray headshot kill cam",
+   "time stop, laser eyes powers"
+  ],
+  "themes": [
+   "ragdoll",
+   "gore",
+   "sandbox",
+   "FPS"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll sandbox"
+  ],
+  "monetization_signals": [
+   "admin panel 600",
+   "many weapon/power passes",
+   "spawn boss products",
+   "gem packs",
+   "boost 2x-25x"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "first-person weapon views, skeleton X-ray icon, shooting range and lab maps",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "first-person weapons, ragdoll, kill cam, multiple maps and powers",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "grill moo ping skewers -> sell to customers for cash -> upgrade and expand the street food stall -> earn offline",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow a street-food stall into a business",
+  "progression": "upgrades, shop expansion, rebirth, offline earnings",
+  "instructions": "grill, sell, grow; codes in description",
+  "mechanics": [
+   "grilling",
+   "selling",
+   "tycoon upgrades",
+   "offline earnings",
+   "pets",
+   "rebirth",
+   "delivery"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Thai street-food theme (moo ping)"
+  ],
+  "themes": [
+   "Thai food",
+   "skewers",
+   "street food"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "food tycoon"
+  ],
+  "monetization_signals": [
+   "x2 money passes",
+   "auto build",
+   "donation products up to 5000",
+   "offline cash",
+   "style packs"
+  ],
+  "update_signals": [
+   "UPD tag",
+   "updated today"
+  ],
+  "thumbnails": "grill close-ups with 'GRILL!', 'EARN OFFLINE' and 'GRILL OFFLINE' text, shop building, hourglass 'NOW'",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "promo video present",
+  "complexity": 2,
+  "complexity_notes": "single tycoon plot, cooking and customer systems, simple UI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q09",
+  "loop": "pick a drawing prompt -> draw within time limit -> vote with emojis on others' drawings -> fireworks ceremony",
+  "loop_archetype": "party_minigames",
+  "objectives": "win the drawing vote",
+  "progression": "themes, emoji votes, brushes via passes",
+  "instructions": "draw the theme, vote, enjoy ceremony",
+  "mechanics": [
+   "drawing tools",
+   "timed rounds",
+   "voting",
+   "layers",
+   "brush types"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "free-form multiplayer drawing with advanced tools and moderated image replication"
+  ],
+  "themes": [
+   "drawing",
+   "art",
+   "creativity"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "drawing game"
+  ],
+  "monetization_signals": [
+   "time extension products",
+   "VIP 320",
+   "rainbow brush",
+   "extra layers"
+  ],
+  "update_signals": [
+   "updated 2026-11-20"
+  ],
+  "thumbnails": "duck drawing example, pencil, star-rating duel",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom drawing canvas, layers, brushes, replication with moderation",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q10",
+  "loop": "make cookies -> sell to customers -> upgrade conveyors -> expand factory -> rebirth",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "expand the cookie factory and unlock new cookie types",
+  "progression": "conveyor upgrades, rebirth, cookie types",
+  "instructions": "make, sell, upgrade, expand",
+  "mechanics": [
+   "conveyors",
+   "customers",
+   "cash upgrades",
+   "rebirth",
+   "steal cookies"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "optional cookie stealing pass"
+  ],
+  "themes": [
+   "cookies",
+   "factory"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "factory tycoon"
+  ],
+  "monetization_signals": [
+   "cash timed products",
+   "2x customer speed/cash boosts",
+   "steal cookies 680",
+   "rebirth master"
+  ],
+  "update_signals": [
+   "new cookie types coming soon",
+   "updated 2026-11-20"
+  ],
+  "thumbnails": "first-person cookie making, cookie prices ('$1.00', '$9,873,125,678'), hourglass '1 HOUR'",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "promo video present",
+  "complexity": 2,
+  "complexity_notes": "single tycoon plot, conveyors, customers",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q11",
+  "loop": "choose an element power -> earn gold -> build and expand a princess castle -> unlock elements",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build the castle and unlock elements",
+  "progression": "gold, new elements, castle size, editions",
+  "instructions": "build castle, choose Fire/Water/Earth/Darkness",
+  "mechanics": [
+   "castle building",
+   "element powers",
+   "gold income",
+   "badges"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "anime-art princess aesthetic",
+   "solo-dev project with long release history"
+  ],
+  "themes": [
+   "princess",
+   "elements",
+   "castle",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "princess tycoon"
+  ],
+  "monetization_signals": [
+   "2x gold",
+   "gold packs",
+   "donation products",
+   "premium-free VIP"
+  ],
+  "update_signals": [
+   "Royal Edition 2.7 on 18 Nov"
+  ],
+  "thumbnails": "anime princess key art in red, white, gold, dark outfits with fire effects",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large castle assets, element powers, anime art and many unlocks by one dev",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q12",
+  "loop": "build a creature from bones/jaws/limbs -> hatch it into a living world -> eat, hunt, molt, grow from Hatchling to Elder -> nest and raise a pack",
+  "loop_archetype": "other",
+  "objectives": "survive and grow to Elder, nest and lay eggs",
+  "progression": "growth stages, DNA, complexity budget",
+  "instructions": "create a Spore-like creature and survive disasters",
+  "mechanics": [
+   "creature builder",
+   "survival needs",
+   "growth stages",
+   "nesting",
+   "disasters",
+   "packs"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Spore-inspired creature creator inside a survival world"
+  ],
+  "themes": [
+   "creatures",
+   "Spore",
+   "survival",
+   "ocean"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creature survival"
+  ],
+  "monetization_signals": [
+   "DNA packs 250-1000",
+   "revive products by age",
+   "growth boosts",
+   "save slots"
+  ],
+  "update_signals": [
+   "OCEAN update",
+   "recent release with restarts"
+  ],
+  "thumbnails": "underwater creature icon, desert scenes with huge bone creatures and giant insect",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "promo video present",
+  "complexity": 5,
+  "complexity_notes": "creature builder, large world, weather disasters, growth systems, server scale to 200",
+  "novelty": 3,
+  "confidence": 70
+ },
+ {
+  "label": "Q13",
+  "loop": "open My Little Pony card packs -> collect rare cards across sets -> trade and show off -> earn coins to open more",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect all cards",
+  "progression": "coins, rarer cards, daily gifts",
+  "instructions": "open packs and trade",
+  "mechanics": [
+   "card packs",
+   "trading",
+   "collection",
+   "daily gifts"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "licensed My Little Pony IP"
+  ],
+  "themes": [
+   "My Little Pony",
+   "cards",
+   "TCG"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "licensed IP",
+   "card opening"
+  ],
+  "monetization_signals": [
+   "coin packs 25-499",
+   "double coins",
+   "triple open",
+   "fast open",
+   "gift passes"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "pony card art, booster packs, collection spreads",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "card UI, pack opening animation, trading",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "zombies climb rooftops -> shoot waves with a squad -> collect diamonds to buy guns and turrets -> clear wave 20 for Hard mode",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "survive waves and climb Top Survivors boards",
+  "progression": "classes, guns, stars, Hard mode, Blood Moon",
+  "instructions": "hold the line with up to 4 players across 3 maps",
+  "mechanics": [
+   "wave defense",
+   "classes",
+   "turrets",
+   "daily quests",
+   "seasonal leaderboards"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "pixel-art top-down anime-styled survivors"
+  ],
+  "themes": [
+   "zombies",
+   "pixel art",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "pixel zombie survival"
+  ],
+  "monetization_signals": [
+   "VIP 399",
+   "2x XP/money",
+   "revive tickets",
+   "crates",
+   "money packs"
+  ],
+  "update_signals": [
+   "season boards",
+   "updated today"
+  ],
+  "thumbnails": "pixel anime heroes shooting zombies with wave counter and combo numbers",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "top-down wave AI, classes, turrets, quests, pixel assets",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q15",
+  "loop": "play a giant kaiju -> destroy cities and fight military and kaiju bots/players -> level and invest skill points -> unlock more kaiju",
+  "loop_archetype": "combat_pvp",
+  "objectives": "unlock dozens of kaiju and conquer the open world",
+  "progression": "kaiju roster, G-Cells, levels, skill points",
+  "instructions": "battle, level up, unlock kaiju, join the group for a free one",
+  "mechanics": [
+   "kaiju combat",
+   "city destruction",
+   "skill points",
+   "unlockable kaiju",
+   "open sandbox"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "giant monster brawler with huge roster, 2600 days old"
+  ],
+  "themes": [
+   "kaiju",
+   "monsters",
+   "Godzilla"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "kaiju"
+  ],
+  "monetization_signals": [
+   "kaiju passes 300-1200",
+   "G-Cell packs",
+   "XP boosters",
+   "recolor"
+  ],
+  "update_signals": [
+   "Update 7.5.0 Sevaris",
+   "2x G-Cells weekend"
+  ],
+  "thumbnails": "fire-breathing kaiju over city, 'FIGHT FOR VICTORY' battles between giant monsters",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "promo video present",
+  "complexity": 5,
+  "complexity_notes": "large roster of animated kaiju, city destruction, combat systems",
+  "novelty": 1,
+  "confidence": 85
+ }
+]
