@@ -1,18 +1,8 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "queue": [
   {
-   "age_days": 2340,
-   "charts": [
-    "te"
-   ],
-   "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals",
-   "place": "5233782396",
-   "status": "frames_ready",
-   "u": "1831550657"
-  },
-  {
-   "age_days": 1084,
+   "age_days": 1085,
    "charts": [
     "te"
    ],
@@ -22,17 +12,17 @@
    "u": "5361032378"
   },
   {
-   "age_days": 701,
+   "age_days": 2341,
    "charts": [
     "te"
    ],
-   "name": "[🧿 RIN + 🎃] Azure Latch",
-   "place": "94647229517154",
-   "status": "youtube_needed",
-   "u": "6945584306"
+   "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals",
+   "place": "5233782396",
+   "status": "frames_ready",
+   "u": "1831550657"
   },
   {
-   "age_days": 2686,
+   "age_days": 2687,
    "charts": [
     "te"
    ],
@@ -40,6 +30,16 @@
    "place": "3475397644",
    "status": "frames_ready",
    "u": "1235188606"
+  },
+  {
+   "age_days": 702,
+   "charts": [
+    "te"
+   ],
+   "name": "[🧿 RIN + 🎃] Azure Latch",
+   "place": "94647229517154",
+   "status": "youtube_needed",
+   "u": "6945584306"
   }
  ],
  "waiting": [
