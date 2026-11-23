@@ -1,0 +1,657 @@
+[
+ {
+  "label": "Q16",
+  "loop": "grab/hatch an egg -> evolve it into rainbow pets using luck -> earn money -> buy speed/luck upgrades",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "get rainbow pets",
+  "progression": "money, speed, growth",
+  "instructions": "get rainbow pets and use luck",
+  "mechanics": [
+   "egg evolve",
+   "luck",
+   "money",
+   "speed"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "unclear; description minimal"
+  ],
+  "themes": [
+   "eggs",
+   "pets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolve-an-egg",
+   "2x luck"
+  ],
+  "monetization_signals": [
+   "admin panel pass",
+   "infinite money",
+   "skip growth",
+   "83 products"
+  ],
+  "update_signals": [
+   "2X LUCK tag"
+  ],
+  "thumbnails": "player carrying rainbow egg chased by dragon-lion creature",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple egg growth, pet models",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q17",
+  "loop": "run to school while dogs chase you -> collect coins -> buy bags/pups/lucky blocks",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "make it to school before dogs catch you",
+  "progression": "coins, bundles",
+  "instructions": "run to school",
+  "mechanics": [
+   "chase",
+   "lucky blocks",
+   "coins",
+   "jetpack"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "dogs-chase-you school run"
+  ],
+  "themes": [
+   "dogs",
+   "school"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "run-from-x"
+  ],
+  "monetization_signals": [
+   "Founder's Bundle 2000",
+   "lucky block rolls",
+   "revive"
+  ],
+  "update_signals": [
+   "updated 11-21"
+  ],
+  "thumbnails": "scared avatar chased by bulldogs near school",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "chase AI, map",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q18",
+  "loop": "pick a 4x4 -> crawl through boulders, rivers, snow -> find hidden places -> use winches/upgrades",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore the mountain and find ~100 hidden spots",
+  "progression": "credits, vehicles, parts",
+  "instructions": "crawl over terrain, winch out",
+  "mechanics": [
+   "off-road driving",
+   "winching",
+   "exploration",
+   "crates",
+   "customization"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "no-race relaxed crawling with winch and canoe"
+  ],
+  "themes": [
+   "off-road",
+   "4x4",
+   "mountain"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "offroad crawling"
+  ],
+  "monetization_signals": [
+   "vehicle packs 449",
+   "credit packs",
+   "crates"
+  ],
+  "update_signals": [
+   "weekly-ish updates"
+  ],
+  "thumbnails": "4x4 trucks on rocks and by a lake",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large open map, vehicle physics, winch systems",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q19",
+  "loop": "click for +1 chakra -> unlock jutsu -> clear stages and beat bosses -> hatch auras/styles -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become Jutsu Master",
+  "progression": "chakra, jutsu, worlds, rebirth",
+  "instructions": "click, clear stages, rebirth, use codes",
+  "mechanics": [
+   "+1 click",
+   "jutsu",
+   "stages",
+   "boss",
+   "hatching",
+   "rebirth",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Naruto-inspired +1 combat hybrid"
+  ],
+  "themes": [
+   "Naruto",
+   "ninja"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1",
+   "anime"
+  ],
+  "monetization_signals": [
+   "limited chakra pass",
+   "auto passes",
+   "chakra packs"
+  ],
+  "update_signals": [
+   "W3 world update",
+   "codes"
+  ],
+  "thumbnails": "Naruto-like avatar with +1 and +7M flex",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 with stages",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q20",
+  "loop": "pick up fares in a taxi -> drive across city, escape cops if robber -> earn cash -> unlock cabs",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn cash driving fares and escape cops",
+  "progression": "cash, cars, premium pass",
+  "instructions": "pick fares, avoid cops",
+  "mechanics": [
+   "taxi fares",
+   "police chase",
+   "street races",
+   "crates",
+   "battle pass"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "taxi passenger may be a robber"
+  ],
+  "themes": [
+   "taxi",
+   "police chase"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Christmas bundle",
+   "getaway"
+  ],
+  "monetization_signals": [
+   "Helicopter 1299",
+   "unlock all cars",
+   "premium pass"
+  ],
+  "update_signals": [
+   "Neon Nights season"
+  ],
+  "thumbnails": "yellow taxi chased by police",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "city map, vehicles, season pass",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "lasso pets -> escape guardian -> ride pets and earn money -> train lasso -> new zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect all pets in the Index",
+  "progression": "lasso power, zones",
+  "instructions": "catch, ride, earn, train",
+  "mechanics": [
+   "lasso",
+   "ride pets",
+   "guardian",
+   "index",
+   "fuse"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "riding captured pets"
+  ],
+  "themes": [
+   "dinosaurs",
+   "pets"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "catch-a-x",
+   "ride"
+  ],
+  "monetization_signals": [
+   "pumpkin chests",
+   "cash packs",
+   "fuse speed"
+  ],
+  "update_signals": [
+   "Thanksgiving UPD"
+  ],
+  "thumbnails": "T-Rex with $89,121Sp/s, lasso on pets",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "creature models, lasso",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q22",
+  "loop": "drink ocean with straw -> upgrade jug -> sell -> buy boats -> find treasure",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "drink the whole ocean",
+  "progression": "jug size, straws, boats, treasure",
+  "instructions": "drink, upgrade, sell",
+  "mechanics": [
+   "drinking",
+   "upgrades",
+   "boats",
+   "treasure",
+   "codes",
+   "lobbies"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "drink-the-sea gimmick (Clean the Moon style)"
+  ],
+  "themes": [
+   "ocean",
+   "beach"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying sim gimmick"
+  ],
+  "monetization_signals": [
+   "drink power",
+   "helpers",
+   "luck packs 104 products"
+  ],
+  "update_signals": [
+   "UPDATE2 code"
+  ],
+  "thumbnails": "first-person straw into whirlpool",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "water FX",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q23",
+  "loop": "climb tower of floors with creepypasta chasers -> use powers -> survive",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach highest floor",
+  "progression": "floors",
+  "instructions": "climb together, avoid creepypastas",
+  "mechanics": [
+   "tower climb",
+   "chasers",
+   "punches",
+   "revive"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "creepypasta theming"
+  ],
+  "themes": [
+   "Slenderman",
+   "creepypasta"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creepypasta tower"
+  ],
+  "monetization_signals": [
+   "many Golpe passes",
+   "kill everyone"
+  ],
+  "update_signals": [
+   "next update teased"
+  ],
+  "thumbnails": "dark creepy monsters on stairs",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower obby",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "open photocard packs -> stock shelves and serve customers -> hire staff -> expand",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow the cutest KPOP store",
+  "progression": "level, store themes",
+  "instructions": "run shop, open packs",
+  "mechanics": [
+   "pack opening",
+   "shop management",
+   "staff",
+   "thieves",
+   "offline earnings"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "KPOP photocard shop"
+  ],
+  "themes": [
+   "kpop",
+   "photocards",
+   "shop"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "supermarket sim",
+   "kpop"
+  ],
+  "monetization_signals": [
+   "gift storefronts",
+   "fast open",
+   "cash tiers"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "idol photocards and cash register",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "store sim with NPCs",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "ride motorbike -> wheelie and jump for cash -> buy upgrades",
+  "loop_archetype": "racing_driving",
+  "objectives": "wheelie for cash",
+  "progression": "cash",
+  "instructions": "ride with friends, wheelie",
+  "mechanics": [
+   "wheelies",
+   "jumps",
+   "bikes"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "wheelie-cash bike game"
+  ],
+  "themes": [
+   "motorbike"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "wheelie"
+  ],
+  "monetization_signals": [
+   "donations",
+   "cash packs",
+   "MAX OUT"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "bike wheelies",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q26",
+  "loop": "fish chests -> open for pirates -> place crew to earn -> sail to new islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rarest pirates",
+  "progression": "islands",
+  "instructions": "fish, open, place, boss",
+  "mechanics": [
+   "fishing chests",
+   "pirate crew",
+   "mutations",
+   "world boss"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "One Piece-like pirates with 1 in 41 trillion odds"
+  ],
+  "themes": [
+   "pirates",
+   "One Piece"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fish-a-x"
+  ],
+  "monetization_signals": [
+   "spin packs up to 3599",
+   "139 products"
+  ],
+  "update_signals": [
+   "NEW UPD"
+  ],
+  "thumbnails": "1 IN 735M flexes",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q27",
+  "loop": "hide/run from SCPs or become SCP -> survive",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the containment breach",
+  "progression": "RP",
+  "instructions": "survive",
+  "mechanics": [
+   "SCP",
+   "infection",
+   "1 vs all",
+   "voting"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "SCP infection mode"
+  ],
+  "themes": [
+   "SCP"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "SCP"
+  ],
+  "monetization_signals": [
+   "MTF 500",
+   "RP packs"
+  ],
+  "update_signals": [
+   "code VOICES"
+  ],
+  "thumbnails": "SCPs and DON'T LOOK",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple roles/maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q28",
+  "loop": "buy buildings/animatronics -> place in pizzeria -> simulate nights -> raid others",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "collect 30+ animatronics",
+  "progression": "cash, parts",
+  "instructions": "build, simulate, raid",
+  "mechanics": [
+   "tycoon",
+   "animatronics",
+   "raids",
+   "offline earnings"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "FNAF build & survive"
+  ],
+  "themes": [
+   "FNAF"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "FNAF"
+  ],
+  "monetization_signals": [
+   "204 products",
+   "VIP 599"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "noob vs pro FNAF base",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "building, nights",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q29",
+  "loop": "build battle station rooms -> earn credits -> pilot ships/fight",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build powerful station",
+  "progression": "credits, worlds, rebirths",
+  "instructions": "build, fly, fight",
+  "mechanics": [
+   "tycoon",
+   "starfighters",
+   "armor",
+   "raids",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Star Wars-style Death Star tycoon"
+  ],
+  "themes": [
+   "Star Wars"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Death Star"
+  ],
+  "monetization_signals": [
+   "Executrix 1999",
+   "packs"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "Death Star and TIE fighters",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "many systems",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q30",
+  "loop": "one teacher spots real students among NPCs; students sneak snacks",
+  "loop_archetype": "party_minigames",
+  "objectives": "fill class bar or catch all",
+  "progression": "gems, gold",
+  "instructions": "hide and snack",
+  "mechanics": [
+   "asymmetric",
+   "hide among NPCs",
+   "snacks",
+   "map vote"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "teacher vs hidden players among NPCs"
+  ],
+  "themes": [
+   "school",
+   "teacher"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Baldi",
+   "mukbang"
+  ],
+  "monetization_signals": [
+   "Battle Pass",
+   "ability rolls",
+   "Be the Teacher"
+  ],
+  "update_signals": [
+   "Lights Out mode"
+  ],
+  "thumbnails": "POV snacking, teacher",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "NPC crowds",
+  "novelty": 2,
+  "confidence": 80
+ }
+]

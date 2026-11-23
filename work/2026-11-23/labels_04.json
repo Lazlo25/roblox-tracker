@@ -1,0 +1,635 @@
+[
+ {
+  "label": "Q46",
+  "loop": "slap players with unique gloves -> earn slaps -> unlock more gloves",
+  "loop_archetype": "combat_pvp",
+  "objectives": "slap everyone, unlock gloves",
+  "progression": "slaps, gloves, badges",
+  "instructions": "slap, use abilities",
+  "mechanics": [
+   "gloves",
+   "abilities",
+   "killstreaks",
+   "badges",
+   "boss"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "huge glove roster, 174 badges"
+  ],
+  "themes": [
+   "slapping"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "battlegrounds"
+  ],
+  "monetization_signals": [
+   "slap packs",
+   "custom glove 394",
+   "revives"
+  ],
+  "update_signals": [
+   "regular updates (plant update)"
+  ],
+  "thumbnails": "glove art and slap logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large content, many abilities",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q47",
+  "loop": "steal/open anime packs -> units earn cash -> explore zones, train, mutations/dungeons",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect the rarest units, earn cash",
+  "progression": "zones, grades, mutations",
+  "instructions": "steal packs, open, train",
+  "mechanics": [
+   "stealing",
+   "pack opening",
+   "mutations",
+   "dungeons",
+   "offline earnings"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "steal-a-x with anime packs, 1 in quadrillion odds"
+  ],
+  "themes": [
+   "anime",
+   "packs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "anime"
+  ],
+  "monetization_signals": [
+   "server luck x64",
+   "187 products",
+   "no passes"
+  ],
+  "update_signals": [
+   "codes at 50K likes"
+  ],
+  "thumbnails": "1 in 998,949,999,435 numbers, anime characters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "cast lure -> follow underwater -> hook bass -> sell -> buy gear/boats",
+  "loop_archetype": "simulation_job",
+  "objectives": "catch big bass on a real lake recreation",
+  "progression": "cash, rods, boats",
+  "instructions": "cast, set hook, sell",
+  "mechanics": [
+   "fishing sim",
+   "boat driving",
+   "day-night",
+   "real lake"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "full-size Lake Seminole recreation with underwater lure view"
+  ],
+  "themes": [
+   "bass fishing",
+   "Thanksgiving",
+   "trucks and trailers"
+  ],
+  "audience": "older",
+  "trend_hooks": [
+   "realistic fishing"
+  ],
+  "monetization_signals": [
+   "truck pass 599",
+   "cash packs"
+  ],
+  "update_signals": [
+   "Trucks&Trailers update"
+  ],
+  "thumbnails": "bass and lure close up",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large map, fish AI, boats",
+  "novelty": 3,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "tame/breed horses -> build home and stable -> compete in races",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build dream stable",
+  "progression": "breeding, mutations, home",
+  "instructions": "ride and breed",
+  "mechanics": [
+   "horse breeding",
+   "home system",
+   "mutations",
+   "events"
+  ],
+  "social": "social_hub",
+  "competitive": "light",
+  "unique": [
+   "deep breeding/mutations"
+  ],
+  "themes": [
+   "horses"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "pet roleplay"
+  ],
+  "monetization_signals": [
+   "270+ bundles",
+   "slots"
+  ],
+  "update_signals": [
+   "Terraling release, alien event"
+  ],
+  "thumbnails": "day 1 vs day 100 horses",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "3 maps, breeding genetics",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q50",
+  "loop": "find morphs -> use abilities -> fight bosses/survival mode",
+  "loop_archetype": "story_adventure",
+  "objectives": "unlock 530+ morphs",
+  "progression": "morphs, XP",
+  "instructions": "collect morphs, battle bosses",
+  "mechanics": [
+   "morphs",
+   "puzzles",
+   "parkour",
+   "pvp",
+   "bosses"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "morph hunt format"
+  ],
+  "themes": [
+   "monsters",
+   "medieval"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "morph hunt"
+  ],
+  "monetization_signals": [
+   "keys/coins packs",
+   "195 products",
+   "no passes"
+  ],
+  "update_signals": [
+   "Medieval update"
+  ],
+  "thumbnails": "colorful morph monsters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "530 morphs, 10 worlds",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q51",
+  "loop": "hatch chicks -> raise/breed roosters -> fight cups, clan derby, ship birds",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "breed champion bloodline",
+  "progression": "breeds, islands, clan",
+  "instructions": "raise and battle",
+  "mechanics": [
+   "breeding",
+   "PvP fights",
+   "trading",
+   "clans",
+   "coops"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "rooster fighting breeding"
+  ],
+  "themes": [
+   "roosters",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "breed-a-x"
+  ],
+  "monetization_signals": [
+   "Gene luck 2499",
+   "gift passes"
+  ],
+  "update_signals": [
+   "UPD 3.0 Japan"
+  ],
+  "thumbnails": "fighting roosters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "animations, islands",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q52",
+  "loop": "drive cars around Riyadh-inspired map -> buy cars with riyals",
+  "loop_archetype": "racing_driving",
+  "objectives": "drive and collect cars",
+  "progression": "riyals",
+  "instructions": "free roam",
+  "mechanics": [
+   "free roam driving",
+   "car buy",
+   "customization"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "Saudi/Riyadh map, Arabic"
+  ],
+  "themes": [
+   "Riyadh",
+   "cars"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "regional"
+  ],
+  "monetization_signals": [
+   "riyal packs",
+   "car passes"
+  ],
+  "update_signals": [
+   "v1.2"
+  ],
+  "thumbnails": "cars in city",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "city map",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q53",
+  "loop": "ride bikes through San Francisco -> earn cash -> buy bikes",
+  "loop_archetype": "racing_driving",
+  "objectives": "collect bikes and explore",
+  "progression": "cash, bikes",
+  "instructions": "free roam",
+  "mechanics": [
+   "motorcycles",
+   "scooters",
+   "customization",
+   "codes"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "SF Golden Gate recreation"
+  ],
+  "themes": [
+   "motorcycles"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bikes"
+  ],
+  "monetization_signals": [
+   "turbo passes 999",
+   "1M cash 4999"
+  ],
+  "update_signals": [
+   "NEW BIKE"
+  ],
+  "thumbnails": "bike on Golden Gate",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "detailed city",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q54",
+  "loop": "open card packs -> stock shelves, price, sell -> expand and trade",
+  "loop_archetype": "simulation_job",
+  "objectives": "build best card shop",
+  "progression": "8000 cards",
+  "instructions": "run shop",
+  "mechanics": [
+   "pack opening",
+   "shop",
+   "trade",
+   "grading",
+   "staff"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "many card categories"
+  ],
+  "themes": [
+   "trading cards",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "shop sim"
+  ],
+  "monetization_signals": [
+   "quick opening",
+   "staff slots",
+   "cash"
+  ],
+  "update_signals": [
+   "UPD, code 4million"
+  ],
+  "thumbnails": "cards and shop avatars",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "many items",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q55",
+  "loop": "drive ATVs/UTVs off-road -> do jobs -> customize",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore trails",
+  "progression": "money",
+  "instructions": "drive and customize",
+  "mechanics": [
+   "off-road",
+   "tuning",
+   "jobs",
+   "freecam"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "realistic ATV trails"
+  ],
+  "themes": [
+   "ATV",
+   "off-road"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "offroad"
+  ],
+  "monetization_signals": [
+   "many vehicle packs",
+   "money packs"
+  ],
+  "update_signals": [
+   "v9.0"
+  ],
+  "thumbnails": "photoreal ATV scenes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "realistic maps",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q56",
+  "loop": "place hero towers -> beat noob waves -> earn Tix",
+  "loop_archetype": "tower_defense",
+  "objectives": "stop invasion",
+  "progression": "tix, exp",
+  "instructions": "place towers",
+  "mechanics": [
+   "TD",
+   "trading",
+   "skins",
+   "endless"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Retro Roblox nostalgia"
+  ],
+  "themes": [
+   "retro Roblox"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nostalgia"
+  ],
+  "monetization_signals": [
+   "tower unlocks",
+   "tiers",
+   "skins"
+  ],
+  "update_signals": [
+   "Shedletsky update"
+  ],
+  "thumbnails": "retro heroes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "many towers",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "open packs for powers -> fight players -> destroy city",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest hero",
+  "progression": "powers",
+  "instructions": "pack open, fight",
+  "mechanics": [
+   "+1",
+   "superpowers",
+   "destruction",
+   "packs"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "destructible city superhero"
+  ],
+  "themes": [
+   "superheroes",
+   "Naruto"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1"
+  ],
+  "monetization_signals": [
+   "training multipliers",
+   "packs"
+  ],
+  "update_signals": [
+   "Christmas event"
+  ],
+  "thumbnails": "lasers and +1",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "physics",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q58",
+  "loop": "explore, fight cursed spirits -> roll clans -> gear",
+  "loop_archetype": "story_adventure",
+  "objectives": "master techniques",
+  "progression": "mastery, gear",
+  "instructions": "fight",
+  "mechanics": [
+   "action RPG",
+   "clan rolls",
+   "gear",
+   "ranked"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Jujutsu Kaisen"
+  ],
+  "themes": [
+   "Jujutsu Kaisen"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG"
+  ],
+  "monetization_signals": [
+   "pity booster 1999",
+   "clan rolls"
+  ],
+  "update_signals": [
+   "beta updates"
+  ],
+  "thumbnails": "Gojo art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "big RPG",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q59",
+  "loop": "open-world martial arts -> reroll clan/char -> fight",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strong fighter",
+  "progression": "clan",
+  "instructions": "unclear (Japanese)",
+  "mechanics": [
+   "martial arts",
+   "clan reroll",
+   "open world"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Japanese setting"
+  ],
+  "themes": [
+   "samurai"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Japan"
+  ],
+  "monetization_signals": [
+   "reroll tokens",
+   "clan tokens"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "ink art samurai",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "unclear",
+  "novelty": 1,
+  "confidence": 50
+ },
+ {
+  "label": "Q60",
+  "loop": "spawn crates -> open for cars -> collect to earn",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "collect dream cars",
+  "progression": "rebirths",
+  "instructions": "spawn, open",
+  "mechanics": [
+   "crates",
+   "cars",
+   "offline",
+   "rebirth"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "car crates"
+  ],
+  "themes": [
+   "cars"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "luck crates"
+  ],
+  "monetization_signals": [
+   "instant growth 1999",
+   "mavrix"
+  ],
+  "update_signals": [
+   "UPD 7"
+  ],
+  "thumbnails": "1 IN 97,813,203",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "cars",
+  "novelty": 1,
+  "confidence": 85
+ }
+]

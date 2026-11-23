@@ -1,0 +1,652 @@
+[
+ {
+  "label": "Q31",
+  "loop": "spawn on a block tower over lava -> break lucky blocks for items -> knock others off -> last survivors win",
+  "loop_archetype": "combat_pvp",
+  "objectives": "be the best survivor",
+  "progression": "coins, skins, capes",
+  "instructions": "break lucky blocks, survive",
+  "mechanics": [
+   "lucky blocks",
+   "last man standing",
+   "skins",
+   "win streak"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Minecraft-style lucky block arena"
+  ],
+  "themes": [
+   "lucky blocks",
+   "lava",
+   "Minecraft"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "lucky blocks"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "coin packs",
+   "restore winstreak"
+  ],
+  "update_signals": [
+   "code at 2,000 likes"
+  ],
+  "thumbnails": "avatar on obsidian block above lava, lucky blocks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple arena",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "one-shot revolver FFA/TDM/CTF -> ranked -> open cases for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win matches, climb ranked Bronze to Pro",
+  "progression": "rank, level, skins",
+  "instructions": "one-shot hits, knife finishers, ranked",
+  "mechanics": [
+   "one-shot revolver",
+   "movement tech",
+   "ranked",
+   "case opening",
+   "kill effects"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "fast movement one-shot shooter with deep skin economy"
+  ],
+  "themes": [
+   "revolvers",
+   "arena",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "case-opening skins"
+  ],
+  "monetization_signals": [
+   "skin bundles",
+   "cases",
+   "Arena Pass"
+  ],
+  "update_signals": [
+   "Thanksgiving event",
+   "regular updates"
+  ],
+  "thumbnails": "close-up revolver skins",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "movement tech, modes, ranked",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q33",
+  "loop": "explore voxel world -> mine/craft/enchant -> claim land and kingdom -> fight",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build kingdom",
+  "progression": "crafting, ores, gold",
+  "instructions": "survive and build",
+  "mechanics": [
+   "voxel survival",
+   "crafting",
+   "biomes",
+   "kingdoms",
+   "private worlds"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Minecraft-like SMP with 132 biomes"
+  ],
+  "themes": [
+   "Minecraft"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "voxel survival"
+  ],
+  "monetization_signals": [
+   "huge boost passes up to 90000R",
+   "99 products"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "Minecraft-like landscapes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large procedural voxel world",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "parkour around map avoiding nextbots -> survive rounds -> earn tokens and cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive nextbots",
+  "progression": "tokens, xp, battle pass",
+  "instructions": "use movement",
+  "mechanics": [
+   "nextbots",
+   "parkour",
+   "emotes",
+   "lore"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "established nextbot parkour hit"
+  ],
+  "themes": [
+   "nextbots",
+   "parkour"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbot"
+  ],
+  "monetization_signals": [
+   "aura addons",
+   "cosmetic sets",
+   "tokens"
+  ],
+  "update_signals": [
+   "revamp, Thanksgiving soon"
+  ],
+  "thumbnails": "dark nextbot scenes, 12 HOURS icon",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "mature game",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q35",
+  "loop": "summon anime units -> place on map -> defend waves -> level units",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend worlds",
+  "progression": "gems, units",
+  "instructions": "summon and defend",
+  "mechanics": [
+   "gacha",
+   "tower placement",
+   "raids",
+   "codes"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "anime TD"
+  ],
+  "themes": [
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime TD"
+  ],
+  "monetization_signals": [
+   "gems packs",
+   "shiny hunter",
+   "unit storage"
+  ],
+  "update_signals": [
+   "ANNI P2",
+   "codes at likes"
+  ],
+  "thumbnails": "anime heroes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "large content",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q36",
+  "loop": "grow plants as towers -> defend base from swarms -> unlock plants",
+  "loop_archetype": "tower_defense",
+  "objectives": "defend base with plants",
+  "progression": "seeds, plants",
+  "instructions": "place plants",
+  "mechanics": [
+   "plants as units",
+   "traits",
+   "morph",
+   "trading",
+   "game speed"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Grow a Garden theme TD"
+  ],
+  "themes": [
+   "garden",
+   "plants",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "grow-a-garden"
+  ],
+  "monetization_signals": [
+   "seed packs",
+   "sandbox 999",
+   "274+ products"
+  ],
+  "update_signals": [
+   "weekly Saturday updates"
+  ],
+  "thumbnails": "turkey barn event",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "350 plants, modes",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q37",
+  "loop": "summon dragons -> evolve -> defend maps -> trade",
+  "loop_archetype": "tower_defense",
+  "objectives": "collect 43 dragons",
+  "progression": "gems, coins, talents",
+  "instructions": "summon and defend",
+  "mechanics": [
+   "dragons",
+   "evolve",
+   "trade",
+   "quests",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "dragon TD with trading"
+  ],
+  "themes": [
+   "dragons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "toilet TD"
+  ],
+  "monetization_signals": [
+   "potions",
+   "gems",
+   "no passes"
+  ],
+  "update_signals": [
+   "Saturday updates",
+   "Thanksgiving event"
+  ],
+  "thumbnails": "dragons levels 1/10/100",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "models, maps",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q38",
+  "loop": "explore as mage -> fight enemies/bosses -> gain mastery and grimoires -> spin",
+  "loop_archetype": "story_adventure",
+  "objectives": "become legendary mage",
+  "progression": "mastery, grimoires",
+  "instructions": "fight, explore (Portuguese)",
+  "mechanics": [
+   "action RPG",
+   "grimoires",
+   "spins",
+   "party"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Black Clover inspired, Portuguese"
+  ],
+  "themes": [
+   "anime magic",
+   "Black Clover"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG"
+  ],
+  "monetization_signals": [
+   "slots",
+   "double potions",
+   "battlepass"
+  ],
+  "update_signals": [
+   "SAINT MODE update"
+  ],
+  "thumbnails": "anime mage",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world combat",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q39",
+  "loop": "spawn vehicles and trailers -> tow, mud, farm roleplay -> customize",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build setups and roleplay",
+  "progression": "vehicles",
+  "instructions": "drive, tow",
+  "mechanics": [
+   "vehicles",
+   "trailers",
+   "towing",
+   "winch",
+   "customization"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "deep vehicle/trailer customization"
+  ],
+  "themes": [
+   "trucks",
+   "mudding",
+   "Thanksgiving"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "vehicle sim"
+  ],
+  "monetization_signals": [
+   "spawner passes",
+   "limited vehicles",
+   "gifts"
+  ],
+  "update_signals": [
+   "11/21 wrecker update"
+  ],
+  "thumbnails": "tow truck and racer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 5,
+  "complexity_notes": "advanced vehicles",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q40",
+  "loop": "roll units -> place -> defend waves -> raids",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect units",
+  "progression": "luck, rebirths",
+  "instructions": "roll, place",
+  "mechanics": [
+   "RNG",
+   "tower defense",
+   "evolve",
+   "raids"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "RNG+TD"
+  ],
+  "themes": [
+   "One Piece",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "One Piece",
+   "RNG"
+  ],
+  "monetization_signals": [
+   "bundles",
+   "bone coins",
+   "300+ products"
+  ],
+  "update_signals": [
+   "UPDATE 4"
+  ],
+  "thumbnails": "Gear 5 Luffy",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "lots of content",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q41",
+  "loop": "shoot to +1 damage -> rebirth for arrows -> forge bows -> roll kin",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "get stronger",
+  "progression": "damage, rebirths",
+  "instructions": "shoot",
+  "mechanics": [
+   "+1",
+   "forge",
+   "spire",
+   "kin",
+   "offline"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "+1 with bow forging"
+  ],
+  "themes": [
+   "bows"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1"
+  ],
+  "monetization_signals": [
+   "damage packs",
+   "kin slots",
+   "138 products"
+  ],
+  "update_signals": [
+   "W2",
+   "code"
+  ],
+  "thumbnails": "avatar with bow, +1T numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q42",
+  "loop": "knock on hotel doors and run -> escape guests -> get paid",
+  "loop_archetype": "party_minigames",
+  "objectives": "knock and escape",
+  "progression": "money",
+  "instructions": "knock, run, hide",
+  "mechanics": [
+   "ding-dong-ditch",
+   "hiding",
+   "knock styles"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "door-knocking prank"
+  ],
+  "themes": [
+   "hotel",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ditch"
+  ],
+  "monetization_signals": [
+   "knock passes",
+   "owners key 1499"
+  ],
+  "update_signals": [
+   "Thanksgiving"
+  ],
+  "thumbnails": "hallway, kick door",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "maps and chase",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q43",
+  "loop": "loot building -> evade monster -> or be entity",
+  "loop_archetype": "horror_escape",
+  "objectives": "steal and escape",
+  "progression": "cash, cases",
+  "instructions": "loot, hide",
+  "mechanics": [
+   "looting",
+   "entity",
+   "VR",
+   "cases"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "asymmetric loot escape"
+  ],
+  "themes": [
+   "monster",
+   "Locust"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "cases",
+   "entity chance"
+  ],
+  "update_signals": [
+   "v2.3"
+  ],
+  "thumbnails": "dark monsters",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "solo dev",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q44",
+  "loop": "present or interrupt presentations -> spend points on actions",
+  "loop_archetype": "roleplay_social",
+  "objectives": "make funniest presentation",
+  "progression": "points",
+  "instructions": "use actions",
+  "mechanics": [
+   "presentation",
+   "actions",
+   "quests"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "classroom prank roleplay"
+  ],
+  "themes": [
+   "school"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "school roleplay"
+  ],
+  "monetization_signals": [
+   "203 products",
+   "points packs"
+  ],
+  "update_signals": [
+   "Update 139"
+  ],
+  "thumbnails": "avatars with :CRASHOUT",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "UI heavy",
+  "novelty": 2,
+  "confidence": 90
+ },
+ {
+  "label": "Q45",
+  "loop": "blow gum -> hatch pets -> fish -> events",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect secret pets",
+  "progression": "currency, islands",
+  "instructions": "hatch, blow",
+  "mechanics": [
+   "pets",
+   "gum",
+   "season pass",
+   "spin"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "established"
+  ],
+  "themes": [
+   "bubble gum",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "BGSI"
+  ],
+  "monetization_signals": [
+   "50% OFF passes",
+   "263+ products"
+  ],
+  "update_signals": [
+   "Friday updates",
+   "Christmas next"
+  ],
+  "thumbnails": "+1M +1T bubbles",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "big game",
+  "novelty": 1,
+  "confidence": 90
+ }
+]
