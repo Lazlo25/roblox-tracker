@@ -1,0 +1,651 @@
+[
+ {
+  "label": "Q31",
+  "loop": "break lucky blocks for items on lava tower -> fight; best survivor wins -> coins for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "be last survivor",
+  "progression": "coins, skins, capes",
+  "instructions": "like for coin code",
+  "mechanics": [
+   "lucky blocks",
+   "battle royale",
+   "lava",
+   "win streak"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "lucky-block tower brawl"
+  ],
+  "themes": [
+   "Minecraft-style",
+   "lucky blocks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "lucky blocks"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "coin packs",
+   "revive"
+  ],
+  "update_signals": [
+   "like-milestone codes"
+  ],
+  "thumbnails": "Minecraft-style avatar with diamond sword on obsidian, lucky blocks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "small arena, item system",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "one-shot revolver deathmatch with movement -> level, rank -> open cases for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "top leaderboards, climb ranked",
+  "progression": "level, rank Bronze to Pro, skins",
+  "instructions": "vote maps, queue modes",
+  "mechanics": [
+   "FFA",
+   "TDM",
+   "CTF",
+   "gun game",
+   "ranked",
+   "wall run",
+   "case opening",
+   "kill effects"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "one-shot revolver with knife finishers"
+  ],
+  "themes": [
+   "revolvers",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "one-shot shooter"
+  ],
+  "monetization_signals": [
+   "skin bundles",
+   "78 products",
+   "Arena pass"
+  ],
+  "update_signals": [
+   "Thanksgiving event"
+  ],
+  "thumbnails": "fall-themed revolver, first-person gun skins",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "movement system, multiple modes, ranked",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q33",
+  "loop": "explore voxel world -> mine, craft, claim land, kingdom war",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build kingdom",
+  "progression": "tools, enchants, land",
+  "instructions": "private world saves",
+  "mechanics": [
+   "voxel survival",
+   "crafting",
+   "enchanting",
+   "kingdom war",
+   "132 biomes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Minecraft clone with 90000 R$ pass"
+  ],
+  "themes": [
+   "voxel",
+   "Minecraft"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Minecraft"
+  ],
+  "monetization_signals": [
+   "38 passes up to 90000",
+   "multipliers"
+  ],
+  "update_signals": [
+   "new"
+  ],
+  "thumbnails": "Terracraft logo and voxel landscapes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "voxel terrain, crafting, 900 items",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "play nextbot parkour survival, evade chasers -> tokens -> cosmetics",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive nextbots",
+  "progression": "tokens, battlepass",
+  "instructions": "press Play",
+  "mechanics": [
+   "nextbot",
+   "parkour",
+   "movement",
+   "battlepass",
+   "cosmetics"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "nextbot movement horror"
+  ],
+  "themes": [
+   "nextbots",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbot"
+  ],
+  "monetization_signals": [
+   "Aura add-ons 1200",
+   "token packs"
+  ],
+  "update_signals": [
+   "revamped UI",
+   "Thanksgiving soon"
+  ],
+  "thumbnails": "12 HOURS icon, dark nextbot art",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "movement, many maps, bots",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q35",
+  "loop": "summon anime units -> place in waves -> level and evolve",
+  "loop_archetype": "tower_defense",
+  "objectives": "save worlds with strongest units",
+  "progression": "gems, units, worlds",
+  "instructions": "like for codes",
+  "mechanics": [
+   "summon",
+   "unit placement",
+   "waves",
+   "raids",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "all-anime units"
+  ],
+  "themes": [
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime TD"
+  ],
+  "monetization_signals": [
+   "Shiny Hunter",
+   "gems packs",
+   "gift"
+  ],
+  "update_signals": [
+   "Anniversary P2",
+   "likes codes"
+  ],
+  "thumbnails": "anime heroes and logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many unit models and abilities",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q36",
+  "loop": "place plants as units -> defend base from enemy swarms -> seeds, traits",
+  "loop_archetype": "tower_defense",
+  "objectives": "grow 350 plants, top leaderboards",
+  "progression": "seeds, units, traits",
+  "instructions": "weekly Saturday updates",
+  "mechanics": [
+   "tower defense",
+   "plants",
+   "morph",
+   "trading",
+   "roll traits"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Grow a Garden theme TD, morph into unit"
+  ],
+  "themes": [
+   "garden",
+   "plants",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Grow a Garden"
+  ],
+  "monetization_signals": [
+   "274 products",
+   "seeds",
+   "sandbox mode"
+  ],
+  "update_signals": [
+   "weekly Saturday",
+   "Turkey mode"
+  ],
+  "thumbnails": "barn and turkey, NOW!, lab plants",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "350 unit types",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "summon dragons -> evolve -> place and defend waves",
+  "loop_archetype": "tower_defense",
+  "objectives": "collect 43 dragons",
+  "progression": "coins gems dragons",
+  "instructions": "like for codes",
+  "mechanics": [
+   "summon",
+   "evolve",
+   "trade",
+   "talents",
+   "quests",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "dragon units in TD"
+  ],
+  "themes": [
+   "dragons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "toilet TD"
+  ],
+  "monetization_signals": [
+   "78 products",
+   "no passes"
+  ],
+  "update_signals": [
+   "Saturday updates",
+   "Thanksgiving event"
+  ],
+  "thumbnails": "dragon evolution LEVEL 1/10/100",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "dragon models, 6 maps",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "explore open world as mage -> fight bosses -> grimoire magic",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become legendary mage",
+  "progression": "mastery yens grimoire slots",
+  "instructions": "like and favorite",
+  "mechanics": [
+   "action RPG",
+   "grimoire",
+   "bosses",
+   "open world",
+   "spins"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Black Clover grimoire theme (Portuguese)"
+  ],
+  "themes": [
+   "Black Clover",
+   "anime magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RPG"
+  ],
+  "monetization_signals": [
+   "grimoire slots",
+   "double exp products",
+   "battlepass"
+  ],
+  "update_signals": [
+   "Saint mode"
+  ],
+  "thumbnails": "anime mage characters with flames",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world combat",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q39",
+  "loop": "drive trucks/trailers, mud, towing, farming roleplay",
+  "loop_archetype": "racing_driving",
+  "objectives": "build setups",
+  "progression": "vehicles",
+  "instructions": "like and favorite",
+  "mechanics": [
+   "vehicles",
+   "trailers",
+   "towing",
+   "winch",
+   "customization",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "towing and trailer physics"
+  ],
+  "themes": [
+   "mudding",
+   "trucks"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Thanksgiving vehicle"
+  ],
+  "monetization_signals": [
+   "spawner passes",
+   "gift products"
+  ],
+  "update_signals": [
+   "11/21 update"
+  ],
+  "thumbnails": "wrecker truck, race car, dirt bike",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 5,
+  "complexity_notes": "vehicle physics",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q40",
+  "loop": "roll units -> place and defend waves -> raids",
+  "loop_archetype": "tower_defense",
+  "objectives": "roll rare units, beat bosses",
+  "progression": "bone coins, units, luck",
+  "instructions": "codes",
+  "mechanics": [
+   "RNG roll",
+   "TD",
+   "raids",
+   "evolution",
+   "custom servers"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "RNG roll + TD with One Piece update"
+  ],
+  "themes": [
+   "One Piece",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RNG TD"
+  ],
+  "monetization_signals": [
+   "300+ products"
+  ],
+  "update_signals": [
+   "Update 4"
+  ],
+  "thumbnails": "Gear 5 Luffy, Kaido",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "many units and modes",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "shoot +1 damage -> forge loot into bows -> fight monsters, climb spire, rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "reach bigger bows",
+  "progression": "damage, arrows, rebirth",
+  "instructions": "code MUTATIONS",
+  "mechanics": [
+   "+1 shooting",
+   "forge",
+   "spire",
+   "roll Kin",
+   "offline"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "bow forge variant of +1"
+  ],
+  "themes": [
+   "bow",
+   "fantasy"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 game"
+  ],
+  "monetization_signals": [
+   "138 products"
+  ],
+  "update_signals": [
+   "W2"
+  ],
+  "thumbnails": "avatar with bow and +1T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q42",
+  "loop": "knock on hotel doors, run, get paid; hide from guests",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape guests",
+  "progression": "money knocks",
+  "instructions": "codes in socials",
+  "mechanics": [
+   "ding dong ditch",
+   "hiding",
+   "knock styles",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "ding-dong-ditch horror"
+  ],
+  "themes": [
+   "hotel",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ditch"
+  ],
+  "monetization_signals": [
+   "knock passes"
+  ],
+  "update_signals": [
+   "Thanksgiving"
+  ],
+  "thumbnails": "hallway, kick the door, hide",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "hotel map, NPCs",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q43",
+  "loop": "loot items while entity hunts you; or play as entity",
+  "loop_archetype": "horror_escape",
+  "objectives": "loot the building and escape",
+  "progression": "money, cases",
+  "instructions": "like and favorite",
+  "mechanics": [
+   "looting",
+   "hiding",
+   "asymmetric",
+   "VR"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Locust fan monster, loot slows run"
+  ],
+  "themes": [
+   "monsters",
+   "loot"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "steal or die"
+  ],
+  "monetization_signals": [
+   "88 products",
+   "cases"
+  ],
+  "update_signals": [
+   "version 2.3"
+  ],
+  "thumbnails": "dark entity art",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "monster AI, VR",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q44",
+  "loop": "present slides or disrupt others with action products",
+  "loop_archetype": "roleplay_social",
+  "objectives": "annoy teacher",
+  "progression": "points",
+  "instructions": "chat",
+  "mechanics": [
+   "school roleplay",
+   "trolling actions",
+   "slides",
+   "quests"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "pay to disrupt presentations"
+  ],
+  "themes": [
+   "school"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "school roleplay"
+  ],
+  "monetization_signals": [
+   "203 products",
+   "point packs 30000 2299"
+  ],
+  "update_signals": [
+   "Update 139"
+  ],
+  "thumbnails": "chat commands CRASHOUT RICKROLL",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many action effects",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q45",
+  "loop": "blow gum -> hatch pets -> fishing -> islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "secret pets",
+  "progression": "gems, enchants",
+  "instructions": "updates Fridays",
+  "mechanics": [
+   "bubble",
+   "hatch",
+   "fishing",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Thanksgiving egg, 50% OFF sale"
+  ],
+  "themes": [
+   "bubble gum",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "bubble gum simulator"
+  ],
+  "monetization_signals": [
+   "50% OFF passes",
+   "spin tickets"
+  ],
+  "update_signals": [
+   "Fridays 2PM EST"
+  ],
+  "thumbnails": "dog in bubble +1M",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "big content",
+  "novelty": 0,
+  "confidence": 85
+ }
+]

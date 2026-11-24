@@ -1,0 +1,669 @@
+[
+ {
+  "label": "Q01",
+  "loop": "spawn airliners/fighters -> trigger failures -> fly or watch them crash and break apart -> replay and add to shared crash counter",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause the most spectacular crashes",
+  "progression": "new planes via Military Intervention pass, maps, weather",
+  "instructions": "spawn planes, set up failures, press Run",
+  "mechanics": [
+   "physics destruction",
+   "plane spawning",
+   "failure triggers",
+   "replays",
+   "shared crash counter"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "piece-by-piece plane breakup physics",
+   "global crash counter"
+  ],
+  "themes": [
+   "planes",
+   "crashes",
+   "aviation"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "plane crash",
+   "physics sandbox"
+  ],
+  "monetization_signals": [
+   "Military Intervention pass",
+   "donation products"
+  ],
+  "update_signals": [
+   "new updates every day",
+   "UPD 8.3 versioning"
+  ],
+  "thumbnails": "crashed airliner photoreal-style art with logo, burning wreckage, plane on runway",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "soft-body-ish breakup physics, many plane models, weather/maps, replay system",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "fly/crash planes into destructible buildings -> watch soft-body deformation -> earn cash -> buy planes",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "crash planes in different maps",
+  "progression": "cash, new planes (Antonov, SR-71)",
+  "instructions": "like for more planes/maps",
+  "mechanics": [
+   "soft-body physics",
+   "destruction",
+   "cash",
+   "plane unlock"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "soft-body deformation as selling point"
+  ],
+  "themes": [
+   "planes",
+   "destruction"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "plane crash"
+  ],
+  "monetization_signals": [
+   "slo-mo pass",
+   "cash multipliers",
+   "premium planes"
+  ],
+  "update_signals": [
+   "UPDATE 2"
+  ],
+  "thumbnails": "15 minutes hourglass icon, crash scene, wrecking ball on airliner, press crushing SR-71",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "soft-body deformation, destructible maps, many models",
+  "novelty": 1,
+  "confidence": 65
+ },
+ {
+  "label": "Q03",
+  "loop": "open a PS5-style menu -> browse Roblox games like a console dashboard",
+  "loop_archetype": "other",
+  "objectives": "use the menu simulator",
+  "progression": "none",
+  "instructions": "keys to navigate menu",
+  "mechanics": [
+   "UI simulation",
+   "game browser"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "fan-made PlayStation menu replica listing Roblox games"
+  ],
+  "themes": [
+   "PlayStation",
+   "GTA 6",
+   "console"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "GTA 6",
+   "console menu"
+  ],
+  "monetization_signals": [
+   "donation products up to 50000",
+   "starter packs",
+   "custom background"
+  ],
+  "update_signals": [
+   "no updates yet"
+  ],
+  "thumbnails": "PS-style logo on black, screenshot of home menu with text EVERY GS5 FEATURE",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "UI-only build, game list feed",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q04",
+  "loop": "run +1 speed -> collect rings -> reach new areas/world -> rebirth style evolve with Sonic characters",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become fastest runner",
+  "progression": "speed multipliers, levels, worlds, trails/auras",
+  "instructions": "train speed, collect rings, daily streak",
+  "mechanics": [
+   "+1 speed",
+   "rings",
+   "treadmill",
+   "leaderboard",
+   "daily streak"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Sonic IP skin on +1 template"
+  ],
+  "themes": [
+   "Sonic",
+   "hedgehog",
+   "speed"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 game",
+   "Sonic"
+  ],
+  "monetization_signals": [
+   "29 passes",
+   "62 products up to x4096 speed for 4500",
+   "auras/trails"
+  ],
+  "update_signals": [
+   "World 2 update"
+  ],
+  "thumbnails": "Sonic and Shadow with +1 icons, LVL 1/99/999 comparison, speed counters",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single area runner, counter UI, character models",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q05",
+  "loop": "pick dirty object -> scrub/clean with tools -> earn medals -> replay messier",
+  "loop_archetype": "simulation_job",
+  "objectives": "clean everything and earn Diamond medals",
+  "progression": "levels, tools, effects",
+  "instructions": "like and favorite for new levels",
+  "mechanics": [
+   "cleaning",
+   "ASMR",
+   "levels",
+   "medals",
+   "cosmetic tools"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "gross-out satisfying cleaning (teeth, ear wax, granny feet)"
+  ],
+  "themes": [
+   "cleaning",
+   "ASMR",
+   "satisfying"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ASMR",
+   "satisfying cleaning"
+  ],
+  "monetization_signals": [
+   "17 passes",
+   "everything bundle",
+   "gift products",
+   "skip level"
+  ],
+  "update_signals": [
+   "new levels notifications"
+  ],
+  "thumbnails": "keyboard/butter/car seat being cleaned, sparkly",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "cleaning mechanic with surface shaders, many levels",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q06",
+  "loop": "time power meter -> throw food -> far land attracts rarer clown -> place clowns in pen for cash -> train strength to throw farther",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rare clowns, fill index",
+  "progression": "distance, areas (11), pen size, strength",
+  "instructions": "time the meter and throw",
+  "mechanics": [
+   "power meter",
+   "throw",
+   "collect",
+   "pen income",
+   "index",
+   "training"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "throw-for-creature loop (clone of Throw a Friend family)"
+  ],
+  "themes": [
+   "clowns",
+   "food"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw a X",
+   "distance gacha"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "x2 luck",
+   "lucky throw packs",
+   "173 products"
+  ],
+  "update_signals": [
+   "daily updates likely"
+  ],
+  "thumbnails": "giant blue clown, Friks snack, $67.67B number, arc",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single-lane map, creature models, meter UI",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q07",
+  "loop": "load truck with crew -> drive to tornado -> film storm for points -> upgrade truck/gear",
+  "loop_archetype": "story_adventure",
+  "objectives": "film tornadoes without being thrown",
+  "progression": "storm points, vehicle bundles, gear",
+  "instructions": "get close enough to film",
+  "mechanics": [
+   "vehicles",
+   "tornado simulation",
+   "camera filming",
+   "upgrades",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "tornado chasing with camcorder battery"
+  ],
+  "themes": [
+   "tornado",
+   "storm chasing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Tornado Watch"
+  ],
+  "monetization_signals": [
+   "vehicle bundles 1499",
+   "Storm Points",
+   "drone/pro camera"
+  ],
+  "update_signals": [
+   "frequent"
+  ],
+  "thumbnails": "redhead avatar with camcorder showing tornado and truck, +$$$",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "dynamic tornado system, vehicles, weather",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q08",
+  "loop": "cast line far -> catch fish in zone -> place fish in pond for cash -> train cast power -> reach new zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "fill the index, catch giants",
+  "progression": "cast power, zones (20), rods, 182 fish",
+  "instructions": "like and favorite for updates",
+  "mechanics": [
+   "casting meter",
+   "fish collection",
+   "mutations",
+   "server events",
+   "pond income",
+   "index"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "throw-distance template reskinned as fishing, 1 in quadrillion odds"
+  ],
+  "themes": [
+   "fishing",
+   "sharks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw/cast for distance"
+  ],
+  "monetization_signals": [
+   "x2 luck",
+   "lucky casts",
+   "46 products"
+  ],
+  "update_signals": [
+   "server events"
+  ],
+  "thumbnails": "sharks and sea gods being caught, 1 IN 5.95T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "single lane, fish models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q09",
+  "loop": "unscrew screws -> sell for coins -> buy tools -> clear room to escape",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "remove every screw, beat best time",
+  "progression": "tools (magnet, gatling), gems",
+  "instructions": "like and favorite",
+  "mechanics": [
+   "tools",
+   "ASMR",
+   "escape room",
+   "timed",
+   "gem shop"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "unscrew-everything satisfying hook"
+  ],
+  "themes": [
+   "screws",
+   "ASMR"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying ASMR"
+  ],
+  "monetization_signals": [
+   "12 passes",
+   "gem packs up to 1899",
+   "one-run tools"
+  ],
+  "update_signals": [
+   "New tag"
+  ],
+  "thumbnails": "screws and electric driver, magnet pulling screws",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "first-person tool, many screw instances",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q10",
+  "loop": "hide from crawling spiders each round -> collect coins -> buy guns -> fight back",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the round timer",
+  "progression": "coins, guns, daily spins",
+  "instructions": "hide and survive",
+  "mechanics": [
+   "round survival",
+   "hiding",
+   "guns",
+   "coins",
+   "daily spin"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Garry's Mod addon adaptation"
+  ],
+  "themes": [
+   "spiders",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "evil crawling thing"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "daily spins",
+   "donations"
+  ],
+  "update_signals": [
+   "community server"
+  ],
+  "thumbnails": "spider silhouettes in rooms",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "creature AI, several maps",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "mix colours/textures/ingredients into slime -> unlock tools -> sell/earn coins",
+  "loop_archetype": "simulation_job",
+  "objectives": "make dream slime",
+  "progression": "tools, ingredients, bench",
+  "instructions": "like and join group for reward",
+  "mechanics": [
+   "slime mixing",
+   "ASMR",
+   "sandbox",
+   "crafting",
+   "unlocks"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "slime-making sandbox"
+  ],
+  "themes": [
+   "slime",
+   "ASMR"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "slime",
+   "ASMR"
+  ],
+  "monetization_signals": [
+   "Unlock Everything 949",
+   "skips",
+   "multipliers"
+  ],
+  "update_signals": [
+   "Space Studio mode"
+  ],
+  "thumbnails": "colourful slime, Space mode, foam",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "soft slime physics, mixing UI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q12",
+  "loop": "see picture -> recreate colours by drawing -> least accurate eliminated",
+  "loop_archetype": "party_minigames",
+  "objectives": "be the last artist standing",
+  "progression": "coins cosmetics",
+  "instructions": "match colours",
+  "mechanics": [
+   "drawing",
+   "color matching",
+   "elimination"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "colour-matching elimination game"
+  ],
+  "themes": [
+   "drawing",
+   "art"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Match or die"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "revive",
+   "hints"
+  ],
+  "update_signals": [
+   "update 11-21"
+  ],
+  "thumbnails": "smiley being drawn, angry red boss",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "drawing canvas and accuracy scoring",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q13",
+  "loop": "throw friend far -> lure and collect monsters -> earn money -> better ropes -> new zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rarest monsters",
+  "progression": "zones, throw power, ropes",
+  "instructions": "throw a real friend for luck",
+  "mechanics": [
+   "throw",
+   "monsters",
+   "lure",
+   "offline cash",
+   "training"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "friend as thrown object/dumbbell"
+  ],
+  "themes": [
+   "monsters",
+   "friend"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw a friend"
+  ],
+  "monetization_signals": [
+   "x4 pass 999",
+   "server luck products"
+  ],
+  "update_signals": [
+   "pirate UPD"
+  ],
+  "thumbnails": "avatar thrown at skeleton and Godzilla silhouette",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "single lane, monster models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "climb tower obby while grabbing and trolling players with tongue",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top",
+  "progression": "tower stages",
+  "instructions": "like and favorite",
+  "mechanics": [
+   "tongue grab",
+   "tower obby",
+   "trolling",
+   "admin powers"
+  ],
+  "social": "pvp",
+  "competitive": "none",
+  "unique": [
+   "troll-face tongue wrap"
+  ],
+  "themes": [
+   "troll face",
+   "tongue"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "troll"
+  ],
+  "monetization_signals": [
+   "Owner pass",
+   "Jail All",
+   "skips"
+  ],
+  "update_signals": [
+   "updated"
+  ],
+  "thumbnails": "troll avatar with pink tongue wrapping players",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "tower obby with tongue tool",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q15",
+  "loop": "grow parasite -> infect and eat humans -> open crates for strains/mutations -> chase limiteds",
+  "loop_archetype": "simulation_job",
+  "objectives": "infect the world, collect strains",
+  "progression": "strains, mutations, atoms",
+  "instructions": "play with friends, daily rewards",
+  "mechanics": [
+   "growth sim",
+   "crates",
+   "mutations",
+   "limited strains",
+   "worlds",
+   "endless mode"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "black hole Cosmic strain"
+  ],
+  "themes": [
+   "parasite",
+   "apocalypse"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Parasite"
+  ],
+  "monetization_signals": [
+   "everything bundle 1299",
+   "crate openers"
+  ],
+  "update_signals": [
+   "Cosmic update 2.3"
+  ],
+  "thumbnails": "red virus icon, Infect everyone banners",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "crowd AI, strain models, two worlds",
+  "novelty": 1,
+  "confidence": 70
+ }
+]

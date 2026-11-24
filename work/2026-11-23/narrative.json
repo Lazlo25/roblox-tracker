@@ -1,0 +1,72 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg still leads Most Popular, with Brookhaven and Throw Food For Animals behind it; six games entered and six left.",
+        "Fisch and Throw a Seed rose 23 places each, and Scare Your Favorite Streamer rose 16, while Ragdoll Experiment, Kit PVP FFA and Volley Bomb each fell 15-16.",
+        "Median pillar percentile is 38-40 for games aged 15-84 days against 64 for those over a year old, so age still explains much of the rank."
+      ],
+      "patterns": [
+        "Solo loops tend to sit lower (70%, down from 84%), consistent with higher positions going to multiplayer games; visit count is the strongest link but is partly an outcome of success.",
+        "A higher favorite rate per visit goes with lower Most Popular positions, since big evergreens convert fewer visits into favorites."
+      ],
+      "outliers": [
+        {"name": "Throw Food For Animals", "note": "A solo-style throw-for-rarity game at #3 after 66 days; its clone family is spreading to the breakout charts."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Top Earning has 480 games, with 19 new entries and 17 fallen off today; 100 Miles Down the River rose 181 places.",
+        "Games older than 366 days have a median pillar percentile of 64 against 23 for the 15-42 day group, so age remains the strongest single link to monetization efficiency.",
+        "Median product price, premium passes above 999 R$, story-adventure and roleplay loops all go with better efficiency; sandbox physics and pets/eggs go with worse."
+      ],
+      "patterns": [
+        "Tower defense tends to earn well for its CCU: Anime Crusaders X (#24), Garden Tower Defense (#157), Dragon Tower Defense (#177), Anime Nexus RNG X (#187) and Retro Tower Defense (#308) all sit on the chart, with high product counts (78-274 products) and gem or seed packs.",
+        "Pet-style throw and pack games (Steal an Anime Pack #232, Fish A Pirate #443) sell luck spins and boosts up to 3599 R$, but the pet/egg and steal-base hypotheses suggest they earn less per player than their position implies."
+      ],
+      "outliers": [
+        {"name": "Dragon Tower Defense", "note": "No game passes at all, yet it holds #177 with 78 developer products, so monetization is carried by coin and luck products."},
+        {"name": "Roblox classics (Evade, Slap Battles, Horse Life)", "note": "Years-old games with hundreds of products stay on the chart through scale, not novelty."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Of the 97 on Top Trending, 72 are young enough to be scored; Stand Out rose 57 and Anime Crusaders X rose 43 on an anniversary part 2 update, Fish For Sea Animals rose 38.",
+        "Four-week-old games dominate the best performers; Ragdoll titles make up 12% of the chart but trail within age (r=-0.56)."
+      ],
+      "patterns": [
+        "Physics sandboxes may climb more slowly within age (-0.48), consistent with the ragdoll wave saturating.",
+        "Games with a page video tend to climb faster (70%), and reward-flex thumbnails with huge odds numbers (1 in 98M) appear on the newest collection games."
+      ],
+      "outliers": [
+        {"name": "Anime Crusaders X", "note": "565 days old but jumped 43 places on a limited anniversary event, so older games can move on this chart when a big update lands."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "Up-and-Coming has 25 new entries and 24 exits; Defeat Ragdolls for Powers rose 64 and Tumble Dash rose 57.",
+        "Today's queue shows plane-crash physics (Pleb's #18, Realistic Plane Crashing #38), throw-for-rarity (Clowns #47, Cast For Fish #63, Throw a Friend #77) and satisfying-task games (Deep Clean ASMR #45, Unscrew Every Screw #65, Slime Studio #70) filling the chart.",
+        "Visit count and novelty go with higher positions within age; redeem codes and update tags in the title go with lower."
+      ],
+      "patterns": [
+        "Pages with a video rank higher within age (81%), and shorter titles do too (70%); '+1' games and daily-reward games tend to rank lower.",
+        "Many of the 60 newly profiled games are skins on known templates (+1 with Sonic, Naruto, bow; throw-for-rarity with clowns, monsters, fish), which is consistent with low-novelty clones filling the chart."
+      ],
+      "outliers": [
+        {"name": "Pleb's Plane Crash Sandbox", "note": "Top of today's new entries at #18 with 94% likes and daily updates; the physics sandbox hypothesis (72%) holds despite its low earning potential."},
+        {"name": "GS5 Menu Simulator", "note": "A UI-only PlayStation menu replica at #40 on the GTA 6 trend, with donation products up to 50,000 R$; likely a short-lived curiosity."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "No new research files today. 60 games were profiled; video frames were missing for the four queued long-running hits, so none were labeled.",
+      "The throw-for-rarity template (Clowns, Monsters, Fish, Pirates, Anime packs) now spans Up-and-Coming and Top Earning, raising H-x-045 to 38%.",
+      "Thanksgiving tags appear on eight tracked games, mostly paired with an update, nudging H-x-048 to 30%.",
+      "Four new hypotheses: novelty and title update tags on Up-and-Coming, satisfying-task cluster, and licensed skins on the +1 template."
+    ],
+    "progressions": [
+      "uc→tt 329 (median 2d), tt→mp 241 (2d), uc→te 205 (5d), tt→te 187 (4d); the common path remains Up-and-Coming first, then Top Trending, then Most Popular."
+    ]
+  }
+}

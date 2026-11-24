@@ -1,0 +1,25 @@
+{
+  "new": [
+    {"chart": "uc", "statement": "Games with a more novel loop (profiled novelty 2-3 rather than 0-1) rank higher on Up-and-Coming among games of the same age",
+     "action": "Add one unfamiliar twist to a known loop",
+     "test": {"feature": "novelty", "metric": "uc_pos", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "uc", "statement": "Games with an update tag in the title ([UPD], [NEW], version numbers) rank lower on Up-and-Coming among games of the same age",
+     "action": "Keep update tags out of the title",
+     "test": {"feature": "title_update_tag", "metric": "uc_pos", "type": "binary", "direction": "-", "strata": "age"}},
+    {"chart": "uc", "kind": "qualitative", "confidence": 25,
+     "statement": "Satisfying-task games (ASMR cleaning, unscrewing every screw, slime making, draining an ocean) form a steady Up-and-Coming cluster because the page thumbnails show the finished satisfying result",
+     "action": "Show the satisfying payoff in thumbnails",
+     "rationale": "Today Deep Clean ASMR (#45), Unscrew Every Screw (#65), Slime Studio (#70) and Drink the Ocean (#93) all sit on Up-and-Coming. Confirm if the cluster keeps refilling for two more weeks with new members; refute if they fall off together."},
+    {"chart": "x", "kind": "qualitative", "confidence": 22,
+     "statement": "Licensed-look skins on the +1 template (Sonic hedgehog, Naruto jutsu, bow forge) reach Up-and-Coming and Top Earning with near-identical loops, so the skin rather than the mechanic drives their discovery",
+     "rationale": "Hedgehog Evolve (Up-and-Coming #43), +1 Jutsu Evolution (#89) and +1 Bow Forge (Top Earning #193) share the +1 loop with different IP skins. Needs the +1 loop to show more spread by skin than by mechanic across tracked games."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-045", "confidence": 38, "note": "Throw Food For Clowns (Up-and-Coming #47, 152K favorites), Throw a Friend for Monsters (#77) and Cast For Fish (#63) all arrived in two weeks with the same throw-distance-for-rarity loop; Steal an Anime Pack (Top Earning #232) is the pack variant."},
+    {"id": "H-x-047", "confidence": 32, "note": "Pleb's Plane Crash Sandbox (#18) and Realistic Plane Crashing (#38) are two new plane-crash physics entries within 13 days of each other on Up-and-Coming."},
+    {"id": "H-x-048", "confidence": 30, "note": "Thanksgiving tags now appear on Revolver Arena, Garden Tower Defense, Dragon Tower Defense, Ditch Hotel, Bubble Gum Simulator Infinity, Ro-Bass Fishing, Rooster Rivals and Trading Card Shop, mostly paired with an update."},
+    {"id": "H-x-044", "confidence": 40, "note": "Mukbang Students (school role reversal, Top Trending #60) adds a school/teacher entrant; no new streamer-themed entrants today."}
+  ],
+  "actions": [],
+  "retire": []
+}
