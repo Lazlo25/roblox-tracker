@@ -1,0 +1,662 @@
+[
+ {
+  "label": "Q01",
+  "loop": "drive a truck with up to 3 friends to a tornado -> film it for Storm Points without being thrown -> upgrade truck and gear -> chase bigger storms",
+  "loop_archetype": "story_adventure",
+  "objectives": "film the best tornado footage and survive",
+  "progression": "Storm Points, truck/gear upgrades, tornado types",
+  "instructions": "Grab your crew, load the truck, film the twister",
+  "mechanics": [
+   "storm chasing",
+   "filming with battery",
+   "vehicle upgrades",
+   "lightning/hail hazards",
+   "tornado variety"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "procedural tornado types with filming mechanic"
+  ],
+  "themes": [
+   "tornadoes",
+   "storm chasing",
+   "trucks"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "storm chase",
+   "Tornado Watch-inspired",
+   "disaster"
+  ],
+  "monetization_signals": [
+   "vehicle/bundle passes $1499",
+   "Storm Points packs",
+   "2x cash",
+   "revive"
+  ],
+  "update_signals": [
+   "updated daily",
+   "new storm types"
+  ],
+  "thumbnails": "character in truck with camcorder REC screen and tornado, +$$$ reward",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle, tornado simulation, camera/battery UI, weather effects",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "spawn a plane -> crash it into buildings/terrain -> watch soft-body deformation -> buy new planes/maps",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create the most spectacular crashes",
+  "progression": "cash, new planes and maps",
+  "instructions": "unclear",
+  "mechanics": [
+   "soft-body physics",
+   "plane crashing",
+   "destructible buildings",
+   "cash currency"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "plane crash",
+   "destruction"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "plane crash sandbox",
+   "realistic physics"
+  ],
+  "monetization_signals": [
+   "slow-mo pass",
+   "plane passes",
+   "cash multipliers"
+  ],
+  "update_signals": [
+   "UPD 2.5",
+   "likes for more planes"
+  ],
+  "thumbnails": "crashed airliner, wrecking ball on plane, SR-71 being pressed; NEW and REALISTIC PHYSICS banners",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "soft-body deformation physics, multiple vehicles",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q03",
+  "loop": "pick a dirty object -> scrub/vacuum/wash it clean with tools -> earn medals -> unlock levels, tools and effects",
+  "loop_archetype": "simulation_job",
+  "objectives": "clean every level to earn Gold/Diamond medals",
+  "progression": "levels, medals, tool skins",
+  "instructions": "unclear",
+  "mechanics": [
+   "cleaning",
+   "ASMR",
+   "levels that get messier on replay",
+   "medals",
+   "tool cosmetics"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "cleaning",
+   "ASMR",
+   "satisfying"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ASMR cleaning",
+   "satisfying videos",
+   "power wash"
+  ],
+  "monetization_signals": [
+   "everything bundle",
+   "VIP",
+   "tool skins",
+   "skip level"
+  ],
+  "update_signals": [
+   "1M visits mini update",
+   "limited pop-it level"
+  ],
+  "thumbnails": "close-up satisfying cleaning shots: keyboard, butter, car seat",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "level-based, cleaning shader/dirt masks, tool models",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q04",
+  "loop": "run to gain +1 speed -> evolve into Sonic characters -> clear worlds/treadmills -> reach bigger speed multipliers",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the fastest hedgehog",
+  "progression": "speed multipliers, evolutions, worlds, rings",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1 speed",
+   "evolve",
+   "treadmills",
+   "rings",
+   "daily streak",
+   "leaderboards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "unlicensed Sonic IP"
+  ],
+  "themes": [
+   "Sonic",
+   "hedgehog",
+   "speed"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolve",
+   "Sonic IP",
+   "GameFam-style"
+  ],
+  "monetization_signals": [
+   "permanent x speed up to 4500 Robux",
+   "treadmills",
+   "auras/trails",
+   "offline speed"
+  ],
+  "update_signals": [
+   "WORLD 2 update"
+  ],
+  "thumbnails": "Sonic/Shadow with +1 icons and 1 vs 100T speed, LVL 1/99/999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple running track, character models, UI",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q05",
+  "loop": "spawn a plane -> trigger failures -> crash and watch it break apart -> replay and share crash counter",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "stage and watch realistic plane crashes",
+  "progression": "new planes, maps, game pass military options",
+  "instructions": "unclear",
+  "mechanics": [
+   "plane crash physics",
+   "failure triggers",
+   "weather/maps",
+   "replays",
+   "military pass"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "plane crashes",
+   "aviation"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "plane crash sandbox"
+  ],
+  "monetization_signals": [
+   "donation products",
+   "military pass"
+  ],
+  "update_signals": [
+   "daily updates",
+   "UPD 8.3 alpha"
+  ],
+  "thumbnails": "branded crash screenshots of airliners crashing into houses and fields",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "physics breakage, many planes, maps, replays",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q06",
+  "loop": "throw your friend as a bait -> lure out and collect monsters -> earn income -> train and reach scarier zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rare monsters across zones",
+  "progression": "throw power, ropes, zones, monster rarity",
+  "instructions": "unclear",
+  "mechanics": [
+   "throw friend",
+   "monster collection",
+   "passive income",
+   "training with dumbbell",
+   "luck"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "monsters",
+   "yeet",
+   "friend throwing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw a friend",
+   "brainrot-adjacent collect",
+   "rarity luck"
+  ],
+  "monetization_signals": [
+   "server luck products",
+   "lucky throws",
+   "x4 monsters pass",
+   "cash"
+  ],
+  "update_signals": [
+   "1M visits code"
+  ],
+  "thumbnails": "ragdoll friend thrown toward silhouetted monsters; ? mystery",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "simple map zones, ragdoll physics, monster models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q07",
+  "loop": "run from chasing dogs to the school -> collect coins/lucky blocks -> survive",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "reach school before the dogs get you",
+  "progression": "coins, lucky blocks, items",
+  "instructions": "unclear",
+  "mechanics": [
+   "chase",
+   "survival",
+   "lucky blocks",
+   "coins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "dogs",
+   "school",
+   "escape"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "run from X"
+  ],
+  "monetization_signals": [
+   "jetpack",
+   "coin bundles",
+   "founder bundle 2000"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "scared avatar chased by angry bulldog with RUN FROM THE DOGS text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "simple course and dog NPCs",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q08",
+  "loop": "climb a tower obby while grabbing/wrapping others with tongues -> use passes/skips -> reach the top",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top of the tower",
+  "progression": "tower progress, tools via passes",
+  "instructions": "unclear",
+  "mechanics": [
+   "tower obby",
+   "tongue grab",
+   "troll players",
+   "skip stages"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "troll face",
+   "tongue",
+   "obby"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower obby",
+   "troll"
+  ],
+  "monetization_signals": [
+   "skip obby products",
+   "tools",
+   "nuke/jail all products"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "troll-face avatar tongue wrapping another player and a tower",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "obby and basic tongue mechanic",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q09",
+  "loop": "cast a line as far as you can -> catch fish -> place in pond for income -> train cast power and go to farther zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "fill the Index and catch giant fish",
+  "progression": "cast power, rods, zones, fish sizes/mutations",
+  "instructions": "unclear",
+  "mechanics": [
+   "fishing cast distance",
+   "pond income",
+   "training",
+   "mutations",
+   "server events",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "distance-based luck loop"
+  ],
+  "themes": [
+   "fishing",
+   "sea monsters"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "cast for X",
+   "throw-distance collector"
+  ],
+  "monetization_signals": [
+   "lucky casts",
+   "cash packs",
+   "x2 luck",
+   "auto cast"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "giant sharks/krakens, 1 in 5.95T odds text",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "20 zones, 182 fish, events and mutations",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q10",
+  "loop": "open the menu -> browse games shown as a PlayStation-style home screen",
+  "loop_archetype": "other",
+  "objectives": "browse and launch Roblox games from a console menu",
+  "progression": "none",
+  "instructions": "unclear",
+  "mechanics": [
+   "menu UI",
+   "console navigation"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "PlayStation",
+   "menu"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "PS5 menu"
+  ],
+  "monetization_signals": [
+   "donation products",
+   "background pass"
+  ],
+  "update_signals": [
+   "none yet"
+  ],
+  "thumbnails": "PlayStation-style home screen",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "UI-focused",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q11",
+  "loop": "cut hair for customers -> film results for followers -> expand shop and hire barbers",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow barbershop into an empire",
+  "progression": "shop size, followers, tools, barbers",
+  "instructions": "unclear",
+  "mechanics": [
+   "haircutting",
+   "go viral",
+   "hire barbers",
+   "special customers",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "barber",
+   "salon"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "job sim tycoon"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "cash",
+   "starter pack"
+  ],
+  "update_signals": [
+   "new tag",
+   "Barber Pass"
+  ],
+  "thumbnails": "angry customer 1 star rating, 24 HOURS",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "haircut mechanic with strands and guards",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q12",
+  "loop": "unscrew screws -> sell for coins -> buy tools -> clear rooms",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "unscrew everything and escape",
+  "progression": "tools, gems, rooms",
+  "instructions": "unclear",
+  "mechanics": [
+   "unscrew",
+   "magnets",
+   "gems",
+   "tools"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "screws",
+   "ASMR"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "unscrew",
+   "satisfying"
+  ],
+  "monetization_signals": [
+   "gem packs up to 1899",
+   "forever tools",
+   "1 run products"
+  ],
+  "update_signals": [
+   "New island update"
+  ],
+  "thumbnails": "close-up screws, magnet pulling screws",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "simple 3D rooms, tool effects",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q13",
+  "loop": "time power meter to throw food -> farther throw gets rarer clown -> place clowns for cash -> train strength",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "fill the clown Index",
+  "progression": "strength, food luck, pen size",
+  "instructions": "unclear",
+  "mechanics": [
+   "throw food",
+   "clown collection",
+   "power meter",
+   "pen income",
+   "training",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "clowns",
+   "food"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw for X"
+  ],
+  "monetization_signals": [
+   "lucky throws",
+   "money packs",
+   "auto train"
+  ],
+  "update_signals": [
+   "updated 2026-11-23"
+  ],
+  "thumbnails": "huge blue clown monster, snacks, $67.67B text",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "11 areas, monster models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "click +1 chakra -> unlock jutsu -> clear stages and bosses -> rebirth -> hatch auras",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become Jutsu Master",
+  "progression": "chakra, wins, rebirth, auras",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1 clicker",
+   "rebirth",
+   "egg hatch",
+   "world bosses",
+   "stages"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Naruto",
+   "ninja"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolve",
+   "Naruto"
+  ],
+  "monetization_signals": [
+   "chakra packs",
+   "auto hatch",
+   "limited Nine Tails"
+  ],
+  "update_signals": [
+   "W3 update",
+   "codes"
+  ],
+  "thumbnails": "Naruto-style character with +1 and +7M",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q15",
+  "loop": "pick up fares in a taxi -> escape cops from robber passengers -> earn cash -> unlock cars",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn cash and unlock cars",
+  "progression": "cars, tiers, premium pass",
+  "instructions": "unclear",
+  "mechanics": [
+   "taxi",
+   "police chase",
+   "crates",
+   "tiers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "taxi",
+   "police"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "taxi sim"
+  ],
+  "monetization_signals": [
+   "helicopter pass",
+   "cash",
+   "premium pass"
+  ],
+  "update_signals": [
+   "Christmas bundle",
+   "Neon Nights season"
+  ],
+  "thumbnails": "yellow taxi with police chase, cockpit POV",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "city, multiple cars",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

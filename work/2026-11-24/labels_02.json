@@ -1,0 +1,625 @@
+[
+ {
+  "label": "Q16",
+  "loop": "pick gear from the wall -> fight giant SCP monsters and players -> blow up brick buildings -> survive",
+  "loop_archetype": "combat_pvp",
+  "objectives": "destroy SCP monsters and survive",
+  "progression": "gear collection, morphs",
+  "instructions": "unclear",
+  "mechanics": [
+   "gear wall",
+   "SCP monsters",
+   "destruction",
+   "pvp"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "SCP",
+   "monsters"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "SCP",
+   "destroy X"
+  ],
+  "monetization_signals": [
+   "donation products",
+   "permanent weapon passes"
+  ],
+  "update_signals": [
+   "unclear"
+  ],
+  "thumbnails": "pixel SCP-096 shot with gun, gear grid",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "gear grid, monster models, destructible bricks",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q17",
+  "loop": "spawn ragdolls -> fling, smash, blow up with tools -> try new maps",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "play with physics tools and scenarios",
+  "progression": "coins, tools, vehicles",
+  "instructions": "unclear",
+  "mechanics": [
+   "ragdoll physics",
+   "physgun",
+   "props",
+   "disasters"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ragdoll",
+   "sandbox"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll sandbox"
+  ],
+  "monetization_signals": [
+   "vehicle/weapon passes",
+   "tornado/orbital strike products"
+  ],
+  "update_signals": [
+   "updated 2026-11-22"
+  ],
+  "thumbnails": "white ragdoll mannequins, REAL PHYSICS, PIERCING PHYSICS",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "physics sandbox, many tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q18",
+  "loop": "drink the ocean with a straw -> sell water for coins -> upgrade jug, straws, boats -> uncover treasures",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "drink the whole ocean",
+  "progression": "jug size, straws, boats, mastery",
+  "instructions": "unclear",
+  "mechanics": [
+   "drink/collect loop",
+   "upgrades",
+   "boats",
+   "treasure",
+   "6-player lobbies"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ocean",
+   "beach"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Drink/Clean the X",
+   "Search for the Needle"
+  ],
+  "monetization_signals": [
+   "2x passes",
+   "helper",
+   "code spin"
+  ],
+  "update_signals": [
+   "UPDATE2"
+  ],
+  "thumbnails": "first-person straw in whirlpool, boy with water jetpack",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "incremental, water visuals",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q19",
+  "loop": "hide from evil crawlers each round -> survive timer -> earn coins -> buy guns/explosives to fight back",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive each round",
+  "progression": "coins, gear",
+  "instructions": "unclear",
+  "mechanics": [
+   "round survival",
+   "hiding",
+   "guns",
+   "daily spin"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "spiders",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Evil crawling thing",
+   "Garry's Mod addon"
+  ],
+  "monetization_signals": [
+   "daily spins",
+   "donations",
+   "2x coins"
+  ],
+  "update_signals": [
+   "updated 2026-11-23"
+  ],
+  "thumbnails": "giant black spider in dark rooms",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "spider monster, rooms",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q20",
+  "loop": "adopt a baby -> care for them as they grow -> work jobs, drive, school -> graduation",
+  "loop_archetype": "roleplay_social",
+  "objectives": "raise your kid to graduation",
+  "progression": "house, cars, kid age",
+  "instructions": "unclear",
+  "mechanics": [
+   "family roleplay",
+   "voice-talking kid",
+   "jobs",
+   "birthdays"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "AI/voice talking kid"
+  ],
+  "themes": [
+   "family",
+   "baby",
+   "roleplay"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "Raise a baby",
+   "AI voice talks back"
+  ],
+  "monetization_signals": [
+   "mansion pass",
+   "event products",
+   "nanny"
+  ],
+  "update_signals": [
+   "TALKS BACK update"
+  ],
+  "thumbnails": "family with baby and speech bubbles, voice UI",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "houses, cars, kid AI with voice",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "drive old 4x4s over terrain -> find hidden places -> winch, tune and upgrade",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore the mountain and find places",
+  "progression": "credits, vehicles, parts",
+  "instructions": "unclear",
+  "mechanics": [
+   "offroading",
+   "winch",
+   "hidden places",
+   "crates",
+   "canoe"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "offroad",
+   "4x4",
+   "mountain"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "backseat offroad",
+   "offroad sim"
+  ],
+  "monetization_signals": [
+   "packs",
+   "credit packs",
+   "crates"
+  ],
+  "update_signals": [
+   "updated 2026-11-24"
+  ],
+  "thumbnails": "4x4 trucks on rocks and by a lake",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large open map, vehicle physics, winch",
+  "novelty": 2,
+  "confidence": 85
+ },
+ {
+  "label": "Q22",
+  "loop": "match painted colors to a picture -> least accurate eliminated each round -> last artist wins",
+  "loop_archetype": "party_minigames",
+  "objectives": "survive color-matching rounds",
+  "progression": "coins, cosmetics",
+  "instructions": "unclear",
+  "mechanics": [
+   "color matching",
+   "elimination",
+   "drawing"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "art",
+   "color",
+   "smiley"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "color match elimination"
+  ],
+  "monetization_signals": [
+   "revive",
+   "hints",
+   "coins"
+  ],
+  "update_signals": [
+   "updated 2026-11-21"
+  ],
+  "thumbnails": "smiley face painting on easel, angry red robot",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "paint tool, scoring, rounds",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q23",
+  "loop": "open photocard packs -> stock shelves and serve fans -> expand and hire staff",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow the cutest KPOP shop",
+  "progression": "store size, cards, staff, level",
+  "instructions": "unclear",
+  "mechanics": [
+   "pack opening",
+   "shop sim",
+   "co-op",
+   "offline earnings",
+   "thieves"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "kpop",
+   "photocards"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "shop tycoon",
+   "kpop"
+  ],
+  "monetization_signals": [
+   "luck/cash passes",
+   "gift products",
+   "storefront skins"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "codes"
+  ],
+  "thumbnails": "K-POP shop with photocards and cash",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "shop, many cards",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q24",
+  "loop": "collect bricks -> place them to build houses -> earn cash -> upgrade tools, vehicles, hatch pets",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "finish whole houses",
+  "progression": "tools, bag, vehicles, pets",
+  "instructions": "unclear",
+  "mechanics": [
+   "building",
+   "bricks",
+   "pets",
+   "vehicles",
+   "builder bot"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "construction",
+   "bricks"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Brick a House",
+   "build sim"
+  ],
+  "monetization_signals": [
+   "gems packs",
+   "permanent vehicles",
+   "luck"
+  ],
+  "update_signals": [
+   "new chapters"
+  ],
+  "thumbnails": "house under construction, trowel and bricks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "building loop",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "click for Nyah -> upgrade paws -> earn wins to evolve -> unlock worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become strongest catboy",
+  "progression": "nyah, wins, evolve tiers, worlds",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1 click",
+   "evolve",
+   "rebirth"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "catboy",
+   "anime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "+1 evolution"
+  ],
+  "monetization_signals": [
+   "trainer x999 1499",
+   "skip evolve products"
+  ],
+  "update_signals": [
+   "codes"
+  ],
+  "thumbnails": "catboy character with +99M text",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q26",
+  "loop": "fish in a river -> hunt bosses -> hatch and raise fish, build a home -> collect event rewards",
+  "loop_archetype": "simulation_job",
+  "objectives": "catch rare fish and boss",
+  "progression": "money, rods, home, events",
+  "instructions": "unclear",
+  "mechanics": [
+   "fishing",
+   "Thai theme",
+   "boss",
+   "nest",
+   "event"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "fishing",
+   "Thailand",
+   "Loy Krathong"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "fishing sim",
+   "festival event"
+  ],
+  "monetization_signals": [
+   "elephant pass",
+   "bags of money"
+  ],
+  "update_signals": [
+   "Loy Krathong event Nov23-Dec2"
+  ],
+  "thumbnails": "goldfish, lanterns, fish tank, thief",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "event content, boss, home",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "mix and stretch slime in a bench -> unlock ingredients -> earn coins",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create the dream slime",
+  "progression": "coins, tools",
+  "instructions": "unclear",
+  "mechanics": [
+   "slime making",
+   "ASMR",
+   "bench",
+   "offline coins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "slime",
+   "ASMR"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "slime sim ASMR"
+  ],
+  "monetization_signals": [
+   "unlock everything",
+   "skip products"
+  ],
+  "update_signals": [
+   "updated 2026-11-24"
+  ],
+  "thumbnails": "colorful slime and tools",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "slime physics",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q28",
+  "loop": "climb a creepypasta tower floors -> avoid monsters and others -> use items",
+  "loop_archetype": "obby_platformer",
+  "objectives": "climb as many floors as possible",
+  "progression": "floors, items",
+  "instructions": "unclear",
+  "mechanics": [
+   "tower obby",
+   "creepypastas",
+   "traps",
+   "kill players"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "creepypasta",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tower obby"
+  ],
+  "monetization_signals": [
+   "Spanish names passes",
+   "kill everyone"
+  ],
+  "update_signals": [
+   "next update"
+  ],
+  "thumbnails": "creepy figures on red-lit stairs",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower, NPC monsters",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q29",
+  "loop": "drive a taxi in Midtown Manhattan -> pick up passengers -> earn coins",
+  "loop_archetype": "simulation_job",
+  "objectives": "build a reputation as taxi driver",
+  "progression": "coins, cars",
+  "instructions": "unclear",
+  "mechanics": [
+   "taxi",
+   "AI traffic",
+   "voice chat",
+   "high fidelity avatars"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "New York",
+   "taxi"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "driving sim"
+  ],
+  "monetization_signals": [
+   "coin packs"
+  ],
+  "update_signals": [
+   "updated 2026-11-23"
+  ],
+  "thumbnails": "yellow cab with logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 4,
+  "complexity_notes": "1:1 city map",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "get rainbow eggs -> evolve pets -> use luck",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "get rainbow pets",
+  "progression": "money, speed, growth",
+  "instructions": "unclear",
+  "mechanics": [
+   "egg evolve",
+   "luck",
+   "hold eggs"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "eggs",
+   "dragons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "evolve an egg"
+  ],
+  "monetization_signals": [
+   "infinite passes",
+   "packs"
+  ],
+  "update_signals": [
+   "2X luck"
+  ],
+  "thumbnails": "colorful dragon chasing player with rainbow egg",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "simple",
+  "novelty": 0,
+  "confidence": 65
+ }
+]

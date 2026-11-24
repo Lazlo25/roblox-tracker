@@ -1,0 +1,78 @@
+{
+  "charts": {
+    "mp": {
+      "observations": [
+        "Steal An Egg leads Most Popular, followed by Brookhaven and Throw Food For Animals (67 days old); Clean The Ballpit rose 15 places and 5 games entered while 7 fell off.",
+        "Median pillar percentile by age: 85-122 days sits highest (74, n=4), then multi-year games (64), while 15-42 day games sit at 41, so recent breakouts still trail established games.",
+        "Update recency is the strongest controllable signal (days since update vs days on chart rho -0.35), and a high favorite rate per visit goes with lower positions (rho -0.37), consistent with big evergreens converting fewer visits into favorites."
+      ],
+      "patterns": [
+        "Steal-and-defend (median percentile 74), wave-survival co-op (70) and party minigames (69) rank above physics sandboxes (39) and sports leagues (35); sandboxes tend to rank lower here and Ragdoll titles carry r=-0.14.",
+        "Video observations of long-running hits tend to show light HUDs and social or roleplay structure (Brookhaven HUD 1, Warrior Cats), with fast-paced duel shooters showing skin-based monetization; these are few games and confidence stays low.",
+        "Visit count and group size correlate with longevity but are outcome-linked, so they are partly a result of success rather than a lever."
+      ],
+      "outliers": [
+        {"name": "Throw Food For Animals", "note": "Reaches #3 at 67 days with only 2 passes, breaking the usual age-trough pattern; it is the template the throw-for-luck clones now follow."},
+        {"name": "Clean The Ballpit!", "note": "Only 24 days old yet rising 15 places on Most Popular, likely helped by a new themed map every 2-3 days."}
+      ]
+    },
+    "te": {
+      "observations": [
+        "Era Of Witches (30 days, 169K visits) ranks among the most efficient games, as does a donation-style Social game, while Guts & Blackpowder jumped 188 places and Fish for Secret Animals 117.",
+        "Median developer-product price above about 79 R$ is the strongest page signal (rho +0.39); games older than about 28 days also earn more per player (rho +0.34).",
+        "Fallers include Clover RPG (-104) and Ride An Egg (-78), showing that efficiency positions swing widely day to day."
+      ],
+      "patterns": [
+        "RPG genre (r +0.59) and story-adventure loops (+0.60) consistently earn the most for their CCU, while physics sandboxes (-0.51) and Ragdoll titles (-0.68) earn the least.",
+        "Reward-flex thumbnails go with lower efficiency (r -0.26), consistent with those thumbnails belonging to the newer incremental and pet games.",
+        "Newer games in the queue sell cheap luck or cash products, while efficient earners such as Grand Blue sell fruit chests up to 9,800 R$ and Mechs vs Kaiju sells Robux packs up to 1,199 R$, which fits the price-ladder hypothesis."
+      ],
+      "outliers": [
+        {"name": "Mechs vs Kaiju's Ragdoll", "note": "A young physics game at Top Earning #112 despite the sandbox penalty, probably because its mech roll packs carry high prices."},
+        {"name": "Era Of Witches", "note": "A 30-day-old game with 1.2K favorites ranking near the top on efficiency, plausibly because of 1,000 R$ character passes and low CCU."}
+      ]
+    },
+    "tt": {
+      "observations": [
+        "Tumble Dash rose 31 places and My Lucky Scoop Studio 21; Mukbang Students fell 9; 10 games entered, including Chase a Storm, two plane-crash sandboxes, Deep Clean ASMR and +1 Hedgehog Evolve.",
+        "Among 73 games aged 0-4 months, updates per week go with higher positions (rho +0.38) within the same age band.",
+        "Party minigames show the strongest momentum signal (r +0.67 on only 8 games, within-age +0.63), so it may be a small-sample effect."
+      ],
+      "patterns": [
+        "Physics-sandbox mechanics go with weaker momentum (r -0.45, within-age -0.46) and Ragdoll titles with lower positions (r -0.47), consistent with a saturating wave.",
+        "Page videos (r +0.35) and shorter, update-heavy release rhythms tend to go with higher positions, while bracket update tags (r -0.50) and clan mechanics (-0.54) go with lower ones.",
+        "New entrants today rely on a single clear hazard or ASMR hook, and Deep Clean ASMR enters despite a 62% like ratio."
+      ],
+      "outliers": [
+        {"name": "Tumble Dash", "note": "Biggest riser at 68% likes and 1 pass, which suggests the party format and novelty can outweigh polish in a young game."},
+        {"name": "JAWS BELOW", "note": "Rose 14 places with 36% likes and no passes, probably a short-lived curiosity spike."}
+      ]
+    },
+    "uc": {
+      "observations": [
+        "RUN FROM THE DOGS (+67), Troll Tongue Tower (+51), Chase a Storm (+49), Throw a Friend for Monsters (+40) and +1 Jutsu Evolution (+39) are the biggest risers; Slime Studio, Animal Ragdoll, Can You Land A Plane?, Renovate the Floor and +1 Anime Speed fell 23-40 places.",
+        "10 games entered and 12 left; 87 of 96 games are 15-42 days old, so age mix matters little for ranking inside the chart.",
+        "Update frequency remains the clearest predictor (updates per week rho +0.39, within-age +0.38), while spin or crate products go with lower positions (r -0.41, 81 of 96 games have them)."
+      ],
+      "patterns": [
+        "Creature and monster themes tend to rank higher within age (r +0.31), and survival-framed games and core-competitive loops also lean higher.",
+        "Throw-or-cast-for-luck games (Monsters, Clowns, Fish) combine 92-96% likes with 100-190K favorites, though plain +1 and egg games rank lower.",
+        "Two cheap kid-oriented hits (RUN FROM THE DOGS, Troll Tongue Tower) rose steeply with 68-76% likes, so like ratio alone does not explain rank."
+      ],
+      "outliers": [
+        {"name": "Chase a Storm!", "note": "Rose 49 places to #4 with 97% likes and a 17-pass price ladder, unusual for a young game, probably because of its distinct co-op storm-filming idea."},
+        {"name": "Slime Studio [SANDBOX]", "note": "Fell 23 places with a standard physics ASMR template, suggesting sandbox saturation."}
+      ]
+    }
+  },
+  "cross": {
+    "summary": [
+      "The throw-for-luck template (Throw a Friend for Monsters, Throw Food For Clowns, Cast For Fish, Fish A Pirate) now has four members across Up-and-Coming and Top Earning; this may reflect one wave from several copycat groups.",
+      "No new outside research today; analysis/research/2026-10-29-survival-and-monetization.md was already ingested.",
+      "Physics sandboxes rank lower on Top Earning and show weaker Top Trending momentum, yet plane-crash variants keep entering, so novelty of the physics hook may matter more than the genre."
+    ],
+    "progressions": [
+      "Up-and-Coming to Top Trending: 337 entries, median 2 days later (up from 300 on 2026-11-19); Top Trending to Most Popular: 243 (up from 222); Up-and-Coming to Top Earning: 212, median 5 days later."
+    ]
+  }
+}

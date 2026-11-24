@@ -1,0 +1,626 @@
+[
+ {
+  "label": "Q46",
+  "loop": "one-shot revolver deathmatch with movement -> win modes and ranked -> open cases for skins",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win matches, climb Bronze to Pro",
+  "progression": "ranks, skins, arena pass",
+  "instructions": "unclear",
+  "mechanics": [
+   "one-shot revolver",
+   "slide/wall run",
+   "cases",
+   "ranked",
+   "game modes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "revolvers",
+   "arena shooter"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "skin cases"
+  ],
+  "monetization_signals": [
+   "skin bundles",
+   "cases",
+   "2x coins"
+  ],
+  "update_signals": [
+   "Thanksgiving event"
+  ],
+  "thumbnails": "revolver skins first person",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "FPS movement and modes",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q47",
+  "loop": "one player is teacher, others hide among NPC students and sneak snacks -> fill class bar before bell",
+  "loop_archetype": "party_minigames",
+  "objectives": "sneak snacks or catch students",
+  "progression": "gems, abilities, battle pass",
+  "instructions": "unclear",
+  "mechanics": [
+   "asymmetric hide",
+   "NPC crowd",
+   "notes/snacks",
+   "ability rolls"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "hide among NPC students"
+  ],
+  "themes": [
+   "school",
+   "mukbang",
+   "Baldi"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Mukbang",
+   "teacher"
+  ],
+  "monetization_signals": [
+   "Be the Teacher",
+   "battle pass",
+   "ability rolls"
+  ],
+  "update_signals": [
+   "UPD Lights Out mode, Library Hall"
+  ],
+  "thumbnails": "POV snacks in desk drawer, green teacher",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "NPC crowd, modes",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q48",
+  "loop": "explore voxel world, mine, craft, claim land and wage war",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "build a kingdom",
+  "progression": "crafting, ores, kingdoms",
+  "instructions": "unclear",
+  "mechanics": [
+   "voxel survival",
+   "132 biomes",
+   "900 crafts",
+   "land claims"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Minecraft",
+   "kingdom"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Minecraft-like"
+  ],
+  "monetization_signals": [
+   "huge multiplier passes up to 90000",
+   "gold"
+  ],
+  "update_signals": [
+   "updated daily"
+  ],
+  "thumbnails": "voxel landscapes",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large voxel engine",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "drive rocket cars -> score goals in soccer -> unlock cars and customizations",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win matches",
+  "progression": "season tiers, bolts, cosmetics",
+  "instructions": "unclear",
+  "mechanics": [
+   "car soccer",
+   "aerials",
+   "season pass",
+   "ranked"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "Rocket League",
+   "car soccer"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Sideswipe"
+  ],
+  "monetization_signals": [
+   "bolt packs",
+   "season tiers",
+   "bundles"
+  ],
+  "update_signals": [
+   "Christmas UPD"
+  ],
+  "thumbnails": "cars and soccer ball with flames",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "car physics",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q50",
+  "loop": "sail, level up, fight bosses, find fruits, awaken powers",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest",
+  "progression": "levels, fruits, mastery",
+  "instructions": "unclear",
+  "mechanics": [
+   "fruit powers",
+   "sword",
+   "bosses",
+   "sailing",
+   "raids"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "pirates",
+   "anime",
+   "fruits"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Blox Fruits"
+  ],
+  "monetization_signals": [
+   "fruit notifier",
+   "boosts",
+   "money packs"
+  ],
+  "update_signals": [
+   "seasonal updates"
+  ],
+  "thumbnails": "fiery fighters art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "huge world",
+  "novelty": 1,
+  "confidence": 95
+ },
+ {
+  "label": "Q51",
+  "loop": "outrun nextbots using parkour movement",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the nextbots",
+  "progression": "tokens, cosmetics",
+  "instructions": "unclear",
+  "mechanics": [
+   "parkour",
+   "nextbots",
+   "cosmetics",
+   "events"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "nextbots",
+   "Thanksgiving turkey"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "nextbots"
+  ],
+  "monetization_signals": [
+   "aura passes",
+   "tokens"
+  ],
+  "update_signals": [
+   "Thanksgiving event",
+   "Black Friday"
+  ],
+  "thumbnails": "turkey, dark rooms",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "movement and many maps",
+  "novelty": 1,
+  "confidence": 90
+ },
+ {
+  "label": "Q52",
+  "loop": "summon anime units -> place in tower defense waves -> level up -> collect gems",
+  "loop_archetype": "tower_defense",
+  "objectives": "save worlds with strongest team",
+  "progression": "units, gems, worlds",
+  "instructions": "unclear",
+  "mechanics": [
+   "gacha summon",
+   "tower defense",
+   "units",
+   "raids"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "tower defense"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime TD"
+  ],
+  "monetization_signals": [
+   "gems 1999",
+   "shiny hunter",
+   "VIP"
+  ],
+  "update_signals": [
+   "ANNI P2",
+   "codes at likes"
+  ],
+  "thumbnails": "anime heroes art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "many units",
+  "novelty": 0,
+  "confidence": 90
+ },
+ {
+  "label": "Q53",
+  "loop": "roll cards -> build a deck -> battle bosses, towers and PvP",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "roll rare cards and climb",
+  "progression": "luck, traits, decks",
+  "instructions": "unclear",
+  "mechanics": [
+   "card rolling",
+   "deck",
+   "bosses",
+   "PVP",
+   "battle pass"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "One Piece",
+   "cards"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "RNG roll",
+   "anime"
+  ],
+  "monetization_signals": [
+   "trait crystals",
+   "server luck",
+   "potions"
+  ],
+  "update_signals": [
+   "UPDATE 10.3 PIRATE ERA"
+  ],
+  "thumbnails": "anime characters and ? card",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many cards",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q54",
+  "loop": "pilot a ragdoll mech -> fight kaiju waves -> collect scrap -> roll mech packs",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "defeat kaiju",
+  "progression": "scrap, mech packs, rarity",
+  "instructions": "unclear",
+  "mechanics": [
+   "ragdoll mech",
+   "physics",
+   "kaiju",
+   "pack rolling",
+   "drill"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "mechs",
+   "kaiju"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Mechs vs Kaiju"
+  ],
+  "monetization_signals": [
+   "Robux packs",
+   "scrap",
+   "drill"
+  ],
+  "update_signals": [
+   "MAJOR UPDATE jungle"
+  ],
+  "thumbnails": "red vs green mech, jungle update",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "physics mechs",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q55",
+  "loop": "explore open world as mage -> collect grimoires -> fight bosses",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become legendary mage",
+  "progression": "grimoires, mastery, yens",
+  "instructions": "description in Portuguese",
+  "mechanics": [
+   "grimoire magic",
+   "bosses",
+   "group system",
+   "spins"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Black Clover",
+   "magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Black Clover-like"
+  ],
+  "monetization_signals": [
+   "exp boosts",
+   "grimoire slots"
+  ],
+  "update_signals": [
+   "SAINT MODE"
+  ],
+  "thumbnails": "anime mages",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world RPG",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q56",
+  "loop": "live in cozy town -> build home, raise baby, work and cook",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live your life",
+  "progression": "cash, home",
+  "instructions": "unclear",
+  "mechanics": [
+   "life roleplay",
+   "baby care",
+   "building",
+   "cooking"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "family",
+   "baby",
+   "autumn"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "life RP"
+  ],
+  "monetization_signals": [
+   "club pass",
+   "cash",
+   "happy baby"
+  ],
+  "update_signals": [
+   "PLAYGROUND UPDATE"
+  ],
+  "thumbnails": "cozy baby/home scenes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 4,
+  "complexity_notes": "detailed life sim",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "roll units -> defend waves -> evolve units, raids",
+  "loop_archetype": "tower_defense",
+  "objectives": "build strongest team",
+  "progression": "units, bone coins",
+  "instructions": "unclear",
+  "mechanics": [
+   "roll units",
+   "waves",
+   "raids",
+   "evolve"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "anime",
+   "One Piece"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anime RNG TD"
+  ],
+  "monetization_signals": [
+   "bundles",
+   "bone coins",
+   "lucky passes"
+  ],
+  "update_signals": [
+   "UPDATE 4 Island of Dragons"
+  ],
+  "thumbnails": "anime art, 24 HOURS",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many modes",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q58",
+  "loop": "shoot for +1 damage -> rebirth for more arrows -> forge bows -> fight hordes",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "get strongest bow",
+  "progression": "damage, arrows, kin",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1",
+   "forge",
+   "rebirth",
+   "kin roll",
+   "spire"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "bows",
+   "archery"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolve"
+  ],
+  "monetization_signals": [
+   "damage products",
+   "range products",
+   "kin slots"
+  ],
+  "update_signals": [
+   "W2"
+  ],
+  "thumbnails": "bows with +1T numbers",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q59",
+  "loop": "spawn dummy -> blow up with weapons and powers -> sandbox",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "play with physics",
+  "progression": "packs",
+  "instructions": "unclear",
+  "mechanics": [
+   "2D ragdoll",
+   "weapons",
+   "sand",
+   "powers"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ragdoll",
+   "anime packs"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Granule-like"
+  ],
+  "monetization_signals": [
+   "bundle passes",
+   "tips"
+  ],
+  "update_signals": [
+   "updated"
+  ],
+  "thumbnails": "pixel ragdoll with guns",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "2D physics",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q60",
+  "loop": "fight, get stands/abilities from series, bosses, modes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest",
+  "progression": "abilities, levels",
+  "instructions": "unclear",
+  "mechanics": [
+   "abilities",
+   "bosses",
+   "gamemodes"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "anime crossover",
+   "JoJo"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "UT-like"
+  ],
+  "monetization_signals": [
+   "emotes",
+   "universal points"
+  ],
+  "update_signals": [
+   "6.4"
+  ],
+  "thumbnails": "anime villains",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large",
+  "novelty": 0,
+  "confidence": 90
+ }
+]

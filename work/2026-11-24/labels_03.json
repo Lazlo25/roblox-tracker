@@ -1,0 +1,633 @@
+[
+ {
+  "label": "Q31",
+  "loop": "ride a bike with friends -> wheelie and hit jumps -> earn cash -> upgrade bikes",
+  "loop_archetype": "racing_driving",
+  "objectives": "show off wheelies and tricks",
+  "progression": "cash, bikes",
+  "instructions": "unclear",
+  "mechanics": [
+   "bike riding",
+   "wheelies",
+   "jumps",
+   "co-op rides"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "motorbikes",
+   "wheelie"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bike life"
+  ],
+  "monetization_signals": [
+   "2x money",
+   "cash packs",
+   "donations"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "rider doing wheelie on road",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "bike physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "start as a tiny fish -> eat to grow -> evolve through 20+ sea creatures -> hunt and become server king",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "evolve into the biggest leviathan",
+  "progression": "XP, evolution tree, creatures",
+  "instructions": "unclear",
+  "mechanics": [
+   "evolve",
+   "eating",
+   "pvp hunting",
+   "cards",
+   "codes"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "sea monsters",
+   "leviathan"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 evolution",
+   "eat to grow"
+  ],
+  "monetization_signals": [
+   "leviathan passes up to 2499",
+   "XP boosts",
+   "coin packs"
+  ],
+  "update_signals": [
+   "new creatures every update",
+   "COSMETICS+QOL"
+  ],
+  "thumbnails": "leviathans in ocean, LVL 1 vs LVL 9999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "creature models, depth ocean",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q33",
+  "loop": "build a Star Wars-like station room by room -> earn credits -> fly starfighters, fight players -> rebirth",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "build a powerful battle station",
+  "progression": "credits, upgrades, rebirths",
+  "instructions": "unclear",
+  "mechanics": [
+   "tycoon",
+   "starfighters",
+   "station cannon",
+   "rebirth",
+   "raids"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Star Wars",
+   "Death Star",
+   "space"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Star Wars IP-like",
+   "tycoon"
+  ],
+  "monetization_signals": [
+   "ship passes up to 1999",
+   "2x credits",
+   "sponsor"
+  ],
+  "update_signals": [
+   "Christmas theme",
+   "beta"
+  ],
+  "thumbnails": "Death Star and TIE fighter, explore planets",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 4,
+  "complexity_notes": "200+ upgrades, ships, 4 worlds",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q34",
+  "loop": "fish chests from the sea -> open for pirates -> place crew to earn money -> sail to new islands",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rarest pirates",
+  "progression": "islands, crew rarity, mutations",
+  "instructions": "unclear",
+  "mechanics": [
+   "chest fishing",
+   "pirates",
+   "offline cash",
+   "world boss",
+   "spins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "pirates",
+   "One Piece-like",
+   "fishing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Fish a X",
+   "One Piece"
+  ],
+  "monetization_signals": [
+   "luck spins up to 3599",
+   "x4 luck",
+   "auto passes"
+  ],
+  "update_signals": [
+   "NEW UPD",
+   "hourly world boss"
+  ],
+  "thumbnails": "anime pirate with odds 1 IN 41T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many characters and mutations",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "train power -> fight stages -> collect wins to evolve hunter -> arise shadow army",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest hunter",
+  "progression": "power, wins, shadows, areas",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1",
+   "boss rolls",
+   "shadow army",
+   "training zones"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "Solo Leveling",
+   "hunter"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "+1 evolution",
+   "Solo Leveling"
+  ],
+  "monetization_signals": [
+   "FOR YOU packs up to 2999",
+   "power",
+   "auto win"
+  ],
+  "update_signals": [
+   "W5"
+  ],
+  "thumbnails": "hunter muscle evolution, 999,999 POWER",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q36",
+  "loop": "buy buildings and animatronics -> place in own pizzeria -> simulate night shifts and raid others -> earn offline money",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "collect 30+ animatronics",
+  "progression": "cash, parts, animatronics",
+  "instructions": "unclear",
+  "mechanics": [
+   "FNAF",
+   "tycoon",
+   "raids",
+   "night shifts",
+   "offline money"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "FNAF",
+   "animatronics"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "FNAF"
+  ],
+  "monetization_signals": [
+   "gifts",
+   "cash packs",
+   "VIP"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "FNAF animatronics, NOOB vs PRO",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many animatronic models",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q37",
+  "loop": "explore islands -> fight bosses with fighting styles and cursed fruits -> craft gear -> become strongest",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become the strongest pirate",
+  "progression": "fruits, levels, gear, races",
+  "instructions": "unclear",
+  "mechanics": [
+   "One Piece-like RPG",
+   "cursed fruits",
+   "bosses",
+   "rerolls",
+   "crafting"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "pirates",
+   "anime",
+   "fruits"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Blox Fruits-like"
+  ],
+  "monetization_signals": [
+   "fruit chests",
+   "rerolls"
+  ],
+  "update_signals": [
+   "NEW ISLAND",
+   "early access"
+  ],
+  "thumbnails": "anime fighters with fire",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "large world and combat",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "explore, cast spells and rituals as witches -> ride brooms -> collect shards for outfits",
+  "loop_archetype": "story_adventure",
+  "objectives": "perform spells and rituals",
+  "progression": "shards, spells, outfits",
+  "instructions": "unclear",
+  "mechanics": [
+   "spells",
+   "brooms",
+   "hexecute",
+   "witches"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "witches",
+   "magic"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "witch"
+  ],
+  "monetization_signals": [
+   "Scarlet Witch pass 1000",
+   "shards"
+  ],
+  "update_signals": [
+   "constant updates"
+  ],
+  "thumbnails": "purple-glowing witches",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom effects, weather",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q39",
+  "loop": "survive containment breach or play as SCP -> hide and run -> earn RP",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the breach or hunt",
+  "progression": "RP, MTF",
+  "instructions": "unclear",
+  "mechanics": [
+   "infection mode",
+   "SCP",
+   "1 vs all"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "SCP",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "SCP",
+   "DON'T LOOK"
+  ],
+  "monetization_signals": [
+   "RP packs",
+   "Become SCP"
+  ],
+  "update_signals": [
+   "new code"
+  ],
+  "thumbnails": "horror images DON'T LOOK",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "several maps and monsters",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q40",
+  "loop": "merge matching ships -> conquer islands -> battle for loot",
+  "loop_archetype": "merge_upgrade",
+  "objectives": "build ultimate fleet",
+  "progression": "ship tiers, islands, rebirth",
+  "instructions": "unclear",
+  "mechanics": [
+   "merge",
+   "ships",
+   "rebirth",
+   "pvp battles",
+   "events"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [],
+  "themes": [
+   "navy",
+   "ships"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Merge a X"
+  ],
+  "monetization_signals": [
+   "huge gem pack 7999",
+   "auto merge",
+   "cash"
+  ],
+  "update_signals": [
+   "UPD"
+  ],
+  "thumbnails": "ship merge demonstration, EARN OFFLINE",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "merge grid",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q41",
+  "loop": "click for +1 fire -> melt ice to free dinos -> carry them home to earn money -> deeper zones",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "free rarest dinos",
+  "progression": "fire, torches, zones",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1",
+   "dino collection",
+   "base",
+   "offline"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "dinosaurs",
+   "ice",
+   "Thanksgiving"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 melt",
+   "dinos"
+  ],
+  "monetization_signals": [
+   "fire packs",
+   "rainbow base",
+   "auras"
+  ],
+  "update_signals": [
+   "Thanksgiving event"
+  ],
+  "thumbnails": "dino in ice with turkey THANKSGIVING, +1 to +999T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 2,
+  "complexity_notes": "incremental",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q42",
+  "loop": "grow a mythical creature -> unlock flying abilities -> roleplay and explore",
+  "loop_archetype": "roleplay_social",
+  "objectives": "grow and customize creature",
+  "progression": "growth, gold, creatures",
+  "instructions": "unclear",
+  "mechanics": [
+   "creature sim",
+   "flying",
+   "customization",
+   "roleplay"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "dragons",
+   "creatures",
+   "Thanksgiving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "creature sim"
+  ],
+  "monetization_signals": [
+   "gold",
+   "potions",
+   "creature passes"
+  ],
+  "update_signals": [
+   "Thanksgiving event"
+  ],
+  "thumbnails": "fantasy creatures",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 4,
+  "complexity_notes": "custom creature models",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q43",
+  "loop": "pick a kaiju -> fight others -> earn coins -> unlock more kaiju daily",
+  "loop_archetype": "combat_pvp",
+  "objectives": "unlock kaiju and win fights",
+  "progression": "coins, EXP, kaiju",
+  "instructions": "unclear",
+  "mechanics": [
+   "kaiju",
+   "fighting",
+   "daily kaiju",
+   "emotes"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "Godzilla",
+   "kaiju"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "Godzilla"
+  ],
+  "monetization_signals": [
+   "packs",
+   "gift products"
+  ],
+  "update_signals": [
+   "new kaiju every day",
+   "events"
+  ],
+  "thumbnails": "burning kaiju art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "kaiju models",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q44",
+  "loop": "pick up plastic balls -> sell for cash -> upgrade tools -> unlock new maps",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "clean every map",
+  "progression": "tools, maps, rare balls",
+  "instructions": "unclear",
+  "mechanics": [
+   "cleaning",
+   "ball pit",
+   "maps",
+   "story",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [],
+  "themes": [
+   "ball pit",
+   "cleaning"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "Clean the X"
+  ],
+  "monetization_signals": [
+   "auto-sell",
+   "skips",
+   "luck"
+  ],
+  "update_signals": [
+   "new map every 2-3 days"
+  ],
+  "thumbnails": "colorful ball pits, 2 HOURS timer",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many balls and maps",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q45",
+  "loop": "break lucky blocks for items -> fight on tower -> last survivor wins",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "be the best survivor",
+  "progression": "coins, skins",
+  "instructions": "unclear",
+  "mechanics": [
+   "lucky blocks",
+   "survival",
+   "tower"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [],
+  "themes": [
+   "Minecraft-like",
+   "lucky block"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "lucky block"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "coins"
+  ],
+  "update_signals": [
+   "codes"
+  ],
+  "thumbnails": "blocky avatars with sword, lucky block tower",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple",
+  "novelty": 1,
+  "confidence": 70
+ }
+]

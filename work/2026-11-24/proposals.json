@@ -1,0 +1,25 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young party-minigame games climb Top Trending faster than other games of similar age",
+     "action": "Try a party-minigame format",
+     "test": {"feature": "loop=party_minigames", "metric": "tt_mom", "type": "binary", "direction": "+"}},
+    {"chart": "tt", "statement": "Young physics-sandbox games gain Top Trending momentum more slowly than other games of similar age, even though they hold decent positions",
+     "test": {"feature": "mech_sandbox_physics", "metric": "tt_mom", "type": "binary", "direction": "-"}},
+    {"chart": "mp", "statement": "Games from creators with larger groups stay on Most Popular for more days",
+     "test": {"feature": "group_members_log", "metric": "mp_days", "type": "corr", "direction": "+"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 22,
+     "statement": "Disaster-spectator fantasies (tornado chasing, plane crashes, storm filming) are a growing young cluster: Chase a Storm entered Up-and-Coming #4 and Top Trending #49 with 97% likes, 17 passes and a $1.5K-Robux-class bundle ladder, while two plane-crash sandboxes entered Top Trending the same day",
+     "rationale": "Three hazard-themed entries appeared together on 2026-11-24 (Chase a Storm, Realistic Plane Crashing, Pleb's Plane Crash Sandbox). Confirm if they hold Up-and-Coming and Top Trending positions for two weeks and a second tornado or weather game with a camera or tool goal appears; refute if they drop within a week like Can You Land A Plane? (-30 today).",
+     "action": "Pair a hazard with a camera goal"},
+    {"chart": "x", "kind": "qualitative", "confidence": 20,
+     "statement": "Established earners carry Thanksgiving event tags (Revolver Arena, Evade, Isles of Ravos, +1 Melt Ice for Dinos) while young breakouts mostly do not, so seasonal tags currently mark older, monetizing games rather than breakouts",
+     "rationale": "Within the 60 games profiled on 2026-11-24, the Thanksgiving-tagged ones are mostly 40+ days old with Top Earning positions; confirm by counting tagged games by age on Top Earning versus Up-and-Coming across the next week, refute if young tagged games start climbing Top Trending."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-045", "confidence": 42, "note": "Template keeps spreading: Throw a Friend for Monsters (Up-and-Coming +40, 142K favorites, 96% likes), Throw Food For Clowns (188K favorites, 92%), Cast For Fish (100K favorites, 93%) and Fish A Pirate (Top Earning #409, 96%) all hold chart positions within 21 days of launch, with luck tied to throw or cast distance."},
+    {"id": "H-x-046", "confidence": 36, "note": "Clean The Ballpit shipped a ninth map (Atlantis) on 2026-11-24 and now sits on all four charts: Most Popular riser +15, Top Earning #198, Top Trending #7, Up-and-Coming #13, at 14.4M visits."},
+    {"id": "H-x-047", "confidence": 25, "note": "Plane crash sandboxes keep entering (Realistic Plane Crashing 2.5M visits, Pleb's Plane Crash Sandbox 3.3M visits, Top Trending #55 and #87) while the plain ragdoll sandboxes fall; hybrids with other hooks are still scarce."}
+  ],
+  "actions": [],
+  "retire": []
+}
