@@ -1,8 +1,8 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "queue": [
   {
-   "age_days": 2342,
+   "age_days": 2343,
    "charts": [
     "te"
    ],
@@ -12,7 +12,7 @@
    "u": "1831550657"
   },
   {
-   "age_days": 1086,
+   "age_days": 1087,
    "charts": [
     "te"
    ],
@@ -22,7 +22,7 @@
    "u": "5361032378"
   },
   {
-   "age_days": 2688,
+   "age_days": 2689,
    "charts": [
     "te"
    ],
@@ -30,16 +30,6 @@
    "place": "3475397644",
    "status": "frames_ready",
    "u": "1235188606"
-  },
-  {
-   "age_days": 703,
-   "charts": [
-    "te"
-   ],
-   "name": "[🧿 RIN + 🎃] Azure Latch",
-   "place": "94647229517154",
-   "status": "youtube_needed",
-   "u": "6945584306"
   }
  ],
  "waiting": [
