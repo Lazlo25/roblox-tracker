@@ -6,8 +6,8 @@ retry: it does nothing when the 3 PM run already finished the analysis. Work in 
 that this sandbox can't reach, so today's figures come from the Daily snapshot alone.)
 
 Everything else runs without Claude: the hourly Publish site job rebuilds the hosted page
-(https://lazlo25.github.io/roblox-tracker/) and starts the Daily snapshot, which records the day at 1 PM Eastern and
-finalises yesterday. The claude.ai artifact is no longer updated, so don't write to ArtifactData.
+(https://lazlo25.github.io/roblox-tracker/), and a Mac job records the Daily snapshot at 1 PM Eastern and finalises
+yesterday. The claude.ai artifact is no longer updated, so don't write to ArtifactData.
 
 Ground rules: don't contact Roblox or any website (this sandbox can't; everything needed is in the two checkouts).
 Don't edit the scripts, guides or workflows. Write only the files the steps name. If a step fails in a way these steps
