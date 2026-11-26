@@ -42,7 +42,7 @@ LIVE_HOURS = 72        # hours of total-players readings in the live document
 def get_json(url, tries=6):
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'})
+            req = urllib.request.Request(url, headers={'User-Agent': 'roblox-tracker (+https://github.com/Lazlo25/roblox-tracker)', 'Accept': 'application/json'})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
@@ -170,7 +170,7 @@ DUBIT_URL = 'https://dubit.io/library/which-roblox-genres-get-the-most-plays'
 def dubit_shares():
     """Dubit's share of Roblox plays by genre (their published table), or None if the page can't be read."""
     try:
-        req = urllib.request.Request(DUBIT_URL, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(DUBIT_URL, headers={'User-Agent': 'roblox-tracker (+https://github.com/Lazlo25/roblox-tracker)'})
         page = urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'replace')
     except Exception as e:
         print('warning: Dubit page fetch failed:', e)

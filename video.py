@@ -56,7 +56,7 @@ def save(path, obj):
         json.dump(obj, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
-def get(url, binary=False, tries=4, ua='Mozilla/5.0'):
+def get(url, binary=False, tries=4, ua='roblox-tracker (+https://github.com/Lazlo25/roblox-tracker)'):
     import time
     for i in range(tries):
         try:

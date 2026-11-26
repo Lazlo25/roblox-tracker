@@ -35,7 +35,7 @@ METRIC_NAMES = {
     'tt_mom': 'daily position gain on Top Trending', 'tt_pos': 'Top Trending position', 'uc_pos': 'Up-and-Coming position',
 }
 TT_MAX_AGE = 122
-UA = {'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'}
+UA = {'User-Agent': 'roblox-tracker (+https://github.com/Lazlo25/roblox-tracker)', 'Accept': 'application/json'}
 
 
 # ---------------------------------------------------------------- shared data
@@ -207,7 +207,7 @@ def fetch_image(url, path):
         return path
     for i in range(3):
         try:
-            data = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read()
+            data = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'roblox-tracker (+https://github.com/Lazlo25/roblox-tracker)'}), timeout=30).read()
             open(path, 'wb').write(data)
             return path
         except Exception:
