@@ -1,0 +1,685 @@
+[
+ {
+  "label": "Q31",
+  "loop": "run up tower while Christmas worm chases -> collect gear and prank players -> reach summit for rewards",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top avoiding the scary worm",
+  "progression": "speed multipliers, coils, gear",
+  "instructions": "run from worms, race to summit, prank players",
+  "mechanics": [
+   "tower obby",
+   "chasing worm",
+   "troll gear",
+   "speed multipliers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Santa-themed variant of worm-chase tower obby"
+  ],
+  "themes": [
+   "Christmas",
+   "worm",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "climb-the-tower",
+   "seasonal"
+  ],
+  "monetization_signals": [
+   "admin commands 499",
+   "speed multiplier products",
+   "cash"
+  ],
+  "update_signals": [
+   "Christmas theme"
+  ],
+  "thumbnails": "red Santa worm and snowman worm on tower",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "reskinned tower obby template",
+  "novelty": 0,
+  "confidence": 70
+ },
+ {
+  "label": "Q32",
+  "loop": "run up keyboard tower escaping Mini Mini.exe -> 13 stages -> win money -> buy troll items",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top before Mini Mini catches you",
+  "progression": "wins, money, coils",
+  "instructions": "run up keyboard tower, jump gaps, prank friends",
+  "mechanics": [
+   "tower obby",
+   "chaser",
+   "keyboard sound keys",
+   "troll products"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Mini Mini horror clown chaser in a keyboard tower"
+  ],
+  "themes": [
+   "clown",
+   "exe horror",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "climb-the-tower",
+   "exe horror"
+  ],
+  "monetization_signals": [
+   "admin 259",
+   "troll products",
+   "explode server 79",
+   "speed"
+  ],
+  "update_signals": [
+   "updated 2026-11-25"
+  ],
+  "thumbnails": "creepy mask on yellow tower",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "tower obby with chaser",
+  "novelty": 0,
+  "confidence": 65
+ },
+ {
+  "label": "Q33",
+  "loop": "collect candles and find exit in liminal neighborhood while creature lurks -> coins for upgrades",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive days, collect candles, find exit",
+  "progression": "coins, levels",
+  "instructions": "collect candles, find exit",
+  "mechanics": [
+   "dreamcore",
+   "candle collection",
+   "levels",
+   "jumpscare products",
+   "radar"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Dreamcore liminal neighborhood horror"
+  ],
+  "themes": [
+   "dreamcore",
+   "liminal",
+   "exe"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dreamcore horror"
+  ],
+  "monetization_signals": [
+   "Prankster 499",
+   "revives",
+   "coin packs",
+   "levels"
+  ],
+  "update_signals": [
+   "Level 2 out now"
+  ],
+  "thumbnails": "long-legged creature over suburban houses, Level 2",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 3,
+  "complexity_notes": "neighborhood map, creature AI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q34",
+  "loop": "fly airplane in arcade dogfights -> earn coins -> buy better airplanes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest flight fighter",
+  "progression": "planes (30+), levels, coins",
+  "instructions": "fight in air, collect repairs and abilities",
+  "mechanics": [
+   "dogfight",
+   "planes",
+   "coins",
+   "XP boosts"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "arcade air combat"
+  ],
+  "themes": [
+   "airplanes",
+   "dogfight"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plane fighting"
+  ],
+  "monetization_signals": [
+   "coin packs up to 2500",
+   "XP boost"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "plane levels 1 to 999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "mixed",
+  "complexity": 3,
+  "complexity_notes": "flight combat, plane models",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q35",
+  "loop": "ski or snowboard with friends -> do tricks and challenges -> earn flakes -> buy cosmetics",
+  "loop_archetype": "sports_competitive",
+  "objectives": "ski and finish challenges, unlock cosmetics",
+  "progression": "flakes, season pass",
+  "instructions": "ski in group of up to 4, snowball fights, find chests",
+  "mechanics": [
+   "skiing",
+   "snowboard",
+   "chairlifts",
+   "challenges",
+   "season pass"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "inflatable T-rex cosmetics, chairlift group"
+  ],
+  "themes": [
+   "ski",
+   "winter"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ski game",
+   "seasonal"
+  ],
+  "monetization_signals": [
+   "season pass 499",
+   "flakes",
+   "T-rex pack",
+   "turbo skis"
+  ],
+  "update_signals": [
+   "snowboards update",
+   "Winter 1 pass"
+  ],
+  "thumbnails": "colorful skiers on chairlift and T-rex costumes",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 4,
+  "complexity_notes": "large resort map, ski physics",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q36",
+  "loop": "be a squishy toy in factory, shelf, store -> get bought and unboxed by a kid",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live the life of a squishy; collect 24 squishies",
+  "progression": "squishies, blind box skins, home",
+  "instructions": "choose a role, collect squishies, decorate home",
+  "mechanics": [
+   "roleplay roles",
+   "collection",
+   "home decor"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "life cycle of a squishy toy"
+  ],
+  "themes": [
+   "squishy",
+   "toys",
+   "ASMR"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "squishy",
+   "roleplay"
+  ],
+  "monetization_signals": [
+   "Lucky Charm",
+   "skip products",
+   "kill all 199"
+  ],
+  "update_signals": [
+   "new journeys each update"
+  ],
+  "thumbnails": "squishy dolls in store and unboxing",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "multiple scenes",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q37",
+  "loop": "explore city -> rob stores and banks -> escape police -> level up and buy vehicles",
+  "loop_archetype": "simulation_job",
+  "objectives": "live as criminal in open world",
+  "progression": "level, stats, weapons, vehicles",
+  "instructions": "rob, steal cars, race, gang wars",
+  "mechanics": [
+   "open world",
+   "heists",
+   "police chases",
+   "vehicles",
+   "weapons"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "GTA-inspired with 254 vehicle products"
+  ],
+  "themes": [
+   "GTA",
+   "crime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "GTA6 hype"
+  ],
+  "monetization_signals": [
+   "vehicle products",
+   "2x cash"
+  ],
+  "update_signals": [
+   "testing"
+  ],
+  "thumbnails": "couple with gun at sunset city",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "open world city, vehicles, police AI",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q38",
+  "loop": "train strength -> defeat enemies -> arise shadows to fight with you -> roll mutations and fuse",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest",
+  "progression": "strength, shadows, mutations, worlds",
+  "instructions": "train, defeat enemies, arise shadows, fuse",
+  "mechanics": [
+   "+1 train",
+   "shadow army",
+   "mutations",
+   "rebirth",
+   "fuse"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Solo-Leveling shadow army in +1 template"
+  ],
+  "themes": [
+   "shadows",
+   "anime",
+   "+1"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1 game",
+   "Arise",
+   "anime crossovers"
+  ],
+  "monetization_signals": [
+   "Monarch Sanctum",
+   "equip slots",
+   "strength",
+   "X3 wins",
+   "auto rebirth"
+  ],
+  "update_signals": [
+   "weekly Saturday updates",
+   "UPD 2 world"
+  ],
+  "thumbnails": "arise with anime characters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "+1 template, shadows",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q39",
+  "loop": "style hair with real physics strands -> burn, freeze, dye -> salon tools",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment with realistic hair",
+  "progression": "hair styles",
+  "instructions": "customize in HAIR tab",
+  "mechanics": [
+   "strand hair physics",
+   "fire/freeze",
+   "salon tools"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "real-time strand hair physics"
+  ],
+  "themes": [
+   "hair",
+   "physics"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "realistic physics"
+  ],
+  "monetization_signals": [
+   "Horse Pass",
+   "robux products"
+  ],
+  "update_signals": [
+   "Salon update"
+  ],
+  "thumbnails": "avatar with detailed hair",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "strand physics",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q40",
+  "loop": "fish Thai-style -> hunt local bosses -> raise fish in tanks -> build home -> rebirth",
+  "loop_archetype": "simulation_job",
+  "objectives": "collect fish and records",
+  "progression": "rods, fish books, home",
+  "instructions": "float krathong, collect event points",
+  "mechanics": [
+   "fishing",
+   "bosses",
+   "fish tanks",
+   "home building",
+   "rebirth",
+   "event"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Thai-themed fishing with Loy Krathong event"
+  ],
+  "themes": [
+   "Thai",
+   "fishing",
+   "festival"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "fishing",
+   "event"
+  ],
+  "monetization_signals": [
+   "Luck x2",
+   "money",
+   "Support products",
+   "golden bait"
+  ],
+  "update_signals": [
+   "Loy Krathong event Nov 23 - Dec 2"
+  ],
+  "thumbnails": "goldfish, lanterns, Thai boat at night",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "fishing, bosses, event",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q41",
+  "loop": "cut hair to theme in 5 minutes with whole server -> judged 1-5 -> win cash -> own barbershop",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "win cuts and grow Barber Street shop",
+  "progression": "cash, XP, pass tiers",
+  "instructions": "spin theme, cut, best score wins",
+  "mechanics": [
+   "haircut competition",
+   "judge scoring",
+   "shop tycoon",
+   "crews",
+   "pro league",
+   "pass"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "competitive same-customer haircut with judge"
+  ],
+  "themes": [
+   "barber",
+   "haircut"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "barber trend"
+  ],
+  "monetization_signals": [
+   "VIP 399",
+   "auto build",
+   "cash products",
+   "pass"
+  ],
+  "update_signals": [
+   "Barber Street",
+   "pass until Dec 1",
+   "code"
+  ],
+  "thumbnails": "before/after haircuts",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 3,
+  "complexity_notes": "hair cutting tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q42",
+  "loop": "2-5 players share car controls -> avoid traps -> beat obby",
+  "loop_archetype": "obby_platformer",
+  "objectives": "finish obby cooperatively",
+  "progression": "worlds",
+  "instructions": "share steering, gas, brakes",
+  "mechanics": [
+   "shared car control",
+   "troll items",
+   "speedrun",
+   "checkpoints"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "each player controls one key of a car"
+  ],
+  "themes": [
+   "car",
+   "teamwork"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "co-op chaos"
+  ],
+  "monetization_signals": [
+   "Tesla 569",
+   "troll shield",
+   "skips",
+   "cash"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "players with WASD keys sharing car",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 3,
+  "complexity_notes": "car physics, obby maps",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q43",
+  "loop": "steal eggs from sleeping creatures with spider arms -> run -> hatch eggs for pets -> earn money -> train",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare pets and sizes",
+  "progression": "strength, base upgrades",
+  "instructions": "steal eggs, climb walls, hatch eggs",
+  "mechanics": [
+   "stealing",
+   "spider arms",
+   "hatch pets",
+   "money",
+   "training"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "spider-arm climbing"
+  ],
+  "themes": [
+   "spider",
+   "eggs",
+   "dinosaurs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x"
+  ],
+  "monetization_signals": [
+   "x2 growth",
+   "x2 money",
+   "aurora eggs",
+   "strength packs"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "avatar with spider arms stealing eggs, $97,235Qa/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "creature AI, arms IK",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q44",
+  "loop": "shoot walls -> vacuum blocks -> sell for cash -> buy bigger guns -> reach final wall",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "break 14 walls and escape bunker",
+  "progression": "guns, classes, drones, gems",
+  "instructions": "shoot wall, vacuum, sell, upgrade",
+  "mechanics": [
+   "shooting",
+   "destruction",
+   "conveyor",
+   "classes",
+   "drones",
+   "difficulty tiers"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "destructible walls with weapons"
+  ],
+  "themes": [
+   "bunker",
+   "guns"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "escape bunker incremental"
+  ],
+  "monetization_signals": [
+   "V.I.P",
+   "infinite storage",
+   "gems",
+   "weapon rounds"
+  ],
+  "update_signals": [
+   "Christmas UPD"
+  ],
+  "thumbnails": "gun destroying walls",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 3,
+  "complexity_notes": "voxel destruction",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q45",
+  "loop": "wrap presents with silly tools -> earn gems -> unlock robots and printers -> escape",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "wrap 1,000,000 presents",
+  "progression": "tools, auto wrappers, classes",
+  "instructions": "wrap to escape Santa workshop",
+  "mechanics": [
+   "wrapping",
+   "gems",
+   "automation",
+   "difficulty modes",
+   "leaderboard"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "Santa workshop prison escape"
+  ],
+  "themes": [
+   "Christmas",
+   "Santa",
+   "escape"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "incremental escape",
+   "seasonal"
+  ],
+  "monetization_signals": [
+   "class slot",
+   "luck",
+   "tape gun",
+   "wrap all"
+  ],
+  "update_signals": [
+   "NEW tag"
+  ],
+  "thumbnails": "wrapping with tape and Santa behind bars",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "mixed",
+  "complexity": 2,
+  "complexity_notes": "incremental template",
+  "novelty": 1,
+  "confidence": 75
+ }
+]
