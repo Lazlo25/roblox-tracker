@@ -3,9 +3,9 @@ name: Publish site
 # Builds the hosted tracker (site/build.py) from this repo plus the hourly collector's data (downloaded from its
 # read-only Google Apps Script feed by site/fetch_ccu.py) and deploys it to GitHub Pages. A short job on a plain
 # schedule: it never starts itself again (GitHub disabled Lazlo25/roblox-ccu on Nov 24, 2026, most likely for using
-# Actions as an always-on service). It also runs on every push to main, which includes the daily snapshot that a Mac
-# launchd job (com.lewiswilson.roblox-daily) records at 1 PM Eastern and pushes. A missed scheduled run just means the
-# page updates later; it warns when its data is more than 3 hours old.
+# Actions as an always-on service). It also runs on every push to main, which includes the daily snapshot that a job
+# on the owner's Mac records at 1 PM Eastern and pushes. A missed scheduled run just means the page updates later; it
+# warns when its data is more than 3 hours old.
 on:
   push:
     branches: [main]
