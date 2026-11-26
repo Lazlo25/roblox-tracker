@@ -1,8 +1,8 @@
 name: Daily snapshot
 
-# Started by the hourly Publish site job from 8 AM Eastern (or by a push to trigger/daily.txt); the job then waits
-# until 1 PM Eastern. GitHub's own schedule below is only a backstop, because it can lag
-# by hours on small repos.
+# Started by the hourly Publish site job from 1 PM Eastern (or by a push to trigger/daily.txt). Before 1 PM it does
+# nothing: it never waits inside the job, so no runner sits idle. GitHub's own schedule below is only a backstop,
+# because it can lag by hours on small repos.
 on:
   workflow_dispatch:
   push:
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7
 
@@ -32,14 +32,10 @@ jobs:
           echo "date=$D" >> "$GITHUB_OUTPUT"
           echo "prev=$(TZ=America/New_York date -d "$D -1 day" +%F)" >> "$GITHUB_OUTPUT"
           if [ -f "db-copy/days/$D.json" ]; then echo "done=1" >> "$GITHUB_OUTPUT"; echo "Already recorded for $D"; fi
-          # Before 1 PM Eastern: wait for it when it's under 5 hours away, otherwise leave it to a later trigger.
-          wait=$(( $(TZ=America/New_York date -d "$D 13:00" +%s) - $(date +%s) ))
-          if [ "$wait" -gt 18000 ]; then echo "early=1" >> "$GITHUB_OUTPUT"; echo "More than 5 hours before 1 PM Eastern: nothing to do"
-          elif [ "$wait" -gt 0 ]; then echo "Waiting $wait s for 1 PM Eastern"; echo "wait=$wait" >> "$GITHUB_OUTPUT"; fi
-
-      - name: Wait for 1 PM Eastern
-        if: steps.day.outputs.wait != '' && steps.day.outputs.done != '1'
-        run: sleep ${{ steps.day.outputs.wait }}
+          # Before 1 PM Eastern: nothing to do; a later trigger records the day.
+          if [ "$(TZ=America/New_York date +%s)" -lt "$(TZ=America/New_York date -d "$D 13:00" +%s)" ]; then
+            echo "early=1" >> "$GITHUB_OUTPUT"; echo "Before 1 PM Eastern: nothing to do"
+          fi
 
       - name: Install Pillow (contact sheets)
         if: steps.day.outputs.done != '1' && steps.day.outputs.early != '1'

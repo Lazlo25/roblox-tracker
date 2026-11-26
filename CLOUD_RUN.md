@@ -1,8 +1,9 @@
 # Daily cloud run (Deep Analysis)
 
 Fires at about 3 PM and 7 PM Eastern (4 PM and 8 PM in summer, because the schedule is set in UTC). The 7 PM run is a
-retry: it does nothing when the 3 PM run already finished the analysis. Work in the `roblox-tracker` checkout; the
-`roblox-ccu` checkout (the hourly GitHub Actions data) sits next to it.
+retry: it does nothing when the 3 PM run already finished the analysis. Work in the `roblox-tracker` checkout. (The
+`roblox-ccu` repo was disabled by GitHub on Nov 24, 2026; the hourly data now comes from a Google Apps Script collector
+that this sandbox can't reach, so today's figures come from the Daily snapshot alone.)
 
 Everything else runs without Claude: the hourly Publish site job rebuilds the hosted page
 (https://lazlo25.github.io/roblox-tracker/) and starts the Daily snapshot, which records the day at 1 PM Eastern and
@@ -14,14 +15,12 @@ don't cover, stop and report the error text.
 
 ## Steps
 
-1. `cd` into roblox-tracker, `git checkout -q main && git pull -q --rebase`; then
-   `git -C ../roblox-ccu checkout -q main && git -C ../roblox-ccu pull -q --rebase` (the checkouts start detached).
+1. `cd` into roblox-tracker, `git checkout -q main && git pull -q --rebase` (the checkout starts detached).
    Set D = `TZ=America/New_York date +%F` and H = `TZ=America/New_York date +%H` (00–23).
 2. Stop and reply "Analysis for D already done" if `analysis/archive/D.json` exists. Stop and reply "No snapshot for D
    yet" if H < 14 or `db-copy/days/D.json` doesn't exist.
-3. Today's figures: run `python3 tracker.py refresh --date D --dump db-copy --day-file ../roblox-ccu/data/daily/D.json
-   --rt-file ../roblox-ccu/data/roterminal_daily.json --out /tmp/day.json`. Unless it prints a line starting with
-   "NO UPDATE", `mv /tmp/day.json db-copy/days/D.json`.
+3. Today's figures: nothing to do (the Daily snapshot already recorded them; this sandbox can't reach the collector).
+   Use "Day D: from the 1 PM snapshot" as the first reply line in step 6.
 4. Deep Analysis:
    a. Contact sheets: `mkdir -p work/D && git fetch -q origin sheets && git archive origin/sheets | tar -x -C work/D`.
    b. Gameplay profiling. Read `PROFILE_GUIDE.md` once. For each `work/D/dossier_NN.md`: read it, look at its contact

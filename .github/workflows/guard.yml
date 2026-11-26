@@ -33,7 +33,7 @@ jobs:
           BUILTIN: ${{ github.token }}
         run: |
           status=0
-          for r in roblox-tracker roblox-ccu; do
+          for r in roblox-tracker; do  # roblox-ccu was disabled by GitHub on Nov 24, 2026
             tok="${ADMIN:-$BUILTIN}"
             vis=$(GH_TOKEN="$tok" gh repo view "Lazlo25/$r" --json visibility -q .visibility 2>/dev/null || echo UNREADABLE)
             echo "Lazlo25/$r: $vis"

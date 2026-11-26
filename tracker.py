@@ -19,7 +19,7 @@
 
   python3 tracker.py live --ccu DIR --out live.json
       The total-players document the page's Players on Roblox card reads (latest reading, today so far, every day
-      RoTerminal has, the last 72 hours), from a local roblox-ccu checkout.
+      RoTerminal has, the last 72 hours), from a local copy of the collector's files (site/fetch_ccu.py makes one).
 """
 import argparse, csv, datetime as dt, glob, html, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, uuid
 from zoneinfo import ZoneInfo
@@ -30,8 +30,11 @@ CHARTS = [('te', 'top-earning'), ('mp', 'most-popular'), ('tt', 'top-trending'),
 CHART_URL = ('https://apis.roblox.com/explore-api/v1/get-sort-content?urlLocale=en_us&device=all&country=all'
              '&cpuCores=8&maxResolution=1920x1080&maxMemory=16384&networkType=4g&sortId=%s&sessionId=%s')
 GAMES_URL = 'https://games.roblox.com/v1/games?universeIds='
-DAY_URL = 'https://raw.githubusercontent.com/Lazlo25/roblox-ccu/main/data/daily/{date}.json'
-RT_URL = 'https://raw.githubusercontent.com/Lazlo25/roblox-ccu/main/data/roterminal_daily.json'
+# The hourly collector (Google Apps Script, since GitHub disabled roblox-ccu on Nov 24, 2026) serves its data files
+# read-only here: FEED_URL?path=data/... returns the file, or {"error":"not found"}.
+FEED_URL = 'https://script.google.com/macros/s/AKfycbxmGyPGQc8oxa9bujDbILvv1OPWItK76MR4ESlOLgrQWHjydVjUyZY87hnJ0Yh9pDKL/exec'
+DAY_URL = FEED_URL + '?path=data/daily/{date}.json'
+RT_URL = FEED_URL + '?path=data/roterminal_daily.json'
 AVG_MAX_AGE_H = 3      # a day-so-far file older than this is ignored (a finished day's file never goes stale)
 LIVE_HOURS = 72        # hours of total-players readings in the live document
 
@@ -88,7 +91,7 @@ def game_details(ids):
 
 def load_day_averages(date, url_tpl=DAY_URL, path=None):
     """The hourly collector's averages for one Eastern date (midnight to `through_et`), or (None, reason).
-    `path` reads a local copy instead (cloud runs clone roblox-ccu because they can't fetch from the web)."""
+    `path` reads a local copy instead (for runs that can't fetch from the web)."""
     try:
         d = json.load(open(path, encoding='utf-8')) if path else get_json(url_tpl.format(date=date), tries=3)
         made = dt.datetime.strptime(d['generated_utc'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)

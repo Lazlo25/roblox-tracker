@@ -3,14 +3,14 @@
 The page is the same roblox_monetization_tracker.html the artifact uses. Here a small shim (site/static_db.js) stands in
 for the artifact database and reads JSON files published next to the page instead:
 
-  data/days.json            every day document from db-copy/days, with today and yesterday refreshed from roblox-ccu
+  data/days.json            every day document from db-copy/days, with today and yesterday refreshed from the collector
   data/analysis.json        the latest Deep Analysis document (analysis/archive)
   data/live/platform.json   total players on Roblox (tracker.py live)
   data/hist/_index.json     universe id -> "through" date, for the games with Rolimons history
   data/hist/<id>.json       each game's Rolimons history
   data/meta.json            when this build ran (the page warns when it is old)
 
-Nothing is written back to the repo. Usage: python3 site/build.py --ccu ../roblox-ccu --out _site
+Nothing is written back to the repo. Usage: python3 site/fetch_ccu.py --out ccu && python3 site/build.py --ccu ccu --out _site
 """
 import argparse
 import datetime as dt
@@ -61,7 +61,7 @@ def build_days(ccu, tmp):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--ccu', required=True, help='a roblox-ccu checkout')
+    ap.add_argument('--ccu', required=True, help="a local copy of the collector's files (site/fetch_ccu.py)")
     ap.add_argument('--out', required=True)
     a = ap.parse_args()
     out = os.path.abspath(a.out)
