@@ -1,0 +1,62 @@
+{
+ "new": [
+  {
+   "chart": "tt",
+   "statement": "Party-round loops (short elimination or judged rounds) climb Top Trending faster than other young games of similar age",
+   "action": "Launch with a short party-round loop",
+   "test": {
+    "feature": "loop=party_minigames",
+    "metric": "tt_mom",
+    "type": "binary",
+    "direction": "+"
+   }
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 25,
+   "statement": "Hands-on craft job sims (cutting hair to a 1-5 star order, cleaning to a medal, wrapping presents) climb the breakout charts faster than hands-off cash tycoons",
+   "action": "Make the job a hands-on craft minigame",
+   "rationale": "Barber Empire (26d, Top Trending #6), Barber Showdown (18d), Deep Clean ASMR (18d, Top Trending #32) and Realistic Hair all entered a breakout chart this week, while generic tycoons sit low (H-uc-016). Confirm if more craft-minigame jobs enter within 30 days and out-rank plain tycoons at the same age; refute if they stall below Up-and-Coming #60."
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 22,
+   "statement": "Gorilla Tag-style arm locomotion fused with a backrooms monster chase is a repeatable horror hybrid: untitled monkey game reached Up-and-Coming #4 at 9 days while Afraid Monkeys (290 days, 65M visits) shows the longevity ceiling",
+   "action": "Pair arm-based movement with a monster chase",
+   "rationale": "untitled monkey game (UC #4, Most Popular #76), Lethal ape Remixed and Afraid Monkeys all use the monkey plus nextbot formula. Confirm if the monkey game holds a chart place beyond week 4 or a second clone breaks out; refute if it falls out within two weeks like earlier horror fads."
+  },
+  {
+   "chart": "x",
+   "kind": "qualitative",
+   "confidence": 20,
+   "statement": "Tower obbies with a chasing creature (Santa worm, Mini Mini.exe) reach Up-and-Coming at about 11 days despite tiny favorite counts and 65-73% like ratios, then stall",
+   "rationale": "Climb Scary Santa Tower (959K visits, 1.4K favorites, UC #25) and Climb the Tower of Mini Mini.exe (UC #27) entered together. Confirm if both leave Up-and-Coming before day 30 without reaching Top Trending; refute if either climbs."
+  }
+ ],
+ "qualitative_updates": [
+  {
+   "id": "H-x-045",
+   "confidence": 38,
+   "note": "Three more throw-for-luck clones sit on the charts today: Throw a Friend for Monsters (Top Earning #374, Top Trending #58, 97% likes), Throw Brains For Zombies (99% likes) and Throw Food For Clowns (251K favorites), alongside Throw Food For Animals on Most Popular."
+  },
+  {
+   "id": "H-x-006",
+   "confidence": 58,
+   "note": "Peppa's House (Anomaly) is on Most Popular #95 at 82 days and Find The Anomaly entered Up-and-Coming #77 with 60+ anomalies."
+  },
+  {
+   "id": "H-tt-083",
+   "confidence": 34,
+   "note": "Wrap 1M Presents To Escape and Climb Scary Santa Tower entered the breakout charts in the lower half, consistent with Christmas titles waiting for December."
+  },
+  {
+   "id": "H-x-048",
+   "confidence": 22,
+   "note": "The Great Build, a Roblox-run Thanksgiving community event, entered at Top Trending #1 and Most Popular #16 in two days; dated gratitude events by the platform itself dominate the seasonal slot."
+  }
+ ],
+ "actions": [],
+ "retire": []
+}

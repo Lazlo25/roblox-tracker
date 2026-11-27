@@ -1,0 +1,679 @@
+[
+ {
+  "label": "Q46",
+  "loop": "grab/blast ragdoll dummies with 40+ tools and powers -> earn coins per knockout -> unlock powers",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause chaos and unlock powers",
+  "progression": "coins, powers, season pass",
+  "instructions": "grab, bat, blow up",
+  "mechanics": [
+   "ragdoll sandbox",
+   "anime powers",
+   "special abilities",
+   "slow-mo",
+   "undo"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "pixel-art style ragdoll lab"
+  ],
+  "themes": [
+   "ragdoll",
+   "lab",
+   "anime powers"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "42 passes",
+   "mega bundle 999",
+   "daily spins",
+   "coins"
+  ],
+  "update_signals": [
+   "season S1"
+  ],
+  "thumbnails": "pixel-art dummies in torture-like machines, UFO",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "physics bodies, 40+ tools",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q47",
+  "loop": "pick contract -> descend into caves with gear -> log places in guidebook -> rank up",
+  "loop_archetype": "simulation_job",
+  "objectives": "explore deeper caves and complete contracts",
+  "progression": "rank, gear, outfits, guidebook",
+  "instructions": "grab gear, pick contract",
+  "mechanics": [
+   "cave exploration",
+   "tight squeezes",
+   "flooded tunnels",
+   "gear",
+   "guidebook"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "claustrophobic cave diving realism"
+  ],
+  "themes": [
+   "caves",
+   "diving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cave-sim"
+  ],
+  "monetization_signals": [
+   "115 dev products gear",
+   "medkit",
+   "rappel"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "dark first-person squeeze through crack",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "cave generation, movement, many gear items",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q48",
+  "loop": "throw brain far -> attract zombies by zone -> earn money -> train strength",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rarer zombies in farther zones",
+  "progression": "strength, brains, zones",
+  "instructions": "throw, collect, train",
+  "mechanics": [
+   "throwing",
+   "collection",
+   "idle income",
+   "training"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "throw-a-x clone with zombies"
+  ],
+  "themes": [
+   "zombies",
+   "brains"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x"
+  ],
+  "monetization_signals": [
+   "gingerbread eggs",
+   "money packs",
+   "strength packs",
+   "auto tap"
+  ],
+  "update_signals": [
+   "Christmas event"
+  ],
+  "thumbnails": "zombie and brain, 1 IN 999B rainbow zombie",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "throw template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "open photocard packs -> stock shelves -> serve customers -> hire staff, expand",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow your kpop store",
+  "progression": "level, furniture, themes",
+  "instructions": "open packs, run shop",
+  "mechanics": [
+   "shop tycoon",
+   "photocard packs",
+   "thieves",
+   "hire staff",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "K-pop photocard collecting shop"
+  ],
+  "themes": [
+   "kpop",
+   "photocards",
+   "shop"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "shop-tycoon",
+   "kpop"
+  ],
+  "monetization_signals": [
+   "2x luck",
+   "VIP",
+   "storefront gifts",
+   "cash tiers"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "codes at likes"
+  ],
+  "thumbnails": "shop with photocards, cash, pack",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "shop systems, many cards",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q50",
+  "loop": "ride night train -> watch passengers -> shoot the anomaly -> clear wagons -> reach driver",
+  "loop_archetype": "horror_escape",
+  "objectives": "find the non-human passenger in each wagon",
+  "progression": "anomaly file, titles, endings",
+  "instructions": "watch passengers, shoot anomaly",
+  "mechanics": [
+   "anomaly detection",
+   "train",
+   "shooting",
+   "coop",
+   "endings"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "spot-the-non-human on a train"
+  ],
+  "themes": [
+   "train",
+   "anomaly",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly-horror",
+   "find-the-x"
+  ],
+  "monetization_signals": [
+   "revives",
+   "scanner packs",
+   "coins"
+  ],
+  "update_signals": [
+   "new anomalies per update"
+  ],
+  "thumbnails": "masked passengers on dark train, scanner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "60+ anomalies, train map",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q51",
+  "loop": "use weapons/powers on euphoria-style ragdolls -> trigger events -> unlock items",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck dummies with 42 weapons and events",
+  "progression": "coins, weapons, powers",
+  "instructions": "use weapons and events",
+  "mechanics": [
+   "ragdoll",
+   "weapons",
+   "world events",
+   "bosses",
+   "vehicles"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "euphoria-inspired physics"
+  ],
+  "themes": [
+   "ragdoll",
+   "anime bosses"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "18 passes",
+   "event packs",
+   "special weapons"
+  ],
+  "update_signals": [
+   "Yule Reaper"
+  ],
+  "thumbnails": "white dummies, black hole, piercing physics",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "42 weapons, maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q52",
+  "loop": "click for +1 chakra -> unlock jutsu -> clear stages -> rebirth -> hatch eggs",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become Jutsu Master",
+  "progression": "chakra, jutsu, auras, worlds",
+  "instructions": "click to gain chakra",
+  "mechanics": [
+   "+1 clicking",
+   "jutsu",
+   "stages",
+   "world bosses",
+   "rebirth",
+   "eggs"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Naruto-inspired +1 clicker"
+  ],
+  "themes": [
+   "Naruto",
+   "ninja"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-evolve",
+   "Naruto"
+  ],
+  "monetization_signals": [
+   "auto clicker",
+   "auto win",
+   "chakra packs",
+   "limited Nine Tails"
+  ],
+  "update_signals": [
+   "W3 world",
+   "codes"
+  ],
+  "thumbnails": "Naruto-like characters with +1 and +7M",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "+1 template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q53",
+  "loop": "time throw meter -> farther throw = rarer clown -> place in pen for cash -> train",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect clowns in 11 areas",
+  "progression": "strength, luck, index, zones",
+  "instructions": "throw food, collect clowns",
+  "mechanics": [
+   "throwing",
+   "power meter",
+   "clown collection",
+   "idle income",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "throw-a-x clone with clowns and backrooms"
+  ],
+  "themes": [
+   "clowns",
+   "food"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x"
+  ],
+  "monetization_signals": [
+   "VIP 399",
+   "luck",
+   "lucky throws",
+   "power packs",
+   "173 products"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "giant blue clown, $67.67B tag",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "throw template",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q54",
+  "loop": "sneak onto land as a fish -> bait and net humans -> avoid guards -> bring catch to water",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "catch humans and escape",
+  "progression": "speed scale, money",
+  "instructions": "place bait, net, flee guards",
+  "mechanics": [
+   "reverse fishing",
+   "stealth",
+   "guards",
+   "tycoon"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "fish catching humans inversion"
+  ],
+  "themes": [
+   "fish",
+   "humans",
+   "reverse"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "catch-a-x",
+   "inversion"
+  ],
+  "monetization_signals": [
+   "speed scale X2-X1024 products"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "shark/fish net catching humans, +$1,000,000",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "npc humans, guards",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q55",
+  "loop": "hide from evil crawlers each round -> collect coins -> buy guns -> kill them",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive until timer ends",
+  "progression": "coins, guns, pets",
+  "instructions": "hide, shoot crawlers",
+  "mechanics": [
+   "hide and seek",
+   "spider monsters",
+   "guns",
+   "short rounds"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "based on Evil Crawling Thing GMod addon"
+  ],
+  "themes": [
+   "spiders",
+   "crawlers"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "evil-crawling-thing"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "donations",
+   "daily spins",
+   "crawler pet"
+  ],
+  "update_signals": [
+   "community server"
+  ],
+  "thumbnails": "black spiders in dark rooms",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "monster AI, round loop",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q56",
+  "loop": "mix slime from ingredients -> stretch/squish -> unlock tools -> buy items",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create dream slimes",
+  "progression": "tools, ingredients, coins",
+  "instructions": "mix and create",
+  "mechanics": [
+   "slime",
+   "ASMR",
+   "ingredients",
+   "sandbox",
+   "idle coins"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "ASMR slime sandbox"
+  ],
+  "themes": [
+   "slime",
+   "ASMR"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "slime-asmr",
+   "satisfying"
+  ],
+  "monetization_signals": [
+   "unlock everything 949",
+   "offline coins",
+   "skips",
+   "auto mixer"
+  ],
+  "update_signals": [
+   "space mode"
+  ],
+  "thumbnails": "colorful slime in bowl, space mode",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "slime physics",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q57",
+  "loop": "click for +1 strength -> defeat enemies -> evolve stickmen -> hatch pets -> rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become strongest stickman",
+  "progression": "strength, worlds, stickmen, pets",
+  "instructions": "click, fight",
+  "mechanics": [
+   "+1 clicker",
+   "evolve stickman",
+   "pets",
+   "wins",
+   "rebirth",
+   "skills"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "anime stickmen in +1 template"
+  ],
+  "themes": [
+   "stickman",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-evolve"
+  ],
+  "monetization_signals": [
+   "28 passes",
+   "x512 strength 999",
+   "strength boosts"
+  ],
+  "update_signals": [
+   "World 4",
+   "codes"
+  ],
+  "thumbnails": "anime-style stickmen with +1",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 2,
+  "complexity_notes": "+1 template",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q58",
+  "loop": "run from monsters in backrooms -> survive",
+  "loop_archetype": "horror_escape",
+  "objectives": "just run",
+  "progression": "unclear",
+  "instructions": "just run",
+  "mechanics": [
+   "ape horror",
+   "chase",
+   "backrooms"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "Lethal Company-ish gorilla remix"
+  ],
+  "themes": [
+   "ape",
+   "backrooms"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "gorilla-tag",
+   "lethal-company"
+  ],
+  "monetization_signals": [
+   "banna pass",
+   "VIP"
+  ],
+  "update_signals": [
+   "updated daily"
+  ],
+  "thumbnails": "blue glowing title with dark ape",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "unclear",
+  "novelty": 1,
+  "confidence": 50
+ },
+ {
+  "label": "Q59",
+  "loop": "run through levels to exit -> dodge infected monkeys -> collect scrap -> buy",
+  "loop_archetype": "horror_escape",
+  "objectives": "escape levels",
+  "progression": "cash, items",
+  "instructions": "run, collect scrap",
+  "mechanics": [
+   "levels",
+   "nextbot chasers",
+   "scrap",
+   "monsters"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Lethal Company-inspired monkey backrooms"
+  ],
+  "themes": [
+   "monkeys",
+   "monsters"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "gorilla-tag",
+   "lethal-company"
+  ],
+  "monetization_signals": [
+   "cash packs",
+   "be monster",
+   "speed",
+   "flashlight"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "monkey characters with shotgun in dark",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "levels, AI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q60",
+  "loop": "adopt baby -> raise -> buy home -> jobs -> vehicles",
+  "loop_archetype": "roleplay_social",
+  "objectives": "live family life",
+  "progression": "coins, houses, vehicles",
+  "instructions": "raise baby, jobs",
+  "mechanics": [
+   "family RP",
+   "baby",
+   "jobs",
+   "vehicles",
+   "phone"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "twins and triplets"
+  ],
+  "themes": [
+   "family",
+   "baby",
+   "city"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "family-rp"
+  ],
+  "monetization_signals": [
+   "all in one 1299",
+   "car packs",
+   "sweetcoin packs"
+  ],
+  "update_signals": [
+   "weekly updates"
+  ],
+  "thumbnails": "parents with twins/triplets, stroller",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "large city, 20+ jobs, 30+ vehicles",
+  "novelty": 1,
+  "confidence": 80
+ }
+]

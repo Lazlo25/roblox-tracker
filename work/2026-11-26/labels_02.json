@@ -1,0 +1,681 @@
+[
+ {
+  "label": "Q16",
+  "loop": "throw your friend far -> lure and collect monsters by zone -> earn cash from monsters -> train throw power, buy ropes, reach new zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rarer monsters in farther zones",
+  "progression": "throw power, ropes, zones, luck",
+  "instructions": "throw friend, collect monsters, train with friend as dumbbell",
+  "mechanics": [
+   "throwing",
+   "monster collection",
+   "idle income",
+   "training",
+   "lucky throws"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "throw a real friend for luck",
+   "throw+collect hybrid"
+  ],
+  "themes": [
+   "monsters",
+   "friends",
+   "throwing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-friend",
+   "brainrot-collect"
+  ],
+  "monetization_signals": [
+   "x4 monsters 999",
+   "luck/cash multipliers",
+   "server luck 2x-16x",
+   "lucky throws",
+   "offline cash"
+  ],
+  "update_signals": [
+   "codes",
+   "zone updates"
+  ],
+  "thumbnails": "avatar thrown toward silhouetted monsters, skeleton monster",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "throw physics, monster models, zones, idle income",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q17",
+  "loop": "run on treadmills/tracks to gain +1 speed -> collect rings -> evolve to faster hedgehog -> new worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become fastest hedgehog, climb leaderboards",
+  "progression": "speed multipliers, worlds, levels, auras",
+  "instructions": "train speed, collect rings, daily login",
+  "mechanics": [
+   "+1 speed",
+   "rings",
+   "evolve levels",
+   "worlds",
+   "leaderboards"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "unlicensed Sonic IP in +1 template"
+  ],
+  "themes": [
+   "Sonic",
+   "hedgehog",
+   "speed"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-evolve",
+   "Sonic"
+  ],
+  "monetization_signals": [
+   "permanent speed multipliers up to 4500",
+   "treadmills",
+   "auras",
+   "trails",
+   "2x speed boost"
+  ],
+  "update_signals": [
+   "WORLD 2",
+   "daily streak"
+  ],
+  "thumbnails": "Sonic/Shadow characters with +1 and 100T speed, LVL 999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "+1 template, simple world, character models",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q18",
+  "loop": "browse the PS5-style menu showing Roblox games -> launch games",
+  "loop_archetype": "other",
+  "objectives": "use a fan-made PS4/PS5 menu to browse games",
+  "progression": "none",
+  "instructions": "use keys to navigate menu",
+  "mechanics": [
+   "menu UI",
+   "game browser",
+   "donation"
+  ],
+  "social": "social_hub",
+  "competitive": "none",
+  "unique": [
+   "PlayStation menu simulator displaying Roblox games"
+  ],
+  "themes": [
+   "PlayStation",
+   "menu"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "GTA6",
+   "console-menu"
+  ],
+  "monetization_signals": [
+   "donation products up to 50000",
+   "background pass"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "PS logo and GS5 menu screenshots",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "UI-heavy, game list integration",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q19",
+  "loop": "use tongue to grab/troll others while climbing a tower obby -> skip stages with Robux",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top while others troll you",
+  "progression": "tower stage, tools",
+  "instructions": "climb, troll with tongue",
+  "mechanics": [
+   "tower obby",
+   "tongue grab",
+   "trolling",
+   "skip stages",
+   "admin-ish gamepasses"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "tongue grapple as troll mechanic"
+  ],
+  "themes": [
+   "trollface",
+   "tongue",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower-obby",
+   "troll"
+  ],
+  "monetization_signals": [
+   "skip obby products",
+   "owner/admin passes",
+   "jail all",
+   "nuke"
+  ],
+  "update_signals": [
+   "new stages"
+  ],
+  "thumbnails": "troll face avatars wrapping others with pink tongue",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "tower obby, tongue wrap physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q20",
+  "loop": "get theme -> dress up in 4 minutes from catalog -> runway walk -> AI judges score -> win podium",
+  "loop_archetype": "roleplay_social",
+  "objectives": "win the podium with best themed outfit",
+  "progression": "coins, ribbons, walks and poses, Looks Book",
+  "instructions": "dress for theme, strut runway",
+  "mechanics": [
+   "dress up",
+   "AI judges",
+   "runway",
+   "themes",
+   "catalog items"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "three distinct AI judges with preferences",
+   "buy the worn catalog items"
+  ],
+  "themes": [
+   "fashion",
+   "runway"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dress-up",
+   "AI-judge",
+   "Dress to Impress"
+  ],
+  "monetization_signals": [
+   "VIP 799",
+   "walk/pose products",
+   "catalog sales"
+  ],
+  "update_signals": [
+   "100+ themes",
+   "daily new brief"
+  ],
+  "thumbnails": "pink runway, judges, Y2K mall day",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 4,
+  "complexity_notes": "catalog integration, AI judge, runway, 100+ themes",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q21",
+  "loop": "do BMX tricks and combos -> earn cash -> buy faster bikes -> climb richest leaderboard",
+  "loop_archetype": "simulation_job",
+  "objectives": "land combos and perfect landings for money",
+  "progression": "cash, bikes, wraps",
+  "instructions": "do tricks, chain combos",
+  "mechanics": [
+   "BMX physics",
+   "trick combos",
+   "skatepark",
+   "grind",
+   "leaderboard"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "real-feel BMX physics"
+  ],
+  "themes": [
+   "BMX",
+   "bike",
+   "stunts"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bike-sim"
+  ],
+  "monetization_signals": [
+   "carbon racer 399",
+   "cash packs",
+   "wraps",
+   "combo saver"
+  ],
+  "update_signals": [
+   "early access, regular spots and bikes"
+  ],
+  "thumbnails": "BMX jump, city skate park, first-person view, police chase",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "bike physics, city map, tricks",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "crawl 4x4 over terrain with friends -> winch free -> find hidden places -> buy packs/upgrades",
+  "loop_archetype": "simulation_job",
+  "objectives": "explore mountain, find ~100 hidden places",
+  "progression": "credits, vehicles, mods",
+  "instructions": "off-road, winch",
+  "mechanics": [
+   "offroad driving",
+   "winch",
+   "exploration",
+   "customization",
+   "canoe"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "no timer, relaxed offroad co-op"
+  ],
+  "themes": [
+   "4x4",
+   "mountain",
+   "offroad"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "offroad"
+  ],
+  "monetization_signals": [
+   "vehicle packs up to 449",
+   "credits",
+   "crates"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "muddy 4x4s on rocks, lake, autumn forest",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large open map, vehicle physics, winch",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q23",
+  "loop": "pick gear -> destroy SCP monsters and buildings -> fight players",
+  "loop_archetype": "combat_pvp",
+  "objectives": "destroy giant SCP monsters",
+  "progression": "gears, permanent passes",
+  "instructions": "grab gear from wall, destroy monsters",
+  "mechanics": [
+   "100+ gears",
+   "destruction",
+   "SCP monsters",
+   "PvP"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "voxel destruction against SCP monsters"
+  ],
+  "themes": [
+   "SCP",
+   "monsters",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "SCP"
+  ],
+  "monetization_signals": [
+   "permanent morph/gear passes",
+   "donation products up to 4500"
+  ],
+  "update_signals": [
+   "recent update"
+  ],
+  "thumbnails": "gear grid wall, SCP-096 and slime monster",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "destructible bricks, monsters, 100+ gears",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "spawn plane -> trigger failure -> crash it -> watch replay, shared crash counter",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "crash planes realistically",
+  "progression": "crash counter, passes",
+  "instructions": "spawn, set up, run, watch",
+  "mechanics": [
+   "plane crashes",
+   "failures",
+   "replays",
+   "weather",
+   "military passes"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "piece-by-piece breakup, crash counter"
+  ],
+  "themes": [
+   "plane crash",
+   "aviation"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "crash-sim"
+  ],
+  "monetization_signals": [
+   "donations",
+   "military intervention pass"
+  ],
+  "update_signals": [
+   "new updates every day"
+  ],
+  "thumbnails": "airliner crash, burning wreck, title logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "soft-body-like breakup, many planes, maps",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "grab and throw objects at players -> fling them off map -> earn coins -> open cases",
+  "loop_archetype": "combat_pvp",
+  "objectives": "fling others off the map",
+  "progression": "coins, abilities, battle pass, cases",
+  "instructions": "grab things and throw",
+  "mechanics": [
+   "fling",
+   "physics objects",
+   "abilities",
+   "cases",
+   "battle pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Fling Things and People derivative"
+  ],
+  "themes": [
+   "fling",
+   "arena"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fling-things-and-people"
+  ],
+  "monetization_signals": [
+   "premium pass 499",
+   "coin packs",
+   "cases",
+   "fling all"
+  ],
+  "update_signals": [
+   "battle pass seasons"
+  ],
+  "thumbnails": "avatars with pink telekinesis flinging blocks",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "physics grabbing, arena",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "match target colors by painting -> least accurate eliminated -> earn coins",
+  "loop_archetype": "party_minigames",
+  "objectives": "last artist standing",
+  "progression": "coins, cosmetics",
+  "instructions": "recreate colors",
+  "mechanics": [
+   "color matching",
+   "elimination",
+   "drawing"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "color-accuracy elimination game"
+  ],
+  "themes": [
+   "painting",
+   "colors"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "elimination-game"
+  ],
+  "monetization_signals": [
+   "revive",
+   "protection",
+   "time products",
+   "VIP"
+  ],
+  "update_signals": [
+   "recent update Nov 21"
+  ],
+  "thumbnails": "smiley painting on easel, angry red boss",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "color picker, round loop",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "pick up fares -> drive across city -> escape cops when robbers -> earn cash, crates",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn cash with fares, escape cops",
+  "progression": "cash, cars, premium pass",
+  "instructions": "drive fares, outrun cops",
+  "mechanics": [
+   "taxi driving",
+   "police chase",
+   "races",
+   "crates",
+   "premium pass"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "fare turns robber"
+  ],
+  "themes": [
+   "taxi",
+   "police"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "taxi-sim"
+  ],
+  "monetization_signals": [
+   "helicopter 1299",
+   "unlock all cars",
+   "premium pass",
+   "crates"
+  ],
+  "update_signals": [
+   "christmas bundle",
+   "season pass"
+  ],
+  "thumbnails": "yellow taxi chased by police",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "city, driving, police AI",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q28",
+  "loop": "unscrew screws -> sell for coins -> buy better tools -> escape rooms",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "remove all screws and escape the room",
+  "progression": "tools, gems, classes",
+  "instructions": "unscrew and collect",
+  "mechanics": [
+   "unscrewing",
+   "tools",
+   "gems",
+   "rooms",
+   "ASMR"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "satisfying screw removal with magnet classes"
+  ],
+  "themes": [
+   "screws",
+   "ASMR"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying/ASMR"
+  ],
+  "monetization_signals": [
+   "gems up to 1899",
+   "forever tools",
+   "VIP"
+  ],
+  "update_signals": [
+   "New Class update"
+  ],
+  "thumbnails": "first-person screwdriver on screw wall, magnet",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "many screw objects, tools",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q29",
+  "loop": "play instruments to wake animals -> collect with luck -> earn cash -> train breath",
+  "loop_archetype": "rng_roll_collect",
+  "objectives": "collect 41+ animals including 1-in-trillions",
+  "progression": "breath, luck, instruments, zones",
+  "instructions": "play instruments",
+  "mechanics": [
+   "instruments",
+   "animal collection",
+   "luck",
+   "pens",
+   "offline cash"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "wake animals by playing instruments"
+  ],
+  "themes": [
+   "animals",
+   "music"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "collect-animals"
+  ],
+  "monetization_signals": [
+   "x8 luck 388",
+   "echo packs",
+   "gifts",
+   "VIP"
+  ],
+  "update_signals": [
+   "new zones"
+  ],
+  "thumbnails": "sleeping animals, rarity 1 in 972,129",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "video",
+  "complexity": 3,
+  "complexity_notes": "8 zones, 41 animals, instruments",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q30",
+  "loop": "drive soft-body cars -> crash -> rewind/replay -> place obstacles",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "crash cars realistically",
+  "progression": "coins, styles, objects",
+  "instructions": "drive and crash",
+  "mechanics": [
+   "soft-body cars",
+   "replays",
+   "obstacles",
+   "private servers"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "soft-body beam physics"
+  ],
+  "themes": [
+   "car crash",
+   "softbody"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "soft-body-crash"
+  ],
+  "monetization_signals": [
+   "admin panel",
+   "more objects",
+   "coin packs"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "red car crumpling on poles",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "video",
+  "complexity": 5,
+  "complexity_notes": "soft-body engine, car models",
+  "novelty": 1,
+  "confidence": 80
+ }
+]
