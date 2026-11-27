@@ -1,0 +1,695 @@
+[
+ {
+  "label": "Q01",
+  "loop": "claim free hourly block -> pick a gratitude message -> add it to a shared giant tower -> unlock community UGC milestones",
+  "loop_archetype": "roleplay_social",
+  "objectives": "collectively build the tallest tower and unlock free UGC",
+  "progression": "tower height milestones, hourly block drops",
+  "instructions": "grab a free block each hour, choose a message, send it up",
+  "mechanics": [
+   "shared tower",
+   "hourly drops",
+   "community milestones",
+   "UGC rewards"
+  ],
+  "social": "social",
+  "competitive": "none",
+  "unique": [
+   "platform-run Thanksgiving event where every player adds a block to one global tower"
+  ],
+  "themes": [
+   "gratitude",
+   "tower",
+   "thanksgiving"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "roblox-event",
+   "community-goal"
+  ],
+  "monetization_signals": [],
+  "update_signals": [
+   "event Nov 25-30"
+  ],
+  "thumbnails": "Official event key art: game title over a giant tower in clouds, no gameplay",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "single showcase hub with a global shared structure and server sync; no gameplay systems",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q02",
+  "loop": "cut customers' hair to order -> film and post before/after for followers -> grow shop and hire barbers -> serve rarer customers",
+  "loop_archetype": "simulation_job",
+  "objectives": "grow the barbershop into an empire",
+  "progression": "shop size, followers, barbers hired, tools",
+  "instructions": "match the order, pick guard, earn 5 stars, go viral",
+  "mechanics": [
+   "haircutting",
+   "order matching",
+   "social-media followers",
+   "hired barbers",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "light",
+  "unique": [
+   "strand-by-strand hair cutting combined with a viral-video follower loop"
+  ],
+  "themes": [
+   "barber",
+   "salon",
+   "tycoon"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "job-sim",
+   "tycoon"
+  ],
+  "monetization_signals": [
+   "everything pass",
+   "2x cash",
+   "offline cash boosts",
+   "cash packs",
+   "barber pass"
+  ],
+  "update_signals": [
+   "daily rewards",
+   "quests"
+  ],
+  "thumbnails": "Smiling barber icon with clippers and NEW tag; an angry 1-star customer thumbnail with hair",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "hair cutting tools with customization, customers, shop tycoon systems; custom hair mesh",
+  "novelty": 1,
+  "confidence": 72
+ },
+ {
+  "label": "Q03",
+  "loop": "pick a car -> crash it into objects -> watch soft-body deformation -> rewind replays, place obstacles, throw cars",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck cars in realistic soft-body physics",
+  "progression": "more objects, styles, coins, pads",
+  "instructions": "drive, crash, grab and throw cars, rewind crashes, private servers",
+  "mechanics": [
+   "soft-body physics",
+   "car crashing",
+   "rewind replays",
+   "obstacle placement",
+   "car styles"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "beam-style soft-body deformation on Roblox"
+  ],
+  "themes": [
+   "car crash",
+   "BeamNG",
+   "destruction"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "crash-sim",
+   "softbody"
+  ],
+  "monetization_signals": [
+   "admin panel",
+   "more objects",
+   "coin packs",
+   "gift passes"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Cars crumpled against poles and each other with blue soft-body node dots; clear title logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 5,
+  "complexity_notes": "custom soft-body physics engine, per-car sounds, deformation, replay system",
+  "novelty": 2,
+  "confidence": 85
+ },
+ {
+  "label": "Q04",
+  "loop": "play as an armless-legged ape -> run, climb, leap to survive a monster in the backrooms -> stun it with weapons or play the monster",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive as long as possible and save friends",
+  "progression": "coins, weapons, gorilla colors",
+  "instructions": "survive, run, climb, hide, stun the monster with weapons",
+  "mechanics": [
+   "arm-locomotion",
+   "monster chase",
+   "weapons",
+   "monster role",
+   "backrooms"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "gorilla-tag style arm movement combined with a backrooms monster chase"
+  ],
+  "themes": [
+   "monkey",
+   "backrooms",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "gorilla-tag",
+   "backrooms"
+  ],
+  "monetization_signals": [
+   "2x coins",
+   "VIP",
+   "coin bundles",
+   "revive"
+  ],
+  "update_signals": [
+   "updated yesterday"
+  ],
+  "thumbnails": "Red monkey screaming at a backrooms monster, with pistol and chainsaw",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "custom arm-based movement, monster AI, backrooms map",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q05",
+  "loop": "ride a dirt bike off huge jumps -> land flips for cash and shoot other riders -> open bike and weapon crates -> collect rarer bikes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "earn cash with tricks and kills and collect rare bikes and guns",
+  "progression": "cash, bikes, weapons, crate rarity up to godly",
+  "instructions": "ride, backflip, shoot riders in mid-air, open crates",
+  "mechanics": [
+   "bike tricks",
+   "gun combat",
+   "ragdoll",
+   "crates",
+   "instant replays",
+   "jump-flying"
+  ],
+  "social": "pvp",
+  "competitive": "light",
+  "unique": [
+   "bikes with guns and ragdolls"
+  ],
+  "themes": [
+   "motocross",
+   "guns",
+   "ragdoll"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bikes",
+   "ragdoll"
+  ],
+  "monetization_signals": [
+   "crate bundles",
+   "cash multipliers"
+  ],
+  "update_signals": [
+   "updated Nov 22"
+  ],
+  "thumbnails": "Riders shooting each other mid-air off bikes with muzzle flash",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "vehicle physics, ragdoll, weapons, crate system",
+  "novelty": 1,
+  "confidence": 82
+ },
+ {
+  "label": "Q06",
+  "loop": "draw a cart with limited ink -> fight enemy cart to knock rider off -> win coins -> upgrade ink, armor and attack",
+  "loop_archetype": "combat_pvp",
+  "objectives": "beat enemy carts and bosses",
+  "progression": "wins, ink level, upgrades, skins, quests",
+  "instructions": "draw cart, press fight, swipe to drive, hit enemy rider",
+  "mechanics": [
+   "drawing",
+   "vehicle building",
+   "1v1 duel",
+   "boss fights",
+   "upgrades"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "draw-your-own-vehicle then joust-battle"
+  ],
+  "themes": [
+   "drawing",
+   "carts",
+   "joust"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "draw-to-fight"
+  ],
+  "monetization_signals": [
+   "double ink",
+   "2x coins",
+   "level boosts",
+   "skins"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Blue bead-drawn carts with wheels and spear, ink meter and drawing UI",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "drawing physics with beads, cart joints, combat, boss AI",
+  "novelty": 2,
+  "confidence": 82
+ },
+ {
+  "label": "Q07",
+  "loop": "run up a tower from scary Christmas worms -> collect gear and prank others -> reach summit",
+  "loop_archetype": "obby_platformer",
+  "objectives": "climb to the top and avoid the worm",
+  "progression": "speed multipliers, gear, tower height",
+  "instructions": "run from worms, race up, collect gear, prank",
+  "mechanics": [
+   "tower climbing",
+   "chasing worm",
+   "gear",
+   "speed multiplier"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "Santa-faced worm chasing up stairs"
+  ],
+  "themes": [
+   "christmas",
+   "worm",
+   "tower"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "tower-obby",
+   "scary-chase"
+  ],
+  "monetization_signals": [
+   "speed multipliers",
+   "slap and coil gears",
+   "admin commands",
+   "cheap 1 robux passes"
+  ],
+  "update_signals": [
+   "seasonal christmas theme"
+  ],
+  "thumbnails": "Santa-headed worm climbing red stairs and snowman worm on white stairs",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "simple stair tower with worm model; few assets",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q08",
+  "loop": "use superpowers to blast physics ragdoll people -> trigger world events and scenarios -> unlock more powers and trails",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck the city with superpowers",
+  "progression": "powers, trails, villains, scenarios",
+  "instructions": "punch, blast, fly, time stop; play with friends",
+  "mechanics": [
+   "ragdoll physics",
+   "superpowers",
+   "world events",
+   "villains",
+   "scenarios"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "36 powers with x-ray injury effects and doctors"
+  ],
+  "themes": [
+   "superhero",
+   "ragdoll",
+   "destruction"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox",
+   "superhero"
+  ],
+  "monetization_signals": [
+   "unlock everything",
+   "power passes",
+   "mystery power",
+   "trails"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "White ragdolls hit by laser eyes, fist blast and a purple black hole",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "ragdoll physics, 36 powers with effects, events, 7 maps",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q09",
+  "loop": "get a hit contract -> assassinate targets -> earn cash and buy weapons -> survive nights",
+  "loop_archetype": "combat_pvp",
+  "objectives": "kill the contract targets",
+  "progression": "cash, weapons, nights survived",
+  "instructions": "assassinate specific individuals",
+  "mechanics": [
+   "assassination",
+   "contracts",
+   "weapons",
+   "night cycle",
+   "god mode"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "hitman simulation"
+  ],
+  "themes": [
+   "hitman",
+   "assassin",
+   "guns"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "hitman"
+  ],
+  "monetization_signals": [
+   "expensive power passes",
+   "cash packs",
+   "god mode",
+   "weapon passes"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Silenced pistol icon and first-person aim at a target on a street at dusk",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "first-person shooter with city map, targets and weapons",
+  "novelty": 1,
+  "confidence": 60
+ },
+ {
+  "label": "Q10",
+  "loop": "run to school before dogs catch you -> earn coins -> buy upgrades and roll lucky blocks",
+  "loop_archetype": "horror_escape",
+  "objectives": "reach school and survive the dogs",
+  "progression": "coins, jetpack, lucky blocks",
+  "instructions": "make it to school before the dogs get you",
+  "mechanics": [
+   "chase",
+   "dog enemies",
+   "lucky blocks",
+   "coins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "escaping dogs on way to school"
+  ],
+  "themes": [
+   "dogs",
+   "school",
+   "chase"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "run-from-x",
+   "brainrot-chase"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "2x coins",
+   "lucky block rolls",
+   "founder bundle"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Terrified avatar fleeing snarling bulldogs with bold title text",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple chase map with dog AI",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q11",
+  "loop": "cast line farther -> catch fish of rising size and rarity -> place catches in pond for income -> train cast power and reach new zones",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "fill the index and catch infinite-size fish",
+  "progression": "cast power, rods, baits, zones, index",
+  "instructions": "cast, catch, collect, train",
+  "mechanics": [
+   "fishing",
+   "casting distance",
+   "mutations",
+   "pond income",
+   "server events",
+   "index"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "distance-luck casting combined with pond idle income"
+  ],
+  "themes": [
+   "fishing",
+   "giant fish"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fishing",
+   "luck-based"
+  ],
+  "monetization_signals": [
+   "2x luck",
+   "auto cast",
+   "offline",
+   "cash packs",
+   "cast power"
+  ],
+  "update_signals": [
+   "server events",
+   "updated yesterday"
+  ],
+  "thumbnails": "Hourglass 24 HOURS icon, 1 IN 5.95T giant fish text and big sharks",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "zones, 182 fish, mutations, events, pond income",
+  "novelty": 1,
+  "confidence": 82
+ },
+ {
+  "label": "Q12",
+  "loop": "pick a plane -> crash it into buildings and obstacles -> watch soft-body deformation -> earn cash for more planes",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "crash planes realistically",
+  "progression": "cash, planes, maps",
+  "instructions": "fly and crash planes with slo-mo",
+  "mechanics": [
+   "soft-body physics",
+   "plane crashing",
+   "slow motion"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "soft-body plane destruction"
+  ],
+  "themes": [
+   "planes",
+   "crash",
+   "destruction"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "crash-sim",
+   "softbody"
+  ],
+  "monetization_signals": [
+   "slow-mo pass",
+   "cash packs",
+   "VIP",
+   "premium planes"
+  ],
+  "update_signals": [
+   "UPD 2.5 today"
+  ],
+  "thumbnails": "Planes crushed by wrecking ball and hydraulic press with NEW and hourglass tag",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "soft-body plane physics, destructible buildings",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q13",
+  "loop": "babysit in Peppa's house -> spot anomalies -> survive horror encounters",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive the night spotting anomalies",
+  "progression": "revives, weapons",
+  "instructions": "work as a babysitter, watch for anomalies, high volume",
+  "mechanics": [
+   "anomaly detection",
+   "jumpscares",
+   "weapons",
+   "flashlight"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Peppa Pig horror anomaly game"
+  ],
+  "themes": [
+   "peppa pig",
+   "horror",
+   "anomaly"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly",
+   "pig-horror"
+  ],
+  "monetization_signals": [
+   "op weapons",
+   "infinite revives",
+   "jumpscare products"
+  ],
+  "update_signals": [
+   "updated yesterday"
+  ],
+  "thumbnails": "Creepy Peppa with glowing yellow eyes at window",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "single house, scare scripts, anomalies",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q14",
+  "loop": "throw your friend far -> lure monsters -> collect and earn money -> buy ropes and zones",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "collect rarer monsters and reach new zones",
+  "progression": "throw power, zones, ropes, luck",
+  "instructions": "throw friend, lure and collect monsters",
+  "mechanics": [
+   "throwing",
+   "monster collection",
+   "idle income",
+   "training with friend",
+   "rope upgrades"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "throw-a-friend combined with monster collection"
+  ],
+  "themes": [
+   "monsters",
+   "throwing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-friend"
+  ],
+  "monetization_signals": [
+   "x4 monsters",
+   "x4 luck",
+   "lucky throws",
+   "server luck"
+  ],
+  "update_signals": [
+   "code 1MVISITS",
+   "updated today"
+  ],
+  "thumbnails": "Hourglass 22 HOURS and friend thrown past monster silhouettes",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "throwing physics, monster models, zones, pen",
+  "novelty": 1,
+  "confidence": 82
+ },
+ {
+  "label": "Q15",
+  "loop": "pick a dirty item -> scrub and clean it satisfyingly -> earn medals and unlock levels and tools",
+  "loop_archetype": "simulation_job",
+  "objectives": "clean everything to earn medals",
+  "progression": "levels, medals, tools",
+  "instructions": "clean the messiest things; replay for messier levels",
+  "mechanics": [
+   "cleaning",
+   "ASMR",
+   "medals",
+   "tools",
+   "replay levels"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "gross-satisfying cleaning ASMR levels"
+  ],
+  "themes": [
+   "cleaning",
+   "ASMR",
+   "satisfying"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "satisfying",
+   "asmr"
+  ],
+  "monetization_signals": [
+   "everything bundle",
+   "VIP",
+   "tool skins",
+   "skip level"
+  ],
+  "update_signals": [
+   "new levels"
+  ],
+  "thumbnails": "Keyboard, butter, car seat being scrubbed in glossy close-ups",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "yes",
+  "complexity": 3,
+  "complexity_notes": "many level assets, cleaning shader and dirt masks",
+  "novelty": 1,
+  "confidence": 78
+ }
+]

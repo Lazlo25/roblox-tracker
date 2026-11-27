@@ -1,0 +1,684 @@
+[
+ {
+  "label": "Q46",
+  "loop": "click for +1 strength -> fight enemies for wins -> hatch pets -> rebirth -> reach new stickman worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest",
+  "progression": "strength, wins, pets, rebirths, worlds",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1 clicking",
+   "pets",
+   "rebirth",
+   "enemies",
+   "skills"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Stickman evolutions in the +1 template"
+  ],
+  "themes": [
+   "stickman"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-evolve"
+  ],
+  "monetization_signals": [
+   "permanent strength multipliers",
+   "zone passes",
+   "auto rebirth"
+  ],
+  "update_signals": [
+   "World 4",
+   "codes"
+  ],
+  "thumbnails": "Stickman forms in powered auras with +1 floaters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard +1 simulator template",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q47",
+  "loop": "click for +1 strength -> fight enemies for wins -> hatch pets -> rebirth -> reach new shadow army worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest",
+  "progression": "strength, wins, pets, rebirths, worlds",
+  "instructions": "unclear",
+  "mechanics": [
+   "+1 clicking",
+   "pets",
+   "rebirth",
+   "enemies",
+   "skills"
+  ],
+  "social": "solo",
+  "competitive": "light",
+  "unique": [
+   "Solo Leveling arise-shadow mechanic on +1 template"
+  ],
+  "themes": [
+   "shadow army"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "+1-evolve"
+  ],
+  "monetization_signals": [
+   "equip slots",
+   "mutation luck",
+   "tower passes",
+   "revives"
+  ],
+  "update_signals": [
+   "UPD 3",
+   "weekly Saturday updates"
+  ],
+  "thumbnails": "ARISE prompt over defeated anime fighters and shadows",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "standard +1 simulator template",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "spawn SCP-themed ragdoll dummies -> hit with weapons, tasers, creatures -> watch physics",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck dummies",
+  "progression": "weapons unlocked by robux",
+  "instructions": "unclear",
+  "mechanics": [
+   "ragdoll",
+   "weapons",
+   "zombies",
+   "broken bones",
+   "VR"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "SCP skin on ragdoll sandbox"
+  ],
+  "themes": [
+   "SCP",
+   "ragdoll"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox",
+   "scp"
+  ],
+  "monetization_signals": [
+   "weapon unlocks",
+   "KO weapon bundles"
+  ],
+  "update_signals": [
+   "UPD2"
+  ],
+  "thumbnails": "Orange prisoner dummy, SCP silhouette, crocodile, satisfying physics captions",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q49",
+  "loop": "shoot walls -> vacuum blocks -> sell for cash -> buy bigger guns -> break through 14 walls to escape",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "escape the bunker through the final wall",
+  "progression": "cash, guns, gems, difficulty tiers",
+  "instructions": "unclear",
+  "mechanics": [
+   "wall shooting",
+   "block vacuum",
+   "conveyor selling",
+   "dynamite",
+   "drones",
+   "classes"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "destruction-mining loop with escalating guns"
+  ],
+  "themes": [
+   "bunker",
+   "guns",
+   "walls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "shoot-wall",
+   "destroy-collect"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "infinite storage",
+   "gems",
+   "round weapon rentals"
+  ],
+  "update_signals": [
+   "Christmas UPD",
+   "daily rewards"
+  ],
+  "thumbnails": "Minigun and railgun blasting stone walls and trees",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q50",
+  "loop": "ride a dirt bike through rocks, forests and hill climbs with realistic physics",
+  "loop_archetype": "racing_driving",
+  "objectives": "clear the hardest enduro terrain",
+  "progression": "credits, paint, bikes",
+  "instructions": "unclear",
+  "mechanics": [
+   "enduro riding",
+   "bike physics",
+   "hill climbs",
+   "paint"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "extremely difficult enduro bike physics"
+  ],
+  "themes": [
+   "enduro",
+   "dirt bike",
+   "forest"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "enduro",
+   "hard-mode"
+  ],
+  "monetization_signals": [
+   "tips",
+   "double credits",
+   "paint packs"
+  ],
+  "update_signals": [
+   "early alpha"
+  ],
+  "thumbnails": "Rider climbing muddy forest rocks with HARD ENDURO logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "estimated from page",
+  "novelty": 2,
+  "confidence": 82
+ },
+ {
+  "label": "Q51",
+  "loop": "join 6v6 helmet-cam shooter -> one gun one life rounds -> earn marks -> unlock guns and outfits",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win elimination, TDM, FFA, gun game or zombies",
+  "progression": "marks, guns, kits",
+  "instructions": "unclear",
+  "mechanics": [
+   "bodycam FPS",
+   "no crosshair",
+   "manual reloads",
+   "elimination spectate",
+   "zombies",
+   "squads"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "helmet-cam realism with physical ammo checks"
+  ],
+  "themes": [
+   "bodycam",
+   "fps",
+   "realism"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bodycam-fps"
+  ],
+  "monetization_signals": [
+   "weapon class passes",
+   "marks",
+   "VIP"
+  ],
+  "update_signals": [
+   "soft launch beta"
+  ],
+  "thumbnails": "First-person gun views in stairwells and nights with RO-CAM logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "custom FPS, 30+ guns, modes, 41 badges",
+  "novelty": 2,
+  "confidence": 85
+ },
+ {
+  "label": "Q52",
+  "loop": "get a theme and customer -> cut hair for 5 minutes -> judge scores -> win cash; also build barbershop floors",
+  "loop_archetype": "simulation_job",
+  "objectives": "out-cut the server and grow shop",
+  "progression": "cash, XP, floors, rebirth, pass tiers",
+  "instructions": "unclear",
+  "mechanics": [
+   "haircutting",
+   "judge scoring",
+   "themes",
+   "tycoon floors",
+   "crews",
+   "pro league"
+  ],
+  "social": "mixed",
+  "competitive": "core",
+  "unique": [
+   "barber battle rounds plus tycoon shop"
+  ],
+  "themes": [
+   "barber",
+   "salon"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "barber",
+   "job-sim"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "auto build",
+   "decor packs",
+   "cash products"
+  ],
+  "update_signals": [
+   "Barber Pass until Dec 1",
+   "codes"
+  ],
+  "thumbnails": "Barber with clippers, before-after hair transformations",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q53",
+  "loop": "mix slime with ingredients -> stretch and squish -> unlock tools -> earn coins",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create satisfying slimes",
+  "progression": "coins, tools, benches",
+  "instructions": "unclear",
+  "mechanics": [
+   "slime mixing",
+   "ASMR",
+   "unlock tools",
+   "offline coins"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "slime making sandbox"
+  ],
+  "themes": [
+   "slime",
+   "ASMR"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "slime",
+   "asmr"
+  ],
+  "monetization_signals": [
+   "unlock everything",
+   "offline coins",
+   "skips",
+   "multipliers"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Colorful slime bowls, Space Mode",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q54",
+  "loop": "open photocard packs -> stock shelves and serve fans -> catch thieves -> hire staff -> expand",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow KPOP shop",
+  "progression": "level, cash, storefronts, binder",
+  "instructions": "unclear",
+  "mechanics": [
+   "pack opening",
+   "shop management",
+   "thieves",
+   "hired staff",
+   "binder"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "KPOP photocard store tycoon"
+  ],
+  "themes": [
+   "kpop",
+   "photocards",
+   "shop"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "shop-tycoon",
+   "kpop"
+  ],
+  "monetization_signals": [
+   "2x luck",
+   "2x cash",
+   "instant delivery",
+   "gifts"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "codes"
+  ],
+  "thumbnails": "Girl holding cash and photocards in pink K-POP shop",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q55",
+  "loop": "throw cute food -> attract Chiikawas -> earn money -> train throw power -> reach new areas",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "collect rare Chiikawas",
+  "progression": "throw power, areas, mutations",
+  "instructions": "unclear",
+  "mechanics": [
+   "power throw",
+   "collection",
+   "offline",
+   "pull-up training"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Chiikawa IP reskin of throw-food template"
+  ],
+  "themes": [
+   "chiikawa",
+   "cute"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x",
+   "IP-clone"
+  ],
+  "monetization_signals": [
+   "2x cash",
+   "enchanted eggs",
+   "cash packs"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Cute Chiikawa character and food throw logo",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q56",
+  "loop": "throw brains -> attract zombies -> earn money -> train strength -> reach zones",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "collect rare zombies",
+  "progression": "strength, zones, horde slots",
+  "instructions": "unclear",
+  "mechanics": [
+   "throw",
+   "zombies",
+   "collection",
+   "training"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "throw-food template with zombies"
+  ],
+  "themes": [
+   "zombies",
+   "brains"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x"
+  ],
+  "monetization_signals": [
+   "rainbow brain",
+   "auto tap",
+   "gingerbread eggs",
+   "packs"
+  ],
+  "update_signals": [
+   "Christmas gingerbread eggs"
+  ],
+  "thumbnails": "Rainbow zombie 1 IN 999B and brains, dragon silhouette",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "jump, fly and flip to the beat -> clear levels -> play or build online levels",
+  "loop_archetype": "obby_platformer",
+  "objectives": "clear Geometry Dash levels",
+  "progression": "icons, levels",
+  "instructions": "unclear",
+  "mechanics": [
+   "rhythm platforming",
+   "level editor",
+   "online levels"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fan port of Geometry Dash"
+  ],
+  "themes": [
+   "geometry dash",
+   "rhythm"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ip-port"
+  ],
+  "monetization_signals": [
+   "hack menu",
+   "noclip",
+   "revives"
+  ],
+  "update_signals": [
+   "updated Nov 18"
+  ],
+  "thumbnails": "Official Geometry Dash icon and logo art",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 80
+ },
+ {
+  "label": "Q58",
+  "loop": "spawn dummies in lab -> use 40+ tools and powers -> earn coins -> unlock abilities",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause chaos on dummies",
+  "progression": "coins, powers, abilities",
+  "instructions": "unclear",
+  "mechanics": [
+   "ragdoll",
+   "tools",
+   "anime powers",
+   "slo-mo",
+   "undo",
+   "daily spin"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "pixel-style factory lab with anime powers"
+  ],
+  "themes": [
+   "ragdoll",
+   "lab",
+   "anime powers"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "mega bundle",
+   "power passes",
+   "lucky crates"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "Pixel ragdolls caught in factory machines, UFO",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 82
+ },
+ {
+  "label": "Q59",
+  "loop": "spawn ragdoll dummy -> use 42 weapons, powers, events -> ride vehicles",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "experiment in sandbox",
+  "progression": "coins, weapons",
+  "instructions": "unclear",
+  "mechanics": [
+   "euphoria-style ragdoll",
+   "weapons",
+   "superpowers",
+   "events",
+   "vehicles",
+   "anime bosses"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "very broad weapon and event sandbox"
+  ],
+  "themes": [
+   "ragdoll",
+   "anime",
+   "weapons"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "bundles",
+   "weapons",
+   "event packs",
+   "coins"
+  ],
+  "update_signals": [
+   "updated today"
+  ],
+  "thumbnails": "White ragdolls with black hole, spear piercing, heat vision",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 85
+ },
+ {
+  "label": "Q60",
+  "loop": "spawn and grab ragdolls -> chain reactions, spring cannon, pool -> unlock tools",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "play with ragdolls",
+  "progression": "cash, tools",
+  "instructions": "unclear",
+  "mechanics": [
+   "ragdoll",
+   "grab",
+   "TNT",
+   "spring cannon",
+   "VR"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "first-person grab and yeet"
+  ],
+  "themes": [
+   "ragdoll",
+   "stupid"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "ultimate pass",
+   "T-Rex",
+   "nuke",
+   "sandbox+"
+  ],
+  "update_signals": [
+   "NEW"
+  ],
+  "thumbnails": "First-person hands holding ragdolls with E YEET and E FLING",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "estimated from page",
+  "novelty": 0,
+  "confidence": 82
+ }
+]
