@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "mp": {
+      "observations": ["The top of Most Popular is held by long-running games (Steal An Egg at 125 days, Brookhaven, Throw Food For Animals); only 3 games are under two weeks old and one new entry arrived today.", "Median pillar percentile is highest for games older than a year (68) and lowest for the 15 to 84 day band (37 to 40), consistent with a mid-life trough.", "Visits and days on chart are strongly linked (rho +0.50), which is outcome-linked and not advice; the more actionable association is that games not updated for 42+ days keep fewer days on the chart."],
+      "patterns": ["Realistic and ragdoll titles are common among weak Most Popular games (Realistic Plane Crashing, Peppa's House), suggesting physics-sandbox novelty fades before it earns a durable spot.", "Social roleplay and co-op survival loops sit highest by median percentile (76 and 78), while profiled horror and sandbox games sit near 40, though samples are small."],
+      "outliers": [{"name": "Peppa's House (Anomaly)", "note": "83 days old and still on the chart despite a 77% like ratio, likely because of its anomaly-horror format and a weapons-and-jumpscare pass shop."}]
+    },
+    "te": {
+      "observations": ["Top Earning efficiency tends to rise with age: games aged 15 to 42 days have a median percentile of 25 versus about 60 for games over a year old.", "Median product price still has the strongest association (rho +0.38; split near 75 R$), and RPG genre is the strongest genre signal.", "Only one new entry (Drill City: Chicago) today."],
+      "patterns": ["Top performers mix donation or social hubs and RPGs with long histories; young physics sandboxes and +1 templates rank low per player.", "Pet and egg games remain weak on efficiency, which the throw-for-luck clones (small servers of 5) are unlikely to change."],
+      "outliers": [{"name": "Chase a Storm! [1-4 PLAYER!]", "note": "A young co-op game with a 1499 R$ vehicle bundle that reaches Top Earning #445 on a 5-player cap, showing that a premium price tier can offset small servers."}]
+    },
+    "tt": {
+      "observations": ["BMX Life (+18), Animal Ragdoll (+17) and Bibi & Didi Obby (+17) lead the climbers; 12 games entered and 11 left.", "Games under two weeks old (n=4) have a low median pillar percentile (19), so very new entries do not automatically climb.", "Today's new entries include Crash Engine, Wake Up An Animal and Climb Scary Santa Tower."],
+      "patterns": ["Throw-for-luck clones (Throw a Friend for Monsters, Wake Up An Animal, Throw Food For Clowns) show reward-flex and big-odds thumbnails, consistent with the reward-flex and text-number hypotheses, which tend to hold.", "Physics sandbox mechanics are associated with weaker momentum within age bands (r -0.41, within-age -0.46), speculative given q=0.35."],
+      "outliers": [{"name": "The Great Build", "note": "A Roblox Presents event with no passes or products that is Top Trending #1 at 3 days old; its rise reflects platform promotion, not a copyable design."}]
+    },
+    "uc": {
+      "observations": ["The Great Build, untitled monkey game and Crash Engine lead; Find The Anomaly climbed 58 places in a day and Criminal Life climbed 35.", "12 games entered and 9 left; 11 of the 98 are two weeks old or younger and have a median percentile of 73.", "Updates per week (rho +0.35) and novelty (rho +0.32) are the strongest associations within age."],
+      "patterns": ["Today's 60 profiled games lean toward ragdoll sandboxes, throw-for-luck clones, +1 evolve templates and tower obbies, with the +1 games ranking lower than the average.", "Bracket tags and all-caps titles tend to go with lower positions among games of the same age, as they did before."],
+      "outliers": [{"name": "untitled monkey game", "note": "A 10-day-old Gorilla-Tag style locomotion plus backrooms horror hybrid at #2 despite a plain title, probably because the mechanic is genuinely new rather than a template."}]
+    }
+  },
+  "cross": {
+    "summary": ["Throw-for-luck variants now appear on Top Trending and Up-and-Coming in numbers (5+), supporting the template hypothesis H-x-045.", "Realistic physics is spreading from ragdolls to cars, planes, climbing and hair; earlier ragdolls rose and then slipped, so expect the same for newer variants.", "A Roblox-run Thanksgiving event is #1 on both breakout charts, which confounds the age and novelty associations while it lasts.", "No new outside research today; the 2026-10-29 file was already ingested. No gameplay video frames were available."],
+    "progressions": ["uc to tt entries remain the most common cross-chart move (362, median 2 days); tt to mp is 255 (median 2 days).", "The collector repo is unavailable, so today's figures come from the 1 PM snapshot only."]
+  }
+}

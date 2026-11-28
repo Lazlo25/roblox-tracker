@@ -1,0 +1,661 @@
+[
+ {
+  "label": "Q31",
+  "loop": "get a meme prompt -> draw it in limited time -> vote on others' drawings -> most votes wins cash",
+  "loop_archetype": "party_minigames",
+  "objectives": "win votes as best meme artist",
+  "progression": "cash, streaks",
+  "instructions": "draw, vote",
+  "mechanics": [
+   "drawing",
+   "voting",
+   "timer",
+   "streak"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "meme drawing round game"
+  ],
+  "themes": [
+   "memes",
+   "drawing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "draw-the-meme",
+   "meme"
+  ],
+  "monetization_signals": [
+   "custom tag",
+   "double votes",
+   "cash packs",
+   "time products"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "smiley and meme sketches next to drawn versions on easel",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "canvas drawing tool, voting UI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q32",
+  "loop": "hide from evil crawlers each round -> collect coins -> buy guns/explosives -> kill them",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive until timer ends",
+  "progression": "coins, guns",
+  "instructions": "hide and shoot",
+  "mechanics": [
+   "round survival",
+   "spider monsters",
+   "guns",
+   "daily spins",
+   "donations"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Evil crawling thing GMod add-on adaptation"
+  ],
+  "themes": [
+   "spiders",
+   "crawlers",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "gmod-adaptation",
+   "spider-horror"
+  ],
+  "monetization_signals": [
+   "daily spins",
+   "donations",
+   "2x coins"
+  ],
+  "update_signals": [
+   "updated Nov 26"
+  ],
+  "thumbnails": "black long-legged spider in red/yellow/dark rooms",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 2,
+  "complexity_notes": "short rounds, spider AI",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q33",
+  "loop": "set freekick placement -> kick or keep against friend or AI -> win coins -> buy balls and cleats",
+  "loop_archetype": "sports_competitive",
+  "objectives": "win duels",
+  "progression": "coins, balls, cleats",
+  "instructions": "aim kick, save",
+  "mechanics": [
+   "freekick duel",
+   "goalkeeper",
+   "AI keeper",
+   "customization"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "freekick-only duel focus"
+  ],
+  "themes": [
+   "soccer",
+   "freekick"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "soccer-duel"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "balls",
+   "cleat packs",
+   "Thanksgiving pack"
+  ],
+  "update_signals": [
+   "Thanksgiving update",
+   "beta"
+  ],
+  "thumbnails": "stadium kicks, UI screens",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 2,
+  "complexity_notes": "single stadium, ball physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q34",
+  "loop": "time power meter to throw food -> farther lands rarer clown -> place clowns in pen for cash -> train and buy better food",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "fill the Index and collect rare clowns",
+  "progression": "strength, areas, pen, luck",
+  "instructions": "throw, train, collect",
+  "mechanics": [
+   "power meter",
+   "distance rarity",
+   "pen income",
+   "pull-up training",
+   "index"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "clown/food variant of throw-and-collect template"
+  ],
+  "themes": [
+   "clowns",
+   "food",
+   "throwing"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x",
+   "distance-collect"
+  ],
+  "monetization_signals": [
+   "x2 luck",
+   "auto train",
+   "lucky throws",
+   "173 products"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "blue furry monster, 67.67B cash text, distance track",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "11 areas, many monsters",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q35",
+  "loop": "spawn planes -> set failures, passengers, map and weather -> run and watch them crash apart -> repeat",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "create the most realistic crash",
+  "progression": "crash counter",
+  "instructions": "trigger failures, replay",
+  "mechanics": [
+   "soft-body plane crash",
+   "failures",
+   "passengers",
+   "weather",
+   "cockpit warnings",
+   "global crash counter"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "very realistic aviation failures; donation-only monetisation"
+  ],
+  "themes": [
+   "plane crash",
+   "aviation"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "crash-sim"
+  ],
+  "monetization_signals": [
+   "donations only",
+   "small passes"
+  ],
+  "update_signals": [
+   "UPD 8.3 daily updates",
+   "alpha"
+  ],
+  "thumbnails": "clean plane renders with logo, wreckage, smoke",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 5,
+  "complexity_notes": "deep plane physics, failure systems",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q36",
+  "loop": "explore open-world city -> rob stores, steal cars, fight police -> level up -> buy vehicles",
+  "loop_archetype": "roleplay_social",
+  "objectives": "build criminal career",
+  "progression": "levels, vehicles, weapons",
+  "instructions": "rob, race, gang wars",
+  "mechanics": [
+   "open world crime",
+   "vehicles",
+   "police chase",
+   "perks",
+   "races"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "GTA-like crime sandbox riding GTA6 hype"
+  ],
+  "themes": [
+   "GTA6",
+   "crime"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "gta-like"
+  ],
+  "monetization_signals": [
+   "254 vehicle products",
+   "2x cash",
+   "starter pack"
+  ],
+  "update_signals": [
+   "testing phase"
+  ],
+  "thumbnails": "stylised couple at sunset Vice City skyline",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "huge city, vehicles, police AI",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q37",
+  "loop": "ride night train -> watch passengers -> shoot the non-human anomaly -> clear wagons",
+  "loop_archetype": "horror_escape",
+  "objectives": "identify the anomaly, finish all endings",
+  "progression": "anomaly file, titles",
+  "instructions": "scan passengers, shoot correct",
+  "mechanics": [
+   "spot the difference",
+   "60+ anomalies",
+   "4 endings",
+   "scanner",
+   "daily quests"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "anomaly-spotting on a train with shooting"
+  ],
+  "themes": [
+   "anomaly",
+   "train",
+   "horror"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "anomaly-horror"
+  ],
+  "monetization_signals": [
+   "scanner packs",
+   "revives",
+   "coin packs"
+  ],
+  "update_signals": [
+   "new anomalies every update"
+  ],
+  "thumbnails": "red-lit train with masked passenger and scanner",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "train map, many anomalies",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q38",
+  "loop": "collect candles in liminal neighborhood -> find exit -> buy abilities -> survive days",
+  "loop_archetype": "horror_escape",
+  "objectives": "survive many days",
+  "progression": "coins, levels",
+  "instructions": "collect candles, exit",
+  "mechanics": [
+   "dreamcore",
+   "liminal",
+   "candles",
+   "levels",
+   "lurking creature"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "dreamcore aesthetic"
+  ],
+  "themes": [
+   "dreamcore",
+   "liminal"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "dreamcore"
+  ],
+  "monetization_signals": [
+   "prankster",
+   "jumpscare",
+   "revive"
+  ],
+  "update_signals": [
+   "Level 2 out now"
+  ],
+  "thumbnails": "long black creature over pink neighborhood; LEVEL 2",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "neighborhood map, creature AI, multiple levels",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q39",
+  "loop": "print orders -> scoop candy -> pack boxes -> ship for tips -> hire helpers and expand",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow candy business",
+  "progression": "money, level, staff, rooms",
+  "instructions": "fulfill orders",
+  "mechanics": [
+   "order fulfillment",
+   "hands-on minigames",
+   "hire helpers",
+   "decorate",
+   "VIP customers"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "hands-on candy packing job-sim"
+  ],
+  "themes": [
+   "candy",
+   "shop"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "job-sim-tycoon"
+  ],
+  "monetization_signals": [
+   "30 passes",
+   "auto-package",
+   "hire celebrity helpers"
+  ],
+  "update_signals": [
+   "Christmas spin"
+  ],
+  "thumbnails": "pink candy close-ups, Pack my order",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "many stations and animations",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q40",
+  "loop": "pick plane -> dogfight -> earn coins -> buy better planes",
+  "loop_archetype": "combat_pvp",
+  "objectives": "become strongest fighter",
+  "progression": "coins, planes",
+  "instructions": "fight in the air",
+  "mechanics": [
+   "air combat",
+   "30 planes",
+   "repairs",
+   "special abilities"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "arcade flight"
+  ],
+  "themes": [
+   "airplanes",
+   "dogfight"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dogfight"
+  ],
+  "monetization_signals": [
+   "coin tiers up to 2500",
+   "xp boosts"
+  ],
+  "update_signals": [
+   "updated Nov 26"
+  ],
+  "thumbnails": "planes with LVL 1 to LVL 999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "flight, planes",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q41",
+  "loop": "climb walls realistically -> avoid falling -> earn cash",
+  "loop_archetype": "simulation_job",
+  "objectives": "climb buildings",
+  "progression": "cash",
+  "instructions": "climb",
+  "mechanics": [
+   "wall climbing",
+   "ragdoll fall"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "realistic climbing physics"
+  ],
+  "themes": [
+   "climbing"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "climbing"
+  ],
+  "monetization_signals": [
+   "cash bundles",
+   "VIP"
+  ],
+  "update_signals": [
+   "testing"
+  ],
+  "thumbnails": "climbers on glass and brick walls",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "climbing system",
+  "novelty": 2,
+  "confidence": 60
+ },
+ {
+  "label": "Q42",
+  "loop": "style physics hair -> burn, freeze, dye, cut it -> salon tools",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "play with hair physics",
+  "progression": "hair styles",
+  "instructions": "use tools",
+  "mechanics": [
+   "hair strand physics",
+   "fire",
+   "freeze",
+   "dye vats",
+   "salon"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "strand physics hair"
+  ],
+  "themes": [
+   "hair"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "realistic-physics"
+  ],
+  "monetization_signals": [
+   "robux donations",
+   "horse pass"
+  ],
+  "update_signals": [
+   "Salon update"
+  ],
+  "thumbnails": "avatars with long strand hair",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "strand physics heavy",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q43",
+  "loop": "fish with rods and baits -> catch rare Thai fish and bosses -> build home and tanks -> rebirth",
+  "loop_archetype": "simulation_job",
+  "objectives": "collect fish, bosses",
+  "progression": "rods, zones, home",
+  "instructions": "fish, scoop, festivals",
+  "mechanics": [
+   "fishing",
+   "bosses",
+   "aquarium",
+   "festival event"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Thai-themed fishing with Loy Krathong event"
+  ],
+  "themes": [
+   "fishing",
+   "Thailand",
+   "festival"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "fishing-sim",
+   "event"
+  ],
+  "monetization_signals": [
+   "golden boombox 999",
+   "luck",
+   "support"
+  ],
+  "update_signals": [
+   "Loy Krathong Nov 23 to Dec 2"
+  ],
+  "thumbnails": "fisherman with goldfish at festival night",
+  "thumbnail_style": "event_banner",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "event content, fish, home build",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q44",
+  "loop": "steal eggs from sleeping creatures with spider arms -> run before they wake -> hatch pets -> earn money, train, upgrade base",
+  "loop_archetype": "steal_defend_base",
+  "objectives": "collect rare pets",
+  "progression": "strength, base, eggs",
+  "instructions": "steal, climb, hatch",
+  "mechanics": [
+   "spider-arm climbing",
+   "egg stealing",
+   "hatching",
+   "mutations"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "spider arms climb walls to steal eggs"
+  ],
+  "themes": [
+   "spider",
+   "eggs",
+   "dinosaurs"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "steal-a-x",
+   "spider-arms"
+  ],
+  "monetization_signals": [
+   "x2 growth",
+   "aurora eggs",
+   "strength packs"
+  ],
+  "update_signals": [
+   "24 hour timer"
+  ],
+  "thumbnails": "avatar with spider arms grabbing golden egg; $97,235Qa/s",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "arm physics, creatures, base",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q45",
+  "loop": "pick contract -> explore caves, squeeze gaps, swim -> fill guidebook -> rank up",
+  "loop_archetype": "simulation_job",
+  "objectives": "explore deepest caves",
+  "progression": "rank, guidebook",
+  "instructions": "explore",
+  "mechanics": [
+   "cave exploration",
+   "flooded tunnels",
+   "gear",
+   "contracts"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "cave diving sim"
+  ],
+  "themes": [
+   "caves",
+   "diving"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "cave-sim"
+  ],
+  "monetization_signals": [
+   "gear products 115"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "first-person boots in cracked cave",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "cave generation, gear",
+  "novelty": 2,
+  "confidence": 70
+ }
+]

@@ -1,0 +1,687 @@
+[
+ {
+  "label": "Q16",
+  "loop": "click/run to gain +1 speed -> collect rings -> rebirth-style evolve into stronger hedgehogs -> unlock worlds, auras, treadmills",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the fastest runner",
+  "progression": "speed multiplier, worlds, auras, levels",
+  "instructions": "train speed, collect rings, daily streak",
+  "mechanics": [
+   "+1 speed",
+   "rings",
+   "daily login streak",
+   "playtime rewards",
+   "auras and trails",
+   "permanent speed multipliers"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Sonic-licensed-look +1 evolve game, explicit credit to SEGA/GameFam"
+  ],
+  "themes": [
+   "sonic",
+   "hedgehog",
+   "speed"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one-evolve",
+   "sonic-ip"
+  ],
+  "monetization_signals": [
+   "permanent x4096 speed 4500",
+   "treadmills",
+   "auras",
+   "trails",
+   "revives"
+  ],
+  "update_signals": [
+   "world 2 update",
+   "daily streak"
+  ],
+  "thumbnails": "Sonic and Shadow with +1 floaters, LVL 1/99/999 comparison, speed 1 vs 100T",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 loop, character models, worlds; low",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q17",
+  "loop": "play instruments to wake sleeping animals -> train breath to reach further -> collect animals in pens for cash -> luck from instruments",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rare, secret, rainbow animals",
+  "progression": "breath, instruments, zones, pen slots",
+  "instructions": "play instruments, train breath, collect",
+  "mechanics": [
+   "wake by instrument",
+   "breath training",
+   "pen income",
+   "offline cash",
+   "1 in trillion odds",
+   "20 instruments"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "wake-up-sleeping-animal twist on cast-and-collect/throw formula"
+  ],
+  "themes": [
+   "animals",
+   "instruments",
+   "music",
+   "sleeping"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-friend-like",
+   "odds-flex"
+  ],
+  "monetization_signals": [
+   "x8 luck 388",
+   "echo packs",
+   "gifts",
+   "cash packs",
+   "pen slots"
+  ],
+  "update_signals": [
+   "new zones",
+   "21 hour timer"
+  ],
+  "thumbnails": "sleeping animals silhouettes, odds 1 in 972,129, instrument player",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "41 animal models, 8 zones, instrument system",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q18",
+  "loop": "form crew of up to 4 -> drive truck to tornado -> film it for Storm Points without being thrown -> upgrade truck and gear",
+  "loop_archetype": "wave_survival_coop",
+  "objectives": "get the best footage of the tornado",
+  "progression": "storm points, truck upgrades, vehicles",
+  "instructions": "chase and film tornado, dodge debris",
+  "mechanics": [
+   "tornado simulation",
+   "filming for points",
+   "camcorder battery",
+   "vehicle upgrades",
+   "multi-vortex types",
+   "4-player crew"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "Tornado Watch inspired chase-filming loop"
+  ],
+  "themes": [
+   "tornado",
+   "storm chasing",
+   "weather"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "tornado-chase",
+   "coop-sim"
+  ],
+  "monetization_signals": [
+   "vehicle passes up to 1499",
+   "storm points",
+   "drone camera",
+   "revive"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "red-haired avatar before tornado with camcorder screen and +$$$",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "dynamic tornado system, vehicles, physics, 23 badges; high",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q19",
+  "loop": "pick weapons -> slice, throw and blow up ragdoll dummies -> unlock more blades with coins",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck dummies with weapons",
+  "progression": "coins, weapon unlocks",
+  "instructions": "use katanas, shurikens etc.",
+  "mechanics": [
+   "ragdoll physics",
+   "weapon sandbox",
+   "broken bones",
+   "dummy interaction"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "clone of ragdoll physics sandbox trend with samurai theme"
+  ],
+  "themes": [
+   "samurai",
+   "ragdoll",
+   "katana"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "unlock weapons per item",
+   "coin packs",
+   "starter pack"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "white dummies sliced by katana, frozen skull",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "ragdoll physics, many weapons",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q20",
+  "loop": "ride BMX around city -> chain tricks for combo cash -> buy faster bikes at depot -> paint them",
+  "loop_archetype": "simulation_job",
+  "objectives": "earn cash, climb richest leaderboard",
+  "progression": "cash, bikes, wraps",
+  "instructions": "do tricks, perfect landings, shop",
+  "mechanics": [
+   "BMX physics",
+   "trick combos",
+   "perfect landing",
+   "bike customization",
+   "leaderboard",
+   "first-person camera"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "real-feel BMX tricks with combo cash"
+  ],
+  "themes": [
+   "BMX",
+   "skatepark",
+   "city"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bike-trick"
+  ],
+  "monetization_signals": [
+   "carbon racer",
+   "wraps",
+   "cash packs",
+   "combo savers"
+  ],
+  "update_signals": [
+   "Season 1",
+   "regular new spots/bikes"
+  ],
+  "thumbnails": "BMX riders at skatepark and cop chase; logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "trick physics, big city map, bike models",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q21",
+  "loop": "get a theme -> dress in 4 minutes from catalog -> walk runway -> AI judges score -> win podium coins and ribbons",
+  "loop_archetype": "roleplay_social",
+  "objectives": "win the podium",
+  "progression": "coins, ribbons, walks, poses",
+  "instructions": "dress up, walk, vote on theme",
+  "mechanics": [
+   "dress-up",
+   "AI judges",
+   "runway",
+   "theme voting",
+   "catalog items"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "AI judges Vera, Cleo, Jett score outfits"
+  ],
+  "themes": [
+   "fashion",
+   "runway",
+   "dress up"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "dress-to-impress",
+   "ai-judge"
+  ],
+  "monetization_signals": [
+   "VIP 799",
+   "walk and pose products",
+   "many cheap emotes"
+  ],
+  "update_signals": [
+   "100+ themes"
+  ],
+  "thumbnails": "pink runway with judges, 'THE AI SAID NAY' captions",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "AI judging integration, runway, catalog UI",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q22",
+  "loop": "adopt baby -> feed, bathe, play and talk to them -> grow through milestones -> work jobs for family",
+  "loop_archetype": "roleplay_social",
+  "objectives": "raise a kid to graduation",
+  "progression": "kid age, house, cars, money",
+  "instructions": "care for kid, voice chat with it",
+  "mechanics": [
+   "talking AI child",
+   "life stages",
+   "jobs",
+   "houses",
+   "cars"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "kid talks back via chat or real voice"
+  ],
+  "themes": [
+   "family",
+   "baby",
+   "parenting"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "family-rp",
+   "ai-npc"
+  ],
+  "monetization_signals": [
+   "big family",
+   "luxury mansion",
+   "twins",
+   "nanny",
+   "party kits"
+  ],
+  "update_signals": [
+   "frequent updates"
+  ],
+  "thumbnails": "warm family art with voice mic and speech bubbles",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "AI voice dialogue, houses, cars, town; moderate",
+  "novelty": 2,
+  "confidence": 80
+ },
+ {
+  "label": "Q23",
+  "loop": "run up keyboard tower from Mini Mini.exe -> 13 stages -> earn wins and money -> prank others with items",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top",
+  "progression": "wins, money, stages",
+  "instructions": "jump gaps, prank",
+  "mechanics": [
+   "tower obby",
+   "chasing monster",
+   "prank items",
+   "keyboard keys sounds"
+  ],
+  "social": "mixed",
+  "competitive": "none",
+  "unique": [
+   "keyboard-themed tower with clown chaser"
+  ],
+  "themes": [
+   "keyboard",
+   "clown",
+   "tower"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "climb-tower-obby"
+  ],
+  "monetization_signals": [
+   "admin",
+   "slap",
+   "coils",
+   "speed products"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "gray clown face on yellow keyboard keys",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "single tower, simple chaser",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q24",
+  "loop": "click for +1 chakra -> unlock jutsu -> clear stages for wins -> roll auras and taijutsu, fight bosses, rebirth",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become Jutsu Master",
+  "progression": "chakra, jutsu, wins, auras, rebirth",
+  "instructions": "click, stages, world bosses",
+  "mechanics": [
+   "+1 click",
+   "gacha rolls",
+   "rebirth",
+   "world bosses",
+   "auto-click"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Naruto-like +1 template"
+  ],
+  "themes": [
+   "naruto",
+   "ninja",
+   "jutsu"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one-evolve",
+   "naruto-inspired"
+  ],
+  "monetization_signals": [
+   "chakra packs",
+   "auto win",
+   "auto rebirth",
+   "limited nine tails"
+  ],
+  "update_signals": [
+   "world 3",
+   "codes"
+  ],
+  "thumbnails": "Naruto-like characters with +1 and +7M numbers, fireballs",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template +1 loop with stages, bosses",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q25",
+  "loop": "crawl 4x4s across open mountain map -> find hidden places -> use winch and mods -> buy packs",
+  "loop_archetype": "racing_driving",
+  "objectives": "explore and crawl the mountain",
+  "progression": "credits, vehicles, mods",
+  "instructions": "explore, winch",
+  "mechanics": [
+   "offroad driving",
+   "winch",
+   "vehicle mods",
+   "hidden places",
+   "canoe"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "relaxed co-op offroad exploration, no timers"
+  ],
+  "themes": [
+   "offroad",
+   "4x4",
+   "mountain"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "offroad-sim"
+  ],
+  "monetization_signals": [
+   "vehicle packs",
+   "credits",
+   "crates"
+  ],
+  "update_signals": [
+   "regular updates"
+  ],
+  "thumbnails": "realistic trucks on rock, lake, autumn forest",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "large map, vehicle physics, winch",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q26",
+  "loop": "open a PS5-style menu that lists Roblox games -> navigate -> donate",
+  "loop_archetype": "other",
+  "objectives": "use the menu",
+  "progression": "none",
+  "instructions": "press keys to navigate",
+  "mechanics": [
+   "menu UI",
+   "game discovery",
+   "donation"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "fake console menu UI as game launcher"
+  ],
+  "themes": [
+   "PlayStation",
+   "menu"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "menu-simulator"
+  ],
+  "monetization_signals": [
+   "donation products up to 50000"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "PlayStation-style logo and menu screenshot",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "UI-only",
+  "novelty": 2,
+  "confidence": 70
+ },
+ {
+  "label": "Q27",
+  "loop": "grab gear -> fight giant SCP monsters and players -> blow up brick buildings -> survive",
+  "loop_archetype": "combat_pvp",
+  "objectives": "destroy monsters and survive",
+  "progression": "gear",
+  "instructions": "pick gear from wall",
+  "mechanics": [
+   "SCP monsters",
+   "100 gears",
+   "destruction",
+   "donations"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "SCP monster smash"
+  ],
+  "themes": [
+   "SCP",
+   "monsters",
+   "destruction"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "scp"
+  ],
+  "monetization_signals": [
+   "many permanent passes",
+   "donation products"
+  ],
+  "update_signals": [
+   "updated Nov 24"
+  ],
+  "thumbnails": "giant white SCP being shot with brick debris and gear wall",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "voxel destruction, monsters",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q28",
+  "loop": "climb tower using tongue to grab and troll players -> buy gear -> reach top",
+  "loop_archetype": "obby_platformer",
+  "objectives": "reach the top while trolling",
+  "progression": "wins",
+  "instructions": "use tongue",
+  "mechanics": [
+   "tower obby",
+   "tongue grab",
+   "troll"
+  ],
+  "social": "pvp",
+  "competitive": "none",
+  "unique": [
+   "tongue wrap trolling mechanic"
+  ],
+  "themes": [
+   "troll face",
+   "tongue"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "climb-tower-obby"
+  ],
+  "monetization_signals": [
+   "owner pass",
+   "skips",
+   "jail all"
+  ],
+  "update_signals": [
+   "none"
+  ],
+  "thumbnails": "troll face tongue wrapping players",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 1,
+  "complexity_notes": "simple tower",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q29",
+  "loop": "pick up fares -> drive across city -> escape cops if robber -> upgrade cabs",
+  "loop_archetype": "racing_driving",
+  "objectives": "earn cash and tier rewards",
+  "progression": "cash, cars, pass tiers",
+  "instructions": "drive, races, daily goals",
+  "mechanics": [
+   "taxi",
+   "police chase",
+   "crates",
+   "premium pass"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "taxi fare with robber twist"
+  ],
+  "themes": [
+   "taxi",
+   "cops"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "driving-sim"
+  ],
+  "monetization_signals": [
+   "helicopter 1299",
+   "unlock all cars",
+   "pass tiers"
+  ],
+  "update_signals": [
+   "Christmas bundle",
+   "Neon Nights"
+  ],
+  "thumbnails": "yellow taxi chased by police, cockpit view",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "city, vehicles, AI cops",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q30",
+  "loop": "grab objects and throw them to fling players off map -> unlock abilities and crates",
+  "loop_archetype": "combat_pvp",
+  "objectives": "fling opponents",
+  "progression": "coins, abilities, cases",
+  "instructions": "throw objects",
+  "mechanics": [
+   "grab and throw",
+   "fling",
+   "cases",
+   "battle pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "Fling Things and People inspired"
+  ],
+  "themes": [
+   "fling",
+   "arena"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "fling-things"
+  ],
+  "monetization_signals": [
+   "battle pass",
+   "coins",
+   "cases"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "pink energy grabs blocks to throw at players",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "physics throwing",
+  "novelty": 1,
+  "confidence": 75
+ }
+]

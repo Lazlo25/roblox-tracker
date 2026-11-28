@@ -1,0 +1,33 @@
+{
+  "new": [
+    {"chart": "tt", "statement": "Young games with more favorites per thousand visits hold higher Top Trending positions among games of similar age",
+     "action": "Prompt favorites early in the session",
+     "test": {"feature": "fav_per_kvisit", "metric": "tt_pos", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "tt", "statement": "More novel concepts hold higher Top Trending positions among games of similar age",
+     "action": "Add one new twist to a proven template",
+     "test": {"feature": "novelty", "metric": "tt_pos", "type": "corr", "direction": "+", "strata": "age"}},
+    {"chart": "x", "kind": "qualitative", "confidence": 30,
+     "statement": "Throw-for-luck clones with a fresh creature or prop theme (friend, clowns, Chiikawas, zombies, wake-an-animal, cast-for-fish) each reach Up-and-Coming or Top Trending within weeks and show unusually high favorites per visit and like ratios of 92 to 99%",
+     "action": "Re-skin throw-for-luck with a fresh theme",
+     "rationale": "2026-11-27: Throw a Friend for Monsters (97% likes, 280K favorites on 4.9M visits), Throw Food For Clowns (92%, 287K on 3.9M), Throw Brains For Zombies (99%), Throw Food for Chiikawas (98%) and Wake Up An Animal (93%) are all on the breakout charts. Confirm if new clones keep entering at similar like ratios; refute if they stop appearing or fall within a week. Extends H-x-045."},
+    {"chart": "x", "kind": "qualitative", "confidence": 35,
+     "statement": "Realistic-physics titles are spreading from ragdolls to new objects: soft-body cars (Crash Engine), planes (Realistic Plane Crashing, Pleb's Plane Crash Sandbox), wall climbing and strand-physics hair all sit on the breakout charts",
+     "action": "Apply realistic physics to a new object",
+     "rationale": "2026-11-27 profiles: Crash Engine is Up-and-Coming #3 at 10 days; two plane-crash games and a climbing and a hair game entered Up-and-Coming. Sandbox physics earns little per player (see H-x-043), so confirm only if these hold Top Earning positions; refute if they fade within two weeks as ragdolls did."},
+    {"chart": "uc", "kind": "qualitative", "confidence": 30,
+     "statement": "Hands-on job simulations with a filming, judging or rating hook (Barber Empire 'go viral', Barber Showdown judge scores, Slay or Nay AI judges) rank higher on Up-and-Coming than plain tycoon loops",
+     "action": "Add a rating or filming hook to job sims",
+     "rationale": "2026-11-27: Barber Empire is Up-and-Coming #4 and Top Trending #6 at 27 days, while Barber Showdown (#83) and Slay or Nay (Top Trending only) sit lower. Needs more games with and without a hook before confidence rises."},
+    {"chart": "x", "kind": "qualitative", "confidence": 22,
+     "statement": "Unofficial lookalikes of established IP (Sonic, Naruto, Chiikawa, Peppa Pig, Geometry Dash) keep placing on the breakout charts despite takedown risk",
+     "rationale": "2026-11-27: +1 Hedgehog Evolve (Top Trending #45), +1 Jutsu Evolution (Up-and-Coming #51), Throw Food for Chiikawas (#86), Peppa's House (Most Popular #96), Geometry Dash 2.2 (Up-and-Coming #88). Descriptive only; would need survival time of such games versus original-IP games to say anything."}
+  ],
+  "qualitative_updates": [
+    {"id": "H-x-045", "confidence": 55, "note": "Five more throw-for-luck variants (Friend, Clowns, Chiikawas, Zombies, Wake Up An Animal) are on Top Trending or Up-and-Coming today."},
+    {"id": "H-x-020", "confidence": 45, "note": "Roblox's own Thanksgiving event experience The Great Build is Up-and-Coming #1 and Top Trending #1 at 3 days old with 22.4M visits: platform-run events can dominate the breakout charts."},
+    {"id": "H-x-048", "confidence": 28, "note": "Thanksgiving hooks appear on The Great Build (Nov 25-30) and in Freekick Duel's Thanksgiving pack; both are updating this week."},
+    {"id": "H-x-021", "confidence": 80, "note": "Seven or more ragdoll sandboxes (Superpower Ragdoll, Ragdoll Samurai, SCP Ragdoll, Ragdoll Factory, Impact Ragdoll, Stupid Ragdolls) are still entering Up-and-Coming and Top Trending, but the oldest ones are slipping."}
+  ],
+  "actions": [],
+  "retire": []
+}

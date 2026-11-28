@@ -1,0 +1,5 @@
+{"charts":{"mp":{"observations":["Long-running games (Steal An Egg, Brookhaven, Throw Food For Animals) hold the top; only 3 games are under two weeks old."],"patterns":["Realistic and ragdoll titles tend to sit low on Most Popular."],"outliers":[]},
+"te":{"observations":["Efficiency tends to rise with age; median product price remains the strongest association."],"patterns":["Young physics sandboxes and +1 templates rank low per player."],"outliers":[]},
+"tt":{"observations":["BMX Life (+18) and Animal Ragdoll (+17) lead; 12 entered, 11 left."],"patterns":["Throw-for-luck clones show big-odds thumbnails."],"outliers":[{"name":"The Great Build","note":"Roblox-run event at #1 with no monetization; promotion-driven."}]},
+"uc":{"observations":["The Great Build, untitled monkey game and Crash Engine lead; Find The Anomaly rose 58."],"patterns":["Updates per week and novelty tend to go with higher positions."],"outliers":[]}},
+"cross":{"summary":["Throw-for-luck clones now fill the breakout charts (H-x-045).","No new research or video frames today."],"progressions":["uc to tt remains the most common move (362, median 2 days)."]}}

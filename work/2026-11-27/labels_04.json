@@ -1,0 +1,644 @@
+[
+ {
+  "label": "Q46",
+  "loop": "click for +1 strength -> defeat enemies for wins -> hatch pets -> rebirth -> unlock stronger stickmen and worlds",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "become the strongest stickman",
+  "progression": "strength, wins, worlds, rebirths",
+  "instructions": "click, equip pets, use codes",
+  "mechanics": [
+   "+1 click",
+   "pets",
+   "rebirth",
+   "world zones",
+   "skills",
+   "friend bonus"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "stickman anime-hero skins on +1 template"
+  ],
+  "themes": [
+   "stickman",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one-evolve"
+  ],
+  "monetization_signals": [
+   "strength multipliers up to 999",
+   "zone passes",
+   "auto rebirth"
+  ],
+  "update_signals": [
+   "World 4",
+   "codes"
+  ],
+  "thumbnails": "anime-style black stickmen with +1 floaters",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q47",
+  "loop": "train strength -> defeat enemies -> arise shadows to fight with you -> roll mutations, fuse shadows",
+  "loop_archetype": "incremental_plus1",
+  "objectives": "build shadow army",
+  "progression": "strength, victories, mutations, tiers",
+  "instructions": "train, arise, fuse",
+  "mechanics": [
+   "+1 training",
+   "shadow army",
+   "mutation rolls",
+   "fusion",
+   "tower"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "Solo Leveling arise mechanic on +1 template"
+  ],
+  "themes": [
+   "shadow",
+   "anime"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "plus-one-evolve",
+   "arise"
+  ],
+  "monetization_signals": [
+   "monarch sanctum",
+   "strength products",
+   "revives"
+  ],
+  "update_signals": [
+   "updates every Saturday",
+   "UPD 3"
+  ],
+  "thumbnails": "dark purple shadows, ARISE button over fallen anime fighters",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q48",
+  "loop": "pick weapons -> wreck ragdoll dummies in maps -> tasers/zombies -> unlock weapons",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck dummies",
+  "progression": "weapons",
+  "instructions": "use weapons",
+  "mechanics": [
+   "ragdoll",
+   "SCP theme",
+   "broken bones",
+   "VR"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "SCP D-class dummy skin"
+  ],
+  "themes": [
+   "SCP",
+   "ragdoll"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "unlock per weapon",
+   "KO weapons"
+  ],
+  "update_signals": [
+   "UPD2"
+  ],
+  "thumbnails": "orange-suit dummies and crocodile; satisfying physics text",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "ragdoll physics",
+  "novelty": 1,
+  "confidence": 70
+ },
+ {
+  "label": "Q49",
+  "loop": "shoot walls -> vacuum blocks -> sell on conveyor -> buy bigger guns -> reach final wall",
+  "loop_archetype": "collect_upgrade_rebirth",
+  "objectives": "break all 14 walls and escape",
+  "progression": "guns, walls, difficulty tiers",
+  "instructions": "shoot, sell",
+  "mechanics": [
+   "wall breaking",
+   "vacuum",
+   "conveyor",
+   "gems",
+   "drones",
+   "classes"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "destruction-mining loop with gun upgrades"
+  ],
+  "themes": [
+   "bunker",
+   "guns",
+   "walls"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "shoot-to-break"
+  ],
+  "monetization_signals": [
+   "gem packs",
+   "round-weapons",
+   "infinite storage"
+  ],
+  "update_signals": [
+   "Christmas UPD"
+  ],
+  "thumbnails": "gun blasting walls and blocks, minigun",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "destruction, many guns",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q50",
+  "loop": "wrestle dirt bike through rocks and hill climbs -> earn credits -> buy bikes and paint",
+  "loop_archetype": "racing_driving",
+  "objectives": "conquer hard enduro tracks",
+  "progression": "credits, bikes",
+  "instructions": "ride, climb",
+  "mechanics": [
+   "hard enduro physics",
+   "mud",
+   "damage"
+  ],
+  "social": "mixed",
+  "competitive": "light",
+  "unique": [
+   "extreme enduro difficulty"
+  ],
+  "themes": [
+   "enduro",
+   "motorcycle"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bike-sim"
+  ],
+  "monetization_signals": [
+   "tips",
+   "packs",
+   "never damaged"
+  ],
+  "update_signals": [
+   "alpha"
+  ],
+  "thumbnails": "muddy dirt bike in forest, HARD ENDURO text",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "bike physics, terrain",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q51",
+  "loop": "play 6v6 body-cam shooter -> one gun one life -> earn marks -> unlock guns",
+  "loop_archetype": "combat_pvp",
+  "objectives": "win rounds",
+  "progression": "marks, guns",
+  "instructions": "shoot, check mag",
+  "mechanics": [
+   "bodycam first person",
+   "no crosshair",
+   "manual reload",
+   "zombies mode",
+   "day night"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "helmet-cam realism"
+  ],
+  "themes": [
+   "bodycam",
+   "FPS"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "bodycam-fps"
+  ],
+  "monetization_signals": [
+   "weapon class passes up to 899"
+  ],
+  "update_signals": [
+   "beta"
+  ],
+  "thumbnails": "first-person gun hands and RO-CAM logo",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "FPS systems, modes",
+  "novelty": 2,
+  "confidence": 75
+ },
+ {
+  "label": "Q52",
+  "loop": "spin theme -> cut same customer in 5 minutes -> judge scores -> build barber street",
+  "loop_archetype": "party_minigames",
+  "objectives": "out-cut the server",
+  "progression": "cash, XP, shop floors",
+  "instructions": "cut, theme",
+  "mechanics": [
+   "haircut competition",
+   "judge scoring",
+   "shop tycoon",
+   "crews",
+   "barber pass"
+  ],
+  "social": "pvp",
+  "competitive": "core",
+  "unique": [
+   "competitive barber rounds plus tycoon"
+  ],
+  "themes": [
+   "barber",
+   "haircut"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "barber-sim"
+  ],
+  "monetization_signals": [
+   "VIP",
+   "auto build",
+   "cash stacks"
+  ],
+  "update_signals": [
+   "Barber Street",
+   "pass until Dec 1"
+  ],
+  "thumbnails": "before/after haircuts on gold background",
+  "thumbnail_style": "mixed",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "hair tools, judge",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q53",
+  "loop": "mix ingredients -> stretch, squish slime -> unlock tools -> sell for coins",
+  "loop_archetype": "simulation_job",
+  "objectives": "create slime",
+  "progression": "coins, tools",
+  "instructions": "mix",
+  "mechanics": [
+   "slime ASMR",
+   "tools",
+   "offline coins"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "ASMR slime"
+  ],
+  "themes": [
+   "slime",
+   "ASMR"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "asmr-slime"
+  ],
+  "monetization_signals": [
+   "unlock everything 949",
+   "skips"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "glossy slime and space mode",
+  "thumbnail_style": "text_ad",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "slime shader",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q54",
+  "loop": "open photocard packs -> stock shelves and ring up fans -> hire staff -> expand shop",
+  "loop_archetype": "idle_income_tycoon",
+  "objectives": "grow KPOP store",
+  "progression": "level, store, staff",
+  "instructions": "stock, sell, catch thieves",
+  "mechanics": [
+   "card packs",
+   "shop",
+   "staff",
+   "thieves",
+   "co-op"
+  ],
+  "social": "coop",
+  "competitive": "none",
+  "unique": [
+   "kpop photocard shop"
+  ],
+  "themes": [
+   "kpop",
+   "cards"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "shop-tycoon"
+  ],
+  "monetization_signals": [
+   "luck",
+   "storefront gifts"
+  ],
+  "update_signals": [
+   "weekly updates",
+   "codes"
+  ],
+  "thumbnails": "avatar with cash and photocards, PRICE $16999",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "none",
+  "complexity": 3,
+  "complexity_notes": "shop systems",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q55",
+  "loop": "throw cute food -> attract Chiikawas -> earn money -> train, discover areas",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect Chiikawas",
+  "progression": "throw power, areas",
+  "instructions": "throw, train",
+  "mechanics": [
+   "throw",
+   "collection",
+   "mutations",
+   "offline"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Chiikawa IP unofficial"
+  ],
+  "themes": [
+   "Chiikawa",
+   "cute"
+  ],
+  "audience": "young_kids",
+  "trend_hooks": [
+   "throw-a-x"
+  ],
+  "monetization_signals": [
+   "eggs",
+   "cash packs"
+  ],
+  "update_signals": [
+   "updated Nov 27"
+  ],
+  "thumbnails": "cute character art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q56",
+  "loop": "throw brains -> attract zombies -> earn money -> train, zones",
+  "loop_archetype": "hatch_collect_pets",
+  "objectives": "collect rare zombies",
+  "progression": "strength, zones",
+  "instructions": "throw",
+  "mechanics": [
+   "throw",
+   "zombies",
+   "index",
+   "horde team"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "zombie variant of template"
+  ],
+  "themes": [
+   "zombies",
+   "brains"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "throw-a-x"
+  ],
+  "monetization_signals": [
+   "gingerbread eggs",
+   "strength packs"
+  ],
+  "update_signals": [
+   "Christmas gingerbread"
+  ],
+  "thumbnails": "colorful zombie, 1 IN 999B odds, black silhouette dragon",
+  "thumbnail_style": "reward_flex",
+  "thumb_text_numbers": true,
+  "video": "trailer video",
+  "complexity": 2,
+  "complexity_notes": "template",
+  "novelty": 1,
+  "confidence": 85
+ },
+ {
+  "label": "Q57",
+  "loop": "jump, fly and flip to the beat through levels -> build and share levels",
+  "loop_archetype": "obby_platformer",
+  "objectives": "complete levels",
+  "progression": "levels",
+  "instructions": "tap to jump",
+  "mechanics": [
+   "rhythm platformer",
+   "level editor"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "Geometry Dash recreation"
+  ],
+  "themes": [
+   "geometry dash"
+  ],
+  "audience": "broad",
+  "trend_hooks": [
+   "geometry-dash-clone"
+  ],
+  "monetization_signals": [
+   "hack menu",
+   "revive"
+  ],
+  "update_signals": [
+   "updated Nov 18"
+  ],
+  "thumbnails": "official GD icon art",
+  "thumbnail_style": "character_art",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "fan recreation",
+  "novelty": 0,
+  "confidence": 75
+ },
+ {
+  "label": "Q58",
+  "loop": "grab dummies -> use 40+ chaos tools -> earn coins -> unlock powers",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "cause chaos",
+  "progression": "coins, powers",
+  "instructions": "use tools",
+  "mechanics": [
+   "ragdoll lab",
+   "anime powers",
+   "special abilities",
+   "undo"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "pixel art dummies and tools"
+  ],
+  "themes": [
+   "ragdoll",
+   "lab"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "42 passes",
+   "spins"
+  ],
+  "update_signals": [
+   "Season 1 pass"
+  ],
+  "thumbnails": "pixel-style dummies in torture lab",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "trailer video",
+  "complexity": 3,
+  "complexity_notes": "many effects",
+  "novelty": 1,
+  "confidence": 75
+ },
+ {
+  "label": "Q59",
+  "loop": "use weapons, powers, events on ragdolls -> maps, vehicles",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "wreck dummies",
+  "progression": "coins",
+  "instructions": "use weapons",
+  "mechanics": [
+   "euphoria-like ragdoll",
+   "42 weapons",
+   "world events",
+   "anime bosses"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "euphoria-inspired"
+  ],
+  "themes": [
+   "ragdoll",
+   "sandbox"
+  ],
+  "audience": "teens",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "bundles",
+   "event products x1,x3,x6"
+  ],
+  "update_signals": [
+   "Yule update"
+  ],
+  "thumbnails": "white dummies with black hole, piercing physics",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 4,
+  "complexity_notes": "ragdoll, many weapons",
+  "novelty": 1,
+  "confidence": 80
+ },
+ {
+  "label": "Q60",
+  "loop": "spawn ragdolls -> grab, toss, explode -> unlock tools",
+  "loop_archetype": "sandbox_physics",
+  "objectives": "spawn and fling ragdolls",
+  "progression": "cash, tools",
+  "instructions": "grab",
+  "mechanics": [
+   "grab ragdolls",
+   "spring cannon",
+   "TNT",
+   "VR"
+  ],
+  "social": "solo",
+  "competitive": "none",
+  "unique": [
+   "stupid ragdolls"
+  ],
+  "themes": [
+   "ragdoll"
+  ],
+  "audience": "kids",
+  "trend_hooks": [
+   "ragdoll-sandbox"
+  ],
+  "monetization_signals": [
+   "ultimate pass",
+   "t-rex"
+  ],
+  "update_signals": [
+   "new"
+  ],
+  "thumbnails": "first-person grabbing ragdolls, E YEET",
+  "thumbnail_style": "gameplay",
+  "thumb_text_numbers": false,
+  "video": "none",
+  "complexity": 2,
+  "complexity_notes": "simple physics",
+  "novelty": 0,
+  "confidence": 70
+ }
+]
